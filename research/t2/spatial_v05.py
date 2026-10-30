@@ -31,6 +31,7 @@ class Config:
     gap_cells: int = 1
     headway_s: int = 2
     update_mode: str = "sequential"  # sequential forward sweep or synchronous parallel
+    clearance_s: int = 0  # default reproduces first v0.5 experiment; 3 invokes phase schedule
 
 
 def validate(c: Config) -> int:
@@ -38,7 +39,9 @@ def validate(c: Config) -> int:
         raise ValueError("positive duration, cycle and green lengths required")
     if c.signal_mode not in ("leading", "lagging", "legacy_overlap"):
         raise ValueError("unrecognized signal mode")
-    if c.signal_mode != "legacy_overlap" and c.through_green + c.left_green > c.cycle:
+    if c.clearance_s < 0 or (c.signal_mode=="legacy_overlap" and c.clearance_s):
+        raise ValueError("clearance requires protected leading or lagging phase")
+    if c.signal_mode != "legacy_overlap" and c.through_green + c.left_green+2*c.clearance_s > c.cycle:
         raise ValueError("protected greens must not overlap")
     if c.signal_mode == "legacy_overlap" and max(c.through_green,c.left_green)>c.cycle:
         raise ValueError("green cannot exceed cycle")
@@ -66,6 +69,11 @@ def validate(c: Config) -> int:
 
 
 def signal(c: Config, t: int) -> tuple[bool,bool]:
+    if c.clearance_s:
+        from signal_phases_v05 import PhaseConfig, greens
+        return greens(t, PhaseConfig(cycle=c.cycle,green_left=c.left_green,
+                                     green_through=c.through_green,
+                                     clearance=c.clearance_s,order=c.signal_mode))
     phase=t % c.cycle
     if c.signal_mode == "leading":
         return c.left_green <= phase < c.left_green+c.through_green, phase < c.left_green
