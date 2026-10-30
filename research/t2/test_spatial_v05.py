@@ -73,5 +73,17 @@ class ModelV05Tests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(replace(c,update_mode='unknown'))
 
+    def test_clearance_reuses_explicit_phase_state_machine(self):
+        for mode in ('leading','lagging'):
+            c=Config(signal_mode=mode,clearance_s=3)
+            for t in range(c.cycle):
+                self.assertFalse(all(signal(c,t)))
+            self.assertEqual(sum(signal(c,t)[0] for t in range(c.cycle)),60)
+            self.assertEqual(sum(signal(c,t)[1] for t in range(c.cycle)),54)
+            self.assertEqual(sum(not any(signal(c,t)) for t in range(c.cycle)),36)
+            self.assertEqual(simulate(replace(c,duration=300,seed=4),audit=True)['stats']['arrivals'],250)
+        with self.assertRaises(ValueError):
+            validate(Config(cycle=118,clearance_s=3))
+
 if __name__=='__main__':
     unittest.main(verbosity=2)
