@@ -62,5 +62,16 @@ class ModelV05Tests(unittest.TestCase):
         self.assertEqual((w['exits_A'],w['exits_B']),(7,18))
         self.assertEqual((w['through_A'],w['through_B']),(0,11))
 
+    def test_parallel_updating_is_distinct_but_satisfies_invariants(self):
+        c=Config(duration=550,seed=4,fork_cells=-21,bay_limit=4,signal_mode='leading')
+        arrivals=build_arrivals(c)
+        a=simulate(c,arrivals,audit=True)
+        b=simulate(replace(c,update_mode='parallel'),arrivals,audit=True)
+        self.assertEqual(a['stats']['arrivals'],b['stats']['arrivals'])
+        self.assertEqual(b['stats']['arrivals'],b['stats']['exits']+b['stats']['remaining'])
+        self.assertNotEqual(a['cycle_exits'],b['cycle_exits'])
+        with self.assertRaises(ValueError):
+            validate(replace(c,update_mode='unknown'))
+
 if __name__=='__main__':
     unittest.main(verbosity=2)
