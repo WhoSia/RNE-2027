@@ -57,6 +57,26 @@ def greens(c: Scenario,t: int) -> tuple[bool,bool]:
         return (first_l,not first_l)
     return False,False
 
+def signal_service_ceiling(c: Scenario) -> dict:
+    """Exact greedy no-starvation exit ceiling under discrete headway law.
+
+    For one movement the earliest available departure never reduces the
+    number of later feasible departures under a fixed headway and schedule.
+    Consequently it maximizes total service opportunities. This is a
+    model-conditional mathematical bound, not real intersection capacity.
+    """
+    capacity(c)
+    last={'L':-9999,'S':-9999}
+    count={'L':0,'S':0}
+    for t in range(c.duration_s):
+        sg,lg=greens(c,t)
+        for lane,on,h in (('S',sg,c.through_headway_s),('L',lg,c.left_headway_s)):
+            if on and t-last[lane]>=h:
+                count[lane]+=1
+                last[lane]=t
+    return {'left':count['L'],'through':count['S']}
+
+
 def arrivals(c: Scenario) -> tuple[str,...]:
     """Deterministically spaced demand with seeded turning choices."""
     rng=random.Random(c.seed)
@@ -147,7 +167,12 @@ def simulate(c: Scenario, stream: tuple[str,...]|None=None) -> dict:
     remaining=len(q)+len(left)+len(through)
     if completed+remaining!=len(stream):
         raise AssertionError('final vehicle conservation failed')
+    ceiling=signal_service_ceiling(c)
+    if metrics['left_exits']>ceiling['left'] or metrics['through_exits']>ceiling['through']:
+        raise AssertionError('exit exceeds signal/headway capacity ceiling')
     return {'config':asdict(c),
+            'signal_service_ceiling_left':ceiling['left'],
+            'signal_service_ceiling_through':ceiling['through'],
             'pocket_capacity_veh':cap,
             'arrivals':len(stream),
             'left_exits':metrics['left_exits'],
