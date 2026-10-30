@@ -1,7 +1,7 @@
 """Regression checks for the T2 finite-pocket exhibition baseline."""
 import unittest
 from dataclasses import replace
-from exhibition_baseline_v07 import Scenario,capacity,greens,arrivals,simulate
+from exhibition_baseline_v07 import Scenario,capacity,greens,arrivals,simulate,signal_service_ceiling
 
 class BaselineTests(unittest.TestCase):
     def test_length_to_slots(self):
@@ -45,6 +45,15 @@ class BaselineTests(unittest.TestCase):
         self.assertEqual(x['through_exits'],y['through_exits'])
         self.assertEqual(x['spillback_block_seconds'],0)
         self.assertEqual(y['spillback_block_seconds'],0)
+
+    def test_exact_signal_service_ceiling(self):
+        c=Scenario(duration_s=120,cycle_s=120,through_green_s=50,
+                   left_green_s=35,through_headway_s=2,left_headway_s=2)
+        self.assertEqual(signal_service_ceiling(c),{'left':18,'through':25})
+        c=replace(c,duration_s=480,demand_vph=2700)
+        r=simulate(c)
+        self.assertLessEqual(r['left_exits'],r['signal_service_ceiling_left'])
+        self.assertLessEqual(r['through_exits'],r['signal_service_ceiling_through'])
 
     def test_zero_demand_and_no_pocket(self):
         c=Scenario(duration_s=60,demand_vph=0,pocket_m=0)
