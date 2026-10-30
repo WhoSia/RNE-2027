@@ -148,3 +148,39 @@ metrics before declaring a capacity phenomenon.
    log per-lane stopline counts and queue profiles, not merely totals.
 5. Field-site candidate in Changwon/Gyeongnam: verify geometry, signal
    head sequences and anonymized aggregate counts; no field claims yet.
+
+## Explicit 3-second clearance (additional 160 audited simulations)
+
+The earlier independent phase module `signal_phases_v05.py` has now been
+reused by `spatial_v05.py` when `clearance_s=3`. This is a SECOND
+factorial test, not an undocumented change to the original results.
+Default remains `clearance_s=0`, preserving the numerical output digests
+in the first sections. New command:
+
+```bash
+python research/t2/clearance_sensitivity_v05.py
+```
+
+| 3-s clearance | Leading mean I | Lagging mean I |
+| --- | ---: | ---: |
+| Sequential | -209.8 | -218.3 |
+| Parallel | -154.4 | -157.6 |
+
+All 40 per-seed interactions (2 update modes × 2 signal orders × 10 seeds)
+are **identical** to their zero-clearance counterparts. Comparing
+all 160 individual exit counts, clearance changes the 0-s values by:
+0 vehicles in 96 cells, +1 in 32 cells, +2 in 32 cells. For any one
+seed and signal order, the clearance-induced shift is the SAME across
+all four fork/K cells and hence cancels in the interaction. This is a
+specific invariant of the tested conditions, NOT a general law of
+phase clearance effects or validation of the phase schedule.
+
+Regenerated `clearance3_runs.csv` SHA256:
+`274433cc2d4c6729ef345d06ebb372b00e3ca615af6780416b69c29f38fca988`.
+Regenerated `clearance3_summary.json` SHA256:
+`6ee737d465d2fa32b7d588fdf40af907d5686000273c18cd8491281881d5ec45`.
+
+The 3-second clearance introduces a genuine phase gap between protected
+left and through. A full movement-level validation is still needed:
+amber/all-red timings and conflict rules are intersection-specific, and
+the present simulator omits pedestrians and opposing movements.
