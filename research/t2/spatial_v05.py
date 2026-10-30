@@ -30,6 +30,7 @@ class Config:
     speed_cells: int = 2
     gap_cells: int = 1
     headway_s: int = 2
+    update_mode: str = "sequential"  # sequential forward sweep or synchronous parallel
 
 
 def validate(c: Config) -> int:
@@ -46,6 +47,8 @@ def validate(c: Config) -> int:
     cells=c.approach_ft//25
     if not (-cells < c.fork_cells <= -5):
         raise ValueError("fork must be inside approach and ≥4 cells from stopline")
+    if c.update_mode not in ("sequential", "parallel"):
+        raise ValueError("invalid update mode")
     if c.gap_cells < 0 or c.speed_cells < 1 or c.headway_s < 1:
         raise ValueError("invalid movement parameters")
     if c.demand_vph < 0 or not 0 <= c.left_fraction <= 1 or not 0 <= c.outer_straight_fraction <= 1:
@@ -113,8 +116,12 @@ def simulate(c: Config=Config(), arrivals: tuple[tuple[int,str,str],...] | None=
             events.append((t,v['id'],kind,v['x']))
 
     def move(row,stop):
+        # A sequential sweep lets followers use an already-updated leader state.
+        # A parallel update evaluates each bound from the preceding time-step state.
+        prev=[v['x'] for v in row] if c.update_mode=='parallel' else None
         for i,v in enumerate(row):
-            bound=(row[i-1]['x'] if i else stop) - c.gap_cells-1
+            leader=(prev[i-1] if prev is not None else row[i-1]['x']) if i else stop
+            bound=leader-c.gap_cells-1
             new_x=min(v['x']+c.speed_cells,bound)
             if new_x<v['x']:
                 raise AssertionError(('backward_move',v['id'],v['x'],new_x))
