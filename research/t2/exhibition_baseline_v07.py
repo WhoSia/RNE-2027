@@ -96,6 +96,13 @@ def simulate(c: Scenario, stream: tuple[str,...]|None=None) -> dict:
         sg,lg=greens(c,t)
         if sg: green_open_S+=1
         if lg: green_open_L+=1
+        # A green second has no discharging supply if its queue was empty
+        # BEFORE discharge and transfer; otherwise post-discharge emptiness
+        # would mislabel an actually productive second as wasted.
+        if sg and not through:
+            metrics['through_green_empty_seconds']+=1
+        if lg and not left:
+            metrics['left_green_empty_seconds']+=1
         # Discharge branch queues. The signal is only a downstream exit gate.
         if lg and left and t-lastL>=c.left_headway_s:
             left.popleft()
@@ -121,10 +128,6 @@ def simulate(c: Scenario, stream: tuple[str,...]|None=None) -> dict:
                 q.popleft()
                 through.append((vid,arrived))
                 metrics['through_entries']+=1
-        if sg and not through:
-            metrics['through_green_empty_seconds']+=1
-        if lg and not left:
-            metrics['left_green_empty_seconds']+=1
         max_shared=max(max_shared,len(q))
         max_left=max(max_left,len(left))
         max_through=max(max_through,len(through))
