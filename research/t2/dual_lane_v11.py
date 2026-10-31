@@ -96,6 +96,9 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
             if outside[lane] and -n not in occ and t-admission[lane]>=c.base.entry_headway_s:
                 occ[-n]=outside[lane].popleft();count["admitted"]+=1;admission[lane]=t
         out=len(outside["A"])+len(outside["B"])
+        count["outside_vehicle_seconds"]+=out
+        count["upstream_vehicle_seconds"]+=len(A)+len(B)+len(pocket)
+        count["receiver_vehicle_seconds"]+=len(receiver)
         count["max_receiver"]=max(count["max_receiver"],len(receiver))
         if index!=count["network_out_S"]+count["network_out_L"]+out+len(A)+len(B)+len(pocket)+len(receiver):
             raise AssertionError(("conservation",t))
@@ -126,6 +129,9 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         "network_out_S":count["network_out_S"],"network_out_L":count["network_out_L"],
         "receiver_final":len(receiver),"max_receiver":count["max_receiver"],
         "receiver_full_denied_s":count["receiver_full_denied_s"],
+        "outside_vehicle_seconds":count["outside_vehicle_seconds"],
+        "upstream_vehicle_seconds":count["upstream_vehicle_seconds"],
+        "receiver_vehicle_seconds":count["receiver_vehicle_seconds"],
         "outside":outside_total,"pocket_slots":k,"through_slots_per_lane":n,
         "pocket_block_seconds":count["pocket_block_seconds"],
         "changes_A_to_B":count["changes_A_to_B"],
