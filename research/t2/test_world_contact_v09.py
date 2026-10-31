@@ -1,6 +1,6 @@
 import unittest
 from dataclasses import replace
-from world_contact_v09 import Params,check,green,demand,run
+from world_contact_v09 import Params,check,green,demand,run,signal_only_ceiling
 
 class WorldContactTests(unittest.TestCase):
     def test_geometry(self):
@@ -93,3 +93,14 @@ class SignalOpportunityTests(unittest.TestCase):
         c=Params(horizon_s=600,turn_share=0)
         y=run(c)
         self.assertEqual(y["straight_green_L_head_block_signature_s"],0)
+
+class SignalCeilingTests(unittest.TestCase):
+    def test_exact_one_cycle_bound(self):
+        c=Params(horizon_s=120)
+        self.assertEqual(signal_only_ceiling(c),{"L":18,"S":25})
+    def test_exits_cannot_exceed_signal_bound(self):
+        for share in (0.0,0.3,0.7,1.0):
+            c=Params(horizon_s=480,turn_share=share)
+            r=run(c)
+            self.assertLessEqual(r["exits_L"],r["signal_only_ceiling_L"])
+            self.assertLessEqual(r["exits_S"],r["signal_only_ceiling_S"])
