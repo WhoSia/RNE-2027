@@ -60,6 +60,25 @@ def green(c:Params,t:int):
     if x<first+c.clearance_s+second:return b
     return "-"
 
+def signal_only_ceiling(c:Params):
+    """Exact greedy upper bound on exits under these discrete headway rules.
+
+    No shortage of available vehicles is assumed for this bound. It is
+    NOT capacity calibrated to any road, and the gap from actual exits
+    is NOT automatically attributable to turn-pocket blockage.
+    """
+    check(c)
+    last={"L":-1000000,"S":-1000000}
+    count={"L":0,"S":0}
+    for t in range(c.horizon_s):
+        movement=green(c,t)
+        if movement not in count:continue
+        h=c.left_headway_s if movement=="L" else c.straight_headway_s
+        if t-last[movement]>=h:
+            count[movement]+=1
+            last[movement]=t
+    return count
+
 def demand(c:Params):
     """Timestamped demand tuple (second, route), independent of interventions."""
     check(c)
@@ -160,8 +179,12 @@ def run(c:Params,events=None):
             by_cycle.append({"end_s":t+1,"exit_L":counter["exit_L"],"exit_S":counter["exit_S"],
                  "outside":len(outside),"upstream":len(upstream),"bay":len(bay),
                  "straight":len(straight),"spillback_s":counter["blocked_L_seconds"]})
+    ceiling=signal_only_ceiling(c)
+    if counter["exit_L"]>ceiling["L"] or counter["exit_S"]>ceiling["S"]:
+        raise AssertionError("discharge exceeds phase/headway service ceiling")
     return {"config":asdict(c),"world_status":"SYNTHETIC_UNCALIBRATED",
         "storage_slots":{"bay":left_cap,"straight":straight_cap,"upstream":upstream_cap},
+        "signal_only_ceiling_L":ceiling["L"],"signal_only_ceiling_S":ceiling["S"],
         "generated":len(events),"admitted":counter["admitted"],
         "exits_L":counter["exit_L"],"exits_S":counter["exit_S"],
         "remaining":len(outside)+len(upstream)+len(bay)+len(straight),
