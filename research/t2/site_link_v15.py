@@ -43,6 +43,8 @@ def read_link_site(path):
     result=dict(base)
     result["config"]=cfg
     result["calibration_status"]="NOT_CALIBRATED"
+    if any(downstream[key]["source_type"]!="synthetic" for key in NUMERIC):
+        result["input_status"]="SOURCE_ASSERTED_NOT_VALIDATED"
     result["downstream_mode"]="CELLULAR_LINK_UNCALIBRATED"
     result["downstream_provenance"]={key:downstream[key] for key in NUMERIC}
     return result
