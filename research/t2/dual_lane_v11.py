@@ -45,7 +45,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     outside={"A":deque(),"B":deque()}
     A={};B={};pocket={};index=0
     count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
-    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[]
+    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[];access_events=[]
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
@@ -61,6 +61,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
             vehicle=receiver.popleft();count["network_out_"+vehicle[1]]+=1
             last_receiver_service=t
         light=phase(c.base,t)
+        receiver_denial_this_tick=False
         if light=="S":
             for lane,occ in (("A",A),("B",B)):
                 if -1 in occ and occ[-1][1]=="S" and t-last[lane]>=c.base.departure_headway_s:
@@ -68,6 +69,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                         count["common_exit_denied_s"]+=1
                     elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                         count["receiver_full_denied_s"]+=1
+                        receiver_denial_this_tick=True
                         if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
                     else:
                         v=occ.pop(-1);count["exit_S"]+=1
@@ -82,6 +84,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 count["common_exit_denied_s"]+=1
             elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                 count["receiver_full_denied_s"]+=1
+                receiver_denial_this_tick=True
                 if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
             else:
                 v=pocket.pop(-1);count["exit_L"]+=1
@@ -91,24 +94,32 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                     else:receiver.append(v)
                 else:count["network_out_L"]+=1
                 count["time_L_s"]+=t-v[2];last["L"]=t;last_common_exit=t
+        if receiver_denial_this_tick:count["receiver_denied_seconds"]+=1
+        moved_ids=set()
         for x in sorted(tuple(pocket),reverse=True):
-            if x< -1 and x+1 not in pocket:pocket[x+1]=pocket.pop(x)
+            if x< -1 and x+1 not in pocket:
+                moved_ids.add(pocket[x][0]);pocket[x+1]=pocket.pop(x)
         for lane,occ in (("A",A),("B",B)):
             for x in sorted(tuple(occ),reverse=True):
                 if x not in occ:continue
                 v=occ[x]
                 if lane=="A" and v[1]=="L" and k>0 and x==-k-1:
                     if -k not in pocket:
+                        moved_ids.add(v[0])
+                        if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry","blocker_id":None})
                         pocket[-k]=occ.pop(x);count["merges"]+=1
-                    else:count["pocket_block_seconds"]+=1
+                    else:
+                        count["pocket_block_seconds"]+=1
+                        if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"pocket_entry_cell_busy","blocker_id":pocket[-k][0]})
                 elif lane=="A" and v[1]=="L" and k==0 and x==-1:
                     count["pocket_block_seconds"]+=1
+                    if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"no_pocket","blocker_id":None})
                 elif x< -1 and x+1 not in occ and not(lane=="A" and v[1]=="L" and x>=-k-1):
-                    occ[x+1]=occ.pop(x)
+                    moved_ids.add(v[0]);occ[x+1]=occ.pop(x)
         if c.allow_lane_changes:
             zone=floor(c.change_zone_m/c.base.cell_m+1e-9)
             for x in sorted(tuple(A),reverse=True):
-                if x not in A or A[x][1]!="S" or x>=-k or x< -zone:continue
+                if x not in A or A[x][1]!="S" or A[x][0] in moved_ids or x>=-k or x< -zone:continue
                 if x not in B and x-1 not in B and x+1 not in B:
                     if x+1 in A and (A[x+1][1]=="L" or x+2 in A):
                         B[x]=A.pop(x);count["changes_A_to_B"]+=1
@@ -153,6 +164,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         "network_out_S":count["network_out_S"],"network_out_L":count["network_out_L"],
         "receiver_final":len(receiver),"max_receiver":count["max_receiver"],
         "receiver_full_denied_s":count["receiver_full_denied_s"],
+        "receiver_denied_attempts":count["receiver_full_denied_s"],
+        "receiver_denied_seconds":count["receiver_denied_seconds"],
         "outside_vehicle_seconds":count["outside_vehicle_seconds"],
         "upstream_vehicle_seconds":count["upstream_vehicle_seconds"],
         "receiver_vehicle_seconds":count["receiver_vehicle_seconds"],
@@ -166,4 +179,5 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     if trace:
         result["frames"]=frames
         result["service_events"]=service_events
+        result["access_events"]=access_events
     return result
