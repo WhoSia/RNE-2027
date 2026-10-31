@@ -22,8 +22,8 @@ class SpatialTests(unittest.TestCase):
         b=simulate(replace(c,pocket_length_m=70))
         self.assertEqual(a["exit_S"],b["exit_S"])
     def test_zero_pocket_all_left(self):
-        self.assertEqual(simulate(Config(duration_s=360,pocket_length_m=0,
-                                         left_fraction=1))["exit_L"],0)
+        self.assertEqual(sum(simulate(Config(duration_s=360,pocket_length_m=0,
+                                         left_fraction=1))[k] for k in ("exit_L","exit_S")),0)
     def test_matched_stream(self):
         c=Config(duration_s=480,seed=15)
         s=arrivals(c)
@@ -39,6 +39,13 @@ class SpatialTests(unittest.TestCase):
         b=arrivals(replace(c,arrival_pattern="platoon"))
         self.assertEqual(len(a),len(b))
         self.assertNotEqual(a,b)
+    def test_frames_one_vehicle_per_cell(self):
+        c=Config(duration_s=240,pocket_length_m=28)
+        y=simulate(c,trace=True)
+        self.assertEqual(len(y["frames"]),240)
+        for frame in y["frames"]:
+            self.assertEqual(len(frame["main"]),len({x for x,vid,route in frame["main"]}))
+            self.assertEqual(len(frame["pocket"]),len({x for x,vid,route in frame["pocket"]}))
     def test_no_teleport(self):
         c=Config(duration_s=480,seed=3)
         z=simulate(c,trace=True)
