@@ -124,6 +124,7 @@ def run(c:Params,events=None):
     by_cycle=[]
     next_id=0
     entry_events=[]
+    admission_events=[]
     throughput=[]
     for t in range(c.horizon_s):
         while next_id<len(events) and events[next_id][0]==t:
@@ -165,8 +166,10 @@ def run(c:Params,events=None):
         # Demand cannot enter the physical link at an unbounded rate.
         for _ in range(c.max_admissions_per_s):
             if not outside or len(upstream)>=upstream_cap:break
-            upstream.append(outside.popleft())
+            v=outside.popleft()
+            upstream.append(v)
             counter["admitted"]+=1
+            admission_events.append((t,v[0]))
         if outside:counter["insertion_delay_affected_seconds"]+=1
         counter["max_outside"]=max(counter["max_outside"],len(outside))
         counter["max_upstream"]=max(counter["max_upstream"],len(upstream))
@@ -200,4 +203,5 @@ def run(c:Params,events=None):
         "insertion_delay_affected_seconds":counter["insertion_delay_affected_seconds"],
         "bypassed_head_vehicles":counter["bypassed_head_vehicles"],
         "max_inside":counter["max_simultaneous_inside"],
-        "cycle_history":by_cycle,"stopline_events":throughput,"fork_events":entry_events}
+        "cycle_history":by_cycle,"stopline_events":throughput,
+        "fork_events":entry_events,"admission_events":admission_events}
