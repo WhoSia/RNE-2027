@@ -48,6 +48,7 @@ def summarize(rows):
             "receiver_headway_s":head,"B_share":split,
             "mean_stopline_S":mean(r["stopline_S"] for r in group),
             "mean_network_S":mean(r["network_S"] for r in group),
+            "mean_network_L":mean(r["network_L"] for r in group),
             "mean_stopline_L":mean(r["stopline_L"] for r in group),
             "mean_receiver_full_denied_s":mean(r["receiver_full_denied_s"] for r in group)})
     return output
