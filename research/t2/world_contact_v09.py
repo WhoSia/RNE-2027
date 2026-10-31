@@ -109,6 +109,11 @@ def run(c:Params,events=None):
         while next_id<len(events) and events[next_id][0]==t:
             outside.append((next_id,events[next_id][1],t));next_id+=1
         phase=green(c,t)
+        # Diagnostic, not a causal attribution of all unused green time.
+        if phase=="S" and not straight:
+            counter["straight_green_empty_start_s"]+=1
+            if upstream and upstream[0][1]=="L" and len(bay)>=left_cap:
+                counter["straight_green_L_head_block_signature_s"]+=1
         if phase in dest and dest[phase] and t-last[phase]>=(
             c.left_headway_s if phase=="L" else c.straight_headway_s):
             v=dest[phase].popleft()
@@ -163,6 +168,8 @@ def run(c:Params,events=None):
         "still_outside":len(outside),
         "blocked_L_seconds":counter["blocked_L_seconds"],
         "blocked_S_seconds":counter["blocked_S_seconds"],
+        "straight_green_empty_start_s":counter["straight_green_empty_start_s"],
+        "straight_green_L_head_block_signature_s":counter["straight_green_L_head_block_signature_s"],
         "left_spillback_during_straight_green_s":counter["left_spillback_during_straight_green_s"],
         "insertion_delay_affected_seconds":counter["insertion_delay_affected_seconds"],
         "bypassed_head_vehicles":counter["bypassed_head_vehicles"],
