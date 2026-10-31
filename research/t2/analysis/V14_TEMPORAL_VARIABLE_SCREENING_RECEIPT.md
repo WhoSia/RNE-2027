@@ -71,3 +71,25 @@ interaction_v14.py, plot_temporal_v14.py, and matching regression tests.
 The original local execution source and the GitHub connector-written
 files have NOT been proven byte identical. Exact GitHub checkout
 execution remains pending. GitHub Actions shall not be used.
+
+## Final v1.4 local extension (supersedes provisional counts above)
+Additional robust_policy_v14.py and test_robust_policy_v14.py:
+12 paired (bay length, signal phase offset) policies aggregated over eight
+predeclared synthetic arrival/turn contexts; report context mean, finite
+worst-case total, mean through and left completions separately.
+In these particular conditions, bay 70m/phase offset 0 has the
+largest *minimum total network completion* among the 12 tested policies:
+minimum 126.667 vehicles in 720s across eight synthetic contexts;
+mean across contexts 131.3125. This is NOT a real-world recommendation.
+No land-take costs, signal safety constraints, actual observed traffic
+or generalized downstream physical geometry were included.
+
+**Final local test status: 63 PASS (not the earlier 61).**
+New simulation calls remain 576+162=738; robust screening is postprocessing,
+not additional traffic simulations.
+Final bundle now contains **77 files**, and archive SHA256 is
+fcbab7ee16368a6f8b5ba69d197fcee80433c1dc7cf87d9486442ed87c381235.
+Earlier archive hash and 74-file count above refer to a superseded local
+snapshot. The user-visible downloadable bundle is the latest version.
+No GitHub Actions or main merge. Exact GitHub checkout source execution
+continues to be **unverified**.
