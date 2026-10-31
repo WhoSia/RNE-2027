@@ -10,6 +10,7 @@ from collections import deque,Counter
 from math import floor
 import random
 from spatial_v10 import Config,validate,phase,arrivals
+from receiving_cells_v15 import ReceivingCells,LinkConfig
 
 @dataclass(frozen=True)
 class DualConfig:
@@ -20,6 +21,10 @@ class DualConfig:
     downstream_conflict_gap_s:int=0 # optional shared exit conflict; 0 disables
     receiver_slots:int=0 # zero disables finite receiving buffer
     receiver_headway_s:int=2
+    receiver_mode:str="fifo"
+    downstream_cycle_s:int=60
+    downstream_green_s:int=30
+    downstream_offset_s:int=0
 
 def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     n,k=validate(c.base)
@@ -29,6 +34,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         raise ValueError("invalid common exit headway")
     if not isinstance(c.receiver_slots,int) or c.receiver_slots<0 or not isinstance(c.receiver_headway_s,int) or c.receiver_headway_s<1:
         raise ValueError("invalid downstream receiver")
+    if c.receiver_mode not in ("fifo","cells") or (c.receiver_mode=="cells" and c.receiver_slots<1):
+        raise ValueError("cellular downstream requires positive receiver storage")
     if events is None:events=arrivals(c.base)
     if any(not isinstance(t,int) or not 0<=t<c.base.duration_s or r not in ("L","S")
            for t,r in events) or any(events[i][0]>events[i+1][0] for i in range(len(events)-1)):
@@ -39,13 +46,17 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
     admission={"A":-999999,"B":-999999};cycles=[];frames=[]
     last_common_exit=-999999
-    receiver=deque();last_receiver_service=-999999
+    receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s)) if c.receiver_mode=="cells" else deque())
+    last_receiver_service=-999999
     for t in range(c.base.duration_s):
         while index<len(events) and events[index][0]==t:
             route=events[index][1]
             lane="A" if route=="L" or rng.random()>=c.through_B_share else "B"
             outside[lane].append((index,route,t));index+=1
-        if receiver and t-last_receiver_service>=c.receiver_headway_s:
+        if c.receiver_mode=="cells":
+            vehicle=receiver.tick(t)
+            if vehicle is not None:count["network_out_"+vehicle[1]]+=1
+        elif receiver and t-last_receiver_service>=c.receiver_headway_s:
             vehicle=receiver.popleft();count["network_out_"+vehicle[1]]+=1
             last_receiver_service=t
         light=phase(c.base,t)
@@ -54,21 +65,25 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 if -1 in occ and occ[-1][1]=="S" and t-last[lane]>=c.base.departure_headway_s:
                     if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
                         count["common_exit_denied_s"]+=1
-                    elif c.receiver_slots and len(receiver)>=c.receiver_slots:
+                    elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                         count["receiver_full_denied_s"]+=1
                     else:
                         v=occ.pop(-1);count["exit_S"]+=1
-                        if c.receiver_slots:receiver.append(v)
+                        if c.receiver_slots:
+                            if c.receiver_mode=="cells":assert receiver.accept(v)
+                            else:receiver.append(v)
                         else:count["network_out_S"]+=1
                         count["time_S_s"]+=t-v[2];last[lane]=t;last_common_exit=t
         elif light=="L" and -1 in pocket and t-last["L"]>=c.base.departure_headway_s:
             if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
                 count["common_exit_denied_s"]+=1
-            elif c.receiver_slots and len(receiver)>=c.receiver_slots:
+            elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                 count["receiver_full_denied_s"]+=1
             else:
                 v=pocket.pop(-1);count["exit_L"]+=1
-                if c.receiver_slots:receiver.append(v)
+                if c.receiver_slots:
+                    if c.receiver_mode=="cells":assert receiver.accept(v)
+                    else:receiver.append(v)
                 else:count["network_out_L"]+=1
                 count["time_L_s"]+=t-v[2];last["L"]=t;last_common_exit=t
         for x in sorted(tuple(pocket),reverse=True):
@@ -104,14 +119,15 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
             raise AssertionError(("conservation",t))
         if any(len(occ)>n or any(x< -n or x>-1 for x in occ) for occ in (A,B)) or len(pocket)>k or (c.receiver_slots and len(receiver)>c.receiver_slots):
             raise AssertionError(("road geometry",t))
-        ids=[v[0] for occ in (A,B,pocket) for v in occ.values()]+[v[0] for v in receiver]
+        receiving_vehicles=(receiver.occupied.values() if c.receiver_mode=="cells" else receiver)
+        ids=[v[0] for occ in (A,B,pocket) for v in occ.values()]+[v[0] for v in receiving_vehicles]
         if len(ids)!=len(set(ids)):raise AssertionError(("duplicate vehicle",t))
         if trace:
             frames.append({"t":t,"signal":light,
                 "A":sorted((x,v[0],v[1]) for x,v in A.items()),
                 "B":sorted((x,v[0],v[1]) for x,v in B.items()),
                 "pocket":sorted((x,v[0]) for x,v in pocket.items()),"outside":out,
-                "receiver":[v[0] for v in receiver]})
+                "receiver":(receiver.snapshot() if c.receiver_mode=="cells" else [v[0] for v in receiver])})
         if (t+1)%c.base.cycle_s==0 or t==c.base.duration_s-1:
             cycles.append({"end_s":t+1,"exit_S":count["exit_S"],"exit_L":count["exit_L"],
                 "A":len(A),"B":len(B),"pocket":len(pocket),"outside":out,
@@ -122,7 +138,9 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         "config":{"base":asdict(c.base),"through_B_share":c.through_B_share,
                   "allow_lane_changes":c.allow_lane_changes,"change_zone_m":c.change_zone_m,
                   "downstream_conflict_gap_s":c.downstream_conflict_gap_s,
-                  "receiver_slots":c.receiver_slots,"receiver_headway_s":c.receiver_headway_s},
+                  "receiver_slots":c.receiver_slots,"receiver_headway_s":c.receiver_headway_s,
+                  "receiver_mode":c.receiver_mode,"downstream_cycle_s":c.downstream_cycle_s,
+                  "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s},
         "generated":len(events),"admitted":count["admitted"],
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),
