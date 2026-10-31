@@ -30,7 +30,8 @@ class Params:
     arrival_pattern:str="uniform" # uniform | platoon
     platoon_cycle_s:int=60
     platoon_active_s:int=20
-    feeder_policy:str="fifo" # fifo | bypass
+    feeder_policy:str="fifo" # fifo | window | bypass
+    bypass_window:int=3 # max visible feeder heads under window policy
     max_entry_per_s:int=1
 
 def check(c:Params):
@@ -38,8 +39,9 @@ def check(c:Params):
            c.left_headway_s,c.straight_headway_s,c.max_entry_per_s)<1: raise ValueError("time/flow >0 required")
     if c.clearance_s<0 or c.left_green_s+c.straight_green_s+2*c.clearance_s>c.cycle_s:
         raise ValueError("protected greens overlap")
-    if c.phase_order not in ("leading","lagging") or c.feeder_policy not in ("fifo","bypass"):
+    if c.phase_order not in ("leading","lagging") or c.feeder_policy not in ("fifo","window","bypass"):
         raise ValueError("unknown phase or feeder policy")
+    if c.bypass_window<1: raise ValueError("bypass_window must be positive")
     if c.arrival_pattern not in ("uniform","platoon") or c.platoon_cycle_s<1 or not 1<=c.platoon_active_s<=c.platoon_cycle_s:
         raise ValueError("invalid arrival pattern")
     if c.arrival_rate_vph<0 or not 0<=c.turn_share<=1 or min(c.bay_length_m,c.straight_storage_m,c.upstream_storage_m)<0 or c.pitch_m<=0:
@@ -117,8 +119,9 @@ def run(c:Params,events=None):
         for _ in range(c.max_entry_per_s):
             if not upstream:break
             selected=0
-            if c.feeder_policy=="bypass":
+            if c.feeder_policy in ("window","bypass"):
                 for j,v in enumerate(upstream):
+                    if c.feeder_policy=="window" and j>=c.bypass_window:break
                     if len(dest[v[1]])<cap[v[1]]:
                         selected=j;break
             vehicle=upstream[selected]
@@ -128,6 +131,7 @@ def run(c:Params,events=None):
                 if route=="L" and phase=="S":counter["left_spillback_during_straight_green_s"]+=1
                 break
             # deque indexing/removal by ID, deterministic and distinct
+            if selected>0:counter["bypassed_head_vehicles"]+=selected
             del upstream[selected]
             dest[route].append(vehicle)
             counter["entered_"+route]+=1
@@ -161,5 +165,6 @@ def run(c:Params,events=None):
         "blocked_S_seconds":counter["blocked_S_seconds"],
         "left_spillback_during_straight_green_s":counter["left_spillback_during_straight_green_s"],
         "insertion_delay_affected_seconds":counter["insertion_delay_affected_seconds"],
+        "bypassed_head_vehicles":counter["bypassed_head_vehicles"],
         "max_inside":counter["max_simultaneous_inside"],
         "cycle_history":by_cycle,"stopline_events":throughput,"fork_events":entry_events}
