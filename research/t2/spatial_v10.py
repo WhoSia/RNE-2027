@@ -87,12 +87,13 @@ def simulate(c=Config(),events=None,*,trace=False):
     main={};bay={};outside=deque()
     count=Counter();cycles=[];log=[];ix=0
     last_exit={"L":-10**9,"S":-10**9};last_entry=-10**9
+    frames=[]
     for t in range(c.duration_s):
         while ix<len(events) and events[ix][0]==t:
             outside.append((ix,events[ix][1],t));ix+=1
         lit=phase(c,t)
         for lane,occ in (("S",main),("L",bay)):
-            if lit==lane and -1 in occ and t-last_exit[lane]>=c.departure_headway_s:
+            if lit==lane and -1 in occ and occ[-1][1]==lane and t-last_exit[lane]>=c.departure_headway_s:
                 v=occ.pop(-1);count["exit_"+lane]+=1;last_exit[lane]=t
                 if trace:log.append((t,"exit",v[0],lane,-1))
         for x in sorted(tuple(bay),reverse=True):
@@ -124,6 +125,11 @@ def simulate(c=Config(),events=None,*,trace=False):
             raise AssertionError(("conservation",t))
         for metric,value in (("max_through_queue",len(main)),("max_bay_queue",len(bay)),("max_outside",len(outside))):
             count[metric]=max(count[metric],value)
+        if trace:
+            frames.append({"t":t,"signal":lit,
+                "main":sorted((x,v[0],v[1]) for x,v in main.items()),
+                "pocket":sorted((x,v[0],v[1]) for x,v in bay.items()),
+                "outside":len(outside)})
         if (t+1)%c.cycle_s==0 or t==c.duration_s-1:
             cycles.append({"end_s":t+1,"exit_S":count["exit_S"],"exit_L":count["exit_L"],
                 "through_vehicles":len(main),"pocket_vehicles":len(bay),
@@ -139,5 +145,7 @@ def simulate(c=Config(),events=None,*,trace=False):
         "through_green_no_stopline_vehicle_s":count["through_green_no_stopline_vehicle_s"],
         "max_through_queue":count["max_through_queue"],"max_bay_queue":count["max_bay_queue"],
         "max_outside":count["max_outside"],"cycles":cycles}
-    if trace:result["events"]=log
+    if trace:
+        result["events"]=log
+        result["frames"]=frames
     return result
