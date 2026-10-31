@@ -17,8 +17,11 @@ def execute(path):
         scenarios.append({"pocket_m":length,"through_exits":out["exit_S"],
             "left_exits":out["exit_L"],"outside":out["outside"],
             "lane_changes":out["changes_A_to_B"],
-            "pocket_block_seconds":out["pocket_block_seconds"]})
-    return {"site_label":site["label"],
+            "pocket_block_seconds":out["pocket_block_seconds"],
+            "network_through":out["network_out_S"],"network_left":out["network_out_L"],
+            "receiver_final":out["receiver_final"],
+            "receiver_full_denied_s":out["receiver_full_denied_s"]})
+    return {"site_label":site["label"],"downstream_mode":site["downstream_mode"],
         "input_status":site["input_status"],
         "calibration_status":site["calibration_status"],
         "provenance":site["provenance"],
