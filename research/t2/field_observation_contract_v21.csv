@@ -1,0 +1,16 @@
+variable,unit,visibility,measured_or_derived,missingness_rule,validation_role
+cycle_id,count,signal timing log,observed,NEVER_IMPUTE_ZERO,time index
+phase_L,second,controller log or legal video,observed,UNKNOWN_IF_OCCLUDED,leading lagging protected permitted
+phase_S,second,controller log or legal video,observed,UNKNOWN_IF_OCCLUDED,through phase
+bay_usable_length_m,meter,official geometry,observed,UNCERTAINTY_INTERVAL,geometry gate
+bay_entrance_blocked_cycle,boolean,upstream fork visible,independently annotated,UNKNOWN_IF_OCCLUDED,field primary outcome
+bay_overflow_cycle,boolean,bay and tail visible,independently annotated,UNKNOWN_IF_OCCLUDED,distinct failure class
+left_departures,count,signal stopline view,observed,UNKNOWN_IF_OCCLUDED,calibration output not total demand
+through_departures,count,signal stopline view,observed,UNKNOWN_IF_OCCLUDED,calibration output not total demand
+back_of_queue_m,meter,approved full approach view,observed,UNKNOWN_IF_OCCLUDED,storage risk
+receiver_occupancy,vehicles,downstream lane inventory view,observed,UNKNOWN_IF_OCCLUDED,downstream bottleneck
+initial_queue_L,vehicles,observation start frame,observed,UNKNOWN_IF_OCCLUDED,horizon mass balance
+initial_queue_S,vehicles,observation start frame,observed,UNKNOWN_IF_OCCLUDED,horizon mass balance
+left_arrival_demand,count,upstream boundary sensors,estimated,NOT_IDENTIFIABLE_FROM_EXITS,independent input
+through_arrival_demand,count,upstream boundary sensors,estimated,NOT_IDENTIFIABLE_FROM_EXITS,independent input
+source_id,text,document/approved source provenance,recorded,MANDATORY,world-contact gate
