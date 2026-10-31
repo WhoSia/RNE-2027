@@ -49,3 +49,40 @@ GitHub connector-created files and local extracted source are **not
 proven byte-identical** and GitHub-HEAD testing is still outstanding.
 This archive reports local source execution only.
 No GitHub Actions, no workflow changes, no main merge.
+
+## Direct service-event extension (2026-10-31, latest)
+
+The simulator now optionally emits `service_events` directly from the
+stopline service branch. Each logged refusal contains the precise
+simulation time, movement, lane, vehicle ID, and reason
+(`receiver_entry_cell_busy` or `receiver_capacity_full`).
+Each accepted service logs `stopline_cross`. Logging is trace-only,
+not enabled for standard factorial execution. A separate test validates
+the refusal event count against the old aggregate counter, checks that
+crossed vehicle IDs remain unique, and rejects same-second denial and
+successful crossing of the same vehicle. These tests passed locally.
+
+Local unit tests **85/85 PASS** (76 inherited + 5 snapshot diagnostic +
+4 exact service event). The 384-run snapshot factorial remains unchanged.
+An additional **32 exact-event simulations** (four pockets × eight
+paired seeds) compared distinct outcome types.
+
+4-cell receiver, downstream offset 0, 8-seed mean in 720s:
+| Pocket length | Network completed | Exact refusal attempts | Distinct refused vehicles | Entry occupied frames | Fork joint occupancy frames |
+|---|---:|---:|---:|---:|---:|
+| 14m | 123.750 | 276.250 | 22.625 | 321.750 | 382.125 |
+| 28m | 142.875 | 334.125 | 21.875 | 344.750 | 346.625 |
+| 42m | 152.250 | 384.750 | 19.875 | 365.250 | 283.250 |
+| 70m | 156.500 | 400.125 | 19.500 | 373.500 | 210.000 |
+
+Repeated refusal attempts can rise even as the number of different
+vehicles refused falls. Attempts, vehicles and frame counts are
+fundamentally different observables. Still not an empirical claim that
+a specific real-world vehicle was delayed by a specific road geometry.
+
+Updated reproducibility archive:
+`T2_v16_spillback_research_bundle.zip`, 14 members, ZIP CRC check PASS,
+SHA256 `ce449136ea1ad6969661ea6e4c6ce1f23b90efe49413790efdb516b9c2a49c64`.
+The earlier v1.6 81-test/384-run archive is now historical.
+All tests executed on a locally extracted source tree; remote GitHub
+source bytes remain unverified. No GitHub Actions or workflow edits.
