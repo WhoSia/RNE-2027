@@ -20,6 +20,7 @@ class ReceivingPolicy:
     green_L: int = 30
     offset_L: int = 0
     shared_receiver: bool = False
+    admission_priority: str = "S_first"  # S_first | L_first | alternate
 
 class TwoMovementLink:
     def __init__(self, policy: ReceivingPolicy, initial_S=0, initial_L=0):
@@ -31,6 +32,8 @@ class TwoMovementLink:
             raise ValueError('invalid positive headways or cell lengths')
         if any(type(v) is not int for v in (p.green_S,p.green_L,p.offset_L)) or not 0<=p.green_S<=p.cycle_s or not 0<=p.green_L<=p.cycle_s:
             raise ValueError('invalid signal phase')
+        if p.admission_priority not in ('S_first','L_first','alternate'):
+            raise ValueError('invalid merge priority')
         self.p=p
         self.up={'S':deque(('initial',j) for j in range(initial_S)),
                  'L':deque(('initial',j) for j in range(initial_L))}
@@ -53,7 +56,9 @@ class TwoMovementLink:
                 self.down[m].popleft();self.finished[m]+=1;self.departures.append((t,m));self.last[m]=t
         # shared_receiver is a physical competition for the same *common* storage budget.
         # The separate source queues retain movement identity and deterministic S-first tie-break.
-        for m,capacity in [('S',p.capacity_S),('L',p.capacity_L)]:
+        order=('L','S') if p.admission_priority=='L_first' or (p.admission_priority=='alternate' and t%2) else ('S','L')
+        for m in order:
+            capacity=p.capacity_S if m=='S' else p.capacity_L
             if not self.up[m]:continue
             occupied=sum(map(len,self.down.values())) if p.shared_receiver else len(self.down[m])
             space=min(p.capacity_S,p.capacity_L) if p.shared_receiver else capacity
