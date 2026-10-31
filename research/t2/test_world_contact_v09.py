@@ -58,3 +58,25 @@ class WorldContactTests(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main(verbosity=2)
+
+
+class LimitedLookaheadTests(unittest.TestCase):
+    def test_window_one_is_fifo(self):
+        c=Params(horizon_s=600)
+        for length in (14,28,70):
+            a=run(replace(c,bay_length_m=length,feeder_policy="fifo"))
+            b=run(replace(c,bay_length_m=length,feeder_policy="window",bypass_window=1))
+            self.assertEqual(a["exits_S"],b["exits_S"])
+            self.assertEqual(b["bypassed_head_vehicles"],0)
+    def test_bounded_and_deterministic(self):
+        c=Params(horizon_s=600,feeder_policy="window",bypass_window=3)
+        a=run(c);b=run(c)
+        self.assertEqual(a,b)
+        self.assertGreater(a["bypassed_head_vehicles"],0)
+    def test_large_window_matches_unbounded(self):
+        c=Params(horizon_s=600)
+        stream=demand(c)
+        a=run(replace(c,feeder_policy="bypass"),stream)
+        b=run(replace(c,feeder_policy="window",bypass_window=1000),stream)
+        self.assertEqual(a["exits_S"],b["exits_S"])
+        self.assertEqual(a["exits_L"],b["exits_L"])
