@@ -82,7 +82,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 "B":sorted((x,v[0],v[1]) for x,v in B.items()),
                 "pocket":sorted((x,v[0]) for x,v in pocket.items()),"outside":out})
         if (t+1)%c.base.cycle_s==0 or t==c.base.duration_s-1:
-            cycles.append({"end_s":t+1,"S":count["exit_S"],"L":count["exit_L"],
+            cycles.append({"end_s":t+1,"exit_S":count["exit_S"],"exit_L":count["exit_L"],
                 "A":len(A),"B":len(B),"pocket":len(pocket),"outside":out})
     outside_total=len(outside["A"])+len(outside["B"])
     result={"status":"SYNTHETIC_UNCALIBRATED",
