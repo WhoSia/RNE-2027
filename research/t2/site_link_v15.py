@@ -8,7 +8,7 @@ from dataclasses import replace
 from pathlib import Path
 import json
 from site_v11 import read_site
-from receiving_cells_v15 import LinkConfig
+from receiving_cells_v15 import LinkConfig,ReceivingCells
 
 ALLOWED_SOURCES={"synthetic","map_estimate","field_observed","official_plan","published"}
 NUMERIC=("receiver_slots","receiver_headway_s","downstream_cycle_s",
@@ -34,11 +34,11 @@ def read_link_site(path):
         if item["source_type"]!="synthetic" and not item.get("source_note"):
             raise ValueError("downstream external source note required: "+key)
         values[key]=value
-    LinkConfig(cells=values["receiver_slots"],
+    ReceivingCells(LinkConfig(cells=values["receiver_slots"],
         downstream_cycle_s=values["downstream_cycle_s"],
         downstream_green_s=values["downstream_green_s"],
         downstream_offset_s=values["downstream_offset_s"],
-        exit_headway_s=values["receiver_headway_s"])
+        exit_headway_s=values["receiver_headway_s"]))
     cfg=replace(base["config"],receiver_mode="cells",**values)
     result=dict(base)
     result["config"]=cfg
