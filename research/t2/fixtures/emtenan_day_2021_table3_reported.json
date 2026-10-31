@@ -1,0 +1,96 @@
+{
+  "source": "Emtenan & Day (2021), Table 3",
+  "source_doi": "10.1177/03611981211017139",
+  "purpose": "source-reported benchmark only; geometry differs from v0.7, do not fit or compare effect sizes directly",
+  "units": {
+    "storage": "ft",
+    "optimum_cycle": "s",
+    "maximum_throughput": "veh/h"
+  },
+  "datasets": [
+    {
+      "approach": "Eastbound",
+      "fixed_turn_ratio_pct": 30,
+      "records": [
+        {
+          "storage_ft": 100,
+          "optimal_cycle_s": 104,
+          "maximum_throughput_vph": 4129.3
+        },
+        {
+          "storage_ft": 200,
+          "optimal_cycle_s": 104,
+          "maximum_throughput_vph": 4267.7
+        },
+        {
+          "storage_ft": 400,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4412
+        },
+        {
+          "storage_ft": 500,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4412
+        }
+      ]
+    },
+    {
+      "approach": "Westbound",
+      "fixed_turn_ratio_pct": 30,
+      "records": [
+        {
+          "storage_ft": 100,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4375.1
+        },
+        {
+          "storage_ft": 200,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4412
+        },
+        {
+          "storage_ft": 400,
+          "optimal_cycle_s": 109,
+          "maximum_throughput_vph": 4455.5
+        },
+        {
+          "storage_ft": 500,
+          "optimal_cycle_s": 111,
+          "maximum_throughput_vph": 4459.3
+        }
+      ]
+    },
+    {
+      "approach": "Westbound",
+      "fixed_storage_ft": 200,
+      "records": [
+        {
+          "turn_ratio_pct": 10,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4367.5
+        },
+        {
+          "turn_ratio_pct": 20,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4392.9
+        },
+        {
+          "turn_ratio_pct": 30,
+          "optimal_cycle_s": 108,
+          "maximum_throughput_vph": 4412
+        },
+        {
+          "turn_ratio_pct": 40,
+          "optimal_cycle_s": 109,
+          "maximum_throughput_vph": 4430.2
+        }
+      ]
+    }
+  ],
+  "cautions": [
+    "Maximum throughput refers to the paper's specified complete approach arrangement and fitted scenario, not one isolated turn pocket or one modeled lane.",
+    "Increasing turning ratio need not monotonically reduce TOTAL throughput; Table 3's westbound data increase for 10-40% in that setup.",
+    "Original paper states geometry and lane configuration matter. Reconstruct those before numerical validation.",
+    "PDF text extraction confirmed Table 3 values; plot images and equations have not been independently digitized or recomputed."
+  ]
+}

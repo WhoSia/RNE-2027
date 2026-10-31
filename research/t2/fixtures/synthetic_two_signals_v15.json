@@ -1,0 +1,90 @@
+{
+  "schema_version": "t2_dual_site_v11",
+  "site_label": "Hypothetical paired signal intersections — NOT REAL FIELD DATA",
+  "enable_lane_changes": false,
+  "parameters": {
+    "approach_length_m": {
+      "value": 140,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "pocket_length_m": {
+      "value": 28,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "cell_m": {
+      "value": 7,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "duration_s": {
+      "value": 720,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "cycle_s": {
+      "value": 120,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "left_green_s": {
+      "value": 35,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "through_green_s": {
+      "value": 50,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "clearance_s": {
+      "value": 3,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "demand_vph": {
+      "value": 1500,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "left_fraction": {
+      "value": 0.3,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "through_B_share": {
+      "value": 0.5,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    },
+    "change_zone_m": {
+      "value": 100,
+      "source_type": "synthetic",
+      "source_note": "fictional geometry for regression"
+    }
+  },
+  "spatial_downstream": {
+    "mode": "cells",
+    "receiver_slots": {
+      "value": 4,
+      "source_type": "synthetic"
+    },
+    "receiver_headway_s": {
+      "value": 2,
+      "source_type": "synthetic"
+    },
+    "downstream_cycle_s": {
+      "value": 60,
+      "source_type": "synthetic"
+    },
+    "downstream_green_s": {
+      "value": 30,
+      "source_type": "synthetic"
+    },
+    "downstream_offset_s": {
+      "value": 15,
+      "source_type": "synthetic"
+    }
+  }
+}

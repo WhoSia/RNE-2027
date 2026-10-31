@@ -1,0 +1,57 @@
+{
+  "schema_version": "t2_site_v09",
+  "site_label": "Hypothetical protected left-turn approach — NOT A REAL SITE",
+  "purpose": "synthetic demonstration only; no site coordinates or measured signal timings",
+  "parameters": {
+    "bay_length_m": {
+      "value": 28,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "straight_storage_m": {
+      "value": 56,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "upstream_storage_m": {
+      "value": 84,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "pitch_m": {
+      "value": 7,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "cycle_s": {
+      "value": 120,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "left_green_s": {
+      "value": 35,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "straight_green_s": {
+      "value": 50,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "clearance_s": {
+      "value": 3,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "arrival_rate_vph": {
+      "value": 1500,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    },
+    "turn_share": {
+      "value": 0.3,
+      "source_type": "synthetic",
+      "source_note": "model scenario, not observed"
+    }
+  }
+}
