@@ -33,10 +33,11 @@ class Params:
     feeder_policy:str="fifo" # fifo | window | bypass
     bypass_window:int=3 # max visible feeder heads under window policy
     max_entry_per_s:int=1
+    max_admissions_per_s:int=1 # boundary metering; 1 veh/s per feeder
 
 def check(c:Params):
     if min(c.horizon_s,c.cycle_s,c.left_green_s,c.straight_green_s,
-           c.left_headway_s,c.straight_headway_s,c.max_entry_per_s)<1: raise ValueError("time/flow >0 required")
+           c.left_headway_s,c.straight_headway_s,c.max_entry_per_s,c.max_admissions_per_s)<1: raise ValueError("time/flow >0 required")
     if c.clearance_s<0 or c.left_green_s+c.straight_green_s+2*c.clearance_s>c.cycle_s:
         raise ValueError("protected greens overlap")
     if c.phase_order not in ("leading","lagging") or c.feeder_policy not in ("fifo","window","bypass"):
@@ -161,7 +162,9 @@ def run(c:Params,events=None):
             counter["entered_"+route]+=1
             entry_events.append((t,vehicle[0],route))
         # Demand admission: explicit finite upstream length; overflow stays outside.
-        while outside and len(upstream)<upstream_cap:
+        # Demand cannot enter the physical link at an unbounded rate.
+        for _ in range(c.max_admissions_per_s):
+            if not outside or len(upstream)>=upstream_cap:break
             upstream.append(outside.popleft())
             counter["admitted"]+=1
         if outside:counter["insertion_delay_affected_seconds"]+=1
