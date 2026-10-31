@@ -46,6 +46,13 @@ class SpatialTests(unittest.TestCase):
         for frame in y["frames"]:
             self.assertEqual(len(frame["main"]),len({x for x,vid,route in frame["main"]}))
             self.assertEqual(len(frame["pocket"]),len({x for x,vid,route in frame["pocket"]}))
+    def test_update_policy_sensitivity(self):
+        c=Config(duration_s=720,pocket_length_m=70,left_fraction=.3)
+        a=simulate(c)
+        b=simulate(replace(c,update_mode="parallel"))
+        self.assertEqual(a["generated"],b["generated"])
+        self.assertEqual(b["generated"],b["remaining"]+b["exit_S"]+b["exit_L"])
+        self.assertNotEqual((a["exit_S"],a["exit_L"]),(b["exit_S"],b["exit_L"]))
     def test_no_teleport(self):
         c=Config(duration_s=480,seed=3)
         z=simulate(c,trace=True)
