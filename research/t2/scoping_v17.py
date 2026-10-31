@@ -62,7 +62,9 @@ def evaluate():
                 raise AssertionError("vehicle conservation")
             rows.append({"factor":factor,"level":str(level),"seed":seed,"pocket_m":pocket,
                 "arrival_sha":hashlib.sha256(repr(arrivals).encode()).hexdigest(),
-                "generated":x["generated"],"through":x["network_out_S"],
+                "generated":x["generated"],
+                "generated_L":sum(route=="L" for _,route in arrivals),
+                "through":x["network_out_S"],
                 "left":x["network_out_L"],
                 "total":x["network_out_S"]+x["network_out_L"],
                 "remaining":x["remaining"],
