@@ -68,7 +68,6 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                         count["common_exit_denied_s"]+=1
                     elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                         count["receiver_full_denied_s"]+=1
-                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
                         if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
                     else:
                         v=occ.pop(-1);count["exit_S"]+=1
@@ -83,6 +82,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 count["common_exit_denied_s"]+=1
             elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                 count["receiver_full_denied_s"]+=1
+                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
             else:
                 v=pocket.pop(-1);count["exit_L"]+=1
                 if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":"pocket","movement":"L","reason":"stopline_cross"})
