@@ -80,3 +80,16 @@ class LimitedLookaheadTests(unittest.TestCase):
         b=run(replace(c,feeder_policy="window",bypass_window=1000),stream)
         self.assertEqual(a["exits_S"],b["exits_S"])
         self.assertEqual(a["exits_L"],b["exits_L"])
+
+class SignalOpportunityTests(unittest.TestCase):
+    def test_signature_subset_of_empty_green(self):
+        for length in (0,14,28,70):
+            for turn_share in (0.0,0.3,1.0):
+                c=Params(horizon_s=360,bay_length_m=length,turn_share=turn_share)
+                y=run(c)
+                self.assertLessEqual(y["straight_green_L_head_block_signature_s"],
+                                     y["straight_green_empty_start_s"])
+    def test_no_left_signature_in_all_through(self):
+        c=Params(horizon_s=600,turn_share=0)
+        y=run(c)
+        self.assertEqual(y["straight_green_L_head_block_signature_s"],0)
