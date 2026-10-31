@@ -141,6 +141,7 @@ def run(c:Params,events=None):
         counter["max_upstream"]=max(counter["max_upstream"],len(upstream))
         counter["max_bay"]=max(counter["max_bay"],len(bay))
         counter["max_straight"]=max(counter["max_straight"],len(straight))
+        counter["max_simultaneous_inside"]=max(counter["max_simultaneous_inside"],len(upstream)+len(bay)+len(straight))
         count=counter["exit_L"]+counter["exit_S"]
         if next_id!=count+len(outside)+len(upstream)+len(bay)+len(straight):
             raise AssertionError(("conservation",t))
@@ -160,5 +161,5 @@ def run(c:Params,events=None):
         "blocked_S_seconds":counter["blocked_S_seconds"],
         "left_spillback_during_straight_green_s":counter["left_spillback_during_straight_green_s"],
         "insertion_delay_affected_seconds":counter["insertion_delay_affected_seconds"],
-        "max_inside":counter["max_upstream"]+counter["max_bay"]+counter["max_straight"],
+        "max_inside":counter["max_simultaneous_inside"],
         "cycle_history":by_cycle,"stopline_events":throughput,"fork_events":entry_events}
