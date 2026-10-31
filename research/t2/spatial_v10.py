@@ -25,6 +25,7 @@ class Config:
     left_fraction:float=.30
     seed:int=0
     arrival_pattern:str="uniform"
+    update_mode:str="sequential" # parallel = snapshot-cell movement
     platoon_period_s:int=60
     platoon_on_s:int=20
     departure_headway_s:int=2
@@ -37,7 +38,7 @@ def validate(c):
         raise ValueError("positive integer timings required")
     if c.clearance_s<0 or c.left_green_s+c.through_green_s+2*c.clearance_s>c.cycle_s:
         raise ValueError("overlapping phase")
-    if c.phase_order not in ("leading","lagging") or c.arrival_pattern not in ("uniform","platoon"):
+    if c.phase_order not in ("leading","lagging") or c.arrival_pattern not in ("uniform","platoon") or c.update_mode not in ("sequential","parallel"):
         raise ValueError("unknown signal or arrival policy")
     if c.platoon_on_s>c.platoon_period_s or c.demand_vph<0 or not 0<=c.left_fraction<=1:
         raise ValueError("invalid demand")
@@ -97,19 +98,21 @@ def simulate(c=Config(),events=None,*,trace=False):
                 v=occ.pop(-1);count["exit_"+lane]+=1;last_exit[lane]=t
                 count["system_time_"+lane+"_s"]+=t-v[2]
                 if trace:log.append((t,"exit",v[0],lane,-1))
+        before_main=set(main);before_bay=set(bay)
         for x in sorted(tuple(bay),reverse=True):
-            if x< -1 and x+1 not in bay:bay[x+1]=bay.pop(x)
+            if x< -1 and x+1 not in (before_bay if c.update_mode=="parallel" else bay):
+                bay[x+1]=bay.pop(x)
         for x in sorted(tuple(main),reverse=True):
             if x not in main:continue
             v=main[x]
             if v[1]=="L" and k>0 and x==-k-1:
-                if -k not in bay:
+                if -k not in (before_bay if c.update_mode=="parallel" else bay):
                     bay[-k]=main.pop(x);count["merges"]+=1
                     if trace:log.append((t,"merge",v[0],"L",-k))
                 else:count["blocked_pocket_entry_s"]+=1
             elif v[1]=="L" and k==0 and x==-1:
                 count["blocked_pocket_entry_s"]+=1
-            elif x< -1 and x+1 not in main and not(v[1]=="L" and x>=-k-1):
+            elif x< -1 and x+1 not in (before_main if c.update_mode=="parallel" else main) and not(v[1]=="L" and x>=-k-1):
                 main[x+1]=main.pop(x)
         if outside and -n not in main and t-last_entry>=c.entry_headway_s:
             v=outside.popleft();main[-n]=v;count["admitted"]+=1;last_entry=t
