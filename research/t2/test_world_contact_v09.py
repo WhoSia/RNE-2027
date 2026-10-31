@@ -104,3 +104,15 @@ class SignalCeilingTests(unittest.TestCase):
             r=run(c)
             self.assertLessEqual(r["exits_L"],r["signal_only_ceiling_L"])
             self.assertLessEqual(r["exits_S"],r["signal_only_ceiling_S"])
+
+class BoundaryMeterTests(unittest.TestCase):
+    def test_platoon_insertion_bound(self):
+        from collections import Counter
+        c=Params(horizon_s=600,arrival_rate_vph=3600,
+                 arrival_pattern="platoon",platoon_cycle_s=60,
+                 platoon_active_s=5,max_admissions_per_s=1)
+        y=run(c)
+        admits=Counter(t for t,vid in y["admission_events"])
+        self.assertTrue(all(v<=1 for v in admits.values()))
+        self.assertEqual(len(y["admission_events"]),y["admitted"])
+        self.assertEqual(y["generated"]-y["admitted"],y["still_outside"])
