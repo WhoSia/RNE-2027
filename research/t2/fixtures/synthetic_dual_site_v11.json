@@ -1,0 +1,67 @@
+{
+  "schema_version": "t2_dual_site_v11",
+  "site_label": "Hypothetical two-through-lane approach — NOT A REAL SITE",
+  "enable_lane_changes": false,
+  "parameters": {
+    "approach_length_m": {
+      "value": 140,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "pocket_length_m": {
+      "value": 28,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "cell_m": {
+      "value": 7,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "duration_s": {
+      "value": 1800,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "cycle_s": {
+      "value": 120,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "left_green_s": {
+      "value": 35,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "through_green_s": {
+      "value": 50,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "clearance_s": {
+      "value": 3,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "demand_vph": {
+      "value": 1500,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "left_fraction": {
+      "value": 0.3,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "through_B_share": {
+      "value": 0.5,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    },
+    "change_zone_m": {
+      "value": 100,
+      "source_type": "synthetic",
+      "source_note": "model demonstration, no real-world calibration"
+    }
+  }
+}
