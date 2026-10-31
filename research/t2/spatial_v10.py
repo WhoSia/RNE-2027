@@ -29,6 +29,7 @@ class Config:
     platoon_period_s:int=60
     platoon_on_s:int=20
     departure_headway_s:int=2
+    signal_offset_s:int=0 # phase offset in integer seconds
     entry_headway_s:int=1
 
 def validate(c):
@@ -36,6 +37,7 @@ def validate(c):
           c.platoon_period_s,c.platoon_on_s,c.departure_headway_s,c.entry_headway_s)
     if any(not isinstance(x,int) or x<1 for x in ints):
         raise ValueError("positive integer timings required")
+    if not isinstance(c.signal_offset_s,int):raise ValueError('integer signal offset required')
     if c.clearance_s<0 or c.left_green_s+c.through_green_s+2*c.clearance_s>c.cycle_s:
         raise ValueError("overlapping phase")
     if c.phase_order not in ("leading","lagging") or c.arrival_pattern not in ("uniform","platoon") or c.update_mode not in ("sequential","parallel"):
@@ -50,7 +52,7 @@ def validate(c):
     return n,k
 
 def phase(c,t):
-    x=t%c.cycle_s
+    x=(t+c.signal_offset_s)%c.cycle_s
     first="L" if c.phase_order=="leading" else "S"
     second="S" if first=="L" else "L"
     width=c.left_green_s if first=="L" else c.through_green_s
