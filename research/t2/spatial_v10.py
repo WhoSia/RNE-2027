@@ -95,6 +95,7 @@ def simulate(c=Config(),events=None,*,trace=False):
         for lane,occ in (("S",main),("L",bay)):
             if lit==lane and -1 in occ and occ[-1][1]==lane and t-last_exit[lane]>=c.departure_headway_s:
                 v=occ.pop(-1);count["exit_"+lane]+=1;last_exit[lane]=t
+                count["system_time_"+lane+"_s"]+=t-v[2]
                 if trace:log.append((t,"exit",v[0],lane,-1))
         for x in sorted(tuple(bay),reverse=True):
             if x< -1 and x+1 not in bay:bay[x+1]=bay.pop(x)
@@ -138,6 +139,8 @@ def simulate(c=Config(),events=None,*,trace=False):
     result={"model":"spatial_v10","status":"SYNTHETIC_UNCALIBRATED",
         "config":asdict(c),"approach_cells":n,"pocket_cells":k,
         "generated":len(events),"admitted":count["admitted"],
+        "mean_system_time_S_s":count["system_time_S_s"]/count["exit_S"] if count["exit_S"] else None,
+        "mean_system_time_L_s":count["system_time_L_s"]/count["exit_L"] if count["exit_L"] else None,
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":len(outside)+len(main)+len(bay),"outside":len(outside),
         "blocked_pocket_entry_s":count["blocked_pocket_entry_s"],
