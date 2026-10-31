@@ -80,3 +80,28 @@ Local result SHA256:
    mechanisms under identical time-stamped demand.
 5. Demonstrate interaction and recommendations only for calibrated
    geometries, alongside sensitivity and errors.
+
+## Post-execution revision — 2026-10-31
+
+The local prototype test count is now 32 PASS: prior v0.8 regression
+7, aggregate field comparison 4, v0.9 and bounded-lookahead checks
+16, site provenance checks 4, and site run checks 1.
+The model enforces a default one-vehicle-per-second external admission
+limit and records (second, vehicle ID) boundary entry events.
+A concentrated 600-arrival synthetic burst yielded 141 admitted and
+459 outside, with maximum one admission per second.
+
+A provenance-carrying JSON site schema now distinguishes synthetic,
+estimated, field_observed, and published parameters. It never reports
+field calibration just because a source label was supplied.
+
+After the admission boundary update the local v0.9 implementation
+SHA256 is a0300688e0ccd03637aa6f733a29037d94e5e1b3ef8e950ad1fbf768d00d1329.
+The 384-run stress output SHA256 is
+e71caeef506a5d2297b8d1a8b95af3f941b9e20f61d7745e864686c92c54e8ca.
+The bounded-lookahead 160-run output retains SHA256
+fd349d0d3863edf14cd0bf0efeed4abe84b6b23713881f1d95549d377e7f2739.
+
+The 26 PASS figure above describes an earlier phase; 32 is the current
+local total. Exact-byte parity with the connected GitHub file has
+NOT been demonstrated, so this is not a GitHub-HEAD release seal.
