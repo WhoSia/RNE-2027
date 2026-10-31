@@ -44,7 +44,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     outside={"A":deque(),"B":deque()}
     A={};B={};pocket={};index=0
     count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
-    admission={"A":-999999,"B":-999999};cycles=[];frames=[]
+    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[]
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
@@ -67,8 +67,11 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                         count["common_exit_denied_s"]+=1
                     elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
                         count["receiver_full_denied_s"]+=1
+                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
+                        if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
                     else:
                         v=occ.pop(-1);count["exit_S"]+=1
+                        if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":lane,"movement":"S","reason":"stopline_cross"})
                         if c.receiver_slots:
                             if c.receiver_mode=="cells":assert receiver.accept(v)
                             else:receiver.append(v)
@@ -81,6 +84,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 count["receiver_full_denied_s"]+=1
             else:
                 v=pocket.pop(-1);count["exit_L"]+=1
+                if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":"pocket","movement":"L","reason":"stopline_cross"})
                 if c.receiver_slots:
                     if c.receiver_mode=="cells":assert receiver.accept(v)
                     else:receiver.append(v)
@@ -157,5 +161,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         "mean_time_S_s":count["time_S_s"]/count["exit_S"] if count["exit_S"] else None,
         "mean_time_L_s":count["time_L_s"]/count["exit_L"] if count["exit_L"] else None,
         "cycles":cycles}
-    if trace:result["frames"]=frames
+    if trace:
+        result["frames"]=frames
+        result["service_events"]=service_events
     return result
