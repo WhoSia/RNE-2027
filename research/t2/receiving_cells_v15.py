@@ -20,6 +20,7 @@ class LinkConfig:
     downstream_green_s:int=30
     downstream_offset_s:int=0
     exit_headway_s:int=2
+    closure_windows:tuple[tuple[int,int],...]=() # absolute time window [start,end), not a bus model
 
 class ReceivingCells:
     def __init__(self, config:LinkConfig):
@@ -30,6 +31,8 @@ class ReceivingCells:
             not isinstance(config.downstream_offset_s,int) or
             not isinstance(config.exit_headway_s,int) or config.exit_headway_s<1):
             raise ValueError("invalid receiving link configuration")
+        if any(not isinstance(a,int) or not isinstance(b,int) or a<0 or b<=a for a,b in config.closure_windows):
+            raise ValueError("invalid exogenous closure interval")
         self.config=config
         self.occupied={}
         self.last_exit=-10**9
@@ -39,6 +42,7 @@ class ReceivingCells:
 
     def green(self,t:int)->bool:
         c=self.config
+        if any(a<=t<b for a,b in c.closure_windows):return False
         return (t+c.downstream_offset_s)%c.downstream_cycle_s<c.downstream_green_s
 
     def tick(self,t:int):
