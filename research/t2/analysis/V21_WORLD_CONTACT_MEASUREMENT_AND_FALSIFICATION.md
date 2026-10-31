@@ -76,10 +76,24 @@ field work is necessary or proposed.
 
 ## Artifact receipt
 Local executed bundle: T2_v21_world_contact_repro.zip,
-14 members, 144 simulations/720 sampling reductions,
+15 members, 144 simulations/720 sampling reductions,
 raw CSV, JSON, trace extractor, 9 tests, schema, protocol and chart.
-SHA256 68ae7f023c748c5039d6c76fbb5d0fa501a12d3d057ea934256178a0390a61ff.
+SHA256 caad9f365182da801aa9d7a31c5f53ff9e9e28c5012a060fbbbbf955522530e9.
 Archive ZIP CRC check PASS. The GitHub record is a source-of-truth
 narrative; local code and remote GitHub execution are not byte-parity
 certified in this version.
 No GitHub Actions, no workflows, no main merge.
+
+## New identifiability counterexample from the executed sweep
+Two simulated scenarios finish **exactly 59 vehicles** in 720s but
+have radically different proxy-blocked bay entrance signatures:
+- seed 0, pocket 70m, offset 40s, downstream green 15s:
+  proxy seen in **1/6** cycles.
+- seed 6, pocket 14m, offset 40s, downstream green 15s:
+  proxy seen in **6/6** cycles.
+The arrival stream AND geometry differ. This is not a causal matched
+intervention; it is a non-identifiability demonstration that aggregate
+throughput alone does not determine blocked-entrance prevalence.
+Therefore fit/validate not just exits but independently annotated
+blocked-entrance cycles and queue-tail measurements. Appendix
+IDENTIFIABILITY_V21.md is included in the final ZIP.
