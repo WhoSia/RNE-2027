@@ -25,6 +25,7 @@ class DualConfig:
     downstream_cycle_s:int=60
     downstream_green_s:int=30
     downstream_offset_s:int=0
+    receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
 
 def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     n,k=validate(c.base)
@@ -46,7 +47,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
     admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[]
     last_common_exit=-999999
-    receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s)) if c.receiver_mode=="cells" else deque())
+    receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
     for t in range(c.base.duration_s):
         while index<len(events) and events[index][0]==t:
@@ -144,7 +145,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                   "downstream_conflict_gap_s":c.downstream_conflict_gap_s,
                   "receiver_slots":c.receiver_slots,"receiver_headway_s":c.receiver_headway_s,
                   "receiver_mode":c.receiver_mode,"downstream_cycle_s":c.downstream_cycle_s,
-                  "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s},
+                  "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s,
+                  "receiver_closures":c.receiver_closures},
         "generated":len(events),"admitted":count["admitted"],
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),
