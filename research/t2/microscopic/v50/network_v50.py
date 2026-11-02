@@ -135,6 +135,8 @@ def simulate(plan:SignalPlan, demands:list[Vehicle], horizon:float=580., dt:floa
     per timestep. A separate pending demand queue records spillback beyond the model boundary.
     """
     if horizon<=0 or dt<=0:raise ValueError('time inputs')
+    if not math.isclose(horizon/dt, round(horizon/dt), rel_tol=0., abs_tol=1e-9):
+        raise ValueError('horizon must be an integer multiple of dt')
     if driver is None:driver=DriverParameters()
     vehicles={v.vid:Vehicle(vid=v.vid,born=v.born,route=v.route) for v in demands}
     arrivals=sorted(vehicles.values(),key=lambda v:(v.born,v.vid))
