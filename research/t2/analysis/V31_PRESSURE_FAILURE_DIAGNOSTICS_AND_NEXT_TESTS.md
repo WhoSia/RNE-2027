@@ -1,0 +1,7 @@
+# T2 v3.1 — Pressure policy failure diagnostics, pre-registered tests
+
+In first synthetic failed case (seed0, capacity4, main_rate .35, offset0, duration900), fixed completed 389 vs pressure heuristic 368. Controller transition counts [44,44,44] fixed and [0,3,85] pressure; receiver-denial attempts [867,624,0] fixed and [0,306,0] pressure. Because main and side service are not symmetric at origin0, the controller must exclude impossible actions; first intersection pressure never switches. Diagnostic: correlate per-junction event data and link fullness with effective service, not only switches.
+
+TEST A: Keep shared control constraints while instrumenting offered service, lost seconds, blocked-green events, phase durations, arrivals, completions by OD. TEST B: Use identical arrivals with 1800/3600s horizon and longer clearance to detect boundary effects. TEST C: Formal movement-pressure policy using turn movement set, demand and saturation rates, finite receiving capacity, separate from current heuristic. TEST D: compare 3-junction analytical SF baseline and multi-origin SUMO on matching OD to quantify structural bias. TEST E: negative test saturation conservation and independent vehicle event replay.
+
+Do not present this as a counterexample to Varaiya's throughput theorem: different assumptions and a non-equivalent heuristic. Current run archive https://drive.google.com/file/d/1qYVIIFoeQkG8t24J3BXEIYwX8JhS86Uz/view . GitHub Actions prohibited.
