@@ -1,0 +1,7 @@
+# T2 v3.8 — More diverse traffic demand: what next to implement
+
+Do not scale the present toy simulation directly into a claim about Korea. The 240-run v3.7 results show an interaction between intermediate-destination OD mix and heuristic policy rank. This is only an in-model result. Priority engineering defects: remove unused third link; implement physical downstream link after junction2, add third active signal with nontrivial side demand; explicit movement conflict matrices; destination-based turn and lane queues; crossing-time and lost-time consistency; distinguish source queue vs on-road storage and realistic travel-time dynamics.
+
+For fair baseline: fixed-time, corridor offset control, formal movement-based max-pressure with turning ratios and supply-demand restriction; fixed external OD list and common evaluation horizon. Demand diversity: freight and transit headway, bus stop blocking, pedestrian calls, grade, turning ratios, congestion waves; model each mechanism separately before interactions. Evaluate completed OD trips, residual unfinished, total vehicle-hours, queue spillback, per-origin inequality and pedestrian wait.
+
+World contact: Gyeongnam corridor first, second Gyeongnam independent setting next, then other Korean cities. Compare with SUMO and observation-based turning counts/signals. Archived RITHM Monaco evidence offers parser/experiment harness examples, not Korean calibration parameters and not a signal-optimization baseline.
