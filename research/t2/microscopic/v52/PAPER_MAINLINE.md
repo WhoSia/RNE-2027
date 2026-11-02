@@ -1,0 +1,11 @@
+# T2 — Academic paper mainline (v5.2, 2026-11-02)
+
+**Primary research objective:** Given uncertain microscopic vehicle behavior and turn-pocket storage, determine which observation types suffice to yield a reliable and stable traffic signal recommendation. The paper's intellectual object is the relation among model equivalence, observation selection, uncertainty and policy regret, not a simulator-feature comparison.
+
+**Proposed, NOT verified:** Let theta parameterize physical geometry and driving dynamics, y be observations generated under an operational baseline pi, and Θ_epsilon={theta: loss(h_pi(theta),y) <= epsilon}. Define regret R(pi,theta)=J(pi,theta)−min_{p in feasible policies} J(p,theta). Test whether queue and pocket occupancy measurements shrink worst-case regret compared with aggregate exit counts alone. No results yet prove this.
+
+**New executed engineering reference:** v5.2 prototype implements finite branching pockets on 2 real internal junctions of a 3-signal synthetic corridor; 46 tests pass, 288 exploratory and 144 holdout synthetic runs. 15m→90m affects occupancy and vehicle-hours consistently in observed seeds. That effect is *not* a novel traffic-mechanism finding. The recommendation among three prechosen policies remains stable for balanced/main-peak, but side-peak fixed32/coordinated32 ranking differs between seed cohorts, with differences too small for a confident ranking reversal.
+
+**Related prior art:** Yin et al. (2011) explicitly studied left-turn bay blocking/spillback and delay; Yang et al. (2022) modeled stochastic time-dependent queues with turn bays; Qi et al. (2007), DOI:10.3141/2023-11, proposed a storage-length model; FHWA Traffic Signal Timing Manual ch6 describes spillback and progression interactions. The novelty case requires a systematic review of robust signal control and observational identification, plus field-based independent validation.
+
+**Next experiments:** Implement actual protected turn-phase conflicts and lane transitions; parameter ensemble calibrated on training days; measurement noise and directional/queue observations; held-out regrets under identical safe OD and action set; SUMO parity and Gyeongnam external validity.
