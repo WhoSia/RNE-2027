@@ -1,0 +1,9 @@
+# T2 v4.8 — Sensor partitions × IDM pilot (2026-11-02)
+
+Executed self-contained Python prototype: 48 worlds, 4 sensor levels, 2 baseline signal splits = 8 group comparisons; 10/10 unit tests pass. For historical five-step split 5, aggregate departures give 2 observation equivalence classes, both without a shared optimizing green split among the worlds. Directional departures also give 2 equivalence classes. Adding residual queue readings yields 12 classes and zero classes without a shared optimum. Explicit main/side demand yields 12 classes and zero ambiguous classes. For split 3, aggregate counts yield 4 classes, all sharing at least one optimal policy, though individual worlds remain unidentifiable. Thus policy identifiability is not equivalent to parameter/world identifiability. All this is in a non-realistic synthetic global-signal network; split 5 gives the side roads no green.
+
+Independent IDM longitudinal link demonstration executed 300 ticks of 0.1 seconds, with stopped then moving leader at a simulated signal; minimum numerical gap 4.56656 m, maximum follower velocity 12.68997 m/s, final follower position 205.4331 m. It uses a numerical net-gap speed cap; this does not guarantee physical crash-free behavior in a general multi-car setting. NOT linked to 3-junction network. Micro-model and sensor-world model are independent components within one release.
+
+Full experimental code, unit tests, results CSV/JSON, 300-row microscopic trajectory: local ZIP T2_v48_sensor_and_idm_20261102.zip SHA256 efcf21a8a7d0f33a776a9e74c5ab5a8471dc4ce76ccfb0e749052479a29c1418.
+
+Next research gate: require feasible phase set and per-intersection independent timing, full OD, measurement noise and out-of-sample data; integrate individual vehicle agents onto network links and calibrate to field before testing signal policies.
