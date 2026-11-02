@@ -1,0 +1,9 @@
+# T2 v5.5 — synthetic geometry-derived movement conflict graph (2026-11-03)
+
+**Executed:** 12 directed movements on synthetic 4-arm lane centerlines; line-segment intersections, shared entry/exit lanes, and optional centerline clearance generate a pairwise conflict graph. At required separation 0m or 2.5m: 42 conflict pairs, 11 inclusion-maximal compatible stages, up to 4 simultaneous movements per stage. At 4.1m: 60 conflict pairs, 10 maximal stages, maximum 2 simultaneous movements. 17 new unit tests and 9 pre-existing v5.4 audit tests passed.
+
+**Modeling status:** A verified separate geometry module, not a replacement for the v5.3/v5.4 vehicle scheduler. The old event taxonomy main_through/main_exit/etc does not contain the N/E/S/W lane-to-lane movement ID needed by this geometry module. As a result, concurrent movements have NOT been integrated into vehicle discharge and NO travel time or policy-improvement experiment with the geometric stages has been conducted. Centerlines are schematic polylines, not surveyed Korean road geometry. Swept vehicle polygons, trajectory-time separation, conflicting pedestrians, lane assignment, turning radius and clearance intervals are unverified. Neither the maximal stage count nor zero conflicts constitutes proof of real intersection signal safety.
+
+**Exhibition framing:** Develop and validate a higher-fidelity intersection model where real approach and departure lanes and their legal connectivity determine the allowed signal phases. **Paper framing:** Test the sensitivity of policy choice to imperfect geometric measurements and sensor observations. Both are forward-looking until measured data and independent SUMO comparisons are obtained.
+
+**Reproducible archive:** `T2_v55_geometry_conflict_prototype_20261103.zip` (13 files including geometry.py, 17 tests, 9 legacy tests, clearance sensitivity CSV, manifest).
