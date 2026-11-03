@@ -1,0 +1,4 @@
+# v6.7-P0 — Model boundary
+Date 20261104. The new model is an independent synthetic MESOSCOPIC mechanism laboratory, NOT an integrated replacement of v6.6 2D/IDM vehicle model.
+State machine: queue main/turn -> exclusive connector -> downstream -> finished, one physical state per vehicle ID. Receiving link occupancy uses vehicle lengths plus gaps (metres): cars 4.5m+2m, trucks 11m+3m; separate discharge headways 2s/3.5s and connector times 3s/5s. Pedestrian turn restriction covers first 0s or 12s of green, not actual pedestrian trajectories.
+Missing physical details: 2D swept footprints, IDM accelerations, lane changes, actual crosswalk movement and field calibration. Keep v6.6 untouched; integrate only after matched model tests.
