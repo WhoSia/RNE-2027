@@ -1,0 +1,5 @@
+# v6.7-P1 Shared Class Contract
+Date 20261104. An independent single-junction micro prototype extends v6.2 2D and IDM with an immutable vehicle-class specification shared by following, SAT vehicle rectangles, connector rear-clearance, downstream receiving space and discharge headways.
+Car synthetic spec: length4.5m,width1.8m,min-gap2m,accel1.5m/s2,brake3m/s2,T1.3s,headway2s. Truck: length11m,width2.5m,min-gap3m,accel0.95m/s2,brake2.2m/s2,T1.9s,headway3.5s.
+The receiving threshold accounts for the existing downstream lead length + incoming vehicle length + incoming gap + 2m. The downstream desired-speed parameter now genuinely affects IDM free acceleration. This changes certain all-car baseline exposure results intentionally.
+Raw code, tests and experiments: shared Drive 20261104 Kim Woojun research folder ZIP T2_v67_P1_shared_vehicle_spec_20261104.zip. It is not a replacement for the historical three-junction corridor.
