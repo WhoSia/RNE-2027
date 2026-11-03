@@ -1,0 +1,4 @@
+# v6.7-P0 — Factorial experiment design
+256 executions: truck share 0/35%, downstream storage 30/100 metres, pedestrian turn restriction 0/12 seconds, diffuse/platooned arrivals, rate 12/24 vehicles per minute, eight common seeds. Horizon 360s; demand generated through 234s. Tests: 12 passed, vehicle conservation across all 256 runs.
+Finite-horizon exposure matched contrasts (vehicle*seconds): trucks +790.609375, turn pedestrian restriction +2470.9140625, storage 30->100m -32.70703125. Matched count of unfinished vehicles: trucks +3.289, pedestrian block +13.398, larger storage -0.477. These are synthetic scenario contrasts, not field causal estimates.
+Seeds are reused across cells, so 256 observations must not be treated as independent. The full numeric CSV and test code are in the dated Drive ZIP.
