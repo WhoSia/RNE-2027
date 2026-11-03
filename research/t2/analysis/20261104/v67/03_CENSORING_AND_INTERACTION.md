@@ -1,0 +1,4 @@
+# v6.7-P0 — Censoring and mechanism interactions
+Only 72 of 256 synthetic runs (28.125%) finished all generated vehicles by horizon. For demand 12/min, 70 of 128 complete; 24/min, 2 of 128 complete. Therefore the area under (generated-finished) vehicle count by time is finite-horizon occupancy exposure, NOT complete-journey travel time.
+Heavy-truck impact (35%-0% vehicle*seconds) by demand and storage: 12/min 30m +545.406; 12/min 100m +545.406; 24/min 30m +1014.883; 24/min 100m +1056.742. Mechanism interactions must be tested against appropriate baselines.
+Do not claim the large pedestrian penalty reflects actual pedestrians: this is an imposed phase ban and actual pedestrian arrivals are not represented. A small storage effect can result from the 4s downstream exit headway plus exclusive connector, not negligible physical spillback.
