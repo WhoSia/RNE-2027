@@ -1,0 +1,5 @@
+# T2 v5.7 — Exhibition-facing engineering achievement (2026-11-03)
+
+Integrated temporal crossing-space occupancy into the three-junction IDM microscopic network. v5.6 checked only incompatible geometry movements dispatched within the same 0.5-second timestep, whereas v5.7 also blocks a subsequent conflicting movement until a previously admitted vehicle's occupancy interval ends. Nonconflicting movement concurrency remains permitted. Historical v5.6 event logs from 72 synthetic OD replications expose 365 incompatible interval-overlap pairs under an assumed 2s duration, and 2190 under assumed 5s duration. These are violations of the new MODEL constraint, NOT observed accidents. With occupancy=0s, original outputs match exactly. Tests: 17 passing.
+
+**Unvalidated:** The 2s/5s clearance intervals are not calculated from vehicle trajectory lengths, vehicle body dimensions and observed speeds. The graph is synthetic rather than measured junction geometry; current model is not safe-signal certified. Next construct movement-specific vehicle-clearing time using geometry and micro kinematics, then compare to independent SUMO and actual field observations.
