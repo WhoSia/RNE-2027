@@ -1,0 +1,14 @@
+# T2 v5.8 — Path-derived intersection occupancy and right-turn geometry correction (2026-11-03)
+
+## Executed local research
+Historical v5.5–v5.7 synthetic right-turn polylines N>W, W>S, S>E, E>N routed via distant ±30m endpoints, with **0m length within the junction [-8,8]m square**. Locally corrected four turn polylines yield approx 8.485m clipped centreline travel each, while preserving the original 2.5m-clearance conflict graph (42 pairs, 11 maximal stages) for this specific grid.
+
+Added piecewise segment clipping and timestep-quantized path/entry-speed occupancy duration: dt × ceil(((inside-centreline length + vehicle length)/clamped entry speed + buffer)/dt), dt=0.5s, length=4.5m, speed floor 4 or 6m/s, speed cap=12m/s. This is a constant-speed crossing PROXY; not an integrated turning vehicle dynamics model, swept vehicle width, or safety proof. Existing v5.7 fixed-duration mode retained. Vehicle accounting, geometry and interval audit: 20 unittest cases PASS.
+
+Experiment: 3 synthetic traffic cohorts × 16 exploration seeds × 4 assumptions = 192 runs, plus 3 × 8 independent heldout seeds × 4 assumptions = 96; **288 executions**. Corresponding held-out mean extra vehicle-seconds vs zero occupancy: balanced fixed3=+359.56, path_floor4=+535.31, path_floor6=+353.88; main_peak +344.44, +536.63, +328.75; side_peak +207.56, +768.94, +212.75. Every heldout paired comparison was positive. This shows model sensitivity to uncertain time-reservation semantics, NOT that one proxy better predicts real junctions.
+
+Reproducible local ZIP `T2_v58_physical_occupancy_20261103.zip`, 22 files, sha256 `fddfa78293fde06f6f86ac6d1fb8a39af1cca542b11403739053bbf4b2f8102a`. Source code resides in local ZIP pending repository source synchronization. Do not misstate this GitHub audit as complete source sync.
+
+Independent comparator: SUMO official intersection docs cover internal lanes, waiting at internal junctions and turning-radius speed limits (https://sumo.dlr.de/docs/Simulation/Intersections.html). FHWA microsimulation calibration guidelines emphasize representative observed days and measured bottleneck/queue dynamics (https://ops.fhwa.dot.gov/publications/fhwahop18036/chapter5.htm). SUMO not executed; no field data acquired.
+
+Exhibition narrative: more physically dimensioned single-vehicle movements in a three-junction micro traffic engine; internal geometry errors discovered and unit-test guarded. Paper narrative: model assumptions about turning clearance alter policy comparisons; *policy nonidentifiability is not established by these runs*. Next: measured Korean lane geometry/turning speeds, true internal lane integration, conflict-point level occupation, independent SUMO and held-out empirical queue/flow validation.
