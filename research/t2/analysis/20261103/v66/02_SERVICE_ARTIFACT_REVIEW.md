@@ -1,0 +1,6 @@
+# v6.6 — Critical admission artifact identified
+v6.2 uses stop_distance/max(0.5,current_speed) for green-end admission. This is a constant-current-speed estimate, not a physically valid earliest-arrival bound when a car can accelerate.
+Synthetic counterexample: current v=0 m/s, 12.5m to line, a=1.5 m/s², turn-cap approximately 3.8 m/s. The old estimate is 25s. Bounded-acceleration earliest arrival is below 8s, with no leader or receiving blockage.
+Observed in original v6.2: seed 409, total demand 24 veh/min, side share 60%, green split main 36s / side 18s, lateral accel 1.2 m/s²: side connector admissions at t=42.25,102.25,162.25,...762.25 s (60s spacing). This is a simulator bottleneck artifact, NOT observed road saturation.
+Optional revised engine computes earliest travel-time lower bound, retaining signal/connector/receiving checks. For this same seed, 800s completions improve from 35 to 48; 20 cars remain incomplete even in revised simulation. Not a valid field capacity prediction.
+Critical caveat: earliest free-road reachability ignores leader movement and receiving supply. Being early enough in an ideal calculation is necessary but not sufficient for safe green entry. Neither mode certifies physical safety.
