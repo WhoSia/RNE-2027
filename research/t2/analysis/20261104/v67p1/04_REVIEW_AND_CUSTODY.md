@@ -1,0 +1,5 @@
+# v6.7-P1 — Promotion Gate and Custody
+Study 20261104. Shared Research OS folder 02_RESEARCH_LOG / 20261104 김우준의 사유. Full executable reproducibility ZIP includes both the original v6.2 and new v6.7 P1 2D micro engine, original mesoscopic v6.7 P0 reference, VehicleSpec, tests, 128-run factorial, 48-run fully drained independent holdout, audit and hash manifest.
+38/38 tests passed: 9 new, 17 v6.2 and 12 mesoscopic legacy.
+Verdict: accept integrated single-junction prototype; do not promote physical safety, 3-junction integration, or field predictive validity.
+Next: replace ad hoc numerical headroom with invariant-safe longitudinal integration; true 2D swept bodies and receiving cells; pedestrian movement traces; independent measured vehicle class/delay/headways; paired SUMO plus holdout day calibration. Never credit GitHub Actions bot as researcher.
