@@ -1,0 +1,5 @@
+# v6.6 — Matched admission audit (re-executed after edge-case repair)
+384 executions (192 paired comparisons): 2 demand × 2 side share × 2 arrival shape × 2 phase split × 2 lateral acceleration × 6 seed × 2 gate mechanisms.
+Mean [acceleration bound minus legacy] cumulative vehicle-seconds = −4551.96; mean completed vehicles +4.27; mean side connector admissions +2.65; all 192 pairs had lower finite-horizon exposure under the revised mode.
+Only 100 pairs have all vehicles completed in both modes; mean difference conditional on that selected subset ~−2814.31 veh·s, NOT an unselected population estimate. Remaining incomplete after 800s in 92/192 legacy and 16/192 revised runs. 0 sampled braking/queue/pose-overlap warnings is not proof of safety.
+The improved service opportunity can be expected from removing a pessimistic admission filter, so these synthetic changes are evidence of a *model correction candidate*, not a newly discovered traffic control law. Six seed clusters, no independent SUMO/field validation.
