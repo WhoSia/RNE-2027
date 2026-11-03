@@ -1,0 +1,7 @@
+# T2 v6.6-P0 — Mechanism register, 20261103
+Status: theory and synthetic sensitivity audit. No field calibration.
+Tested (original v6.2 engine): demand 12/24 veh/min; side-turn 25/60%; diffuse versus 20-second pulsed arrival; 36/18 versus 24/30 main/side green; lateral acceleration 1.2/2.4 m/s²; six or twelve seeded replications; an independent admission-time code intervention.
+Not implemented: vehicle-class lengths/acceleration, pedestrian and bicycle conflict states, downstream spillback supply, weather/visibility, stop-start delay variation, 2D lane-changing and mixed turning paths. These are research candidates, NOT current model capabilities.
+Priority: audit discharge headway first; next add class-specific geometry, occupancy and car-following consistently; then downstream receiving supply and realistic pedestrian/cycle phases; finally lane-change timing and field calibration. Never add a single 'truck fraction' scalar without changing physical footprints and headways.
+Independent validation: movement counts and departure headways by signal cycle, turning shares, signal logs including yellow/all-red, 1s vehicle trajectories, queue length and travel times on held-out days; independent SUMO with same demand and road geometry.
+FHWA 2019 microsimulation calibration encourages bottleneck throughput and time-varying demand to be calibrated separately; SUMO vType parameters specify lengths, min gaps, accelerations and driver types.
