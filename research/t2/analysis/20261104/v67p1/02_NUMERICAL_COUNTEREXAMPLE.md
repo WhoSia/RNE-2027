@@ -1,0 +1,4 @@
+# v6.7-P1 — Numerical Counterexample
+A naive mixed-fleet integration caused queue spacing warnings. In a representative stopped queue trucks ID20 and 25 were 13.9963026m apart against a 14m minimum after a trapezoid time step. The nominal 0.01m safe margin did not cover final displacement from prior speed 0.11m/s over dt=.25s.
+Prototype repair: additional 0.5m numerical margin when truck is lead or follower in IDM gap and safe-speed bound. Sampled monitored queue violations then zero. This margin is synthetic, not calibrated, and is not a mathematical continuous-time noncollision guarantee.
+Another discovered issue: old receiving admission omitted existing lead-car length. Fixed by reserving leader length, follower length and follower minimum gap. Bit-identical old-car exposure was intentionally NOT preserved; old-vs-new 3 seed baseline completed counts and connector entries match, exposure differs about +5 to +7 vehicle seconds.
