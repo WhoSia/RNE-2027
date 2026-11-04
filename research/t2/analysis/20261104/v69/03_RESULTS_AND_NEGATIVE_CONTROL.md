@@ -1,0 +1,7 @@
+# v6.9-P0 — Holdout results
+32 paired evaluation blocks from four demand regimes × two storage lengths × four never-trained seeds; all policies complete all vehicles in 27/32 cells. 23/23 regression tests passed (12 original corridor + 11 new optimizer).
+Full-joint minus independent-local finite-horizon exposure mean −137.234375 veh*s; better in 16, worse in 8, tied in 8. Mean over only 27 cells where all four policies drain: −164.037037 veh*s, descriptive subset only.
+Ablation heldout mean deltas versus local (veh*s): offset-only +48.953125, coupled green splits-only −40.765625, joint greens+offset −137.234375. On balanced demand / link 18m, jointly trained policy was 73.625 veh*s WORSE on unseen seeds. On platooned demand / link 60m it was 171.5 veh*s WORSE.
+Four-seed cluster bootstrap 95% percentile interval for full joint delta: [−270.421875,+68.40625] veh*s (15,000 draws): includes zero; broad average improvement is NOT confirmed.
+The two planned 27-plan network runs and related local-only scoring are selection computation, not independent scientific replicates. Field data count: zero. SUMO benchmark count: zero.
+On the heldout scenarios, a retrospective policy selected by looking at test outcomes is a post-hoc oracle, NOT an implementable optimizer; keep this data leakage warning visible.
