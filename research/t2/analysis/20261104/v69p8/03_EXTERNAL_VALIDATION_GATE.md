@@ -1,0 +1,3 @@
+# P8 external validation acceptance
+
+The SUMO baseline was not executed: SUMO binary missing and seven required scenario XML files missing from local runtime. Source commit pinned at 79d2e1837a9683617393c69aaf754c6bc812e3f8. Must acquire all raw files unchanged and verify hashes, install version-pinned SUMO, confirm active TLS program, log unfinished and undeparted trips, and compare the same routes and lawful signal candidates. T2 does not yet represent all Pasubio lanes and phases; a comparison without exact movement alignment must be labelled non-comparable. SUMO agreement cannot substitute for field observations.
