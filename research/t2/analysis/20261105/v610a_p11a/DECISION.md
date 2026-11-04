@@ -1,0 +1,6 @@
+# 2026-11-05 two-track implementation decision
+
+- **Built:** generalized movement-to-lane contract, arbitrary per-junction phase programs, cycle and offset support, symmetric conflict validation; new standalone event-time engine; finite candidate policy search with 54 synthetic evaluations.
+- **Verified:** 25/25 new tests, 28/28 preexisting P2 regression tests; explicit near-green-boundary gate at 48s with prior vehicle exit at 47.1 vs 48.2s. Previous P2 ZIP byte-identical SHA receipt preserved. The original P9/P10 failure on the P2 code has **not** been fixed; the new event-time engine is a separate kernel.
+- **Not supported:** full 2-junction network spillback (only independently addressable per-junction plans), downstream link traversal, conflicting permissions for same-lane turns without explicit conflict list, car-following/stopline geometry, pedestrian agent, SUMO vehicle comparison, field observations, or global continuous-signal optimizer.
+- **Decision:** GO for separate prototype development. NO-GO for promoting as current T2 validated engine or field deployment. Next implement multi-hop route state, a reference SUMO toy comparator, exact turn-level geometry and yellow/all-red operational contract, and a careful P2 migration with preserved original and paired reference cases.
