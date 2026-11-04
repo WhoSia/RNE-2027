@@ -1,0 +1,5 @@
+# T2 v6.9-P5 — 2/3/5 junction sensitivity
+
+Original P2 mesoscopic corridor was used, not a completed IDM/2D microphysical model. We ran 384 simulations: balanced/upstream_peak synthetic demand × 2/3/5 junctions × link storage 18/60 m × 8 held-out RNG seeds × 4 predefined plans (fixed, main priority, offset wave, priority wave). Generated vehicles, errors and conservation checked; 9 new P5 unit tests including exact SUMO config parsing passed.
+
+Within balanced demand at 2 junctions, fixed plan had the lowest sample mean of four policies. Under balanced demand at 3 and 5 junctions, a priority / offset plan often ranked best. In upstream_peak, priority_wave ranked best among four in all tested topology/storage cells. **This is not globally optimal**; four candidate plans only. Route distance, number of junctions and lack of J2..J4 lateral arrivals limit comparisons between topology sizes. Some 630s runs end with unfinished vehicles; exposure is finite-horizon vehicle-seconds and not the complete trip time. Source, raw CSV, test code and warning review are in Drive https://drive.google.com/file/d/1lfbBlf78cBLVFPNaSJO2gJTxuzTB67pI/view .
