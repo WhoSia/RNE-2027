@@ -1,0 +1,6 @@
+# T2 v6.9-P0 — Research return to original R&E question
+Date 20261104. Revisited source records 20261028, 20261030, 20261101 and 20261102: original target was network traffic-signal optimization, not reimplementing a traffic simulator for its own sake. Our simulator is an instrument to model nonlinear turning, finite receiving capacity, vehicle class and signal interaction.
+Research question: when does independently choosing signals at each junction differ from choosing both splits and inter-junction offset under shared demand and finite link capacity?
+Study horizon 630s, step 0.5s, two junctions, 60s cycle, 3+3s lost, 4s pedestrian-exclusive portion, main green {24,30,36}s independently per junction, downstream offset {0,12,24}s. 27 candidate joint plans.
+Objective: the time integral of generated-but-not-completed vehicle count. If unfinished vehicles exist, call it finite-horizon occupancy exposure, not total complete-trip travel time.
+This is a synthetic mesoscopic experiment with a finite shared link, not measured micro traffic. Historic P3/P5 stopline defects remain unsolved. SUMO comparison is optional independent check; we do not claim SUMO lacks the capability or that T2 invented network signal optimization.
