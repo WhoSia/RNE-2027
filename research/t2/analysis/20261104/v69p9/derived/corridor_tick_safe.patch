@@ -1,0 +1,27 @@
+--- P2_original/corridor.py
++++ P9b_exploratory/corridor_tick_safe.py
+@@ -115,6 +115,7 @@
+                 link.ids.popleft();link.used_m-=v.spec().storage_footprint_m
+                 v.location='queue';v.j=nextj;target.append(vid)
+                 events.append({'event':'receive','id':vid,'t':end,'j':nextj})
++        released_in_tick=set()
+         # A connector is not released until rear clearance, and downstream has capacity.
+         for j,conn in enumerate(connectors):
+             if conn is None or conn.clear_at>end+1e-9:continue
+@@ -134,6 +135,7 @@
+             v.time_connector_exit=end
+             events.append({'event':'connector_exit','id':conn.vid,'t':end,'j':j})
+             connectors[j]=None
++            released_in_tick.add(j)
+         # Pending staging uses bounded approach storage; no loss of arrivals.
+         for key,q in queues.items():
+             pn=pending[key]
+@@ -145,7 +147,7 @@
+                 occupied+=v.spec().storage_footprint_m
+         # Choose a compatible approach stream by phase; connectors are exclusive.
+         for j in range(cfg.n_junctions):
+-            if connectors[j] is not None:continue
++            if connectors[j] is not None or j in released_in_tick:continue
+             local_t=t-(cfg.offsets_s[j] if cfg.offsets_s else 0.)
+             if local_t<0:continue
+             timeline=cfg.timeline_at(j)
