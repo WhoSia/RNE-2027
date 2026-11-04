@@ -1,0 +1,1 @@
+A second 36-run experiment reused identical external vehicle lists for networks with one, three, and five junctions. Every run completed, with no recorded conservation errors. Mean total time grows with more travel stages, so the comparison does not isolate congestion.
