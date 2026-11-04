@@ -1,0 +1,7 @@
+# T2 v6.9-P2 — Unobserved traffic regime and minimax policy
+One fixed signal plan must serve balanced, upstream_peak, downstream_side_peak and platooned demand classes; scenario labels not observable at selection time; four synthetic classes assigned equal weight. Storage capacity is known separately as 18m or 60m.
+Training policies selected by (a) fixed 30/30/0 reference, (b) average queue occupancy exposure minimization, (c) minimax scenario regret relative to each scenario's training-optimal plan. Scenario-aware training plans are an information-privileged comparator, not implementable with unknown scenario label.
+At storage 18m: fixed plan (30,30,0) yields holdout mean 10370.4375 vehicle seconds. Mean-trained (36,24,0) yields 9360.90625; regret-trained (36,24,24) yields 9332.75. Mean-regret criterion on TRAIN: maximum regret mean-trained 1698, minimax-trained 1538.166667.
+But worst HOLDOUT gap versus scenario-specific trained comparator: mean-trained 1218.125, minimax-trained 1752.75 vehicle seconds. A lower trained worst-case regret thus did NOT translate to a lower worst-heldout gap.
+At storage 60m all three criteria select (30,30,0) and have holdout mean 6906.34375. No general advantage under that condition.
+These are synthetic and finite-grid results, not a verified robust road controller. Remaining critical faults: exclusive connector, unlabeled-demand uncertainty only, P3 stopline violation, no field, no SUMO.
