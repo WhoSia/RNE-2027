@@ -1,0 +1,7 @@
+# T2 v6.9-P5 — Bologna Pasubio external signal audit (2026-11-04)
+
+Original 670-byte `bologna/pasubio/run.sumocfg` from DLR-TS/sumo-scenarios was recovered without modification, with Git blob SHA-1 `719a216b2e870802dae52cd783f1e7a59985c7e5` verified. The actual raw original is in shared Drive at https://drive.google.com/file/d/1yyEUTboE2Q2OzUybAFNr3io7EZ8WHQ5v/view .
+
+Connected GitHub source read (full original `pasubio_tls.add.xml` blob SHA `e58995742a551256ec2aa205788027593814a2b3`) revealed eight signal programs in 63–125s cycles: controller 218=90s, 219=123s, 220=90s, 230=125s, 231=96s, 232=90s, 233=111s, 282=63s. The embedded net `programID=0` has eight 90s cycles; overrides `programID=utopia` are distinct. File `pasubio_detectors.add.xml` contains 67 e1 detector elements; net XML contains 491 lane elements. These are source inspection findings, not field observations.
+
+The T2 v6.9 optimizer assumes a uniform 60s cycle; a realistic signal import cannot silently coerce different cycles or map SUMO state characters to T2 M/S movement groups without a net.xml `linkIndex` crosswalk. New importer: 6 parser tests passed. Original SUMO configuration references 7 dependency files that have not been completely acquired, and no SUMO binary test was executed. Entire code/tests and data in derived Drive ZIP https://drive.google.com/file/d/1lfbBlf78cBLVFPNaSJO2gJTxuzTB67pI/view . No on-road optimization claim.
