@@ -1,0 +1,21 @@
+--- original_P2/corridor.py
++++ P10_variant/corridor_capacity_time_safe.py
+@@ -104,6 +104,9 @@
+             v=veh[a.vid];v.location='pending';v.j=a.origin_j
+             events.append({'event':'arrive','id':a.vid,'t':t,'j':a.origin_j})
+         exposure+=(generated-completed)*cfg.dt
++        # Freeze link occupancy at tick start: an exit recorded at end=t+dt
++        # cannot fund a connector admission timestamped at t.
++        occupancy_at_tick_start=[link.used_m for link in links]
+         # Link cars can enter receiving approach only when they have arrived.
+         for link in links:
+             while link.ids:
+@@ -162,7 +165,7 @@
+             target_speed=min(8.,cfg.downstream_speed_mps if move=='M' else 4.)
+             clearance=(connector_length+spec.length_m)/target_speed +spec.connector_clearance_buffer_s
+             if timeline.green_remaining(move,local_t)+1e-9<clearance:continue
+-            if j<cfg.n_junctions-1 and links[j].used_m+spec.storage_footprint_m>links[j].capacity_m+1e-9:
++            if j<cfg.n_junctions-1 and max(links[j].used_m,occupancy_at_tick_start[j])+spec.storage_footprint_m>links[j].capacity_m+1e-9:
+                 blocked_out+=1;continue
+             # side movement must be completely clear before WALK.
+             if move=='S' and not timeline.permitted_connector_entry('S',local_t,clearance_s=clearance):continue
