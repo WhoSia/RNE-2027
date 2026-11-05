@@ -1,0 +1,37 @@
+{
+  "study": "T2 M synthetic variable-offset planar geometry",
+  "source_type": "SYNTHETIC_NO_REAL_ROAD",
+  "independent_method": "finite difference on sampled OpenDRIVE XY coordinates; h=0.002 m",
+  "tests": [
+    {
+      "case": "ARC_CUBIC",
+      "s_m": 9,
+      "symbolic_inv_m": 0.020314350145511396,
+      "numerical_sampled_xy_inv_m": 0.02031435175959383,
+      "absolute_difference_inv_m": 1.6140824336818849e-09
+    },
+    {
+      "case": "SPIRAL_QUAD",
+      "s_m": 8,
+      "symbolic_inv_m": 0.03577989805070599,
+      "numerical_sampled_xy_inv_m": 0.03577989763625086,
+      "absolute_difference_inv_m": 4.1445512993787403e-10
+    },
+    {
+      "case": "LINE_QUAD",
+      "s_m": 7,
+      "symbolic_inv_m": 0.019426083693101805,
+      "numerical_sampled_xy_inv_m": 0.019426083682880697,
+      "absolute_difference_inv_m": 1.0221108681651714e-11
+    },
+    {
+      "case": "ARC_CONSTANT",
+      "s_m": 10,
+      "symbolic_inv_m": 0.019230769230769232,
+      "numerical_sampled_xy_inv_m": 0.019230769420786057,
+      "absolute_difference_inv_m": 1.900168251911527e-10
+    }
+  ],
+  "max_absolute_difference_inv_m": 1.6140824336818849e-09,
+  "scope": "Planar reference curves and local regular offset only. No 3D roll/grade, legal turn or safe-speed claims."
+}
