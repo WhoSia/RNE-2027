@@ -1,0 +1,10 @@
+{
+  "study":"v6.10-L D10","retrieved_date":"2026-11-05",
+  "candidate_sources":[
+    {"id":"FHWA_INFOMATERIALS_CPFM","official_url":"https://infomaterials.fhwa.dot.gov/data","measurements":"continuous pavement friction and macrotexture","available_years_note":"2026 release includes a 2026 sub-dataset","source_records_local":0,"status":"OFFICIAL_CATALOG_CONFIRMED_ROWS_NOT_DOWNLOADED","blocker":"JavaScript-dependent selection/download; not a raw-byte seal"},
+    {"id":"LTPP_MON_FRICTION","official_url":"https://infopave.fhwa.dot.gov/Data/TableExport/","measurement":"Skid Number (SN)","source_records_local":0,"status":"OFFICIAL_TABLE_SCHEMA_CONFIRMED_ROWS_NOT_DOWNLOADED","blocker":"Interactive bucket/extraction process; field rows not retrieved"},
+    {"id":"UTAH_SPAT_5502","official_url":"https://data.transportation.gov/d/j7k2-8r24","raw_records_local":0,"derived_records_external":500,"status":"REAL_SAMPLED_RECORDS_ANALYZED_IN_CONNECTED_GITHUB_NOT_PAVEMENT_FRICTION","remote_derived_original":"https://github.com/WhoSia/RNE-2027/blob/research/t2-spatial-fig2-v02/research/t2/analysis/20261105/data/utah_spat_5502_sorted_500_derived.json","remote_audit":"https://github.com/WhoSia/RNE-2027/blob/research/t2-spatial-fig2-v02/research/t2/analysis/20261105/v610l_p11l_d10/data/utah_5502_observed_state_audit_500.json"},
+    {"id":"ESMINI_XODR_STRAIGHT_500M","upstream_url":"https://github.com/esmini/esmini/blob/master/resources/xodr/straight_500m.xodr","upstream_git_blob_sha1":"87d852dafad73809ec0724260bbe9235c7cca8e5","original_bytes_local":false,"external_source_fields_verified":{"road_count":1,"road_length_m":500,"geometry":"line","lane_plus1_width_m":3.07,"lane_minus1_width_m":3.07,"lane_0_type":"driving","shoulders_plus_minus_2_width_m":1.68,"lane_material_friction_values":null},"status":"UPSTREAM_SOURCE_READ_VIA_CONNECTOR_ONLY_NOT_RAW_BYTE_LOCAL"}
+  ],
+  "rule":"Never conflate SN, friction-device outputs, macrotexture, application-dependent XODR material friction and actual effective tire grip."
+}
