@@ -17,6 +17,13 @@ class Bridge(unittest.TestCase):
  def test_missing_elevation(self):
   y=X.replace('<elevationProfile><elevation s="0" a="0" b="0.02" c="0" d="0"/></elevationProfile>','')
   self.assertEqual(sample_road_physics(y,'r',-1,10,speed_mps=10)['status'],'UNKNOWN')
+ def test_geometry_seam_right_continuity(self):
+  x=X.replace('length="20"><arc curvature="0.01"/>','length="10"><arc curvature="0.01"/>')
+  # Exact seam endpoint belongs to the new segment, as in standard lane material knots.
+  x=x.replace('<planView><geometry s="0" x="0" y="0" hdg="0" length="10"><arc curvature="0.01"/></geometry></planView>',
+       '<planView><geometry s="0" x="0" y="0" hdg="0" length="10"><line/></geometry><geometry s="10" x="10" y="0" hdg="0" length="10"><arc curvature="0.01"/></geometry></planView>')
+  self.assertAlmostEqual(sample_road_physics(x,'r',-1,10,speed_mps=10)['signed_curvature_inv_m'],.01)
+  self.assertAlmostEqual(sample_road_physics(x,'r',-1,9.99,speed_mps=10)['signed_curvature_inv_m'],0)
  def test_bad_lane(self):
   with self.assertRaises(ValueError):sample_road_physics(X,'r',-2,10,speed_mps=10)
  def test_not_field_validated(self):self.assertFalse(sample_road_physics(X,'r',-1,10,speed_mps=10)['field_validated'])
