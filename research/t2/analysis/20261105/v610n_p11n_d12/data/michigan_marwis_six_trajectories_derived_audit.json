@@ -1,0 +1,382 @@
+{
+  "study": "T2 v6.10-N / P11-N / D12",
+  "data_kind": "REAL_OBSERVED_INSTRUMENT_ESTIMATES__DERIVED_AUDIT_NOT_RAW_BYTES",
+  "source_repo": "https://github.com/AD-Assurance-Lab/dataset--winter-driving--main",
+  "source_license_note": "Check repository-specific image/metadata terms before any redistribution; only statistics and source references are preserved here.",
+  "retrieved_date": "2026-11-05",
+  "raw_data_custody": "Source GitHub files remain upstream; text retrieved through authenticated GitHub connector, file byte copies NOT saved in research ZIP. Source Git blob SHA1 captured for each file.",
+  "friction_metric": "marwis_friction (sensor reported, no independent calibration/ground truth established)",
+  "summary": {
+    "files": 6,
+    "rows": 5967,
+    "friction_changes_between_rows": 13,
+    "friction_constant_runs": 19,
+    "unique_column_names": [
+      "image_filename",
+      "timestamp_ns",
+      "timestamp_sec",
+      "latitude",
+      "longitude",
+      "altitude",
+      "orientation_x",
+      "orientation_y",
+      "orientation_z",
+      "orientation_w",
+      "angular_velocity_x",
+      "angular_velocity_y",
+      "angular_velocity_z",
+      "linear_acceleration_x",
+      "linear_acceleration_y",
+      "linear_acceleration_z",
+      "vehicle_speed_mps",
+      "vehicle_speed_mph",
+      "wheel_speed_fl_rads",
+      "wheel_speed_fr_rads",
+      "wheel_speed_rl_rads",
+      "wheel_speed_rr_rads",
+      "wheel_speed_fl_mph",
+      "wheel_speed_fr_mph",
+      "wheel_speed_rl_mph",
+      "wheel_speed_rr_mph",
+      "avg_wheel_speed_mph",
+      "wheel_slip",
+      "steering_angle_deg",
+      "throttle_pedal",
+      "brake_pedal",
+      "brake_torque_actual",
+      "abs_active",
+      "esc_active",
+      "trac_active",
+      "marwis_road_condition",
+      "marwis_friction",
+      "marwis_surface_temp_c",
+      "marwis_ice_percent",
+      "marwis_water_film_height"
+    ]
+  },
+  "files": [
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt1_sync.csv",
+      "git_blob_sha1": "e7bae3751fae6aedfabd3328ef720ce6a4ca7390",
+      "rows": 933,
+      "columns": 40,
+      "friction_rows": 933,
+      "friction_unique_distinct": 3,
+      "friction_changes": 2,
+      "friction_consecutive_blocks": 3,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615294.5090685,
+          "value": "0.276535391807556"
+        },
+        {
+          "row": 433,
+          "at_sec": 1769615303.6527655,
+          "value": "0.226697474718094"
+        },
+        {
+          "row": 871,
+          "at_sec": 1769615312.7364259,
+          "value": "0.230562746524811"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.226697474718094,
+        "median": 0.230562746524811,
+        "max": 0.276535391807556
+      },
+      "water_film_nonmissing": 933,
+      "water_film_stats": {
+        "min": 416.336975097656,
+        "median": 499.990844726563,
+        "max": 502.683502197266
+      },
+      "surface_temp_nonmissing": 933,
+      "surface_temp_stats": {
+        "min": -8.88979911804199,
+        "median": -8.84885883331299,
+        "max": -8.44709873199463
+      },
+      "first_epoch_seconds": 1769615294.5090685,
+      "last_epoch_seconds": 1769615314.039879,
+      "duration_seconds": 19.530810594558716,
+      "road_condition_counts": {
+        "snow covered": 871,
+        "snow/ice covered": 62
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt2_sync.csv",
+      "git_blob_sha1": "a312f09f95761d74786780905d1c0d79b1688c1c",
+      "rows": 968,
+      "columns": 40,
+      "friction_rows": 968,
+      "friction_unique_distinct": 3,
+      "friction_changes": 2,
+      "friction_consecutive_blocks": 3,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615358.3203447,
+          "value": "0.277963280677795"
+        },
+        {
+          "row": 258,
+          "at_sec": 1769615363.7818928,
+          "value": "0.270190417766571"
+        },
+        {
+          "row": 735,
+          "at_sec": 1769615373.8805573,
+          "value": "0.225122511386871"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.225122511386871,
+        "median": 0.270190417766571,
+        "max": 0.277963280677795
+      },
+      "water_film_nonmissing": 968,
+      "water_film_stats": {
+        "min": 411.495483398438,
+        "median": 458.024688720703,
+        "max": 521.708862304688
+      },
+      "surface_temp_nonmissing": 968,
+      "surface_temp_stats": {
+        "min": -8.98924160003662,
+        "median": -8.10104942321777,
+        "max": -7.35301876068115
+      },
+      "first_epoch_seconds": 1769615358.3203447,
+      "last_epoch_seconds": 1769615378.7013185,
+      "duration_seconds": 20.38097381591797,
+      "road_condition_counts": {
+        "snow covered": 735,
+        "snow/ice covered": 233
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt3_sync.csv",
+      "git_blob_sha1": "6bf0c67c5c93e7bb422f3be7bba8da927527afe3",
+      "rows": 959,
+      "columns": 40,
+      "friction_rows": 959,
+      "friction_unique_distinct": 3,
+      "friction_changes": 2,
+      "friction_consecutive_blocks": 3,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615414.3953154,
+          "value": "0.294896423816681"
+        },
+        {
+          "row": 494,
+          "at_sec": 1769615424.8229928,
+          "value": "0.241845846176147"
+        },
+        {
+          "row": 914,
+          "at_sec": 1769615433.8640594,
+          "value": "0.248995870351791"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.241845846176147,
+        "median": 0.294896423816681,
+        "max": 0.294896423816681
+      },
+      "water_film_nonmissing": 959,
+      "water_film_stats": {
+        "min": 411.207763671875,
+        "median": 411.207763671875,
+        "max": 495.015502929688
+      },
+      "surface_temp_nonmissing": 959,
+      "surface_temp_stats": {
+        "min": -7.99489974975586,
+        "median": -7.76833868026733,
+        "max": -7.76833868026733
+      },
+      "first_epoch_seconds": 1769615414.3953154,
+      "last_epoch_seconds": 1769615434.7745392,
+      "duration_seconds": 20.379223823547363,
+      "road_condition_counts": {
+        "snow covered": 494,
+        "snow/ice covered": 465
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete1_sync.csv",
+      "git_blob_sha1": "0b1d1e6916735440c80863e475095ef608b73aee",
+      "rows": 1114,
+      "columns": 40,
+      "friction_rows": 1114,
+      "friction_unique_distinct": 4,
+      "friction_changes": 3,
+      "friction_consecutive_blocks": 4,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615062.68532,
+          "value": "0.265721380710602"
+        },
+        {
+          "row": 44,
+          "at_sec": 1769615063.593692,
+          "value": "0.268779844045639"
+        },
+        {
+          "row": 526,
+          "at_sec": 1769615073.628109,
+          "value": "0.195994555950165"
+        },
+        {
+          "row": 1002,
+          "at_sec": 1769615083.5803316,
+          "value": "0.256334871053696"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.195994555950165,
+        "median": 0.256334871053696,
+        "max": 0.268779844045639
+      },
+      "water_film_nonmissing": 1114,
+      "water_film_stats": {
+        "min": 431.793212890625,
+        "median": 442.266357421875,
+        "max": 545.63671875
+      },
+      "surface_temp_nonmissing": 1114,
+      "surface_temp_stats": {
+        "min": -9.76418018341064,
+        "median": -9.12410449981689,
+        "max": -8.61189460754395
+      },
+      "first_epoch_seconds": 1769615062.68532,
+      "last_epoch_seconds": 1769615085.9185123,
+      "duration_seconds": 23.233192443847656,
+      "road_condition_counts": {
+        "snow covered": 1002,
+        "snow/ice covered": 112
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete2_sync.csv",
+      "git_blob_sha1": "29649d3eb305305465b1993f4c1b3675d4af784b",
+      "rows": 958,
+      "columns": 40,
+      "friction_rows": 958,
+      "friction_unique_distinct": 3,
+      "friction_changes": 2,
+      "friction_consecutive_blocks": 3,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615125.128224,
+          "value": "0.22406142950058"
+        },
+        {
+          "row": 406,
+          "at_sec": 1769615133.5897872,
+          "value": "0.219281047582626"
+        },
+        {
+          "row": 877,
+          "at_sec": 1769615143.5012374,
+          "value": "0.212512910366058"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.212512910366058,
+        "median": 0.219281047582626,
+        "max": 0.22406142950058
+      },
+      "water_film_nonmissing": 958,
+      "water_film_stats": {
+        "min": 480.957305908203,
+        "median": 511.49462890625,
+        "max": 526.722961425781
+      },
+      "surface_temp_nonmissing": 958,
+      "surface_temp_stats": {
+        "min": -9.99979400634766,
+        "median": -9.03264236450195,
+        "max": -8.98450660705566
+      },
+      "first_epoch_seconds": 1769615125.128224,
+      "last_epoch_seconds": 1769615145.175363,
+      "duration_seconds": 20.047139167785645,
+      "road_condition_counts": {
+        "snow covered": 406,
+        "snow/ice covered": 552
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete3_sync.csv",
+      "git_blob_sha1": "1890b5efa84fb1ba9fb97f866c23403d0a1ad8c6",
+      "rows": 1035,
+      "columns": 40,
+      "friction_rows": 1035,
+      "friction_unique_distinct": 3,
+      "friction_changes": 2,
+      "friction_consecutive_blocks": 3,
+      "friction_blocks": [
+        {
+          "row": 0,
+          "at_sec": 1769615218.427999,
+          "value": "0.25834733247757"
+        },
+        {
+          "row": 254,
+          "at_sec": 1769615223.7437773,
+          "value": "0.28493732213974"
+        },
+        {
+          "row": 680,
+          "at_sec": 1769615232.557993,
+          "value": "0.239881604909897"
+        }
+      ],
+      "friction_stats": {
+        "min": 0.239881604909897,
+        "median": 0.25834733247757,
+        "max": 0.28493732213974
+      },
+      "water_film_nonmissing": 1035,
+      "water_film_stats": {
+        "min": 439.098754882813,
+        "median": 454.298522949219,
+        "max": 492.66650390625
+      },
+      "surface_temp_nonmissing": 1035,
+      "surface_temp_stats": {
+        "min": -8.3919563293457,
+        "median": -8.12222862243652,
+        "max": -7.15994644165039
+      },
+      "first_epoch_seconds": 1769615218.427999,
+      "last_epoch_seconds": 1769615239.9241464,
+      "duration_seconds": 21.496147394180298,
+      "road_condition_counts": {
+        "snow covered": 680,
+        "snow/ice covered": 355
+      },
+      "notes": "MARWIS synchronized sensor records; repeated video-frame rows are not independent friction measurements."
+    }
+  ],
+  "interpretation_gates": [
+    "Rows synchronized with image frames are not independent friction measurements",
+    "Do not infer asphalt versus concrete causal effect from filenames/snow-covered sampled trajectories",
+    "Do not convert source marwis_friction directly to true tire-road grip or safe speeds",
+    "No source byte MD5/SHA256 verified locally"
+  ]
+}
