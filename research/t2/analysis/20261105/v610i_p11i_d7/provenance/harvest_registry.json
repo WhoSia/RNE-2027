@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "intake_folder_id": "1MLtYh0pv8QUZDReYzRqjDrOjRkSJAD16",
+  "canonical_folder_id": "1D2M4LHcejREhlyp6vTd71xxLLx-6ldUP",
+  "metadata_only_renamed_and_moved": true,
+  "original_pdf_bytes_sha256_verified": false,
+  "no_pdf_copies_created": true,
+  "papers": [
+    {
+      "id": "14Nw95goj4fzuuLcAKQVkMC3Ci_Sv308Y",
+      "canonical_filename": "Schwab & Kolbe (2022) — Validation of Parametric OpenDRIVE Road Space Models.pdf",
+      "pre_move_size_bytes": 1744264
+    },
+    {
+      "id": "122n7GV-E7o5skZm3qlIfLP_gTLOhalr_",
+      "canonical_filename": "Vázquez-Méndez & Casal (2016) — Clothoid Computation - A Simple and Efficient Numerical Algorithm.pdf",
+      "pre_move_size_bytes": 458545
+    },
+    {
+      "id": "1g3ebS6HmVArfUOh1u8PaP76oyRTicLoi",
+      "canonical_filename": "Vázquez-Méndez, Casal & Ferreiro (2020) — Numerical Computation of Egg and Double-Egg Curves with Clothoids.pdf",
+      "pre_move_size_bytes": 553116
+    },
+    {
+      "id": "1VknKRfmfzkzOKA04n_n7A6dcJc68ISaS",
+      "canonical_filename": "Hasan (2014) — Spiral Length Design.pdf",
+      "pre_move_size_bytes": 125076
+    },
+    {
+      "id": "17Uls-jKN1oNxgshFIPn117vfEkZAD55L",
+      "canonical_filename": "Frego (2022) — Closed Form Parametrisation of 3D Clothoids by Arclength with Both Linear Varying Curvature and Torsion.pdf",
+      "pre_move_size_bytes": 1691675
+    },
+    {
+      "id": "1hU8v4dGpsdBZkJCY7CWbJx5RX1qqJEf9",
+      "canonical_filename": "Lucas & Ortega-Yagües (2026) — A Geometric Property Characterizing the 3D-Generalized Clothoids.pdf",
+      "pre_move_size_bytes": 1846538
+    },
+    {
+      "id": "1YPrsgfAbwS0p_WmggWUvk4CrrLwJMx1E",
+      "canonical_filename": "Ionut (2026) — Explicit Cartesian Coordinates for Three-Dimensional Clothoids — preprint arXiv 2608.28636v1.pdf",
+      "pre_move_size_bytes": 389502
+    },
+    {
+      "id": "1WQMtORyBHo7-_ECRKX2UkmTb18OwXZME",
+      "canonical_filename": "Meek & Walton (1992) — Clothoid Spline Transition Spirals.pdf",
+      "pre_move_size_bytes": 1487761
+    }
+  ]
+}
