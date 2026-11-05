@@ -1,0 +1,67 @@
+{
+  "study": "T2 v6.10-N P11-N D12",
+  "status": "REAL_EXTERNAL_INSTRUMENT_SENSOR_TEXT_INSPECTED_VIA_GITHUB_CONNECTOR_DERIVED_REPORT_ONLY",
+  "source_repository": "https://github.com/AD-Assurance-Lab/dataset--winter-driving--main",
+  "retrieval_date": "2026-11-05",
+  "rows_total": 5967,
+  "friction_nonmissing_rows": 5967,
+  "total_value_change_events": 13,
+  "consecutive_constant_friction_blocks": 19,
+  "actual_independent_observation_count": "UNIDENTIFIED",
+  "sensor_name": "MARWIS",
+  "field_name": "marwis_friction",
+  "sensor_value_is_road_grip_ground_truth": false,
+  "source_raw_bytes_in_archive": false,
+  "data_licence_redistribution_not_verified": true,
+  "note": "Rows synchronize frame/video observations; 19 constant runs are NOT 19 independent calibrations. Material types from filenames only, two classes with snow/ice conditions; no material causal comparison. Field water-film units not resolved.",
+  "sources": [
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt1_sync.csv",
+      "git_blob_sha1": "e7bae3751fae6aedfabd3328ef720ce6a4ca7390",
+      "rows": 933,
+      "constant_friction_blocks": 3,
+      "sensor_min": 0.226697474718094,
+      "sensor_max": 0.276535391807556
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt2_sync.csv",
+      "git_blob_sha1": "a312f09f95761d74786780905d1c0d79b1688c1c",
+      "rows": 968,
+      "constant_friction_blocks": 3,
+      "sensor_min": 0.225122511386871,
+      "sensor_max": 0.277963280677795
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-asphalt3_sync.csv",
+      "git_blob_sha1": "6bf0c67c5c93e7bb422f3be7bba8da927527afe3",
+      "rows": 959,
+      "constant_friction_blocks": 3,
+      "sensor_min": 0.241845846176147,
+      "sensor_max": 0.294896423816681
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete1_sync.csv",
+      "git_blob_sha1": "0b1d1e6916735440c80863e475095ef608b73aee",
+      "rows": 1114,
+      "constant_friction_blocks": 4,
+      "sensor_min": 0.195994555950165,
+      "sensor_max": 0.268779844045639
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete2_sync.csv",
+      "git_blob_sha1": "29649d3eb305305465b1993f4c1b3675d4af784b",
+      "rows": 958,
+      "constant_friction_blocks": 3,
+      "sensor_min": 0.212512910366058,
+      "sensor_max": 0.22406142950058
+    },
+    {
+      "path": "metadata/mcity_wspi/jan28-highway-concrete3_sync.csv",
+      "git_blob_sha1": "1890b5efa84fb1ba9fb97f866c23403d0a1ad8c6",
+      "rows": 1035,
+      "constant_friction_blocks": 3,
+      "sensor_min": 0.239881604909897,
+      "sensor_max": 0.28493732213974
+    }
+  ]
+}
