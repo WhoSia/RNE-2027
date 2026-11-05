@@ -1,0 +1,6 @@
+# P11-F verdict — 2026-11-05
+**GO as isolated structural contract; NO-GO as complete legal road parser or travel simulator.**
+
+New tests 31/31. Combined local E historical regression and F tests 60/60. P2 original 28/28 to be separately checked. Import of 2 `type=restriction` sample node-via relations passed, unsupported via-way was retained as unresolved; no implicit ALLOW. Declared 3D level comparison prevents treating a bridge as a same-level junction in the synthetic witness, but this is a metadata audit only. A 19.5m turn pocket nominally holds floor(19.5/6.5)=3 footprint slots; this number is NOT saturation-flow capacity. A time-indexed reversible lane has `CLOSED`, `UNKNOWN`, `CONFLICT`, and a declared direction, but occupancy evacuation is not verified.
+
+Policy development continues to be frozen. Next priority: source-grounded real OSM relations; accurate coordinate/grade surface; lane-level turning geometry, source completeness and regional road law; pedestrian and cycling graph; verified public raw source custody. Keep existing experiments and ZIP immutable, manual GitHub commits only. Full list of 120 unaddressed/partially addressed factors is in UNHANDLED_VARIABLES.md. It is a chosen taxonomy, not an exhaustive count of all possible physical variables.
