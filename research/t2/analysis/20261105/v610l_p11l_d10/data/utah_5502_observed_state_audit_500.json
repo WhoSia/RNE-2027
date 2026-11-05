@@ -1,0 +1,79 @@
+{
+  "study": "T2 v6.10-L / P11-L / D10",
+  "kind": "REAL_SPAT_OBSERVATION_DERIVED_AUDIT_NOT_RAW_BYTES",
+  "original_source": "https://data.transportation.gov/resource/j7k2-8r24.json?$where=intersection_id%3D%275502%27&$order=tmstp_utc%20ASC&$limit=500",
+  "replay_from": "https://github.com/WhoSia/RNE-2027/blob/research/t2-spatial-fig2-v02/research/t2/analysis/20261105/data/utah_spat_5502_sorted_500_derived.json",
+  "original_github_blob_sha": "a4f0b923c45cf05fd155274e8bb9100922a71b64",
+  "records": 500,
+  "intersection_id": "5502",
+  "observations_begin_utc": "2025-03-01T00:00:00.052",
+  "observations_end_utc": "2025-03-01T00:00:49.965",
+  "observed_duration_s": 49.913,
+  "columns": [
+    "intersection_id",
+    "tmstp_utc",
+    "signalgroup2",
+    "signalgroup4",
+    "preempt_active",
+    "failure_flash",
+    "fixed_time_operation",
+    "signal_priority_active",
+    "traffic_dependent_operation"
+  ],
+  "gap_min_s": 0.004,
+  "gap_median_s": 0.1,
+  "gap_max_s": 1.174,
+  "transition_count": 7,
+  "transitions": [
+    {
+      "after_utc": "2025-03-01T00:00:08.156",
+      "no_later_than_utc": "2025-03-01T00:00:08.259",
+      "interval_width_s": 0.103,
+      "from": "GR",
+      "to": "YR"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:11.558",
+      "no_later_than_utc": "2025-03-01T00:00:11.660",
+      "interval_width_s": 0.102,
+      "from": "YR",
+      "to": "RR"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:13.059",
+      "no_later_than_utc": "2025-03-01T00:00:13.232",
+      "interval_width_s": 0.173,
+      "from": "RR",
+      "to": "RG"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:31.561",
+      "no_later_than_utc": "2025-03-01T00:00:31.663",
+      "interval_width_s": 0.102,
+      "from": "RG",
+      "to": "RY"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:35.530",
+      "no_later_than_utc": "2025-03-01T00:00:35.534",
+      "interval_width_s": 0.004,
+      "from": "RY",
+      "to": "RR"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:36.562",
+      "no_later_than_utc": "2025-03-01T00:00:36.664",
+      "interval_width_s": 0.102,
+      "from": "RR",
+      "to": "GR"
+    },
+    {
+      "after_utc": "2025-03-01T00:00:47.864",
+      "no_later_than_utc": "2025-03-01T00:00:47.966",
+      "interval_width_s": 0.102,
+      "from": "GR",
+      "to": "YR"
+    }
+  ],
+  "conclusion": "A real state observation sequence can validate temporal state encoding. It has neither skid/friction measurements nor a verified mapping from signal group to road movement and cannot calibrate roadway friction or traffic delays."
+}
