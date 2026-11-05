@@ -1,0 +1,13 @@
+{
+  "research_date": "2026-11-05", "study": "T2 v6.10-M / P11-M / D11",
+  "sources": [
+    {"name":"DTU LiRA-CD platoon wet-surface friction test", "record_page":"https://data.dtu.dk/articles/dataset/Data_subset_for_road_condition_modelling_-_platoon_friction_test/23096600/1", "article_api":"https://api.figshare.com/v2/articles/23096600", "doi":"10.11583/DTU.23096600.v1", "license_reported_by_publisher":"CC BY 4.0", "license_of_source_files_independently_checked":false, "file_count_reported":33, "measure":"VIAFRIK device road friction with GPS/timestamp, not necessarily effective tyre grip", "files":[
+      {"filename":"m3_custom_fric_hh.csv","file_id":41205782,"byte_size_reported":614765,"publisher_computed_md5":"96b17088e58b7a5d8e935882003ead5a","download_url":"https://ndownloader.figshare.com/files/41205782"},
+      {"filename":"m3_custom_fric_vh.csv","file_id":41205785,"byte_size_reported":615576,"publisher_computed_md5":"efef0ed2bf130a6b8b027c0870c06da2","download_url":"https://ndownloader.figshare.com/files/41205785"}
+    ], "metadata_access":"HTTP 200 from publisher article API via Firecrawl; exact field names verified", "binary_access":"HTTP 200 response contentType binary/octet-stream but scrape exposed no CSV body", "locally_downloaded_csv_rows":0, "own_computed_md5":null, "own_computed_sha256":null, "field_calibration":"NOT_STARTED"},
+    {"name":"FHWA LTPP MON_FRICTION","url":"https://infopave.fhwa.dot.gov/Data/TableExport/","raw_rows":0,"status":"TABLE_CATALOG_ONLY"},
+    {"name":"FHWA InfoMaterials CPFM","url":"https://infomaterials.fhwa.dot.gov/data","raw_rows":0,"status":"DATASET_CATALOG_AND_2026_UPDATE_CONFIRMED"},
+    {"name":"Utah observed SPaT 5502","url":"https://data.transportation.gov/d/j7k2-8r24","records_previously_analyzed":500,"new_source_rows_in_this_research":0,"status":"PREVIOUS_DERIVED_SOURCE_AVAILABLE_NOT_PAVEMENT_FRICTION"}
+  ],
+  "gate":"Do not equate VIAFRIK output / skid number / device result / OpenDRIVE material friction / tyre grip; no conversion, speed recommendation, policy experiment, or field-grade claim."
+}
