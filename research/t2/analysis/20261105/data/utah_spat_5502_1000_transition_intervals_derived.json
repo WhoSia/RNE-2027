@@ -1,0 +1,145 @@
+{
+  "kind": "DERIVED_SAMPLE_SUMMARY_NOT_SOURCE_RAW",
+  "date_recorded": "2026-11-05",
+  "official_api": "https://data.transportation.gov/resource/j7k2-8r24.json?$where=intersection_id%3D%275502%27&$order=tmstp_utc%20ASC&$limit=1000",
+  "http_status": 200,
+  "rows": 1000,
+  "intersection_id": "5502",
+  "first_observation": "2025-03-01T00:00:00.052",
+  "last_observation": "2025-03-01T00:01:39.986",
+  "groups": [
+    "signalgroup2",
+    "signalgroup4"
+  ],
+  "state_transitions": [
+    {
+      "previous_observation": "2025-03-01T00:00:08.156",
+      "next_observation": "2025-03-01T00:00:08.259",
+      "transition_interval_seconds": 0.103,
+      "from": "G/R",
+      "to": "Y/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:11.558",
+      "next_observation": "2025-03-01T00:00:11.660",
+      "transition_interval_seconds": 0.102,
+      "from": "Y/R",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:13.059",
+      "next_observation": "2025-03-01T00:00:13.232",
+      "transition_interval_seconds": 0.173,
+      "from": "R/R",
+      "to": "R/G"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:31.561",
+      "next_observation": "2025-03-01T00:00:31.663",
+      "transition_interval_seconds": 0.102,
+      "from": "R/G",
+      "to": "R/Y"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:35.530",
+      "next_observation": "2025-03-01T00:00:35.534",
+      "transition_interval_seconds": 0.004,
+      "from": "R/Y",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:36.562",
+      "next_observation": "2025-03-01T00:00:36.664",
+      "transition_interval_seconds": 0.102,
+      "from": "R/R",
+      "to": "G/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:47.864",
+      "next_observation": "2025-03-01T00:00:47.966",
+      "transition_interval_seconds": 0.102,
+      "from": "G/R",
+      "to": "Y/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:51.266",
+      "next_observation": "2025-03-01T00:00:51.368",
+      "transition_interval_seconds": 0.102,
+      "from": "Y/R",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:00:52.766",
+      "next_observation": "2025-03-01T00:00:52.869",
+      "transition_interval_seconds": 0.103,
+      "from": "R/R",
+      "to": "R/G"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:00.773",
+      "next_observation": "2025-03-01T00:01:00.872",
+      "transition_interval_seconds": 0.099,
+      "from": "R/G",
+      "to": "R/Y"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:04.171",
+      "next_observation": "2025-03-01T00:01:04.273",
+      "transition_interval_seconds": 0.102,
+      "from": "R/Y",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:05.772",
+      "next_observation": "2025-03-01T00:01:05.874",
+      "transition_interval_seconds": 0.102,
+      "from": "R/R",
+      "to": "G/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:18.777",
+      "next_observation": "2025-03-01T00:01:18.880",
+      "transition_interval_seconds": 0.103,
+      "from": "G/R",
+      "to": "Y/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:22.178",
+      "next_observation": "2025-03-01T00:01:22.280",
+      "transition_interval_seconds": 0.102,
+      "from": "Y/R",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:23.679",
+      "next_observation": "2025-03-01T00:01:24.621",
+      "transition_interval_seconds": 0.942,
+      "from": "R/R",
+      "to": "R/G"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:31.682",
+      "next_observation": "2025-03-01T00:01:31.869",
+      "transition_interval_seconds": 0.187,
+      "from": "R/G",
+      "to": "R/Y"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:35.084",
+      "next_observation": "2025-03-01T00:01:35.644",
+      "transition_interval_seconds": 0.56,
+      "from": "R/Y",
+      "to": "R/R"
+    },
+    {
+      "previous_observation": "2025-03-01T00:01:36.684",
+      "next_observation": "2025-03-01T00:01:36.787",
+      "transition_interval_seconds": 0.103,
+      "from": "R/R",
+      "to": "G/R"
+    }
+  ],
+  "transition_count": 18,
+  "maximum_observation_gap_at_transition_s": 0.942,
+  "notes": "The actual signal phase transition lies after previous_observation and on or before next_observation; all inferred exact times and full signal cycle/demand are unverified; data reserialized."
+}
