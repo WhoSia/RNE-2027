@@ -1,0 +1,464 @@
+{
+  "study": "T2 v6.10-N / P11-N / D12",
+  "date": "2026-11-05",
+  "policy_frozen": true,
+  "parent_M_sha256": "c1920301893cdfa788a94f152ad51e1deeebd802062601a69640cd0021fe2d67",
+  "tests_N_all": "211/211 PASS",
+  "original_P2_tests": "28/28 PASS",
+  "field_source_csv_original_bytes_archived": false,
+  "raw_friction_observation_rows_inspected_through_connector": 5967,
+  "distinct_consecutive_source_value_runs": 19,
+  "actual_device_measurement_independence": "UNKNOWN",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1609,
+      "sha256": "79bec87f38c926165198a9ea745bfb60122bc0503d5fcafb25e8498a48f075aa"
+    },
+    {
+      "path": "data/michigan_marwis_six_runs_derived.json",
+      "bytes": 2635,
+      "sha256": "063d3336e3ba65be52de00b5cd65fafe4effd0a93ec638679a7477ffd2268337"
+    },
+    {
+      "path": "docs/RESEARCH_DECISION_N.md",
+      "bytes": 1761,
+      "sha256": "a81adbba6d1481e70a7b78d0ef04e289b864eecba1ca5fb3f7a6d699f091e093"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/README_20261104.md",
+      "bytes": 2324,
+      "sha256": "8029f190988a134613c1a9e82938fa416d94b4fd46c86a7c7c4da43649e85496"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/RESEARCH_ADDENDUM_P2_20261104.md",
+      "bytes": 5437,
+      "sha256": "723777aad92c3410eaddc07cbd2c2127c3aa4ba346e7267ee13eae12ce13c88b"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/RESEARCH_REVIEW_20261104.md",
+      "bytes": 7622,
+      "sha256": "05b6977c0b7be02b5db9691bc6f4936825f3099703e498807648a5cbdf8e44f1"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/ablation.py",
+      "bytes": 3240,
+      "sha256": "70c3ddb1bcf1cd73ab49d0c810212a0732d8f180c72adcec428a57b1bfa5d4af"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/ablation_holdout.csv",
+      "bytes": 2429,
+      "sha256": "5cfdb2caf8b412abe6a4fa14e02f939e716be7b2fcbfa469f51c16bae8beef52"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/ablation_plans.json",
+      "bytes": 4354,
+      "sha256": "24de23a85999912051e42247c49d8e403581a0374f0551aed9d791e1664c30bb"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/ablation_summary.json",
+      "bytes": 484,
+      "sha256": "854963b7b296e30d2d3a7576151a35a6583218553bfa4f070f9478f644dddf82"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/coordinate_descent.py",
+      "bytes": 3646,
+      "sha256": "8a4435ea3185c37132a5555c9f91f40fde52b834c79caaeb7c57c5cf11740ffc"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/coordinate_details.json",
+      "bytes": 5160,
+      "sha256": "22b273652db534d8c90f954a80c10b40178e7e1f825bc64882803647fbd862e3"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/coordinate_holdout.csv",
+      "bytes": 2963,
+      "sha256": "4dbd5cbfcadb525a5aac45d4d7c6dd7caece4ea61d633a79e86b26257be79f03"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/coordinate_summary.json",
+      "bytes": 414,
+      "sha256": "41c8355be5c21f89c81df16afe6347aef0cc0802904ac7b23634ffb721605efb"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/corridor.py",
+      "bytes": 10319,
+      "sha256": "12987786fb36409a272a50233c12c006d0a23d5f75a5487be68d51392c4614cc"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/corridor_p4_original.py",
+      "bytes": 9836,
+      "sha256": "85d4921d651ad5263bd3469c8e9788c8b2d6febd9ec410c77b7a2af703095ef5"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/experiment.py",
+      "bytes": 2498,
+      "sha256": "b6174442dee50b185cc4f38ae3d802142e74e26604e90c093f17aa7aa5fb2ee2"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/experiment_summary.json",
+      "bytes": 4414,
+      "sha256": "ba88e715d85ac0e9eac045d79deda01b595e2a6b9d3e294ea3dea151f2f4bfac"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/holdout_oracle.py",
+      "bytes": 1801,
+      "sha256": "f0fd1ca204050eed4b4ce369ba81f9ad060ff457bbee688017945e100c574d39"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/holdout_oracle_summary.json",
+      "bytes": 3541,
+      "sha256": "8767308fa6b4a9967bc9d20d12d49f7f6c3a283bcb19b36c40dc040497f6074f"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/holdout_pairs.csv",
+      "bytes": 3473,
+      "sha256": "2457bd636c5cb94e3215567ae055d74142bf20516bdaaac32a1bc2e9b88df174"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/holdout_selection_regret.csv",
+      "bytes": 1141,
+      "sha256": "b54015ca7aee57d85c7367019af6f8990388320440e5073fa53f65ad75568294"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/manifest.json",
+      "bytes": 3581,
+      "sha256": "cbcee695d4cdc770ac9396c4797285f728f865eec7d656fc8df97ed084f30237"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/optimize.py",
+      "bytes": 6561,
+      "sha256": "750c54a5bf0046d554f79950f891ce8e8b3e699729762cf5782ae4568f8e9462"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/robust_design.py",
+      "bytes": 3293,
+      "sha256": "f731267ef0f0f10db09b05d67c837541cf662c6944957a7511fd3bf133f86f1d"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/robust_holdout.csv",
+      "bytes": 8326,
+      "sha256": "49abbd5b92d25e5e1cfbfa932bd79d56a9f051383342274532f24b8dba19e3e5"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/robust_summary.json",
+      "bytes": 3744,
+      "sha256": "2b92efad97531b86bdf898f9633890ee83e4624067031796743a7139e536755e"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/selected_plans.json",
+      "bytes": 3466,
+      "sha256": "270176d293cfc2d540512558b3226ee12aeeb12c5a45a2c99a705442499dd2c2"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/signal_contract.py",
+      "bytes": 3125,
+      "sha256": "351888036a84d53bf53aace0182fec7f434cd035ccf13c023b9798b983adaf08"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/statistical_review.json",
+      "bytes": 806,
+      "sha256": "40ef9c53663c1d4f1ce9a3c460f821e754ab059039e7390936bfbc63ddc45877"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/summary_analysis.py",
+      "bytes": 1704,
+      "sha256": "15a164b1f49b2e700da19bf43caa5070d0742e6a5297c78ad75a6cefae6ab7a8"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/test_coordinate.py",
+      "bytes": 712,
+      "sha256": "21495d7e81aa8b35a9e6d9b3c073ee5f612d593e319f42338da275eb4c44f1eb"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/test_corridor.py",
+      "bytes": 3424,
+      "sha256": "0862237bb4c669c22f2e44d61e35c6f4601770152df3c5a1d9f62e01abc5fcc3"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/test_optimizer.py",
+      "bytes": 2536,
+      "sha256": "8bfc7f2eb55ac3d2ef50d1797e4669c0bb20a4d38a7c58636f77b18959b1692b"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/test_robust.py",
+      "bytes": 609,
+      "sha256": "a23f71872af69d767131a7467b2632e88700e4afb7963755064981322213baf8"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/vehicle_schema.py",
+      "bytes": 1532,
+      "sha256": "18c44211b6659d3c9bf839878654ca520b7fda3b9d0e921433cef23dc1b26a4e"
+    },
+    {
+      "path": "reference/P2_original/T2_v69_P2/viability.py",
+      "bytes": 2034,
+      "sha256": "c9748f584b182fe092f2ba092c6f5324d7b10b46da39bc3f7f0b60cbc972e2bf"
+    },
+    {
+      "path": "results/N_3d_helix_witness.json",
+      "bytes": 792,
+      "sha256": "204c288f78c9ffd78e5182e391bd337f3287a5a546c08af4e1963373d57af96c"
+    },
+    {
+      "path": "src/curvature_seams.py",
+      "bytes": 1136,
+      "sha256": "7592de3b270afe8a2a17ebaef5b276b805774955df521ccd7772da0c2a244b81"
+    },
+    {
+      "path": "src/field_friction_evidence.py",
+      "bytes": 2299,
+      "sha256": "3a133dd860fef958c7f014cfcd90fa58f8c884173b9b3574800baed495812199"
+    },
+    {
+      "path": "src/friction_demand.py",
+      "bytes": 2464,
+      "sha256": "ef211a69754bd0494514fef7ab2ff2cd3aa5a098ada49977a4f82036d6367045"
+    },
+    {
+      "path": "src/grade_geometry.py",
+      "bytes": 2476,
+      "sha256": "c3659ef67b5db683da75538d5c870b9943baee7e0194bdead6f771ad45378ec6"
+    },
+    {
+      "path": "src/lane_3d_differential.py",
+      "bytes": 4993,
+      "sha256": "a33f12ea3477058842e4c845619b27c46d31c539637a16ba8c684f9b91114dd1"
+    },
+    {
+      "path": "src/lane_boundary.py",
+      "bytes": 8372,
+      "sha256": "3f24faf7cb14c835b09cdb6ac41d9e5b64d3b9be3d082ccd112880491cd47771"
+    },
+    {
+      "path": "src/lane_road_curvature.py",
+      "bytes": 2997,
+      "sha256": "e5aa52131d7111e0301b14d673fff4b5bfc7eb6fb6d7187392afe821273031cf"
+    },
+    {
+      "path": "src/marwis_frame_audit.py",
+      "bytes": 2689,
+      "sha256": "381e03620f7fb4874674b320b93fb76f1a9b23ef5e7ba463da1aa43baa29c998"
+    },
+    {
+      "path": "src/observed_spat.py",
+      "bytes": 1172,
+      "sha256": "81b74d63f2c6f105165c692f2162b04a5da1f6a9bd80b0138fb954384698353d"
+    },
+    {
+      "path": "src/opendrive_ir.py",
+      "bytes": 10917,
+      "sha256": "89a14430e1b4b6420591fe52d76b23eae484162dc0fbd68bd43d6a1d0ab1ad34"
+    },
+    {
+      "path": "src/opendrive_lateral.py",
+      "bytes": 4035,
+      "sha256": "586b93ac6dc7f82b1b8ebef58080ab5e657ec1aab7cb766aa289d82b98a59397"
+    },
+    {
+      "path": "src/osm_relations.py",
+      "bytes": 5714,
+      "sha256": "edca31905350395f5e78c10c3e91903758087f7fa64e277e688c48159911e031"
+    },
+    {
+      "path": "src/pavement_material.py",
+      "bytes": 4209,
+      "sha256": "8634935f043f65f113dcbc946a5a356a62f845e5ef0ac595e4b05b4c1cce6d18"
+    },
+    {
+      "path": "src/physical_limits.py",
+      "bytes": 2096,
+      "sha256": "efe7224f697e94cc256035c57d98c8cb3d4c0c66cf30c9c9e6f56cec8913d3fa"
+    },
+    {
+      "path": "src/road_integrity.py",
+      "bytes": 6245,
+      "sha256": "7827395fd188c37245377c828d76c87f11597abab51212a6798ae73849fda5a5"
+    },
+    {
+      "path": "src/road_ir.py",
+      "bytes": 7307,
+      "sha256": "e527adbbb930405e82b2155c73e1c15d954d7a6f23eb2dff833e3a22abc8f6b8"
+    },
+    {
+      "path": "src/road_physics_bridge.py",
+      "bytes": 2519,
+      "sha256": "2ce9c917041b2dd75ff65b0b485aa791f1050f8bb850efcf916c5ce5b77c528b"
+    },
+    {
+      "path": "src/road_rules.py",
+      "bytes": 5472,
+      "sha256": "0abb3cb383820220ae476abeb88a78161c90da713c81b15115cc042ab1946f18"
+    },
+    {
+      "path": "src/run_boundary_audit.py",
+      "bytes": 2866,
+      "sha256": "b81f895021c9d5afa46c2f314a6636e97ab6c572432f5953bbb0e42e889f0493"
+    },
+    {
+      "path": "src/run_feature_matrix.py",
+      "bytes": 2740,
+      "sha256": "16603389502d3101eb006323d00b6837e39ea4797b11453f3142fdd2ec263b44"
+    },
+    {
+      "path": "src/run_h_audit.py",
+      "bytes": 2420,
+      "sha256": "f1c47fef17aa11e35eacd801f89db1340c6bec13202eba227ce597f57b8b6119"
+    },
+    {
+      "path": "src/run_integrity_audit.py",
+      "bytes": 2022,
+      "sha256": "08642468a78c2aaf26d21531bf85830374fa29107535cb182b72bf3033191170"
+    },
+    {
+      "path": "src/run_l_audit.py",
+      "bytes": 2389,
+      "sha256": "c4141188542bfdb3c37cb348b1a48fdfb64d936a5f38fc638c4dee449a025dd1"
+    },
+    {
+      "path": "src/run_m_audit.py",
+      "bytes": 2248,
+      "sha256": "0d193ea3a9648b2bb519cb3112ebb19fa26c6c74f3b2903b5cbe4bf2c1b1a4d6"
+    },
+    {
+      "path": "src/run_material_audit.py",
+      "bytes": 2498,
+      "sha256": "d35b4e90543f13cc0ecd4d01e811105f6f6cfcb9b4bfd352497465262383203d"
+    },
+    {
+      "path": "src/run_opendrive_audit.py",
+      "bytes": 1857,
+      "sha256": "390b5bd94365e60270db69d631d7e730eaf46b3b12867613f490e7a3f9b2f090"
+    },
+    {
+      "path": "src/signal_binding.py",
+      "bytes": 2947,
+      "sha256": "f79bed92dc596500bb31d000f5827ce13d7d2d8fc6017d6e149a32f4f2a1114b"
+    },
+    {
+      "path": "src/variable_contract.py",
+      "bytes": 1237,
+      "sha256": "cec4f48c7367918e91f3dcd5d6de115ad98fbd38c16a5a140ef89bc3e59ca55a"
+    },
+    {
+      "path": "src/variable_lane_curvature.py",
+      "bytes": 3474,
+      "sha256": "d0575866741b3f95046e21104454f5a6cfeaeb0bf078fec23ef18c144516fb39"
+    },
+    {
+      "path": "src/variable_lanes.py",
+      "bytes": 1292,
+      "sha256": "401913f237e5b5fd6e54365a02b407d570a0fd0b49458df5d4fb5c3fc0c45c30"
+    },
+    {
+      "path": "tests/test_curvature_seams.py",
+      "bytes": 1077,
+      "sha256": "6c558cb2965b08537e4e736e03023f8d09a6925f278352b3bdca7167fe8b1b0c"
+    },
+    {
+      "path": "tests/test_field_friction_evidence.py",
+      "bytes": 1544,
+      "sha256": "54fa31b29c201c5d49a717bf13dc7e92a69c4e9b8664ddc68ca31c6353c87567"
+    },
+    {
+      "path": "tests/test_friction_demand.py",
+      "bytes": 1778,
+      "sha256": "ee9a53c39e5aa2fb7f874c0e8d8c1d3e091734e72c903b556b4d6093b04f5d5f"
+    },
+    {
+      "path": "tests/test_grade_geometry.py",
+      "bytes": 1766,
+      "sha256": "18268d11234ee3dcb0608442d5c530c16a90de76a5ba6e7ba3e8601c3f5d154c"
+    },
+    {
+      "path": "tests/test_lane_3d_differential.py",
+      "bytes": 3352,
+      "sha256": "59491d2462dc004a3b9a10e2f25fa493f18a5fc3be0b7b685baebe3a2a0e9221"
+    },
+    {
+      "path": "tests/test_lane_boundary.py",
+      "bytes": 4046,
+      "sha256": "929ee45a4819a3875f236a23c73d4ed72f782fdc1aea51da8a6039df37a6210c"
+    },
+    {
+      "path": "tests/test_lane_road_curvature.py",
+      "bytes": 1878,
+      "sha256": "b4813db4ed6961de5a8e230102e0f2df6ee857f85be211ab3ac4fef600bdc9f9"
+    },
+    {
+      "path": "tests/test_lateral_spiral.py",
+      "bytes": 3061,
+      "sha256": "480cb39a59383769256d3d8e67d39849e77bf8fa76277b4221481796596843c1"
+    },
+    {
+      "path": "tests/test_marwis_frame_audit.py",
+      "bytes": 1436,
+      "sha256": "dfc98174c946e5ad37ddc3d2e2d0225924881d8a1a44207d59e56025896f3208"
+    },
+    {
+      "path": "tests/test_observed_spat.py",
+      "bytes": 1081,
+      "sha256": "7db91ded8d98d73bfb56b3cfe809bbc27bd30320907f7e7fbd7b944d5baa77d8"
+    },
+    {
+      "path": "tests/test_opendrive_ir.py",
+      "bytes": 4605,
+      "sha256": "add99f5f3e2d19d26396a9f2fa00e27ed52f990e84017c742d358e1f57e3ed08"
+    },
+    {
+      "path": "tests/test_osm_relations.py",
+      "bytes": 3381,
+      "sha256": "7f25e36e2db66c8d77d11a68a8bc980d8a6dbf46398461c8e5cd6973e1f15c46"
+    },
+    {
+      "path": "tests/test_pavement_material.py",
+      "bytes": 2137,
+      "sha256": "765e01b63f9b8f90d03eccd5f2e3d85ebe4de5d63632011739e91cee300f60ed"
+    },
+    {
+      "path": "tests/test_physical_limits.py",
+      "bytes": 1354,
+      "sha256": "29d3c6fa08d332d1a0666bfe48e8df19b66f599398116a1473766c3b259bbfc3"
+    },
+    {
+      "path": "tests/test_road_integrity.py",
+      "bytes": 3345,
+      "sha256": "523a6e7e525f043a2c84f90f6d460c583773b48e74de101dfbfd05fb07b814aa"
+    },
+    {
+      "path": "tests/test_road_physics_bridge.py",
+      "bytes": 2758,
+      "sha256": "3e423f9d4bf845497fb9f9878b4f4c7f9d2709c21b6e4151539ecc9162ac5f4f"
+    },
+    {
+      "path": "tests/test_road_rules.py",
+      "bytes": 3253,
+      "sha256": "2bc9ef24d580a850bd43178d1ac4357aa0c8592b9236803ebbd3787fb8aea196"
+    },
+    {
+      "path": "tests/test_signal_binding.py",
+      "bytes": 1973,
+      "sha256": "ee037c91923a747a68b58369a728de41ba81afbcbc9b3b3fb7f6120ccd70bff1"
+    },
+    {
+      "path": "tests/test_spiral_stress.py",
+      "bytes": 1217,
+      "sha256": "2c2895d95a2d48ff1e8dcde56424947f61d2180c985b80041d685d0c428677f4"
+    },
+    {
+      "path": "tests/test_variable_curvature_independent.py",
+      "bytes": 1553,
+      "sha256": "36cd348f679734cad96fb27a937711dff37daa2ca3ca26084aaa85c71a885bf6"
+    },
+    {
+      "path": "tests/test_variable_lane_curvature.py",
+      "bytes": 2753,
+      "sha256": "b642c94e0000ab640c58a3c5aa26f3907ebd336bc9f134372905784e9dd169d2"
+    },
+    {
+      "path": "tests/test_variable_lanes.py",
+      "bytes": 1662,
+      "sha256": "01a86a06cb98bd08aabc1968cf02c91d1fa66e6d5deb34f046e86518f7b850d3"
+    }
+  ]
+}
