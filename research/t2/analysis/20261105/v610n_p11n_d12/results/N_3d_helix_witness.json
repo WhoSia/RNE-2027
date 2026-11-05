@@ -1,0 +1,25 @@
+{
+  "synthetic_helix_radius_m": 2.0,
+  "synthetic_helix_pitch_coefficient_m": 1.0,
+  "analytic_curvature_inv_m": 0.4,
+  "analytic_torsion_inv_m": 0.2,
+  "computed": {
+    "status": "SAMPLED_3D_DIFFERENTIAL_GEOMETRY_ONLY",
+    "curvature_inv_m": 0.4000000002631444,
+    "torsion_inv_m": 0.19999375026972874,
+    "sample_step_m": 0.025,
+    "sample_count": 5,
+    "field_validated": false,
+    "safe_speed_mps": null
+  },
+  "two_step_diagnostic": {
+    "status": "NUMERICAL_CONVERGENCE_DIAGNOSTIC_ONLY",
+    "step_coarse_m": 0.05,
+    "step_fine_m": 0.025,
+    "curvature_abs_difference_inv_m": 3.958691263683534e-09,
+    "certified_error_bound": false,
+    "torsion_abs_difference_inv_m": 1.874579587743397e-05
+  },
+  "field_verified": false,
+  "no_global_numeric_error_certification": true
+}
