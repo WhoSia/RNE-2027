@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "original_P2_zip_sha256": "99e5b8173bfa1e6e002193785cae5124e2df14c335b2a14ce7e0696b601c823e",
+  "original_P2_bytes_mutated": false,
+  "utm_spat_1000_intervals": {
+    "url": "https://data.transportation.gov/resource/j7k2-8r24.json?$where=intersection_id%3D%275502%27&$order=tmstp_utc%20ASC&$limit=1000",
+    "parsed_rows": 1000,
+    "observed_state_changes": 18,
+    "window_utc": [
+      "2025-03-01T00:00:00.052",
+      "2025-03-01T00:01:39.986"
+    ],
+    "bytes_sealed_original": false,
+    "derived_licensing_review_needed": true,
+    "sample_reference": "https://github.com/WhoSia/RNE-2027/blob/research/t2-spatial-fig2-v02/research/t2/analysis/20261105/data/utah_spat_5502_1000_transition_intervals_derived.json"
+  },
+  "sources": {
+    "SUMO": "https://sumo.dlr.de/docs/netconvert.html",
+    "SUMO_OSM": "https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html",
+    "SUMO_TraCI": "https://eclipse.dev/sumo/docs/TraCI/",
+    "CityFlow": "https://github.com/cityflow-project/CityFlow/blob/master/docs/source/roadnet.rst",
+    "OSMnx": "https://networkx.org/documentation/stable/auto_examples/geospatial/plot_osmnx.html",
+    "MATSim": "https://www.matsim.org/"
+  },
+  "units": {
+    "time": "seconds",
+    "length": "meters",
+    "speed": "meters per second",
+    "speed_kph": "kilometers per hour"
+  },
+  "sumo_vehicle_runs": 0,
+  "field_vehicle_prediction_runs": 0
+}
