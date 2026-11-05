@@ -1,0 +1,9 @@
+# Actual agency GTFS: attempted, NOT acquired
+
+2026-11-06 KST. Exact official publisher page: https://www.smtd.org/about-smtd/gtfs/ ; published static feed location: https://ride.smtd.org/gtfs/smtd_gtfs_feed.zip . Attempted HTTP GET with `requests` in the task's container. Result was `NameResolutionError: Failed to resolve 'ride.smtd.org'`; a separate tool-mediated download failed. **No HTTP status, byte count, original SHA-256, license-file content, agency record or timetable sample has been verified from the actual ZIP.** Never mark that feed as ingested.
+
+Additional publisher candidates for the next run: official Malaysia GET https://api.data.gov.my/gtfs-static/ktmb (government site explicitly licenses static feeds CC BY 4.0); MBTA official https://cdn.mbta.com/MBTA_GTFS.zip (reference docs); historical MBTA LAMP archived versions https://performancedata.mbta.com/ . Source URLs may change. Official GTFS fields are defined at https://gtfs.org/documentation/schedule/reference/ .
+
+The included ZIP `raw/synthetic_gtfs_fixture.zip` is **locally constructed test data**, not a feed from an agency and not observed operation. Its calendar is explicitly designed to swap `WEEK` and `HOL` on 2026-11-06; 25:15:00 is a constructed after-midnight stop event.
+
+A successful future acquisition must compute SHA-256 from raw received bytes, inspect ZIP paths and licensing, list source publisher/observed_at/file timestamps, show actual active trips for a requested service date, test calendar_dates priority, and preserve the original under Drive with a source/legal provenance note. Unsupported GTFS `frequencies.txt` triggers an explicit fail-closed exception rather than silently inventing departures. Inter-stop pathways, service exceptions across midnight, real-time delays and transfer details need further implementation.
