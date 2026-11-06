@@ -1,0 +1,13 @@
+# D33 — Fixed vs actuated OFFLINE synthetic court
+
+Date 2026-11-06. Research signal-policy track REOPENED experimentally. **Never a field deployment plan or a safety-qualified controller.**
+
+New `Actuated` receives only current upstream approach counts from the model, respecting minimum green 6 ticks, maximum green 15, and all-red clearance 2. Two approach greens are exclusive; it cannot operate a live traffic signal. Detector counts are a **coarse link occupancy proxy**, not measured stopped queue and not calibrated loop detectors. See official SUMO actuated prior art: https://sumo.dlr.de/docs/Simulation/Traffic_Lights.html . This is not an algorithm novelty claim.
+
+Existing fixed candidates (24 second cycle, approach A=6,10,14 second green, 2 second transition each side) from D30 remain unchanged. Same synthetic OD seeds, vehicle types, horizon and geometry are used across candidate comparisons. New `policy_audit` counts uncompleted vehicles and suppresses the nominal mean duration when any route is censored. Thus it cannot artificially reward a policy for leaving long-duration vehicles unfinished.
+
+Initial paired cohorts: train seeds (101,103,107,109), holdout (211,223), 28 departures each. Actuated mean 39.759s train and 40.232s holdout. Fixed A=10 gives 39.920s train and 43.125s holdout. Actuated A/C mean-duration absolute gap 2.291s train and 3.746s holdout, versus fixed10 13.243 and 10.820. No independent significance, demographic equity or real field outcome.
+
+Follow-on STRESS cohort of 18 vehicles at 3s demand headway, 28 at 2s, 40 at 1s. Exploratory train seeds (301,303,305,307), exploratory holdout (401,403,405,407). These additional cohorts were examined after observing the initial results: **not a preregistered confirmatory external test**. Actuated vs fixed10 mean holdout travel: 20.264 vs 23.514, 39.054 vs 43.679, 71.750 vs 72.988 seconds. High-load n40: fixed6 censored 1/4 holdout seeds, fixed14 censored 3/4; never compare their mean duration as if all finished. Maximum source queue and A/C disparities in raw CSV.
+
+Caveats: reference integrates positions in 1-second ticks only; no weather, geometry calibration, pedestrian safety, real detector noise, signal startup lost time or mixed adaptive timing validation. The policy uses a link occupancy proxy, which may respond to moving traffic rather than actual queue length. Limited stochastic seeds and engine-specific features invalidate external superiority claims. No causal transport to real signals. Next verify baseline representative policies on independent SUMO with aligned semantics, dynamic response under noise, and time-grid refinement, then independent field holdout.
