@@ -1,0 +1,39 @@
+{
+  "research_day":"2026-11-06",
+  "single_intersection_primary_target":{
+    "name":"DLR Urban Traffic / AIM Research Intersection, Braunschweig, Germany",
+    "version":"1.3.1","doi":"10.5281/zenodo.20919480",
+    "official_page":"https://zenodo.org/records/20919480",
+    "published_description":"32,296 trajectories, 30 traffic lights, weather and road conditions; raw ZIP ~463.4 MB",
+    "original_zip_status":"NOT_ACQUIRED","observed_queue_status":"NOT_COMPUTED",
+    "sumo_replay_status":"NOT_EXECUTED",
+    "gate_reason":"raw multi-participant trajectories + per-head phase state must be downloaded, sha256-pinned, spatially aligned and independently replayed"
+  },
+  "backup_arterial_target":{
+    "name":"CityArtery, Dongguan, China","doi":"10.17632/ftzzmh2cmt.1",
+    "url":"https://data.mendeley.com/datasets/ftzzmh2cmt/1",
+    "source_description":"14,490 UAV-extracted trajectories; 2-3 signalized intersections; signal timing records, SUMO calibration metadata; CC BY 4.0",
+    "original_files_status":"NOT_ACQUIRED"
+  },
+  "map_only_alternative":{
+    "name":"SinD Changchun Pudong, China","url":"https://github.com/SOTIF-AVLab/SinD/blob/main/Data/Changchun/Changchun_Pudong.osm",
+    "git_blob_sha1":"2670f96e9915060e8929530f5d3c4a022a159f12",
+    "xml_bytes_observed_via_connector":62867,"node_count":409,"way_count":59,"lanelet_relation_count":37,
+    "lat_range":[-0.00071081414,0.0006503426],"lon_range":[-0.00086563296,0.00050982413],
+    "coordinate_warning":"Near-zero local-looking coordinates; cannot transform into true geographic meters without georeferencing metadata",
+    "traffic_light_csv_lfs_sha256":"ebede8df767f5c0f77f33a2df14c880f6fa734925d56474dc3cc6375af401f49",
+    "traffic_light_csv_lfs_size_bytes":1721,"traffic_light_csv_status":"LFS_POINTER_ONLY",
+    "vehicle_tracks_csv_lfs_sha256":"f3011d7dc1786f940981a9d49c7f83c7860beda9d14ed0e06c995f7b7e590692",
+    "vehicle_tracks_csv_lfs_size_bytes":129987853,"vehicle_tracks_csv_status":"LFS_POINTER_ONLY"
+  },
+  "empirical_vehicle_reference":{
+    "name":"CATS-Lab public samples derived from Waymo Motion",
+    "repo":"https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign",
+    "source_status":"16_ORIGINAL_CSV_TEXTS_READ_VIA_GITHUB_CONNECTOR",
+    "local_raw_bytes_status":"NOT_SAVED", "derived_manifest":"data/cats_16_derived.json",
+    "sampling":"8 stops and 8 straight through, 91 frames each, 0.1-second sampling per README, selected by published labels",
+    "limitation":"not a single complete intersection recording; no cross-vehicle queue length, full signal programme or real policy outcomes",
+    "state_code_warning":"raw source uses -1 undocumented as well as 0 unknown; not all nearest-light states may correspond to current car's controlling movement"
+  },
+  "sumo":{"current_executable":"MISSING","netconvert":"MISSING","official_install":"https://eclipse.dev/sumo/docs/Downloads.html","version_current_documented":"1.28.0 (2026-10-08)","benchmark_verdict":"NOT_EXECUTED"}
+}
