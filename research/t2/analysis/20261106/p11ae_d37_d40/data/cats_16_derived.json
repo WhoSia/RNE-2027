@@ -1,0 +1,288 @@
+{
+  "dataset": "CATS-Lab/Data-AV-Traffic-Light-Stop-Sign (Waymo Motion derived)",
+  "source_repo": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign",
+  "provenance": "Each of 16 CSV files read via GitHub connector in this conversation on 2026-11-06; derived statistics only; original CSV bytes NOT downloaded or redistributed in local archive. Git blobs from GitHub API.",
+  "selection": "first eight names listed in each of two preexisting labeled folders; not a random sample, different locations possible",
+  "phase_codes": "README: 1 arrow red; 2 arrow yellow; 3 arrow green; 4 circular red; 5 circular yellow; 6 circular green; 7 flashing red; 8 flashing yellow; 0 unknown; -1 observed in raw samples and treated as undocumented unknown",
+  "speed_stopped_definition": "AV_speed < 0.5 m/s in an observed frame, not queue length",
+  "sample_size_qualification": "91 samples/segment at 10Hz (~9.1s recording window); 16 segments, not 1456 independent road traffic experiments",
+  "records": [
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-106.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-106.csv",
+      "github_blob_sha1": "3deb2be0f1bde940f994beda24ad395bd5e1c4de",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 0.9305322013527045,
+      "frames_below_0p5_mps": 55,
+      "red_or_red_arrow_frames": 11,
+      "green_or_green_arrow_frames": 72,
+      "observed_state_codes": [
+        0,
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-190.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-190.csv",
+      "github_blob_sha1": "a59bf71c989c1e8cd2f5d43d0a88d505dce2e016",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 0.6661541420991333,
+      "frames_below_0p5_mps": 57,
+      "red_or_red_arrow_frames": 91,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        4
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-207.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-207.csv",
+      "github_blob_sha1": "2780637b92572d5529eb30c04dd7a5da5a9d77da",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 0.31901370829547265,
+      "frames_below_0p5_mps": 73,
+      "red_or_red_arrow_frames": 61,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        0,
+        4
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-255.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-255.csv",
+      "github_blob_sha1": "8642aafc5ea3e1631347d535178d51940e461767",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 0.7363162802894994,
+      "frames_below_0p5_mps": 57,
+      "red_or_red_arrow_frames": 54,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        0,
+        4
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-285.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-285.csv",
+      "github_blob_sha1": "7cbf0005759286f712dce9dd0ef8fca48d85fcf0",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 4.236959013618416,
+      "frames_below_0p5_mps": 30,
+      "red_or_red_arrow_frames": 18,
+      "green_or_green_arrow_frames": 28,
+      "observed_state_codes": [
+        4,
+        5,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-306.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-306.csv",
+      "github_blob_sha1": "6f13b47492419355b795ef45823eb49d2786e402",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 4.572469286866241,
+      "frames_below_0p5_mps": 0,
+      "red_or_red_arrow_frames": 87,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        0,
+        4
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-309.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-309.csv",
+      "github_blob_sha1": "ecfb301c49c885169736d901578e895f5cc747c6",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 4.215794725404991,
+      "frames_below_0p5_mps": 3,
+      "red_or_red_arrow_frames": 91,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        4
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "stops_at_traffic_light",
+      "filename": "stop_before_light-training_tfexample.tfrecord-00001-of-01000-71.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/stops_at_traffic_light/stop_before_light-training_tfexample.tfrecord-00001-of-01000-71.csv",
+      "github_blob_sha1": "15b189a9b61267675cf7daa49f89f24f57b0b139",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 1.8635728000418956,
+      "frames_below_0p5_mps": 53,
+      "red_or_red_arrow_frames": 63,
+      "green_or_green_arrow_frames": 0,
+      "observed_state_codes": [
+        4,
+        5
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-137.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-137.csv",
+      "github_blob_sha1": "3e18ad307822efd8abc92f67218516aff047b882",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 7.493831165926787,
+      "frames_below_0p5_mps": 11,
+      "red_or_red_arrow_frames": 49,
+      "green_or_green_arrow_frames": 42,
+      "observed_state_codes": [
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-141.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-141.csv",
+      "github_blob_sha1": "e9b1e6facac423b6cbdd92dea4ae3805f5646295",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 9.072959321213293,
+      "frames_below_0p5_mps": 2,
+      "red_or_red_arrow_frames": 82,
+      "green_or_green_arrow_frames": 9,
+      "observed_state_codes": [
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-146.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-146.csv",
+      "github_blob_sha1": "07e56a92d34fec9a75e6ad75e8ae517531e8ac1d",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 19.898574305104685,
+      "frames_below_0p5_mps": 0,
+      "red_or_red_arrow_frames": 13,
+      "green_or_green_arrow_frames": 16,
+      "observed_state_codes": [
+        -1,
+        0,
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-16.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-16.csv",
+      "github_blob_sha1": "33d112d50ca6582208599b79c712be4c0b64d00e",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 4.384276166005293,
+      "frames_below_0p5_mps": 17,
+      "red_or_red_arrow_frames": 8,
+      "green_or_green_arrow_frames": 82,
+      "observed_state_codes": [
+        -1,
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-17.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-17.csv",
+      "github_blob_sha1": "5d592b1385cfa232e54927184e630640b7a0f5fd",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 5.035996811719967,
+      "frames_below_0p5_mps": 27,
+      "red_or_red_arrow_frames": 57,
+      "green_or_green_arrow_frames": 34,
+      "observed_state_codes": [
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-178.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-178.csv",
+      "github_blob_sha1": "659a5f8b4e991cbad1665cbbafcb39ddcad6f1b6",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 9.317361960044273,
+      "frames_below_0p5_mps": 0,
+      "red_or_red_arrow_frames": 60,
+      "green_or_green_arrow_frames": 31,
+      "observed_state_codes": [
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-263.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-263.csv",
+      "github_blob_sha1": "dcafc06e3e71e6f7ba0e4e8451c308e272d9070f",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 11.578108567457933,
+      "frames_below_0p5_mps": 0,
+      "red_or_red_arrow_frames": 29,
+      "green_or_green_arrow_frames": 40,
+      "observed_state_codes": [
+        0,
+        4,
+        6
+      ],
+      "malformed_rows": 0
+    },
+    {
+      "category": "straight_proceeds_at_traffic_light",
+      "filename": "go_through-training_tfexample.tfrecord-00001-of-01000-299.csv",
+      "url": "https://github.com/CATS-Lab/Data-AV-Traffic-Light-Stop-Sign/blob/main/interactions_with_traffic_light/straight_proceeds_at_traffic_light/go_through-training_tfexample.tfrecord-00001-of-01000-299.csv",
+      "github_blob_sha1": "ace020434d629d952cd5b7a6f4226c8227e06678",
+      "frames": 91,
+      "sample_period_s": 0.1,
+      "mean_speed_mps": 2.9477191160427876,
+      "frames_below_0p5_mps": 30,
+      "red_or_red_arrow_frames": 20,
+      "green_or_green_arrow_frames": 25,
+      "observed_state_codes": [
+        0,
+        3,
+        4
+      ],
+      "malformed_rows": 0
+    }
+  ]
+}
