@@ -1,0 +1,5 @@
+period_utc,volume_rows,publisher_movement_columns,publisher_total_events,signal_sample_instants,signal_head_count,signal_records,floor_second_unique_bins,floor_second_empty_bins,floor_second_multi_sample_bins,nearest_second_unique_bins,nearest_second_collisions,split_role
+2023-09-24T12:00:00Z/12:15:00Z,900,32,436,897,30,26910,846,54,51,897,0,development
+2023-09-24T12:15:00Z/12:30:00Z,900,27,475,899,30,26970,847,53,52,899,0,development
+2023-09-24T12:30:00Z/12:45:00Z,900,26,498,895,30,26850,838,62,57,895,0,development
+2023-09-24T12:45:00Z/13:00:00Z,900,28,450,898,30,26940,838,62,60,897,1,temporal_holdout_same_day
