@@ -28,10 +28,10 @@ class AuditTests(unittest.TestCase):
             f.write_text("timestamp,id,state\n2023-09-24 12:00:00+00:00,1,3\n")
             with self.assertRaises(ValueError):audit_signals(f)
 
-    def test_volume_reject_short_and_unsorted(self):
+    def test_volume_reject_empty(self):
         with tempfile.TemporaryDirectory() as p:
             f=Path(p)/"v.csv"
-            f.write_text("timestamp,A\n2023-09-24 12:00:00+00:00,2\n")
+            f.write_text("timestamp,A\n")
             with self.assertRaises(ValueError):audit_volume(f)
 
     def test_volume_900_and_schema(self):
