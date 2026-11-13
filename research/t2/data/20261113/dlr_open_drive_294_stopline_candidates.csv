@@ -1,0 +1,8 @@
+road_id,sign_id,dynamic,type,orientation,road_junction,s_m,road_end_distance_m,valid_lanes,classification,warnings
+100000,300606,no,294,+,-1,155.566906,0.576461,-1..-5,approach_endpoint_candidate,
+101000,300607,no,294,-,-1,0.000000,66.622609,+1,other_static_road_marking,validity_lane_is_shoulder;not_incoming
+179000,300605,no,294,+,-1,68.286569,0.529276,-1,approach_endpoint_candidate,
+201000,300600,no,294,+,-1,67.071898,0.102093,-1,approach_endpoint_candidate,
+280000,300607,no,294,+,-1,173.537797,0.243997,-1,approach_endpoint_candidate,
+300013,300604,no,294,+,300000,1.068287,40.458809,-1,junction_connector_candidate,not_incoming
+300018,300602,no,294,+,300000,0.329977,61.354296,-1,junction_connector_candidate,not_incoming
