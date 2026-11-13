@@ -6,6 +6,16 @@ import unittest
 from audit_dlr_case import audit_signals, audit_volume
 
 class FailureModeTests(unittest.TestCase):
+    def test_partial_893_rows_are_flagged_not_filled(self):
+        with tempfile.TemporaryDirectory() as t:
+            p=Path(t)/"v.csv"
+            base=datetime(2023,9,24,23,30,7,tzinfo=timezone.utc)
+            p.write_text("timestamp,A\n"+"".join(f"{(base+timedelta(seconds=i)).isoformat()},0\n" for i in range(893)))
+            data=audit_volume(p)
+            self.assertTrue(data["partial_window"])
+            self.assertEqual(data["rows"],893)
+            self.assertAlmostEqual(data["coverage_ratio"],893/900)
+
     def test_unsorted_volume_rejected_even_at_900_rows(self):
         with tempfile.TemporaryDirectory() as t:
             p=Path(t)/"v.csv"
