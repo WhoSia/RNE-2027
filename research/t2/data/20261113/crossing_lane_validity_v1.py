@@ -16,7 +16,7 @@ def lane_ranges(road,s):
     section=max(ss,key=lambda x:float(x.get("s")))
     local=s-float(section.get("s"))
     offsets=[x for x in road.findall("./lanes/laneOffset") if float(x.get("s"))<=s+1e-7]
-    offset=poly(max(offsets,key=lambda x:float(x.get("s"))),s-max(offsets,key=lambda x:float(x.get("s"))).get("s")*1.0) if offsets else 0.0
+    offset=poly(max(offsets,key=lambda x:float(x.get("s"))),s-float(max(offsets,key=lambda x:float(x.get("s"))).get("s"))) if offsets else 0.0
     out={}
     for sign,side in [(-1,"right"),(1,"left")]:
         total=0.
