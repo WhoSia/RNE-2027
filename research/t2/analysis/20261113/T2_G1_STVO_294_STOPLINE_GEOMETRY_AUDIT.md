@@ -44,3 +44,13 @@ Next: validate the source `geoReference` transform, map reference lines to lane 
 - German government StVO Anlage 2: https://www.gesetze-im-internet.de/stvo_2013/anlage_2.html
 - DLR original dataset v1.3.1: https://zenodo.org/records/20919480
 - Research OS originally stored map in DLR-UT extracted original files. No map bytes were modified.
+
+## Later 2026-11-13 extension: verified map projection and real trajectory proximity
+
+The map's exact `geoReference` uses the same Transverse Mercator definition as trajectory EPSG:32632, except false easting and northing. `pyproj 3.7.2` verified for **this map only**: `x_local = UTM_E - 604763 m`; `y_local = UTM_N - 5792795 m`. Raw trajectory coordinate pairs (604746.796,5792790.916) and (604810.383,5792808.425) map to (-16.204,-4.084) and (47.383,13.425) m, respectively.
+
+One explored 23:30–23:45 UTC original CSV contains 8,624 20Hz poses from 37 track IDs. Distinct IDs within radius 5m of four inbound stop-line *reference points*: roads 100000/179000/201000/280000 have 4/2/6/2. These **14 object/road proximity pairs are not validated car counts or stop-line crossing events**. The publisher's classification probabilities include non-cars, and actual lane centerline/line crossing are not yet established. Derived id, timestamp and distances are committed to `research/t2/data/20261113/dlr_2330_track_stopline_reference_proximity.csv`.
+
+Local eight geometry+CRS tests passed. MCP-Hub independently confirmed seven source-derived CSV rows had uniform 17-column structure; this is not traffic validation. Exact locally run source, tests, figure, CSV and SHA manifest are preserved in [Drive G1 V2](https://drive.google.com/file/d/1AK20rUWmzBqJx0zdz_1DvtrvJUabQ1d3/view) (134153 bytes, local SHA256 `6299dfac7bace24e62900a8bee4a8a8fde6f2541ba899b4d5f61573c688cff97`). Drive file metadata size verified but remote full-byte hash not re-read. GitHub lightweight extractor is independently authored, **not byte-identical** to this executed ZIP.
+
+G1 remains **PARTIALLY RESOLVED**: lane-specific stop-line segments, per-track orientation/vehicle classification, 30 signal-head/movement mapping and independent observation GT remain open. Preserved prospective holdout 18:00–18:30 UTC remains unopened.
