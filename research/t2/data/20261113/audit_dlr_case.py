@@ -39,11 +39,11 @@ def audit_volume(path: str | Path) -> dict:
                     raise ValueError("negative count")
                 totals[movement] += val
             rows += 1
-        if rows != 900:
-            raise ValueError(f"15-minute publisher series should contain 900 records; got {rows}")
+        if not 0 < rows <= 900:
+            raise ValueError(f"15-minute publisher series has impossible row count: {rows}")
         if len(set(times)) != rows or any(b-a != timedelta(seconds=1) for a,b in zip(times,times[1:])):
             raise ValueError("volume timestamps should be unique, consecutive seconds")
-        return {"filename":path.name, "rows":rows,"movement_columns":len(movements),
+        return {"filename":path.name, "rows":rows,"expected_rows":900,"partial_window":rows<900,"coverage_ratio":rows/900,"movement_columns":len(movements),
                 "start_utc":times[0].isoformat(), "end_utc":times[-1].isoformat(),
                 "total_publisher_volume":sum(totals.values()),
                 "movements":dict(sorted(totals.items()))}
