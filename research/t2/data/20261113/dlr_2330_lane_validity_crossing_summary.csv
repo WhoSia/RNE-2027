@@ -1,0 +1,6 @@
+road_id,wide_20m_reference_crossings,lane_validity_candidates,excluded_by_lane_validity
+100000,5,5,0
+179000,5,0,5
+201000,7,2,5
+280000,0,0,0
+TOTAL,17,7,10
