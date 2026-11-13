@@ -1,0 +1,11 @@
+state_code,official_description,short_code
+0,Traffic light status is unavailable.,unavailable
+1,Traffic light is off.,off
+2,Stop required before proceeding.,stop_required
+3,"Red light, stop and wait.",red
+4,Red light and yellow light.,red_yellow
+5,Green light.,green
+6,"Green light, protected movement allowed.",green_protected
+7,Yellow light.,yellow
+8,"Yellow light, protected movement allowed.",yellow_protected
+9,Yellow light flashing.,yellow_flashing
