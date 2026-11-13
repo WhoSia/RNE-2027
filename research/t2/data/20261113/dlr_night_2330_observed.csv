@@ -1,0 +1,2 @@
+window_utc,trajectory_rows,trajectory_unique_ids,trajectory_columns,signal_sample_instants,signal_head_count,signal_records,volume_rows,volume_movement_columns,volume_start_utc,volume_end_utc,volume_publisher_total,volume_partial_900_window,interpretation
+2023-09-24T23:30:00Z/23:45:00Z,8624,37,21,899,30,26970,893,12,2023-09-24T23:30:07Z,2023-09-24T23:44:59Z,17,TRUE,Source CSV content inspected; no zero-filling of unobserved 7 seconds
