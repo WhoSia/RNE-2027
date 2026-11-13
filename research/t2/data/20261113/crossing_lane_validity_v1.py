@@ -6,7 +6,22 @@ road-reference-line center crossings, NOT human-verified stopline truth.
 import argparse,csv,math,xml.etree.ElementTree as ET
 from collections import defaultdict
 from datetime import datetime
-from stopline_candidates import reference_xy
+def reference_xy(road,s):
+    geoms=[g for g in road.findall("./planView/geometry") if float(g.get("s"))<=s+1e-8]
+    if not geoms:raise ValueError("no matching OpenDRIVE geometry")
+    g=max(geoms,key=lambda z:float(z.get("s")))
+    ds=s-float(g.get("s"))
+    if ds<-1e-7 or ds>float(g.get("length"))+1e-5:raise ValueError("out of geometry bounds")
+    x,y,heading=(float(g.get(k)) for k in ("x","y","hdg"))
+    if g.find("line") is not None:return x+ds*math.cos(heading),y+ds*math.sin(heading)
+    arc=g.find("arc")
+    if arc is None:raise ValueError("unsupported geometry (spiral/poly3)")
+    curvature=float(arc.get("curvature"))
+    if abs(curvature)<1e-12:return x+ds*math.cos(heading),y+ds*math.sin(heading)
+    angle=curvature*ds
+    return (x+2*math.sin(angle/2)/curvature*math.cos(heading+angle/2),
+            y+2*math.sin(angle/2)/curvature*math.sin(heading+angle/2))
+
 
 def poly(node,u):
     return sum(float(node.get(k,"0"))*u**j for j,k in enumerate("abcd"))
