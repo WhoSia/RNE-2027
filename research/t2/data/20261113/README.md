@@ -38,3 +38,14 @@ V3 SHA-256: `5ca9d84b3945614a1d9150808dc7f91cbabf4040909b48bb62944c3d14c1ab89`.
 The 18:00–18:30 UTC raw contents remain prospectively reserved; do not inspect them until rules are frozen.
 
 Active acquisition and validation gates: [DLR G1](https://github.com/WhoSia/RNE-2027/issues/2), [Seoul G2](https://github.com/WhoSia/RNE-2027/issues/3), [CityArtery G3](https://github.com/WhoSia/RNE-2027/issues/4).
+
+
+## 2026-11-13 G1 addendum — semantics corrected
+
+The map's seven `<signal>` XML objects are **static German StVO 294 stop-line markings**, *not* a one-to-one subset of the 30 traffic-light-head states. Only six distinct map object IDs (300607 is reused). We classified four incoming-road-end markings (roads 100000,179000,201000,280000), two junction connector markings and one other marking with `laneValidity +1` corresponding to a shoulder lane. A verified `pyproj` transform for **this exact map** converts raw trajectory EPSG:32632 coordinates into map coordinates via `x_local=easting-604763 m`, `y_local=northing-5792795 m`.
+
+A real 23:30–23:45 UTC raw trajectory file has 8,624 poses and 37 object IDs; 14 object/approach pairs came within 5m of the four approach stop-line **reference points** (4/2/6/2 respectively). These objects include non-car participants; they are proximity events, not vehicle stop-line crossing ground truth. Original 18:00–18:30 holdout has not been inspected.
+
+Details: `research/t2/analysis/20261113/T2_G1_STVO_294_STOPLINE_GEOMETRY_AUDIT.md`; derived references: `dlr_open_drive_294_stopline_candidates.csv`, `dlr_2330_track_stopline_reference_proximity.csv`.
+
+German StVO evidence: https://www.gesetze-im-internet.de/stvo_2013/anlage_2.html .
