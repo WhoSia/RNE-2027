@@ -4,7 +4,7 @@ from stopped_tracks import summarize
 
 
 def test_crossing_track_remains_distinct_and_long_runs_count_once():
-    data = """Type,vedio-id,Track ID-new,Time [s]-new,Speed [km/h]
+    data = """Type, vedio-id, Track ID-new, Time [s]-new, Speed [km/h]
 Car,1,7,0,0
 Car,1,7,1.001,0
 Car,1,7,2.002,1
@@ -25,7 +25,7 @@ Pedestrian,2,7,2.002,1
 
 
 def test_gap_cannot_create_a_stop_episode():
-    data = """Type,vedio-id,Track ID-new,Time [s]-new,Speed [km/h]
+    data = """Type, vedio-id, Track ID-new, Time [s]-new, Speed [km/h]
 Car,1,7,0,0
 Car,1,7,1.001,0
 Car,1,7,4.004,0

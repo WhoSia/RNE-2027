@@ -15,7 +15,7 @@ def summarize(stream, cutoff_kmh=2.0, min_span_s=2.0, max_gap_s=1.1):
     episodes = Counter()
     observed = Counter()
     with_episode = set()
-    rows = DictReader(stream)
+    rows = DictReader(stream, skipinitialspace=True)
     for row in rows:
         category = row["Type"].strip()
         key = row["vedio-id"].strip(), row["Track ID-new"].strip()
