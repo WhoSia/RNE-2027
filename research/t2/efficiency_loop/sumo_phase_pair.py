@@ -21,11 +21,14 @@ DEMAND = tuple(Arrival(f"v{i:02}", 2*i, "L" if i % 3 == 1 else "T")
                for i in range(24))
 
 
-def phases(left_first):
+def phases(left_first, *, yellow=True):
     through = ((24, "Gr"), (3, "yr"), (2, "rr"))
     left = ((12, "rG"), (3, "ry"), (2, "rr"))
     order = left + through if left_first else through + left
-    return order + ((14, "rr"),)
+    cycle = order + ((14, "rr"),)
+    if yellow:
+        return cycle
+    return tuple((length, state.replace("y", "r")) for length, state in cycle)
 
 
 def write(folder, name, element):
@@ -33,7 +36,9 @@ def write(folder, name, element):
     ET.ElementTree(element).write(folder / name, encoding="utf-8", xml_declaration=True)
 
 
-def prepare(folder, left_first):
+def prepare(folder, left_first, *, yellow=True, tau=1):
+    if not isfinite(tau) or tau <= 0:
+        raise ValueError("Krauss tau must be finite and positive")
     folder.mkdir(parents=True, exist_ok=True)
     nodes = ET.Element("nodes")
     for name, x, y in (("in", -100, 0), ("j", 0, 0), ("straight", 40, 0), ("left", 0, 40)):
@@ -53,11 +58,11 @@ def prepare(folder, left_first):
                                                    "tl": "j", "linkIndex": str(index)})
     signals = ET.Element("tlLogics")
     program = ET.SubElement(signals, "tlLogic", id="j", type="static", programID="0", offset="0")
-    for duration, state in phases(left_first):
+    for duration, state in phases(left_first, yellow=yellow):
         ET.SubElement(program, "phase", duration=str(duration), state=state)
     routes = ET.Element("routes")
     ET.SubElement(routes, "vType", id="car", carFollowModel="Krauss", sigma="0",
-                  accel="2", decel="4.5", tau="1", minGap="2", length="4.5", maxSpeed="10")
+                  accel="2", decel="4.5", tau=format(tau, "g"), minGap="2", length="4.5", maxSpeed="10")
     for trip in DEMAND:
         vehicle = ET.SubElement(routes, "vehicle", id=trip.ident, type="car", depart=str(trip.time),
                                 departLane="1" if trip.movement == "L" else "0",
@@ -104,7 +109,7 @@ def outcome(crossings):
                                            for t in DEMAND)}
 
 
-def validate_network(network, left_first):
+def validate_network(network, left_first, *, yellow=True):
     root = ET.parse(network).getroot()
     links = {(c.get("to"), c.get("fromLane"), c.get("linkIndex"))
              for c in root.findall("./connection") if c.get("from") == "A" and c.get("tl") == "j"}
@@ -119,7 +124,7 @@ def validate_network(network, left_first):
 
     # netconvert can coalesce adjacent phases with the same signal state.
     if (program.get("type") != "static" or float(program.get("offset", "nan")) != 0
-            or state_timeline(compiled) != state_timeline(phases(left_first))):
+            or state_timeline(compiled) != state_timeline(phases(left_first, yellow=yellow))):
         raise ValueError("Compiled TLS phase program differs from input")
 
 
@@ -149,7 +154,7 @@ def crossing_times(fcd, step):
     return crossed
 
 
-def execute(folder, left_first):
+def execute(folder, left_first, *, yellow=True, step=.25):
     from hashlib import file_digest
     import shutil
     import subprocess
@@ -164,7 +169,8 @@ def execute(folder, left_first):
     missing = [name for name, path in binaries.items() if not path]
     if missing:
         return report | {"sumo_status": "NOT_EXECUTED", "missing": missing}
-    step = .25
+    if step not in (.25, .5, 1):
+        raise ValueError("unsupported simulation step")
     commands = ([binaries["netconvert"], "--node-files", inputs[0], "--edge-files", inputs[1],
                  "--connection-files", inputs[2], "--tllogic-files", inputs[3],
                  "--no-internal-links", "true", "--output-file", "model.net.xml"],
@@ -175,7 +181,7 @@ def execute(folder, left_first):
                  "--tripinfo-output.write-unfinished", "true", "--tripinfo-output.write-undeparted", "true"])
     try:
         subprocess.run(commands[0], cwd=folder, check=True, capture_output=True, text=True, timeout=60)
-        validate_network(folder / "model.net.xml", left_first)
+        validate_network(folder / "model.net.xml", left_first, yellow=yellow)
         run = subprocess.run(commands[1], cwd=folder, check=True, capture_output=True, text=True, timeout=90)
         if "collision" in run.stderr.lower():
             raise ValueError("SUMO reported a collision")
