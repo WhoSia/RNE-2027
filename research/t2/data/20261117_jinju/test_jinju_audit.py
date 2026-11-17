@@ -11,7 +11,7 @@ class JinjuAuditTest(TestCase):
         with self.assertRaises(ValueError):
             vector("1/-1", 2)
 
-    def test_distinguishes_byte_level_row_equivalence_from_key_collisions(self):
+    def test_distinguishes_parsed_row_equivalence_from_key_collisions(self):
         row = ["2025-11-01 00:00:01", "2025-11-01 00:00:15", "site", "1",
                "2/0/0/0/4/0", "2/0/0/0/0/0/0"] + [""] * 10
         changed = row.copy()
