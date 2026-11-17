@@ -19,7 +19,7 @@ effects need not be the same across demand worlds or plan orders.
 
 ## Interpretation
 
-Retain seven mutually exclusive labels. Actual entry comes first.
+Retain six mutually exclusive labels. Actual entry comes first.
 Otherwise, a through vehicle at the stop line plus full receiving link
 means downstream blockage, possibly accompanied by a shared-FIFO
 signature. With no stop-line through vehicle, report the shared-FIFO
