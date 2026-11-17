@@ -38,3 +38,34 @@ stop-line presence, actual discharge, fork FIFO order and receiving
 entry room independently. Unknown coverage, an uncertain phase
 transition, or unverified lane mapping must remain unknown. Do not
 substitute counts from a later interval for contemporaneous occupancy.
+
+## Results
+
+The 96 synthetic runs cover 12 demand worlds, two phase orders and
+four capacity pairs. Each capacity pair contributes 2,688 scheduled
+through opportunities across both directions. All labels are counts of
+opportunities, which can repeat for an individual vehicle.
+
+| Left bay / through link | Served | No through demand | Upstream pending | Pocket signature | Downstream blocked | Joint signature |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 / 12 | 1,207 | 725 | 60 | 683 | 4 | 9 |
+| 1 / 2 | 666 | 141 | 27 | 174 | 1,237 | 443 |
+| 5 / 12 | 1,440 | 996 | 91 | 150 | 0 | 11 |
+| 5 / 2 | 714 | 149 | 33 | 0 | 1,774 | 18 |
+
+With left bay 1 and through link 12, left-first is cheaper in all 12
+worlds. With left bay 5 and through link 2, through-first is cheaper in
+8 of the same 12 worlds. Comparing the two corner cases changes both
+storage settings, so this is a rank reversal across conditions, not
+a one-factor explanation. In the small through link cells, enlarging
+the bay decreases the joint label and increases the downstream-only
+label. A change in either label by itself is a poor measure of total
+delay or real-world benefit.
+
+Reproduce with
+`python green_service_experiment.py ../analysis/20261117/green-service/grid.json`
+from this directory. [Paired simulation data](../analysis/20261117/green-service/grid.json)
+retains per-cell costs and pre-service examples. Dayparts and storage
+conditions in this run are synthetic settings, and the protected-stage
+model does not implement a shared downstream lane, calibrated vehicle
+dynamics, or a spatial blocking event at the stop line.
