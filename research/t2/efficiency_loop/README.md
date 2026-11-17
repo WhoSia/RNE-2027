@@ -52,3 +52,7 @@ python policy_replay.py results/policy_deep.json results/schedule_transfer.json
 python start_sensitivity.py results/policy_deep.json results/start_sensitivity.json
 python sind_signal.py downloaded_signal.csv results/sind_tianjin_signal.json --site tianjin
 ```
+
+## 직진 방출 기회 진단
+
+[포켓·하류 용량을 교차한 합성 실험](GREEN_SERVICE_DIAGNOSIS.md)은 직진 차량이 없던 기회, 포켓 앞 공유 FIFO 대기, 하류 만차, 두 조건의 동시 관측을 구별한다.
