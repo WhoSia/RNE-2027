@@ -1,0 +1,9 @@
+# Tan et al. (2025), the full article and our comparison
+
+Chaopeng Tan, Yue Ding, Kaidi Yang, Hong Zhu and Keshuang Tang. IEEE Transactions on Intelligent Transportation Systems, 26(12), pp. 21635–21650. [Article DOI](https://doi.org/10.1109/TITS.2025.3606559).
+
+Section V-A builds movement-specific arrival-rate boxes directly from bounds inferred using connected-vehicle trajectories. Queued and non-queued trajectories matter differently, and residual queues change the bounding argument. Fixed-time boxes use a time-of-day cohort. Real-time boxes use a short rolling window with historical supplementation when needed. This changes uncertainty over the inputs to the control problem. Section V-B minimizes the worst objective across the box. Section V-C takes a robust counterpart of the resulting optimization.
+
+Sections VI–VIII report fixed-time intersection, real-time intersection and network case studies. The fixed-time site motivates and calibrates a SUMO model. It reports a field-derived schedule with three seconds yellow and one second red clearance, and uses start-up and yellow lost-time assumptions in the model. Section VII fixes the phase sequence in its real-time intersection case. The reported simulation comparisons provide precedent for robust control and a baseline for stating T2's narrower decision problem.
+
+T2 conditions on which arrival sequences and pocket states remain compatible with pre-decision information. For each compatible world it evaluates the same fixed leading and lagging alternatives, minimizes worst excess cost relative to the better of those alternatives and asks whether a specific sensor actually changes the decision. A route to comparison is to compute minimax absolute cost and minimax regret on the same worlds before changing the demand set, then compare held-out envelope coverage with a shared forecast cutoff. No attempt is made to reproduce Tan's calibration or full controller in the D51 probe.
