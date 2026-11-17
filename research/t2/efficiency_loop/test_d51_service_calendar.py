@@ -32,3 +32,11 @@ class FinitePocketCalendar(TestCase):
         self.assertEqual((lag.unserved, lead.unserved), (0, 0))
         delta = round((lead.mean_vehicle_delay_s - lag.mean_vehicle_delay_s) * len(arrivals))
         self.assertEqual((bound.low, bound.high, bound.paths), (delta, delta, 1))
+
+    def test_fixed_late_arrival_reverses_sign_when_amber_service_is_added(self):
+        p = Params(horizon_s=130, left_capacity=2, intergreen_s=5)
+        observed = {tick: ("L" if tick == 11 else "",) for tick in range(12)}
+        tight = exact(12, ((0, 1),), p, observed=observed)
+        extended = exact(12, ((0, 1),), replace(p, amber_service_s=3), observed=observed)
+        self.assertEqual((tight.low, tight.high), (31, 31))
+        self.assertEqual((extended.low, extended.high), (-17, -17))
