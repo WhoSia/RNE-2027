@@ -49,8 +49,8 @@ period and reserve the field comparison until the observable join is validated.
 
 ## Reference candidates
 
-- Ashqer et al., “Estimating Queue Length, Spillback, and Delay Using
-  Trajectories of Probe Vehicles,” [journal](https://doi.org/10.1080/19427867.2023.2204249),
+- Ashqer et al., “Evaluating a Signalized Intersection Performance Using
+  Unmanned Aerial Data,” [journal](https://doi.org/10.1080/19427867.2023.2204249),
   [open preprint](https://arxiv.org/abs/2207.08025). Validate proxy and queue definitions against trajectories.
 - Christofa, Argote and Skabardonis, “[Arterial Queue Spillback Detection and Signal
   Control Based on Connected Vehicle Technology](https://doi.org/10.1177/0361198113235600108).”
