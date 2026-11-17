@@ -7,6 +7,8 @@ Collaborative R&E 2027 research repository.
 - **T2 — Spatial Traffic Dynamics:** signalized intersections, short left-turn bays, finite storage, spillback, and lane-specific throughput.
 - Other candidate projects are kept separate until agreed upon by the team.
 
+Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) to find the active T2 code, data receipts, and verification records.
+
 ## Workflow
 
 Work on dedicated branches and propose changes through pull requests. Code must distinguish source-paper reproduction, model assumptions, and validated observations. Never commit private data, account credentials, identifiable traffic recordings, or copyrighted source PDFs.

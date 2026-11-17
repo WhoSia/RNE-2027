@@ -6,7 +6,7 @@ Restores 2026-10-30 chat decision ("code and research notes mixed", no spider-li
 
 ## Mandatory single sources of truth
 
-- **Executable code and tests:** GitHub `WhoSia/RNE-2027` research branch; GitHub Actions[bot] contributions forbidden.
+- **Executable code and tests:** [current T2 research branch](REPOSITORY_MAP.md); GitHub Actions[bot] contributions forbidden.
 - **Human reasoning:** [02_RESEARCH_LOG](https://drive.google.com/drive/folders/15HIj9OU7e63K2kuVnxGJY00nxGsmNODZ). Each day folder contains Google Docs only; *never* create per-D-number source-code or ZIP directories there.
 - **Immutable observed records:** [01_ACTIVE_T2/02_DATASETS](https://drive.google.com/drive/folders/1s_n1K4_YzfZqxuBXRITN2l0CjJ4a-IyW); organize by source/provenance and RAW/DERIVED, not by day of upload.
 - **Derived measurements:** [02_DATASETS/40_DERIVED](https://drive.google.com/drive/folders/1pR7cpMnQm0iB7Xzj5u5JYd6XTVQFhmYX). Never overwrite original; cross-reference source IDs, transformations and code SHAs.

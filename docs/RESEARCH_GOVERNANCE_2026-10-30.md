@@ -19,7 +19,7 @@
 - Shared Drive root: https://drive.google.com/drive/folders/0AJNkgue2w3zMUk9PVA
 - 2026-10-30 notes: https://drive.google.com/drive/folders/1ixaDbDav25T4u0hcqV15P7goZqFAklWt
 - 2026-10-28 historical package: https://drive.google.com/file/d/1a2Q-KamhQoWS_GEVRJgMtXgGsUBmSRpf/view
-- Earlier research prototype: research/t2-spatial-fig2-v02; PR #1 remains draft until validation.
+- The spatial prototype's branch is the current [T2 research branch](REPOSITORY_MAP.md). Validation is required before merging research changes into the default branch.
 
 ## What is NOT established
 - Real intersection effect sizes, measured flow in Changwon, proof of monotonicity for all admissible road layouts, replication of the source paper's trajectories.
