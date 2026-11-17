@@ -1,0 +1,185 @@
+{
+  "scope": "Synthetic D51 grid. Erasure bounds are assumed.",
+  "summary": {
+    "1-2": {
+      "exact": {
+        "0": {
+          "improved_contexts": 34,
+          "maximum_reduction": "60"
+        },
+        "1/10": {
+          "improved_contexts": 34,
+          "maximum_reduction": "60"
+        },
+        "1/4": {
+          "improved_contexts": 34,
+          "maximum_reduction": "54"
+        },
+        "1/2": {
+          "improved_contexts": 34,
+          "maximum_reduction": "36"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "fullness": {
+        "0": {
+          "improved_contexts": 29,
+          "maximum_reduction": "60"
+        },
+        "1/10": {
+          "improved_contexts": 29,
+          "maximum_reduction": "60"
+        },
+        "1/4": {
+          "improved_contexts": 29,
+          "maximum_reduction": "54"
+        },
+        "1/2": {
+          "improved_contexts": 29,
+          "maximum_reduction": "36"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "miss_one": {
+        "0": {
+          "improved_contexts": 5,
+          "maximum_reduction": "24"
+        },
+        "1/10": {
+          "improved_contexts": 5,
+          "maximum_reduction": "24"
+        },
+        "1/4": {
+          "improved_contexts": 5,
+          "maximum_reduction": "24"
+        },
+        "1/2": {
+          "improved_contexts": 5,
+          "maximum_reduction": "24"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "off_by_one": {
+        "0": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        },
+        "1/10": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        },
+        "1/4": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        },
+        "1/2": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      }
+    },
+    "3-4": {
+      "exact": {
+        "0": {
+          "improved_contexts": 40,
+          "maximum_reduction": "48"
+        },
+        "1/10": {
+          "improved_contexts": 40,
+          "maximum_reduction": "48"
+        },
+        "1/4": {
+          "improved_contexts": 40,
+          "maximum_reduction": "45"
+        },
+        "1/2": {
+          "improved_contexts": 40,
+          "maximum_reduction": "30"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "fullness": {
+        "0": {
+          "improved_contexts": 6,
+          "maximum_reduction": "24"
+        },
+        "1/10": {
+          "improved_contexts": 6,
+          "maximum_reduction": "24"
+        },
+        "1/4": {
+          "improved_contexts": 6,
+          "maximum_reduction": "24"
+        },
+        "1/2": {
+          "improved_contexts": 6,
+          "maximum_reduction": "24"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "miss_one": {
+        "0": {
+          "improved_contexts": 14,
+          "maximum_reduction": "24"
+        },
+        "1/10": {
+          "improved_contexts": 14,
+          "maximum_reduction": "24"
+        },
+        "1/4": {
+          "improved_contexts": 14,
+          "maximum_reduction": "24"
+        },
+        "1/2": {
+          "improved_contexts": 14,
+          "maximum_reduction": "24"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      },
+      "off_by_one": {
+        "0": {
+          "improved_contexts": 6,
+          "maximum_reduction": "12"
+        },
+        "1/10": {
+          "improved_contexts": 6,
+          "maximum_reduction": "12"
+        },
+        "1/4": {
+          "improved_contexts": 6,
+          "maximum_reduction": "12"
+        },
+        "1/2": {
+          "improved_contexts": 6,
+          "maximum_reduction": "12"
+        },
+        "1": {
+          "improved_contexts": 0,
+          "maximum_reduction": "0"
+        }
+      }
+    }
+  }
+}

@@ -91,5 +91,10 @@ def grid():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("output", type=Path)
+    parser.add_argument("--summary-only", action="store_true", help="omit the individual decision contexts")
     args = parser.parse_args()
-    args.output.write_text(json.dumps(grid(), separators=(",", ":")) + "\n", encoding="utf-8")
+    result = grid()
+    if args.summary_only:
+        del result["rows"]
+    args.output.write_text(json.dumps(result, indent=2 if args.summary_only else None) + "\n",
+                           encoding="utf-8")
