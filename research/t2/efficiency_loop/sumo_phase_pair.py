@@ -1,6 +1,7 @@
 """Paired synthetic protected-left benchmark with dedicated approach lanes."""
 import argparse
 from itertools import groupby
+from collections import deque
 from math import isfinite
 from dataclasses import dataclass
 from pathlib import Path
@@ -73,26 +74,37 @@ def prepare(folder, left_first, *, yellow=True, tau=1):
         write(folder, name, tree)
 
 
-def point_departures(left_first, *, start_loss=2, headway=2):
-    """Dedicated point queues, with a common nominal distance-to-stopline offset."""
-    arrivals = {m: [trip for trip in DEMAND if trip.movement == m] for m in ("T", "L")}
+def point_service_windows(left_first, movement, amber_service_s=0):
+    """Return half-open service windows within the nominal cycle."""
+    if not 0 <= amber_service_s <= 3:
+        raise ValueError("point service extension must fit the amber interval")
+    index = ("T", "L").index(movement)
+    start = 0
+    for duration, state in phases(left_first):
+        if state[index] == "G":
+            yield start, start + duration + amber_service_s
+        start += duration
+
+
+def point_departures(left_first, *, start_loss=2, headway=2, travel_time=APPROACH_M / SPEED_M_S,
+                     amber_service_s=0):
+    """Dedicated point queues, with optional continuous service into amber."""
+    if not all(isfinite(v) and v >= 0 for v in (start_loss, travel_time)) or not isfinite(headway) or headway <= 0:
+        raise ValueError("invalid point discharge parameters")
     crossed = {}
-    cycle = phases(left_first)
-    duration = sum(time for time, _ in cycle)
-    for cycle_start in range(0, HORIZON, duration):
-        start = cycle_start
-        for length, state in cycle:
-            for i, movement in enumerate(("T", "L")):
-                if state[i] == "G":
-                    ready = arrivals[movement]
-                    previous = start + start_loss - headway
-                    while ready:
-                        candidate = max(ready[0].time + APPROACH_M / SPEED_M_S, previous + headway)
-                        if candidate >= min(start + length, HORIZON):
-                            break
-                        crossed[ready.pop(0).ident] = candidate
-                        previous = candidate
-            start += length
+    cycle_duration = sum(duration for duration, _ in phases(left_first))
+    for movement in ("T", "L"):
+        windows = tuple(point_service_windows(left_first, movement, amber_service_s))
+        ready = deque(trip for trip in DEMAND if trip.movement == movement)
+        for cycle_start in range(0, HORIZON, cycle_duration):
+            for first, last in windows:
+                previous = cycle_start + first + start_loss - headway
+                while ready:
+                    candidate = max(ready[0].time + travel_time, previous + headway)
+                    if candidate >= min(cycle_start + last, HORIZON):
+                        break
+                    crossed[ready.popleft().ident] = candidate
+                    previous = candidate
     return crossed
 
 
