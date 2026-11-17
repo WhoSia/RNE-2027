@@ -140,7 +140,8 @@ def validate_network(network, left_first, *, yellow=True):
         raise ValueError("Compiled TLS phase program differs from input")
 
 
-def crossing_times(fcd, step):
+def crossing_brackets(fcd, step):
+    """Bracket the edge change using the last upstream and first downstream sample."""
     expected = {trip.ident: trip for trip in DEMAND}
     prior = {}
     crossed = {}
@@ -151,19 +152,26 @@ def crossing_times(fcd, step):
         for vehicle in elem.findall("vehicle"):
             ident = vehicle.attrib["id"]
             lane = vehicle.attrib["lane"]
+            if ident not in expected:
+                raise ValueError("FCD contains an unknown vehicle")
             trip = expected[ident]
             last = prior.get(ident)
             if lane == trip.movement + "_0" and ident not in crossed:
-                if last is None or not last[1].startswith("A_") or abs(stamp - last[0] - step) > 1e-7:
+                if last is None or last[1] != ("A_0" if trip.movement == "T" else "A_1") or abs(stamp - last[0] - step) > 1e-7:
                     raise ValueError("Crossing lacks adjacent input-edge observation")
                 if stamp > HORIZON or last[0] < trip.time:
                     raise ValueError("Crossing is outside the vehicle observation window")
-                crossed[ident] = stamp
+                crossed[ident] = last[0], stamp
             prior[ident] = stamp, lane
         elem.clear()
     if not prior:
         raise ValueError("FCD did not contain any vehicle observations")
     return crossed
+
+
+
+def crossing_times(fcd, step):
+    return {ident: upper for ident, (_, upper) in crossing_brackets(fcd, step).items()}
 
 
 def execute(folder, left_first, *, yellow=True, step=.25):
