@@ -1,0 +1,144 @@
+{
+  "cutoff_kmh": 2.0,
+  "files": {
+    "ssh_data_20240604_1.csv": {
+      "episodes": {
+        "Bus": 28,
+        "Car": 1006,
+        "Heavy Vehicle": 33,
+        "Medium Vehicle": 42,
+        "Motorcycle": 58,
+        "Pedestrian": 115
+      },
+      "tracks": {
+        "Bicycle": 6,
+        "Bus": 21,
+        "Car": 1022,
+        "Heavy Vehicle": 49,
+        "Medium Vehicle": 44,
+        "Motorcycle": 158,
+        "Pedestrian": 139
+      },
+      "tracks_with_episode": {
+        "Bus": 15,
+        "Car": 657,
+        "Heavy Vehicle": 31,
+        "Medium Vehicle": 27,
+        "Motorcycle": 45,
+        "Pedestrian": 81
+      }
+    },
+    "ssh_data_20240604_2.csv": {
+      "episodes": {
+        "Bus": 5,
+        "Car": 524,
+        "Heavy Vehicle": 85,
+        "Medium Vehicle": 88,
+        "Motorcycle": 14,
+        "Pedestrian": 6
+      },
+      "tracks": {
+        "Bicycle": 1,
+        "Bus": 5,
+        "Car": 882,
+        "Heavy Vehicle": 106,
+        "Medium Vehicle": 172,
+        "Motorcycle": 77,
+        "Pedestrian": 13
+      },
+      "tracks_with_episode": {
+        "Bus": 5,
+        "Car": 479,
+        "Heavy Vehicle": 60,
+        "Medium Vehicle": 76,
+        "Motorcycle": 12,
+        "Pedestrian": 5
+      }
+    },
+    "ssh_data_20240605_1.csv": {
+      "episodes": {
+        "Bus": 14,
+        "Car": 1293,
+        "Heavy Vehicle": 75,
+        "Medium Vehicle": 97,
+        "Motorcycle": 80,
+        "Pedestrian": 87
+      },
+      "tracks": {
+        "Bus": 16,
+        "Car": 1472,
+        "Heavy Vehicle": 82,
+        "Medium Vehicle": 120,
+        "Motorcycle": 182,
+        "Pedestrian": 121
+      },
+      "tracks_with_episode": {
+        "Bus": 12,
+        "Car": 1022,
+        "Heavy Vehicle": 56,
+        "Medium Vehicle": 76,
+        "Motorcycle": 61,
+        "Pedestrian": 69
+      }
+    },
+    "ssh_data_20240605_2.csv": {
+      "episodes": {
+        "Bus": 18,
+        "Car": 1329,
+        "Heavy Vehicle": 56,
+        "Medium Vehicle": 66,
+        "Motorcycle": 135,
+        "Pedestrian": 142,
+        "Tuk-Tuk": 4
+      },
+      "tracks": {
+        "Bus": 18,
+        "Car": 1550,
+        "Heavy Vehicle": 66,
+        "Medium Vehicle": 92,
+        "Motorcycle": 309,
+        "Pedestrian": 201,
+        "Tuk-Tuk": 1
+      },
+      "tracks_with_episode": {
+        "Bus": 15,
+        "Car": 1077,
+        "Heavy Vehicle": 42,
+        "Medium Vehicle": 50,
+        "Motorcycle": 113,
+        "Pedestrian": 114,
+        "Tuk-Tuk": 1
+      }
+    },
+    "ssh_data_20240605_3.csv": {
+      "episodes": {
+        "Bus": 17,
+        "Car": 1135,
+        "Heavy Vehicle": 45,
+        "Medium Vehicle": 105,
+        "Motorcycle": 29,
+        "Pedestrian": 34
+      },
+      "tracks": {
+        "Bicycle": 1,
+        "Bus": 25,
+        "Car": 1298,
+        "Heavy Vehicle": 81,
+        "Medium Vehicle": 132,
+        "Motorcycle": 129,
+        "Pedestrian": 59
+      },
+      "tracks_with_episode": {
+        "Bus": 14,
+        "Car": 834,
+        "Heavy Vehicle": 35,
+        "Medium Vehicle": 76,
+        "Motorcycle": 27,
+        "Pedestrian": 33
+      }
+    }
+  },
+  "maximum_sample_gap_s": 1.1,
+  "minimum_span_s": 2.0,
+  "outer_boundary": "recording-local; the start and end may be censored"
+}
