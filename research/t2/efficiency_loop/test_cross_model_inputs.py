@@ -30,6 +30,19 @@ class ComparisonContract(TestCase):
                 with self.assertRaisesRegex(ValueError, "phase program"):
                     validate_network(network, left_first)
 
+    def test_yellow_and_tau_change_independent_input_files(self):
+        with TemporaryDirectory() as d:
+            base, red, gap = (Path(d) / name for name in ("base", "red", "gap"))
+            prepare(base, False)
+            prepare(red, False, yellow=False)
+            prepare(gap, False, tau=1.5)
+            for folder, expected in ((red, {"signal.tll.xml"}), (gap, {"demand.rou.xml"})):
+                changed = {p.name for p in base.iterdir() if p.read_bytes() != (folder/p.name).read_bytes()}
+                self.assertEqual(changed, expected)
+        for left_first in (False, True):
+            a, b = phases(left_first), phases(left_first, yellow=False)
+            self.assertEqual(b, tuple((duration, state.replace("y", "r")) for duration, state in a))
+
     def test_only_signal_program_changes_between_plans(self):
         with TemporaryDirectory() as d:
             a, b = Path(d)/"a", Path(d)/"b"
