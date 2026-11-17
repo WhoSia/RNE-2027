@@ -1,0 +1,506 @@
+{
+  "capacity-1_amber-0": {
+    "contexts": 50,
+    "world_evaluations": 24624,
+    "comparisons": {
+      "opposite": 8,
+      "same": 42
+    },
+    "first_opposite_witness": {
+      "decision": 6,
+      "visible_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "worlds": 342,
+      "absolute": [
+        147,
+        138
+      ],
+      "regret": [
+        29,
+        102
+      ],
+      "delta_bounds": [
+        -29,
+        102
+      ],
+      "absolute_choice": "lead",
+      "regret_choice": "lag",
+      "witnesses": {
+        "max_lag": {
+          "costs_lag_lead": [
+            147,
+            118
+          ],
+          "arrivals": [
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "L",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_lead": {
+          "costs_lag_lead": [
+            65,
+            138
+          ],
+          "arrivals": [
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "min_delta": {
+          "costs_lag_lead": [
+            141,
+            112
+          ],
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "L",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_delta": {
+          "costs_lag_lead": [
+            24,
+            126
+          ],
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "capacity-1_amber-3": {
+    "contexts": 50,
+    "world_evaluations": 24624,
+    "comparisons": {
+      "opposite": 8,
+      "same": 42
+    },
+    "first_opposite_witness": {
+      "decision": 6,
+      "visible_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "worlds": 342,
+      "absolute": [
+        147,
+        138
+      ],
+      "regret": [
+        29,
+        102
+      ],
+      "delta_bounds": [
+        -29,
+        102
+      ],
+      "absolute_choice": "lead",
+      "regret_choice": "lag",
+      "witnesses": {
+        "max_lag": {
+          "costs_lag_lead": [
+            147,
+            118
+          ],
+          "arrivals": [
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "L",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_lead": {
+          "costs_lag_lead": [
+            65,
+            138
+          ],
+          "arrivals": [
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "min_delta": {
+          "costs_lag_lead": [
+            141,
+            112
+          ],
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "L",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_delta": {
+          "costs_lag_lead": [
+            24,
+            126
+          ],
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "capacity-3_amber-0": {
+    "contexts": 50,
+    "world_evaluations": 24624,
+    "comparisons": {
+      "opposite": 2,
+      "same": 48
+    },
+    "first_opposite_witness": {
+      "decision": 6,
+      "visible_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "worlds": 342,
+      "absolute": [
+        105,
+        88
+      ],
+      "regret": [
+        53,
+        68
+      ],
+      "delta_bounds": [
+        -53,
+        68
+      ],
+      "absolute_choice": "lead",
+      "regret_choice": "lag",
+      "witnesses": {
+        "max_lag": {
+          "costs_lag_lead": [
+            105,
+            52
+          ],
+          "arrivals": [
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "L",
+            "L",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_lead": {
+          "costs_lag_lead": [
+            49,
+            88
+          ],
+          "arrivals": [
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "min_delta": {
+          "costs_lag_lead": [
+            101,
+            48
+          ],
+          "arrivals": [
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "L",
+            "L",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_delta": {
+          "costs_lag_lead": [
+            8,
+            76
+          ],
+          "arrivals": [
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "capacity-3_amber-3": {
+    "contexts": 50,
+    "world_evaluations": 24624,
+    "comparisons": {
+      "opposite": 2,
+      "same": 48
+    },
+    "first_opposite_witness": {
+      "decision": 6,
+      "visible_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "worlds": 342,
+      "absolute": [
+        105,
+        88
+      ],
+      "regret": [
+        53,
+        68
+      ],
+      "delta_bounds": [
+        -53,
+        68
+      ],
+      "absolute_choice": "lead",
+      "regret_choice": "lag",
+      "witnesses": {
+        "max_lag": {
+          "costs_lag_lead": [
+            105,
+            52
+          ],
+          "arrivals": [
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "L",
+            "L",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_lead": {
+          "costs_lag_lead": [
+            49,
+            88
+          ],
+          "arrivals": [
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "T",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "min_delta": {
+          "costs_lag_lead": [
+            101,
+            48
+          ],
+          "arrivals": [
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "L",
+            "L",
+            ""
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "max_delta": {
+          "costs_lag_lead": [
+            8,
+            76
+          ],
+          "arrivals": [
+            "",
+            "",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}
