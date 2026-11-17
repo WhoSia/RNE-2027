@@ -39,6 +39,9 @@ Its numerical size is only a property of the modeled support; held-out
 days and independent sensor errors are needed to estimate realized value.
 One cannot use a realized within-window platoon as a prospective covariate.
 
+See [the source-to-test rationale](LITERATURE_TO_TESTS.md) for the
+measurements and comparators behind this design.
+
 ## Outcomes and next questions
 
 - [D51 boundary sweep](late-arrival/grid.json): 42/252 strict reversals
