@@ -1,0 +1,140 @@
+{
+  "ssh_data_20240604_1.csv": {
+    "clock_disagreement_rows": 49749,
+    "lane_codes_seen": 41,
+    "new_clock_seconds": [
+      0.0,
+      581.547633
+    ],
+    "recording_scoped_tracks": 1439,
+    "rows_with_both_gates_missing": 93724,
+    "sample_rows": 93724,
+    "track_types": {
+      "Bicycle": 6,
+      "Bus": 21,
+      "Car": 1022,
+      "Heavy Vehicle": 49,
+      "Medium Vehicle": 44,
+      "Motorcycle": 158,
+      "Pedestrian": 139
+    },
+    "video_ids": [
+      "1",
+      "2"
+    ],
+    "within_track_gap_s": {
+      "1.001": 92285
+    }
+  },
+  "ssh_data_20240604_2.csv": {
+    "clock_disagreement_rows": 46761,
+    "lane_codes_seen": 42,
+    "new_clock_seconds": [
+      0.0,
+      872.438233
+    ],
+    "recording_scoped_tracks": 1256,
+    "rows_with_both_gates_missing": 68445,
+    "sample_rows": 68445,
+    "track_types": {
+      "Bicycle": 1,
+      "Bus": 5,
+      "Car": 882,
+      "Heavy Vehicle": 106,
+      "Medium Vehicle": 172,
+      "Motorcycle": 77,
+      "Pedestrian": 13
+    },
+    "video_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "within_track_gap_s": {
+      "1.001": 67189
+    }
+  },
+  "ssh_data_20240605_1.csv": {
+    "clock_disagreement_rows": 89915,
+    "lane_codes_seen": 40,
+    "new_clock_seconds": [
+      0.0,
+      872.438233
+    ],
+    "recording_scoped_tracks": 1993,
+    "rows_with_both_gates_missing": 145018,
+    "sample_rows": 145018,
+    "track_types": {
+      "Bus": 16,
+      "Car": 1472,
+      "Heavy Vehicle": 82,
+      "Medium Vehicle": 120,
+      "Motorcycle": 182,
+      "Pedestrian": 121
+    },
+    "video_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "within_track_gap_s": {
+      "1.001": 143025
+    }
+  },
+  "ssh_data_20240605_2.csv": {
+    "clock_disagreement_rows": 106303,
+    "lane_codes_seen": 41,
+    "new_clock_seconds": [
+      0.0,
+      872.404866
+    ],
+    "recording_scoped_tracks": 2237,
+    "rows_with_both_gates_missing": 156266,
+    "sample_rows": 156266,
+    "track_types": {
+      "Bus": 18,
+      "Car": 1550,
+      "Heavy Vehicle": 66,
+      "Medium Vehicle": 92,
+      "Motorcycle": 309,
+      "Pedestrian": 201,
+      "Tuk-Tuk": 1
+    },
+    "video_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "within_track_gap_s": {
+      "1.001": 154029
+    }
+  },
+  "ssh_data_20240605_3.csv": {
+    "clock_disagreement_rows": 68574,
+    "lane_codes_seen": 41,
+    "new_clock_seconds": [
+      0.0,
+      872.3715
+    ],
+    "recording_scoped_tracks": 1725,
+    "rows_with_both_gates_missing": 111063,
+    "sample_rows": 111063,
+    "track_types": {
+      "Bicycle": 1,
+      "Bus": 25,
+      "Car": 1298,
+      "Heavy Vehicle": 81,
+      "Medium Vehicle": 132,
+      "Motorcycle": 129,
+      "Pedestrian": 59
+    },
+    "video_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "within_track_gap_s": {
+      "1.001": 109338
+    }
+  }
+}
