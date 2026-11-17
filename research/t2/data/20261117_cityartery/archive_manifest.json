@@ -1,0 +1,160 @@
+{
+  "source": "10.17632/ftzzmh2cmt.1",
+  "archive_bytes": 30582559,
+  "archive_sha256": "75cc46cf54d88179254788acc9f3b8ed65024db7c3b6c7d26478b9205586d67c",
+  "file_members": 24,
+  "unique_contents": 13,
+  "duplicate_groups": [
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_2.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_2.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_2.csv"
+    ],
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_3.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_3.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_3.csv"
+    ],
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_4.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_4.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_4.csv"
+    ],
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_5.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_5.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_5.csv"
+    ],
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/intersection1_1.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/intersection2_1.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/intersection3_1.csv"
+    ],
+    [
+      "CityArtery/Dataset/Intersection_trajectory/Intersection2/afternoon/Intersection2_6.csv",
+      "CityArtery/Dataset/Intersection_trajectory/Intersection3/afternoon/Intersection3_6.csv"
+    ]
+  ],
+  "members": [
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/afternoon/Intersection1_6.csv",
+      "bytes": 58145,
+      "sha256": "70ae81cc2273ba72865eec61f345e569541848ff57c5412631b9c99bc9391589"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_2.csv",
+      "bytes": 3889434,
+      "sha256": "748675f287b69252b23f7b2a18308e425ce0f1b488d5fb8dcd85af511d0b4418"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_3.csv",
+      "bytes": 3360739,
+      "sha256": "b454bb19dd719d794e997c9caa75435eee8a09b16f236429755e029f463f1acc"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_4.csv",
+      "bytes": 3363987,
+      "sha256": "fec51f551271718b8c8d81002abb3de92d0c34612dd75e3c69f1d57c8bd4dcf3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/Intersection1_5.csv",
+      "bytes": 3404091,
+      "sha256": "da3b43c3b7113b88aaae2792c9c3d90f4c6b26e0cd9c4085175eb090183f2ed3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection1/evening/intersection1_1.csv",
+      "bytes": 3715854,
+      "sha256": "ee1300645b88bdf5cc563193cbab3ff023e6ceaea496ae60a5dbfd5cfa1695d3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/afternoon/Intersection2_6.csv",
+      "bytes": 1870819,
+      "sha256": "6333edc41632f7184688f0b39c3a7301716c200ae73544e17f3cca5a12c8ad5f"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_2.csv",
+      "bytes": 3889434,
+      "sha256": "748675f287b69252b23f7b2a18308e425ce0f1b488d5fb8dcd85af511d0b4418"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_3.csv",
+      "bytes": 3360739,
+      "sha256": "b454bb19dd719d794e997c9caa75435eee8a09b16f236429755e029f463f1acc"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_4.csv",
+      "bytes": 3363987,
+      "sha256": "fec51f551271718b8c8d81002abb3de92d0c34612dd75e3c69f1d57c8bd4dcf3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/Intersection2_5.csv",
+      "bytes": 3404091,
+      "sha256": "da3b43c3b7113b88aaae2792c9c3d90f4c6b26e0cd9c4085175eb090183f2ed3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection2/evening/intersection2_1.csv",
+      "bytes": 3715854,
+      "sha256": "ee1300645b88bdf5cc563193cbab3ff023e6ceaea496ae60a5dbfd5cfa1695d3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/afternoon/Intersection3_6.csv",
+      "bytes": 1870819,
+      "sha256": "6333edc41632f7184688f0b39c3a7301716c200ae73544e17f3cca5a12c8ad5f"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_2.csv",
+      "bytes": 3889434,
+      "sha256": "748675f287b69252b23f7b2a18308e425ce0f1b488d5fb8dcd85af511d0b4418"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_3.csv",
+      "bytes": 3360739,
+      "sha256": "b454bb19dd719d794e997c9caa75435eee8a09b16f236429755e029f463f1acc"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_4.csv",
+      "bytes": 3363987,
+      "sha256": "fec51f551271718b8c8d81002abb3de92d0c34612dd75e3c69f1d57c8bd4dcf3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/Intersection3_5.csv",
+      "bytes": 3404091,
+      "sha256": "da3b43c3b7113b88aaae2792c9c3d90f4c6b26e0cd9c4085175eb090183f2ed3"
+    },
+    {
+      "name": "CityArtery/Dataset/Intersection_trajectory/Intersection3/evening/intersection3_1.csv",
+      "bytes": 3715854,
+      "sha256": "ee1300645b88bdf5cc563193cbab3ff023e6ceaea496ae60a5dbfd5cfa1695d3"
+    },
+    {
+      "name": "CityArtery/Dataset/Processed Data/ssh_data_20240604_1.csv",
+      "bytes": 11703565,
+      "sha256": "4e60450b1549ae6d0268ef881045d76c6f83772093fe01326620ff9bb169a586"
+    },
+    {
+      "name": "CityArtery/Dataset/Processed Data/ssh_data_20240604_2.csv",
+      "bytes": 8637603,
+      "sha256": "104bacaa2548ffdc1233461e1c0089c784611d3e42eca0f1856e6035881247ab"
+    },
+    {
+      "name": "CityArtery/Dataset/Processed Data/ssh_data_20240605_1.csv",
+      "bytes": 18033608,
+      "sha256": "88042604ea706c1d424f5b7b736b84228a062f5e011060ff46823102e5309cdc"
+    },
+    {
+      "name": "CityArtery/Dataset/Processed Data/ssh_data_20240605_2.csv",
+      "bytes": 19584503,
+      "sha256": "611423672e82df80864e7278a21a163bc025391c3139b31dc170d661f89ab4fd"
+    },
+    {
+      "name": "CityArtery/Dataset/Processed Data/ssh_data_20240605_3.csv",
+      "bytes": 13849181,
+      "sha256": "f179664d8c654d67e7a81f826171883cf3f332137e1c2c10115edb13e3012fb4"
+    },
+    {
+      "name": "CityArtery/Dataset/Signal Timing Records.xlsx",
+      "bytes": 12923,
+      "sha256": "0b76a34304371402ef2be988c2f11d4b000e6bb3467c562953757548ee21d271"
+    }
+  ]
+}
