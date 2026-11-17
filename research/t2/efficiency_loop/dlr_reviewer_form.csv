@@ -1,0 +1,11 @@
+case,lane,last_sample_before_forward_threshold_s,first_sample_at_forward_threshold_s,stop_again_or_gap,signal_samples_and_lane_mapping_evidence,shared_path_occupancy,downstream_space,evidence_times_and_notes
+A,-3,,,,,,,
+A,-4,,,,,,,
+B,-3,,,,,,,
+B,-4,,,,,,,
+C,-3,,,,,,,
+C,-4,,,,,,,
+D,-3,,,,,,,
+D,-4,,,,,,,
+E,-3,,,,,,,
+E,-4,,,,,,,

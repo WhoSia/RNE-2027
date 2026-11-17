@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K047 궤적 독립 검토</title>
+<style>
+:root{font-family:"Noto Sans KR",system-ui,sans-serif;color:#172738;background:#f0f4f6}
+body{margin:0} main{max-width:1120px;margin:auto;padding:24px} h1{margin:0 0 8px;font-size:1.9rem}
+p{margin:6px 0 16px;line-height:1.5}.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+button,select,input,textarea{font:inherit}button,select,input[type=text],textarea{color:inherit;background:#fff;border:1px solid #a1b5c5;border-radius:6px;padding:8px 10px}
+button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #206ab4;outline-offset:2px}
+#map{display:block;background:#13212c;width:100%;height:auto;border-radius:8px}
+#time{width:100%;accent-color:#175a9d} #clock{font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:16px;margin:8px 0}.a{color:#015889}.b{color:#8b4600}
+table{border-collapse:collapse;width:100%;margin:12px 0;background:#fff}th,td{text-align:left;padding:8px;border-bottom:1px solid #d7e1e8}
+.panel{background:#fff;padding:16px;border:1px solid #d7e1e8;border-radius:8px;margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.grid label, label.note{display:grid;gap:4px}
+textarea{width:100%;box-sizing:border-box;min-height:100px}
+small{color:#344b60}
+</style>
+</head><body><main>
+<h1>K047 궤적 독립 검토</h1>
+<p>앞차 A와 뒤차 B를 따라가며 이동 방향과 지체의 증거를 기록하세요. 표시된 차량은 원자료의 비보간 관측 표본입니다. 빈 화면이나 끊긴 추적은 공간이 비었다는 뜻이 아닙니다.</p>
+<div class="controls">
+<label for="case">구간</label><select id="case"></select>
+<button id="play">재생</button><button id="back">−0.1초</button><button id="next">+0.1초</button><button id="focus">검토 시작점</button>
+<output id="clock" for="time"></output>
+</div>
+<canvas id="map" width="1080" height="500" aria-label="도로 지도와 관측 차량"></canvas>
+<input id="time" type="range" aria-label="검토 구간 재생 시각" step="100">
+<div class="legend"><b class="a">A · 앞차</b><b class="b">B · 뒤차</b><span>점선 · 정지선</span><span>회색 · 주변 차량</span><span>지도는 북쪽이 위</span></div>
+<table><thead><tr><th scope="col">차량</th><th scope="col">표시 표본 시각</th><th scope="col">속도</th></tr></thead><tbody id="vehicles"></tbody></table>
+<div id="signals" aria-live="off"></div>
+<p id="coverage"></p>
+<p><small>신호 헤드별로 현재 시각 전후의 원시 상태 코드를 표시합니다. 두 표본 사이에 전이가 있을 수 있습니다. 3 적색, 4 적황색, 5 녹색, 6 보호 녹색. 각 헤드의 적용 차로는 검토 항목입니다.</small></p>
+<section class="panel"><h2>판정 기록</h2>
+<div class="controls"><label for="reviewer">검토자 코드</label><input id="reviewer" type="text" autocomplete="off" placeholder="예 A01"><button id="save">현재 구간 저장</button><button id="download">검토 JSON 내보내기</button></div>
+<div id="fields" class="grid"></div>
+<p><label class="note" for="evidence">근거 시각과 관측 내용<textarea id="evidence" placeholder="예 +1.2초에 A 추적이 끊겨 출구를 판단할 수 없음"></textarea></label></p>
+<output id="saved" role="status"></output></section>
+</main>
+<script id="observations" type="application/json">__K047_REPLAY_DATA__</script>
+<script>
+"use strict";
+const get=id=>document.getElementById(id);
+const survey=JSON.parse(get("observations").textContent);
+const records={};
+const formSpec={
+  leader_movement:["앞차 이동류",[["left","좌회전"],["through","직진"],["other","기타"],["unknown","불명"]]],
+  follower_movement:["뒤차 이동류",[["left","좌회전"],["through","직진"],["other","기타"],["unknown","불명"]]],
+  cannot_advance:["뒤차가 진행하지 못함",[["yes","관측됨"],["no","관측되지 않음"],["unknown","불명"]]],
+  lead_or_lane_change:["앞차 또는 차로 변경의 방해",[["yes","관측됨"],["no","관측되지 않음"],["unknown","불명"]]],
+  downstream_space:["하류 공간",[["available","여유 관측"],["blocked","정체 관측"],["unknown","불명"]]],
+  signal_for_follower:["뒤차에 적용되는 신호",[["green","녹색"],["non_green","비녹색"],["unknown","불명"]]],
+  tracking_gap:["판정에 영향을 준 추적 공백",[["yes","있음"],["no","없음"],["unknown","불명"]]],
+  judgment:["합성 판단",[["possible_left_block","좌회전 차단 후보"],["other_observed","다른 원인 관측"],["unknown","불명"]]]
+};
+function option(value,label){return new Option(label,value);}
+for(const [key,[label,values]] of Object.entries(formSpec)){
+  const wrapper=document.createElement("label"), select=document.createElement("select");
+  select.id=key; select.add(option("","선택"));
+  for(const [v,l] of values) select.add(option(v,l));
+  wrapper.append(label,select);get("fields").append(wrapper);
+}
+for(const [i,c] of survey.cases.entries()) get("case").add(option(i,c.case));
+const map=get("map"), ctx=map.getContext("2d"), time=get("time");
+const [xmin,ymin,xmax,ymax]=survey.geometry.extent;
+const scale=Math.min((map.width-42)/(xmax-xmin),(map.height-42)/(ymax-ymin));
+const left=(map.width-(xmax-xmin)*scale)/2, top=(map.height-(ymax-ymin)*scale)/2;
+function screen(x,y){return [left+(x-xmin)*scale,top+(ymax-y)*scale];}
+function path(points){ctx.beginPath();points.forEach((p,i)=>ctx[i?"lineTo":"moveTo"](...screen(...p)));}
+function drawMap(){
+  ctx.fillStyle="#13212c";ctx.fillRect(0,0,map.width,map.height);
+  for(const [zone,polys] of Object.entries(survey.geometry.polygons)){
+    for(const poly of polys){
+      path(poly);ctx.closePath();ctx.fillStyle=zone==="west_receiving"?"#30515f":"#293e50";
+      ctx.fill();ctx.strokeStyle="#618094";ctx.lineWidth=1;ctx.stroke();
+    }
+  }
+  path(survey.geometry.stop);ctx.setLineDash([6,4]);ctx.strokeStyle="#eee6bf";ctx.lineWidth=2;ctx.stroke();ctx.setLineDash([]);
+}
+let selected, frames, timer;
+const fixed=ms=>((ms>=0?"+":"")+(ms/1000).toFixed(2)+"초");
+function car([label,x,y,yaw,length,width]){
+  ctx.save();ctx.translate(...screen(x,y));ctx.rotate(-yaw*Math.PI/180);
+  ctx.fillStyle=label==="A"?"#55c8ff":label==="B"?"#ffb464":"#8b9bab";
+  ctx.fillRect(-length*scale/2,-width*scale/2,length*scale,width*scale);ctx.restore();
+  if(label==="A" || label==="B"){ctx.fillStyle="#fff"; ctx.font="bold 15px sans-serif";const [px,py]=screen(x,y);ctx.fillText(label,px-3,py-10);}
+}
+function bracket(samples,ms){
+  let before,after;
+  for(const item of samples){
+    if(item[0]<=ms) before=item;
+    else {after=item;break;}
+  }
+  return [before,after].map(p=>p?fixed(p[0])+" · "+p[1]:"관측 없음").join(" / ");
+}
+function scrub(value){
+  time.value=Math.min(Number(time.max),Math.max(Number(time.min),value));
+  const ms=Number(time.value), visible=frames.get(ms)||[];
+  get("clock").textContent=fixed(ms)+" · "+(ms>=0&&ms<=selected.focus_end_ms?"검토 구간":"주변 상황");
+  drawMap();
+  for(const v of visible.filter(v=>v[0]!=="A"&&v[0]!=="B")) car(v);
+  for(const v of visible.filter(v=>v[0]==="A"||v[0]==="B")) car(v);
+  get("vehicles").replaceChildren();
+  for(const label of ["A","B"]){
+    const v=visible.find(p=>p[0]===label), row=document.createElement("tr");
+    for(const cell of [label,v?fixed(v[7]):"관측 없음",v?v[6].toFixed(2)+" m/s":"—"]){
+      const td=document.createElement("td");td.textContent=cell;row.append(td);
+    }
+    get("vehicles").append(row);
+  }
+  get("signals").textContent=Object.entries(selected.heads).map(([head,s])=>"헤드 "+head+" · "+bracket(s,ms)).join("　|　");
+}
+function pause(){clearInterval(timer);timer=null;get("play").textContent="재생";}
+function choose(){
+  pause(); selected=survey.cases[Number(get("case").value)];frames=new Map(selected.frames);
+  time.min=Math.ceil(selected.clip_start_ms/100)*100;time.max=Math.floor(selected.clip_end_ms/100)*100;
+  get("coverage").textContent="기준 UTC "+selected.focus_utc+" · 마지막 표본 "+
+    ["A","B"].map(name=>name+" "+fixed(selected.target_samples[name].at(-1).at(-1))).join(" / ");
+  const saved=records[selected.case]||{};
+  for(const key of Object.keys(formSpec).concat("evidence")) get(key).value=saved[key]||"";
+  get("saved").textContent=""; scrub(0);
+}
+get("case").onchange=choose;time.oninput=()=>{pause();scrub(Number(time.value));};
+get("focus").onclick=()=>{pause();scrub(0);};
+get("back").onclick=()=>{pause();scrub(Number(time.value)-100);};
+get("next").onclick=()=>{pause();scrub(Number(time.value)+100);};
+get("play").onclick=()=>{
+  if(timer){pause();return;}
+  if(Number(time.value)>=Number(time.max))scrub(Number(time.min));
+  get("play").textContent="정지";
+  timer=setInterval(()=>{if(Number(time.value)>=Number(time.max))pause();else scrub(Number(time.value)+100);},100);
+};
+function save(){
+  const row=Object.fromEntries(Object.keys(formSpec).concat("evidence").map(key=>[key,get(key).value.trim()]));
+  if(Object.values(row).some(v=>!v)){get("saved").textContent="불명도 선택하고 근거를 적어 주세요."; return false;}
+  records[selected.case]=row;get("saved").textContent=selected.case+" 저장 · 총 "+Object.keys(records).length+"건";return true;
+}
+get("save").onclick=save;
+get("download").onclick=()=>{
+  const reviewer=get("reviewer").value.trim();
+  if(!reviewer || !Object.keys(records).length){get("saved").textContent="검토자 코드와 저장된 판정이 필요합니다.";return;}
+  const url=URL.createObjectURL(new Blob([JSON.stringify({reviewer, review_sheet_sha256:survey.input_hashes["dlr_review_sheet.csv"], cases:records},null,2)],{type:"application/json"}));
+  const a=document.createElement("a");a.href=url;a.download="k047-review.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+choose();
+</script></body></html>
