@@ -1,0 +1,800 @@
+{
+  "evidence": "synthetic paired worlds",
+  "train_seed": 17,
+  "evaluation_seed": 23,
+  "catalog_size": 18,
+  "plans": {
+    "fixed_baseline": {
+      "night": {
+        "greens": [
+          28,
+          12,
+          24,
+          8
+        ],
+        "left_first": false,
+        "offset": 0,
+        "clearance": 3,
+        "startup": 1
+      },
+      "midday": {
+        "greens": [
+          28,
+          12,
+          24,
+          8
+        ],
+        "left_first": false,
+        "offset": 0,
+        "clearance": 3,
+        "startup": 1
+      },
+      "peak": {
+        "greens": [
+          28,
+          12,
+          24,
+          8
+        ],
+        "left_first": false,
+        "offset": 0,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    "pooled_minimax_cost": {
+      "night": {
+        "greens": [
+          36,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 40,
+        "clearance": 3,
+        "startup": 1
+      },
+      "midday": {
+        "greens": [
+          36,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 40,
+        "clearance": 3,
+        "startup": 1
+      },
+      "peak": {
+        "greens": [
+          36,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 40,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    "pooled_minimax_regret": {
+      "night": {
+        "greens": [
+          24,
+          12,
+          20,
+          16
+        ],
+        "left_first": true,
+        "offset": 20,
+        "clearance": 3,
+        "startup": 1
+      },
+      "midday": {
+        "greens": [
+          24,
+          12,
+          20,
+          16
+        ],
+        "left_first": true,
+        "offset": 20,
+        "clearance": 3,
+        "startup": 1
+      },
+      "peak": {
+        "greens": [
+          24,
+          12,
+          20,
+          16
+        ],
+        "left_first": true,
+        "offset": 20,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    "band_minimax_regret": {
+      "night": {
+        "greens": [
+          36,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 40,
+        "clearance": 3,
+        "startup": 1
+      },
+      "midday": {
+        "greens": [
+          24,
+          12,
+          20,
+          16
+        ],
+        "left_first": true,
+        "offset": 0,
+        "clearance": 3,
+        "startup": 1
+      },
+      "peak": {
+        "greens": [
+          36,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 0,
+        "clearance": 3,
+        "startup": 1
+      }
+    }
+  },
+  "summary": {
+    "fixed_baseline": {
+      "worst_cost": 34818,
+      "worst_vehicle_time_area": 27711,
+      "worst_pedestrian_wait_area": 5104,
+      "worst_pedestrian_wait_red_ticks": 304,
+      "worst_vehicle_unfinished": 87,
+      "worst_pedestrian_unfinished": 14,
+      "worst_downstream_blocked_opportunities": 109,
+      "worst_approach_head_blocked_ticks": 698,
+      "worst_regret": 5501,
+      "sum_cost": 166021
+    },
+    "pooled_minimax_cost": {
+      "worst_cost": 32583,
+      "worst_vehicle_time_area": 25869,
+      "worst_pedestrian_wait_area": 4173,
+      "worst_pedestrian_wait_red_ticks": 301,
+      "worst_vehicle_unfinished": 91,
+      "worst_pedestrian_unfinished": 15,
+      "worst_downstream_blocked_opportunities": 124,
+      "worst_approach_head_blocked_ticks": 757,
+      "worst_regret": 3340,
+      "sum_cost": 149172
+    },
+    "pooled_minimax_regret": {
+      "worst_cost": 35414,
+      "worst_vehicle_time_area": 29102,
+      "worst_pedestrian_wait_area": 1441,
+      "worst_pedestrian_wait_red_ticks": 201,
+      "worst_vehicle_unfinished": 96,
+      "worst_pedestrian_unfinished": 0,
+      "worst_downstream_blocked_opportunities": 102,
+      "worst_approach_head_blocked_ticks": 868,
+      "worst_regret": 3096,
+      "sum_cost": 151494
+    },
+    "band_minimax_regret": {
+      "worst_cost": 33371,
+      "worst_vehicle_time_area": 26384,
+      "worst_pedestrian_wait_area": 1960,
+      "worst_pedestrian_wait_red_ticks": 302,
+      "worst_vehicle_unfinished": 85,
+      "worst_pedestrian_unfinished": 0,
+      "worst_downstream_blocked_opportunities": 129,
+      "worst_approach_head_blocked_ticks": 837,
+      "worst_regret": 879,
+      "sum_cost": 135962
+    }
+  },
+  "worlds": {
+    "night/dispersed/open": {
+      "catalog_oracle_cost": 1742,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 1974,
+          "vehicle_time_area": 1882,
+          "pedestrian_wait_area": 92,
+          "pedestrian_wait_red_ticks": 92,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 232
+        },
+        "pooled_minimax_cost": {
+          "cost": 1754,
+          "vehicle_time_area": 1542,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 12
+        },
+        "pooled_minimax_regret": {
+          "cost": 2276,
+          "vehicle_time_area": 2148,
+          "pedestrian_wait_area": 128,
+          "pedestrian_wait_red_ticks": 128,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 534
+        },
+        "band_minimax_regret": {
+          "cost": 1754,
+          "vehicle_time_area": 1542,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 12
+        }
+      }
+    },
+    "night/dispersed/constrained": {
+      "catalog_oracle_cost": 2490,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 3893,
+          "vehicle_time_area": 3621,
+          "pedestrian_wait_area": 92,
+          "pedestrian_wait_red_ticks": 92,
+          "vehicle_unfinished": 3,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 43,
+          "approach_head_blocked_ticks": 11,
+          "regret": 1403
+        },
+        "pooled_minimax_cost": {
+          "cost": 2516,
+          "vehicle_time_area": 2304,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 40,
+          "approach_head_blocked_ticks": 0,
+          "regret": 26
+        },
+        "pooled_minimax_regret": {
+          "cost": 3756,
+          "vehicle_time_area": 3628,
+          "pedestrian_wait_area": 128,
+          "pedestrian_wait_red_ticks": 128,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 33,
+          "approach_head_blocked_ticks": 1,
+          "regret": 1266
+        },
+        "band_minimax_regret": {
+          "cost": 2516,
+          "vehicle_time_area": 2304,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 40,
+          "approach_head_blocked_ticks": 0,
+          "regret": 26
+        }
+      }
+    },
+    "night/platooned/open": {
+      "catalog_oracle_cost": 1804,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 1964,
+          "vehicle_time_area": 1872,
+          "pedestrian_wait_area": 92,
+          "pedestrian_wait_red_ticks": 92,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 160
+        },
+        "pooled_minimax_cost": {
+          "cost": 1862,
+          "vehicle_time_area": 1650,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 58
+        },
+        "pooled_minimax_regret": {
+          "cost": 2380,
+          "vehicle_time_area": 2252,
+          "pedestrian_wait_area": 128,
+          "pedestrian_wait_red_ticks": 128,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 576
+        },
+        "band_minimax_regret": {
+          "cost": 1862,
+          "vehicle_time_area": 1650,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 58
+        }
+      }
+    },
+    "night/platooned/constrained": {
+      "catalog_oracle_cost": 2650,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 3410,
+          "vehicle_time_area": 3318,
+          "pedestrian_wait_area": 92,
+          "pedestrian_wait_red_ticks": 92,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 49,
+          "approach_head_blocked_ticks": 0,
+          "regret": 760
+        },
+        "pooled_minimax_cost": {
+          "cost": 2754,
+          "vehicle_time_area": 2542,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 39,
+          "approach_head_blocked_ticks": 0,
+          "regret": 104
+        },
+        "pooled_minimax_regret": {
+          "cost": 4940,
+          "vehicle_time_area": 4812,
+          "pedestrian_wait_area": 128,
+          "pedestrian_wait_red_ticks": 128,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 54,
+          "approach_head_blocked_ticks": 32,
+          "regret": 2290
+        },
+        "band_minimax_regret": {
+          "cost": 2754,
+          "vehicle_time_area": 2542,
+          "pedestrian_wait_area": 212,
+          "pedestrian_wait_red_ticks": 212,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 39,
+          "approach_head_blocked_ticks": 0,
+          "regret": 104
+        }
+      }
+    },
+    "midday/dispersed/open": {
+      "catalog_oracle_cost": 5733,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 10222,
+          "vehicle_time_area": 4279,
+          "pedestrian_wait_area": 5103,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 14,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 10,
+          "regret": 4489
+        },
+        "pooled_minimax_cost": {
+          "cost": 9073,
+          "vehicle_time_area": 4001,
+          "pedestrian_wait_area": 4172,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 15,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 0,
+          "regret": 3340
+        },
+        "pooled_minimax_regret": {
+          "cost": 5733,
+          "vehicle_time_area": 4375,
+          "pedestrian_wait_area": 1358,
+          "pedestrian_wait_red_ticks": 196,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 6,
+          "regret": 0
+        },
+        "band_minimax_regret": {
+          "cost": 5933,
+          "vehicle_time_area": 4489,
+          "pedestrian_wait_area": 1444,
+          "pedestrian_wait_red_ticks": 261,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 7,
+          "regret": 200
+        }
+      }
+    },
+    "midday/dispersed/constrained": {
+      "catalog_oracle_cost": 14412,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 19369,
+          "vehicle_time_area": 11626,
+          "pedestrian_wait_area": 5103,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 30,
+          "pedestrian_unfinished": 14,
+          "downstream_blocked_opportunities": 80,
+          "approach_head_blocked_ticks": 406,
+          "regret": 4957
+        },
+        "pooled_minimax_cost": {
+          "cost": 16702,
+          "vehicle_time_area": 10250,
+          "pedestrian_wait_area": 4172,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 23,
+          "pedestrian_unfinished": 15,
+          "downstream_blocked_opportunities": 109,
+          "approach_head_blocked_ticks": 211,
+          "regret": 2290
+        },
+        "pooled_minimax_regret": {
+          "cost": 14412,
+          "vehicle_time_area": 11434,
+          "pedestrian_wait_area": 1358,
+          "pedestrian_wait_red_ticks": 196,
+          "vehicle_unfinished": 27,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 78,
+          "approach_head_blocked_ticks": 300,
+          "regret": 0
+        },
+        "band_minimax_regret": {
+          "cost": 14445,
+          "vehicle_time_area": 11201,
+          "pedestrian_wait_area": 1444,
+          "pedestrian_wait_red_ticks": 261,
+          "vehicle_unfinished": 30,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 68,
+          "approach_head_blocked_ticks": 404,
+          "regret": 33
+        }
+      }
+    },
+    "midday/platooned/open": {
+      "catalog_oracle_cost": 6014,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 11360,
+          "vehicle_time_area": 5356,
+          "pedestrian_wait_area": 5104,
+          "pedestrian_wait_red_ticks": 304,
+          "vehicle_unfinished": 1,
+          "pedestrian_unfinished": 14,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 173,
+          "regret": 5346
+        },
+        "pooled_minimax_cost": {
+          "cost": 8998,
+          "vehicle_time_area": 3925,
+          "pedestrian_wait_area": 4173,
+          "pedestrian_wait_red_ticks": 301,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 15,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 66,
+          "regret": 2984
+        },
+        "pooled_minimax_regret": {
+          "cost": 6014,
+          "vehicle_time_area": 4573,
+          "pedestrian_wait_area": 1441,
+          "pedestrian_wait_red_ticks": 201,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 94,
+          "regret": 0
+        },
+        "band_minimax_regret": {
+          "cost": 6407,
+          "vehicle_time_area": 5033,
+          "pedestrian_wait_area": 1374,
+          "pedestrian_wait_red_ticks": 192,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 73,
+          "regret": 393
+        }
+      }
+    },
+    "midday/platooned/constrained": {
+      "catalog_oracle_cost": 15825,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 19682,
+          "vehicle_time_area": 12178,
+          "pedestrian_wait_area": 5104,
+          "pedestrian_wait_red_ticks": 304,
+          "vehicle_unfinished": 26,
+          "pedestrian_unfinished": 14,
+          "downstream_blocked_opportunities": 98,
+          "approach_head_blocked_ticks": 463,
+          "regret": 3857
+        },
+        "pooled_minimax_cost": {
+          "cost": 16473,
+          "vehicle_time_area": 10500,
+          "pedestrian_wait_area": 4173,
+          "pedestrian_wait_red_ticks": 301,
+          "vehicle_unfinished": 15,
+          "pedestrian_unfinished": 15,
+          "downstream_blocked_opportunities": 115,
+          "approach_head_blocked_ticks": 321,
+          "regret": 648
+        },
+        "pooled_minimax_regret": {
+          "cost": 17243,
+          "vehicle_time_area": 14242,
+          "pedestrian_wait_area": 1441,
+          "pedestrian_wait_red_ticks": 201,
+          "vehicle_unfinished": 26,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 89,
+          "approach_head_blocked_ticks": 502,
+          "regret": 1418
+        },
+        "band_minimax_regret": {
+          "cost": 15825,
+          "vehicle_time_area": 12771,
+          "pedestrian_wait_area": 1374,
+          "pedestrian_wait_red_ticks": 192,
+          "vehicle_unfinished": 28,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 87,
+          "approach_head_blocked_ticks": 449,
+          "regret": 0
+        }
+      }
+    },
+    "peak/dispersed/open": {
+      "catalog_oracle_cost": 9962,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 12049,
+          "vehicle_time_area": 9549,
+          "pedestrian_wait_area": 1960,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 9,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 288,
+          "regret": 2087
+        },
+        "pooled_minimax_cost": {
+          "cost": 10799,
+          "vehicle_time_area": 8752,
+          "pedestrian_wait_area": 1627,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 5,
+          "pedestrian_unfinished": 2,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 261,
+          "regret": 837
+        },
+        "pooled_minimax_regret": {
+          "cost": 12840,
+          "vehicle_time_area": 11247,
+          "pedestrian_wait_area": 813,
+          "pedestrian_wait_red_ticks": 191,
+          "vehicle_unfinished": 13,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 344,
+          "regret": 2878
+        },
+        "band_minimax_regret": {
+          "cost": 9962,
+          "vehicle_time_area": 7942,
+          "pedestrian_wait_area": 1960,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 1,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 201,
+          "regret": 0
+        }
+      }
+    },
+    "peak/dispersed/constrained": {
+      "catalog_oracle_cost": 30129,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 30775,
+          "vehicle_time_area": 23595,
+          "pedestrian_wait_area": 1960,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 87,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 106,
+          "approach_head_blocked_ticks": 604,
+          "regret": 646
+        },
+        "pooled_minimax_cost": {
+          "cost": 31625,
+          "vehicle_time_area": 24418,
+          "pedestrian_wait_area": 1627,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 91,
+          "pedestrian_unfinished": 2,
+          "downstream_blocked_opportunities": 124,
+          "approach_head_blocked_ticks": 732,
+          "regret": 1496
+        },
+        "pooled_minimax_regret": {
+          "cost": 32386,
+          "vehicle_time_area": 25813,
+          "pedestrian_wait_area": 813,
+          "pedestrian_wait_red_ticks": 191,
+          "vehicle_unfinished": 96,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 94,
+          "approach_head_blocked_ticks": 723,
+          "regret": 2257
+        },
+        "band_minimax_regret": {
+          "cost": 30129,
+          "vehicle_time_area": 23069,
+          "pedestrian_wait_area": 1960,
+          "pedestrian_wait_red_ticks": 300,
+          "vehicle_unfinished": 85,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 122,
+          "approach_head_blocked_ticks": 690,
+          "regret": 0
+        }
+      }
+    },
+    "peak/platooned/open": {
+      "catalog_oracle_cost": 11004,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 16505,
+          "vehicle_time_area": 13538,
+          "pedestrian_wait_area": 1947,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 17,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 462,
+          "regret": 5501
+        },
+        "pooled_minimax_cost": {
+          "cost": 14033,
+          "vehicle_time_area": 12179,
+          "pedestrian_wait_area": 1614,
+          "pedestrian_wait_red_ticks": 299,
+          "vehicle_unfinished": 2,
+          "pedestrian_unfinished": 2,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 397,
+          "regret": 3029
+        },
+        "pooled_minimax_regret": {
+          "cost": 14100,
+          "vehicle_time_area": 12828,
+          "pedestrian_wait_area": 792,
+          "pedestrian_wait_red_ticks": 187,
+          "vehicle_unfinished": 8,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 437,
+          "regret": 3096
+        },
+        "band_minimax_regret": {
+          "cost": 11004,
+          "vehicle_time_area": 9057,
+          "pedestrian_wait_area": 1947,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 0,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 0,
+          "approach_head_blocked_ticks": 237,
+          "regret": 0
+        }
+      }
+    },
+    "peak/platooned/constrained": {
+      "catalog_oracle_cost": 32492,
+      "policies": {
+        "fixed_baseline": {
+          "cost": 34818,
+          "vehicle_time_area": 27711,
+          "pedestrian_wait_area": 1947,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 86,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 109,
+          "approach_head_blocked_ticks": 698,
+          "regret": 2326
+        },
+        "pooled_minimax_cost": {
+          "cost": 32583,
+          "vehicle_time_area": 25869,
+          "pedestrian_wait_area": 1614,
+          "pedestrian_wait_red_ticks": 299,
+          "vehicle_unfinished": 83,
+          "pedestrian_unfinished": 2,
+          "downstream_blocked_opportunities": 121,
+          "approach_head_blocked_ticks": 757,
+          "regret": 91
+        },
+        "pooled_minimax_regret": {
+          "cost": 35414,
+          "vehicle_time_area": 29102,
+          "pedestrian_wait_area": 792,
+          "pedestrian_wait_red_ticks": 187,
+          "vehicle_unfinished": 92,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 102,
+          "approach_head_blocked_ticks": 868,
+          "regret": 2922
+        },
+        "band_minimax_regret": {
+          "cost": 33371,
+          "vehicle_time_area": 26384,
+          "pedestrian_wait_area": 1947,
+          "pedestrian_wait_red_ticks": 302,
+          "vehicle_unfinished": 84,
+          "pedestrian_unfinished": 0,
+          "downstream_blocked_opportunities": 129,
+          "approach_head_blocked_ticks": 837,
+          "regret": 879
+        }
+      }
+    }
+  }
+}
