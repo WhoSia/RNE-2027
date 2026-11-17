@@ -1,0 +1,354 @@
+{
+  "fitted_seed": 17,
+  "original_evaluation_seed": 23,
+  "seeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149,
+    151,
+    157
+  ],
+  "worlds_per_seed": 12,
+  "seed_results": {
+    "101": {
+      "fixed_baseline": {
+        "worst_cost": 34003,
+        "sum_cost": 165497,
+        "worst_regret": 5677
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 31989,
+        "sum_cost": 148332,
+        "worst_regret": 3397
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35467,
+        "sum_cost": 152045,
+        "worst_regret": 3478
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33338,
+        "sum_cost": 137402,
+        "worst_regret": 1349
+      }
+    },
+    "103": {
+      "fixed_baseline": {
+        "worst_cost": 33955,
+        "sum_cost": 165417,
+        "worst_regret": 5523
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32479,
+        "sum_cost": 148798,
+        "worst_regret": 3041
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35334,
+        "sum_cost": 152469,
+        "worst_regret": 2958
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33288,
+        "sum_cost": 137178,
+        "worst_regret": 879
+      }
+    },
+    "107": {
+      "fixed_baseline": {
+        "worst_cost": 33794,
+        "sum_cost": 164352,
+        "worst_regret": 5410
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32379,
+        "sum_cost": 148784,
+        "worst_regret": 3544
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35490,
+        "sum_cost": 152593,
+        "worst_regret": 3111
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33367,
+        "sum_cost": 136852,
+        "worst_regret": 988
+      }
+    },
+    "109": {
+      "fixed_baseline": {
+        "worst_cost": 34065,
+        "sum_cost": 165712,
+        "worst_regret": 5679
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32206,
+        "sum_cost": 148932,
+        "worst_regret": 3394
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35438,
+        "sum_cost": 151919,
+        "worst_regret": 3232
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33398,
+        "sum_cost": 136882,
+        "worst_regret": 1192
+      }
+    },
+    "113": {
+      "fixed_baseline": {
+        "worst_cost": 34372,
+        "sum_cost": 167352,
+        "worst_regret": 5839
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32144,
+        "sum_cost": 148793,
+        "worst_regret": 3278
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35620,
+        "sum_cost": 152491,
+        "worst_regret": 3476
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33332,
+        "sum_cost": 136436,
+        "worst_regret": 1188
+      }
+    },
+    "127": {
+      "fixed_baseline": {
+        "worst_cost": 33428,
+        "sum_cost": 163866,
+        "worst_regret": 5480
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32393,
+        "sum_cost": 149662,
+        "worst_regret": 3314
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35430,
+        "sum_cost": 151760,
+        "worst_regret": 3037
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33384,
+        "sum_cost": 136776,
+        "worst_regret": 991
+      }
+    },
+    "131": {
+      "fixed_baseline": {
+        "worst_cost": 33421,
+        "sum_cost": 166755,
+        "worst_regret": 5560
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32564,
+        "sum_cost": 148233,
+        "worst_regret": 3312
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35423,
+        "sum_cost": 151723,
+        "worst_regret": 2927
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33375,
+        "sum_cost": 136442,
+        "worst_regret": 879
+      }
+    },
+    "137": {
+      "fixed_baseline": {
+        "worst_cost": 34414,
+        "sum_cost": 166094,
+        "worst_regret": 5756
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32580,
+        "sum_cost": 147068,
+        "worst_regret": 3322
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35490,
+        "sum_cost": 152741,
+        "worst_regret": 3197
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33364,
+        "sum_cost": 136094,
+        "worst_regret": 879
+      }
+    },
+    "139": {
+      "fixed_baseline": {
+        "worst_cost": 33831,
+        "sum_cost": 166165,
+        "worst_regret": 5767
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32245,
+        "sum_cost": 149715,
+        "worst_regret": 3323
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35455,
+        "sum_cost": 152120,
+        "worst_regret": 3521
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33412,
+        "sum_cost": 136878,
+        "worst_regret": 1167
+      }
+    },
+    "149": {
+      "fixed_baseline": {
+        "worst_cost": 34042,
+        "sum_cost": 165756,
+        "worst_regret": 5849
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32005,
+        "sum_cost": 147839,
+        "worst_regret": 3404
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35503,
+        "sum_cost": 152618,
+        "worst_regret": 3498
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33373,
+        "sum_cost": 136434,
+        "worst_regret": 1368
+      }
+    },
+    "151": {
+      "fixed_baseline": {
+        "worst_cost": 33409,
+        "sum_cost": 165350,
+        "worst_regret": 5340
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 32169,
+        "sum_cost": 149263,
+        "worst_regret": 3378
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35405,
+        "sum_cost": 152016,
+        "worst_regret": 3236
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33357,
+        "sum_cost": 137088,
+        "worst_regret": 1188
+      }
+    },
+    "157": {
+      "fixed_baseline": {
+        "worst_cost": 33411,
+        "sum_cost": 164257,
+        "worst_regret": 5693
+      },
+      "pooled_minimax_cost": {
+        "worst_cost": 31999,
+        "sum_cost": 148504,
+        "worst_regret": 3209
+      },
+      "pooled_minimax_regret": {
+        "worst_cost": 35410,
+        "sum_cost": 151716,
+        "worst_regret": 3411
+      },
+      "band_minimax_regret": {
+        "worst_cost": 33369,
+        "sum_cost": 135810,
+        "worst_regret": 1370
+      }
+    }
+  },
+  "pairwise_counts": {
+    "fixed_baseline vs pooled_minimax_cost": {
+      "worst_cost": {
+        "pooled_minimax_cost": 12
+      },
+      "sum_cost": {
+        "pooled_minimax_cost": 12
+      },
+      "worst_regret": {
+        "pooled_minimax_cost": 12
+      }
+    },
+    "fixed_baseline vs pooled_minimax_regret": {
+      "worst_cost": {
+        "fixed_baseline": 12
+      },
+      "sum_cost": {
+        "pooled_minimax_regret": 12
+      },
+      "worst_regret": {
+        "pooled_minimax_regret": 12
+      }
+    },
+    "fixed_baseline vs band_minimax_regret": {
+      "worst_cost": {
+        "band_minimax_regret": 12
+      },
+      "sum_cost": {
+        "band_minimax_regret": 12
+      },
+      "worst_regret": {
+        "band_minimax_regret": 12
+      }
+    },
+    "pooled_minimax_cost vs pooled_minimax_regret": {
+      "worst_cost": {
+        "pooled_minimax_cost": 12
+      },
+      "sum_cost": {
+        "pooled_minimax_cost": 12
+      },
+      "worst_regret": {
+        "pooled_minimax_cost": 5,
+        "pooled_minimax_regret": 7
+      }
+    },
+    "pooled_minimax_cost vs band_minimax_regret": {
+      "worst_cost": {
+        "pooled_minimax_cost": 12
+      },
+      "sum_cost": {
+        "band_minimax_regret": 12
+      },
+      "worst_regret": {
+        "band_minimax_regret": 12
+      }
+    },
+    "pooled_minimax_regret vs band_minimax_regret": {
+      "worst_cost": {
+        "band_minimax_regret": 12
+      },
+      "sum_cost": {
+        "band_minimax_regret": 12
+      },
+      "worst_regret": {
+        "band_minimax_regret": 12
+      }
+    }
+  }
+}
