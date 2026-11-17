@@ -1,5 +1,6 @@
 """Paired synthetic protected-left benchmark with dedicated approach lanes."""
 import argparse
+from itertools import groupby
 from math import isfinite
 from dataclasses import dataclass
 from pathlib import Path
@@ -111,7 +112,14 @@ def validate_network(network, left_first):
     if program is None or links != {("T", "0", "0"), ("L", "1", "1")}:
         raise ValueError("Compiled TLS links differ from input")
     compiled = tuple((float(p.get("duration")), p.get("state")) for p in program.findall("phase"))
-    if compiled != phases(left_first):
+
+    def state_timeline(sequence):
+        return tuple((sum(duration for duration, _ in run), state)
+                     for state, run in groupby(sequence, key=lambda interval: interval[1]))
+
+    # netconvert can coalesce adjacent phases with the same signal state.
+    if (program.get("type") != "static" or float(program.get("offset", "nan")) != 0
+            or state_timeline(compiled) != state_timeline(phases(left_first))):
         raise ValueError("Compiled TLS phase program differs from input")
 
 

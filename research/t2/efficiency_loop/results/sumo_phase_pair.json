@@ -1,0 +1,60 @@
+{
+  "lagging_left": {
+    "input_sha256": {
+      "nodes.nod.xml": "6020aedb611785d22e1eece93a346d4312623adee63043bc532d416a013c4d44",
+      "edges.edg.xml": "b753d8120eeac2e99754d5195c13892432188a635bb04e3f459fa398a30e37aa",
+      "links.con.xml": "ffc9c33fd74c34655ff76158f7b51493e95e5229a5c742453f6c425c3c3758c5",
+      "signal.tll.xml": "d27d80dda4732e3237c9a153024fb16bbc14a2a58d2247203d8f35f2ac8d247c",
+      "demand.rou.xml": "9afece8a216a61245b215b19334224719f55f99a7569a108a5c7bd25b6a851c3"
+    },
+    "point_queue": {
+      "scheduled": 24,
+      "crossed": 24,
+      "uncrossed": 0,
+      "approach_vehicle_seconds": 776.0
+    },
+    "sumo_status": "EXECUTED",
+    "sumo": {
+      "scheduled": 24,
+      "crossed": 24,
+      "uncrossed": 0,
+      "approach_vehicle_seconds": 742.25
+    },
+    "step_s": 0.25,
+    "raw_sha256": {
+      "model.net.xml": "a2585e5e053b1d0e132823d65f111bc28c38d7b744fd1d96eb1254497a885f51",
+      "fcd.xml": "e261f409b5c3115cc1e19653e569e7a64db1937b1dc051a7afeef295e38abef9",
+      "tripinfo.xml": "bdd4e1661df3dd8ef6c406d80cc883772c749b00839f7102904871674ded357c"
+    },
+    "version": "Eclipse SUMO sumo 1.28.0"
+  },
+  "leading_left": {
+    "input_sha256": {
+      "nodes.nod.xml": "6020aedb611785d22e1eece93a346d4312623adee63043bc532d416a013c4d44",
+      "edges.edg.xml": "b753d8120eeac2e99754d5195c13892432188a635bb04e3f459fa398a30e37aa",
+      "links.con.xml": "ffc9c33fd74c34655ff76158f7b51493e95e5229a5c742453f6c425c3c3758c5",
+      "signal.tll.xml": "c0c168c508b46d1576b385cdc03f68154936343eb7fa9afcc8d8fa2688c61ef6",
+      "demand.rou.xml": "9afece8a216a61245b215b19334224719f55f99a7569a108a5c7bd25b6a851c3"
+    },
+    "point_queue": {
+      "scheduled": 24,
+      "crossed": 24,
+      "uncrossed": 0,
+      "approach_vehicle_seconds": 886.0
+    },
+    "sumo_status": "EXECUTED",
+    "sumo": {
+      "scheduled": 24,
+      "crossed": 24,
+      "uncrossed": 0,
+      "approach_vehicle_seconds": 643.0
+    },
+    "step_s": 0.25,
+    "raw_sha256": {
+      "model.net.xml": "977f1cecc32bc8883ad372b95ce216100e3df79afb1e179b0418cb04b2ee8166",
+      "fcd.xml": "c48ba13b9f762299f577024d1ce80833026d8c6a3e56584eb8aac069bb22f9d6",
+      "tripinfo.xml": "04e09e3f4580e5ce48c264964766276e2e59e05d0d240ee8497a00b5fbda7242"
+    },
+    "version": "Eclipse SUMO sumo 1.28.0"
+  }
+}

@@ -5,10 +5,31 @@ from unittest import TestCase
 
 from dlr_path_cases import vehicle_cells
 from dlr_path_screen import raster
-from sumo_phase_pair import crossing_times, outcome, phases, point_departures, prepare
+from sumo_phase_pair import crossing_times, outcome, phases, point_departures, prepare, validate_network
 
 
 class ComparisonContract(TestCase):
+    def test_compiled_timeline_accepts_coalesced_red_and_rejects_shift(self):
+        with TemporaryDirectory() as d:
+            network = Path(d) / "model.net.xml"
+            for left_first in (False, True):
+                expected = phases(left_first)
+                coalesced = expected[:-2] + ((16, "rr"),)
+                phases_xml = "".join(f'<phase duration="{duration}" state="{state}"/>'
+                                     for duration, state in coalesced)
+                xml = ('<net><connection from="A" to="T" fromLane="0" tl="j" linkIndex="0"/>'
+                       '<connection from="A" to="L" fromLane="1" tl="j" linkIndex="1"/>'
+                       '<tlLogic id="j" programID="0" type="static" offset="{}">'
+                       + phases_xml + '</tlLogic></net>')
+                network.write_text(xml.format(0))
+                validate_network(network, left_first)
+                network.write_text(xml.format(1))
+                with self.assertRaisesRegex(ValueError, "phase program"):
+                    validate_network(network, left_first)
+                network.write_text(xml.format(0).replace('duration="16"', 'duration="15"'))
+                with self.assertRaisesRegex(ValueError, "phase program"):
+                    validate_network(network, left_first)
+
     def test_only_signal_program_changes_between_plans(self):
         with TemporaryDirectory() as d:
             a, b = Path(d)/"a", Path(d)/"b"
