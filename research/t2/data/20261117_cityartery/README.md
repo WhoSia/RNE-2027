@@ -35,7 +35,7 @@ movement criteria in addition to low speed.
 | Workbook to field signal | Three sheets, 18 rows of nominal phase sequences and durations | Actual signal-state events or a visually anchored phase clock, clearance periods, plus uncertainty |
 | Trajectories to signal clock | Recording-local times and sample cadence | Multiple distinct observed anchors and residual check on an unused anchor |
 | Queue to downstream blockage | Low-speed spans and sample positions | Link occupancy, usable receiving space, and identification of the downstream release |
- 
+
 Keep each join explicit and record its provenance. The ZIP by itself supports
 descriptive summaries of trajectories and nominal timings. A paired intervention
 replay would additionally require validated site and clock joins and a model of
