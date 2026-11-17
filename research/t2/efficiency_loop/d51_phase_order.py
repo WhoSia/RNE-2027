@@ -22,12 +22,18 @@ class Params:
     through_capacity: int = 12
     left_capacity: int = 4
     left_first: bool = False
+    intergreen_s: int = 0
+    amber_service_s: int = 0
+    service_headway_s: int = 1
     def __post_init__(self):
-        for name in ('cycle_s','through_green_s','left_green_s','horizon_s','through_capacity','left_capacity'):
+        for name in ('cycle_s','through_green_s','left_green_s','horizon_s','through_capacity','left_capacity',
+                     'intergreen_s','amber_service_s','service_headway_s'):
             if type(getattr(self,name)) is not int: raise ValueError(f'{name} must be int')
         if type(self.left_first) is not bool: raise ValueError('left_first must be bool')
         if (self.cycle_s <= 0 or self.through_green_s <= 0 or self.left_green_s <= 0
-            or self.through_green_s+self.left_green_s > self.cycle_s
+            or not 0 <= self.amber_service_s <= self.intergreen_s
+            or self.service_headway_s < 1
+            or self.through_green_s+self.left_green_s+2*self.intergreen_s > self.cycle_s
             or self.horizon_s < 1 or self.through_capacity < 1 or self.left_capacity < 1):
             raise ValueError('invalid timing/capacity')
 
@@ -53,15 +59,18 @@ class Outcome:
     @property
     def unserved(self): return self.unserved_through+self.unserved_left
 
-def phase(t:int,p:Params)->str:
-    s=t%p.cycle_s
-    if p.left_first:
-        if s < p.left_green_s: return 'L'
-        if s < p.left_green_s+p.through_green_s: return 'T'
-    else:
-        if s < p.through_green_s: return 'T'
-        if s < p.through_green_s+p.left_green_s: return 'L'
-    return 'R'
+def phase(t: int, p: Params) -> str:
+    """Scheduled service ticks, including any modeled service during intergreen."""
+    local = t % p.cycle_s
+    first, second = (("L", p.left_green_s), ("T", p.through_green_s))
+    if not p.left_first:
+        first, second = second, first
+    second_start = first[1] + p.intergreen_s
+    for start, (movement, green) in ((0, first), (second_start, second)):
+        elapsed = local - start
+        if 0 <= elapsed < green + p.amber_service_s and elapsed % p.service_headway_s == 0:
+            return movement
+    return "R"
 
 def simulate(vehicles:Iterable[Vehicle],p:Params)->Outcome:
     xs=tuple(vehicles)
