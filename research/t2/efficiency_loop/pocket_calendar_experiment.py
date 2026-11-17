@@ -4,9 +4,10 @@ import json
 from collections import Counter
 from itertools import product
 from pathlib import Path
+from types import SimpleNamespace
 
 from d51_phase_order import Params
-from prospective_sensing import PROFILE, decision_record
+from prospective_sensing import PROFILE
 from uncertain_pocket_sensing import bounded_error, by_count
 
 
@@ -20,9 +21,30 @@ CALENDARS = {
 MODES = ("exact", "fullness", "miss_one", "off_by_one")
 
 
+def union_groups(groups_by_calendar):
+    return {
+        count: SimpleNamespace(
+            low=min(groups[count].low for groups in groups_by_calendar),
+            high=max(groups[count].high for groups in groups_by_calendar),
+        )
+        for count in groups_by_calendar[0]
+    }
+
+
+def record(low, high, groups, capacity):
+    lag, lead = max(0, -low), max(0, high)
+    return {
+        "choice": "lag" if lag < lead else "lead" if lead < lag else "either",
+        "delta_bounds": [low, high],
+        "regret": min(lag, lead),
+        "sensor_regret": {mode: bounded_error(groups, capacity, mode)["worst_regret"] for mode in MODES},
+    }
+
+
 def run_context(capacity, decision, cap, visible):
     rows = {}
     expected_worlds = None
+    groups_by_calendar = []
     for key, calendar in CALENDARS.items():
         config = Params(horizon_s=240, left_capacity=capacity, **calendar)
         base, groups = by_count(visible, decision, cap, config)
@@ -31,18 +53,22 @@ def run_context(capacity, decision, cap, visible):
             expected_worlds = signature
         if signature != expected_worlds:
             raise RuntimeError("A post-decision calendar changed pre-decision compatible worlds")
-        rows[key] = {
-            "choice": decision_record(base)["minimax_choice"],
-            "delta_bounds": [base.low, base.high],
-            "regret": base.regret,
-            "sensor_regret": {mode: bounded_error(groups, capacity, mode)["worst_regret"] for mode in MODES},
-        }
+        rows[key] = record(base.low, base.high, groups, capacity)
+        groups_by_calendar.append(groups)
+    combined = union_groups(groups_by_calendar)
+    low = min(group.low for group in combined.values())
+    high = max(group.high for group in combined.values())
+    rows["unknown_calendar"] = record(low, high, combined, capacity)
+    for name in CALENDARS:
+        for mode in MODES:
+            if rows["unknown_calendar"]["sensor_regret"][mode] < rows[name]["sensor_regret"][mode]:
+                raise RuntimeError("Unknown calendar improved a worst-case sensor regret")
     return rows
 
 
 def summarize(rows):
     result = {}
-    for name in CALENDARS:
+    for name in (*CALENDARS, "unknown_calendar"):
         panel = [item[name] for item in rows]
         strict_reversals = sum(
             {row[name]["choice"], row["original"]["choice"]} == {"lead", "lag"} for row in rows
@@ -50,6 +76,9 @@ def summarize(rows):
         result[name] = {
             "choices": dict(sorted(Counter(row["choice"] for row in panel).items())),
             "strict_choice_reversals_vs_original": strict_reversals,
+            "interval_changed_vs_clearance": sum(
+                row[name]["delta_bounds"] != row["clearance"]["delta_bounds"] for row in rows
+            ),
             "positive_baseline_regret": sum(row["regret"] > 0 for row in panel),
             "sensor_improved": {mode: sum(row["sensor_regret"][mode] < row["regret"] for row in panel)
                                 for mode in MODES},
