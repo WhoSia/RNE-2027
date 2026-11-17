@@ -1,0 +1,288 @@
+{
+  "configurations": {
+    "original": {},
+    "clearance": {
+      "intergreen_s": 5
+    },
+    "clearance_with_amber": {
+      "intergreen_s": 5,
+      "amber_service_s": 3
+    },
+    "clearance_with_headway": {
+      "intergreen_s": 5,
+      "service_headway_s": 2
+    },
+    "clearance_amber_headway": {
+      "intergreen_s": 5,
+      "amber_service_s": 3,
+      "service_headway_s": 2
+    }
+  },
+  "capacity_panels": {
+    "1-2": {
+      "contexts": 200,
+      "calendars": {
+        "original": {
+          "choices": {
+            "either": 2,
+            "lag": 14,
+            "lead": 184
+          },
+          "strict_choice_reversals_vs_original": 0,
+          "interval_changed_vs_clearance": 200,
+          "positive_baseline_regret": 102,
+          "sensor_improved": {
+            "exact": 34,
+            "fullness": 29,
+            "miss_one": 5,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 60,
+            "fullness": 60,
+            "miss_one": 24,
+            "off_by_one": 0
+          }
+        },
+        "clearance": {
+          "choices": {
+            "lag": 28,
+            "lead": 172
+          },
+          "strict_choice_reversals_vs_original": 12,
+          "interval_changed_vs_clearance": 0,
+          "positive_baseline_regret": 116,
+          "sensor_improved": {
+            "exact": 33,
+            "fullness": 29,
+            "miss_one": 4,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 61,
+            "fullness": 61,
+            "miss_one": 29,
+            "off_by_one": 0
+          }
+        },
+        "clearance_with_amber": {
+          "choices": {
+            "lag": 28,
+            "lead": 172
+          },
+          "strict_choice_reversals_vs_original": 12,
+          "interval_changed_vs_clearance": 0,
+          "positive_baseline_regret": 116,
+          "sensor_improved": {
+            "exact": 33,
+            "fullness": 29,
+            "miss_one": 4,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 61,
+            "fullness": 61,
+            "miss_one": 29,
+            "off_by_one": 0
+          }
+        },
+        "clearance_with_headway": {
+          "choices": {
+            "lag": 28,
+            "lead": 172
+          },
+          "strict_choice_reversals_vs_original": 12,
+          "interval_changed_vs_clearance": 102,
+          "positive_baseline_regret": 116,
+          "sensor_improved": {
+            "exact": 31,
+            "fullness": 29,
+            "miss_one": 2,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 61,
+            "fullness": 61,
+            "miss_one": 29,
+            "off_by_one": 0
+          }
+        },
+        "clearance_amber_headway": {
+          "choices": {
+            "lag": 28,
+            "lead": 172
+          },
+          "strict_choice_reversals_vs_original": 12,
+          "interval_changed_vs_clearance": 102,
+          "positive_baseline_regret": 116,
+          "sensor_improved": {
+            "exact": 31,
+            "fullness": 29,
+            "miss_one": 2,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 61,
+            "fullness": 61,
+            "miss_one": 29,
+            "off_by_one": 0
+          }
+        },
+        "unknown_calendar": {
+          "choices": {
+            "either": 4,
+            "lag": 22,
+            "lead": 174
+          },
+          "strict_choice_reversals_vs_original": 6,
+          "interval_changed_vs_clearance": 164,
+          "positive_baseline_regret": 116,
+          "sensor_improved": {
+            "exact": 37,
+            "fullness": 33,
+            "miss_one": 4,
+            "off_by_one": 0
+          },
+          "max_reduction": {
+            "exact": 61,
+            "fullness": 61,
+            "miss_one": 29,
+            "off_by_one": 0
+          }
+        }
+      }
+    },
+    "3-4": {
+      "contexts": 200,
+      "calendars": {
+        "original": {
+          "choices": {
+            "either": 4,
+            "lag": 24,
+            "lead": 172
+          },
+          "strict_choice_reversals_vs_original": 0,
+          "interval_changed_vs_clearance": 200,
+          "positive_baseline_regret": 108,
+          "sensor_improved": {
+            "exact": 40,
+            "fullness": 6,
+            "miss_one": 14,
+            "off_by_one": 6
+          },
+          "max_reduction": {
+            "exact": 48,
+            "fullness": 24,
+            "miss_one": 24,
+            "off_by_one": 12
+          }
+        },
+        "clearance": {
+          "choices": {
+            "lag": 32,
+            "lead": 168
+          },
+          "strict_choice_reversals_vs_original": 4,
+          "interval_changed_vs_clearance": 0,
+          "positive_baseline_regret": 136,
+          "sensor_improved": {
+            "exact": 50,
+            "fullness": 14,
+            "miss_one": 26,
+            "off_by_one": 4
+          },
+          "max_reduction": {
+            "exact": 58,
+            "fullness": 37,
+            "miss_one": 29,
+            "off_by_one": 26
+          }
+        },
+        "clearance_with_amber": {
+          "choices": {
+            "lag": 32,
+            "lead": 168
+          },
+          "strict_choice_reversals_vs_original": 4,
+          "interval_changed_vs_clearance": 0,
+          "positive_baseline_regret": 136,
+          "sensor_improved": {
+            "exact": 50,
+            "fullness": 14,
+            "miss_one": 26,
+            "off_by_one": 4
+          },
+          "max_reduction": {
+            "exact": 58,
+            "fullness": 37,
+            "miss_one": 29,
+            "off_by_one": 26
+          }
+        },
+        "clearance_with_headway": {
+          "choices": {
+            "lag": 32,
+            "lead": 168
+          },
+          "strict_choice_reversals_vs_original": 4,
+          "interval_changed_vs_clearance": 84,
+          "positive_baseline_regret": 136,
+          "sensor_improved": {
+            "exact": 50,
+            "fullness": 14,
+            "miss_one": 26,
+            "off_by_one": 4
+          },
+          "max_reduction": {
+            "exact": 58,
+            "fullness": 37,
+            "miss_one": 29,
+            "off_by_one": 26
+          }
+        },
+        "clearance_amber_headway": {
+          "choices": {
+            "lag": 32,
+            "lead": 168
+          },
+          "strict_choice_reversals_vs_original": 4,
+          "interval_changed_vs_clearance": 84,
+          "positive_baseline_regret": 136,
+          "sensor_improved": {
+            "exact": 50,
+            "fullness": 14,
+            "miss_one": 26,
+            "off_by_one": 4
+          },
+          "max_reduction": {
+            "exact": 58,
+            "fullness": 37,
+            "miss_one": 29,
+            "off_by_one": 26
+          }
+        },
+        "unknown_calendar": {
+          "choices": {
+            "lag": 32,
+            "lead": 168
+          },
+          "strict_choice_reversals_vs_original": 4,
+          "interval_changed_vs_clearance": 20,
+          "positive_baseline_regret": 136,
+          "sensor_improved": {
+            "exact": 50,
+            "fullness": 14,
+            "miss_one": 26,
+            "off_by_one": 4
+          },
+          "max_reduction": {
+            "exact": 58,
+            "fullness": 37,
+            "miss_one": 29,
+            "off_by_one": 26
+          }
+        }
+      }
+    }
+  }
+}
