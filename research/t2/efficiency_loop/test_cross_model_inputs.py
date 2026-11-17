@@ -30,6 +30,14 @@ class ComparisonContract(TestCase):
                 with self.assertRaisesRegex(ValueError, "phase program"):
                     validate_network(network, left_first)
 
+    def test_point_service_boundary_and_nominal_travel_time(self):
+        self.assertEqual(point_departures(True)["v01"], 62)
+        self.assertEqual(point_departures(True, travel_time=9.75)["v01"], 11.75)
+        self.assertEqual(point_departures(True, amber_service_s=.25)["v01"], 12)
+        self.assertEqual(point_departures(True, amber_service_s=.25, travel_time=10.25)["v01"], 62)
+        self.assertEqual(outcome(point_departures(False))["approach_vehicle_seconds"], 776)
+        self.assertEqual(outcome(point_departures(True))["approach_vehicle_seconds"], 886)
+
     def test_yellow_and_tau_change_independent_input_files(self):
         with TemporaryDirectory() as d:
             base, red, gap = (Path(d) / name for name in ("base", "red", "gap"))
