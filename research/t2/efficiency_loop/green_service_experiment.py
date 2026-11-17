@@ -25,6 +25,7 @@ def change_storage(scenario, pocket, receiving):
 
 def experiment():
     result = {}
+    witnesses = {}
     for seed in SEEDS:
         for world in worlds(seed):
             if world.receiving != "constrained":
@@ -36,11 +37,13 @@ def experiment():
                 for pocket, receiving in product(POCKETS, RECEIVING):
                     scenario = change_storage(world.scenario, pocket, receiving)
                     outcome, counts, examples = measure(plan, scenario)
-                    cases[f"{pocket}/{receiving}"] = {
+                    tag = f"{pocket}/{receiving}"
+                    for label, row in examples.items():
+                        witnesses.setdefault(label, {"run": key, "capacities": tag, **asdict(row)})
+                    cases[tag] = {
                         "counts": dict(counts),
                         "cost": outcome.cost,
                         "finished": sum(outcome.completed),
-                        "examples": {label: asdict(row) for label, row in examples.items()},
                     }
                 result[key] = cases
     summaries = {}
@@ -59,7 +62,8 @@ def experiment():
     rank_by_capacity = {tag: {order: count for (cell, order), count in ranks.items() if cell == tag}
                         for tag in summaries}
     return {"seeds": SEEDS, "counts_by_capacity": summaries,
-            "preferred_order_by_capacity": rank_by_capacity, "runs": result}
+            "preferred_order_by_capacity": rank_by_capacity,
+            "first_witnesses": witnesses, "runs": result}
 
 
 if __name__ == "__main__":
@@ -67,4 +71,8 @@ if __name__ == "__main__":
     parser.add_argument("output", type=Path)
     args = parser.parse_args()
     report = experiment()
-    args.output.write_text(json.dumps(report, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+    runs = report.pop("runs")
+    header = json.dumps(report, sort_keys=True, indent=2).removesuffix("\n}")
+    rows = ",\n".join(f"    {json.dumps(key)}: {json.dumps(run, sort_keys=True)}"
+                       for key, run in sorted(runs.items()))
+    args.output.write_text(header + ',\n  "runs": {\n' + rows + "\n  }\n}\n", encoding="utf-8")
