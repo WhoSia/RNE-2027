@@ -34,6 +34,7 @@ def summarize(rows):
     duration = Counter()
     locations = Counter()
     by_day = Counter()
+    by_start_hour = Counter()
     lane_counts = Counter()
     limits = defaultdict(lambda: [None, None])
     movement_class_differences = 0
@@ -51,6 +52,7 @@ def summarize(rows):
         exact.add(tuple(row))
         locations[loc] += 1
         by_day[start.date().isoformat()] += 1
+        by_start_hour[start.hour] += 1
         site_intervals[(loc, start, end)] += 1
         duration[elapsed] += 1
         lane_counts[lanes] += 1
@@ -77,7 +79,8 @@ def summarize(rows):
             "lane_counts_per_row": dict(sorted(lane_counts.items())),
             "lane_records": sum(n * count for n, count in lane_counts.items()),
             "movement_class_count_differences": movement_class_differences,
-            "rows_by_start_date": by_day, "sites": by_site}
+            "rows_by_start_date": by_day, "rows_by_start_hour": dict(sorted(by_start_hour.items())),
+            "sites": by_site}
 
 
 if __name__ == "__main__":
