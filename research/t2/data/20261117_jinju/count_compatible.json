@@ -1,0 +1,136 @@
+{
+  "observed_record": {
+    "site": "롤러스케이트장 [신안동 748-6]",
+    "start": "2025-11-03 00:38:30",
+    "end": "2025-11-03 00:38:44",
+    "lane": 1,
+    "through_count": 1,
+    "left_count": 1
+  },
+  "assumption": "matched hypothetical arrivals, no signal-clock join",
+  "synthetic_window_start_s": {
+    "0": {
+      "sequences": 210,
+      "lead_minus_lag_bounds_s": [
+        -25,
+        47
+      ],
+      "low_witness": [
+        -25,
+        [
+          [
+            0,
+            "L"
+          ],
+          [
+            13,
+            "T"
+          ]
+        ],
+        30,
+        5
+      ],
+      "high_witness": [
+        47,
+        [
+          [
+            0,
+            "T"
+          ],
+          [
+            13,
+            "L"
+          ]
+        ],
+        17,
+        64
+      ],
+      "minimax_regret_s": {
+        "lag": 25,
+        "lead": 47
+      }
+    },
+    "8": {
+      "sequences": 210,
+      "lead_minus_lag_bounds_s": [
+        -20,
+        39
+      ],
+      "low_witness": [
+        -20,
+        [
+          [
+            8,
+            "L"
+          ],
+          [
+            16,
+            "T"
+          ]
+        ],
+        22,
+        2
+      ],
+      "high_witness": [
+        39,
+        [
+          [
+            8,
+            "T"
+          ],
+          [
+            21,
+            "L"
+          ]
+        ],
+        9,
+        48
+      ],
+      "minimax_regret_s": {
+        "lag": 20,
+        "lead": 39
+      }
+    },
+    "26": {
+      "sequences": 210,
+      "lead_minus_lag_bounds_s": [
+        -49,
+        37
+      ],
+      "low_witness": [
+        -49,
+        [
+          [
+            39,
+            "T"
+          ],
+          [
+            39,
+            "L"
+          ]
+        ],
+        71,
+        22
+      ],
+      "high_witness": [
+        37,
+        [
+          [
+            39,
+            "L"
+          ],
+          [
+            39,
+            "T"
+          ]
+        ],
+        22,
+        59
+      ],
+      "minimax_regret_s": {
+        "lag": 49,
+        "lead": 37
+      }
+    }
+  }
+}
