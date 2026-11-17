@@ -1,0 +1,237 @@
+{
+  "capacities": [
+    1,
+    2
+  ],
+  "contexts": 200,
+  "ambiguous_without_sensor": 102,
+  "reading_error": {
+    "exact": {
+      "improved_contexts": 34,
+      "maximum_regret_reduction": 60
+    },
+    "fullness": {
+      "improved_contexts": 29,
+      "maximum_regret_reduction": 60
+    },
+    "miss_one": {
+      "improved_contexts": 5,
+      "maximum_regret_reduction": 24
+    },
+    "off_by_one": {
+      "improved_contexts": 0,
+      "maximum_regret_reduction": 0
+    }
+  },
+  "erasure": {
+    "0": {
+      "improved_contexts": 34,
+      "maximum_regret_reduction": 60.0
+    },
+    "1/10": {
+      "improved_contexts": 34,
+      "maximum_regret_reduction": 60.0
+    },
+    "1/4": {
+      "improved_contexts": 34,
+      "maximum_regret_reduction": 54.0
+    },
+    "1/2": {
+      "improved_contexts": 34,
+      "maximum_regret_reduction": 36.0
+    },
+    "1": {
+      "improved_contexts": 0,
+      "maximum_regret_reduction": 0.0
+    }
+  },
+  "example": {
+    "capacity": 2,
+    "decision": 8,
+    "future_cap": 3,
+    "visible_counts": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "unmeasured_regret": 72,
+    "modes": {
+      "exact": {
+        "worst_regret": 12,
+        "branches": {
+          "0": {
+            "delta": [
+              13,
+              72
+            ],
+            "worst_regret": 0,
+            "choice": "lag"
+          },
+          "1": {
+            "delta": [
+              -12,
+              48
+            ],
+            "worst_regret": 12,
+            "choice": "lag"
+          },
+          "2": {
+            "delta": [
+              -81,
+              12
+            ],
+            "worst_regret": 12,
+            "choice": "lead"
+          }
+        }
+      },
+      "fullness": {
+        "worst_regret": 12,
+        "branches": {
+          "0": {
+            "delta": [
+              -12,
+              72
+            ],
+            "worst_regret": 12,
+            "choice": "lag"
+          },
+          "1": {
+            "delta": [
+              -81,
+              12
+            ],
+            "worst_regret": 12,
+            "choice": "lead"
+          }
+        }
+      },
+      "miss_one": {
+        "worst_regret": 48,
+        "branches": {
+          "0": {
+            "delta": [
+              -12,
+              72
+            ],
+            "worst_regret": 12,
+            "choice": "lag"
+          },
+          "1": {
+            "delta": [
+              -81,
+              48
+            ],
+            "worst_regret": 48,
+            "choice": "lead"
+          },
+          "2": {
+            "delta": [
+              -81,
+              12
+            ],
+            "worst_regret": 12,
+            "choice": "lead"
+          }
+        }
+      },
+      "off_by_one": {
+        "worst_regret": 72,
+        "branches": {
+          "0": {
+            "delta": [
+              -12,
+              72
+            ],
+            "worst_regret": 12,
+            "choice": "lag"
+          },
+          "1": {
+            "delta": [
+              -81,
+              72
+            ],
+            "worst_regret": 72,
+            "choice": "lead"
+          },
+          "2": {
+            "delta": [
+              -81,
+              48
+            ],
+            "worst_regret": 48,
+            "choice": "lead"
+          }
+        }
+      }
+    },
+    "erasure": [
+      {
+        "max_probability": "0",
+        "worst_expected_regret": 12.0,
+        "policy": {
+          "fallback": "lag",
+          "readable": {
+            "0": "lag",
+            "1": "lag",
+            "2": "lead"
+          }
+        }
+      },
+      {
+        "max_probability": "1/10",
+        "worst_expected_regret": 12.0,
+        "policy": {
+          "fallback": "lag",
+          "readable": {
+            "0": "lag",
+            "1": "lag",
+            "2": "lead"
+          }
+        }
+      },
+      {
+        "max_probability": "1/4",
+        "worst_expected_regret": 18.0,
+        "policy": {
+          "fallback": "lead",
+          "readable": {
+            "0": "lag",
+            "1": "lag",
+            "2": "lead"
+          }
+        }
+      },
+      {
+        "max_probability": "1/2",
+        "worst_expected_regret": 36.0,
+        "policy": {
+          "fallback": "lead",
+          "readable": {
+            "0": "lag",
+            "1": "lag",
+            "2": "lead"
+          }
+        }
+      },
+      {
+        "max_probability": "1",
+        "worst_expected_regret": 72.0,
+        "policy": {
+          "fallback": "lead",
+          "readable": {
+            "0": "lag",
+            "1": "lag",
+            "2": "lead"
+          }
+        }
+      }
+    ]
+  },
+  "scope": "Synthetic point queue. Rates are assumed for sensitivity, not estimated from traffic data."
+}

@@ -1,0 +1,87 @@
+{
+  "source_sha256": "a28abf25725df5ca015840824db02efd03135e2fb5e0c153a6b6506b039d8c7a",
+  "events": 122,
+  "window_s": [
+    -16.3163163163163,
+    1201.63496830164
+  ],
+  "states": 5,
+  "all_red_s_range": [
+    0.9342676009341986,
+    1.034367701039855
+  ],
+  "head_statistics": {
+    "Traffic light 1": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.95995995995963,
+        60.06006006006305
+      ],
+      "median_cycle_s": 59.99332665999401,
+      "median_complete_green_s": 25.99265932599303
+    },
+    "Traffic light 2": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.92659325992702,
+        60.06006006005998
+      ],
+      "median_cycle_s": 59.993326659993954,
+      "median_complete_green_s": 25.992659325993017
+    },
+    "Traffic light 3": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.92659325992702,
+        60.06006006005998
+      ],
+      "median_cycle_s": 59.993326659993954,
+      "median_complete_green_s": 25.992659325993017
+    },
+    "Traffic light 4": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.95995995995963,
+        60.06006006006305
+      ],
+      "median_cycle_s": 59.99332665999401,
+      "median_complete_green_s": 25.99265932599303
+    },
+    "Traffic light 5": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.95995995995963,
+        60.06006006006305
+      ],
+      "median_cycle_s": 59.99332665999401,
+      "median_complete_green_s": 25.99265932599303
+    },
+    "Traffic light 6": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.92659325992702,
+        60.06006006005998
+      ],
+      "median_cycle_s": 59.993326659993954,
+      "median_complete_green_s": 25.992659325993017
+    },
+    "Traffic light 7": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.92659325992702,
+        60.06006006005998
+      ],
+      "median_cycle_s": 59.993326659993954,
+      "median_complete_green_s": 25.992659325993017
+    },
+    "Traffic light 8": {
+      "complete_onset_pairs": 19,
+      "cycle_s_range": [
+        59.95995995995963,
+        60.06006006006305
+      ],
+      "median_cycle_s": 59.99332665999401,
+      "median_complete_green_s": 25.99265932599303
+    }
+  }
+}

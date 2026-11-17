@@ -1,0 +1,354 @@
+[
+  {
+    "horizon": 336,
+    "terminal_penalty": 0,
+    "candidates": 2442,
+    "winner": {
+      "plan": {
+        "greens": [
+          24,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 20,
+        "clearance": 3,
+        "startup": 1
+      },
+      "value": 19412,
+      "evaluations": 2479,
+      "abandoned": 2434,
+      "skipped": 9731,
+      "screened": 0,
+      "ticks": 15120
+    },
+    "winner_cycle": 72,
+    "per_cycle": {
+      "72": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            16,
+            8
+          ],
+          "left_first": true,
+          "offset": 20,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 19412,
+        "evaluations": 361,
+        "abandoned": 316,
+        "skipped": 1259,
+        "screened": 0,
+        "ticks": 15120
+      },
+      "84": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 48,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 22057,
+        "evaluations": 1030,
+        "abandoned": 953,
+        "skipped": 3800,
+        "screened": 0,
+        "ticks": 25872
+      },
+      "96": {
+        "plan": {
+          "greens": [
+            36,
+            16,
+            20,
+            12
+          ],
+          "left_first": true,
+          "offset": 60,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 22580,
+        "evaluations": 1221,
+        "abandoned": 1138,
+        "skipped": 4539,
+        "screened": 0,
+        "ticks": 27888
+      }
+    }
+  },
+  {
+    "horizon": 336,
+    "terminal_penalty": 60,
+    "candidates": 2442,
+    "winner": {
+      "plan": {
+        "greens": [
+          24,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 56,
+        "clearance": 3,
+        "startup": 1
+      },
+      "value": 25969,
+      "evaluations": 2484,
+      "abandoned": 518,
+      "skipped": 9726,
+      "screened": 0,
+      "ticks": 660576
+    },
+    "winner_cycle": 72,
+    "per_cycle": {
+      "72": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            16,
+            8
+          ],
+          "left_first": true,
+          "offset": 56,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 25969,
+        "evaluations": 366,
+        "abandoned": 94,
+        "skipped": 1254,
+        "screened": 0,
+        "ticks": 91392
+      },
+      "84": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 1023,
+        "abandoned": 0,
+        "skipped": 3807,
+        "screened": 0,
+        "ticks": 343728
+      },
+      "96": {
+        "plan": {
+          "greens": [
+            28,
+            16,
+            28,
+            12
+          ],
+          "left_first": true,
+          "offset": 64,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 30345,
+        "evaluations": 1223,
+        "abandoned": 0,
+        "skipped": 4537,
+        "screened": 0,
+        "ticks": 410928
+      }
+    }
+  },
+  {
+    "horizon": 336,
+    "terminal_penalty": 120,
+    "candidates": 2442,
+    "winner": {
+      "plan": {
+        "greens": [
+          24,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 56,
+        "clearance": 3,
+        "startup": 1
+      },
+      "value": 32329,
+      "evaluations": 2491,
+      "abandoned": 0,
+      "skipped": 9719,
+      "screened": 0,
+      "ticks": 836976
+    },
+    "winner_cycle": 72,
+    "per_cycle": {
+      "72": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            16,
+            8
+          ],
+          "left_first": true,
+          "offset": 56,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 32329,
+        "evaluations": 373,
+        "abandoned": 0,
+        "skipped": 1247,
+        "screened": 0,
+        "ticks": 125328
+      },
+      "84": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 36483,
+        "evaluations": 1032,
+        "abandoned": 0,
+        "skipped": 3798,
+        "screened": 0,
+        "ticks": 346752
+      },
+      "96": {
+        "plan": {
+          "greens": [
+            28,
+            16,
+            28,
+            12
+          ],
+          "left_first": true,
+          "offset": 64,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 38153,
+        "evaluations": 1233,
+        "abandoned": 0,
+        "skipped": 4527,
+        "screened": 0,
+        "ticks": 414288
+      }
+    }
+  },
+  {
+    "horizon": 240,
+    "terminal_penalty": 60,
+    "candidates": 2442,
+    "winner": {
+      "plan": {
+        "greens": [
+          24,
+          12,
+          16,
+          8
+        ],
+        "left_first": true,
+        "offset": 20,
+        "clearance": 3,
+        "startup": 1
+      },
+      "value": 15633,
+      "evaluations": 2475,
+      "abandoned": 9,
+      "skipped": 9735,
+      "screened": 0,
+      "ticks": 591840
+    },
+    "winner_cycle": 72,
+    "per_cycle": {
+      "72": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            16,
+            8
+          ],
+          "left_first": true,
+          "offset": 20,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 15633,
+        "evaluations": 357,
+        "abandoned": 1,
+        "skipped": 1263,
+        "screened": 0,
+        "ticks": 85440
+      },
+      "84": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": true,
+          "offset": 56,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 17198,
+        "evaluations": 1035,
+        "abandoned": 0,
+        "skipped": 3795,
+        "screened": 0,
+        "ticks": 248400
+      },
+      "96": {
+        "plan": {
+          "greens": [
+            36,
+            16,
+            20,
+            12
+          ],
+          "left_first": true,
+          "offset": 60,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 17583,
+        "evaluations": 1207,
+        "abandoned": 0,
+        "skipped": 4553,
+        "screened": 0,
+        "ticks": 289680
+      }
+    }
+  }
+]

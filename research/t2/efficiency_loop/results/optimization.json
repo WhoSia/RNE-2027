@@ -1,0 +1,786 @@
+{
+  "plans": 966,
+  "matrix_benchmark": {
+    "seconds": 2.2791,
+    "evaluations": 4830
+  },
+  "methods": {
+    "event_False_bound_False": {
+      "worst": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 4830,
+        "abandoned": 0,
+        "skipped": 0,
+        "screened": 0,
+        "ticks": 1622880,
+        "seconds": 2.3545
+      },
+      "scenario_oracle": {
+        "values": [
+          12746,
+          24043,
+          14682,
+          29403,
+          1379
+        ],
+        "evaluations": 4830,
+        "abandoned": 0,
+        "screened": 0,
+        "seconds": 2.3433
+      },
+      "regret": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            24,
+            12
+          ],
+          "left_first": false,
+          "offset": 8,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 3446,
+        "evaluations": 4830,
+        "abandoned": 0,
+        "skipped": 0,
+        "screened": 0,
+        "ticks": 1622880,
+        "seconds": 2.2871
+      }
+    },
+    "event_True_bound_False": {
+      "worst": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 4830,
+        "abandoned": 0,
+        "skipped": 0,
+        "screened": 0,
+        "ticks": 1181427,
+        "seconds": 5.6521
+      },
+      "scenario_oracle": {
+        "values": [
+          12746,
+          24043,
+          14682,
+          29403,
+          1379
+        ],
+        "evaluations": 4830,
+        "abandoned": 0,
+        "screened": 0,
+        "seconds": 6.7053
+      },
+      "regret": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            24,
+            12
+          ],
+          "left_first": false,
+          "offset": 8,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 3446,
+        "evaluations": 4830,
+        "abandoned": 0,
+        "skipped": 0,
+        "screened": 0,
+        "ticks": 1181427,
+        "seconds": 7.0119
+      }
+    },
+    "event_False_bound_True": {
+      "worst": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 992,
+        "abandoned": 0,
+        "skipped": 3838,
+        "screened": 0,
+        "ticks": 333312,
+        "seconds": 0.4604
+      },
+      "scenario_oracle": {
+        "values": [
+          12746,
+          24043,
+          14682,
+          29403,
+          1379
+        ],
+        "evaluations": 4830,
+        "abandoned": 2125,
+        "screened": 0,
+        "seconds": 2.1735
+      },
+      "regret": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            24,
+            12
+          ],
+          "left_first": false,
+          "offset": 8,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 3446,
+        "evaluations": 1450,
+        "abandoned": 4,
+        "skipped": 3380,
+        "screened": 0,
+        "ticks": 485856,
+        "seconds": 0.7223
+      }
+    },
+    "event_True_bound_True": {
+      "worst": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 992,
+        "abandoned": 0,
+        "skipped": 3838,
+        "screened": 0,
+        "ticks": 271835,
+        "seconds": 1.4121
+      },
+      "scenario_oracle": {
+        "values": [
+          12746,
+          24043,
+          14682,
+          29403,
+          1379
+        ],
+        "evaluations": 4830,
+        "abandoned": 2125,
+        "screened": 0,
+        "seconds": 5.8278
+      },
+      "regret": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            24,
+            12
+          ],
+          "left_first": false,
+          "offset": 8,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 3446,
+        "evaluations": 1450,
+        "abandoned": 4,
+        "skipped": 3380,
+        "screened": 0,
+        "ticks": 397887,
+        "seconds": 2.7372
+      }
+    },
+    "event_False_bound_True_relaxed": {
+      "worst": {
+        "plan": {
+          "greens": [
+            24,
+            16,
+            20,
+            12
+          ],
+          "left_first": false,
+          "offset": 0,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 29403,
+        "evaluations": 992,
+        "abandoned": 0,
+        "skipped": 3838,
+        "screened": 0,
+        "ticks": 333312,
+        "seconds": 0.6695
+      },
+      "scenario_oracle": {
+        "values": [
+          12746,
+          24043,
+          14682,
+          29403,
+          1379
+        ],
+        "evaluations": 2095,
+        "abandoned": 161,
+        "screened": 2735,
+        "seconds": 1.4072
+      },
+      "regret": {
+        "plan": {
+          "greens": [
+            24,
+            12,
+            24,
+            12
+          ],
+          "left_first": false,
+          "offset": 8,
+          "clearance": 3,
+          "startup": 1
+        },
+        "value": 3446,
+        "evaluations": 1383,
+        "abandoned": 0,
+        "skipped": 3380,
+        "screened": 67,
+        "ticks": 464688,
+        "seconds": 0.75
+      }
+    }
+  },
+  "comparison": [
+    {
+      "scenario": "balanced",
+      "arrivals": 253,
+      "oracle": 12746,
+      "baseline": {
+        "cost": 17027,
+        "area": 13727,
+        "completed": [
+          26,
+          18,
+          35,
+          15,
+          39,
+          32,
+          33
+        ],
+        "remaining": [
+          18,
+          2,
+          9,
+          2,
+          13,
+          11,
+          0
+        ],
+        "peak_link": [
+          6,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 336
+      },
+      "minimax": {
+        "cost": 16823,
+        "area": 13643,
+        "completed": [
+          26,
+          18,
+          35,
+          17,
+          39,
+          32,
+          33
+        ],
+        "remaining": [
+          18,
+          2,
+          9,
+          0,
+          13,
+          11,
+          0
+        ],
+        "peak_link": [
+          6,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 336
+      },
+      "minimax_regret": {
+        "cost": 15793,
+        "area": 12913,
+        "completed": [
+          24,
+          17,
+          35,
+          16,
+          45,
+          39,
+          29
+        ],
+        "remaining": [
+          20,
+          3,
+          9,
+          1,
+          7,
+          4,
+          4
+        ],
+        "peak_link": [
+          6,
+          3,
+          5,
+          3,
+          6,
+          6
+        ],
+        "ticks": 336
+      }
+    },
+    {
+      "scenario": "turn-surge",
+      "arrivals": 278,
+      "oracle": 24043,
+      "baseline": {
+        "cost": 27999,
+        "area": 20859,
+        "completed": [
+          15,
+          18,
+          26,
+          20,
+          32,
+          19,
+          29
+        ],
+        "remaining": [
+          40,
+          45,
+          20,
+          11,
+          2,
+          1,
+          0
+        ],
+        "peak_link": [
+          6,
+          3,
+          6,
+          3,
+          3,
+          4
+        ],
+        "ticks": 336
+      },
+      "minimax": {
+        "cost": 26025,
+        "area": 19485,
+        "completed": [
+          17,
+          23,
+          26,
+          23,
+          32,
+          19,
+          29
+        ],
+        "remaining": [
+          38,
+          40,
+          20,
+          8,
+          2,
+          1,
+          0
+        ],
+        "peak_link": [
+          6,
+          3,
+          6,
+          3,
+          3,
+          4
+        ],
+        "ticks": 336
+      },
+      "minimax_regret": {
+        "cost": 27489,
+        "area": 20529,
+        "completed": [
+          17,
+          22,
+          26,
+          18,
+          33,
+          19,
+          27
+        ],
+        "remaining": [
+          38,
+          41,
+          20,
+          13,
+          1,
+          1,
+          2
+        ],
+        "peak_link": [
+          4,
+          3,
+          6,
+          3,
+          5,
+          6
+        ],
+        "ticks": 336
+      }
+    },
+    {
+      "scenario": "cross-surge",
+      "arrivals": 258,
+      "oracle": 14682,
+      "baseline": {
+        "cost": 18106,
+        "area": 14026,
+        "completed": [
+          22,
+          11,
+          29,
+          8,
+          39,
+          38,
+          43
+        ],
+        "remaining": [
+          7,
+          3,
+          4,
+          1,
+          35,
+          13,
+          5
+        ],
+        "peak_link": [
+          3,
+          3,
+          6,
+          1,
+          6,
+          6
+        ],
+        "ticks": 336
+      },
+      "minimax": {
+        "cost": 18251,
+        "area": 14231,
+        "completed": [
+          22,
+          12,
+          29,
+          8,
+          39,
+          38,
+          43
+        ],
+        "remaining": [
+          7,
+          2,
+          4,
+          1,
+          35,
+          13,
+          5
+        ],
+        "peak_link": [
+          3,
+          3,
+          6,
+          1,
+          6,
+          6
+        ],
+        "ticks": 336
+      },
+      "minimax_regret": {
+        "cost": 16620,
+        "area": 13020,
+        "completed": [
+          22,
+          10,
+          29,
+          8,
+          47,
+          44,
+          38
+        ],
+        "remaining": [
+          7,
+          4,
+          4,
+          1,
+          27,
+          7,
+          10
+        ],
+        "peak_link": [
+          6,
+          3,
+          4,
+          2,
+          6,
+          6
+        ],
+        "ticks": 336
+      }
+    },
+    {
+      "scenario": "tight-downstream",
+      "arrivals": 286,
+      "oracle": 29403,
+      "baseline": {
+        "cost": 31131,
+        "area": 23451,
+        "completed": [
+          21,
+          12,
+          22,
+          12,
+          27,
+          25,
+          39
+        ],
+        "remaining": [
+          20,
+          17,
+          28,
+          14,
+          32,
+          13,
+          4
+        ],
+        "peak_link": [
+          3,
+          2,
+          3,
+          2,
+          4,
+          4
+        ],
+        "ticks": 336
+      },
+      "minimax": {
+        "cost": 29403,
+        "area": 22323,
+        "completed": [
+          24,
+          14,
+          23,
+          16,
+          27,
+          25,
+          39
+        ],
+        "remaining": [
+          17,
+          15,
+          27,
+          10,
+          32,
+          13,
+          4
+        ],
+        "peak_link": [
+          3,
+          2,
+          3,
+          2,
+          4,
+          4
+        ],
+        "ticks": 336
+      },
+      "minimax_regret": {
+        "cost": 31009,
+        "area": 23329,
+        "completed": [
+          21,
+          12,
+          22,
+          13,
+          29,
+          25,
+          36
+        ],
+        "remaining": [
+          20,
+          17,
+          28,
+          13,
+          30,
+          13,
+          7
+        ],
+        "peak_link": [
+          3,
+          2,
+          3,
+          2,
+          4,
+          4
+        ],
+        "ticks": 336
+      }
+    },
+    {
+      "scenario": "light",
+      "arrivals": 52,
+      "oracle": 1379,
+      "baseline": {
+        "cost": 1495,
+        "area": 1315,
+        "completed": [
+          12,
+          2,
+          3,
+          5,
+          9,
+          6,
+          12
+        ],
+        "remaining": [
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "peak_link": [
+          3,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "ticks": 336
+      },
+      "minimax": {
+        "cost": 1553,
+        "area": 1373,
+        "completed": [
+          12,
+          2,
+          3,
+          5,
+          9,
+          6,
+          12
+        ],
+        "remaining": [
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "peak_link": [
+          3,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "ticks": 336
+      },
+      "minimax_regret": {
+        "cost": 1583,
+        "area": 1463,
+        "completed": [
+          12,
+          2,
+          3,
+          5,
+          10,
+          6,
+          12
+        ],
+        "remaining": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "peak_link": [
+          3,
+          1,
+          1,
+          1,
+          3,
+          2
+        ],
+        "ticks": 336
+      }
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "cycle": 85,
+  "plans": 1012,
+  "best_training": {
+    "plan": {
+      "greens": [
+        24,
+        12,
+        29,
+        8
+      ],
+      "left_first": false,
+      "offset": 84,
+      "clearance": 3,
+      "startup": 1
+    },
+    "value": 12364,
+    "evaluations": 1201,
+    "abandoned": 548,
+    "skipped": 2847,
+    "screened": 0,
+    "ticks": 274260
+  },
+  "blocks": [
+    {
+      "block": "1100",
+      "role": "training",
+      "east_classes": {
+        "through": 37,
+        "right": 5,
+        "left": 17,
+        "unclassified": 4
+      },
+      "east_TL": 54,
+      "east_rows_sha256": "bb36e8627fb5f449f78c7c0a2a6c8b22adbadf053da98a75fbc64233514c15bc",
+      "generated_other_movements": 193,
+      "seed": 11,
+      "baseline": {
+        "cost": 11806,
+        "area": 9346,
+        "completed": [
+          28,
+          10,
+          44,
+          19,
+          36,
+          41,
+          28
+        ],
+        "remaining": [
+          9,
+          7,
+          13,
+          3,
+          6,
+          3,
+          0
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11627,
+        "area": 9347,
+        "completed": [
+          27,
+          10,
+          44,
+          19,
+          39,
+          42,
+          28
+        ],
+        "remaining": [
+          10,
+          7,
+          13,
+          3,
+          3,
+          2,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1215",
+      "role": "training",
+      "east_classes": {
+        "right": 5,
+        "left": 11,
+        "through": 20,
+        "unclassified": 1
+      },
+      "east_TL": 31,
+      "east_rows_sha256": "7718a8d8ca59b5c42b2ee9c9ad55f5cd7ea0f26b0e8319996c58d75c7e4a8272",
+      "generated_other_movements": 191,
+      "seed": 19,
+      "baseline": {
+        "cost": 11390,
+        "area": 9650,
+        "completed": [
+          16,
+          10,
+          33,
+          16,
+          44,
+          40,
+          34
+        ],
+        "remaining": [
+          4,
+          1,
+          17,
+          3,
+          3,
+          1,
+          0
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 10181,
+        "area": 8801,
+        "completed": [
+          16,
+          10,
+          38,
+          18,
+          45,
+          40,
+          32
+        ],
+        "remaining": [
+          4,
+          1,
+          12,
+          1,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1230",
+      "role": "training",
+      "east_classes": {
+        "through": 27,
+        "left": 13,
+        "right": 6,
+        "unclassified": 3
+      },
+      "east_TL": 40,
+      "east_rows_sha256": "adf13218c931df6580f9ec91a2d59038f5099382100b113d87cd3b8bf323a264",
+      "generated_other_movements": 224,
+      "seed": 23,
+      "baseline": {
+        "cost": 13291,
+        "area": 11311,
+        "completed": [
+          25,
+          13,
+          43,
+          16,
+          50,
+          47,
+          37
+        ],
+        "remaining": [
+          2,
+          0,
+          17,
+          4,
+          6,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 12264,
+        "area": 10284,
+        "completed": [
+          25,
+          13,
+          45,
+          17,
+          50,
+          48,
+          33
+        ],
+        "remaining": [
+          2,
+          0,
+          15,
+          3,
+          6,
+          3,
+          4
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1445",
+      "role": "training",
+      "east_classes": {
+        "left": 16,
+        "through": 27,
+        "right": 6,
+        "unclassified": 1
+      },
+      "east_TL": 43,
+      "east_rows_sha256": "c944098a648b7fe82116db6ef2be24a0cf94c39721536d6f61ce10d4ba3e875c",
+      "generated_other_movements": 216,
+      "seed": 29,
+      "baseline": {
+        "cost": 15365,
+        "area": 13205,
+        "completed": [
+          21,
+          15,
+          44,
+          24,
+          46,
+          41,
+          32
+        ],
+        "remaining": [
+          6,
+          1,
+          15,
+          6,
+          4,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 12364,
+        "area": 10624,
+        "completed": [
+          21,
+          15,
+          47,
+          25,
+          48,
+          44,
+          30
+        ],
+        "remaining": [
+          6,
+          1,
+          12,
+          5,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1530",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 4,
+        "through": 26,
+        "left": 14,
+        "unclassified": 5
+      },
+      "east_TL": 40,
+      "east_rows_sha256": "2680da76c7e6f52bf0f6cc2397090d29d593efd9976e0673843ba7751d330533",
+      "generated_other_movements": 193,
+      "seed": 11,
+      "perfect_information_cost": 8278,
+      "baseline": {
+        "cost": 9452,
+        "area": 7892,
+        "completed": [
+          25,
+          14,
+          44,
+          19,
+          36,
+          41,
+          28
+        ],
+        "remaining": [
+          1,
+          0,
+          13,
+          3,
+          6,
+          3,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 9356,
+        "area": 7976,
+        "completed": [
+          25,
+          13,
+          44,
+          19,
+          39,
+          42,
+          28
+        ],
+        "remaining": [
+          1,
+          1,
+          13,
+          3,
+          3,
+          2,
+          0
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1530",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 4,
+        "through": 26,
+        "left": 14,
+        "unclassified": 5
+      },
+      "east_TL": 40,
+      "east_rows_sha256": "2680da76c7e6f52bf0f6cc2397090d29d593efd9976e0673843ba7751d330533",
+      "generated_other_movements": 191,
+      "seed": 19,
+      "perfect_information_cost": 8861,
+      "baseline": {
+        "cost": 10555,
+        "area": 9055,
+        "completed": [
+          25,
+          14,
+          33,
+          16,
+          44,
+          40,
+          34
+        ],
+        "remaining": [
+          1,
+          0,
+          17,
+          3,
+          3,
+          1,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 9501,
+        "area": 8301,
+        "completed": [
+          25,
+          13,
+          38,
+          18,
+          45,
+          40,
+          32
+        ],
+        "remaining": [
+          1,
+          1,
+          12,
+          1,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1530",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 4,
+        "through": 26,
+        "left": 14,
+        "unclassified": 5
+      },
+      "east_TL": 40,
+      "east_rows_sha256": "2680da76c7e6f52bf0f6cc2397090d29d593efd9976e0673843ba7751d330533",
+      "generated_other_movements": 224,
+      "seed": 23,
+      "perfect_information_cost": 10822,
+      "baseline": {
+        "cost": 12772,
+        "area": 10852,
+        "completed": [
+          25,
+          14,
+          43,
+          16,
+          50,
+          47,
+          37
+        ],
+        "remaining": [
+          1,
+          0,
+          17,
+          4,
+          6,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11400,
+        "area": 9420,
+        "completed": [
+          25,
+          13,
+          45,
+          17,
+          50,
+          48,
+          33
+        ],
+        "remaining": [
+          1,
+          1,
+          15,
+          3,
+          6,
+          3,
+          4
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1530",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 4,
+        "through": 26,
+        "left": 14,
+        "unclassified": 5
+      },
+      "east_TL": 40,
+      "east_rows_sha256": "2680da76c7e6f52bf0f6cc2397090d29d593efd9976e0673843ba7751d330533",
+      "generated_other_movements": 216,
+      "seed": 29,
+      "perfect_information_cost": 10997,
+      "baseline": {
+        "cost": 14063,
+        "area": 12263,
+        "completed": [
+          25,
+          14,
+          44,
+          24,
+          46,
+          41,
+          32
+        ],
+        "remaining": [
+          1,
+          0,
+          15,
+          6,
+          4,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11287,
+        "area": 9847,
+        "completed": [
+          25,
+          13,
+          47,
+          25,
+          48,
+          44,
+          30
+        ],
+        "remaining": [
+          1,
+          1,
+          12,
+          5,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          2,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1545",
+      "role": "evaluation",
+      "east_classes": {
+        "left": 17,
+        "through": 33,
+        "right": 9,
+        "unclassified": 1
+      },
+      "east_TL": 50,
+      "east_rows_sha256": "9675c700c13d305c7bb8532c3c0a6e126c45d00dab0018af0beb162f9d77baba",
+      "generated_other_movements": 193,
+      "seed": 11,
+      "perfect_information_cost": 9221,
+      "baseline": {
+        "cost": 11577,
+        "area": 9477,
+        "completed": [
+          27,
+          13,
+          44,
+          19,
+          36,
+          41,
+          28
+        ],
+        "remaining": [
+          6,
+          4,
+          13,
+          3,
+          6,
+          3,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11476,
+        "area": 9556,
+        "completed": [
+          26,
+          13,
+          44,
+          19,
+          39,
+          42,
+          28
+        ],
+        "remaining": [
+          7,
+          4,
+          13,
+          3,
+          3,
+          2,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1545",
+      "role": "evaluation",
+      "east_classes": {
+        "left": 17,
+        "through": 33,
+        "right": 9,
+        "unclassified": 1
+      },
+      "east_TL": 50,
+      "east_rows_sha256": "9675c700c13d305c7bb8532c3c0a6e126c45d00dab0018af0beb162f9d77baba",
+      "generated_other_movements": 191,
+      "seed": 19,
+      "perfect_information_cost": 9774,
+      "baseline": {
+        "cost": 12680,
+        "area": 10640,
+        "completed": [
+          27,
+          13,
+          33,
+          16,
+          44,
+          40,
+          34
+        ],
+        "remaining": [
+          6,
+          4,
+          17,
+          3,
+          3,
+          1,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11621,
+        "area": 9881,
+        "completed": [
+          26,
+          13,
+          38,
+          18,
+          45,
+          40,
+          32
+        ],
+        "remaining": [
+          7,
+          4,
+          12,
+          1,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1545",
+      "role": "evaluation",
+      "east_classes": {
+        "left": 17,
+        "through": 33,
+        "right": 9,
+        "unclassified": 1
+      },
+      "east_TL": 50,
+      "east_rows_sha256": "9675c700c13d305c7bb8532c3c0a6e126c45d00dab0018af0beb162f9d77baba",
+      "generated_other_movements": 224,
+      "seed": 23,
+      "perfect_information_cost": 11970,
+      "baseline": {
+        "cost": 14897,
+        "area": 12437,
+        "completed": [
+          27,
+          13,
+          43,
+          16,
+          50,
+          47,
+          37
+        ],
+        "remaining": [
+          6,
+          4,
+          17,
+          4,
+          6,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 13520,
+        "area": 11000,
+        "completed": [
+          26,
+          13,
+          45,
+          17,
+          50,
+          48,
+          33
+        ],
+        "remaining": [
+          7,
+          4,
+          15,
+          3,
+          6,
+          3,
+          4
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1545",
+      "role": "evaluation",
+      "east_classes": {
+        "left": 17,
+        "through": 33,
+        "right": 9,
+        "unclassified": 1
+      },
+      "east_TL": 50,
+      "east_rows_sha256": "9675c700c13d305c7bb8532c3c0a6e126c45d00dab0018af0beb162f9d77baba",
+      "generated_other_movements": 216,
+      "seed": 29,
+      "perfect_information_cost": 11432,
+      "baseline": {
+        "cost": 16188,
+        "area": 13848,
+        "completed": [
+          27,
+          13,
+          44,
+          24,
+          46,
+          41,
+          32
+        ],
+        "remaining": [
+          6,
+          4,
+          15,
+          6,
+          4,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 13407,
+        "area": 11427,
+        "completed": [
+          26,
+          13,
+          47,
+          25,
+          48,
+          44,
+          30
+        ],
+        "remaining": [
+          7,
+          4,
+          12,
+          5,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1600",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 5,
+        "through": 25,
+        "left": 12,
+        "unclassified": 1
+      },
+      "east_TL": 37,
+      "east_rows_sha256": "9536b6ce774627c55b1955a8b167ee21fb3148d6404db74d09a38cc4dcc8ab60",
+      "generated_other_movements": 193,
+      "seed": 11,
+      "perfect_information_cost": 8302,
+      "baseline": {
+        "cost": 9649,
+        "area": 8149,
+        "completed": [
+          25,
+          12,
+          44,
+          19,
+          36,
+          41,
+          28
+        ],
+        "remaining": [
+          0,
+          0,
+          13,
+          3,
+          6,
+          3,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 9518,
+        "area": 8258,
+        "completed": [
+          25,
+          12,
+          44,
+          19,
+          39,
+          42,
+          28
+        ],
+        "remaining": [
+          0,
+          0,
+          13,
+          3,
+          3,
+          2,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1600",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 5,
+        "through": 25,
+        "left": 12,
+        "unclassified": 1
+      },
+      "east_TL": 37,
+      "east_rows_sha256": "9536b6ce774627c55b1955a8b167ee21fb3148d6404db74d09a38cc4dcc8ab60",
+      "generated_other_movements": 191,
+      "seed": 19,
+      "perfect_information_cost": 8485,
+      "baseline": {
+        "cost": 10752,
+        "area": 9312,
+        "completed": [
+          25,
+          12,
+          33,
+          16,
+          44,
+          40,
+          34
+        ],
+        "remaining": [
+          0,
+          0,
+          17,
+          3,
+          3,
+          1,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 9663,
+        "area": 8583,
+        "completed": [
+          25,
+          12,
+          38,
+          18,
+          45,
+          40,
+          32
+        ],
+        "remaining": [
+          0,
+          0,
+          12,
+          1,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1600",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 5,
+        "through": 25,
+        "left": 12,
+        "unclassified": 1
+      },
+      "east_TL": 37,
+      "east_rows_sha256": "9536b6ce774627c55b1955a8b167ee21fb3148d6404db74d09a38cc4dcc8ab60",
+      "generated_other_movements": 224,
+      "seed": 23,
+      "perfect_information_cost": 10559,
+      "baseline": {
+        "cost": 12969,
+        "area": 11109,
+        "completed": [
+          25,
+          12,
+          43,
+          16,
+          50,
+          47,
+          37
+        ],
+        "remaining": [
+          0,
+          0,
+          17,
+          4,
+          6,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11562,
+        "area": 9702,
+        "completed": [
+          25,
+          12,
+          45,
+          17,
+          50,
+          48,
+          33
+        ],
+        "remaining": [
+          0,
+          0,
+          15,
+          3,
+          6,
+          3,
+          4
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          5
+        ],
+        "ticks": 420
+      }
+    },
+    {
+      "block": "1600",
+      "role": "evaluation",
+      "east_classes": {
+        "right": 5,
+        "through": 25,
+        "left": 12,
+        "unclassified": 1
+      },
+      "east_TL": 37,
+      "east_rows_sha256": "9536b6ce774627c55b1955a8b167ee21fb3148d6404db74d09a38cc4dcc8ab60",
+      "generated_other_movements": 216,
+      "seed": 29,
+      "perfect_information_cost": 11162,
+      "baseline": {
+        "cost": 14260,
+        "area": 12520,
+        "completed": [
+          25,
+          12,
+          44,
+          24,
+          46,
+          41,
+          32
+        ],
+        "remaining": [
+          0,
+          0,
+          15,
+          6,
+          4,
+          4,
+          0
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      },
+      "fixed_training_plan": {
+        "cost": 11449,
+        "area": 10129,
+        "completed": [
+          25,
+          12,
+          47,
+          25,
+          48,
+          44,
+          30
+        ],
+        "remaining": [
+          0,
+          0,
+          12,
+          5,
+          2,
+          1,
+          2
+        ],
+        "peak_link": [
+          5,
+          3,
+          6,
+          3,
+          6,
+          6
+        ],
+        "ticks": 420
+      }
+    }
+  ]
+}

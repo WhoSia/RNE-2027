@@ -1,0 +1,96 @@
+{
+  "scenario": "east_platoon/tight/227",
+  "fixed_candidates": 966,
+  "frontier": [
+    {
+      "cost": 40445,
+      "pedestrian_wait_s": 139,
+      "plan": {
+        "greens": [
+          28,
+          8,
+          24,
+          12
+        ],
+        "left_first": true,
+        "offset": 68,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    {
+      "cost": 40467,
+      "pedestrian_wait_s": 125,
+      "plan": {
+        "greens": [
+          32,
+          8,
+          20,
+          12
+        ],
+        "left_first": false,
+        "offset": 4,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    {
+      "cost": 42574,
+      "pedestrian_wait_s": 117,
+      "plan": {
+        "greens": [
+          24,
+          8,
+          28,
+          12
+        ],
+        "left_first": false,
+        "offset": 12,
+        "clearance": 3,
+        "startup": 1
+      }
+    },
+    {
+      "cost": 44034,
+      "pedestrian_wait_s": 114,
+      "plan": {
+        "greens": [
+          32,
+          8,
+          20,
+          12
+        ],
+        "left_first": true,
+        "offset": 16,
+        "clearance": 3,
+        "startup": 1
+      }
+    }
+  ],
+  "reference_policies": {
+    "fixed": {
+      "cost": 44058,
+      "pedestrian_wait_s": 138,
+      "pedestrian_area": 3331,
+      "pedestrian_remaining": 3
+    },
+    "queue": {
+      "cost": 48571,
+      "pedestrian_wait_s": 186,
+      "pedestrian_area": 5114,
+      "pedestrian_remaining": 13
+    },
+    "receiving": {
+      "cost": 35266,
+      "pedestrian_wait_s": 68,
+      "pedestrian_area": 1544,
+      "pedestrian_remaining": 3
+    },
+    "confirmed": {
+      "cost": 39660,
+      "pedestrian_wait_s": 120,
+      "pedestrian_area": 3189,
+      "pedestrian_remaining": 6
+    }
+  }
+}

@@ -1,0 +1,1855 @@
+{
+  "training_n": 78,
+  "evaluation_n": 47,
+  "targets": [
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.0019999999999527063,
+      "front_distance_m": 1.785,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.500274999999874,
+        5.500274999999874
+      ],
+      "block": "1100",
+      "reference_n": 4,
+      "definitely_later_than_n": 4,
+      "definitely_earlier_than_n": 0
+    },
+    {
+      "interval": 9,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.010999999999967258,
+      "front_distance_m": 6.012,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.112352999999985,
+        5.110353000000032
+      ],
+      "block": "1230",
+      "reference_n": 6,
+      "definitely_later_than_n": 5,
+      "definitely_earlier_than_n": 1
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.010999999999967258,
+      "front_distance_m": 2.261,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.1600140000000465,
+        5.158014000000094
+      ],
+      "block": "1230",
+      "reference_n": 8,
+      "definitely_later_than_n": 7,
+      "definitely_earlier_than_n": 0
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.010999999999967258,
+      "front_distance_m": 9.813,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.069492999999966,
+        7.067493000000013
+      ],
+      "block": "1230",
+      "reference_n": 4,
+      "definitely_later_than_n": 0,
+      "definitely_earlier_than_n": 0
+    },
+    {
+      "interval": 2,
+      "lane": -4,
+      "rank": 1,
+      "depth": 3,
+      "sample_offset_s": 0.012000000000625732,
+      "front_distance_m": 1.827,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.290179999999964,
+        5.28917999999976
+      ],
+      "block": "1445",
+      "reference_n": 3,
+      "definitely_later_than_n": 1,
+      "definitely_earlier_than_n": 0
+    },
+    {
+      "interval": 2,
+      "lane": -4,
+      "rank": 2,
+      "depth": 3,
+      "sample_offset_s": 0.012000000000625732,
+      "front_distance_m": 9.862,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.236714000000575,
+        7.235714000000371
+      ],
+      "block": "1445",
+      "reference_n": 0,
+      "definitely_later_than_n": 0,
+      "definitely_earlier_than_n": 0
+    }
+  ],
+  "evaluation": [
+    {
+      "interval": 1,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.0020000000004074536,
+      "front_distance_m": 0.726,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        1.9174660000007862,
+        2.917466000000786
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0.9641984999988154,
+          1.9641984999988154
+        ],
+        "rank": [
+          0.5321794999996428,
+          1.5321794999996428
+        ],
+        "lane_rank": [
+          0.38280499999910944,
+          1.3828049999991094
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        -0.14937450000053332
+      ]
+    },
+    {
+      "interval": 1,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.0020000000004074536,
+      "front_distance_m": 0.953,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.568506999999954,
+        3.568506999999954
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0.31315749999964737,
+          1.3131574999996474
+        ],
+        "rank": [
+          0,
+          0.8811385000004748
+        ],
+        "lane_rank": [
+          0,
+          0.9207300000001055
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.19429600000012215
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.49500000000080036,
+      "front_distance_m": 1.537,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.9792230000002746,
+        3.988223000000289
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.9024414999993269
+        ],
+        "rank": [
+          0,
+          0.5385774999998603
+        ],
+        "lane_rank": [
+          0,
+          0.510013999999785
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 5,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.004999999999199645,
+      "front_distance_m": 1.391,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        1.8283439999995608,
+        2.8283439999995608
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          1.0533205000000407,
+          2.0533205000000407
+        ],
+        "rank": [
+          0.6213015000008681,
+          1.6213015000008681
+        ],
+        "lane_rank": [
+          0.47192700000033483,
+          1.4719270000003348
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        -0.14937450000053332
+      ]
+    },
+    {
+      "interval": 6,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.004000000000814907,
+      "front_distance_m": 1.287,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.418282000000545,
+        3.4022819999991043
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0.4793825000004972,
+          1.4633824999990566
+        ],
+        "rank": [
+          0.04736350000132461,
+          1.031363499999884
+        ],
+        "lane_rank": [
+          0.08695500000095535,
+          1.0709549999995147
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 7,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 3.895,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.673834999999599,
+        4.673834999999599
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.7921704999999974
+        ],
+        "rank": [
+          0.22418949999917004,
+          1.22418949999917
+        ],
+        "lane_rank": [
+          0.37356399999970336,
+          1.3735639999997034
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.016359999999167485,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 8,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.48699999999917054,
+      "front_distance_m": 1.535,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.6792289999993955,
+        3.7002290000000357
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0.18143549999956576,
+          1.202435500000206
+        ],
+        "rank": [
+          0,
+          0.7704165000010335
+        ],
+        "lane_rank": [
+          0,
+          0.6210420000005001
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.06914800000004107
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.009000000000014552,
+      "front_distance_m": 2.253,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.8413610000006884,
+        3.8413610000006884
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0.04030349999891314,
+          1.0403034999989131
+        ],
+        "rank": [
+          0,
+          0.6082844999997405
+        ],
+        "lane_rank": [
+          0,
+          0.6478759999993713
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.3514120000013463
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.009000000000014552,
+      "front_distance_m": 9.145,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.922124999999141,
+        5.922124999999141
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          1.04046049999954,
+          2.04046049999954
+        ],
+        "rank": [
+          0.008517000000210828,
+          1.0085170000002108
+        ],
+        "lane_rank": [
+          0.031289000000924716,
+          1.0312890000009247
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.031943499999329,
+        -0.031943499999329106
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.022772000000713888,
+        0.022772000000713888
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 2.656,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.5941189999994094,
+        4.596118999999817
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.7144545000002154
+        ],
+        "rank": [
+          0.14447349999898051,
+          1.146473499999388
+        ],
+        "lane_rank": [
+          0.10488199999934977,
+          1.1068819999997572
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.14307200000121156,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 10.986,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.758099000000584,
+        7.7600990000009915
+      ],
+      "block": "1530",
+      "loss_bounds_s": {
+        "constant": [
+          2.8764345000009826,
+          3.87843450000139
+        ],
+        "rank": [
+          0.8274570000012318,
+          1.8294570000016392
+        ],
+        "lane_rank": [
+          0.8046850000005179,
+          1.8066850000009254
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -2.0489774999997508
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.022772000000713888,
+        -0.022772000000713888
+      ]
+    },
+    {
+      "interval": 1,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.004000000000814907,
+      "front_distance_m": 4.934,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.067956000000777,
+        4.067956000000777
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.8137084999988247
+        ],
+        "rank": [
+          0,
+          0.6183105000003479
+        ],
+        "lane_rank": [
+          0,
+          0.7676850000008812
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 1,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.004000000000814907,
+      "front_distance_m": 2.402,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.389818999999989,
+        5.389818999999989
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.5081545000003871,
+          1.508154500000387
+        ],
+        "rank": [
+          0.9401734999995597,
+          1.9401734999995597
+        ],
+        "lane_rank": [
+          0.9005819999999289,
+          1.900581999999929
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 1,
+      "lane": -4,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.004000000000814907,
+      "front_distance_m": 12.384,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        8.518484000000171,
+        9.518484000000171
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          4.63681950000057,
+          5.63681950000057
+        ],
+        "rank": [
+          2.587842000000819,
+          3.587842000000819
+        ],
+        "lane_rank": [
+          2.565070000000105,
+          3.565070000000105
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -2.0489774999997508
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.022772000000713888,
+        -0.022772000000713888
+      ]
+    },
+    {
+      "interval": 2,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 0.68,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.6258299999990413,
+        3.62282999999843
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.25883450000117136,
+          1.2558345000005602
+        ],
+        "rank": [
+          0,
+          0.8238155000013876
+        ],
+        "lane_rank": [
+          0,
+          0.6744410000008543
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.08565000000317013
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 2,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 3.425,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.149876999999833,
+        3.146876999999222
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.7347875000003796,
+          1.7317874999997684
+        ],
+        "rank": [
+          0.30276850000120703,
+          1.2997685000005958
+        ],
+        "lane_rank": [
+          0.34236000000083777,
+          1.3393600000002266
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 2,
+      "lane": -4,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 11.049,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.729917000000569,
+        5.726916999999958
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.8482525000009673,
+          1.8452525000003561
+        ],
+        "rank": [
+          0.20372499999939464,
+          1.2007249999987835
+        ],
+        "lane_rank": [
+          0.22649700000010853,
+          1.2234969999994973
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -1.6415275000009615,
+        0.35247249999781616
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.022772000000713888,
+        0.022772000000713888
+      ]
+    },
+    {
+      "interval": 3,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.009000000000014552,
+      "front_distance_m": 0.993,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        5.578829000000042,
+        6.578829000000042
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          1.69716450000044,
+          2.69716450000044
+        ],
+        "rank": [
+          2.1291834999996126,
+          3.1291834999996126
+        ],
+        "lane_rank": [
+          2.089591999999982,
+          3.089591999999982
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -3,
+      "rank": 1,
+      "depth": 3,
+      "sample_offset_s": 0.010000000000218279,
+      "front_distance_m": 2.344,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.855478999999832,
+        5.855478999999832
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.9738145000002305,
+          1.9738145000002305
+        ],
+        "rank": [
+          1.405833499999403,
+          2.405833499999403
+        ],
+        "lane_rank": [
+          1.5552079999999364,
+          2.5552079999999364
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -3,
+      "rank": 2,
+      "depth": 3,
+      "sample_offset_s": 0.010000000000218279,
+      "front_distance_m": 9.966,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.971891000001051,
+        7.971891000001051
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          3.0902265000014495,
+          4.0902265000014495
+        ],
+        "rank": [
+          1.0412490000016987,
+          2.0412490000016987
+        ],
+        "lane_rank": [
+          1.3040775000013127,
+          2.3040775000013127
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -2.0489774999997508
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.262828499999614,
+        0.262828499999614
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.010000000000218279,
+      "front_distance_m": 2.271,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.895578999999998,
+        3.895578999999998
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.9860854999996036
+        ],
+        "rank": [
+          0,
+          0.554066500000431
+        ],
+        "lane_rank": [
+          0,
+          0.5936580000000617
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 5,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.16599999999925785,
+      "front_distance_m": 3.663,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.763500999999451,
+        3.763500999999451
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.11816350000015063,
+          1.1181635000001506
+        ],
+        "rank": [
+          0,
+          0.686144500000978
+        ],
+        "lane_rank": [
+          0,
+          0.5367700000004447
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.19569199999887132
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 5,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.16599999999925785,
+      "front_distance_m": 1.815,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.0575969999990775,
+        3.0575969999990775
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.824067500000524,
+          1.824067500000524
+        ],
+        "rank": [
+          0.3920485000013514,
+          1.3920485000013514
+        ],
+        "lane_rank": [
+          0.4316400000009821,
+          1.4316400000009821
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 6,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.010000000000218279,
+      "front_distance_m": 1.641,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.233140000000276,
+        3.2341400000004796
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.6475244999991219,
+          1.6485244999993256
+        ],
+        "rank": [
+          0.21550549999994928,
+          1.216505500000153
+        ],
+        "lane_rank": [
+          0.25509699999958,
+          1.2560969999997837
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 8,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 1.899,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.30982799999947,
+        4.30982799999947
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.5718365000001313
+        ],
+        "rank": [
+          0,
+          0.8601824999990413
+        ],
+        "lane_rank": [
+          0.0095569999995746,
+          1.0095569999995746
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.13026050000138412,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 8,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 2.747,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.655790999999226,
+        4.655790999999226
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.7741264999996247
+        ],
+        "rank": [
+          0.20614549999879728,
+          1.2061454999987973
+        ],
+        "lane_rank": [
+          0.16655399999916654,
+          1.1665539999991665
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.01972800000157804,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 2,
+      "depth": 3,
+      "sample_offset_s": 0.0020000000004074536,
+      "front_distance_m": 9.39,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.984599000001253,
+        5.987599000000046
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          1.102934500001652,
+          2.105934500000444
+        ],
+        "rank": [
+          0,
+          0.9460429999980988
+        ],
+        "lane_rank": [
+          0,
+          0.9688149999988127
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -0.15689150000355312
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.022772000000713888,
+        0.022772000000713888
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -3,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.0,
+      "front_distance_m": 3.16,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.479036000000633,
+        3.4810360000010405
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.400628499998561,
+          1.4026284999989684
+        ],
+        "rank": [
+          0,
+          0.9706094999997958
+        ],
+        "lane_rank": [
+          0,
+          0.8212349999992625
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.3692379999979494
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -3,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.0,
+      "front_distance_m": 11.541,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        5.299305000000459,
+        6.301305000000866
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          1.4176405000008572,
+          2.4196405000012646
+        ],
+        "rank": [
+          0,
+          0.6313369999988936
+        ],
+        "lane_rank": [
+          0,
+          0.6334915000011279
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -0.7863035000019636
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.262828499999614,
+        0.262828499999614
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.0,
+      "front_distance_m": 5.475,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        4.679980000000796,
+        5.681980000001204
+      ],
+      "block": "1545",
+      "loss_bounds_s": {
+        "constant": [
+          0.7983155000011948,
+          1.8003155000016022
+        ],
+        "rank": [
+          1.2303345000003674,
+          2.232334500000775
+        ],
+        "lane_rank": [
+          1.1907430000007366,
+          2.192743000001144
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 1,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.01599999999962165,
+      "front_distance_m": 0.383,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.4476269999995566,
+        4.449626999999964
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.5679625000003625
+        ],
+        "rank": [
+          0,
+          0.9999814999995351
+        ],
+        "lane_rank": [
+          0.14735599999966098,
+          1.1493560000000684
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.14533749999878864,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 2,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.47999999999956344,
+      "front_distance_m": 0.919,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.8926719999999477,
+        3.8796720000009373
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0.0019924999986642433,
+          0.9889924999996538
+        ],
+        "rank": [
+          0,
+          0.5569735000004812
+        ],
+        "lane_rank": [
+          0,
+          0.5794010000010417
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4280340000018441
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 3,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 1.12,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.219595999999001,
+        7.219595999999001
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          2.3379314999993994,
+          3.3379314999993994
+        ],
+        "rank": [
+          2.769950499998572,
+          3.769950499998572
+        ],
+        "lane_rank": [
+          2.9193249999991053,
+          3.9193249999991053
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 3,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 2.252,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.142997999999352,
+        4.142997999999352
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.7386665000002495
+        ],
+        "rank": [
+          0,
+          0.6933524999989231
+        ],
+        "lane_rank": [
+          0,
+          0.6537609999992924
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -3,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.03800000000046566,
+      "front_distance_m": 4.04,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.836921000000075,
+        3.835920999999871
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0.045743499999730375,
+          1.0447434999995266
+        ],
+        "rank": [
+          0,
+          0.612724500000354
+        ],
+        "lane_rank": [
+          0,
+          0.5356499999999755
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.34053199999971184
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 4,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.03800000000046566,
+      "front_distance_m": 1.762,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        1.7375090000005002,
+        2.7365090000002965
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          1.145155499999305,
+          2.1441554999991013
+        ],
+        "rank": [
+          0.7131365000001324,
+          1.7121364999999287
+        ],
+        "lane_rank": [
+          0.7527279999997631,
+          1.7517279999995594
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 6,
+      "lane": -4,
+      "rank": 1,
+      "depth": 3,
+      "sample_offset_s": 0.023999999999432475,
+      "front_distance_m": 1.228,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.276858999999604,
+        4.276858999999604
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.6048054999999977
+        ],
+        "rank": [
+          0,
+          0.8272134999991749
+        ],
+        "lane_rank": [
+          0,
+          0.7876219999995442
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 6,
+      "lane": -4,
+      "rank": 2,
+      "depth": 3,
+      "sample_offset_s": 0.023999999999432475,
+      "front_distance_m": 7.734,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        6.211868000000322,
+        7.211868000000322
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          2.330203500000721,
+          3.330203500000721
+        ],
+        "rank": [
+          0.2812260000009701,
+          1.28122600000097
+        ],
+        "lane_rank": [
+          0.2584540000002562,
+          1.2584540000002562
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -2.0489774999997508
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.022772000000713888,
+        -0.022772000000713888
+      ]
+    },
+    {
+      "interval": 6,
+      "lane": -4,
+      "rank": 3,
+      "depth": 3,
+      "sample_offset_s": 0.023999999999432475,
+      "front_distance_m": 14.335,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        8.92290999999932,
+        9.92290999999932
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          5.041245499999718,
+          6.041245499999718
+        ],
+        "rank": [
+          1.044627999999193,
+          2.044627999999193
+        ],
+        "lane_rank": [
+          1.044627999999193,
+          2.044627999999193
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -3.996617500000525,
+        -3.996617500000525
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interval": 8,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.007999999999810825,
+      "front_distance_m": 4.824,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.295275999998921,
+        4.298275999999532
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.5863885000006803
+        ],
+        "rank": [
+          0,
+          0.8486304999991034
+        ],
+        "lane_rank": [
+          0,
+          0.8090389999994727
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 9,
+      "lane": -4,
+      "rank": 1,
+      "depth": 1,
+      "sample_offset_s": 0.004999999999199645,
+      "front_distance_m": 2.865,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        2.284957999998369,
+        3.284957999998369
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0.5967065000012326,
+          1.5967065000012326
+        ],
+        "rank": [
+          0.16468750000206,
+          1.16468750000206
+        ],
+        "lane_rank": [
+          0.20427900000169075,
+          1.2042790000016907
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4320189999991726,
+        -0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.03959149999963074,
+        0.03959149999963074
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -3,
+      "rank": 1,
+      "depth": 2,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 2.048,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        3.4650369999999384,
+        4.470036999999138
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          0,
+          0.5883724999995366
+        ],
+        "rank": [
+          0.015391499999509506,
+          1.0203914999987092
+        ],
+        "lane_rank": [
+          0.16476600000004282,
+          1.1697659999992425
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -0.4012360000001536,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.14937450000053332,
+        0.14937450000053332
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -3,
+      "rank": 2,
+      "depth": 2,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 10.328,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        5.7801090000011754,
+        6.785109000000375
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          1.898444500001574,
+          2.9034445000007736
+        ],
+        "rank": [
+          0,
+          0.8544670000010228
+        ],
+        "lane_rank": [
+          0.11229550000143718,
+          1.1172955000006368
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -1.7479115000033971
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03823749999673964,
+        0.262828499999614
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 1,
+      "depth": 4,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 3.342,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        5.329458000000159,
+        6.334457999999358
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          1.4477935000005573,
+          2.452793499999757
+        ],
+        "rank": [
+          1.8798124999997299,
+          2.8848124999989295
+        ],
+        "lane_rank": [
+          1.8402210000000991,
+          2.845220999999299
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        0.4320189999991726,
+        0.4320189999991726
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.03959149999963074,
+        -0.03959149999963074
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 2,
+      "depth": 4,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 10.976,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        7.198182000000088,
+        8.203181999999288
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          3.3165175000004865,
+          4.321517499999686
+        ],
+        "rank": [
+          1.2675400000007357,
+          2.2725399999999354
+        ],
+        "lane_rank": [
+          1.2447680000000219,
+          2.2497679999992215
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -2.0489774999997508,
+        -2.0489774999997508
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        -0.022772000000713888,
+        -0.022772000000713888
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 3,
+      "depth": 4,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 17.881,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        9.269533000000592,
+        10.274532999999792
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          5.387868500000991,
+          6.392868500000191
+        ],
+        "rank": [
+          1.3912510000004659,
+          2.3962509999996655
+        ],
+        "lane_rank": [
+          1.3912510000004659,
+          2.3962509999996655
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -3.996617500000525,
+        -3.996617500000525
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interval": 10,
+      "lane": -4,
+      "rank": 4,
+      "depth": 4,
+      "sample_offset_s": 0.01300000000082946,
+      "front_distance_m": 24.262,
+      "movement": "through",
+      "match_count": 1,
+      "crossing_s_bounds": [
+        10.799998000000414,
+        11.804997999999614
+      ],
+      "block": "1600",
+      "loss_bounds_s": {
+        "constant": [
+          6.918333500000813,
+          7.9233335000000125
+        ],
+        "rank": [
+          1.611153500000455,
+          2.6161534999996547
+        ],
+        "lane_rank": [
+          1.611153500000455,
+          2.6161534999996547
+        ]
+      },
+      "paired_rank_minus_constant_s": [
+        -5.307180000000358,
+        -5.307180000000358
+      ],
+      "paired_lane_rank_minus_rank_s": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

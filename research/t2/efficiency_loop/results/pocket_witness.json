@@ -1,0 +1,68 @@
+{
+  "decision_tick": 8,
+  "arrivals": [
+    "",
+    "T",
+    "T",
+    "",
+    "",
+    "T",
+    "L",
+    "",
+    ""
+  ],
+  "summary": {
+    "capacity_2_empty_initial": {
+      "lag": {
+        "pocket_at_decision": 1,
+        "area_vehicle_seconds": 45,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "lead": {
+        "pocket_at_decision": 1,
+        "area_vehicle_seconds": 57,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "delta_lead_minus_lag": 12
+    },
+    "capacity_2_one_left_initial": {
+      "lag": {
+        "pocket_at_decision": 2,
+        "area_vehicle_seconds": 78,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "lead": {
+        "pocket_at_decision": 2,
+        "area_vehicle_seconds": 66,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "delta_lead_minus_lag": -12
+    },
+    "capacity_3_empty_initial": {
+      "lag": {
+        "pocket_at_decision": 1,
+        "area_vehicle_seconds": 45,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "lead": {
+        "pocket_at_decision": 1,
+        "area_vehicle_seconds": 57,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "delta_lead_minus_lag": 12
+    },
+    "capacity_3_one_left_initial": {
+      "lag": {
+        "pocket_at_decision": 2,
+        "area_vehicle_seconds": 78,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "lead": {
+        "pocket_at_decision": 2,
+        "area_vehicle_seconds": 66,
+        "source_waiting_behind_left_ticks": 0
+      },
+      "delta_lead_minus_lag": -12
+    }
+  }
+}

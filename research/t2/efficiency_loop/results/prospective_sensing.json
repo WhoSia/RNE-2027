@@ -1,0 +1,1930 @@
+{
+  "all_oracle_scenarios": {
+    "cases": 1000,
+    "forecast_ambiguous_n": 510,
+    "oracle_zero_but_forecast_ambiguous_n": 374,
+    "count_strictly_better_than_fullness_n": 25,
+    "instruments": {
+      "presence": {
+        "pairs_reduced": 0,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 0,
+        "max_reduction_vehicle_seconds": 0
+      },
+      "movement": {
+        "pairs_reduced": 40,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 40,
+        "max_reduction_vehicle_seconds": 36
+      },
+      "pocket_fullness": {
+        "pairs_reduced": 145,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 145,
+        "max_reduction_vehicle_seconds": 60
+      },
+      "pocket_count": {
+        "pairs_reduced": 170,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 170,
+        "max_reduction_vehicle_seconds": 60
+      }
+    }
+  },
+  "distinct_live_contexts": {
+    "cases": 200,
+    "forecast_ambiguous_n": 102,
+    "count_strictly_better_than_fullness_n": 5,
+    "instruments": {
+      "presence": {
+        "pairs_reduced": 0,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 0,
+        "max_reduction_vehicle_seconds": 0
+      },
+      "movement": {
+        "pairs_reduced": 8,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 8,
+        "max_reduction_vehicle_seconds": 36
+      },
+      "pocket_fullness": {
+        "pairs_reduced": 29,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 29,
+        "max_reduction_vehicle_seconds": 60
+      },
+      "pocket_count": {
+        "pairs_reduced": 34,
+        "pairs_resolved": 0,
+        "branches_change_minimax_choice_n": 34,
+        "max_reduction_vehicle_seconds": 60
+      }
+    },
+    "forecast_ambiguous_with_at_least_one_zero_regret_oracle_n": 102
+  },
+  "live_contexts_by_decision_and_cap": {
+    "decision_6_cap_2": {
+      "cases": 50,
+      "forecast_ambiguous_n": 24,
+      "count_strictly_better_than_fullness_n": 1,
+      "instruments": {
+        "presence": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "movement": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "pocket_fullness": {
+          "pairs_reduced": 3,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 3,
+          "max_reduction_vehicle_seconds": 24
+        },
+        "pocket_count": {
+          "pairs_reduced": 4,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 4,
+          "max_reduction_vehicle_seconds": 24
+        }
+      }
+    },
+    "decision_6_cap_3": {
+      "cases": 50,
+      "forecast_ambiguous_n": 27,
+      "count_strictly_better_than_fullness_n": 4,
+      "instruments": {
+        "presence": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "movement": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "pocket_fullness": {
+          "pairs_reduced": 3,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 3,
+          "max_reduction_vehicle_seconds": 24
+        },
+        "pocket_count": {
+          "pairs_reduced": 7,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 7,
+          "max_reduction_vehicle_seconds": 24
+        }
+      }
+    },
+    "decision_8_cap_2": {
+      "cases": 50,
+      "forecast_ambiguous_n": 24,
+      "count_strictly_better_than_fullness_n": 0,
+      "instruments": {
+        "presence": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "movement": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "pocket_fullness": {
+          "pairs_reduced": 9,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 9,
+          "max_reduction_vehicle_seconds": 24
+        },
+        "pocket_count": {
+          "pairs_reduced": 9,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 9,
+          "max_reduction_vehicle_seconds": 24
+        }
+      }
+    },
+    "decision_8_cap_3": {
+      "cases": 50,
+      "forecast_ambiguous_n": 27,
+      "count_strictly_better_than_fullness_n": 0,
+      "instruments": {
+        "presence": {
+          "pairs_reduced": 0,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 0,
+          "max_reduction_vehicle_seconds": 0
+        },
+        "movement": {
+          "pairs_reduced": 8,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 8,
+          "max_reduction_vehicle_seconds": 36
+        },
+        "pocket_fullness": {
+          "pairs_reduced": 14,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 14,
+          "max_reduction_vehicle_seconds": 60
+        },
+        "pocket_count": {
+          "pairs_reduced": 14,
+          "pairs_resolved": 0,
+          "branches_change_minimax_choice_n": 14,
+          "max_reduction_vehicle_seconds": 60
+        }
+      }
+    }
+  },
+  "live_calculations": 200,
+  "examples": {
+    "movement": {
+      "realized_oracle_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "decision_tick": 8,
+      "forecast_cap": 3,
+      "left_capacity": 1,
+      "visible_bins": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "oracle": {
+        "delta": [
+          -44,
+          37
+        ],
+        "possible_paths": 108,
+        "worst_regret": 37,
+        "minimax_choice": "lead",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "L",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "L"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "forecast": {
+        "delta": [
+          -88,
+          84
+        ],
+        "possible_paths": 486,
+        "worst_regret": 84,
+        "minimax_choice": "lead",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "L",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "T",
+            "T",
+            "T",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "sensors": {
+        "presence": {
+          "worst_regret": 84,
+          "observation_tick": 0,
+          "branches": {
+            "empty": {
+              "delta": [
+                -88,
+                84
+              ],
+              "possible_paths": 162,
+              "worst_regret": 84,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T/L": {
+              "delta": [
+                -88,
+                84
+              ],
+              "possible_paths": 324,
+              "worst_regret": 84,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "movement": {
+          "worst_regret": 48,
+          "observation_tick": 6,
+          "branches": {
+            "empty": {
+              "delta": [
+                -44,
+                72
+              ],
+              "possible_paths": 162,
+              "worst_regret": 44,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T": {
+              "delta": [
+                -31,
+                84
+              ],
+              "possible_paths": 162,
+              "worst_regret": 31,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "L": {
+              "delta": [
+                -88,
+                48
+              ],
+              "possible_paths": 162,
+              "worst_regret": 48,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "pocket_fullness": {
+          "worst_regret": 60,
+          "branches": {
+            "not_full": {
+              "delta": [
+                25,
+                84
+              ],
+              "possible_paths": 108,
+              "worst_regret": 0,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "full": {
+              "delta": [
+                -88,
+                60
+              ],
+              "possible_paths": 378,
+              "worst_regret": 60,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        },
+        "pocket_count": {
+          "worst_regret": 60,
+          "branches": {
+            "0": {
+              "delta": [
+                25,
+                84
+              ],
+              "possible_paths": 108,
+              "worst_regret": 0,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "1": {
+              "delta": [
+                -88,
+                60
+              ],
+              "possible_paths": 378,
+              "worst_regret": 60,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "pocket_fullness": {
+      "realized_oracle_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "decision_tick": 8,
+      "forecast_cap": 3,
+      "left_capacity": 2,
+      "visible_bins": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "oracle": {
+        "delta": [
+          0,
+          25
+        ],
+        "possible_paths": 108,
+        "worst_regret": 0,
+        "minimax_choice": "lag",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "L"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "L"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "forecast": {
+        "delta": [
+          -81,
+          72
+        ],
+        "possible_paths": 486,
+        "worst_regret": 72,
+        "minimax_choice": "lead",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "L",
+            "L",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "T",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "sensors": {
+        "presence": {
+          "worst_regret": 72,
+          "observation_tick": 0,
+          "branches": {
+            "empty": {
+              "delta": [
+                -81,
+                72
+              ],
+              "possible_paths": 162,
+              "worst_regret": 72,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T/L": {
+              "delta": [
+                -81,
+                72
+              ],
+              "possible_paths": 324,
+              "worst_regret": 72,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "movement": {
+          "worst_regret": 36,
+          "observation_tick": 6,
+          "branches": {
+            "empty": {
+              "delta": [
+                -36,
+                60
+              ],
+              "possible_paths": 162,
+              "worst_regret": 36,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T": {
+              "delta": [
+                -24,
+                72
+              ],
+              "possible_paths": 162,
+              "worst_regret": 24,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "L": {
+              "delta": [
+                -81,
+                36
+              ],
+              "possible_paths": 162,
+              "worst_regret": 36,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "pocket_fullness": {
+          "worst_regret": 12,
+          "branches": {
+            "not_full": {
+              "delta": [
+                -12,
+                72
+              ],
+              "possible_paths": 324,
+              "worst_regret": 12,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "full": {
+              "delta": [
+                -81,
+                12
+              ],
+              "possible_paths": 162,
+              "worst_regret": 12,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        },
+        "pocket_count": {
+          "worst_regret": 12,
+          "branches": {
+            "0": {
+              "delta": [
+                13,
+                72
+              ],
+              "possible_paths": 108,
+              "worst_regret": 0,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "1": {
+              "delta": [
+                -12,
+                48
+              ],
+              "possible_paths": 216,
+              "worst_regret": 12,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            },
+            "2": {
+              "delta": [
+                -81,
+                12
+              ],
+              "possible_paths": 162,
+              "worst_regret": 12,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "pocket_count": {
+      "realized_oracle_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "decision_tick": 8,
+      "forecast_cap": 3,
+      "left_capacity": 2,
+      "visible_bins": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "oracle": {
+        "delta": [
+          0,
+          25
+        ],
+        "possible_paths": 108,
+        "worst_regret": 0,
+        "minimax_choice": "lag",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "L"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "",
+            "T",
+            "L"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "forecast": {
+        "delta": [
+          -81,
+          72
+        ],
+        "possible_paths": 486,
+        "worst_regret": 72,
+        "minimax_choice": "lead",
+        "low_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "L",
+            "L",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            1
+          ]
+        },
+        "high_witness": {
+          "arrivals": [
+            "",
+            "T",
+            "T",
+            "",
+            "",
+            "T",
+            "T",
+            "T",
+            "T"
+          ],
+          "initial": [
+            "",
+            0,
+            0
+          ]
+        }
+      },
+      "sensors": {
+        "presence": {
+          "worst_regret": 72,
+          "observation_tick": 0,
+          "branches": {
+            "empty": {
+              "delta": [
+                -81,
+                72
+              ],
+              "possible_paths": 162,
+              "worst_regret": 72,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T/L": {
+              "delta": [
+                -81,
+                72
+              ],
+              "possible_paths": 324,
+              "worst_regret": 72,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "T",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "movement": {
+          "worst_regret": 36,
+          "observation_tick": 6,
+          "branches": {
+            "empty": {
+              "delta": [
+                -36,
+                60
+              ],
+              "possible_paths": 162,
+              "worst_regret": 36,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "T": {
+              "delta": [
+                -24,
+                72
+              ],
+              "possible_paths": 162,
+              "worst_regret": 24,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "L": {
+              "delta": [
+                -81,
+                36
+              ],
+              "possible_paths": 162,
+              "worst_regret": 36,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "pocket_fullness": {
+          "worst_regret": 12,
+          "branches": {
+            "not_full": {
+              "delta": [
+                -12,
+                72
+              ],
+              "possible_paths": 324,
+              "worst_regret": 12,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "full": {
+              "delta": [
+                -81,
+                12
+              ],
+              "possible_paths": 162,
+              "worst_regret": 12,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        },
+        "pocket_count": {
+          "worst_regret": 12,
+          "branches": {
+            "0": {
+              "delta": [
+                13,
+                72
+              ],
+              "possible_paths": 108,
+              "worst_regret": 0,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              }
+            },
+            "1": {
+              "delta": [
+                -12,
+                48
+              ],
+              "possible_paths": 216,
+              "worst_regret": 12,
+              "minimax_choice": "lag",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "",
+                  "L",
+                  "L"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  0
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "T",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            },
+            "2": {
+              "delta": [
+                -81,
+                12
+              ],
+              "possible_paths": 162,
+              "worst_regret": 12,
+              "minimax_choice": "lead",
+              "low_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "L",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              },
+              "high_witness": {
+                "arrivals": [
+                  "",
+                  "T",
+                  "T",
+                  "",
+                  "",
+                  "T",
+                  "T",
+                  "L",
+                  "T"
+                ],
+                "initial": [
+                  "",
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "comparison_scope": "Synthetic D51 queue model. Future count oracle cases repeat the same live context."
+}

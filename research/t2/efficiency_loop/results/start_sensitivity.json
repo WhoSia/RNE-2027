@@ -1,0 +1,290 @@
+[
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 907,
+    "fixed": 19875,
+    "start_stage_costs": [
+      19973,
+      16349,
+      19188,
+      18020
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 918,
+    "fixed": 20538,
+    "start_stage_costs": [
+      15947,
+      15586,
+      16400,
+      14672
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 929,
+    "fixed": 20160,
+    "start_stage_costs": [
+      17388,
+      17070,
+      17110,
+      17017
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 940,
+    "fixed": 17330,
+    "start_stage_costs": [
+      12926,
+      15044,
+      15671,
+      14979
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 907,
+    "fixed": 28750,
+    "start_stage_costs": [
+      11225,
+      12212,
+      11504,
+      12115
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 918,
+    "fixed": 30820,
+    "start_stage_costs": [
+      11362,
+      10950,
+      12335,
+      11284
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 929,
+    "fixed": 25622,
+    "start_stage_costs": [
+      12820,
+      12382,
+      10404,
+      11882
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 940,
+    "fixed": 22859,
+    "start_stage_costs": [
+      11637,
+      12507,
+      13282,
+      14431
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 907,
+    "fixed": 24372,
+    "start_stage_costs": [
+      20961,
+      20441,
+      20475,
+      21764
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 918,
+    "fixed": 30335,
+    "start_stage_costs": [
+      27746,
+      29475,
+      25988,
+      28728
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 929,
+    "fixed": 31726,
+    "start_stage_costs": [
+      29876,
+      27044,
+      29024,
+      27140
+    ]
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 940,
+    "fixed": 28449,
+    "start_stage_costs": [
+      24616,
+      23697,
+      27380,
+      28109
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 907,
+    "fixed": 46231,
+    "start_stage_costs": [
+      40104,
+      41317,
+      40369,
+      43666
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 918,
+    "fixed": 43277,
+    "start_stage_costs": [
+      37791,
+      37802,
+      38872,
+      33301
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 929,
+    "fixed": 44861,
+    "start_stage_costs": [
+      39802,
+      38132,
+      38167,
+      39048
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 940,
+    "fixed": 45531,
+    "start_stage_costs": [
+      34606,
+      37344,
+      38017,
+      41444
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 907,
+    "fixed": 37575,
+    "start_stage_costs": [
+      28649,
+      26904,
+      28104,
+      29764
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 918,
+    "fixed": 40586,
+    "start_stage_costs": [
+      27482,
+      27566,
+      28989,
+      30117
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 929,
+    "fixed": 38349,
+    "start_stage_costs": [
+      28098,
+      29061,
+      25779,
+      26375
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 940,
+    "fixed": 37534,
+    "start_stage_costs": [
+      27626,
+      27997,
+      29754,
+      29438
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 907,
+    "fixed": 43752,
+    "start_stage_costs": [
+      36935,
+      34659,
+      36132,
+      35271
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 918,
+    "fixed": 51735,
+    "start_stage_costs": [
+      47934,
+      42168,
+      42197,
+      43528
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 929,
+    "fixed": 47008,
+    "start_stage_costs": [
+      43387,
+      42335,
+      42604,
+      41448
+    ]
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 940,
+    "fixed": 53676,
+    "start_stage_costs": [
+      45629,
+      42738,
+      44362,
+      48191
+    ]
+  }
+]

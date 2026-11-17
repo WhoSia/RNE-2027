@@ -1,0 +1,58 @@
+{
+  "packed": {
+    "cases": 648,
+    "max_peak": 648,
+    "max_compatible_paths": 3456,
+    "seconds": {
+      "tuple": [
+        0.8762532880000435,
+        1.0225232660000074,
+        0.8575465099997928,
+        0.9383674780001456,
+        0.9596321310000349,
+        0.8655574310000702
+      ],
+      "packed": [
+        1.0526542339998741,
+        1.2359418140001708,
+        0.9070940090000477,
+        0.968728179999971,
+        1.0759360419999666,
+        1.2021331290000035
+      ]
+    },
+    "median_seconds": {
+      "tuple": 0.9073103830000946,
+      "packed": 1.0642951379999204
+    }
+  },
+  "lazy_tuple": {
+    "cases": 648,
+    "max_peak": 648,
+    "max_compatible_paths": 3456,
+    "seconds": {
+      "tuple": [
+        0.8477234059998864,
+        0.8244366919998356,
+        0.84619836700017,
+        0.8635093719999531,
+        0.8121286830000827,
+        0.814577743999962
+      ],
+      "lazy_tuple": [
+        0.8655500840000059,
+        0.9307438830001047,
+        0.8281984390000616,
+        0.7853582749999077,
+        0.8415563810001458,
+        0.7916031449999537
+      ]
+    },
+    "median_seconds": {
+      "tuple": 0.8353175295000028,
+      "lazy_tuple": 0.8348774100001037
+    }
+  },
+  "same_results_and_witnesses": true,
+  "comparison_note": "Packed trial includes dataclass-to-tuple conversion in timed region; lazy trial excludes it in both arms. Alternating order; six timings per arm. Neither candidate retained."
+}

@@ -1,0 +1,135 @@
+{
+  "case_count": 8,
+  "all_pairs_reopened_uniquely": true,
+  "same_pair_groups": [
+    [
+      "K047-03",
+      "K047-04"
+    ]
+  ],
+  "last_visible_observations": {
+    "K047-01": {
+      "A": {
+        "last_visible_ms": 11466,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 13116,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-02": {
+      "A": {
+        "last_visible_ms": 13066,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 14466,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-03": {
+      "A": {
+        "last_visible_ms": 4366,
+        "last_visible_zones": [
+          "east_approach"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 17666,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-04": {
+      "A": {
+        "last_visible_ms": 2366,
+        "last_visible_zones": [
+          "east_approach"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 15666,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-05": {
+      "A": {
+        "last_visible_ms": 2566,
+        "last_visible_zones": [
+          "through_connector"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 13616,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-06": {
+      "A": {
+        "last_visible_ms": 13616,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 15966,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-07": {
+      "A": {
+        "last_visible_ms": 11416,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 15416,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    },
+    "K047-08": {
+      "A": {
+        "last_visible_ms": 3466,
+        "last_visible_zones": [
+          "east_approach"
+        ]
+      },
+      "B": {
+        "last_visible_ms": 18166,
+        "last_visible_zones": [
+          "west_receiving"
+        ]
+      }
+    }
+  },
+  "input_hashes": {
+    "map.xodr": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "dlr_review_sheet.csv": "ccd04839eda3a7a3b4a562a77c0a3f67890a841fcb556b5ce1178f0de7f3279c",
+    "dlr_followers.json": "1b603de1ca8880ecadc6e4cbf690dd230350cb64e74a08965234be7554d37b3f",
+    "trajectories_230924-110000_230924-111500.csv": "1064b79f244ec50a0963c4ab75d9796a37949a6ae3a026a843fac860cb3c942b",
+    "traffic-lights_230924-110000_230924-111500.csv": "c36311d62ec9d7e816ef4502320791d099a065c7c5ee6978baf7a718370a8092",
+    "trajectories_230924-124500_230924-130000.csv": "5443eb889dcbb6f314ffe523f747eec5969c3c247017c55262ae7bb54fa9d883",
+    "traffic-lights_230924-124500_230924-130000.csv": "ae4efa81d08ad9cf4a6c3bc51930d7779b3324f9f24266a0c433d066dd2c0c75",
+    "trajectories_230924-154500_230924-160000.csv": "4a7b4e5eae293657d2928b0f2d8be6d817dd5652a18ffa1e536b4b1bf40638db",
+    "traffic-lights_230924-154500_230924-160000.csv": "065ccd0c3f49c03cdaf17b6cfa3246cd89770635f42a152db7d9e48d0ea33b90"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "grid_cases": 77,
+  "same_reported_answers": true,
+  "exact_dp_calls": {
+    "exhaustive": 16017,
+    "pruned": 12519
+  },
+  "fixed_plans_cut_short": 1619,
+  "wall_seconds": {
+    "exhaustive": [
+      2.193618757000195,
+      1.8143570089998775,
+      2.804417419000174,
+      1.7683049330000813
+    ],
+    "pruned": [
+      1.9256134990000646,
+      2.1158069250000153,
+      2.2599470789998577,
+      1.8705515740000465
+    ]
+  },
+  "median_wall_seconds": {
+    "exhaustive": 2.003987883000036,
+    "pruned": 2.02071021200004
+  }
+}

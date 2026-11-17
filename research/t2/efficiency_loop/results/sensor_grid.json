@@ -1,0 +1,452 @@
+[
+  {
+    "group": "open",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -36.165740841740636,
+    "worst_cost_change_pct": -13.190998268897868,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -38.24135785480963,
+    "worst_cost_change_pct": -15.634920634920634,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -37.64550660448846,
+    "worst_cost_change_pct": -11.73836477987421,
+    "wins": 8,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "open",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -27.74269432016706,
+    "worst_cost_change_pct": -6.376226197345646,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -28.272066143214474,
+    "worst_cost_change_pct": -5.147143681477207,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -31.59305659542577,
+    "worst_cost_change_pct": -5.381944444444442,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -22.822599213561045,
+    "worst_cost_change_pct": 1.8616352201257902,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -23.388715994543436,
+    "worst_cost_change_pct": 0.10062893081761448,
+    "wins": 7,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "open",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -24.291861037984575,
+    "worst_cost_change_pct": 3.084276729559754,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -19.065311353065745,
+    "worst_cost_change_pct": 1.6000000000000014,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -19.680625234519894,
+    "worst_cost_change_pct": 1.6000000000000014,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -22.087157181243,
+    "worst_cost_change_pct": -3.652830188679246,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "open",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -15.584309437290253,
+    "worst_cost_change_pct": 1.5345911949685487,
+    "wins": 7,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "open",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -16.141421008664295,
+    "worst_cost_change_pct": 1.2981132075471802,
+    "wins": 7,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "open",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -14.92221501607873,
+    "worst_cost_change_pct": 9.348524685948,
+    "wins": 7,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -20.79612163012408,
+    "worst_cost_change_pct": -10.62923146806255,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -15.514725463981197,
+    "worst_cost_change_pct": -2.982847007419265,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -9.080279548938964,
+    "worst_cost_change_pct": 6.136733465593713,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -17.445296601877985,
+    "worst_cost_change_pct": -9.005595060297367,
+    "wins": 8,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -11.627298186315175,
+    "worst_cost_change_pct": 5.160384298165455,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -6.49059762883977,
+    "worst_cost_change_pct": 2.4007489801832316,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": -10.077865640982896,
+    "worst_cost_change_pct": 3.253460267578623,
+    "wins": 7,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": -6.378010487277673,
+    "worst_cost_change_pct": 2.002985010058178,
+    "wins": 5,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": -0.40714438198699576,
+    "worst_cost_change_pct": 8.981074875727257,
+    "wins": 5,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": 5.231844606102834,
+    "worst_cost_change_pct": 18.465928088985972,
+    "wins": 1,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": 0.74857007935457,
+    "worst_cost_change_pct": 11.563669399320808,
+    "wins": 3,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": 1.848678898826246,
+    "worst_cost_change_pct": 14.245852350154653,
+    "wins": 4,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0,
+    "n": 8,
+    "mean_cost_change_pct": 8.730982220472642,
+    "worst_cost_change_pct": 22.460489066226796,
+    "wins": 1,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 8,
+    "mean_cost_change_pct": 2.611905780387605,
+    "worst_cost_change_pct": 11.726783279802211,
+    "wins": 3,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "tight",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 8,
+    "mean_cost_change_pct": 1.0950317808215733,
+    "worst_cost_change_pct": 8.885277348537324,
+    "wins": 3,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0,
+    "n": 12,
+    "mean_cost_change_pct": -21.485046892147174,
+    "worst_cost_change_pct": -10.453981202340845,
+    "wins": 12,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 12,
+    "mean_cost_change_pct": -17.338544201213466,
+    "worst_cost_change_pct": 6.951587160844119,
+    "wins": 11,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 0,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 12,
+    "mean_cost_change_pct": -20.297001948680787,
+    "worst_cost_change_pct": 9.522965064727785,
+    "wins": 11,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0,
+    "n": 12,
+    "mean_cost_change_pct": -3.0698864592786133,
+    "worst_cost_change_pct": 32.099259555733454,
+    "wins": 10,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 12,
+    "mean_cost_change_pct": -8.502567161995717,
+    "worst_cost_change_pct": 20.39223534120471,
+    "wins": 10,
+    "max_ped_wait_worse": 2
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 2,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 12,
+    "mean_cost_change_pct": -7.62802174190678,
+    "worst_cost_change_pct": 37.11226736041624,
+    "wins": 11,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0,
+    "n": 12,
+    "mean_cost_change_pct": 2.7879328438411037,
+    "worst_cost_change_pct": 23.337471182833845,
+    "wins": 7,
+    "max_ped_wait_worse": 5
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 12,
+    "mean_cost_change_pct": 3.8804874071632565,
+    "worst_cost_change_pct": 33.565164801935296,
+    "wins": 7,
+    "max_ped_wait_worse": 3
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 4,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 12,
+    "mean_cost_change_pct": 2.9586010101389695,
+    "worst_cost_change_pct": 30.823505694990416,
+    "wins": 8,
+    "max_ped_wait_worse": 1
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0,
+    "n": 12,
+    "mean_cost_change_pct": 13.904161692480198,
+    "worst_cost_change_pct": 42.646910593690144,
+    "wins": 2,
+    "max_ped_wait_worse": 3
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 12,
+    "mean_cost_change_pct": 7.59729734179454,
+    "worst_cost_change_pct": 44.1386956959984,
+    "wins": 6,
+    "max_ped_wait_worse": 3
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 6,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 12,
+    "mean_cost_change_pct": 7.377045430528008,
+    "worst_cost_change_pct": 38.41346638443706,
+    "wins": 6,
+    "max_ped_wait_worse": 6
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0,
+    "n": 12,
+    "mean_cost_change_pct": 15.611518452586763,
+    "worst_cost_change_pct": 34.613446225178926,
+    "wins": 2,
+    "max_ped_wait_worse": 0
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.15,
+    "n": 12,
+    "mean_cost_change_pct": 15.11537789316121,
+    "worst_cost_change_pct": 69.40832577361154,
+    "wins": 1,
+    "max_ped_wait_worse": 6
+  },
+  {
+    "group": "DLR_hybrid",
+    "delay_ticks": 8,
+    "independent_occupancy_miss_probability": 0.3,
+    "n": 12,
+    "mean_cost_change_pct": 15.965143812092249,
+    "worst_cost_change_pct": 67.38232033061185,
+    "wins": 2,
+    "max_ped_wait_worse": 5
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "map_sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+  "area_m2": {
+    "0.5": {
+      "left_connector": 356.75,
+      "through_connector": 380.25,
+      "west_receiving": 131.75,
+      "east_left_through_overlap": 0.75
+    },
+    "0.25": {
+      "left_connector": 358.125,
+      "through_connector": 379.6875,
+      "west_receiving": 131.375,
+      "east_left_through_overlap": 1.0
+    },
+    "0.125": {
+      "left_connector": 357.7344,
+      "through_connector": 379.9219,
+      "west_receiving": 131.5312,
+      "east_left_through_overlap": 1.0156
+    },
+    "0.0625": {
+      "left_connector": 357.8477,
+      "through_connector": 379.8867,
+      "west_receiving": 131.6211,
+      "east_left_through_overlap": 0.9922
+    }
+  },
+  "track_screen": {
+    "trajectories_230924-123000_230924-124500.csv": {
+      "trajectory_sha256": "c1fab0dc4569747049461c7aabc7681d0b90ddfd16c0eb4b3f5bb82e23b6a112",
+      "seconds_with_any_noninterpolated_raw_row": 900,
+      "corridors": {
+        "left_connector": {
+          "seconds_with_center_detection": 541,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 383
+        },
+        "through_connector": {
+          "seconds_with_center_detection": 503,
+          "seconds_with_slow_center_detection": 5,
+          "distinct_ids_with_center_detection": 309
+        },
+        "west_receiving": {
+          "seconds_with_center_detection": 263,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 148
+        },
+        "east_left_through_overlap": {
+          "seconds_with_center_detection": 0,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 0
+        }
+      }
+    },
+    "trajectories_230924-124500_230924-130000.csv": {
+      "trajectory_sha256": "5443eb889dcbb6f314ffe523f747eec5969c3c247017c55262ae7bb54fa9d883",
+      "seconds_with_any_noninterpolated_raw_row": 900,
+      "corridors": {
+        "left_connector": {
+          "seconds_with_center_detection": 516,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 333
+        },
+        "through_connector": {
+          "seconds_with_center_detection": 477,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 253
+        },
+        "west_receiving": {
+          "seconds_with_center_detection": 277,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 145
+        },
+        "east_left_through_overlap": {
+          "seconds_with_center_detection": 0,
+          "seconds_with_slow_center_detection": 0,
+          "distinct_ids_with_center_detection": 0
+        }
+      }
+    }
+  }
+}

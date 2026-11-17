@@ -1,0 +1,314 @@
+[
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 907,
+    "closed": 16349,
+    "fixed": 19875,
+    "donor_costs": [
+      16208,
+      20007,
+      19207
+    ],
+    "mean_donor_cost": 18474
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 918,
+    "closed": 15586,
+    "fixed": 20538,
+    "donor_costs": [
+      25108,
+      24031,
+      22261
+    ],
+    "mean_donor_cost": 23800
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 929,
+    "closed": 17070,
+    "fixed": 20160,
+    "donor_costs": [
+      18518,
+      21441,
+      22704
+    ],
+    "mean_donor_cost": 20887.666666666668
+  },
+  {
+    "storage": "open",
+    "demand": "east_platoon",
+    "seed": 940,
+    "closed": 15044,
+    "fixed": 17330,
+    "donor_costs": [
+      15972,
+      17615,
+      17264
+    ],
+    "mean_donor_cost": 16950.333333333332
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 907,
+    "closed": 12212,
+    "fixed": 28750,
+    "donor_costs": [
+      11827,
+      16495,
+      16725
+    ],
+    "mean_donor_cost": 15015.666666666666
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 918,
+    "closed": 10950,
+    "fixed": 30820,
+    "donor_costs": [
+      12618,
+      16179,
+      17218
+    ],
+    "mean_donor_cost": 15338.333333333334
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 929,
+    "closed": 12382,
+    "fixed": 25622,
+    "donor_costs": [
+      15741,
+      14248,
+      15939
+    ],
+    "mean_donor_cost": 15309.333333333334
+  },
+  {
+    "storage": "open",
+    "demand": "cross_surge",
+    "seed": 940,
+    "closed": 12507,
+    "fixed": 22859,
+    "donor_costs": [
+      15771,
+      16606,
+      16251
+    ],
+    "mean_donor_cost": 16209.333333333334
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 907,
+    "closed": 20441,
+    "fixed": 24372,
+    "donor_costs": [
+      24381,
+      27520,
+      23263
+    ],
+    "mean_donor_cost": 25054.666666666668
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 918,
+    "closed": 29475,
+    "fixed": 30335,
+    "donor_costs": [
+      30389,
+      36273,
+      29439
+    ],
+    "mean_donor_cost": 32033.666666666668
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 929,
+    "closed": 27044,
+    "fixed": 31726,
+    "donor_costs": [
+      31176,
+      33482,
+      31989
+    ],
+    "mean_donor_cost": 32215.666666666668
+  },
+  {
+    "storage": "open",
+    "demand": "turn_surge",
+    "seed": 940,
+    "closed": 23697,
+    "fixed": 28449,
+    "donor_costs": [
+      24631,
+      26914,
+      29799
+    ],
+    "mean_donor_cost": 27114.666666666668
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 907,
+    "closed": 41317,
+    "fixed": 46231,
+    "donor_costs": [
+      44318,
+      45434,
+      41359
+    ],
+    "mean_donor_cost": 43703.666666666664
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 918,
+    "closed": 37802,
+    "fixed": 43277,
+    "donor_costs": [
+      40763,
+      40785,
+      42150
+    ],
+    "mean_donor_cost": 41232.666666666664
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 929,
+    "closed": 38132,
+    "fixed": 44861,
+    "donor_costs": [
+      42663,
+      44217,
+      39721
+    ],
+    "mean_donor_cost": 42200.333333333336
+  },
+  {
+    "storage": "tight",
+    "demand": "east_platoon",
+    "seed": 940,
+    "closed": 37344,
+    "fixed": 45531,
+    "donor_costs": [
+      37923,
+      40832,
+      41154
+    ],
+    "mean_donor_cost": 39969.666666666664
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 907,
+    "closed": 26904,
+    "fixed": 37575,
+    "donor_costs": [
+      28869,
+      32136,
+      27261
+    ],
+    "mean_donor_cost": 29422
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 918,
+    "closed": 27566,
+    "fixed": 40586,
+    "donor_costs": [
+      27912,
+      32812,
+      29349
+    ],
+    "mean_donor_cost": 30024.333333333332
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 929,
+    "closed": 29061,
+    "fixed": 38349,
+    "donor_costs": [
+      31162,
+      31339,
+      29227
+    ],
+    "mean_donor_cost": 30576
+  },
+  {
+    "storage": "tight",
+    "demand": "cross_surge",
+    "seed": 940,
+    "closed": 27997,
+    "fixed": 37534,
+    "donor_costs": [
+      29778,
+      30591,
+      31976
+    ],
+    "mean_donor_cost": 30781.666666666668
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 907,
+    "closed": 34659,
+    "fixed": 43752,
+    "donor_costs": [
+      45567,
+      42538,
+      36298
+    ],
+    "mean_donor_cost": 41467.666666666664
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 918,
+    "closed": 42168,
+    "fixed": 51735,
+    "donor_costs": [
+      51636,
+      51532,
+      50359
+    ],
+    "mean_donor_cost": 51175.666666666664
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 929,
+    "closed": 42335,
+    "fixed": 47008,
+    "donor_costs": [
+      45011,
+      50568,
+      43945
+    ],
+    "mean_donor_cost": 46508
+  },
+  {
+    "storage": "tight",
+    "demand": "turn_surge",
+    "seed": 940,
+    "closed": 42738,
+    "fixed": 53676,
+    "donor_costs": [
+      44380,
+      49868,
+      49171
+    ],
+    "mean_donor_cost": 47806.333333333336
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "source_sha256": "ebede8df767f5c0f77f33a2df14c880f6fa734925d56474dc3cc6375af401f49",
+  "events": 76,
+  "window_s": [
+    27.927927930000003,
+    1510.11011
+  ],
+  "states": 4,
+  "all_red_s_range": null,
+  "head_statistics": {
+    "Vehicle Traffic light 1": {
+      "complete_onset_pairs": 18,
+      "cycle_s_range": [
+        79.87987950000002,
+        79.87988000000018
+      ],
+      "median_cycle_s": 79.87987989999999,
+      "median_complete_green_s": 38.93893889999998
+    },
+    "Vehicle Traffic light 2": {
+      "complete_onset_pairs": 18,
+      "cycle_s_range": [
+        78.47847899999988,
+        81.28128100000004
+      ],
+      "median_cycle_s": 79.82982959999998,
+      "median_complete_green_s": 34.93493499999988
+    }
+  }
+}

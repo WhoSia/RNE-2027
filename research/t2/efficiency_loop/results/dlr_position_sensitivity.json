@@ -1,0 +1,211 @@
+{
+  "lead_only": {
+    "training_vehicles": 52,
+    "slope_s_per_m": 0.26879708648738154,
+    "rank_counts": {
+      "1": 52
+    },
+    "evaluation_blocks": {
+      "1530": {
+        "vehicles": 9,
+        "phases": 8,
+        "midpoint_rank_mae_s": 0.5384360555555835,
+        "midpoint_position_mae_s": 0.3783225910379331,
+        "position_minus_rank_mae_bounds_s": [
+          -0.20288206761208707,
+          0.02113136887917359
+        ]
+      },
+      "1545": {
+        "vehicles": 14,
+        "phases": 8,
+        "midpoint_rank_mae_s": 0.8811158571430237,
+        "midpoint_position_mae_s": 0.9048603165782445,
+        "position_minus_rank_mae_bounds_s": [
+          -0.11486077559567434,
+          0.09413970326583428
+        ]
+      },
+      "1600": {
+        "vehicles": 11,
+        "phases": 8,
+        "midpoint_rank_mae_s": 0.8718958636359792,
+        "midpoint_position_mae_s": 0.9833703552520535,
+        "position_minus_rank_mae_bounds_s": [
+          -0.10356320633382793,
+          0.21695538170745482
+        ]
+      }
+    }
+  },
+  "omit_training_block": {
+    "1100": {
+      "training_vehicles": 62,
+      "slope_s_per_m": 0.19130554197085764,
+      "rank_counts": {
+        "1": 41,
+        "2": 17,
+        "3": 3,
+        "4": 1
+      },
+      "evaluation_blocks": {
+        "1530": {
+          "vehicles": 11,
+          "phases": 8,
+          "midpoint_rank_mae_s": 0.6093780909093105,
+          "midpoint_position_mae_s": 0.4736902874132531,
+          "position_minus_rank_mae_bounds_s": [
+            -0.16059230677808173,
+            -0.04133843996458672
+          ]
+        },
+        "1545": {
+          "vehicles": 19,
+          "phases": 9,
+          "midpoint_rank_mae_s": 0.9693498421053702,
+          "midpoint_position_mae_s": 0.9735457722600817,
+          "position_minus_rank_mae_bounds_s": [
+            -0.10594346863515736,
+            0.042640998434030665
+          ]
+        },
+        "1600": {
+          "vehicles": 17,
+          "phases": 8,
+          "midpoint_rank_mae_s": 1.0648205294114899,
+          "midpoint_position_mae_s": 1.1433047377284362,
+          "position_minus_rank_mae_bounds_s": [
+            -0.0242891861596488,
+            0.1450208540810848
+          ]
+        }
+      }
+    },
+    "1215": {
+      "training_vehicles": 52,
+      "slope_s_per_m": 0.13717999449594961,
+      "rank_counts": {
+        "1": 37,
+        "2": 12,
+        "4": 2,
+        "3": 1
+      },
+      "evaluation_blocks": {
+        "1530": {
+          "vehicles": 11,
+          "phases": 8,
+          "midpoint_rank_mae_s": 0.6093780909093105,
+          "midpoint_position_mae_s": 0.5240147216070582,
+          "position_minus_rank_mae_bounds_s": [
+            -0.10322171040390686,
+            -0.04758993279891541
+          ]
+        },
+        "1545": {
+          "vehicles": 19,
+          "phases": 9,
+          "midpoint_rank_mae_s": 0.9606949473685099,
+          "midpoint_position_mae_s": 0.9644570546411257,
+          "position_minus_rank_mae_bounds_s": [
+            -0.09554003469181498,
+            0.039569208412371125
+          ]
+        },
+        "1600": {
+          "vehicles": 17,
+          "phases": 8,
+          "midpoint_rank_mae_s": 1.1120278529410959,
+          "midpoint_position_mae_s": 1.1484745283642366,
+          "position_minus_rank_mae_bounds_s": [
+            -0.02468344493351279,
+            0.10659743568231236
+          ]
+        }
+      }
+    },
+    "1230": {
+      "training_vehicles": 57,
+      "slope_s_per_m": 0.11954438337981674,
+      "rank_counts": {
+        "1": 36,
+        "2": 16,
+        "4": 2,
+        "3": 3
+      },
+      "evaluation_blocks": {
+        "1530": {
+          "vehicles": 11,
+          "phases": 8,
+          "midpoint_rank_mae_s": 0.6070123181819647,
+          "midpoint_position_mae_s": 0.5311070685713892,
+          "position_minus_rank_mae_bounds_s": [
+            -0.08848199180791391,
+            -0.04731384903186495
+          ]
+        },
+        "1545": {
+          "vehicles": 19,
+          "phases": 9,
+          "midpoint_rank_mae_s": 0.9628852105264902,
+          "midpoint_position_mae_s": 0.9459616595734455,
+          "position_minus_rank_mae_bounds_s": [
+            -0.08543841896702035,
+            0.03179251416937969
+          ]
+        },
+        "1600": {
+          "vehicles": 17,
+          "phases": 8,
+          "midpoint_rank_mae_s": 1.1172298823527171,
+          "midpoint_position_mae_s": 1.1246241800441266,
+          "position_minus_rank_mae_bounds_s": [
+            -0.03877901091614603,
+            0.06537923549782908
+          ]
+        }
+      }
+    },
+    "1445": {
+      "training_vehicles": 63,
+      "slope_s_per_m": 0.2006293663135321,
+      "rank_counts": {
+        "1": 42,
+        "2": 18,
+        "4": 1,
+        "3": 2
+      },
+      "evaluation_blocks": {
+        "1530": {
+          "vehicles": 11,
+          "phases": 8,
+          "midpoint_rank_mae_s": 0.605170454545554,
+          "midpoint_position_mae_s": 0.47206198951317596,
+          "position_minus_rank_mae_bounds_s": [
+            -0.15922676071973962,
+            -0.04201702936494273
+          ]
+        },
+        "1545": {
+          "vehicles": 19,
+          "phases": 9,
+          "midpoint_rank_mae_s": 0.9563456315790494,
+          "midpoint_position_mae_s": 0.9682000127073987,
+          "position_minus_rank_mae_bounds_s": [
+            -0.13600931762995136,
+            0.050965138763803264
+          ]
+        },
+        "1600": {
+          "vehicles": 17,
+          "phases": 8,
+          "midpoint_rank_mae_s": 1.0205629999998076,
+          "midpoint_position_mae_s": 1.0407833773822752,
+          "position_minus_rank_mae_bounds_s": [
+            -0.08450757425359379,
+            0.10481816263701914
+          ]
+        }
+      }
+    }
+  }
+}

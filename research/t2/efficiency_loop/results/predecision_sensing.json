@@ -1,0 +1,636 @@
+{
+  "fixed_example": [
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 29,
+      "before_action": 4,
+      "observations": 1,
+      "bounds": [
+        -360,
+        29
+      ],
+      "paths": 648,
+      "unobserved_regret": 29,
+      "fixed": [
+        29,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 29,
+      "adaptive_tree": null,
+      "exact_dp_calls": 9,
+      "pruned_fixed_plans": 3
+    },
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 29,
+      "before_action": 4,
+      "observations": 2,
+      "bounds": [
+        -360,
+        29
+      ],
+      "paths": 648,
+      "unobserved_regret": 29,
+      "fixed": [
+        29,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 29,
+      "adaptive_tree": null,
+      "exact_dp_calls": 33,
+      "pruned_fixed_plans": 5
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 29,
+      "before_action": 4,
+      "observations": 1,
+      "bounds": [
+        -360,
+        29
+      ],
+      "paths": 648,
+      "unobserved_regret": 29,
+      "fixed": [
+        29,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 29,
+      "adaptive_tree": null,
+      "exact_dp_calls": 13,
+      "pruned_fixed_plans": 3
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 29,
+      "before_action": 4,
+      "observations": 2,
+      "bounds": [
+        -360,
+        29
+      ],
+      "paths": 648,
+      "unobserved_regret": 29,
+      "fixed": [
+        29,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 29,
+      "adaptive_tree": null,
+      "exact_dp_calls": 67,
+      "pruned_fixed_plans": 5
+    },
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 26,
+      "before_action": 8,
+      "observations": 1,
+      "bounds": [
+        -360,
+        26
+      ],
+      "paths": 648,
+      "unobserved_regret": 26,
+      "fixed": [
+        26,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 26,
+      "adaptive_tree": null,
+      "exact_dp_calls": 17,
+      "pruned_fixed_plans": 7
+    },
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 26,
+      "before_action": 8,
+      "observations": 2,
+      "bounds": [
+        -360,
+        26
+      ],
+      "paths": 648,
+      "unobserved_regret": 26,
+      "fixed": [
+        26,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 26,
+      "adaptive_tree": null,
+      "exact_dp_calls": 129,
+      "pruned_fixed_plans": 27
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 26,
+      "before_action": 8,
+      "observations": 1,
+      "bounds": [
+        -360,
+        26
+      ],
+      "paths": 648,
+      "unobserved_regret": 26,
+      "fixed": [
+        26,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 26,
+      "adaptive_tree": null,
+      "exact_dp_calls": 25,
+      "pruned_fixed_plans": 7
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 26,
+      "before_action": 8,
+      "observations": 2,
+      "bounds": [
+        -360,
+        26
+      ],
+      "paths": 648,
+      "unobserved_regret": 26,
+      "fixed": [
+        26,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 26,
+      "adaptive_tree": null,
+      "exact_dp_calls": 247,
+      "pruned_fixed_plans": 27
+    },
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 24,
+      "before_action": 12,
+      "observations": 1,
+      "bounds": [
+        -360,
+        24
+      ],
+      "paths": 648,
+      "unobserved_regret": 24,
+      "fixed": [
+        24,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 24,
+      "adaptive_tree": null,
+      "exact_dp_calls": 25,
+      "pruned_fixed_plans": 11
+    },
+    {
+      "sensor": "presence",
+      "starting_queue_revealed_regret": 24,
+      "before_action": 12,
+      "observations": 2,
+      "bounds": [
+        -360,
+        24
+      ],
+      "paths": 648,
+      "unobserved_regret": 24,
+      "fixed": [
+        24,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 24,
+      "adaptive_tree": null,
+      "exact_dp_calls": 289,
+      "pruned_fixed_plans": 65
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 24,
+      "before_action": 12,
+      "observations": 1,
+      "bounds": [
+        -360,
+        24
+      ],
+      "paths": 648,
+      "unobserved_regret": 24,
+      "fixed": [
+        24,
+        [
+          0
+        ]
+      ],
+      "adaptive_regret": 24,
+      "adaptive_tree": null,
+      "exact_dp_calls": 37,
+      "pruned_fixed_plans": 11
+    },
+    {
+      "sensor": "movement",
+      "starting_queue_revealed_regret": 24,
+      "before_action": 12,
+      "observations": 2,
+      "bounds": [
+        -360,
+        24
+      ],
+      "paths": 648,
+      "unobserved_regret": 24,
+      "fixed": [
+        24,
+        [
+          0,
+          1
+        ]
+      ],
+      "adaptive_regret": 24,
+      "adaptive_tree": null,
+      "exact_dp_calls": 526,
+      "pruned_fixed_plans": 65
+    }
+  ],
+  "screen": {
+    "ambiguous": 65,
+    "reduced": [
+      {
+        "bins": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "starting_queue_revealed_regret": 12,
+        "before_action": 8,
+        "observations": 2,
+        "bounds": [
+          -44,
+          37
+        ],
+        "paths": 108,
+        "unobserved_regret": 37,
+        "fixed": [
+          36,
+          [
+            6,
+            7
+          ]
+        ],
+        "adaptive_regret": 36,
+        "adaptive_tree": [
+          6,
+          [
+            [
+              [
+                ""
+              ],
+              [
+                36,
+                [
+                  7,
+                  [
+                    [
+                      [
+                        "T"
+                      ],
+                      [
+                        0,
+                        null
+                      ]
+                    ],
+                    [
+                      [
+                        "L"
+                      ],
+                      [
+                        36,
+                        null
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "T"
+              ],
+              [
+                0,
+                null
+              ]
+            ],
+            [
+              [
+                "L"
+              ],
+              [
+                36,
+                null
+              ]
+            ]
+          ]
+        ],
+        "exact_dp_calls": 199,
+        "pruned_fixed_plans": 26
+      },
+      {
+        "bins": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "starting_queue_revealed_regret": 0,
+        "before_action": 8,
+        "observations": 2,
+        "bounds": [
+          -57,
+          25
+        ],
+        "paths": 108,
+        "unobserved_regret": 25,
+        "fixed": [
+          24,
+          [
+            6,
+            7
+          ]
+        ],
+        "adaptive_regret": 24,
+        "adaptive_tree": [
+          6,
+          [
+            [
+              [
+                ""
+              ],
+              [
+                24,
+                [
+                  7,
+                  [
+                    [
+                      [
+                        "T"
+                      ],
+                      [
+                        0,
+                        null
+                      ]
+                    ],
+                    [
+                      [
+                        "L"
+                      ],
+                      [
+                        24,
+                        null
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "T"
+              ],
+              [
+                0,
+                null
+              ]
+            ],
+            [
+              [
+                "L"
+              ],
+              [
+                24,
+                null
+              ]
+            ]
+          ]
+        ],
+        "exact_dp_calls": 199,
+        "pruned_fixed_plans": 26
+      },
+      {
+        "bins": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "starting_queue_revealed_regret": 0,
+        "before_action": 8,
+        "observations": 2,
+        "bounds": [
+          -57,
+          25
+        ],
+        "paths": 108,
+        "unobserved_regret": 25,
+        "fixed": [
+          24,
+          [
+            6,
+            7
+          ]
+        ],
+        "adaptive_regret": 24,
+        "adaptive_tree": [
+          6,
+          [
+            [
+              [
+                ""
+              ],
+              [
+                24,
+                [
+                  7,
+                  [
+                    [
+                      [
+                        "T"
+                      ],
+                      [
+                        0,
+                        null
+                      ]
+                    ],
+                    [
+                      [
+                        "L"
+                      ],
+                      [
+                        24,
+                        null
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "T"
+              ],
+              [
+                0,
+                null
+              ]
+            ],
+            [
+              [
+                "L"
+              ],
+              [
+                24,
+                null
+              ]
+            ]
+          ]
+        ],
+        "exact_dp_calls": 199,
+        "pruned_fixed_plans": 26
+      },
+      {
+        "bins": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "starting_queue_revealed_regret": 0,
+        "before_action": 8,
+        "observations": 2,
+        "bounds": [
+          -70,
+          13
+        ],
+        "paths": 108,
+        "unobserved_regret": 13,
+        "fixed": [
+          12,
+          [
+            6,
+            7
+          ]
+        ],
+        "adaptive_regret": 12,
+        "adaptive_tree": [
+          6,
+          [
+            [
+              [
+                ""
+              ],
+              [
+                12,
+                [
+                  7,
+                  [
+                    [
+                      [
+                        "T"
+                      ],
+                      [
+                        12,
+                        null
+                      ]
+                    ],
+                    [
+                      [
+                        "L"
+                      ],
+                      [
+                        12,
+                        null
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "T"
+              ],
+              [
+                12,
+                null
+              ]
+            ],
+            [
+              [
+                "L"
+              ],
+              [
+                12,
+                null
+              ]
+            ]
+          ]
+        ],
+        "exact_dp_calls": 199,
+        "pruned_fixed_plans": 26
+      }
+    ],
+    "adaptive_advantage": []
+  }
+}
