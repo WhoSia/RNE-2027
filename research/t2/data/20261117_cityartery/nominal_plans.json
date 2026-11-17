@@ -1,0 +1,908 @@
+{
+  "time_semantics": "nominal durations, without demonstrated phase epoch, offsets or event log",
+  "plans": [
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 2,
+      "site": "Right-side Cross Intersection",
+      "period": "Morning Peak (7:30-9:30)",
+      "site_label_inherited": false,
+      "phases": [
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 32
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 15
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 52
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 50
+        }
+      ],
+      "sum_listed_phase_s": 149,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 3,
+      "site": "Right-side Cross Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 37
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 25
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 45
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 50
+        }
+      ],
+      "sum_listed_phase_s": 157,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 4,
+      "site": "Right-side Cross Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 27
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 65
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        }
+      ],
+      "sum_listed_phase_s": 162,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 5,
+      "site": "Intermediate Irregular Intersection",
+      "period": "Morning Peak (7:30-9:30)",
+      "site_label_inherited": false,
+      "phases": [
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 28
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 27
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 15
+        }
+      ],
+      "sum_listed_phase_s": 100,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 6,
+      "site": "Intermediate Irregular Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 28
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 35
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 65
+        }
+      ],
+      "sum_listed_phase_s": 158,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 7,
+      "site": "Intermediate Irregular Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 28
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 23
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 60
+        }
+      ],
+      "sum_listed_phase_s": 151,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 8,
+      "site": "Left-side Y Intersection",
+      "period": "Morning Peak (7:30-9:30)",
+      "site_label_inherited": false,
+      "phases": [
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 100
+        }
+      ],
+      "sum_listed_phase_s": 190,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 9,
+      "site": "Left-side Y Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 60
+        }
+      ],
+      "sum_listed_phase_s": 160,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 1",
+      "excel_row": 10,
+      "site": "Left-side Y Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 75
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 45
+        }
+      ],
+      "sum_listed_phase_s": 160,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 2",
+      "excel_row": 2,
+      "site": "Yingbin Road & Industrial West Road Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": false,
+      "phases": [
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 15
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 15
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 52
+        }
+      ],
+      "sum_listed_phase_s": 122,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 2",
+      "excel_row": 3,
+      "site": "Yingbin Road & Industrial West Road Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 62
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 33
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 60
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 35
+        }
+      ],
+      "sum_listed_phase_s": 190,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 2",
+      "excel_row": 4,
+      "site": "Yingbin Road & Industrial West Road Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 32
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 60
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        }
+      ],
+      "sum_listed_phase_s": 172,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 2",
+      "excel_row": 5,
+      "site": "Yingbin Road & Industrial West Road Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 70
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 25
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 25
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        }
+      ],
+      "sum_listed_phase_s": 150,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 3",
+      "excel_row": 2,
+      "site": "Yingbin Road & Xincheng Road Intersection",
+      "period": "Morning Peak (7:30-9:30)",
+      "site_label_inherited": false,
+      "phases": [
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 60
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 60
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 50
+        }
+      ],
+      "sum_listed_phase_s": 240,
+      "ambiguous_site_period": false
+    },
+    {
+      "sheet": "Signal Timing for Scenario 3",
+      "excel_row": 5,
+      "site": "Yingbin Road & Xincheng Road Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 60
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 25
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 45
+        }
+      ],
+      "sum_listed_phase_s": 200,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 3",
+      "excel_row": 6,
+      "site": "Yingbin Road & Xincheng Road Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 70
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 25
+        },
+        {
+          "directions": [
+            "North",
+            "South"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 45
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Straight"
+          ],
+          "seconds": 50
+        }
+      ],
+      "sum_listed_phase_s": 240,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 3",
+      "excel_row": 7,
+      "site": "Yingbin Road & Xincheng Road Intersection",
+      "period": "Off-Peak (10:30-16:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 40
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 35
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 25
+        }
+      ],
+      "sum_listed_phase_s": 130,
+      "ambiguous_site_period": true
+    },
+    {
+      "sheet": "Signal Timing for Scenario 3",
+      "excel_row": 8,
+      "site": "Yingbin Road & Xincheng Road Intersection",
+      "period": "Evening Peak (17:30-19:30)",
+      "site_label_inherited": true,
+      "phases": [
+        {
+          "directions": [
+            "South"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        },
+        {
+          "directions": [
+            "West"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 50
+        },
+        {
+          "directions": [
+            "North"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 35
+        },
+        {
+          "directions": [
+            "East"
+          ],
+          "movements": [
+            "Left Turn",
+            "Straight"
+          ],
+          "seconds": 30
+        }
+      ],
+      "sum_listed_phase_s": 145,
+      "ambiguous_site_period": true
+    }
+  ]
+}
