@@ -12,11 +12,11 @@ DESIGN = (83, "night", "platooned", "constrained")
 PREFIX = (1, 1, 0)
 
 
-def example():
+def example(bypass_depth=0):
     seed, *expected = DESIGN
     scenario = next(w.scenario for w in worlds(seed)
                     if [w.band, w.shape, w.receiving] == expected)
-    _, _, _, rows = next(group for group in matched_storage_cases(scenario)
+    _, _, _, rows = next(group for group in matched_storage_cases(scenario, bypass_depth=bypass_depth)
                          if group[0] == "pocket")
     selected = [{"order": bits[len(PREFIX):], "area": area, "remaining": remaining}
                 for bits, _, pocket, link, area, remaining in rows
@@ -59,7 +59,13 @@ def query_report(data):
 
 def render(data):
     template = (ROOT/"exhibition_demo.html").read_text(encoding="utf-8")
-    payload = {**data, "queries": query_report(data)}
+    variants = {0: data, 1: example(1), 3: example(3)}
+    orders = [row["order"] for row in data["cases"]]
+    if any([row["order"] for row in variant["cases"]] != orders
+           for variant in variants.values()):
+        raise ValueError("Exhibit geometry modes must preserve the observed group and arrival order")
+    payload = {**data, "modes": {depth: {"cases": variant["cases"], "queries": query_report(variant)}
+                                for depth, variant in variants.items()}}
     return template.replace("__T2_DATA__", json.dumps(payload, separators=(",", ":")))
 
 

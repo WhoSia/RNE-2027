@@ -20,6 +20,7 @@ const elements = new Map([...html.matchAll(/\bid="([a-z]+)"/g)].map(m => [m[1], 
 const get = id => elements.get(id);
 get("experiment").textContent = html.match(/id="experiment">([^<]+)<\/script>/)[1];
 get("penalty").value = "60";
+get("bypass").value = "0";
 vm.runInNewContext(html.match(/<script>([\s\S]+)<\/script>/)[1], {
   document: {querySelector: () => get("experiment"), getElementById: get,
              createElement: () => new Element()},
@@ -34,6 +35,17 @@ assert.match(get("best").textContent, /좌회전 먼저 · 0$/);
 get("penalty").value = "120";
 get("penalty").listeners.change();
 assert.match(get("best").textContent, /직진 먼저 · 0$/);
+get("penalty").value = "60";
+get("penalty").listeners.change();
+get("next").click();
+for (const bin of get("bins").children) bin.click();
+assert.match(get("best").textContent, /직진 먼저 · 0$/);
+get("bypass").value = "1";
+get("bypass").listeners.change();
+assert.match(get("summary").textContent, /1개/);
+assert.match(get("best").textContent, /좌회전 먼저 · 0$/);
+get("bypass").value = "0";
+get("bypass").listeners.change();
 for (let i = 0; i < 8; i++) {
   get("next").click();
   assert.match(get("summary").textContent, /8개/);

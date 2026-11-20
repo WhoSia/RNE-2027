@@ -32,6 +32,12 @@ table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding
   <span>84틱에 결정 · 포켓 1대 · 직진 하류 0대</span>
   <label for="penalty">종료 시 잔류 1대의 비용</label>
   <select id="penalty"><option value="0">0틱</option><option value="60" selected>60틱</option><option value="120">120틱</option></select>
+  <label for="bypass">막힌 좌회전차 옆으로 지나가기</label>
+  <select id="bypass">
+    <option value="0" selected>우회 불가</option>
+    <option value="1">바로 뒤 직진차만 가능</option>
+    <option value="3">뒤 3대 범위에서 가능</option>
+  </select>
   <button id="next" type="button">다른 사례로</button>
 </div>
 <section class="panel">
@@ -77,7 +83,8 @@ const bins = data.starts.map((start, i) => {
     return button;
 });
 function render() {
-    const hidden = data.cases[selected];
+    const mode = data.modes[get("bypass").value];
+    const hidden = mode.cases[selected];
     const penalty = Number(get("penalty").value);
     bins.forEach((button, i) => {
         button.textContent = `${data.starts[i]}–${data.starts[i] + 1}틱`;
@@ -88,7 +95,7 @@ function render() {
             : "순서 미공개";
         button.append(label);
     });
-    const values = data.cases.filter(row =>
+    const values = mode.cases.filter(row =>
         [...revealed].every(i => row.order[i] === hidden.order[i]))
         .map(row => row.area + penalty * row.remaining);
     const low = Math.min(...values);
@@ -104,7 +111,7 @@ function render() {
         for (const item of [label, number]) row.insertCell().textContent = item;
         return row;
     }));
-    let tree = data.queries[penalty].tree;
+    let tree = mode.queries[penalty].tree;
     while (tree.branches && revealed.has(tree.question)) {
         tree = tree.branches[hidden.order[tree.question]];
     }
@@ -121,6 +128,7 @@ function render() {
 }
 for (const id of ["left", "through"]) get(id).addEventListener("click", () => { action = id; render(); });
 get("penalty").addEventListener("change", render);
+get("bypass").addEventListener("change", render);
 get("next").addEventListener("click", () => {
     selected = (selected + 1) % data.cases.length;
     revealed.clear();
