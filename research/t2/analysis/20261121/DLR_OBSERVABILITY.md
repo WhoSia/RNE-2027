@@ -1,5 +1,10 @@
 # K047 joint observability audit, 2026-11-21
 
+> Follow-up: the publisher's east-approach diagram and the OpenDRIVE lane links
+> support group 3 for east straight movement. See
+> [the correction and route audit](DLR_ROUTE_EVIDENCE.md). The counts below
+> preserve the signal-bracketing rule of the first audit.
+
 ## Fixed inputs and meaning of the probes
 
 Use the three already-open 15-minute blocks beginning at 12:00, 12:30 and
