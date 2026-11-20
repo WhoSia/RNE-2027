@@ -66,3 +66,19 @@ get("windows").value = "1";
 get("timingcase").value = "new";
 get("timingcase").listeners.change();
 assert.deepEqual(timingValues(), [-113, 31]);
+
+
+assert.match(get("sensorstatus").textContent, /11\\.3/);
+get("errorbound").value = "30";
+get("errorbound").listeners.change();
+assert.match(get("sensorstatus").textContent, /고정안을 유지/);
+get("errorbound").value = "0";
+get("errorbound").listeners.change();
+get("reportdelay").value = "1";
+get("reportdelay").listeners.change();
+assert.match(get("sensorstatus").textContent, /보고가 늦어/);
+get("reportdelay").value = "0";
+get("reportdelay").listeners.change();
+get("sensorcost").value = "20";
+get("sensorcost").listeners.change();
+assert.match(get("sensorstatus").textContent, /20\\.0/);
