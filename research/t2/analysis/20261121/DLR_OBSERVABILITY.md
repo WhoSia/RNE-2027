@@ -38,3 +38,12 @@ places a queue at the stop line. The through connector and west receiving
 entry are spatially separate. Positive co-detections establish simultaneous
 observations. Spillback claims and counterfactual signal effects require
 additional evidence. Zero detected crossings leave actual discharge unknown.
+
+## Post-run sensitivity check
+
+The first run produced sparse slow detections in the 0–8 m west entry
+mask. Keep that mask as the primary probe. Add the earlier work's 2–24 m
+west strip as a descriptive sensitivity check and retain center detections
+at any speed in both masks. Record whether near-stop slow detections
+coincide with a contained crossing candidate. This guards against calling
+a missing crossing candidate a measured zero.
