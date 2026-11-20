@@ -27,3 +27,10 @@ python dlr_review_summary.py /tmp/dlr-timeline.json results/dlr_timeline_summary
 ```
 
 원자료는 기존 DLR 캐시를 참조한다. 배포 HTML은 차량 ID와 절대 시각을 생략했다. 사례 키는 생성 코드의 CASES에 있다.
+
+## 2026-11-21 관측 범위 검증
+
+[열린 세 블록의 동시 관측 검증](../analysis/20261121/DLR_OBSERVABILITY.md)에서
+정지선 통과 후보와 정지선·포켓 입구·연결로·하류 검지를 같은 시간 축에 올렸다.
+신호 헤드의 차로 대응과 연결로 전체의 검지 범위가 확인될 때까지 실제 무방출과
+두 차단 기전의 현장 라벨을 보류한다.
