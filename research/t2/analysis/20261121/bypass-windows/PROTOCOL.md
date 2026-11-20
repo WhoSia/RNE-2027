@@ -17,3 +17,13 @@ cases in each information group. Treat these exact revelations as model
 diagnostics. Neither future input is available at the decision in this study.
 Report if the calendar comparison leaves an unresolved ambiguity even with
 all future arrivals known. Do not use field holdouts.
+
+## Follow-up after the six-tick comparison
+
+No strict reversals were observed across the three six-tick schedules.
+Compare earliest versus latest contiguous windows with 1, 2, 3, 4,
+and 6 eligible ticks within [84,96). Restrict this follow-up to the
+pocket-only storage condition, where the always-on versus FIFO result
+previously reversed. Retain all 768 fixed streams. For each count report
+tie transitions, cost differences, strict reversals, and the observation
+partitions. Label this follow-up separately from the first comparison.
