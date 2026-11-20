@@ -1,7 +1,7 @@
 from fractions import Fraction
 from unittest import TestCase
 
-from decision_time_gate import Evidence, binary_certificate, conditional_regret, fixed_regret
+from decision_time_gate import Evidence, binary_certificate, conditional_regret, fixed_regret, choose_sensor
 
 
 class TimeGateTests(TestCase):
@@ -39,3 +39,18 @@ class TimeGateTests(TestCase):
             conditional_regret([("e", 1)], {})
         with self.assertRaises(ValueError):
             binary_certificate(0, 2)
+
+    def test_policy_ignores_late_or_unhelpful_forecasts(self):
+        timely = Evidence("forecast", 83, 1)
+        late = Evidence("forecast", 84, 1)
+        result = choose_sensor(-113, 31, 1, 10, observation=timely)
+        self.assertEqual(result["policy"], "forecast")
+        self.assertEqual(result["worst_regret_bound"], "113/10")
+        self.assertEqual(choose_sensor(-113, 31, 3, 10,
+                                       observation=timely)["policy"], "fixed")
+        self.assertEqual(choose_sensor(-113, 31, 0, 10,
+                                       observation=late)["policy"], "fixed")
+        self.assertEqual(choose_sensor(-113, 31, 1, 10, cost=20,
+                                       observation=timely)["policy"], "fixed")
+        with self.assertRaises(ValueError):
+            choose_sensor(-113,31,11,10)

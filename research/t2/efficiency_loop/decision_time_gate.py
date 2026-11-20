@@ -94,6 +94,7 @@ def report():
         "decision_tick": DECISION_TICK,
         "legacy_terminal_sensitive": binary_certificate(-3, 35),
         "new_terminal_robust": binary_certificate(-113, 31),
+        "forecast_frontier": frontier(-113, 31),
         "interpretation": {
             "prefix_or_counts": "same in paired worlds; cannot separate their future gaps",
             "live_gap_tick_84": "optimistic zero-latency case only; not a feasible delayed camera decision",
@@ -101,6 +102,40 @@ def report():
             "forecast": "allowed only if generated before commitment; conditional error must be assessed",
         },
     }
+
+
+def choose_sensor(early, late, error_numerator, error_denominator, cost=0,
+                  *, observation=None, decision=DECISION_TICK):
+    """Choose fixed vs follow-a-binary-forecast under per-world error bounds.
+
+    This compares deterministic policies; it is not an optimized randomized
+    signaling policy. Sensing cost is expressed in the same units as regret.
+    """
+    if not early < 0 < late:
+        raise ValueError("two opposite-sign decision worlds required")
+    if error_denominator <= 0 or not 0 <= error_numerator <= error_denominator:
+        raise ValueError("invalid error fraction")
+    if cost < 0:
+        raise ValueError("sensing cost must not be negative")
+    error = Fraction(error_numerator, error_denominator)
+    fixed = min(-early, late)
+    conditional = max(-early, late)*error + Fraction(cost)
+    available = observation is not None and observation.admissible(decision)
+    use_sensor = available and conditional < fixed
+    return {"policy": "forecast" if use_sensor else "fixed",
+            "worst_regret_bound": str(conditional if use_sensor else fixed),
+            "fixed_bound": str(fixed), "forecast_and_cost_bound": str(conditional),
+            "sensor_admissible": available}
+
+
+def frontier(early, late):
+    return [
+        {"error": str(Fraction(i, 20)),
+         "zero_delay": choose_sensor(early, late, i, 20, observation=Evidence("issued_forecast", 83)),
+         "one_tick_late": choose_sensor(early, late, i, 20,
+                                       observation=Evidence("issued_forecast", 84, 1))}
+        for i in (0, 1, 2, 4, 6, 10)
+    ]
 
 
 if __name__ == "__main__":
