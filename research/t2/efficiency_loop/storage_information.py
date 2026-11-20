@@ -37,6 +37,8 @@ def paired_bins(arrivals, orders):
 
 
 def compare_orders(scenario, *, bypass_depth=0, bypass_ticks=None):
+    if bypass_ticks is not None:
+        bypass_ticks = tuple(bypass_ticks)
     schedules = [masks(DECISION, calendar(plan, scenario.headway)) for plan in ORDERS]
     states, outcomes = [], []
     for schedule in schedules:
@@ -91,6 +93,8 @@ def partition(rows, pocket_limit, link_limit):
 
 
 def matched_storage_cases(scenario, *, bypass_depth=0, bypass_ticks=None):
+    if bypass_ticks is not None:
+        bypass_ticks = tuple(bypass_ticks)
     streams = {bits: paired_bins(scenario.arrivals, bits)
                for bits in product((0, 1), repeat=len(BIN_STARTS))}
     unbound = max(map(len, streams.values())) + 1
