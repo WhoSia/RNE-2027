@@ -1,0 +1,42 @@
+{
+  "decision_tick": 84,
+  "source": "preselected synthetic matched-window witnesses; terminal penalty 60",
+  "worlds": {
+    "legacy": {
+      "cost_difference": {
+        "early": -3,
+        "late": 35
+      },
+      "fixed_deterministic_minimax_regret": 3,
+      "perfect_information_oracle_regret": 0,
+      "randomized_no_sensor_regret": "105/38",
+      "conditional_error_ceiling_vs_fixed": "3/35"
+    },
+    "new_seed_337": {
+      "cost_difference": {
+        "early": -113,
+        "late": 31
+      },
+      "fixed_deterministic_minimax_regret": 31,
+      "perfect_information_oracle_regret": 0,
+      "randomized_no_sensor_regret": "3503/144",
+      "conditional_error_ceiling_vs_fixed": "31/113",
+      "conditional_error_ceiling_vs_randomized": "31/144",
+      "forecast_following_bound_at_error_10pct": "113/10",
+      "max_sensor_cost_for_strict_benefit_at_error_10pct": "197/10"
+    }
+  },
+  "causal_gate": {
+    "first_eligible_gap_tick": 84,
+    "decision_tick": 84,
+    "allowed_zero_latency_at_decision": true,
+    "allowed_one_tick_reporting_delay": false
+  },
+  "limitations": [
+    "Restricted two-world synthetic example",
+    "Correct-label error bound must apply to each true world",
+    "No empirical predictor or sensor accuracy",
+    "No empirical frequency or operational intervention",
+    "Randomized sensor-conditioned policies are not optimized"
+  ]
+}
