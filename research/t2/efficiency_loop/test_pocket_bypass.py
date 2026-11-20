@@ -1,7 +1,7 @@
 from collections import deque
 from unittest import TestCase
 
-from pocket_bypass import summarize
+from pocket_bypass import access_uncertainty, summarize
 from signal_model import Plan, Scenario, admit_source, run
 
 
@@ -36,3 +36,12 @@ class PocketBypassTests(TestCase):
         split = summarize([(a, -5, 1, 0, 0, 0), (b, 7, 0, 0, 0, 0)])
         self.assertEqual(same["ambiguous"]["110/1/0"]["bounds"], [-5, 7])
         self.assertFalse(split["ambiguous"])
+
+    def test_unknown_access_can_dominate_even_perfect_arrival_information(self):
+        stream = (1, 0, 0)
+        models = {0: {stream: (-5, (1, 0))}, 1: {stream: (7, (1, 0))},
+                  3: {stream: (9, (0, 0))}}
+        report = access_uncertainty(models)
+        self.assertEqual(report["incompatible_streams"], 1)
+        self.assertEqual(report["witness"]["upper"], (1, 7))
+        self.assertEqual(report["witness"]["regret"], 5)
