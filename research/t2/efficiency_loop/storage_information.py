@@ -24,6 +24,7 @@ EDGES = (
 )
 ORDERS = tuple(replace(BASELINE, left_first=first) for first in (False, True))
 INSTRUMENTS = ("baseline", "pocket_full", "receiver_full", "both_fullness", "both_counts")
+TERMINAL_CHECKS = (0, 120)
 
 
 def paired_bins(arrivals, orders):
@@ -37,7 +38,7 @@ def paired_bins(arrivals, orders):
 
 def compare_orders(scenario):
     schedules = [masks(DECISION, calendar(plan, scenario.headway)) for plan in ORDERS]
-    states, costs = [], []
+    states, outcomes = [], []
     for schedule in schedules:
         def controller(tick, bay, link, pedestrians):
             if tick == DECISION:
@@ -45,11 +46,14 @@ def compare_orders(scenario):
             active = schedules[0] if tick < DECISION else schedule
             return active[tick % DECISION]
 
-        costs.append(run(BASELINE, scenario, controller=controller).cost)
+        outcomes.append(run(BASELINE, scenario, controller=controller))
     if len(states) != 2 or states[0] != states[1]:
         raise AssertionError("The phase alternatives diverged before the decision")
     bay, link, _ = states[0]
-    return costs[1] - costs[0], bay[1], link[0]
+    through, left = outcomes
+    remaining_difference = sum((a - b) * weight for a, b, weight in
+                               zip(left.remaining, through.remaining, scenario.weights, strict=True))
+    return left.cost - through.cost, bay[1], link[0], left.area - through.area, remaining_difference
 
 
 def decision(values):
@@ -90,20 +94,37 @@ def build_context(scenario):
                for bits in product((0, 1), repeat=len(BIN_STARTS))}
     unbound = max(map(len, streams.values())) + 1
     by_storage = {}
+    sensitivity = {terminal: {} for terminal in TERMINAL_CHECKS}
     for name, (finite_pocket, finite_link) in CAPACITIES.items():
         pocket_limit = 1 if finite_pocket else unbound
         link_limit = 2 if finite_link else unbound
         fixed = change_storage(scenario, pocket_limit, link_limit)
         rows = []
+        alternative_deltas = {terminal: [] for terminal in TERMINAL_CHECKS}
         for bits, arrivals in streams.items():
             current = replace(fixed, arrivals=arrivals)
-            delta, pocket, link = compare_orders(current)
+            delta, pocket, link, area, remaining = compare_orders(current)
             rows.append((bits, delta, pocket, link))
+            assert delta == area + scenario.terminal * remaining
+            for terminal, values in alternative_deltas.items():
+                values.append(area + terminal * remaining)
+        for terminal, values in alternative_deltas.items():
+            sensitivity[terminal][name] = values
         instruments = partition(rows, pocket_limit, link_limit)
         low = min(rows, key=lambda row: row[1])
         high = max(rows, key=lambda row: row[1])
+        closed_bins = sum(start + 2 <= DECISION for start in BIN_STARTS)
+        before_decision = defaultdict(list)
+        for bits, delta, pocket, link in rows:
+            before_decision[(bits[:closed_bins], pocket, link)].append(delta)
         by_storage[name] = (rows, {
             "instruments": instruments,
+            "regret_with_complete_varied_prefix_and_counts": max(
+                decision(values)["regret"] for values in before_decision.values()
+            ),
+            "same_prefix_and_counts_can_disagree": any(
+                min(values) < 0 < max(values) for values in before_decision.values()
+            ),
             "extreme_worlds": (low, high),
         })
     reversals = {}
@@ -114,7 +135,13 @@ def build_context(scenario):
         reversals[f"{first}->{second}"] = {
             "strict_reversals": len(opposite), "witness": next(iter(opposite), None)
         }
-    return {"storage": {name: out for name, (_, out) in by_storage.items()}, "edges": reversals}
+    terminal_edges = {
+        terminal: {f"{a}->{b}": sum(x*y < 0 for x, y in zip(values[a], values[b], strict=True))
+                   for a, b in EDGES}
+        for terminal, values in sensitivity.items()
+    }
+    return {"storage": {name: out for name, (_, out) in by_storage.items()},
+            "edges": reversals, "terminal_sensitivity_edges": terminal_edges}
 
 
 def report():
@@ -136,7 +163,13 @@ def report():
                                             for p in panels),
             } for instrument in INSTRUMENTS
         }
+    terminal_edges = {
+        terminal: {key: sum(c["terminal_sensitivity_edges"][terminal][key] for c in contexts.values())
+                   for key in edges}
+        for terminal in TERMINAL_CHECKS
+    }
     return {"decision_tick": DECISION, "mixed_bin_starts": BIN_STARTS,
+            "terminal_sensitivity_edges": terminal_edges,
             "models_per_context": (2**len(BIN_STARTS)) * len(CAPACITIES) * len(ORDERS),
             "edge_reversals": edges, "sensor_summary": summaries, "contexts": contexts}
 
