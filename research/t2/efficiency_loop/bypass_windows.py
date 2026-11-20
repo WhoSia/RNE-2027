@@ -17,10 +17,10 @@ WINDOWS = {
 INSTRUMENTS = ("none", "open_at_decision", "window", "future_arrivals", "both")
 
 
-def information_scores(rows):
+def information_scores(rows, windows=WINDOWS):
     partitions = {name: defaultdict(list) for name in INSTRUMENTS}
     for label, starts, delta in rows:
-        keys = (None, DECISION in WINDOWS[label], label, starts, (label, starts))
+        keys = (None, DECISION in windows[label], label, starts, (label, starts))
         for table, key in zip(partitions.values(), keys, strict=True):
             table[key].append(delta)
     result = {name: max(decision(values)["regret"] for values in table.values())
@@ -31,10 +31,10 @@ def information_scores(rows):
     return result
 
 
-def compare_storage(models):
+def compare_storage(models, windows=WINDOWS):
     groups = defaultdict(list)
     reversals = {}
-    for first, second in combinations(WINDOWS, 2):
+    for first, second in combinations(windows, 2):
         a, b = models[first], models[second]
         if a.keys() != b.keys():
             raise AssertionError("Unequal arrival enumeration")
@@ -42,6 +42,8 @@ def compare_storage(models):
                     if a[bits][0] * b[bits][0] < 0]
         reversals[f"{first}/{second}"] = {
             "count": len(switches),
+            "changed": sum(a[bits][0] != b[bits][0] for bits in a),
+            "ties_changed": sum((a[bits][0] == 0) != (b[bits][0] == 0) for bits in a),
             "witness": max(switches, key=lambda row: min(abs(row[1]), abs(row[2])),
                            default=None),
         }
@@ -50,7 +52,7 @@ def compare_storage(models):
             if (pocket, receiver) != models["early"][bits][1:]:
                 raise AssertionError("A future schedule altered the pre-decision observation")
             groups[bits[:CLOSED], pocket, receiver].append((label, bits[CLOSED:], delta))
-    regrets = [information_scores(rows) for rows in groups.values()]
+    regrets = [information_scores(rows, windows) for rows in groups.values()]
     counts = {name: sum(record[name] > 0 for record in regrets) for name in INSTRUMENTS}
     maxima = {name: max(record[name] for record in regrets) for name in INSTRUMENTS}
     return {"groups": len(groups), "ambiguous": counts, "max_regret": maxima,
