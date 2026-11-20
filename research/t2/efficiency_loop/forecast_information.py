@@ -2,7 +2,7 @@
 import argparse
 from collections import defaultdict
 from fractions import Fraction
-from itertools import product
+from itertools import combinations, product
 import json
 from pathlib import Path
 
@@ -57,6 +57,19 @@ def evaluate(rows):
             "grid": grid}
 
 
+def exact_subsets(deltas, closed):
+    """Regret when a subset of future orders is known without error."""
+    scores = {}
+    for size in range(1, len(BIN_STARTS)-closed+1):
+        for indices in combinations(range(closed, len(BIN_STARTS)), size):
+            groups = defaultdict(list)
+            for bits, delta in deltas:
+                groups[tuple(bits[i] for i in indices)].append(delta)
+            label = "/".join(str(BIN_STARTS[i]) for i in indices)
+            scores[label] = max(decision(values)["regret"] for values in groups.values())
+    return scores
+
+
 def report():
     closed = sum(start + 2 <= DECISION for start in BIN_STARTS)
     ambiguous = []
@@ -80,6 +93,7 @@ def report():
                             "context": [seed, world.band, world.shape, storage],
                             "terminal": terminal, "info": info, "worlds": len(values),
                             "bounds": [min(values), max(values)],
+                            "exact_subset_regret": exact_subsets(deltas, closed),
                             "forecasts": {str(BIN_STARTS[i]): evaluate([(bits[i], d) for bits, d in deltas])
                                           for i in range(closed, len(BIN_STARTS))},
                         })
