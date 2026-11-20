@@ -89,21 +89,26 @@ def partition(rows, pocket_limit, link_limit):
     return instruments
 
 
-def build_context(scenario):
+def matched_storage_cases(scenario):
     streams = {bits: paired_bins(scenario.arrivals, bits)
                for bits in product((0, 1), repeat=len(BIN_STARTS))}
     unbound = max(map(len, streams.values())) + 1
-    by_storage = {}
-    sensitivity = {terminal: {} for terminal in TERMINAL_CHECKS}
     for name, (finite_pocket, finite_link) in CAPACITIES.items():
         pocket_limit = 1 if finite_pocket else unbound
         link_limit = 2 if finite_link else unbound
         fixed = change_storage(scenario, pocket_limit, link_limit)
+        rows = [(bits, *compare_orders(replace(fixed, arrivals=arrivals)))
+                for bits, arrivals in streams.items()]
+        yield name, pocket_limit, link_limit, rows
+
+
+def build_context(scenario):
+    by_storage = {}
+    sensitivity = {terminal: {} for terminal in TERMINAL_CHECKS}
+    for name, pocket_limit, link_limit, outcomes in matched_storage_cases(scenario):
         rows = []
         alternative_deltas = {terminal: [] for terminal in TERMINAL_CHECKS}
-        for bits, arrivals in streams.items():
-            current = replace(fixed, arrivals=arrivals)
-            delta, pocket, link, area, remaining = compare_orders(current)
+        for bits, delta, pocket, link, area, remaining in outcomes:
             rows.append((bits, delta, pocket, link))
             assert delta == area + scenario.terminal * remaining
             for terminal, values in alternative_deltas.items():
