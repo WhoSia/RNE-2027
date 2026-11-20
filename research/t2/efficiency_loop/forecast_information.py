@@ -23,14 +23,25 @@ def envelope(rows, rule):
     return lines
 
 
-def evaluate(rows):
-    baseline = decision([delta for _, delta in rows])["regret"]
-    policies = {rule: envelope(rows, rule) for rule in RULES}
+def improvement_limit(policies, baseline):
     # Strict improvement requires every affine world-loss line below baseline.
-    ceilings = []
+    limits = []
     for lines in policies.values():
-        if all(a < baseline for a, _ in lines):
-            ceilings.append(min([MAX_ERROR] + [Fraction(baseline-a, b) for a, b in lines if b]))
+        if not all(a < baseline for a, _ in lines):
+            continue
+        limit = min([MAX_ERROR] + [(baseline-a)/b for a, b in lines if b])
+        limits.append((limit, all(a+b*limit < baseline for a, b in lines)))
+    return max(limits, default=(None, False))
+
+
+def evaluate(rows):
+    deltas = [delta for _, delta in rows]
+    baseline = decision(deltas)["regret"]
+    a, b = max(0, -min(deltas)), max(0, max(deltas))
+    mixed = Fraction(a*b, a+b) if a+b else Fraction(0)
+    policies = {rule: envelope(rows, rule) for rule in RULES}
+    limit, inclusive = improvement_limit(policies, Fraction(baseline))
+    mixed_limit, mixed_inclusive = improvement_limit(policies, mixed)
     grid = []
     for error in ERROR_GRID:
         losses = {rule: max(a + b*error for a, b in lines) for rule, lines in policies.items()}
@@ -38,7 +49,11 @@ def evaluate(rows):
         grid.append({"error": str(error), "regret": str(best),
                      "rules": [rule for rule, loss in losses.items() if loss == best]})
     return {"baseline_regret": baseline,
-            "strict_improvement_error_ceiling": str(max(ceilings)) if ceilings else None,
+            "strict_improvement_error_ceiling": str(limit) if limit is not None else None,
+            "ceiling_inclusive": inclusive,
+            "mixed_baseline_regret": str(mixed),
+            "error_ceiling_vs_mixed_baseline": str(mixed_limit) if mixed_limit is not None else None,
+            "mixed_ceiling_inclusive": mixed_inclusive,
             "grid": grid}
 
 
