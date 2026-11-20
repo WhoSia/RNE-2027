@@ -1,0 +1,132 @@
+{
+  "scope": "Two synthetic worlds, conditional label error <= epsilon, randomized phase-order policy; no physical intervention",
+  "new_seed_337_deltas": [
+    -113,
+    31
+  ],
+  "legacy_deltas": [
+    -3,
+    35
+  ],
+  "error_values": [
+    "0",
+    "1/10",
+    "1/4",
+    "3/10",
+    "49/100",
+    "1/2"
+  ],
+  "new_seed_337": [
+    {
+      "conditional_error_bound": "0",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "0",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "0"
+    },
+    {
+      "conditional_error_bound": "1/10",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "41/196",
+      "optimal_worst_regret": "3503/392",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "113/10"
+    },
+    {
+      "conditional_error_bound": "1/4",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "41/103",
+      "optimal_worst_regret": "3503/206",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "113/4"
+    },
+    {
+      "conditional_error_bound": "3/10",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "123/278",
+      "optimal_worst_regret": "10509/556",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "339/10"
+    },
+    {
+      "conditional_error_bound": "49/100",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "2009/3559",
+      "optimal_worst_regret": "171647/7118",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "5537/100"
+    },
+    {
+      "conditional_error_bound": "1/2",
+      "p_left_if_early_label": "113/144",
+      "p_left_if_late_label": "113/144",
+      "optimal_worst_regret": "3503/144",
+      "fixed_randomized_without_forecast": "3503/144",
+      "fixed_deterministic_without_forecast": 31,
+      "always_follow_label_bound": "113/2"
+    }
+  ],
+  "legacy": [
+    {
+      "conditional_error_bound": "0",
+      "p_left_if_early_label": "1",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "0",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "0"
+    },
+    {
+      "conditional_error_bound": "1/10",
+      "p_left_if_early_label": "15/31",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "105/62",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "7/2"
+    },
+    {
+      "conditional_error_bound": "1/4",
+      "p_left_if_early_label": "3/11",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "105/44",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "35/4"
+    },
+    {
+      "conditional_error_bound": "3/10",
+      "p_left_if_early_label": "5/21",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "5/2",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "21/2"
+    },
+    {
+      "conditional_error_bound": "49/100",
+      "p_left_if_early_label": "75/467",
+      "p_left_if_late_label": "0",
+      "optimal_worst_regret": "5145/1868",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "343/20"
+    },
+    {
+      "conditional_error_bound": "1/2",
+      "p_left_if_early_label": "3/38",
+      "p_left_if_late_label": "3/38",
+      "optimal_worst_regret": "105/38",
+      "fixed_randomized_without_forecast": "105/38",
+      "fixed_deterministic_without_forecast": 3,
+      "always_follow_label_bound": "35/2"
+    }
+  ],
+  "precommitment_required": true
+}
