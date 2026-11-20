@@ -38,6 +38,11 @@
           "ordered_connector": 55,
           "ordered_connector_and_receiver": 53
         },
+        "crossings_cut_by_block_end_by_followup_s": {
+          "10": 0,
+          "20": 0,
+          "40": 0
+        },
         "exit_confirmed_mapped_codes": {
           "3": 1,
           "5": 44,
@@ -49,6 +54,11 @@
           "5": 47,
           "7": 2,
           "missing_or_transition": 6
+        },
+        "ordered_path_by_followup_s": {
+          "10": 53,
+          "20": 53,
+          "40": 53
         },
         "other_group_codes": {
           "3": 40,
@@ -151,6 +161,11 @@
           "ordered_connector": 66,
           "ordered_connector_and_receiver": 66
         },
+        "crossings_cut_by_block_end_by_followup_s": {
+          "10": 1,
+          "20": 1,
+          "40": 1
+        },
         "exit_confirmed_mapped_codes": {
           "5": 61,
           "7": 1,
@@ -160,6 +175,11 @@
           "5": 63,
           "7": 1,
           "missing_or_transition": 4
+        },
+        "ordered_path_by_followup_s": {
+          "10": 66,
+          "20": 66,
+          "40": 66
         },
         "other_group_codes": {
           "3": 55,
@@ -259,6 +279,11 @@
           "ordered_connector": 61,
           "ordered_connector_and_receiver": 60
         },
+        "crossings_cut_by_block_end_by_followup_s": {
+          "10": 3,
+          "20": 9,
+          "40": 9
+        },
         "exit_confirmed_mapped_codes": {
           "5": 57,
           "missing_or_transition": 4
@@ -266,6 +291,11 @@
         "mapped_group_codes": {
           "5": 60,
           "missing_or_transition": 4
+        },
+        "ordered_path_by_followup_s": {
+          "10": 60,
+          "20": 60,
+          "40": 60
         },
         "other_group_codes": {
           "3": 53,

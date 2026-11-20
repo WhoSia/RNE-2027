@@ -126,3 +126,12 @@ cmp /tmp/route_evidence.json ../analysis/20261121/route_evidence.json
 [Block-level aggregate and input hashes](route_evidence.json).
 Documentation SHA-256
 `94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3`.
+
+### Follow-up window sensitivity
+
+After the primary run, repeated the same path criterion with 10 s and 40 s.
+All three windows recover the ordered path in 179 of 188 candidates.
+The block end falls inside the potential follow-up for 4 candidates at
+10 s and 10 at both 20 s and 40 s. These counts measure potential
+administrative censoring, including cases where the path was already
+observed in time. They cannot attribute the nine unmatched cases.
