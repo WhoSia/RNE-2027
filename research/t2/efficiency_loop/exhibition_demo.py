@@ -58,9 +58,9 @@ def query_report(data):
     return report
 
 
-def timing_example():
+def timing_example(seed=17, order=(0, 0, 0, 0, 0, 0)):
     """Return a matched scarce-window witness with the original six arrival bits fixed."""
-    scenario = next(w.scenario for w in worlds(17)
+    scenario = next(w.scenario for w in worlds(seed)
                     if (w.band, w.shape, w.receiving) == ("midday", "dispersed", "constrained"))
     result = {}
     for count in COUNTS:
@@ -69,7 +69,7 @@ def timing_example():
             rows = next(rows for name, _, _, rows in matched_storage_cases(
                 scenario, bypass_depth=1, bypass_ticks=range(start, start + count)
             ) if name == "pocket")
-            values.append(next(delta for bits, delta, *_ in rows if not any(bits)))
+            values.append(next(delta for bits, delta, *_ in rows if bits == order))
         result[count] = values
     return result
 
@@ -81,7 +81,8 @@ def render(data):
     if any([row["order"] for row in variant["cases"]] != orders
            for variant in variants.values()):
         raise ValueError("Exhibit geometry modes must preserve the observed group and arrival order")
-    payload = {**data, "timing": timing_example(), "modes": {depth: {"cases": variant["cases"], "queries": query_report(variant)}
+    payload = {**data, "timing": {"original": timing_example(),
+                                  "new": timing_example(337, (0, 0, 0, 0, 1, 0))}, "modes": {depth: {"cases": variant["cases"], "queries": query_report(variant)}
                                 for depth, variant in variants.items()}}
     return template.replace("__T2_DATA__", json.dumps(payload, separators=(",", ":")))
 

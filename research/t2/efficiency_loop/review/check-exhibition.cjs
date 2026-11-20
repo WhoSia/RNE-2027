@@ -22,6 +22,7 @@ get("experiment").textContent = html.match(/id="experiment">([^<]+)<\/script>/)[
 get("penalty").value = "60";
 get("bypass").value = "0";
 get("windows").value = "1";
+get("timingcase").value = "original";
 vm.runInNewContext(html.match(/<script>([\s\S]+)<\/script>/)[1], {
   document: {querySelector: () => get("experiment"), getElementById: get,
              createElement: () => new Element()},
@@ -60,3 +61,8 @@ assert.deepEqual(timingValues(), [-3, 35]);
 get("windows").value = "6";
 get("windows").listeners.change();
 assert.deepEqual(timingValues(), [35, 139]);
+
+get("windows").value = "1";
+get("timingcase").value = "new";
+get("timingcase").listeners.change();
+assert.deepEqual(timingValues(), [-113, 31]);

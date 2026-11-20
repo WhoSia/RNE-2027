@@ -65,6 +65,11 @@ table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding
 <section class="panel">
   <h2>우회 기회가 같은 횟수라도</h2>
   <p>별도의 합성 도착열을 고정하고 84–95틱의 우회 기회를 앞 또는 뒤에 몰아 본다. 종료 벌점은 60틱이다.</p>
+  <label for="timingcase">비교할 도착열</label>
+  <select id="timingcase">
+    <option value="original" selected>기존 시드의 예</option>
+    <option value="new">새 시드의 예</option>
+  </select>
   <label for="windows">우회 가능 틱 수</label>
   <select id="windows"><option>1</option><option>2</option><option>3</option><option>4</option><option>6</option></select>
   <table><thead><tr><th scope="col">기회 배치</th><th scope="col">비용차</th><th scope="col">유리한 현시</th></tr></thead><tbody id="timing"></tbody></table>
@@ -143,7 +148,7 @@ get("next").addEventListener("click", () => {
     render();
 });
 function renderTiming() {
-    const [early, late] = data.timing[get("windows").value];
+    const [early, late] = data.timing[get("timingcase").value][get("windows").value];
     get("timing").replaceChildren(...[["앞쪽", early], ["뒤쪽", late]].map(([label, delta]) => {
         const row = document.createElement("tr");
         for (const item of [label, delta, delta < 0 ? names.left : delta > 0 ? names.through : "같음"]) {
@@ -153,6 +158,7 @@ function renderTiming() {
     }));
 }
 get("windows").addEventListener("change", renderTiming);
+get("timingcase").addEventListener("change", renderTiming);
 renderTiming();
 
 render();
