@@ -92,11 +92,11 @@ def route_after(first, downstream):
     return matches[0] if len(matches) == 1 else "unknown"
 
 
-def green_clock(signal):
+def green_clock(signal, head=3):
     samples = []
     with signal.open(newline="", encoding="utf-8-sig") as stream:
         for row in csv.DictReader(stream):
-            if int(row["id"]) == 3:
+            if int(row["id"]) == head:
                 stamp = (datetime.fromisoformat(row["timestamp"]) - CLOCK).total_seconds()
                 code = int(row["state"])
                 stage = "green" if code in (5,6) else "non_green" if code in (3,4,7,8) else "unknown"
