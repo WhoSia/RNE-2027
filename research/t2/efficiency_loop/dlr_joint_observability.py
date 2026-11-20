@@ -94,7 +94,7 @@ def frame_slot(stamp, start):
     return None
 
 
-def read_block(track, regions, gate, start):
+def read_block(track, regions, gate, start, *, on_detection=None):
     frames = {}
     gate_tracks = defaultdict(list)
     last_stamp = -float("inf")
@@ -120,10 +120,14 @@ def read_block(track, regions, gate, start):
                 along, across = gate.project(x,y)
                 if abs(along) <= 8 and abs(across) < 22:
                     gate_tracks[row["id"]].append((stamp,along,across))
-                if slot is None:
+                if slot is None and on_detection is None:
                     continue
                 cell = (floor(x/CELL_M), floor(y/CELL_M))
                 zones = {name for name,cells in regions.items() if cell in cells}
+                if on_detection is not None and zones:
+                    on_detection(row["id"], stamp, zones)
+                if slot is None:
+                    continue
                 present.update(zones)
                 if zones and float(row["velocity_magnitude"]) <= 2:
                     slow.update(zones)
