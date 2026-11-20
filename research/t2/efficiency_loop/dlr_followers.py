@@ -92,7 +92,7 @@ def route_after(first, downstream):
     return matches[0] if len(matches) == 1 else "unknown"
 
 
-def green_clock(signal, head=3):
+def green_clock(signal, head=3, *, max_sample_gap_s=1.25):
     samples = []
     with signal.open(newline="", encoding="utf-8-sig") as stream:
         for row in csv.DictReader(stream):
@@ -109,7 +109,7 @@ def green_clock(signal, head=3):
     def status(tick):
         first = bisect_right(times,(tick-.5)/TICKS_PER_S)-1
         last = bisect_right(times,(tick+.5)/TICKS_PER_S)
-        if first < 0 or last == len(times) or last != first+1 or times[last]-times[first] > 1.25:
+        if first < 0 or last == len(times) or last != first+1 or times[last]-times[first] > max_sample_gap_s:
             return "unknown"
         a,b = samples[first][1],samples[last][1]
         return a if a == b else "unknown"

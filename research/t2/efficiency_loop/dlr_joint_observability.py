@@ -171,15 +171,23 @@ def audit_block(track, signal, regions, gate, start):
         else:
             events[k] += 1
     clocks = [green_clock(signal, head) for head in (3,4)]
+    wider_clock = green_clock(signal, max_sample_gap_s=2.05)
     table = Counter()
+    wider_head = Counter()
     totals = Counter(dict.fromkeys(OUTPUT_KEYS, 0))
     green = totals.copy()
+    wider_green = totals.copy()
     witnesses = {}
     for k, (_, stamp, present, slow) in sorted(frames.items()):
-        h3,h4 = (clock(round(stamp*TICKS_PER_S)) for clock in clocks)
+        tick = round(stamp*TICKS_PER_S)
+        h3,h4 = (clock(tick) for clock in clocks)
+        wider = wider_clock(tick)
+        wider_head[wider] += 1
         table[h3+"/"+h4] += 1
         f = features(present, slow, events[k])
         totals.update(f)
+        if wider == "green":
+            wider_green.update(f)
         if h3 == "green":
             green.update(f)
             for label in ("near_stop_and_receiver_slow", "connector_and_receiver_slow",
@@ -195,6 +203,8 @@ def audit_block(track, signal, regions, gate, start):
         "expected_halfsecond_slots": int(BLOCK_SECONDS/SLOT_SECONDS),
         "all_selected_frames": dict(totals), "head_3_bracketed_green": dict(green),
         "head_3_4_joint": dict(table), "first_green_witnesses": witnesses,
+        "head_3_wider_2_05_state_counts": dict(wider_head),
+        "head_3_wider_2_05_green": dict(wider_green),
         "crossing_candidates": sum(events.values())+boundary,
         "crossing_straddled_slot": boundary,
         "crossing_without_retained_frame": sum(n for k,n in events.items() if k not in frames),
