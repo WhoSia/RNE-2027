@@ -1,0 +1,86 @@
+{
+  "0": {
+    "tree": {
+      "question": 1,
+      "depth": 2,
+      "total": 12,
+      "branches": [
+        {
+          "depth": 0,
+          "total": 0,
+          "order": "through"
+        },
+        {
+          "question": 2,
+          "depth": 1,
+          "total": 4,
+          "branches": [
+            {
+              "depth": 0,
+              "total": 0,
+              "order": "left"
+            },
+            {
+              "depth": 0,
+              "total": 0,
+              "order": "through"
+            }
+          ]
+        }
+      ]
+    },
+    "mean_questions_equal_weight": "3/2"
+  },
+  "60": {
+    "tree": {
+      "question": 0,
+      "depth": 3,
+      "total": 14,
+      "branches": [
+        {
+          "question": 1,
+          "depth": 2,
+          "total": 6,
+          "branches": [
+            {
+              "depth": 0,
+              "total": 0,
+              "order": "through"
+            },
+            {
+              "question": 2,
+              "depth": 1,
+              "total": 2,
+              "branches": [
+                {
+                  "depth": 0,
+                  "total": 0,
+                  "order": "left"
+                },
+                {
+                  "depth": 0,
+                  "total": 0,
+                  "order": "through"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "depth": 0,
+          "total": 0,
+          "order": "through"
+        }
+      ]
+    },
+    "mean_questions_equal_weight": "7/4"
+  },
+  "120": {
+    "tree": {
+      "depth": 0,
+      "total": 0,
+      "order": "through"
+    },
+    "mean_questions_equal_weight": "0"
+  }
+}

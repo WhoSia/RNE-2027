@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>다음 녹색은 누구에게? | T2</title>
+<style>
+:root { color-scheme: light; font-family: "Inter", system-ui, sans-serif; background:#f4f7f4; color:#102c24; }
+body { max-width: 68rem; margin: 0 auto; padding: clamp(1rem,4vw,3rem); }
+h1 { font-size:clamp(2rem,6vw,4rem); margin:.25rem 0; letter-spacing:-.055em; }
+h2 { margin: 0 0 .6rem; font-size:1.2rem; }
+p { line-height:1.65; margin:.45rem 0; }
+header { margin-bottom:1.5rem; }
+.controls,.panel { background:white; border:1px solid #c9d8d0; border-radius:.85rem; padding:1.1rem; margin:.8rem 0; }
+.controls { display:flex; flex-wrap:wrap; align-items:center; gap:1rem; }
+button,select { font:inherit; color:inherit; border:1px solid #81988d; background:white; border-radius:.45rem; padding:.55rem .75rem; }
+button { cursor:pointer; } button:hover { background:#e2eee7; }
+button[aria-pressed="true"] { background:#124e3e; color:#fff; }
+button:focus-visible,select:focus-visible { outline:3px solid #946000; outline-offset:2px; }
+.bins,.action { display:flex; flex-wrap:wrap; gap:.6rem; }
+.bins button { text-align:left; flex:1 1 10rem; } .bins span { display:block; font-size:.88rem; margin-top:.25rem; }
+.split { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap:1rem; }
+.result { font-weight:700; }
+.meta { color:#45645a; font-size:.94rem; }
+table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding:.4rem; border-bottom:1px solid #dce8df; } th { font-size:.86rem; }
+</style>
+<header>
+  <p class="meta">R&E 2027 · T2 교차로 모형</p>
+  <h1>다음 녹색은 누구에게?</h1>
+  <p>직진과 좌회전 중 어느 쪽에 먼저 녹색을 줄까? 같은 관측과 양립하는 도착 순서를 열어 보며 선택해 보자.</p>
+</header>
+<div class="controls">
+  <span>84틱에 결정 · 포켓 1대 · 직진 하류 0대</span>
+  <label for="penalty">종료 시 잔류 1대의 비용</label>
+  <select id="penalty"><option value="0">0틱</option><option value="60" selected>60틱</option><option value="120">120틱</option></select>
+  <button id="next" type="button">다른 사례로</button>
+</div>
+<section class="panel">
+  <h2>어느 구간을 확인할까?</h2>
+  <p class="meta">각 구간에는 직진 1대와 좌회전 1대가 도착한다. 버튼을 누르면 먼저 도착하는 차를 확인한다.</p>
+  <div class="bins" id="bins"></div>
+  <p id="question" class="result" aria-live="polite"></p>
+</section>
+<div class="split">
+  <section class="panel">
+    <h2>내가 고를 현시</h2>
+    <div class="action">
+      <button id="left" type="button" aria-pressed="false">좌회전 먼저</button>
+      <button id="through" type="button" aria-pressed="false">직진 먼저</button>
+    </div>
+    <p id="choice" class="result" aria-live="polite">현시를 고르면 최악의 추가 비용을 보여 준다.</p>
+    <p id="summary" aria-live="polite"></p>
+  </section>
+  <section class="panel">
+    <h2>관측과 양립하는 경우</h2>
+    <table><thead><tr><th scope="col">유리한 현시</th><th scope="col">가능한 경우 수</th></tr></thead><tbody id="counts"></tbody></table>
+    <p id="best" class="result"></p>
+  </section>
+</div>
+<footer><p class="meta">모의 교차로 실험. 비용차는 좌회전 선행 비용 − 직진 선행 비용이다. 후회는 각 도착열에서 더 나은 현시를 골랐을 때보다 추가로 드는 비용이다. 구간 공개는 완전한 예측을 가정한다.</p></footer>
+<script type="application/json" id="experiment">{"decision":84,"starts":[84,86,88],"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"queries":{"0":{"tree":{"question":1,"depth":2,"total":12,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":4,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},"mean_questions_equal_weight":"3/2"},"60":{"tree":{"question":0,"depth":3,"total":14,"branches":[{"question":1,"depth":2,"total":6,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":2,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},{"depth":0,"total":0,"order":"through"}]},"mean_questions_equal_weight":"7/4"},"120":{"tree":{"depth":0,"total":0,"order":"through"},"mean_questions_equal_weight":"0"}}}</script>
+<script>
+const data = JSON.parse(document.querySelector("#experiment").textContent);
+const get = (id) => document.getElementById(id);
+const revealed = new Set();
+let selected = 2;
+let action = null;
+const names = {left: "좌회전 먼저", through: "직진 먼저"};
+const bins = data.starts.map((start, i) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.addEventListener("click", () => {
+        if (revealed.has(i)) revealed.delete(i);
+        else revealed.add(i);
+        render();
+    });
+    get("bins").append(button);
+    return button;
+});
+function render() {
+    const hidden = data.cases[selected];
+    const penalty = Number(get("penalty").value);
+    bins.forEach((button, i) => {
+        button.textContent = `${data.starts[i]}–${data.starts[i] + 1}틱`;
+        button.setAttribute("aria-pressed", String(revealed.has(i)));
+        const label = document.createElement("span");
+        label.textContent = revealed.has(i)
+            ? (hidden.order[i] ? "좌회전 → 직진" : "직진 → 좌회전")
+            : "순서 미공개";
+        button.append(label);
+    });
+    const values = data.cases.filter(row =>
+        [...revealed].every(i => row.order[i] === hidden.order[i]))
+        .map(row => row.area + penalty * row.remaining);
+    const low = Math.min(...values);
+    const high = Math.max(...values);
+    const regrets = {left: Math.max(0, high), through: Math.max(0, -low)};
+    get("summary").textContent = `남은 경우 ${values.length}개 · 비용차 ${low} ~ ${high}`;
+    get("counts").replaceChildren(...[
+        ["좌회전 먼저", values.filter(value => value < 0).length],
+        ["직진 먼저", values.filter(value => value > 0).length],
+        ["같음", values.filter(value => value === 0).length],
+    ].map(([label, number]) => {
+        const row = document.createElement("tr");
+        for (const item of [label, number]) row.insertCell().textContent = item;
+        return row;
+    }));
+    let tree = data.queries[penalty].tree;
+    while (tree.branches && revealed.has(tree.question)) {
+        tree = tree.branches[hidden.order[tree.question]];
+    }
+    get("question").textContent = low >= 0 || high <= 0
+        ? "지금 정보로 현시를 정할 수 있다."
+        : `다음 확인 후보는 ${data.starts[tree.question]}틱에 시작하는 구간이다.`;
+    const preferred = regrets.left < regrets.through ? names.left
+        : regrets.left > regrets.through ? names.through : "두 현시 같음";
+    get("best").textContent = `최악 후회를 최소화하면 ${preferred} · ${Math.min(regrets.left, regrets.through)}`;
+    get("choice").textContent = action
+        ? `${names[action]} · 이 선택의 최악 후회 ${regrets[action]}`
+        : "현시를 고르면 최악의 추가 비용을 보여 준다.";
+    for (const id of ["left", "through"]) get(id).setAttribute("aria-pressed", String(id === action));
+}
+for (const id of ["left", "through"]) get(id).addEventListener("click", () => { action = id; render(); });
+get("penalty").addEventListener("change", render);
+get("next").addEventListener("click", () => {
+    selected = (selected + 1) % data.cases.length;
+    revealed.clear();
+    action = null;
+    render();
+});
+render();
+</script>
+</html>
