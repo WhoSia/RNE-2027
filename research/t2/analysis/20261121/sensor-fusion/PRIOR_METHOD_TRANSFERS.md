@@ -14,5 +14,11 @@ Status: METHOD TRANSFER (not a reproduction of the authors' source code)
 **Take:** separate observables from their uncertainty and combine sources that measure different traffic states. The paper's first-stage turning-flow estimator and second-stage density/queue estimator are concrete paths to future model inputs. Our current binary mode report and categorical arrival report are **NOT** their two-stage adaptive Kalman filter, are not calibrated to probe penetration, and have no measured reliability.
 
 ## Mechanical and information bridges
-[Zhang & Tong (2008)](https://doi.org/10.3141/2071-09) and [Hidas (2005)](https://doi.org/10.1016/j.trc.2004.06.003) provide older pocket blockage / lane-change mechanism comparators. Use their definitions to evaluate physical admissibility before interpreting any information value.
+[Zhang & Tong (2008)](https://doi.org/10.3141/2071-09) and [Hidas (2005)](https://doi.org/10.1016/j.trc.2004.12.003) provide older pocket blockage / lane-change mechanism comparators. Use their definitions to evaluate physical admissibility before interpreting any information value.
 **Synthesis:** geometry/allowed movement (Huang) → state estimation and uncertainty (Shafik/Rakha) → action/forecast interface and realized loss (Long). This is a plan to incorporate and test **established** science, not a novelty rejection list.
+
+## Transfer status at the end of SF-01 (2026-11-21)
+- Long audit is implemented as the precommitment/provenance/late-report gate and same-world action regret comparator in `sensor_cost_policy.py`.
+- Huang's **separation** is implemented as frozen structural scenario classes vs two phase-order actions. Dynamic lane-assignment MILP and switching penalties are not yet implemented.
+- Shafik/Rakha's **two-stage structure** is now adapted in `two_stage_queue_estimator.py`: scalar probe-based turn-fraction Kalman update feeds a count-based queue predictor, which is optionally corrected by an independent noisy queue reading. This is neither their full adaptive Kalman system nor a calibrated sensor, and it is intentionally kept separate from the 16-world information model until capture-time and uncertainty contracts can be linked.
+- Hidas (2005): verified DOI **10.1016/j.trc.2004.12.003**. Its observed merging/weaving and forced/cooperative changes can inform the next physically constrained simulator, but are **not** encoded into the present 7-m discrete cell model.
