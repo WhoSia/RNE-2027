@@ -11,14 +11,14 @@ from storage_information import BIN_STARTS, DECISION, SEEDS, decision, matched_s
 
 MAX_ERROR = Fraction(1, 2)
 ERROR_GRID = tuple(Fraction(i, 20) for i in range(11))
-RULES = tuple(product((0, 1), repeat=2))  # 0=through first, 1=left first
 
 
 def envelope(rows, rule):
     lines = []
     for truth, delta in rows:
         regret = (max(0, -delta), max(0, delta))
-        correct, wrong = regret[rule[truth]], regret[rule[1-truth]]
+        correct = regret[rule[truth]]
+        wrong = max(regret[order] for message, order in enumerate(rule) if message != truth)
         lines.append((correct, max(0, wrong - correct)))
     return lines
 
@@ -34,12 +34,12 @@ def improvement_limit(policies, baseline):
     return max(limits, default=(None, False))
 
 
-def evaluate(rows):
+def evaluate(rows, messages=2):
     deltas = [delta for _, delta in rows]
     baseline = decision(deltas)["regret"]
     a, b = max(0, -min(deltas)), max(0, max(deltas))
     mixed = Fraction(a*b, a+b) if a+b else Fraction(0)
-    policies = {rule: envelope(rows, rule) for rule in RULES}
+    policies = {rule: envelope(rows, rule) for rule in product((0, 1), repeat=messages)}
     limit, inclusive = improvement_limit(policies, Fraction(baseline))
     mixed_limit, mixed_inclusive = improvement_limit(policies, mixed)
     grid = []
@@ -94,6 +94,12 @@ def report():
                             "terminal": terminal, "info": info, "worlds": len(values),
                             "bounds": [min(values), max(values)],
                             "exact_subset_regret": exact_subsets(deltas, closed),
+                            "joint_error": {
+                                "/".join(str(t) for t in BIN_STARTS[-size:]):
+                                    evaluate([(int("".join(map(str, bits[-size:])), 2), d)
+                                              for bits, d in deltas], messages=2**size)
+                                for size in (2, 3)
+                            } if terminal == 60 else None,
                             "forecasts": {str(BIN_STARTS[i]): evaluate([(bits[i], d) for bits, d in deltas])
                                           for i in range(closed, len(BIN_STARTS))},
                         })
