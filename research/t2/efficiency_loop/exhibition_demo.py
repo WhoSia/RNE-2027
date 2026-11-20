@@ -5,6 +5,7 @@ from pathlib import Path
 from fractions import Fraction
 
 from daypart_scenarios import worlds
+from scarce_bypass import COUNTS
 from storage_information import BIN_STARTS, DECISION, matched_storage_cases
 
 ROOT = Path(__file__).resolve().parent
@@ -57,6 +58,22 @@ def query_report(data):
     return report
 
 
+def timing_example():
+    """Return a matched scarce-window witness with the original six arrival bits fixed."""
+    scenario = next(w.scenario for w in worlds(17)
+                    if (w.band, w.shape, w.receiving) == ("midday", "dispersed", "constrained"))
+    result = {}
+    for count in COUNTS:
+        values = []
+        for start in (DECISION, DECISION + 12 - count):
+            rows = next(rows for name, _, _, rows in matched_storage_cases(
+                scenario, bypass_depth=1, bypass_ticks=range(start, start + count)
+            ) if name == "pocket")
+            values.append(next(delta for bits, delta, *_ in rows if not any(bits)))
+        result[count] = values
+    return result
+
+
 def render(data):
     template = (ROOT/"exhibition_demo.html").read_text(encoding="utf-8")
     variants = {0: data, 1: example(1), 3: example(3)}
@@ -64,7 +81,7 @@ def render(data):
     if any([row["order"] for row in variant["cases"]] != orders
            for variant in variants.values()):
         raise ValueError("Exhibit geometry modes must preserve the observed group and arrival order")
-    payload = {**data, "modes": {depth: {"cases": variant["cases"], "queries": query_report(variant)}
+    payload = {**data, "timing": timing_example(), "modes": {depth: {"cases": variant["cases"], "queries": query_report(variant)}
                                 for depth, variant in variants.items()}}
     return template.replace("__T2_DATA__", json.dumps(payload, separators=(",", ":")))
 

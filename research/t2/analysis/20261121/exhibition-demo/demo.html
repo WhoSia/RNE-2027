@@ -62,8 +62,15 @@ table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding
     <p id="best" class="result"></p>
   </section>
 </div>
+<section class="panel">
+  <h2>우회 기회가 같은 횟수라도</h2>
+  <p>별도의 합성 도착열을 고정하고 84–95틱의 우회 기회를 앞 또는 뒤에 몰아 본다. 종료 벌점은 60틱이다.</p>
+  <label for="windows">우회 가능 틱 수</label>
+  <select id="windows"><option>1</option><option>2</option><option>3</option><option>4</option><option>6</option></select>
+  <table><thead><tr><th scope="col">기회 배치</th><th scope="col">비용차</th><th scope="col">유리한 현시</th></tr></thead><tbody id="timing"></tbody></table>
+</section>
 <footer><p class="meta">모의 교차로 실험. 비용차는 좌회전 선행 비용 − 직진 선행 비용이다. 후회는 각 도착열에서 더 나은 현시를 골랐을 때보다 추가로 드는 비용이다. 구간 공개는 완전한 예측을 가정한다.</p></footer>
-<script type="application/json" id="experiment">{"decision":84,"starts":[84,86,88],"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"modes":{"0":{"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"queries":{"0":{"tree":{"question":1,"depth":2,"total":12,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":4,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},"mean_questions_equal_weight":"3/2"},"60":{"tree":{"question":0,"depth":3,"total":14,"branches":[{"question":1,"depth":2,"total":6,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":2,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},{"depth":0,"total":0,"order":"through"}]},"mean_questions_equal_weight":"7/4"},"120":{"tree":{"depth":0,"total":0,"order":"through"},"mean_questions_equal_weight":"0"}}},"1":{"cases":[{"order":[0,0,0],"area":-822,"remaining":0},{"order":[0,0,1],"area":-932,"remaining":0},{"order":[0,1,0],"area":-720,"remaining":0},{"order":[0,1,1],"area":-830,"remaining":0},{"order":[1,0,0],"area":-822,"remaining":0},{"order":[1,0,1],"area":-932,"remaining":0},{"order":[1,1,0],"area":-720,"remaining":0},{"order":[1,1,1],"area":-830,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}},"3":{"cases":[{"order":[0,0,0],"area":-408,"remaining":0},{"order":[0,0,1],"area":-408,"remaining":0},{"order":[0,1,0],"area":-408,"remaining":0},{"order":[0,1,1],"area":-408,"remaining":0},{"order":[1,0,0],"area":-484,"remaining":0},{"order":[1,0,1],"area":-484,"remaining":0},{"order":[1,1,0],"area":-484,"remaining":0},{"order":[1,1,1],"area":-484,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}}}}</script>
+<script type="application/json" id="experiment">{"decision":84,"starts":[84,86,88],"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"timing":{"1":[-3,35],"2":[-3,139],"3":[35,139],"4":[35,139],"6":[35,139]},"modes":{"0":{"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"queries":{"0":{"tree":{"question":1,"depth":2,"total":12,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":4,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},"mean_questions_equal_weight":"3/2"},"60":{"tree":{"question":0,"depth":3,"total":14,"branches":[{"question":1,"depth":2,"total":6,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":2,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},{"depth":0,"total":0,"order":"through"}]},"mean_questions_equal_weight":"7/4"},"120":{"tree":{"depth":0,"total":0,"order":"through"},"mean_questions_equal_weight":"0"}}},"1":{"cases":[{"order":[0,0,0],"area":-822,"remaining":0},{"order":[0,0,1],"area":-932,"remaining":0},{"order":[0,1,0],"area":-720,"remaining":0},{"order":[0,1,1],"area":-830,"remaining":0},{"order":[1,0,0],"area":-822,"remaining":0},{"order":[1,0,1],"area":-932,"remaining":0},{"order":[1,1,0],"area":-720,"remaining":0},{"order":[1,1,1],"area":-830,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}},"3":{"cases":[{"order":[0,0,0],"area":-408,"remaining":0},{"order":[0,0,1],"area":-408,"remaining":0},{"order":[0,1,0],"area":-408,"remaining":0},{"order":[0,1,1],"area":-408,"remaining":0},{"order":[1,0,0],"area":-484,"remaining":0},{"order":[1,0,1],"area":-484,"remaining":0},{"order":[1,1,0],"area":-484,"remaining":0},{"order":[1,1,1],"area":-484,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}}}}</script>
 <script>
 const data = JSON.parse(document.querySelector("#experiment").textContent);
 const get = (id) => document.getElementById(id);
@@ -135,6 +142,19 @@ get("next").addEventListener("click", () => {
     action = null;
     render();
 });
+function renderTiming() {
+    const [early, late] = data.timing[get("windows").value];
+    get("timing").replaceChildren(...[["앞쪽", early], ["뒤쪽", late]].map(([label, delta]) => {
+        const row = document.createElement("tr");
+        for (const item of [label, delta, delta < 0 ? names.left : delta > 0 ? names.through : "같음"]) {
+            row.insertCell().textContent = item;
+        }
+        return row;
+    }));
+}
+get("windows").addEventListener("change", renderTiming);
+renderTiming();
+
 render();
 </script>
 </html>

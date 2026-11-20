@@ -21,6 +21,7 @@ const get = id => elements.get(id);
 get("experiment").textContent = html.match(/id="experiment">([^<]+)<\/script>/)[1];
 get("penalty").value = "60";
 get("bypass").value = "0";
+get("windows").value = "1";
 vm.runInNewContext(html.match(/<script>([\s\S]+)<\/script>/)[1], {
   document: {querySelector: () => get("experiment"), getElementById: get,
              createElement: () => new Element()},
@@ -53,3 +54,9 @@ for (let i = 0; i < 8; i++) {
   assert.match(get("summary").textContent, /1개/);
 }
 console.log("Offline exhibit: all 8 cases and the 27 → 9 → 0 reveal sequence passed");
+
+const timingValues = () => get("timing").children.map(row => row.children[1].textContent);
+assert.deepEqual(timingValues(), [-3, 35]);
+get("windows").value = "6";
+get("windows").listeners.change();
+assert.deepEqual(timingValues(), [35, 139]);
