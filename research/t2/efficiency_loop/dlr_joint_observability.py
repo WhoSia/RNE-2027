@@ -223,7 +223,7 @@ def report(root):
                                           root/f"traffic-lights_{stem}.csv",
                                           regions, gate, (start_t-CLOCK).total_seconds())
     return {"map_sha256": EXPECTED_MAP, "date": "2023-09-24", "block_starts_utc": list(BLOCKS),
-            "field_permissions": "Approach heads only; lane-control mapping and sensor coverage unresolved",
+            "signal_and_coverage_scope": "Approach heads only; lane-control mapping and sensor coverage unresolved",
             "blocks": blocks}
 
 

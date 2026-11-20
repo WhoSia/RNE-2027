@@ -57,3 +57,18 @@ class JointObservabilityTests(TestCase):
                 encoding="utf-8")
             self.assertEqual(green_clock(path, 3)(10), "green")
             self.assertEqual(green_clock(path, 4)(10), "non_green")
+
+    def test_wider_signal_gap_still_requires_consistent_neighboring_states(self):
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "signal.csv"
+            path.write_text(
+                "timestamp,id,state\n"
+                "2023-09-24T12:30:00+00:00,3,5\n"
+                "2023-09-24T12:30:02+00:00,3,5\n"
+                "2023-09-24T12:30:00+00:00,4,3\n"
+                "2023-09-24T12:30:02+00:00,4,5\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(green_clock(path)(20), "unknown")
+            self.assertEqual(green_clock(path, max_sample_gap_s=2.05)(20), "green")
+            self.assertEqual(green_clock(path, 4, max_sample_gap_s=2.05)(20), "unknown")
