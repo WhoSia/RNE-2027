@@ -5,9 +5,9 @@ import json
 from pathlib import Path
 
 CYCLE_COUNT = 8
-CYCLE_FIELDS = ("cycle", "start_ms", "end_ms", "signal", "queue", "gaps", "receiving", "notes")
+CYCLE_FIELDS = ("cycle", "start_ms", "end_ms", "through_green_end_ms", "signal", "queue", "gaps", "receiving", "notes")
 # Each gap refers to a pre-marked lane-change zone and the candidate vehicle in view.
-GAP_FIELDS = ("cycle", "open_ms", "close_ms", "move", "cross_ms", "notes")
+GAP_FIELDS = ("cycle", "open_ms", "close_ms", "move", "cross_ms", "receiver_at_open", "notes")
 VISIBILITY = {"visible", "unknown"}
 
 
@@ -44,7 +44,15 @@ def audit(folder):
             raise ValueError(f"Cycle {index}: each visibility entry must be visible or unknown")
         if "unknown" in visibility.values() and not row["notes"]:
             raise ValueError(f"Cycle {index}: explain missing visibility")
+        green_end = row["through_green_end_ms"]
+        if green_end:
+            green_end = millis(green_end, f"cycle {index} through_green_end_ms")
+            if not start < green_end < end:
+                raise ValueError(f"Cycle {index}: green end must be inside the cycle")
+        elif visibility["signal"] == "visible":
+            raise ValueError(f"Cycle {index}: visible signal requires a green end")
         cycles.append({"cycle": index, "start_ms": start, "end_ms": end,
+                       "through_green_end_ms": green_end or None,
                        "visibility": visibility, "notes": row["notes"], "windows": []})
 
     for row in read_rows(folder / "gaps.csv", GAP_FIELDS):
@@ -67,9 +75,13 @@ def audit(folder):
             raise ValueError(f"Cycle {index}: a crossing requires a preceding observed move")
         if not row["notes"]:
             raise ValueError(f"Cycle {index}: record a frame, vehicle marker or evidence note for the gap")
+        receiver = row["receiver_at_open"]
+        if receiver not in {"space", "blocked", "unknown"}:
+            raise ValueError(f"Cycle {index}: receiver_at_open must be space, blocked or unknown")
         cycle["windows"].append({"start_offset_ms": opens - start, "end_offset_ms": closes - start,
                                  "move": at if at is not None else move,
-                                 "cross_ms": int(crossing) if crossing else None, "notes": row["notes"]})
+                                 "cross_ms": int(crossing) if crossing else None,
+                                 "receiver_at_open": receiver, "notes": row["notes"]})
 
     for cycle in cycles:
         windows = cycle["windows"]
@@ -92,6 +104,7 @@ def compare(a, b):
         paired = {key: [left["visibility"][key], right["visibility"][key]] for key in left["visibility"]}
         report.append({"cycle": left["cycle"], "visibility": paired,
                        "joint_full_visibility": all(pair == ["visible", "visible"] for pair in paired.values()),
+                       "through_green_end_ms": [left["through_green_end_ms"], right["through_green_end_ms"]],
                        "gap_status": [left["gap_status"], right["gap_status"]],
                        "gap_total_ms": [left["gap_total_ms"], right["gap_total_ms"]]})
     return {"joint_full_visibility_cycles": [row["cycle"] for row in report if row["joint_full_visibility"]],
