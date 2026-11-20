@@ -20,6 +20,7 @@ BOUNDARIES = (0, 8, 24, 40, 52)
 WEST = "west_receiver"
 SOUTH = "south_receiver"
 ROUTE_SECONDS = 20
+SENSITIVITY_SECONDS = (10, 40)
 DOCUMENT_MD5 = "fa7f80c57c85d58c02ac71a3c100e102"
 
 
@@ -88,6 +89,8 @@ def movement_report(gate_tracks, hits, lanes, start, clocks, head, route, exit_n
     mapped_codes = Counter()
     other_codes = Counter()
     exit_codes = Counter()
+    window_hits = Counter(dict.fromkeys(SENSITIVITY_SECONDS, 0))
+    crossing_near_block_end = Counter(dict.fromkeys((*SENSITIVITY_SECONDS, ROUTE_SECONDS), 0))
     for track, samples in gate_tracks.items():
         if any(a[0] == b[0] for a, b in zip(samples, samples[1:])):
             continue
@@ -106,16 +109,25 @@ def movement_report(gate_tracks, hits, lanes, start, clocks, head, route, exit_n
         if has_sequence(track_hits, (exit_name,), lo, deadline):
             exit_codes[mapped] += 1
         if route:
+            steps = (*route, exit_name)
+            for seconds in crossing_near_block_end:
+                crossing_near_block_end[seconds] += hi + seconds >= start + BLOCK_SECONDS
+            for seconds in window_hits:
+                window_hits[seconds] += has_sequence(track_hits, steps, lo, hi + seconds)
             tally["ordered_connector"] += has_sequence(track_hits, route, lo, deadline)
             tally["ordered_connector_and_receiver"] += has_sequence(
-                track_hits, (*route, exit_name), lo, deadline
+                track_hits, steps, lo, deadline
             )
-    return {
+    result = {
         "counts": dict(tally),
         "mapped_group_codes": dict(mapped_codes),
         "other_group_codes": dict(other_codes),
         "exit_confirmed_mapped_codes": dict(exit_codes),
     }
+    if route:
+        result["ordered_path_by_followup_s"] = dict(window_hits) | {ROUTE_SECONDS: tally["ordered_connector_and_receiver"]}
+        result["crossings_cut_by_block_end_by_followup_s"] = dict(crossing_near_block_end)
+    return result
 
 
 def block_report(track, signal, regions, gate, left_lanes, start):
