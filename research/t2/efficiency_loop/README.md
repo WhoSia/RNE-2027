@@ -56,3 +56,18 @@ python sind_signal.py downloaded_signal.csv results/sind_tianjin_signal.json --s
 ## 직진 방출 기회 진단
 
 [포켓·하류 용량을 교차한 합성 실험](GREEN_SERVICE_DIAGNOSIS.md)은 직진 차량이 없던 기회, 포켓 앞 공유 FIFO 대기, 하류 만차, 두 조건의 동시 관측을 구별한다.
+
+
+## 2026-11-21 SF-01 — 결정 시점 정보·선행연구 재사용
+
+[강건 정보 융합 연구](../analysis/20261121/sensor-fusion/FINDINGS.md) / [입력 가정과 수식](../analysis/20261121/sensor-fusion/LOSS_AND_OPTIMIZER.md) / [검증 기록](../analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md).
+
+```sh
+python -m unittest -v test_sensor_fusion_decision test_sensor_cost_policy test_sensor_fusion_frontier test_two_stage_queue_estimator
+python sensor_fusion_decision.py ../analysis/20261121/sensor-fusion/robust_value_grid.json
+python sensor_fusion_frontier.py ../analysis/20261121/sensor-fusion/sensor_frontier.json
+# In research/t2 (NOT this directory):
+python physical_transfer_screen.py analysis/20261121/decision-time-gate/physical_192_runs.json
+```
+
+마지막 명령은 실제 셀 물리모형 **192회 실행을 위한 재현 경로**이며 이번 작업에서 실행 완료되지 않았다. 결과가 생성되기 전까지는 검증 완료나 교통 성능 향상으로 인용하지 않는다. 칼만 추정은 Shafik & Rakha의 방법을 단순화한 예시이지 그 논문의 적응형 2단계 필터 재현이 아니다.

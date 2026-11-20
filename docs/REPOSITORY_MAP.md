@@ -25,3 +25,8 @@ current working branch. Cite these commits when discussing the corresponding
 historical results. Candidate-topic notes and raw chat transcripts remain in
 their existing Drive shelves. See the [Drive contract](DRIVE_LAYOUT_CONTRACT_20261109.md)
 for source and output placement.
+
+
+## 2026-11-21 current T2 source and prior-work transfer
+
+The latest research unit [SF-01 robust sensor-information fusion](../research/t2/analysis/20261121/sensor-fusion/FINDINGS.md) uses Long (2026) decision-time forecast diagnostics, Huang (2025) lane/signal separation, and an explicitly simplified Shafik/Rakha (2025) two-stage queue estimator. [43-test local validation and unresolved 192 physical runs](../research/t2/analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md). [Executable physics-screen design](../research/t2/physical_transfer_screen.py) is **not** yet a completed physical result. No empty K047 HTML or fabricated field scenes are considered evidence.
