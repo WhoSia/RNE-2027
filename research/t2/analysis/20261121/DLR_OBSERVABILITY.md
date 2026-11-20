@@ -53,3 +53,62 @@ sensitivity calculation, relax only that limit to 2.05 s and retain the
 unchanged neighboring-state and transition checks. The wider bracket
 can mask an unobserved transition if the head changed twice between
 samples. Its counts measure rule sensitivity, without validated coverage.
+
+## Observed counts
+
+| Observable | All retained frames | Head 3 green, 1.25 s | Head 3 green, 2.05 s |
+| --- | ---: | ---: | ---: |
+| Frames | 5,400 | 866 | 878 |
+| Slow center near stop reference | 2,077 | 96 | 98 |
+| Slow center near stop with no positive crossing bracket in slot | 2,060 | 82 | 84 |
+| Slots with a positive crossing bracket | 165 | 97 | 97 |
+| Both sides of adjacent taper detected | 71 | 23 | 23 |
+| Center detected in west entry (0–8 m) | 565 | 120 | 122 |
+| Center detected in shifted west strip (2–24 m) | 1,078 | 228 | 232 |
+| Slow center in west entry (0–8 m) | 2 | 0 | 0 |
+| Slow center in shifted west strip (2–24 m) | 0 | 0 | 0 |
+| Slow center at connector entry | 0 | 0 | 0 |
+| Positive co-detections in all five primary zones | 0 | 0 | 0 |
+
+A slow detection uses a velocity magnitude of at most 2 m/s. Counts are
+frames or slots, as indicated, and repeat detections can involve the same
+vehicle. The entrance strip and shifted strip overlap, so their counts
+cannot be summed. The two non-green-or-unknown west-entry slow detections
+occurred in the 13:00 block and both coincided with a slow near-stop center.
+
+The primary bracket leaves head 3 unknown in 2,322 frames. Of its 866
+green frames, head 4 is green in 135, non-green in 696 and unknown in 35.
+The 2.05 s bracket leaves head 3 unknown in 2,289 frames. The stricter
+primary exposure remains the basis of the field audit. There were 188
+positive first-center-crossing candidates across the three blocks
+(56, 68 and 64). Of those, 18 straddled slot boundaries and 170 fit in 165
+retained slots. Report crossings and frame counts as different denominators.
+
+## Research decision
+
+Keep both blocking mechanisms in simulation. In this open K047 sample we
+can compare independently detected motion and retained signal-head
+readings. Leave field labels unresolved for pocket blocking versus
+spillback and for true zero discharge. The map represents the 60.381 m
+straight connector as a separate road. An outlet probe does not locate the
+queue tail anywhere along that connector.
+
+For a field test, document which head authorizes the tested movement and
+register view coverage along the taper, the stop reference, the connector
+and its receiving lanes. Track the queue tail from the receiving link
+towards the stop line and record visible gaps, demand and crossings over the
+same green interval. A second observer should label events independently
+from the simulation. Keep the later holdout unopened until these
+requirements can be tested on an open block.
+
+## Reproduction
+
+From `research/t2/efficiency_loop`, run:
+
+```sh
+python dlr_joint_observability.py "$DLR_ROOT" /tmp/joint_observability.json
+cmp /tmp/joint_observability.json ../analysis/20261121/joint_observability.json
+```
+
+[Aggregated output and input hashes](joint_observability.json).
+[DLR Urban Traffic v1.3.1, publisher record](https://zenodo.org/records/20919480).
