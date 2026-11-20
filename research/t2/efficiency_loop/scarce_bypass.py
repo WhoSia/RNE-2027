@@ -11,16 +11,22 @@ from storage_information import SEEDS, matched_storage_cases
 COUNTS = (1, 2, 3, 4, 6)
 
 
-def assess_world(scenario, windows):
-    models = {}
-    for label, ticks in windows.items():
-        rows = next(rows for name, _, _, rows in matched_storage_cases(
+def matched_pocket_windows(scenario, windows):
+    return {
+        label: next(rows for name, _, _, rows in matched_storage_cases(
             scenario, bypass_depth=1, bypass_ticks=ticks
         ) if name == "pocket")
-        models[label] = {bits: (delta, pocket, receiver)
-                         for bits, delta, pocket, receiver, _, _ in rows}
-    return compare_storage(models, windows)
+        for label, ticks in windows.items()
+    }
 
+
+def assess_world(scenario, windows):
+    models = {
+        label: {bits: (delta, pocket, receiver)
+                for bits, delta, pocket, receiver, _, _ in rows}
+        for label, rows in matched_pocket_windows(scenario, windows).items()
+    }
+    return compare_storage(models, windows)
 
 def report():
     result = {}
