@@ -1,42 +1,146 @@
 {
+  "note": "Two preselected synthetic matched witnesses; does not estimate a population frequency.",
   "decision_tick": 84,
-  "source": "preselected synthetic matched-window witnesses; terminal penalty 60",
-  "worlds": {
-    "legacy": {
-      "cost_difference": {
-        "early": -3,
-        "late": 35
+  "legacy_terminal_sensitive": {
+    "deltas": [
+      -3,
+      35
+    ],
+    "fixed": 3,
+    "perfect_oracle": 0,
+    "mixed_action_baseline": "105/38",
+    "error_bound_for_strict_gain_vs_fixed": "3/35",
+    "error_bound_for_strict_gain_vs_mixed": "3/38",
+    "max_regret_with_error_one_tenth": "3",
+    "gap_event_tick": 84,
+    "zero_latency_current_gap_admissible": true,
+    "one_tick_latency_current_gap_admissible": false,
+    "predecision_identical_worlds_regret": 3
+  },
+  "new_terminal_robust": {
+    "deltas": [
+      -113,
+      31
+    ],
+    "fixed": 31,
+    "perfect_oracle": 0,
+    "mixed_action_baseline": "3503/144",
+    "error_bound_for_strict_gain_vs_fixed": "31/113",
+    "error_bound_for_strict_gain_vs_mixed": "31/144",
+    "max_regret_with_error_one_tenth": "113/10",
+    "gap_event_tick": 84,
+    "zero_latency_current_gap_admissible": true,
+    "one_tick_latency_current_gap_admissible": false,
+    "predecision_identical_worlds_regret": 31
+  },
+  "forecast_frontier": [
+    {
+      "error": "0",
+      "zero_delay": {
+        "policy": "forecast",
+        "worst_regret_bound": "0",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "0",
+        "sensor_admissible": true
       },
-      "fixed_deterministic_minimax_regret": 3,
-      "perfect_information_oracle_regret": 0,
-      "randomized_no_sensor_regret": "105/38",
-      "conditional_error_ceiling_vs_fixed": "3/35"
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "0",
+        "sensor_admissible": false
+      }
     },
-    "new_seed_337": {
-      "cost_difference": {
-        "early": -113,
-        "late": 31
+    {
+      "error": "1/20",
+      "zero_delay": {
+        "policy": "forecast",
+        "worst_regret_bound": "113/20",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/20",
+        "sensor_admissible": true
       },
-      "fixed_deterministic_minimax_regret": 31,
-      "perfect_information_oracle_regret": 0,
-      "randomized_no_sensor_regret": "3503/144",
-      "conditional_error_ceiling_vs_fixed": "31/113",
-      "conditional_error_ceiling_vs_randomized": "31/144",
-      "forecast_following_bound_at_error_10pct": "113/10",
-      "max_sensor_cost_for_strict_benefit_at_error_10pct": "197/10"
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/20",
+        "sensor_admissible": false
+      }
+    },
+    {
+      "error": "1/10",
+      "zero_delay": {
+        "policy": "forecast",
+        "worst_regret_bound": "113/10",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/10",
+        "sensor_admissible": true
+      },
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/10",
+        "sensor_admissible": false
+      }
+    },
+    {
+      "error": "1/5",
+      "zero_delay": {
+        "policy": "forecast",
+        "worst_regret_bound": "113/5",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/5",
+        "sensor_admissible": true
+      },
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/5",
+        "sensor_admissible": false
+      }
+    },
+    {
+      "error": "3/10",
+      "zero_delay": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "339/10",
+        "sensor_admissible": true
+      },
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "339/10",
+        "sensor_admissible": false
+      }
+    },
+    {
+      "error": "1/2",
+      "zero_delay": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/2",
+        "sensor_admissible": true
+      },
+      "one_tick_late": {
+        "policy": "fixed",
+        "worst_regret_bound": "31",
+        "fixed_bound": "31",
+        "forecast_and_cost_bound": "113/2",
+        "sensor_admissible": false
+      }
     }
-  },
-  "causal_gate": {
-    "first_eligible_gap_tick": 84,
-    "decision_tick": 84,
-    "allowed_zero_latency_at_decision": true,
-    "allowed_one_tick_reporting_delay": false
-  },
-  "limitations": [
-    "Restricted two-world synthetic example",
-    "Correct-label error bound must apply to each true world",
-    "No empirical predictor or sensor accuracy",
-    "No empirical frequency or operational intervention",
-    "Randomized sensor-conditioned policies are not optimized"
-  ]
+  ],
+  "interpretation": {
+    "prefix_or_counts": "same in paired worlds; cannot separate their future gaps",
+    "live_gap_tick_84": "optimistic zero-latency case only; not a feasible delayed camera decision",
+    "future_schedule_label": "oracle, forbidden as an observed live feature",
+    "forecast": "allowed only if generated before commitment; conditional error must be assessed"
+  }
 }
