@@ -3,6 +3,8 @@ import argparse
 import csv
 import json
 from pathlib import Path
+import re
+from zipfile import ZipFile
 
 from dlr_path_screen import sha
 
@@ -52,15 +54,33 @@ def compare(a, b, expected):
                                          for c,diff in disputes.items() if diff}}
 
 
+def review_scope(source):
+    if source.suffix.lower() != ".zip":
+        with source.open(newline="", encoding="utf-8") as stream:
+            scope = {row["case"] for row in csv.DictReader(stream)}
+        return scope, sha(source)
+
+    with ZipFile(source) as packet:
+        html = packet.read("K047-review.html").decode("utf-8")
+    match = re.search(r'<script id="observations" type="application/json">(.*?)</script>',
+                      html, re.DOTALL)
+    if match is None:
+        raise ValueError("Packet HTML lacks its review manifest")
+    data = json.loads(match[1])
+    ids = [row["case"] for row in data["cases"]]
+    digest = data["input_hashes"]["dlr_review_sheet.csv"]
+    if not ids or len(set(ids)) != len(ids) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+        raise ValueError("Packet has invalid case IDs or sheet digest")
+    return set(ids), digest
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     for name in ("sheet","review_a","review_b","output"):
         parser.add_argument(name,type=Path)
     args = parser.parse_args()
-    with args.sheet.open(newline="",encoding="utf-8") as stream:
-        scope = {row["case"] for row in csv.DictReader(stream)}
+    scope, digest = review_scope(args.sheet)
     a,b = (json.loads(path.read_text()) for path in (args.review_a,args.review_b))
-    digest = sha(args.sheet)
     if any(r.get("review_sheet_sha256") != digest for r in (a,b)):
-        raise ValueError("Both reviews must refer to the supplied review sheet")
+        raise ValueError("Both reviews must refer to the supplied review sheet or packet")
     args.output.write_text(json.dumps(compare(a,b,scope),indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
