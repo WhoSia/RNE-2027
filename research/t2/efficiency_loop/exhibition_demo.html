@@ -38,6 +38,7 @@ table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding
   <h2>어느 구간을 확인할까?</h2>
   <p class="meta">각 구간에는 직진 1대와 좌회전 1대가 도착한다. 버튼을 누르면 먼저 도착하는 차를 확인한다.</p>
   <div class="bins" id="bins"></div>
+  <p id="question" class="result" aria-live="polite"></p>
 </section>
 <div class="split">
   <section class="panel">
@@ -103,6 +104,13 @@ function render() {
         for (const item of [label, number]) row.insertCell().textContent = item;
         return row;
     }));
+    let tree = data.queries[penalty].tree;
+    while (tree.branches && revealed.has(tree.question)) {
+        tree = tree.branches[hidden.order[tree.question]];
+    }
+    get("question").textContent = low >= 0 || high <= 0
+        ? "지금 정보로 현시를 정할 수 있다."
+        : `다음 확인 후보는 ${data.starts[tree.question]}틱에 시작하는 구간이다.`;
     const preferred = regrets.left < regrets.through ? names.left
         : regrets.left > regrets.through ? names.through : "두 현시 같음";
     get("best").textContent = `최악 후회를 최소화하면 ${preferred} · ${Math.min(regrets.left, regrets.through)}`;
