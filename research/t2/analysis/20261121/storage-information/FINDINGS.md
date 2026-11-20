@@ -63,6 +63,15 @@ consider changing its decision time only after accounting for the
 service forgone by waiting. These hypotheses are a new experiment;
 the exact future arrival is not an available sensor.
 
+At terminal penalties of 0, 60 and 120 ticks, the selected pair has
+differences (−87, +49), (−27, +109) and (+33, +169). Both continuations
+leave one more unfinished vehicle under left-first. In this night
+context the number of same-prefix groups with strictly opposite choices
+is 4, 2 and 0 respectively. This follow-up check shows why operations
+must fix the outcome and horizon before using this example to argue for
+additional sensing. The independent reversals caused by storage in the
+table above persist at the three penalties.
+
 ## Research decision
 
 Measure both physical storage mechanisms for the field explanation.
