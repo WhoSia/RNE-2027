@@ -1,0 +1,42 @@
+{
+  "scope": "16 synthetic paired exhibit worlds; no field sensor or measured driver gaps",
+  "model": "independent conditional channel-error bounds; uniform wrong arrival label over other 7 patterns",
+  "rates": {
+    "0": {
+      "none": 252.325508607,
+      "structure": 25.045576408,
+      "arrival": 252.325508607,
+      "fusion": 0
+    },
+    "1/10": {
+      "none": 252.325508607,
+      "structure": 79.701433515,
+      "arrival": 252.325508607,
+      "fusion": 79.701433515
+    },
+    "1/5": {
+      "none": 252.325508607,
+      "structure": 139.236614853,
+      "arrival": 252.325508607,
+      "fusion": 139.236614853
+    },
+    "3/10": {
+      "none": 252.325508607,
+      "structure": 185.399770027,
+      "arrival": 252.325508607,
+      "fusion": 185.399770027
+    },
+    "1/2": {
+      "none": 252.325508607,
+      "structure": 252.325508607,
+      "arrival": 252.325508607,
+      "fusion": 252.325508607
+    }
+  },
+  "cost_boundary": {
+    "structure_at_20pct": 139.236614853,
+    "fusion_at_20pct": 139.236614853
+  },
+  "oracle_regret": 0,
+  "predecision_contract": "reports must be emitted before the action commitment; arrival data here are hypothetical forecasts, not observed future events"
+}
