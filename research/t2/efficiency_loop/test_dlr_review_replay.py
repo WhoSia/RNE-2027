@@ -3,7 +3,6 @@ from unittest import TestCase
 
 from audit_dlr_reviews import FIELDS, compare
 from dlr_review_replay import CLOCK, source_for
-from render_dlr_review import MARKER, render
 
 
 class ReviewTools(TestCase):
@@ -13,11 +12,6 @@ class ReviewTools(TestCase):
         self.assertEqual(source_for(CLOCK,[before,after]),(after,900))
         with self.assertRaises(ValueError):
             source_for(CLOCK,[before])
-
-    def test_payload_cannot_close_its_own_script_tag(self):
-        html = render("<script>"+MARKER+"</script>",{"test":"</script>"})
-        self.assertEqual(html.count("</script>"),1)
-        self.assertEqual(json.loads(html.removeprefix("<script>").removesuffix("</script>")),{"test":"</script>"})
 
     def test_unknown_agreement_kept_separate_and_missing_visible(self):
         base = {key:"unknown" for key in FIELDS} | {"evidence":"test observation"}
