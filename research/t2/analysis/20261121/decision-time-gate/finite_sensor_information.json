@@ -1,0 +1,107 @@
+{
+  "source": "Eight fixed synthetic exhibit arrival worlds; bypass modes 0 and 1",
+  "baselines": {
+    "mode_0_no_bypass": {
+      "deterministic": 27,
+      "randomized": "9342/373"
+    },
+    "both_modes_unknown": {
+      "deterministic": 346,
+      "randomized": "161236/639"
+    },
+    "true_mode_known": "9342/373",
+    "future_order_known_but_mode_hidden": "161236/639",
+    "future_order_and_mode_known": "0"
+  },
+  "binary_forecast_error_by_actual_world": {
+    "0": {
+      "physical_mode": {
+        "regret": "9342/373",
+        "p_left_on_label_0": "27/373",
+        "p_left_on_label_1": "169147/173818"
+      },
+      "arrival_bit_0": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_1": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "184567/265185"
+      },
+      "arrival_bit_2": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "182011/262629",
+        "p_left_on_label_1": "466/639"
+      }
+    },
+    "1/10": {
+      "physical_mode": {
+        "regret": "161236/2023",
+        "p_left_on_label_0": "293/2023",
+        "p_left_on_label_1": "1"
+      },
+      "arrival_bit_0": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_1": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_2": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      }
+    },
+    "3/10": {
+      "physical_mode": {
+        "regret": "483708/2609",
+        "p_left_on_label_0": "879/2609",
+        "p_left_on_label_1": "1"
+      },
+      "arrival_bit_0": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_1": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_2": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      }
+    },
+    "1/2": {
+      "physical_mode": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_0": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_1": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      },
+      "arrival_bit_2": {
+        "regret": "161236/639",
+        "p_left_on_label_0": "466/639",
+        "p_left_on_label_1": "466/639"
+      }
+    }
+  },
+  "warning": "Structural bypass mode is a hypothetical pre-decision measurement, not an observed camera classifier."
+}
