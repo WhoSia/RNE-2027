@@ -1,0 +1,335 @@
+{
+  "blocks": {
+    "120000": {
+      "left_lane_minus_2": {
+        "counts": {
+          "hit_south_receiver": 38,
+          "lane_gate_candidates": 38
+        },
+        "exit_confirmed_mapped_codes": {
+          "3": 2,
+          "5": 21,
+          "7": 5,
+          "missing_or_transition": 10
+        },
+        "mapped_group_codes": {
+          "3": 2,
+          "5": 21,
+          "7": 5,
+          "missing_or_transition": 10
+        },
+        "other_group_codes": {
+          "3": 9,
+          "5": 9,
+          "7": 9,
+          "missing_or_transition": 11
+        }
+      },
+      "signal_sha256": "444290f5a29c9f3d767e275a2c87d281614d4ab951cc5a5a7ee9fb8c1bf9efcb",
+      "straight": {
+        "counts": {
+          "hit_0\u20138": 56,
+          "hit_24\u201340": 55,
+          "hit_40\u201352": 55,
+          "hit_52\u2013end": 55,
+          "hit_8\u201324": 55,
+          "hit_west_receiver": 53,
+          "lane_gate_candidates": 56,
+          "ordered_connector": 55,
+          "ordered_connector_and_receiver": 53
+        },
+        "exit_confirmed_mapped_codes": {
+          "3": 1,
+          "5": 44,
+          "7": 2,
+          "missing_or_transition": 6
+        },
+        "mapped_group_codes": {
+          "3": 1,
+          "5": 47,
+          "7": 2,
+          "missing_or_transition": 6
+        },
+        "other_group_codes": {
+          "3": 40,
+          "5": 9,
+          "7": 2,
+          "missing_or_transition": 5
+        }
+      },
+      "straight_band_frames": {
+        "all": {
+          "0\u20138": {
+            "center": 84,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 306,
+            "slow_center": 0
+          },
+          "40\u201352": {
+            "center": 249,
+            "slow_center": 0
+          },
+          "52\u2013end": {
+            "center": 202,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 152,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 172,
+            "slow_center": 0
+          }
+        },
+        "green_3": {
+          "0\u20138": {
+            "center": 44,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 76,
+            "slow_center": 0
+          },
+          "40\u201352": {
+            "center": 44,
+            "slow_center": 0
+          },
+          "52\u2013end": {
+            "center": 28,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 65,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 36,
+            "slow_center": 0
+          }
+        }
+      },
+      "track_sha256": "5504d37534fd12e95a9e1b019de18f504a2d668dcf564392bb169d42ab42550e"
+    },
+    "123000": {
+      "left_lane_minus_2": {
+        "counts": {
+          "hit_south_receiver": 24,
+          "lane_gate_candidates": 24
+        },
+        "exit_confirmed_mapped_codes": {
+          "3": 1,
+          "5": 16,
+          "7": 3,
+          "missing_or_transition": 4
+        },
+        "mapped_group_codes": {
+          "3": 1,
+          "5": 16,
+          "7": 3,
+          "missing_or_transition": 4
+        },
+        "other_group_codes": {
+          "3": 4,
+          "5": 5,
+          "7": 6,
+          "missing_or_transition": 9
+        }
+      },
+      "signal_sha256": "4bf6a223b275fd124a83b079c49e8e22ca1626f54450c6609bde8937c22957a8",
+      "straight": {
+        "counts": {
+          "hit_0\u20138": 68,
+          "hit_24\u201340": 66,
+          "hit_40\u201352": 66,
+          "hit_52\u2013end": 66,
+          "hit_8\u201324": 66,
+          "hit_west_receiver": 66,
+          "lane_gate_candidates": 68,
+          "ordered_connector": 66,
+          "ordered_connector_and_receiver": 66
+        },
+        "exit_confirmed_mapped_codes": {
+          "5": 61,
+          "7": 1,
+          "missing_or_transition": 4
+        },
+        "mapped_group_codes": {
+          "5": 63,
+          "7": 1,
+          "missing_or_transition": 4
+        },
+        "other_group_codes": {
+          "3": 55,
+          "5": 6,
+          "missing_or_transition": 7
+        }
+      },
+      "straight_band_frames": {
+        "all": {
+          "0\u20138": {
+            "center": 106,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 350,
+            "slow_center": 3
+          },
+          "40\u201352": {
+            "center": 290,
+            "slow_center": 1
+          },
+          "52\u2013end": {
+            "center": 246,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 176,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 203,
+            "slow_center": 0
+          }
+        },
+        "green_3": {
+          "0\u20138": {
+            "center": 59,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 96,
+            "slow_center": 0
+          },
+          "40\u201352": {
+            "center": 68,
+            "slow_center": 0
+          },
+          "52\u2013end": {
+            "center": 46,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 89,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 42,
+            "slow_center": 0
+          }
+        }
+      },
+      "track_sha256": "c1fab0dc4569747049461c7aabc7681d0b90ddfd16c0eb4b3f5bb82e23b6a112"
+    },
+    "130000": {
+      "left_lane_minus_2": {
+        "counts": {
+          "hit_south_receiver": 34,
+          "lane_gate_candidates": 34
+        },
+        "exit_confirmed_mapped_codes": {
+          "5": 20,
+          "7": 4,
+          "missing_or_transition": 10
+        },
+        "mapped_group_codes": {
+          "5": 20,
+          "7": 4,
+          "missing_or_transition": 10
+        },
+        "other_group_codes": {
+          "3": 9,
+          "5": 9,
+          "7": 7,
+          "missing_or_transition": 9
+        }
+      },
+      "signal_sha256": "8f7c00900574929e5c0a028577f49133ca93ea67fb51819620c5b47f4cfe4d49",
+      "straight": {
+        "counts": {
+          "hit_0\u20138": 64,
+          "hit_24\u201340": 64,
+          "hit_40\u201352": 64,
+          "hit_52\u2013end": 61,
+          "hit_8\u201324": 64,
+          "hit_west_receiver": 61,
+          "lane_gate_candidates": 64,
+          "ordered_connector": 61,
+          "ordered_connector_and_receiver": 60
+        },
+        "exit_confirmed_mapped_codes": {
+          "5": 57,
+          "missing_or_transition": 4
+        },
+        "mapped_group_codes": {
+          "5": 60,
+          "missing_or_transition": 4
+        },
+        "other_group_codes": {
+          "3": 53,
+          "5": 7,
+          "missing_or_transition": 4
+        }
+      },
+      "straight_band_frames": {
+        "all": {
+          "0\u20138": {
+            "center": 95,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 278,
+            "slow_center": 0
+          },
+          "40\u201352": {
+            "center": 273,
+            "slow_center": 0
+          },
+          "52\u2013end": {
+            "center": 218,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 159,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 190,
+            "slow_center": 2
+          }
+        },
+        "green_3": {
+          "0\u20138": {
+            "center": 50,
+            "slow_center": 0
+          },
+          "24\u201340": {
+            "center": 88,
+            "slow_center": 0
+          },
+          "40\u201352": {
+            "center": 66,
+            "slow_center": 0
+          },
+          "52\u2013end": {
+            "center": 52,
+            "slow_center": 0
+          },
+          "8\u201324": {
+            "center": 84,
+            "slow_center": 0
+          },
+          "west_receiver": {
+            "center": 42,
+            "slow_center": 0
+          }
+        }
+      },
+      "track_sha256": "ce2cb375903b18efea6874a7da7d8f0b7b84cf3f5d8f31d6de807c5b67612466"
+    }
+  },
+  "documentation_md5": "fa7f80c57c85d58c02ac71a3c100e102",
+  "map_sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4"
+}
