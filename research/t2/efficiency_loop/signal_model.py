@@ -104,10 +104,29 @@ def receiving(cycle, green, offset):
                               for t in range(0, green, 2))) for m in range(6))
 
 
-def run(plan, s, fast=False, limit=None, *, controller=None, observe=None):
+def admit_source(queue, bay, capacity, through, bypass_depth):
+    if not queue:
+        return None
+    head = queue[0]
+    if bay[head] < capacity[head]:
+        return queue.popleft()
+    if not bypass_depth or through not in (0, 2) or head != through + 1:
+        return None
+    if bay[through] >= capacity[through]:
+        return None
+    for index in range(1, min(len(queue), bypass_depth + 1)):
+        if queue[index] == through:
+            del queue[index]
+            return through
+    return None
+
+
+def run(plan, s, fast=False, limit=None, *, controller=None, observe=None, bypass_depth=0):
     """Return None once queue area strictly exceeds a supplied cost limit."""
-    if fast and (controller is not None or observe is not None):
-        raise ValueError("a per-tick controller or observer requires tick mode")
+    if type(bypass_depth) is not int or bypass_depth < 0:
+        raise ValueError("bypass depth must be a nonnegative integer")
+    if fast and (controller is not None or observe is not None or bypass_depth):
+        raise ValueError("a per-tick controller, observer or bypass rule requires tick mode")
     cycle = plan.cycle
     receive_cycle = s.receive_cycle
     service = calendar(plan, s.headway)
@@ -176,9 +195,10 @@ def run(plan, s, fast=False, limit=None, *, controller=None, observe=None):
             if release is not None:
                 release[m].append(t + s.travel[m])
             peak[m] = max(peak[m], link[m])
-        for q in source:
-            if q and pre_bay[q[0]] < s.bay[q[0]]:
-                bay[q.popleft()] += 1
+        for approach, queue in enumerate(source):
+            movement = admit_source(queue, pre_bay, s.bay, 2*approach, bypass_depth)
+            if movement is not None:
+                bay[movement] += 1
         if ped and 6 in permitted:
             ped -= 1
             completed[6] += 1
