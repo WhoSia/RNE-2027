@@ -8,3 +8,17 @@
 차량은 관측된 중심·방향과 차체 치수로 그렸다. 주변 맥락은 0.1초 격자로 표시하며, 표시 시각과 실제 표본 시각은 최대 0.05초 차이 날 수 있다. 파일 끝에서 90초 추적 창이 잘릴 수 있다. 화면의 무검출은 해당 영역이 비어 있거나 통행 가능하다는 증거가 아니다. 대조 및 미확정 사례를 골라 만든 재점검 자료이며 모집단 정확도 평가 표본으로 사용하지 않는다.
 
 자료는 Schicktanz et al., DLR Urban Traffic dataset v1.3.1의 K047 지도, 차량 궤적 및 신호 상태를 사용했다. 원래 객체 ID는 제거하고 검토 구간별 문자를 부여했다. https://doi.org/10.5281/zenodo.20919480
+
+## 이미 배포된 판독 ZIP으로 회수하기
+
+[K047-independent-review.zip](https://drive.google.com/file/d/1NJtxSiGI7QkO_hqUMU1oCjgzTKce8_CE/view)에는
+실제 재생 화면과 안내문이 있다. 로컬용 빈 HTML 템플릿과 구별한다.
+다운로드 검증 SHA-256은 `7e063f2778f75a775cd3382ba4f908a80e70fb6549be57181af71fe612cc5518`이다.
+같은 ZIP을 두 검토자가 각자 열어 내보낸 JSON을 사용한다.
+
+```sh
+python audit_dlr_reviews.py K047-independent-review.zip reviewer-a.json reviewer-b.json agreement.json
+```
+
+ZIP의 내장 사례 ID와 검토표 지문을 확인하므로 배포본에 동봉되지 않은
+원래 CSV가 필요하지 않다. 실제 독립 판독을 대신하지 않는다.
