@@ -36,7 +36,7 @@ def paired_bins(arrivals, orders):
     return tuple(sorted(background + added, key=lambda row: row[0]))
 
 
-def compare_orders(scenario, *, bypass_depth=0):
+def compare_orders(scenario, *, bypass_depth=0, bypass_ticks=None):
     schedules = [masks(DECISION, calendar(plan, scenario.headway)) for plan in ORDERS]
     states, outcomes = [], []
     for schedule in schedules:
@@ -46,7 +46,8 @@ def compare_orders(scenario, *, bypass_depth=0):
             active = schedules[0] if tick < DECISION else schedule
             return active[tick % DECISION]
 
-        outcomes.append(run(BASELINE, scenario, controller=controller, bypass_depth=bypass_depth))
+        outcomes.append(run(BASELINE, scenario, controller=controller, bypass_depth=bypass_depth,
+                            bypass_ticks=bypass_ticks))
     if len(states) != 2 or states[0] != states[1]:
         raise AssertionError("The phase alternatives diverged before the decision")
     bay, link, _ = states[0]
@@ -89,7 +90,7 @@ def partition(rows, pocket_limit, link_limit):
     return instruments
 
 
-def matched_storage_cases(scenario, *, bypass_depth=0):
+def matched_storage_cases(scenario, *, bypass_depth=0, bypass_ticks=None):
     streams = {bits: paired_bins(scenario.arrivals, bits)
                for bits in product((0, 1), repeat=len(BIN_STARTS))}
     unbound = max(map(len, streams.values())) + 1
@@ -97,7 +98,8 @@ def matched_storage_cases(scenario, *, bypass_depth=0):
         pocket_limit = 1 if finite_pocket else unbound
         link_limit = 2 if finite_link else unbound
         fixed = change_storage(scenario, pocket_limit, link_limit)
-        rows = [(bits, *compare_orders(replace(fixed, arrivals=arrivals), bypass_depth=bypass_depth))
+        rows = [(bits, *compare_orders(replace(fixed, arrivals=arrivals), bypass_depth=bypass_depth,
+                                       bypass_ticks=bypass_ticks))
                 for bits, arrivals in streams.items()]
         yield name, pocket_limit, link_limit, rows
 

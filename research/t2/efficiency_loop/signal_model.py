@@ -121,10 +121,15 @@ def admit_source(queue, bay, capacity, through, bypass_depth):
     return None
 
 
-def run(plan, s, fast=False, limit=None, *, controller=None, observe=None, bypass_depth=0):
+def run(plan, s, fast=False, limit=None, *, controller=None, observe=None, bypass_depth=0, bypass_ticks=None):
     """Return None once queue area strictly exceeds a supplied cost limit."""
     if type(bypass_depth) is not int or bypass_depth < 0:
         raise ValueError("bypass depth must be a nonnegative integer")
+    if bypass_ticks is not None:
+        bypass_ticks = frozenset(bypass_ticks)
+        if not bypass_depth or any(type(tick) is not int or not 0 <= tick < s.horizon
+                                   for tick in bypass_ticks):
+            raise ValueError("a bypass mask needs an enabled rule and valid ticks")
     if fast and (controller is not None or observe is not None or bypass_depth):
         raise ValueError("a per-tick controller, observer or bypass rule requires tick mode")
     cycle = plan.cycle
@@ -195,8 +200,9 @@ def run(plan, s, fast=False, limit=None, *, controller=None, observe=None, bypas
             if release is not None:
                 release[m].append(t + s.travel[m])
             peak[m] = max(peak[m], link[m])
+        depth = bypass_depth if bypass_ticks is None or t in bypass_ticks else 0
         for approach, queue in enumerate(source):
-            movement = admit_source(queue, pre_bay, s.bay, 2*approach, bypass_depth)
+            movement = admit_source(queue, pre_bay, s.bay, 2*approach, depth)
             if movement is not None:
                 bay[movement] += 1
         if ped and 6 in permitted:
