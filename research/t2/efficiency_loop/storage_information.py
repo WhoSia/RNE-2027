@@ -119,13 +119,19 @@ def build_context(scenario):
             bits, _, pocket, link = row
             before_decision[(bits[:closed_bins], pocket, link)].append(row)
         prefix_regret = 0
-        prefix_conflict = None
+        prefix_conflicts = []
         for prefix_rows in before_decision.values():
             score = decision([row[1] for row in prefix_rows])
             prefix_regret = max(prefix_regret, score["regret"])
-            if score["regret"] > 0 and prefix_conflict is None:
-                prefix_conflict = (min(prefix_rows, key=lambda row: row[1]),
-                                   max(prefix_rows, key=lambda row: row[1]))
+            if score["regret"] > 0:
+                lower = [row for row in prefix_rows if row[1] < 0]
+                upper = [row for row in prefix_rows if row[1] > 0]
+                prefix_conflicts.extend(product(lower, upper))
+        prefix_conflict = min(
+            prefix_conflicts,
+            key=lambda pair: sum(a != b for a, b in zip(pair[0][0], pair[1][0], strict=True)),
+            default=None,
+        )
         by_storage[name] = (rows, {
             "instruments": instruments,
             "regret_with_complete_varied_prefix_and_counts": prefix_regret,
