@@ -63,7 +63,6 @@ def report():
             'arrival_error_10pct_mode_error_breakpoint_approx':round(boundary(arrival_error),8),
             'availability_and_cost_examples':scenarios}
 
-
 if __name__=='__main__':
     from pathlib import Path
     import argparse
