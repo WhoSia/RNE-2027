@@ -74,6 +74,23 @@ table { width:100%; border-collapse:collapse; } td,th { text-align:left; padding
   <select id="windows"><option>1</option><option>2</option><option>3</option><option>4</option><option>6</option></select>
   <table><thead><tr><th scope="col">기회 배치</th><th scope="col">비용차</th><th scope="col">유리한 현시</th></tr></thead><tbody id="timing"></tbody></table>
 </section>
+
+<section class="panel">
+  <h2>이 정보가 신호 결정 전에 도착했을까?</h2>
+  <p>별도의 합성 두 상황(비용차 −113, +31)에서 예측의 조건부 오류 상한과 보고 지연을 바꿔 보자. 이는 실제 센서 성능을 측정한 결과가 아니다.</p>
+  <label for="errorbound">각 상황에서 예측이 틀릴 확률의 상한</label>
+  <select id="errorbound">
+    <option value="0">0%</option><option value="5">5%</option><option value="10" selected>10%</option>
+    <option value="20">20%</option><option value="30">30%</option>
+  </select>
+  <label for="sensorcost">관측·예측 비용(후회와 동일한 단위)</label>
+  <select id="sensorcost"><option value="0" selected>0</option><option value="10">10</option><option value="20">20</option></select>
+  <label for="reportdelay">결정 전에 보고 완료 여부</label>
+  <select id="reportdelay"><option value="0" selected>결정 전에 도착</option><option value="1">결정 뒤에 도착</option></select>
+  <p class="result" id="sensorstatus" aria-live="polite"></p>
+  <p class="meta">오류 상한은 두 실제 상황에 각각 적용돼야 한다. 결정 뒤 보고된 정보는 이번 현시 선택에 사용할 수 없다. 보행 안전 제약과 실제 차량 궤적은 이 계산에 포함되지 않았다.</p>
+</section>
+
 <footer><p class="meta">모의 교차로 실험. 비용차는 좌회전 선행 비용 − 직진 선행 비용이다. 후회는 각 도착열에서 더 나은 현시를 골랐을 때보다 추가로 드는 비용이다. 구간 공개는 완전한 예측을 가정한다.</p></footer>
 <script type="application/json" id="experiment">{"decision":84,"starts":[84,86,88],"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"timing":{"original":{"1":[-3,35],"2":[-3,139],"3":[35,139],"4":[35,139],"6":[35,139]},"new":{"1":[-113,31],"2":[-5,135],"3":[31,135],"4":[31,135],"6":[31,135]}},"modes":{"0":{"cases":[{"order":[0,0,0],"area":49,"remaining":1},{"order":[0,0,1],"area":192,"remaining":2},{"order":[0,1,0],"area":-87,"remaining":1},{"order":[0,1,1],"area":56,"remaining":2},{"order":[1,0,0],"area":85,"remaining":1},{"order":[1,0,1],"area":226,"remaining":2},{"order":[1,1,0],"area":-51,"remaining":1},{"order":[1,1,1],"area":90,"remaining":2}],"queries":{"0":{"tree":{"question":1,"depth":2,"total":12,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":4,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},"mean_questions_equal_weight":"3/2"},"60":{"tree":{"question":0,"depth":3,"total":14,"branches":[{"question":1,"depth":2,"total":6,"branches":[{"depth":0,"total":0,"order":"through"},{"question":2,"depth":1,"total":2,"branches":[{"depth":0,"total":0,"order":"left"},{"depth":0,"total":0,"order":"through"}]}]},{"depth":0,"total":0,"order":"through"}]},"mean_questions_equal_weight":"7/4"},"120":{"tree":{"depth":0,"total":0,"order":"through"},"mean_questions_equal_weight":"0"}}},"1":{"cases":[{"order":[0,0,0],"area":-822,"remaining":0},{"order":[0,0,1],"area":-932,"remaining":0},{"order":[0,1,0],"area":-720,"remaining":0},{"order":[0,1,1],"area":-830,"remaining":0},{"order":[1,0,0],"area":-822,"remaining":0},{"order":[1,0,1],"area":-932,"remaining":0},{"order":[1,1,0],"area":-720,"remaining":0},{"order":[1,1,1],"area":-830,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}},"3":{"cases":[{"order":[0,0,0],"area":-408,"remaining":0},{"order":[0,0,1],"area":-408,"remaining":0},{"order":[0,1,0],"area":-408,"remaining":0},{"order":[0,1,1],"area":-408,"remaining":0},{"order":[1,0,0],"area":-484,"remaining":0},{"order":[1,0,1],"area":-484,"remaining":0},{"order":[1,1,0],"area":-484,"remaining":0},{"order":[1,1,1],"area":-484,"remaining":0}],"queries":{"0":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"60":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"},"120":{"tree":{"depth":0,"total":0,"order":"left"},"mean_questions_equal_weight":"0"}}}}}</script>
 <script>
@@ -162,5 +179,19 @@ get("timingcase").addEventListener("change", renderTiming);
 renderTiming();
 
 render();
+
+function renderSensor() {
+    const error = Number(get("errorbound").value || "10") / 100;
+    const cost = Number(get("sensorcost").value || "0");
+    const late = Number(get("reportdelay").value || "0") > 0;
+    const bound = 113 * error + cost;
+    const useForecast = !late && bound < 31;
+    const forecastText = bound.toFixed(1);
+    get("sensorstatus").textContent = useForecast
+        ? `사전에 발행한 예측을 채택 · 최악 기대 후회 상한 ${forecastText} (고정안 31)`
+        : `${late ? "보고가 늦어 " : "정보 이득이 작아 "}고정안을 유지 · 최악 후회 31 (예측 기반 상한 ${forecastText})`;
+}
+for (const id of ["errorbound", "sensorcost", "reportdelay"]) get(id).addEventListener("change", renderSensor);
+renderSensor();
 </script>
 </html>
