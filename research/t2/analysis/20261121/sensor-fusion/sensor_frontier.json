@@ -1,0 +1,103 @@
+{
+  "status": "synthetic-only",
+  "assumptions": "independent conditional channel errors; uniformly distributed wrong future-arrival labels; two whole-simulator bypass modes",
+  "frontier": [
+    {
+      "mode_error_bound": 0,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 25.045576408,
+      "mode_and_arrival_worst_regret": 4.563751832,
+      "incremental_arrival_value": 20.481824576
+    },
+    {
+      "mode_error_bound": 0.01,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 25.275543258,
+      "mode_and_arrival_worst_regret": 9.253884022,
+      "incremental_arrival_value": 16.021659236
+    },
+    {
+      "mode_error_bound": 0.02,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 25.514597722,
+      "mode_and_arrival_worst_regret": 18.075899623,
+      "incremental_arrival_value": 7.438698099
+    },
+    {
+      "mode_error_bound": 0.025,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 25.637702823,
+      "mode_and_arrival_worst_regret": 22.353528352,
+      "incremental_arrival_value": 3.284174471
+    },
+    {
+      "mode_error_bound": 0.03,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 26.60806425,
+      "mode_and_arrival_worst_regret": 26.60806425,
+      "incremental_arrival_value": 0
+    },
+    {
+      "mode_error_bound": 0.05,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 42.961897149,
+      "mode_and_arrival_worst_regret": 42.961897149,
+      "incremental_arrival_value": 0
+    },
+    {
+      "mode_error_bound": 0.1,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 79.701433515,
+      "mode_and_arrival_worst_regret": 79.701433515,
+      "incremental_arrival_value": 0
+    },
+    {
+      "mode_error_bound": 0.2,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 139.236614853,
+      "mode_and_arrival_worst_regret": 139.236614853,
+      "incremental_arrival_value": 0
+    },
+    {
+      "mode_error_bound": 0.3,
+      "arrival_error_bound": 0.1,
+      "mode_only_worst_regret": 185.399770027,
+      "mode_and_arrival_worst_regret": 185.399770027,
+      "incremental_arrival_value": 0
+    }
+  ],
+  "arrival_error_10pct_mode_error_breakpoint_approx": 0.02896996,
+  "availability_and_cost_examples": {
+    "both_predecision": {
+      "sources": [
+        "structure",
+        "arrival"
+      ],
+      "gross_regret": 9.253884022430052,
+      "cost": 2,
+      "total": 11.253884022430052
+    },
+    "forecast_late": {
+      "sources": [
+        "structure"
+      ],
+      "gross_regret": 25.27554325836968,
+      "cost": 1,
+      "total": 26.27554325836968
+    },
+    "cost_budget_one": {
+      "sources": [
+        "structure"
+      ],
+      "gross_regret": 25.27554325836968,
+      "cost": 1,
+      "total": 26.27554325836968
+    },
+    "no_budget": {
+      "sources": [],
+      "gross_regret": 252.3255086071988,
+      "cost": 0,
+      "total": 252.3255086071988
+    }
+  }
+}
