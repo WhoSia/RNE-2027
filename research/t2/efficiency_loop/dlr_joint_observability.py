@@ -30,9 +30,11 @@ ZONES = {
 }
 OUTPUT_KEYS = (
     "selected_frames", "near_stop_slow", "taper_both_detected",
+    "receiver_detected", "receiver_wider_detected", "receiver_wider_slow",
     "receiver_slow", "connector_slow", "connector_and_receiver_slow",
     "near_stop_and_receiver_slow", "all_zone_presence",
     "crossing_candidate_in_slot", "all_zone_presence_and_crossing",
+    "near_stop_slow_without_crossing_candidate",
 )
 
 
@@ -56,7 +58,8 @@ def load_geometry(map_path):
     roads = {road.get("id"): road for road in root.findall("./road")}
     regions = {name: set().union(*(raster(strip(roads[road], lane, a, b, CELL_M), CELL_M)
                                  for lane in lanes))
-               for name, (road, lanes, a, b) in ZONES.items()}
+               for name, (road, lanes, a, b) in
+               (ZONES | {"receiver_wider": ("101000", (-1, -2), 2, 24)}).items()}
     # A raster cell shared by the two taper masks cannot provide positive
     # evidence of distinct adjacent lane occupancy.
     overlap = regions["taper_through"] & regions["taper_left_bay"]
@@ -136,6 +139,9 @@ def features(present, slow, crossings):
         "selected_frames": True,
         "near_stop_slow": "near_stop" in slow,
         "taper_both_detected": {"taper_through", "taper_left_bay"} <= present,
+        "receiver_detected": "receiver_entry" in present,
+        "receiver_wider_detected": "receiver_wider" in present,
+        "receiver_wider_slow": "receiver_wider" in slow,
         "receiver_slow": "receiver_entry" in slow,
         "connector_slow": "connector_entry" in slow,
         "connector_and_receiver_slow": {"connector_entry", "receiver_entry"} <= slow,
@@ -143,6 +149,7 @@ def features(present, slow, crossings):
         "all_zone_presence": ZONES.keys() <= present,
         "crossing_candidate_in_slot": bool(crossings),
         "all_zone_presence_and_crossing": ZONES.keys() <= present and bool(crossings),
+        "near_stop_slow_without_crossing_candidate": "near_stop" in slow and not crossings,
     }
 
 
@@ -205,7 +212,7 @@ def report(root):
         blocks[start_clock] = audit_block(root/f"trajectories_{stem}.csv",
                                           root/f"traffic-lights_{stem}.csv",
                                           regions, gate, (start_t-CLOCK).total_seconds())
-    return {"map_sha256": EXPECTED_MAP, "date": "2023-09-24", "windows_utc": list(BLOCKS),
+    return {"map_sha256": EXPECTED_MAP, "date": "2023-09-24", "block_starts_utc": list(BLOCKS),
             "field_permissions": "Approach heads only; lane-control mapping and sensor coverage unresolved",
             "blocks": blocks}
 
