@@ -42,3 +42,8 @@ node review/check-exhibition.cjs ../analysis/20261121/exhibition-demo/demo.html
 6을 고르면 두 배치 모두 직진 선행이다.
 작은 반전은 종료 벌점 60틱에서 나타났다.
 [시점 실험과 현장 판독표](../bypass-windows/FINDINGS.md).
+
+새 시드의 도착열로 바꾸면 한 번 조건에서 앞쪽 −113, 뒤쪽 +31이 나온다.
+앞서 여섯 번에서 반전이 없었던 경우는 기존 시드의 대조로 유지한다.
+별도 새 시드 패널에서는 여섯 번에서도 반전이 있었다.
+[새 시드 전체 대조](../timing-generalization/FINDINGS.md).
