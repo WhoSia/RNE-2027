@@ -47,3 +47,9 @@ west strip as a descriptive sensitivity check and retain center detections
 at any speed in both masks. Record whether near-stop slow detections
 coincide with a contained crossing candidate. This guards against calling
 a missing crossing candidate a measured zero.
+
+The primary head bracket has a 1.25 s maximum sample gap. As a separate
+sensitivity calculation, relax only that limit to 2.05 s and retain the
+unchanged neighboring-state and transition checks. The wider bracket
+can mask an unobserved transition if the head changed twice between
+samples. Its counts measure rule sensitivity, without validated coverage.
