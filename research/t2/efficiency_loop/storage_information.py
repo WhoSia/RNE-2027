@@ -115,16 +115,21 @@ def build_context(scenario):
         high = max(rows, key=lambda row: row[1])
         closed_bins = sum(start + 2 <= DECISION for start in BIN_STARTS)
         before_decision = defaultdict(list)
-        for bits, delta, pocket, link in rows:
-            before_decision[(bits[:closed_bins], pocket, link)].append(delta)
+        for row in rows:
+            bits, _, pocket, link = row
+            before_decision[(bits[:closed_bins], pocket, link)].append(row)
+        prefix_regret = 0
+        prefix_conflict = None
+        for prefix_rows in before_decision.values():
+            score = decision([row[1] for row in prefix_rows])
+            prefix_regret = max(prefix_regret, score["regret"])
+            if score["regret"] > 0 and prefix_conflict is None:
+                prefix_conflict = (min(prefix_rows, key=lambda row: row[1]),
+                                   max(prefix_rows, key=lambda row: row[1]))
         by_storage[name] = (rows, {
             "instruments": instruments,
-            "regret_with_complete_varied_prefix_and_counts": max(
-                decision(values)["regret"] for values in before_decision.values()
-            ),
-            "same_prefix_and_counts_can_disagree": any(
-                min(values) < 0 < max(values) for values in before_decision.values()
-            ),
+            "regret_with_complete_varied_prefix_and_counts": prefix_regret,
+            "same_prefix_and_counts_witness": prefix_conflict,
             "extreme_worlds": (low, high),
         })
     reversals = {}
