@@ -132,10 +132,24 @@ def build_context(scenario):
             key=lambda pair: sum(a != b for a, b in zip(pair[0][0], pair[1][0], strict=True)),
             default=None,
         )
+        terminal_prefix_groups = {}
+        for terminal, values in alternative_deltas.items():
+            groups = defaultdict(list)
+            for (bits, _, pocket, link), delta in zip(rows, values, strict=True):
+                groups[(bits[:closed_bins], pocket, link)].append(delta)
+            terminal_prefix_groups[terminal] = sum(
+                min(deltas) < 0 < max(deltas) for deltas in groups.values()
+            )
         by_storage[name] = (rows, {
             "instruments": instruments,
             "regret_with_complete_varied_prefix_and_counts": prefix_regret,
             "same_prefix_and_counts_witness": prefix_conflict,
+            "ambiguous_prefix_groups_by_terminal": terminal_prefix_groups | {
+                scenario.terminal: sum(
+                    min(row[1] for row in group) < 0 < max(row[1] for row in group)
+                    for group in before_decision.values()
+                )
+            },
             "extreme_worlds": (low, high),
         })
     reversals = {}
