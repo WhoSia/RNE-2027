@@ -95,3 +95,9 @@ spillback vs blocking; this five-label model is NOT their algorithm.
 
 **No hardware purchased, no public-road installation, no signal
 controller touched, no GitHub Actions or bot contributor, K047 sealed.**
+
+## Combined RF01 + RF02 regression after the literature audit
+
+Executed `PYTHONPATH=research/t2/exhibition/rf_curtain python -m unittest discover -s research/t2/exhibition/rf_curtain -p 'test_rf_*.py' -q` in the local source directory on Python **3.13.5**. **21/21** unit methods passed: 12 prior geometry/CSV evaluator contracts and 9 new ideal observation tests, all without Wi-Fi radio. The two new Python files' `git hash-object` values exactly matched fetched GitHub main blobs, and the known result JSON SHA remained `bbdf15578bd46dd13029528ca294469001c5f3cd1d9b111841845d06e13cfd77`.
+
+**Scope:** these are standalone RF program unit tests only, not the full T2 historical integration suite, and absolutely not device-level empirical validation.
