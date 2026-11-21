@@ -20,8 +20,8 @@ def _count(v, key):
 def summarize_checkpoint(observation, *, receiver_capacity):
     """State proxies only; no claim that either zone is *blocked*.
 
-    A full receiving link need not have cell 0 blocked; one cell can be
-    empty while all others are occupied. Causal spillback needs dynamics.
+    Entry-cell occupancy does NOT imply a full link; a full link does
+    imply entry occupancy under one-car-per-cell. Blockage needs dynamics.
     """
     if not isinstance(observation, dict):
         raise TypeError('checkpoint observation must be a dict')
