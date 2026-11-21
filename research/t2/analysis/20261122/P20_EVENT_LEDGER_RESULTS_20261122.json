@@ -1,0 +1,43 @@
+{
+  "protocol": "T2-P20-EVENT-LEDGER-20261122",
+  "status": "EXACT_CANONICAL_MAIN_SYNTHETIC_SHADOW_NOT_SUMO_OR_FIELD",
+  "source_repository": "WhoSia/RNE-2027",
+  "original_main_source_blobs": {
+    "dual_lane_v11.py": "a7c9aa6954402e12894d1d5b722e8a474b0bd58f",
+    "receiving_cells_v15.py": "b078cf215c74b76ace6dffcbcbacab6ae22c3673",
+    "p19_receiver_service_opportunity.py": "760fd8ce81f1e56d02b1707e5e2fef8d4720f4d1"
+  },
+  "auditor_git_blobs": {
+    "p20_independent_receiver_ledger.py": "9aff64b943407692c1d8364994c7c840ee9bb223",
+    "test_p20_independent_receiver_ledger.py": "526d250789f7914aa429f264ced35b425b1369a4",
+    "p20_full_256_audit.py": "e84fbca3a02ab3c6de7e4dd9032c85ac9c71d61d"
+  },
+  "code_validation": {
+    "tested_source_equals_github_main": true,
+    "local_unittest_methods": 9,
+    "methods_passed": 9,
+    "smoke_scenarios": 16,
+    "injected_corruptions_detected": 7,
+    "full_p19_worlds_checked": 256,
+    "full_trace_paths": 512,
+    "full_ticks_checked": 122880,
+    "p19_cost_tape_matches": 256
+  },
+  "total_counts": {
+    "generated_across_paths": null,
+    "receiver_admissions": 21898,
+    "receiver_exits": 21546,
+    "receiver_denied_attempt_events": 40910,
+    "unique_arrival_tapes": 16
+  },
+  "full_run_sha256": "b8d88c6ed7a771e7b489ae761070d78d88d9970957a7458d7304a33f37a6318b",
+  "full_run_rerun_byte_identical": true,
+  "limitations": [
+    "Receiver shadow reimplements specified same cellular transition laws and consumes simulator crossing events, so not an independent physical model.",
+    "Denied attempts may repeat for one stopped vehicle over many seconds; count is not unique cars.",
+    "Two branch paths per world and reused tapes are not independent traffic days.",
+    "Current model lacks empirical car-following calibration and real yellow/red/pedestrian signal control.",
+    "SUMO executable not available in the current container; cross-model numerical agreement not checked.",
+    "Sealed K047 and large CIM dataset content not accessed."
+  ]
+}
