@@ -1,9 +1,10 @@
 import unittest
+import os
 from pathlib import Path
 from p20_dlr_observed_window_gate import run, describe, read
 
-TRAJ=Path('/mnt/data/trajectories_230924-233000_230924-234500.csv')
-SIGNALS=Path('/mnt/data/traffic-lights_230924-233000_230924-234500.csv')
+TRAJ=Path(os.environ.get('P20_DLR_TRAJECTORIES','trajectories_230924-233000_230924-234500.csv'))
+SIGNALS=Path(os.environ.get('P20_DLR_SIGNALS','traffic-lights_230924-233000_230924-234500.csv'))
 
 class DLRWindowTests(unittest.TestCase):
     def test_actual_sha_sealed_15min_window(self):
