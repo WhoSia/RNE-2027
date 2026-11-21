@@ -1,8 +1,9 @@
 import unittest
+import os
 from pathlib import Path
 from unittest.mock import patch
 from p24_dlr_official_signal_codebook import parse_pdf,parse_pdf_text,describe,check
-BASE=Path('/mnt/data')
+BASE=Path(os.environ.get('P24_SOURCE_DIR','/mnt/data'))
 PDF=BASE/'DLR-Urban-Traffic-dataset_v1-3-1_documentation.pdf'
 CSV=BASE/'traffic-lights_230924-233000_230924-234500.csv'
 class CodebookTests(unittest.TestCase):
