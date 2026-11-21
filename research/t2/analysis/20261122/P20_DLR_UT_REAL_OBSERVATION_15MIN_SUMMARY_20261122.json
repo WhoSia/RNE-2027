@@ -1,0 +1,41 @@
+{
+  "protocol": "P20_DLR_UT_15MIN_SOURCE_TIMING_GATE",
+  "status": "REAL_OBSERVATIONAL_DATA_SCHEMA_AUDIT_NOT_CALIBRATION",
+  "source_window": "2023-09-24 23:30 to 23:45 UTC",
+  "sources_sha256": {
+    "trajectories": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50",
+    "signals": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c"
+  },
+  "datasets": {
+    "trajectories": {
+      "rows": 8624,
+      "unique_ids": 37,
+      "duplicate_id_timestamp_rows": 0,
+      "start_utc": "2023-09-24T23:30:07.816482+00:00",
+      "end_utc": "2023-09-24T23:44:59.966482+00:00",
+      "within_id_sample_interval_median_s": 0.05,
+      "all_fields_nonmissing": true,
+      "car_class_over_half_rows": 6471,
+      "car_class_over_half_velocity_magnitude_median": 6.025
+    },
+    "traffic_lights": {
+      "rows": 26970,
+      "unique_ids": 30,
+      "duplicate_id_timestamp_rows": 0,
+      "start_utc": "2023-09-24T23:30:00.992000+00:00",
+      "end_utc": "2023-09-24T23:44:59.988000+00:00",
+      "within_id_sample_interval_median_s": 1,
+      "all_fields_nonmissing": true,
+      "state_code_histogram": {
+        "1": 604,
+        "3": 20924,
+        "4": 128,
+        "5": 4680,
+        "7": 339,
+        "9": 295
+      },
+      "total_within_id_state_code_transitions": 869
+    }
+  },
+  "interpretation": "Signal integer code meanings and trajectory lane/stopline mapping not verified; do not compare per-row velocity to model discharge headway."
+}
