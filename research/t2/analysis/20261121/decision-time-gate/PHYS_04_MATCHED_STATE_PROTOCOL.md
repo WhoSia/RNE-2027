@@ -44,3 +44,20 @@ Keep a separate demonstration track aimed at a usable offline exhibit by 2026-12
 ## Proof standard for closing PHYS-04
 
 Code + independently rerunnable tests + exact pair manifest + hash receipts + a dated Docs research decision. A protocol commit alone is not an experiment.
+
+## Implementation update — 2026-11-21 (code committed, execution pending)
+
+Implemented the first checkpoint/resume mechanism in `dual_lane_v11.run` with full mutable run state (random generator, downstream receiver, vehicle position and outside queues, admission/service timestamps, counters and traces). The default path is unchanged in intent. A restored checkpoint is deep-copied before use, so repeated branches cannot overwrite the reference.
+
+**Safety/validity issue found during implementation:** changing the global `phase_order` at tick 84 could instantly exchange an active through-green for left-green without the required clearance. Such config changes are now rejected. A separate future-only `phase_overrides` timeline is accepted only after a checkpoint and audited for the configured intergreen duration.
+
+The executable `physical_checkpoint_screen.py` defines 48 distinct predecision states (8 seeds × 3 pocket lengths × 2 B shares) with a paired baseline and future-phase intervention. Both branches have four active ticks in [84,120); the intervention exchanges the last four straight-green ticks for three clearance ticks plus four left-green ticks and then red. The baseline uses the unchanged original phase timeline. This is intentionally a *model intervention*, not a claim that the entire replacement schedule is compliant with jurisdiction-specific minimum-green regulations.
+
+**Verification status:** code and regression tests committed, but actual Python execution and 48-pair numerical outcome have NOT been performed in this session. Do not quote any cost-effect sign count or passing test count. The experiment itself requires the following commands on a machine with Python:
+
+```sh
+PYTHONPATH=research/t2 python -m unittest research/t2/test_physical_checkpoint.py -v
+PYTHONPATH=research/t2 python research/t2/physical_checkpoint_screen.py /tmp/t2_phys04_pairs.json
+```
+
+Do not publish model-conditional effects before the tests, complete paired runs, two identical output hashes, and independent source/receipt reconciliation pass. The next phase is a clearance-compliant schedule refinement and event-level trace auditing to distinguish policy effects from simulator abstractions.
