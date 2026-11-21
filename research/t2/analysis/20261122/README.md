@@ -26,3 +26,17 @@ The locally executed final source and tests match the GitHub `main` Git blob IDs
 Review priorities: maliciously chosen cohort boundaries; unverified independent arrival groups; action contracts represented by strings instead of validated P12 feasibility; physically staged occupancy labels not guaranteed to map to real T2 state; within-class RF emission drift; complete compatibility-set sampling. Do not promote artificial fixtures to field results.
 
 Working branch `main`; no GitHub Actions, K047 seal preserved, ~5GB CIM dataset remains untouched.
+
+
+## P16 — Genuine PHYS checkpoint schema, NOT a five-class RF diagnosis
+
+- [Source-derived checkpoint-to-proxy adapter](t2_p16_checkpoint_contract.py)
+- [19 targeted schema/alias regression tests](test_t2_p16_checkpoint_contract.py)
+- [What was read from the canonical core and what remains UNIDENTIFIABLE](P16_CHECKPOINT_INTERFACE_FINDINGS_20261122.md)
+
+```sh
+cd research/t2/analysis/20261122
+python -m unittest -v test_t2_p16_checkpoint_contract.py
+```
+
+**19/19 local tests passed** with exact-byte GitHub blob-matched code/test source after final line-break reconciliation. The adapter uses the exact fields of `dual_lane_v11.checkpoint_observation` and the PHYS-04 row schema, but no complete PHYS-04 empirical/synthetic result JSON was run or audited during this unit. `rf_five_class_label=None` is intentional: neither a static obstruction nor a causal queue diagnosis is identifiable from a single time-slice count alone. A fake opposite-delta test is only a regression test, not a discovered PHYS witness.
