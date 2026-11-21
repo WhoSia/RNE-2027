@@ -1,6 +1,6 @@
 # P16 — Actual T2 checkpoint fields, RF label non-transfer, and exact proxy audit
 
-Date: 2026-11-22 KST. **Locally executed small adapter and 19 tests; NO new T2 PHYS run or CSI observation.**
+Date: 2026-11-22 KST. **Locally executed small adapter and 20 tests; NO new T2 PHYS run or CSI observation.**
 
 ## What was read directly from canonical `main`
 
@@ -25,9 +25,9 @@ Crucially, `rf_five_class_label` stays `None` and status is `UNIDENTIFIABLE_FROM
 
 ## Local verification
 
-- `python -m unittest -v test_t2_p16_checkpoint_contract.py`: **19 / 19 PASS**.
-- Source SHA-256 `240206d491941a5f1e1362da22238f5648538726575bbaa831461acf1c0b7096`; Git blob `eefd6ef6e38c7c0b5c4aa92a174406f63617db90`.
-- Tests Git blob `7a333bc702d9d90d6bf3d1a26f23fe99a5ac8e15`; exact local file was adapted only by equivalent blank-line formatting to match fetched `main` and **re-executed 19/19 successfully**; use the tested exact final blob.
+- `python -m unittest -v test_t2_p16_checkpoint_contract.py`: **20 / 20 PASS**.
+- Source SHA-256 `66596885f598cd16fb695cd26e586d62bc8bd91ae28c6b097f99efb8dba423d8`; Git blob `a2e692ec2414bc3c9e78f0540a0a9e0b132c2b5d`.
+- Tests Git blob `a417978f78c73bd096c3a6f3fc5de8ff86d2f8d1`; exact local file was adapted only by equivalent blank-line formatting to match fetched `main` and **re-executed 19/19 successfully**; use the tested exact final blob.
 - The 19 test inputs are *invented schema fixtures*. The constructed opposite-cost fixture is a fake row for regression only; it is NOT evidence that PHYS actually yielded this sign reversal.
 - **No full PHYS-04 JSON was read or re-run in this session; the true-data output of the alias screen is not claimed.**
 
@@ -44,3 +44,6 @@ Crucially, `rf_five_class_label` stays `None` and status is `UNIDENTIFIABLE_FROM
 ## Next focus
 
 Execute the existing `physical_checkpoint_capacity_screen.py` against exact `main` core in an authenticated Python checkout or obtain the verified output JSON from the evidence ZIP, then feed its `pairs` without editing costs. Check with P13 strict observation and arrival-group provenance. Separately design the smallest authorized school-owned CSI-vs-optical bench truth protocol. No external road controller, no unauthorized RF collection, K047 sealed, CIM 5GB held.
+
+## Logic correction (same day)
+For a link with N cells and one vehicle per distinct occupied cell, full occupancy (N vehicles) **implies cell 0 is occupied**. The converse is false: cell 0 can be occupied while the remaining N−1 cells are empty. The initial adapter docstring accidentally reversed the first implication. It was corrected without changing the functional predicate, and a new regression over capacities 1/2/3/4 brought the exact-byte-tested suite to **20/20**. This is a documentation/model-logic correction, not an RF physics observation. Final test source SHA-256 `036b44d28bc6f787f3a7d8e3416f1fffabe47b7ca00798ec72d7094fb34c2bac`.
