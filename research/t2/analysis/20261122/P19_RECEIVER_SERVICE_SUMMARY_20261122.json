@@ -1,0 +1,70 @@
+{
+  "protocol": "T2_P19_RECEIVER_OPPORTUNITY_PROSPECTIVE",
+  "date": "2026-11-22",
+  "source_repo": "WhoSia/RNE-2027",
+  "branch": "main",
+  "core_blobs": {
+    "dual_lane_v11.py": "a7c9aa6954402e12894d1d5b722e8a474b0bd58f",
+    "spatial_v10.py": "ffbf3fc3f8b9a64a819d4f73ce70b264b877e84e",
+    "receiving_cells_v15.py": "b078cf215c74b76ace6dffcbcbacab6ae22c3673",
+    "physical_transfer_screen.py": "8d75745053ff720db6c8af0001aaaf13ba1f295e",
+    "p18_clock_position_action.py": "2e50899e07d9a353716258b47eaf8196c307390d",
+    "p19_receiver_service_opportunity.py": "760fd8ce81f1e56d02b1707e5e2fef8d4720f4d1",
+    "test_p19_receiver_service_opportunity.py": "350fc2b4def767bbd88e78397e5883f50e489b38"
+  },
+  "worlds": 256,
+  "unique_full_tapes": 16,
+  "matched_cross_offset_pairs": 128,
+  "strict_opposite_sign_pairs_across_offsets_epsilon5": 0,
+  "primary_action": "left_8s",
+  "full_json_sha256": "0681f683acd549cb2d32cc8957038ce3e652819f47e8288c5a751b6acd7e2468",
+  "double_run_byte_identical": true,
+  "tests": "9/9 local pass",
+  "strata": [
+    {
+      "capacity": 2,
+      "offset": 0,
+      "worlds": 64,
+      "negative": 17,
+      "positive": 47,
+      "ties": 0,
+      "delta_sum": 1656,
+      "extra_early_turn_crossings": 192,
+      "extra_late_receiver_denials": 0
+    },
+    {
+      "capacity": 2,
+      "offset": 15,
+      "worlds": 64,
+      "negative": 16,
+      "positive": 0,
+      "ties": 48,
+      "delta_sum": -3926,
+      "extra_early_turn_crossings": 21,
+      "extra_late_receiver_denials": 0
+    },
+    {
+      "capacity": 4,
+      "offset": 0,
+      "worlds": 64,
+      "negative": 16,
+      "positive": 14,
+      "ties": 34,
+      "delta_sum": 3452,
+      "extra_early_turn_crossings": 256,
+      "extra_late_receiver_denials": 124
+    },
+    {
+      "capacity": 4,
+      "offset": 15,
+      "worlds": 64,
+      "negative": 19,
+      "positive": 0,
+      "ties": 45,
+      "delta_sum": -8174,
+      "extra_early_turn_crossings": 42,
+      "extra_late_receiver_denials": 0
+    }
+  ],
+  "bounds": "Different offsets and capacities alter the predecision state. Only within-world baseline/action is same-checkpoint. Not a real signal controller; no yellow/red/pedestrian modeling."
+}
