@@ -6,7 +6,7 @@
 
 The original **DLR-Urban-Traffic-dataset_v1-3-1_documentation.pdf** was downloaded from the existing Drive DLR-UT v1.3.1 inventory, file ID `1gUqUJEAGtXw06RjQCLbBoJ0k-pcee5Uq`; exact PDF SHA-256 `3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849`. The real traffic signal CSV for **2023-09-24 23:30–23:45 UTC** was read and verified against SHA-256 `95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c`. The official v1.3.1 PDF's Figure 1 and Tables 3–4 were inspected; the v1.2.0 legacy PDF is useful as corroboration but is **not substituted** for the exact owned v1.3.1 version.
 
-This updates the P21 and P23 **OPEN** code-interpretation gate. Prior statements that the six observed codes were not yet interpretable reflected the earlier evidence available at that time, not the new official-codebook conclusion.
+**Research genealogy correction:** The existing P23 official DLR signal-codebook study had already decoded all ten states and separated vehicle/pedestrian-warning signal purposes using this source. P24 independently cross-checks that prior result and **adds 35 physical coordinate rows / 26 located IDs, four explicitly missing IDs, and a traceable 869-transition matrix**. Do not count the official state decoding again as an entirely new discovery.
 
 ## Exact official code semantics
 
@@ -37,7 +37,11 @@ The official v1.3.1 **Table 3**, pp. 12–13, includes **35 physical coordinate 
 - **4 / 30** live signal IDs are currently unpositioned by the source coordinate table and must not be silently imputed.
 - Coordinate points are in **UTM zone 32** consistent with the real trajectories used by P23. A signal's position near a road or track is **not proof** of its controlled lane or stopline; Figure 1's approach/vehicle-vs-VRU labels and any manufacturer signal-head mapping must be independently combined.
 
-This partially resolves the earlier P23 blocker: the unrelated 7 `road/signals/signal` OpenDRIVE static elements and 30 real-time CSV IDs cannot be joined by numeric equality, but the official supplementary PDF supplies a **separate, authoritative physical coordinate table for 26 of the 30 real-time IDs**. The remaining four remain unresolved.
+This partially resolves the P23 geospatial-alignment blocker: the unrelated 7 `road/signals/signal` OpenDRIVE static elements and 30 real-time CSV IDs cannot be joined by numeric equality, but the official supplementary PDF supplies a **separate, authoritative physical coordinate table for 26 of the 30 real-time IDs**. The remaining four remain unresolved.
+
+## Distinct signal-purpose groups (cross-checked with earlier P23)
+
+The publisher Figure 1 and already committed P23 split **IDs 1–9 as motorized traffic heads; 10–29 as bicycle/pedestrian signals; ID 30 as a special warning device**. All 9 vehicle-facing signal IDs have official coordinate records (18 physical position rows); 16/20 VRU signal IDs have records (16 rows), while IDs 10–13 are missing, and warning ID30 has one point. The spatial source therefore has **9/9 motor, 16/20 VRU, 1/1 warning heads positioned** at the ID level. The color and signal-purpose classification from prior P23 is not novel to P24; the coordinate completeness and missingness are. The source still does not tell us which exact lane or crossing movement each signal controls.
 
 ## Code/execution and verifiability
 
