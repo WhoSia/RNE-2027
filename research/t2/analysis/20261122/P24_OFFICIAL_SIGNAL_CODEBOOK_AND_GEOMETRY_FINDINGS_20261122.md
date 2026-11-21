@@ -47,8 +47,8 @@ The publisher Figure 1 and already committed P23 split **IDs 1–9 as motorized 
 
 - [Source](p24_dlr_official_signal_codebook.py): SHA-fail-closed reader calls `pdftotext -layout` on the exact v1.3.1 PDF, extracts Table 3 official 35 Easting/Northing point records and Table 4 all 10 code definitions; then checks the exact owned CSV for all 30 IDs, unknown states, duplicate per-ID timestamps, counts and transitions. No invented map matches or real road control.
 - [Seven tests](test_p24_dlr_official_signal_codebook.py) all **PASS** with the real original PDF and CSV: PDF state semantics, 35-coordinate/26-ID census, exact 30-ID code histogram and 869 changes, four missing physical IDs, SHA mismatch veto, wrong-version veto, truncated-PDF veto, and no incorrect lane-meaning claims. Local standard-library Python 3.13.5; external `pdftotext` command.
-- [Compact machine-readable receipt](P24_DLR_OFFICIAL_CODEBOOK_SUMMARY_20261122.json), exact production source Git blob `0e5edb4884b9385eb778f71222270249aaebcf47`, test Git blob `5dfe96f6e74fec4919fe8975628ce957d1c12cb6`. Both checked against GitHub `main`.
-- Full version-locked result JSON with **all 35 coordinate rows** is separately packaged in the conversation artifact; its SHA-256 is `d48376cf8958764e567b75b97b38307be799934ab7d04446775dafd9d727c3a1`. Unit test log SHA-256 `39f597d8bcd2b3b6b8e16f4b570edc795298960ecc97631930a296727158bb6e`.
+- [Compact machine-readable receipt](P24_DLR_OFFICIAL_CODEBOOK_SUMMARY_20261122.json), exact production source Git blob `0e5edb4884b9385eb778f71222270249aaebcf47`, test Git blob `dfc348476412c691ae051dbe561df14e37bc2da2`. Both checked against GitHub `main`.
+- Full version-locked result JSON with **all 35 coordinate rows** is separately packaged in the conversation artifact; its SHA-256 is `d48376cf8958764e567b75b97b38307be799934ab7d04446775dafd9d727c3a1`. Unit test log SHA-256 `1d0f6d1838447be97d305b4162c5a698ef084b4301eeead8d70b2a81a993729f`.
 
 ## Research direction
 
