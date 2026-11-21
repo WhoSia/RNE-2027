@@ -37,8 +37,7 @@ Track **T** (Existing T2 physics, parallel):
 - A traffic signal on a real road is not modified in this project.
 
 ## Distinct hypotheses (not accomplished results)
-H1: In a controlled small intersection, two spatially separated *licensed,
-authorized Wi-Fi CSI observation links* can discriminate pocket-entry
+H1: In a controlled small intersection, two spatially separated *authorized, regulation-compliant Wi-Fi CSI observation links using only our own packets* can discriminate pocket-entry
 obstruction from downstream congestion across unseen sessions better
 than one RSSI link.
 
