@@ -74,3 +74,12 @@ An on-screen virtual traffic light illustrates potential signal
 information value; it never operates a real signal controller.
 
 See PRIOR_ART_AND_ALTERNATIVES.md, GEOMETRY_GATE.md, PILOT_PREREG.md.
+
+## RF04 — 2026-11-21 intake and math study (newest stage)
+
+- [Seven papers formally moved from 00_INTAKE to canonical 10_PAPERS; one SHA-pending text duplicate quarantined](RF04_INTAKE_00_LITERATURE_RECEIPT_20261121.md).
+- [OpenCSI-inspired known-empty baseline hypotheses locked before code](RF04_OPENCSI_MATH_STRESS_PREREG_20261121.md).
+- [Scalar known-empty Welford implementation](open_csi_quiet_calibration_analogue.py), [unit tests](test_open_csi_quiet_calibration_analogue.py), [small artificial numerical fixture](rf04_open_csi_math_fixture.json).
+- [Validation receipt: 31/31 local RF unit tests](RF04_INTAKE_AND_CALIBRATION_VALIDATION_RECEIPT_20261121.md); two new source/test files matched local GitHub blobs and JSON local SHA. **Not CSI measurements; no school equipment trial; not author algorithm source-replicated.**
+- The 2025 embedded-sensing paper's EMD is **Empirical Mode Decomposition**, not WiTraffic's **Earth Mover's Distance**. Avoid acronym-matching algorithms.
+- Research direction: actual measured CSI, separate across-day and across-placement holdouts, correct known-empty calibration, source-of-blockage truth labels. No real road controller or third-party wireless capture.
