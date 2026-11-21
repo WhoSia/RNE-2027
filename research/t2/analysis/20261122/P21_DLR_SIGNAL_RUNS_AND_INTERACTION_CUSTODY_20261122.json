@@ -1,0 +1,58 @@
+{
+  "protocol": "T2_P21_DLR_REAL_SOURCE_SIGNAL_RUNS_20261122",
+  "status": "OBSERVED_TIMING_DESCRIPTIVE_NOT_HEADWAY_OR_PHASE_DECODING",
+  "source": {
+    "window_utc": "2023-09-24 23:30 to 23:45",
+    "trajectories_sha256": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50",
+    "signals_sha256": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c"
+  },
+  "measurement": {
+    "object_ids": 37,
+    "signal_ids": 30,
+    "signal_state_code_changes": 869,
+    "signal_code_runs": 899,
+    "signal_run_median_observed_spans_s": {
+      "1": 57,
+      "3": 66.0005,
+      "4": 0,
+      "5": 12.5065,
+      "7": 1.999,
+      "9": 25.998
+    },
+    "object_modal_classes": {
+      "bicycle": 4,
+      "car": 22,
+      "motorbike": 1,
+      "pedestrian": 1,
+      "truck": 6,
+      "van": 3
+    },
+    "objects_with_adjacent_below_point_five_mps": 4,
+    "adjacent_slow_intervals": 1901,
+    "observed_slow_intervals_total_seconds": 95.05,
+    "gaps_greater_than_point_two_s": 0
+  },
+  "validation": {
+    "source_exact_remote_git_blob": "ab7b17dfc0ee9d4a690a550353de99b13fb216a0",
+    "tests_exact_remote_git_blob": "5b264851fc9c5bbed261f9c0ec5d775667ffdc19",
+    "tests_passed": 8,
+    "tests_total": 8,
+    "full_local_output_json_sha256": "640915f04d97d8e60c689efbec98631e6f7121452e89dc9921b83d3374f76465",
+    "unit_test_log_sha256": "d9a6605fe35e78b32079b999429dca76287c3a29cb1271d164bb842235bfbffb"
+  },
+  "gates": {
+    "signal_codebook_decoded": false,
+    "signal_head_lane_map_verified": false,
+    "stopline_crossing_estimated": false,
+    "green_dwell_accurately_estimated": false,
+    "queue_vehicle_count_identified": false,
+    "independent_SUMO_comparison": false
+  },
+  "notes": [
+    "Signal run observed spans are a lower bound on dwell, with boundary censorship and 1s sampling.",
+    "Low-speed event intervals may represent non-vehicles or non-queued motion; 0.5 m/s is an exploratory threshold.",
+    "The 1901 adjacent low-speed intervals are not independent episodes or vehicles.",
+    "INTERACTION TC and DR source archives were reported downloaded on user PC, but no accessible Drive file ID/upload was found; no archive move and no content inspection.",
+    "One receiving Drive folder was created for untouched original TC and DR archives."
+  ]
+}
