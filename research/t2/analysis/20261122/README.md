@@ -122,3 +122,12 @@ P20_DLR_TRAJECTORIES=/path/to/trajectories_230924-233000_230924-234500.csv P20_D
 ```
 
 Next: use an explicitly mapped real signal ID/stopline and independently execute SUMO with matched geometry and selected arrival tape. Preserve discrepancies and avoid controller-safety claims. GitHub Actions/bot banned, K047 sealed.
+
+
+## P21 — DLR measured signal-code runs and pending INTERACTION TC/DR originals
+
+- [P21 DLR source-derived findings and INTERACTION custody](P21_DLR_OBSERVATION_AND_INTERACTION_INTAKE_FINDINGS_20261122.md)
+- [Verified source-sealed DLR run/low-speed code](p21_dlr_segment_gate.py) and [8 tests](test_p21_dlr_segment_gate.py)
+- [Machine-readable P21 manifest](P21_DLR_SIGNAL_RUNS_AND_INTERACTION_CUSTODY_20261122.json)
+
+**8/8 local tests, exact `main` blob-match**. DLR real 2023-09-24 15-minute sample: 37 tracked IDs, 30 signal IDs, 869 code changes, 899 code runs, 4 object IDs with low-speed pairs. Numeric signal codes are **NOT yet mapped to colors or stoplines**. The user reported both INTERACTION archives downloaded to PC; neither was found in accessible Drive/attachments. [Prepared original archive folder](https://drive.google.com/drive/folders/1k-EEwOyBgUVoQaGwQsModGfmP92w0Gzv) is empty until explicit upload. No false move or archive inspection claim.
