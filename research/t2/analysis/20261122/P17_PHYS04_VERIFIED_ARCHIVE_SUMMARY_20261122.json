@@ -122,5 +122,18 @@
     "Seed IDs do not establish independent arrival timestamps",
     "Equal counts do not establish identical full microstates",
     "P12 action feasibility remains unvalidated"
-  ]
+  ],
+  "position_resolved_matching": {
+    "fields_added": [
+      "pocket_positions",
+      "approach_A_positions",
+      "approach_B_positions",
+      "receiver_occupied_cells"
+    ],
+    "groups": 141,
+    "collision_groups": 3,
+    "collision_rows": 6,
+    "opposite_sign_groups_epsilon0": 0,
+    "note": "Position-aware grouping removes the only weak six-count alias; this does not prove observation sufficiency for all futures."
+  }
 }
