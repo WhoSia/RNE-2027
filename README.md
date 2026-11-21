@@ -26,7 +26,7 @@ The earlier three linked PHYS studies (192 + 384 + 128 synthetic runs) found mod
 
 **PHYS-07/08/09:** 720 new matched pairs under observation lag / demand shift, 576 pre-registered pairs testing a 12-second geometry fallback, and 576 further pre-registered pairs testing 95th-percentile training-support abstention. The geometry fallback **failed** under low-turn demand; the support-abstention heuristic avoided this synthetic loss but excluded beneficial nominal cases. None is a road-safety claim. [Current evidence ledger](research/t2/analysis/20261121/decision-time-gate/PHYS_07_09_EVIDENCE_HANDOFF.md) · [shared Drive ZIP](https://drive.google.com/file/d/13rCiN3LrVLPVrUMhUtBNpv8Ttl9Bo6Av/view?usp=drivesdk).
 
-**Verification boundary:** new analysis scripts and local files have matching Git blob digests; the simulator's full imported dependency tree is still **source-derived, not a verified exact-byte GitHub checkout**. The K047 field holdout remains sealed.
+**Historical verification note:** the earlier PHYS-07–09 analysis began as a source-derived local runtime. A later audit restored and SHA-verified five GitHub core blobs, and replayed specified outputs exactly. **A full authenticated repository checkout and the entire historical regression suite remain unverified.** K047 remains sealed.
 
 ### PHYS-10 / PHYS-11 (2026-11-21): decision support failure and explicit gap physics
 
@@ -35,3 +35,11 @@ The earlier three linked PHYS studies (192 + 384 + 128 synthetic runs) found mod
 - [Reproduction and Drive handoff](research/t2/analysis/20261121/decision-time-gate/PHYS_10_11_EVIDENCE_AND_REPRODUCTION_HANDOFF.md): five GitHub core blobs, runners and tests verified against local source; **34/34** relevant tests pass and PHYS-10/11 JSONs have byte-identical reruns. **Whole-repository authenticated clone and full historical tests remain an OPEN gate.**
 
 The cellular model is an **uncalibrated research prototype**, not a VISSIM reproduction, field causal estimate, or road-control recommendation. The K047 holdout remains sealed.
+
+### Adversarial correction and arrival-clock falsification (2026-11-21)
+
+- [Critical internal review](research/t2/analysis/20261121/decision-time-gate/CRITICAL_INDEPENDENT_REVIEW_AND_CORRECTIONS.md): the PHYS-10 zero-distance +306 witness shows unequal effect magnitude but **does not itself establish strict opposite-optimal actions** (its matched training case ties). The legacy "uniform" traffic generator holds arrival timestamps fixed across integer seeds at the same demand rate.
+- [Two pre-registered arrival-clock studies](research/t2/analysis/20261121/decision-time-gate/T2_ARRIVAL_CLOCK_AND_GREEN_ENVELOPE_FINDINGS.md) evaluated **288 synthetic traffic worlds** under three timing generators (seeds88–95) plus **192 worlds** with exact vehicle count and ordered route labels held fixed while only request timestamps change (seeds96–103). The latter produced **1/48 and 9/48 strict effect-sign differences across corresponding timing-world labels**, respectively, in two demand regimes. These are **different predecision states**, not equal-observation identification counterexamples.
+- Four green durations (4/8/12/20s) were tested; the engine cannot represent complete real yellow/pedestrian/conflicting-stage/controller requirements. **No proposed plan is certified legal, safe or deployable.** [Drive raw ZIP](https://drive.google.com/file/d/1EFAKMoixNstg9ykW6UGlwGqRq7V-_QMV/view?usp=drivesdk). New standalone runner/test blobs match GitHub `main`, 8/8 clean-extraction tests and full JSON byte-replay pass.
+
+Next scientific priority: calibrate temporally varying arrivals and specify a locally admissible signal-action set **before** claiming real controller consequences. Keep synthetic outcomes, implementation validation and field evidence separate.
