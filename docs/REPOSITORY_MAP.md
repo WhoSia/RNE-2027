@@ -221,3 +221,12 @@ No new traffic engine simulation was run; no live signal or CSI observation occu
 The adapter is grounded in `dual_lane_v11.checkpoint_observation` and `physical_checkpoint_capacity_screen.py`. It distinguishes pocket presence, receiver fullness and receiver *entry-cell* occupancy. **A full link necessarily occupies cell 0 under the one-car-per-cell assumption; cell-0 occupancy alone does not imply full.** The output expressly leaves the five causal/manual RF labels UNKNOWN, not inferred from one simulator snapshot.
 
 A second function can screen independently provided PHYS-04 result rows for same-six-count opposite-effect candidates but **was not executed on real PHYS-04 results in this unit**. The 20/20 local regression suite used invented schema fixtures. No claim of found same-observation PHYS witness, physical CSI measurement or deployable signal controller is made.
+
+
+### 2026-11-22 P17 — Historical PHYS-04 archive re-downloaded, 144 authentic model outcomes audited
+
+[Findings](../research/t2/analysis/20261122/P17_HISTORICAL_PHYS04_EXACT_ARCHIVE_FINDINGS_20261122.md), [exact-byte checksum-pinned script](../research/t2/analysis/20261122/p17_zip_audit.py), [9 executed tests](../research/t2/analysis/20261122/test_p17_zip_audit.py), and [compact model-result JSON](../research/t2/analysis/20261122/P17_PHYS04_VERIFIED_ARCHIVE_SUMMARY_20261122.json).
+
+A fresh Google Drive download confirmed exact ZIP SHA256 `7f7eff90b83cfe5e1f071bb02d5880face9c0e047abcd17349cd3fb06392758e` and contained authentic historical PHYS-04 **source-derived, not byte-identical canonical-engine** cost data (144 pairs). Under full geometry and six-count matching, 133 observation groups, 11 collision groups, **one weak pair (−305,+1) at epsilon0, ZERO strict opposite-sign pairs at epsilon5**. With occupied-cell positions also matched: 141 groups, 3 collision groups, zero opposing signs. A deliberately **invalid** comparison omitting B-share manufactures two apparently strong contrasts, including `−305/+1477` in the SAME seed. Do not cite this as a true observation alias or independent arrival-day evidence.
+
+The historical archive is now remote-byte checked; its model implementation is still described by its original source-derived provenance. No new canonical engine run, physical CSI measurements, field estimates, or real controller operations occurred.
