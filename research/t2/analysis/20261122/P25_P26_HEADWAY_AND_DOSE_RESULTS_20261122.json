@@ -1,0 +1,68 @@
+{
+  "protocol": "T2_P25_P26_EXACT_MAIN_SYNTHETIC_FOLLOWUPS",
+  "source_engine_blobs": {
+    "dual_lane_v11": "a7c9aa6954402e12894d1d5b722e8a474b0bd58f",
+    "receiving_cells_v15": "b078cf215c74b76ace6dffcbcbacab6ae22c3673"
+  },
+  "reference_p19_sha256": "0681f683acd549cb2d32cc8957038ce3e652819f47e8288c5a751b6acd7e2468",
+  "runner_git_blob": "5aba6df9b4285553a435d6f14814b19756545526",
+  "full_result_sha256": "640ec195830abae2ab99d202d43d92aaf3cbbc5f875a0ddc6765fe82f20c19e4",
+  "P25": {
+    "total_worlds": 192,
+    "unique_tapes": 4,
+    "per_headway": [
+      {
+        "headway": 1,
+        "n": 64,
+        "beneficial": 47,
+        "harmful": 0,
+        "ties": 17,
+        "sum_delta": -17194
+      },
+      {
+        "headway": 2,
+        "n": 64,
+        "beneficial": 18,
+        "harmful": 12,
+        "ties": 34,
+        "sum_delta": -6960
+      },
+      {
+        "headway": 4,
+        "n": 64,
+        "beneficial": 0,
+        "harmful": 0,
+        "ties": 64,
+        "sum_delta": 0
+      }
+    ],
+    "strict_headway_1_vs4_reversals_epsilon5": 0,
+    "frozen_p19_headway2_matches": 64
+  },
+  "P26": {
+    "worlds": 64,
+    "unique_tapes": 4,
+    "actions_seconds": [
+      6,
+      8,
+      10
+    ],
+    "each_action": {
+      "beneficial": 18,
+      "harmful": 12,
+      "ties": 34,
+      "sum_delta": -6960
+    },
+    "all_worlds_6_8_10_same_score": 64,
+    "winners_with_baseline": {
+      "6|8|10": 18,
+      "none": 12,
+      "none|6|8|10": 34
+    },
+    "nonmonotone_dose_cost": 0,
+    "all_3_harm": 12,
+    "all_3_benefit": 18,
+    "frozen_p19_8second_matches": 64
+  },
+  "limit": "Uncalibrated model, four arrival tapes reused; 4s headway changes history before decision; no real signal control or independent SUMO"
+}
