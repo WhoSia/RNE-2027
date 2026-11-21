@@ -89,5 +89,37 @@
   ],
   "K047": "SEALED",
   "CIM": "UNOPENED_HOLD",
-  "INTERACTION": "DOWNLOADED_ON_USER_PC_NOT_YET_VISIBLE_IN_CONNECTED_DRIVE"
+  "INTERACTION": "DOWNLOADED_ON_USER_PC_NOT_YET_VISIBLE_IN_CONNECTED_DRIVE",
+  "exploratory_terminal_penalty": {
+    "source_runner_blob": "6dc0a721d6fc974f418b47358816c96911e48368",
+    "local_result_json_sha256": "4140b1eb1204be8bef1eff625be5dc44f044ff3ee7d1eb1dbada68ebee22415d",
+    "offset0_harmful_counts_p0_p60_p120": [
+      61,
+      61,
+      61
+    ],
+    "offset15_harmful_counts_p0_p60_p120": [
+      0,
+      0,
+      0
+    ],
+    "offset0_delta_sums_p0_p60_p120": [
+      3428,
+      5108,
+      6788
+    ],
+    "offset15_delta_sums_p0_p60_p120": [
+      -7420,
+      -12100,
+      -16780
+    ],
+    "status": "EXPLORATORY_POST_PREREG_NOT_INDEPENDENT_SUMO"
+  },
+  "drive_reproduction_archive": {
+    "file_id": "1ZbIMHN_4r7xU_xckynxcnlMLB_MG-d35",
+    "parent_id": "1oiCJy7Df2rzE_90jFeek15_is55VbqML",
+    "size_bytes": 9771,
+    "sha256": "73badd36c839968018d9e2420195a3431379895ec4d5e5b22d0609f6506543f8",
+    "downloaded_bytes_sha_match_verified": true
+  }
 }
