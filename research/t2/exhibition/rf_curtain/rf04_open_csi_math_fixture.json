@@ -1,0 +1,33 @@
+{
+  "affine_gain": {
+    "flagged": true,
+    "status": "SCALAR_DEVIATION_ONLY",
+    "z": 4.242640687119285
+  },
+  "evidence": "SYNTHETIC_MATH_ONLY_NOT_RF_DATA",
+  "higher_quiet_variance": {
+    "flagged": false,
+    "status": "SCALAR_DEVIATION_ONLY",
+    "z": 2.1213203435596424
+  },
+  "occupied_bootstrap_contamination": {
+    "flagged": false,
+    "status": "SCALAR_DEVIATION_ONLY",
+    "z": 0.0
+  },
+  "original": {
+    "flagged": true,
+    "status": "SCALAR_DEVIATION_ONLY",
+    "z": 4.242640687119285
+  },
+  "quiet_drift": {
+    "flagged": true,
+    "status": "SCALAR_DEVIATION_ONLY",
+    "z": 5.65685424949238
+  },
+  "zero_variance": {
+    "flagged": null,
+    "status": "ABSTAIN_ZERO_VARIANCE",
+    "z": null
+  }
+}
