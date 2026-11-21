@@ -191,3 +191,15 @@ Result: 39 AABB-favored / 39 BBAA-favored / 22 ties. **This symmetry is mathemat
 **RF09 Harvest**: [first-party CSI acquisition versus viral camera-like display](../research/t2/exhibition/rf_curtain/RF09_CSI_FIRST_PARTY_VS_VIRAL_VISUALIZATION_HARVEST_20261121.md). Official Espressif sender/receiver examples establish a realistic *measurement target*, not verified object localization. Cheap optical/magnetic baselines and independent empty/static/moving truth labels remain essential; no hardware was obtained or used.
 
 Both tracks remain independent until model-real observation evidence exists. No GitHub Actions/bot, no K047 access, no CIM dataset inspection.
+
+
+## 2026-11-22 — Collaborator review and new daily custody
+
+- Shared R&E Research Log parent: [daily folders](https://drive.google.com/drive/folders/15HIj9OU7e63K2kuVnxGJY00nxGsmNODZ).
+- New folder: [20261122 김우준의 사유](https://drive.google.com/drive/folders/1wIlGAxjTuhYW0GNoBrjZV2i4t5yHJ3Xf).
+- Dated Google Docs note: [independent review verdict and T2/RF handoff](https://docs.google.com/document/d/1Zo0Z-Q50o3f7oLvOF-73vKOCQcDGLq5fynmGaStm0kA/edit).
+- Collaborator original: [20261121 김세호의 사유 — independent Claude critique](https://docs.google.com/document/d/15CFAM0QsRQkYNGUvf3VEyISxG9Pxyz-I_4WX32CAQp8/edit). Retain attribution and historical authorship.
+
+**P15:** [Adversarial review and verified paper-arithmetic receipt](../research/t2/analysis/20261122/P15_COLLABORATOR_CLAUDE_AUDIT_RECEIPT_20261122.md) confirms a specific inconsistent published Table I via source PDF and independently recomputed F1/weighted recall. Reviewer's local `f1e57b0` is NOT pushed; do not count it as a remote project commit or re-author his patch. [Preregistered RF class-to-T2 state/decision sufficiency contract](../research/t2/analysis/20261122/P15_RF_TO_T2_STATE_INTERFACE_PREREG_20261122.md) distinguishes staged toy-zone labels from policy-relevant traffic state; no new physical CSI measurement or strict PHYS action-reversal witness yet.
+
+The older 2026-11-21 folders remain intact. All updates to repository `main`; GitHub Actions and bot commits forbidden; K047 sealed and the ~5GB CIM dataset stays on HOLD.
