@@ -112,3 +112,23 @@ No GitHub Actions or `github-actions[bot]` contributions were used; K047 stays s
 - [Drive full evidence ZIP](https://drive.google.com/file/d/1EFAKMoixNstg9ykW6UGlwGqRq7V-_QMV/view?usp=drivesdk): 15 entries, 44,335 bytes, local SHA-256 `846d85912bf92249bc9f4ba40e198b6bbdba0587958b45ecaf336e905663fb16`. New Python source matches GitHub blob identities. Clean extracted-folder **8/8** tests and exact JSON byte-replays passed. Remote metadata was checked; remote ZIP bytes were not independently rehashed.
 
 **Feasibility gap:** `'-'` is only a synthetic no-service state; yellow, pedestrians, cross-street conflicts and site-specific controller phase constraints remain unimplemented. The four 4/8/12/20s left-green envelopes are **not** certified legal or deployable. K047 remains sealed; no GitHub Actions used.
+
+## 2026-11-21 post-RF01 literature reboot and collaborator audit
+
+The R&E T2 project deliberately runs two **parallel** evidence tracks.
+**E** = indoor, authorized, empirical observation/sensing prototype;
+**T** = existing synthetic intersection, queue, phase and policy
+identification research. No sensor measurement is simulated into
+existence by the traffic model. CSI radio measurements in E: **ZERO**.
+
+- [Complete T2 study genealogy and earlier negative-results boundary](../research/t2/analysis/20261121/reorientation/T2_RESEARCH_GENEALOGY_AND_DUAL_TRACK_GATE.md).
+- [Original held 15-paper and new missing-candidate 12-paper evidence ledger](../research/t2/analysis/20261121/reorientation/T2_RF_LITERATURE_STOCK_AND_MISSING_20261121.md). 'Missing candidate' means title/DOI search did not find an original Drive PDF; not a complete-library absence proof.
+- [Paper-to-executable-code transfer levels and nine-test ideal-occupancy audit](../research/t2/analysis/20261121/reorientation/SOURCE_TO_CODE_METHOD_TRANSFER_CONTRACT.md).
+- [RF-CURTAIN ideal observation experiment receipt](../research/t2/exhibition/rf_curtain/RF02_IDEAL_OBSERVABILITY_AND_LITERATURE_RECEIPT_20261121.md) and [Python generator](../research/t2/exhibition/rf_curtain/rf_observation_identifiability.py): static pocket and downstream bits give 4 signatures among 5 toy classes, leaving demand-absent versus free-flow unresolved; no measured CSI.
+- [2026-11-21 research reading notebook (Google Docs)](https://docs.google.com/document/d/1EBtlEcZJ5FCDgdqsmXOCLIJD-cVj8NVoTXZSB0zBxzw/edit), physically placed in the dated Kim-Woojun Drive research-log folder; [main dated reasoning](https://docs.google.com/document/d/16C7XE2dr24vfqRiz0KQMrYkOq7fARwXNm5y5l9MaTTE/edit).
+- [Kim Seho's previous independent audit (2026-11-17)](https://docs.google.com/document/d/1vtBLTnL6S9m7VJPOmWnwQRVGCuwIUHewZ8SPGVFX2Bc/edit), [his 2026-11-21 dated research folder](https://drive.google.com/drive/folders/1BxbNV7-e87G9phXzWJ_TBORJ4S71KBZM), and [Claude adversarial handoff prompt](../research/t2/analysis/20261121/reorientation/CLAUDE_KIM_SEHO_CRITICAL_REVIEW_PROMPT_20261121.md). His next Google Doc must be authored by him, not fabricated by the other researcher.
+
+Preserve the K047 protected holdout, do not use GitHub Actions/bot
+contributors, and do not claim externally calibrated traffic or legal
+real-road signal operation from indoor RF trials or synthetic physics.
+
