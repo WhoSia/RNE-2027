@@ -10,7 +10,7 @@ Date 2026-11-22 KST. **Role: independent falsifier / reproducibility auditor, NO
 4. [Original collaborator's Nov21 independent review](https://docs.google.com/document/d/15CFAM0QsRQkYNGUvf3VEyISxG9Pxyz-I_4WX32CAQp8/edit)
 5. [RF apparatus and labels](../../exhibition/rf_curtain/APPARATUS_AND_LABELS.md), [frozen pilot](../../exhibition/rf_curtain/PILOT_PREREG.md)
 6. [P13 exact six-count audit](../20261121/decision-time-gate/t2_p13_identification_audit.py)
-7. [Nov22 research log](https://docs.google.com/document/d/1Zo0Z-Q50o3f7oLvOF-73vKOCQcDGLq5fynmGaStm0kA/edit) and [GitHub research map](../../../docs/REPOSITORY_MAP.md).
+7. [Nov22 research log](https://docs.google.com/document/d/1Zo0Z-Q50o3f7oLvOF-73vKOCQcDGLq5fynmGaStm0kA/edit) and [GitHub research map](../../../../docs/REPOSITORY_MAP.md).
 
 Use GitHub `main` with a **pinned current HEAD SHA**, not repository's historically different default branch. No GitHub Actions; no bot contributions.
 
