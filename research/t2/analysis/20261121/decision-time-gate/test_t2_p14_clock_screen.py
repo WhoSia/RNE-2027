@@ -32,6 +32,14 @@ class P14Tests(unittest.TestCase):
     def test_all_same_total_counts(self):
         for w in screen()['witness']:
             self.assertEqual(len(w['a']),2);self.assertEqual(len(w['b']),2)
+    def test_lane_exchange_antisymmetry(self):
+        from itertools import combinations_with_replacement, product
+        slots=list(combinations_with_replacement(range(HORIZON),2))
+        for x,y in product(slots,repeat=2):
+            a,b=tape_from_slots(x),tape_from_slots(y)
+            first=simulate(a,b,'AABB')['cost']-simulate(a,b,'BBAA')['cost']
+            swapped=simulate(b,a,'AABB')['cost']-simulate(b,a,'BBAA')['cost']
+            self.assertEqual(first,-swapped)
     def test_scope(self):self.assertIn('NOT_PHYS',screen()['scope'])
     def test_deterministic_bytes(self):self.assertEqual(frozen_json(),frozen_json())
 if __name__=='__main__':unittest.main()
