@@ -1,3 +1,8 @@
+
+## 2026-11-21 current branch clarification (historical text preserved)
+
+The original 2026-10-30 governance body below describes a *historical* research branch and pending merge. **The current canonical working branch is `main`**, per the latest repository `README.md` and `docs/REPOSITORY_MAP.md`. Existing historical commits remain citations to their own state and should not be rewritten as though they were current. All new independently reviewable research code, tests, source transfers and metadata receipts go to `main`; literature originals belong in Research OS `10_PAPERS`, dated reasoning in shared Google Docs. Never use GitHub Actions or `github-actions[bot]` as contributor. This update changes no older validation claims.
+
 # R&E 2027 — Research governance (2026-10-30)
 
 ## Authoritative locations
