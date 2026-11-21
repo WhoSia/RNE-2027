@@ -33,7 +33,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
     """Run unchanged by default; optionally stop before a tick or resume exact state.
 
     The checkpoint holds the mutable simulation state. Post-checkpoint phase
-    order and future lane-change windows can be modified on resumed runs.
+    future lane-change windows can be modified on resumed runs. Changing the
+    entire phase order is blocked until a clearance-safe controller exists.
     """
     n,k=validate(c.base)
     if not 0<=c.through_B_share<=1 or not 0<=c.change_zone_m<=c.base.approach_length_m:
@@ -78,8 +79,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         if cp['events']!=events or cp['trace']!=trace:
             raise ValueError('arrival tape or trace mode differs from checkpoint')
         original=cp['config']
-        if replace(original.base,phase_order=c.base.phase_order)!=c.base:
-            raise ValueError('incompatible base parameters')
+        if original.base!=c.base:
+            raise ValueError('base schedule cannot change at a checkpoint without a clearance-safe controller')
         if replace(original,base=c.base,lane_change_windows=c.lane_change_windows)!=c:
             raise ValueError('incompatible physical parameters')
         old_windows=original.lane_change_windows
