@@ -45,3 +45,35 @@ The earlier [SF-01 robust sensor-information fusion](../research/t2/analysis/202
 - [Research evidence manifest](../research/t2/analysis/20261121/decision-time-gate/PHYS_04_05_05B_06_EVIDENCE_HANDOFF.md), [Drive ZIP archive](https://drive.google.com/file/d/1nIHmzoz0Yk3YUqaaxvbBWH7ztgR2ddo-/view?usp=drivesdk), and [dated Google Docs reasoning](https://docs.google.com/document/d/16C7XE2dr24vfqRiz0KQMrYkOq7fARwXNm5y5l9MaTTE/edit).
 
 **Technical gate:** obtain an exact-byte GitHub main checkout in an authenticated Python environment, run the committed tests, and compare all 144 PHYS-04 pairs against the independent references before calling the entire stage canonically reproduced. All post-PHYS-03 results remain **synthetic, uncalibrated and not field causal estimates**.
+
+
+## PHYS-07–09 decision-information falsification (2026-11-21)
+
+These are **subsequent** source-derived local studies, not extensions of the
+704-run PHYS-01–03 historical study's denominator:
+
+- [PHYS-07 — delayed observation, changed demand and arrival regimes](../research/t2/analysis/20261121/decision-time-gate/PHYS_07_LATENCY_AND_REGIME_FINDINGS.md):
+  432 earlier policy outcomes rescored with stale tick observations, plus
+  720 newly generated same-state control/treatment pairs from seed32–39.
+- [PHYS-08 pre-registration](../research/t2/analysis/20261121/decision-time-gate/PHYS_08_FRESHNESS_FALLBACK_PREREG.md)
+  and [negative result](../research/t2/analysis/20261121/decision-time-gate/PHYS_08_FRESHNESS_FALLBACK_FINDINGS.md):
+  **576** prospective same-state pairs from seeds40–55 showed a
+  12-second geometry fallback improved one synthetic demand regime but
+  made the low-turn regime substantially worse. [Event witness script](../research/t2/physical_checkpoint_trace_witness.py)
+  preserves opposite-sign contrasts under different baseline worlds.
+- [PHYS-09 pre-registration](../research/t2/analysis/20261121/decision-time-gate/PHYS_09_OOD_ABSTENTION_PREREG.md)
+  and [prospective findings](../research/t2/analysis/20261121/decision-time-gate/PHYS_09_TRAINING_SUPPORT_ABSTENTION_FINDINGS.md):
+  **576** further same-state pairs from seeds56–71; a label-free 95th
+  percentile training-support abstention avoided actions in a clearly
+  out-of-support low-turn synthetic regime, at the cost of false
+  exclusions under nominal traffic. This is **not** a universal or
+  safety-certified OOD detector.
+- [Current raw evidence handoff](../research/t2/analysis/20261121/decision-time-gate/PHYS_07_09_EVIDENCE_HANDOFF.md)
+  · [Shared Drive ZIP](https://drive.google.com/file/d/13rCiN3LrVLPVrUMhUtBNpv8Ttl9Bo6Av/view?usp=drivesdk)
+  · [2026-11-21 dated reasoning](https://docs.google.com/document/d/16C7XE2dr24vfqRiz0KQMrYkOq7fARwXNm5y5l9MaTTE/edit).
+
+The new analysis runners' and tests' Git blob SHA values were matched
+against local files, with 20 focused tests passed, but the imported
+simulation engine still needs **exact-blob repository checkout verification**.
+Do not represent these source-derived synthetic studies as observed field
+causal effects; K047 remains sealed and GitHub Actions are not used.
