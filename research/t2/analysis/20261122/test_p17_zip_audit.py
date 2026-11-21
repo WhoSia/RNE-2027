@@ -49,7 +49,7 @@ class TestP17(unittest.TestCase):
             with self.assertRaises(ValueError):screen([],epsilon=x)
     def test_historical_exact_zip_optional(self):
         import os
-        path='/mnt/data/T2_PHYS04_05_05b_06_20261121_Research_Bundle.zip'
+        path=os.environ.get('P17_HISTORICAL_ZIP', 'T2_PHYS04_05_05b_06_20261121_Research_Bundle.zip')
         if not os.path.exists(path):self.skipTest('historical evidence ZIP not mounted')
         data=audit_zip(path)
         strict={(x['epsilon'],x['penalty']):x for x in data['comparisons'] if x['mode']=='strict'}
