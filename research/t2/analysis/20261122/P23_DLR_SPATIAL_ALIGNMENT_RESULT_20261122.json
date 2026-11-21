@@ -1,0 +1,69 @@
+{
+  "centerline_distance": {
+    "max_m": 13.152765966723601,
+    "median_m": 3.3416518997979443,
+    "min_m": 0.000653208740600381,
+    "n": 8624,
+    "p90_m": 6.956329128188657,
+    "within_10m": 8389,
+    "within_20m": 8624,
+    "within_5m": 6962
+  },
+  "exploratory_negative_control_shift_easting_100m": {
+    "interpretation": "Diagnostic deliberate coordinate corruption; not an independent published validation",
+    "median_distance_m": 29.231400640474362,
+    "n": 8624,
+    "within_10m": 584
+  },
+  "limitations": [
+    "Centerline proximity not a verified lane, stopline, turn or signal assignment",
+    "Static OpenDRIVE road signal IDs are not proven to match 30 dynamic CSV signal IDs",
+    "Volume CSV contains one-second crossing indicators, not sub-second vehicle headway",
+    "Source data are one site and one 15-minute night window",
+    "Some trajectories are vulnerable road users, not cars"
+  ],
+  "map": {
+    "geometry_elements": 201,
+    "geometry_types": {
+      "arc": 194,
+      "line": 7
+    },
+    "projection": "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=-104763 +y_0=-5792795 +datum=WGS84 +units=m +no_defs",
+    "reference_raw_source_crs": "EPSG:32632",
+    "roads": 28,
+    "static_signal_elements": 7,
+    "static_signal_unique_ids": 6
+  },
+  "observed_ids_all": 37,
+  "protocol": "P23_DLR_GEOSPATIAL_AND_OFFICIAL_STOPLINE_BINS",
+  "sample_stride": 1,
+  "scope": "REAL_SOURCE_GEOMETRY_MATCHING_NOT_SIGNAL_HEAD_MAPPING_NOT_SUMO",
+  "source_sha256": {
+    "map": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "trajectories": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50",
+    "volume": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798"
+  },
+  "trajectory_rows_all": 8624,
+  "volume": {
+    "active_movement_columns": 12,
+    "counts_by_movement": {
+      "East1South1": 1,
+      "East2West0": 2,
+      "East3West1": 1,
+      "South1West1": 1,
+      "South2North1": 4,
+      "South4East0": 1,
+      "West0North0": 1,
+      "West0North1": 1,
+      "West1East0": 2,
+      "West2East0": 1,
+      "West2East1": 1,
+      "West4South1": 1
+    },
+    "crossing_bins": 17,
+    "first_timestamp": "2023-09-24 23:30:07+00:00",
+    "last_timestamp": "2023-09-24 23:44:59+00:00",
+    "movement_columns": 12,
+    "seconds": 893
+  }
+}
