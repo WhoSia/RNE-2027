@@ -82,7 +82,7 @@ with byte-identical data. **A full authenticated repository clone and the
 entire historical integration suite are still unverified.**
 
 
-## PHYS-10–11 latest research units (2026-11-21)
+## PHYS-10–11 completed research units (2026-11-21)
 
 - [PHYS-10 preregistration](../research/t2/analysis/20261121/decision-time-gate/PHYS_10_NEAR_SUPPORT_SHIFT_AND_TELEMETRY_PREREG.md) and [full findings](../research/t2/analysis/20261121/decision-time-gate/PHYS_10_NEAR_SUPPORT_SHIFT_AND_TELEMETRY_FINDINGS.md): **576 new same-state policy pairs**, seeds72–79, four moderate demand/turn-share shifts. Harmful signal actions remained **inside** the nominal OOD support region; under a contiguous detector blackout the veto rejected every intervention. A zero-distance counts-feature alias gave a +306 cost counterexample.
 - [PHYS-11 preregistration](../research/t2/analysis/20261121/decision-time-gate/PHYS_11_GAP_CONFIRMATION_PREREG.md) and [full findings](../research/t2/analysis/20261121/decision-time-gate/PHYS_11_GAP_CONFIRMATION_FINDINGS.md): configurable 1/2/3 consecutive eligible one-second target-gap confirmation, built into `dual_lane_v11.py` and its checkpoint. **144 prospective pairs**, seeds80–87. Default1 retains historical results; **zero strict phase-policy preference reversals** were observed across confirmation choices.
@@ -91,3 +91,12 @@ entire historical integration suite are still unverified.**
 Every numerical statement is conditional on a synthetic, uncalibrated model.
 Neither a field-causal effect nor a safety-certified controller is established.
 No GitHub Actions or `github-actions[bot]` contributions were used; K047 stays sealed.
+
+
+## T2 latest correction and clock-timing falsification — 2026-11-21
+
+- [Critical audit](../research/t2/analysis/20261121/decision-time-gate/CRITICAL_INDEPENDENT_REVIEW_AND_CORRECTIONS.md): PHYS-10 `+306` aggregate alias was **not** a strict opposite-optimal-policy witness; canonical `uniform` request timestamps were identical across random seeds at fixed demand. The t0 checkpoint resume bug was corrected and tested.
+- [Arrival-clock study preregistration A](../research/t2/analysis/20261121/decision-time-gate/T2_GREEN_ENVELOPE_AND_ARRIVAL_CLOCK_PREREG.md), [preregistration B](../research/t2/analysis/20261121/decision-time-gate/T2_ROUTE_MATCHED_CLOCK_PREREG.md), [full findings](../research/t2/analysis/20261121/decision-time-gate/T2_ARRIVAL_CLOCK_AND_GREEN_ENVELOPE_FINDINGS.md): **288 new simulated worlds** on seeds88–95 using legacy/fixed-count randomized/Poisson arrival clocks, plus **192 new worlds** on seeds96–103 holding total vehicles and ordered movement labels fixed while varying only timestamps. Two changed-timestamp cohorts produced **1/48 and 9/48 strict action-value sign differences across matching seed/geometry labels**, clustered in 1 and 3 seed blocks. Across clock worlds, t84 states and six-count observations are different; no same-observation identification claim is made.
+- [Drive full evidence ZIP](https://drive.google.com/file/d/1EFAKMoixNstg9ykW6UGlwGqRq7V-_QMV/view?usp=drivesdk): 15 entries, 44,335 bytes, local SHA-256 `846d85912bf92249bc9f4ba40e198b6bbdba0587958b45ecaf336e905663fb16`. New Python source matches GitHub blob identities. Clean extracted-folder **8/8** tests and exact JSON byte-replays passed. Remote metadata was checked; remote ZIP bytes were not independently rehashed.
+
+**Feasibility gap:** `'-'` is only a synthetic no-service state; yellow, pedestrians, cross-street conflicts and site-specific controller phase constraints remain unimplemented. The four 4/8/12/20s left-green envelopes are **not** certified legal or deployable. K047 remains sealed; no GitHub Actions used.
