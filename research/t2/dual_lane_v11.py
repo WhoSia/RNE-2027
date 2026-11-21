@@ -26,6 +26,7 @@ class DualConfig:
     downstream_green_s:int=30
     downstream_offset_s:int=0
     receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
+    lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
 
 def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     n,k=validate(c.base)
@@ -37,6 +38,12 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         raise ValueError("invalid downstream receiver")
     if c.receiver_mode not in ("fifo","cells") or (c.receiver_mode=="cells" and c.receiver_slots<1):
         raise ValueError("cellular downstream requires positive receiver storage")
+    if any(not isinstance(a,int) or not isinstance(b,int) or a<0 or a>=b or b>c.base.duration_s
+           for a,b in c.lane_change_windows):
+        raise ValueError("invalid lane-change windows")
+    if any(c.lane_change_windows[i][1]>c.lane_change_windows[i+1][0]
+           for i in range(len(c.lane_change_windows)-1)):
+        raise ValueError("overlapping/unsorted lane-change windows")
     if events is None:events=arrivals(c.base)
     if any(not isinstance(t,int) or not 0<=t<c.base.duration_s or r not in ("L","S")
            for t,r in events) or any(events[i][0]>events[i+1][0] for i in range(len(events)-1)):
@@ -116,7 +123,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                     if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"no_pocket","blocker_id":None})
                 elif x< -1 and x+1 not in occ and not(lane=="A" and v[1]=="L" and x>=-k-1):
                     moved_ids.add(v[0]);occ[x+1]=occ.pop(x)
-        if c.allow_lane_changes:
+        if c.allow_lane_changes and (not c.lane_change_windows or any(a<=t<b for a,b in c.lane_change_windows)):
             zone=floor(c.change_zone_m/c.base.cell_m+1e-9)
             for x in sorted(tuple(A),reverse=True):
                 if x not in A or A[x][1]!="S" or A[x][0] in moved_ids or x>=-k or x< -zone:continue
@@ -157,7 +164,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                   "receiver_slots":c.receiver_slots,"receiver_headway_s":c.receiver_headway_s,
                   "receiver_mode":c.receiver_mode,"downstream_cycle_s":c.downstream_cycle_s,
                   "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s,
-                  "receiver_closures":c.receiver_closures},
+                  "receiver_closures":c.receiver_closures,"lane_change_windows":c.lane_change_windows},
         "generated":len(events),"admitted":count["admitted"],
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),
