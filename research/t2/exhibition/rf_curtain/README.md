@@ -83,3 +83,12 @@ See PRIOR_ART_AND_ALTERNATIVES.md, GEOMETRY_GATE.md, PILOT_PREREG.md.
 - [Validation receipt: 31/31 local RF unit tests](RF04_INTAKE_AND_CALIBRATION_VALIDATION_RECEIPT_20261121.md); two new source/test files matched local GitHub blobs and JSON local SHA. **Not CSI measurements; no school equipment trial; not author algorithm source-replicated.**
 - The 2025 embedded-sensing paper's EMD is **Empirical Mode Decomposition**, not WiTraffic's **Earth Mover's Distance**. Avoid acronym-matching algorithms.
 - Research direction: actual measured CSI, separate across-day and across-placement holdouts, correct known-empty calibration, source-of-blockage truth labels. No real road controller or third-party wireless capture.
+
+
+## RF05 — idea-farming literature and crossed collection design
+
+- [17 new cross-modal paper/dataset candidates + five carried missing originals](RF05_DIVERSE_IDEA_FARMING_MISSING_LEDGER_20261121.md) span fiber-optic DAS, magnetic sensing, audio, mmWave, event vision, thermal, traffic state observability and queue shockwaves. Each includes an experiment and disconfirming control. This is a literature **discovery queue**, not a list of demonstrated inventions.
+- [Preregistered 3×2 crossed time/placement evaluation](RF05_CROSSED_HOLDOUT_PREREG_20261121.md), [runnable evaluator](rf_crossed_holdout_evaluator.py), [nine additional tests](test_rf_crossed_holdout_evaluator.py), [synthetic comparison JSON](rf05_crossed_synthetic_suite_summary.json), [verification receipt](RF05_CROSSED_HOLDOUT_VALIDATION_RECEIPT_20261121.md).
+- Training uses P1/S1+S2 only. P2/S2 tests placement, P1/S3 tests session, P2/S3 tests joint transfer. Reserve P2/S1 not used. **No tuning on holdout.**
+- New RF05 tests **9/9**; combined existing RF01–RF04 **31** + RF05 **9** = **40/40** local RF-only, exact committed Git blobs. All test feature values are artificially class-encoded, **NOT measured CSI**; every synthetic scenario is `NOT_APPLICABLE_SYNTHETIC_FIXTURE`.
+- Even a working two-link detector does not imply causally identified traffic queue mechanisms or a safe/controller-admissible action. Real sensor calibration, consented capture, physical validation and context-specific field data remain OPEN.
