@@ -53,10 +53,10 @@
   },
   "validation": {
     "exact_local_main_source_blob": "0e5edb4884b9385eb778f71222270249aaebcf47",
-    "exact_local_main_test_blob": "5dfe96f6e74fec4919fe8975628ce957d1c12cb6",
+    "exact_local_main_test_blob": "dfc348476412c691ae051dbe561df14e37bc2da2",
     "local_tests_passed": 7,
     "full_original_result_sha256": "d48376cf8958764e567b75b97b38307be799934ab7d04446775dafd9d727c3a1",
-    "local_test_log_sha256": "39f597d8bcd2b3b6b8e16f4b570edc795298960ecc97631930a296727158bb6e"
+    "local_test_log_sha256": "1d0f6d1838447be97d305b4162c5a698ef084b4301eeead8d70b2a81a993729f"
   },
   "caveats": [
     "A PDF signal ID may have multiple recorded physical coordinates; 26 distinct ID labels map to 35 position rows",
