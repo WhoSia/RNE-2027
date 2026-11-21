@@ -1,0 +1,93 @@
+{
+  "protocol": "T2_P22_PREREGISTERED_BLOCK_AND_REAL_STOPLINE_AUDIT_20261122",
+  "prereg_commit": "245280a517219ec0145b9a8cba6277e00d54f3fc",
+  "sources": {
+    "P19": "frozen 256-world synthetic result JSON, unchanged",
+    "DLR_publication": "DLR Urban Traffic v1.3.1, 2023-09-24 Sunday, official traffic_volume center-stopline-crossing metadata",
+    "DLR_windows": [
+      {
+        "utc": "12:00-12:15",
+        "file_id": "1L89cdXpt5qJ1hPS8w00C4pyzg-oxAqUB",
+        "sha256": "98e4e0a593702188c2d134cef1346cbc7501067c9ad421ddb9e72a1e6d9d1d15",
+        "rows": 900,
+        "movement_columns": 32,
+        "crossing_bins": 436,
+        "seconds_with_crossing": 336,
+        "max_simultaneous_per_second": 4
+      },
+      {
+        "utc": "18:00-18:15",
+        "file_id": "12NUzRwjiMU67F42HPI796_y31lfkVF8Q",
+        "sha256": "62bc193f77d7e54e761855ea7c8a82229d4a8a924a4b622de228588eb3b4bcfe",
+        "rows": 900,
+        "movement_columns": 27,
+        "crossing_bins": 192,
+        "seconds_with_crossing": 178,
+        "max_simultaneous_per_second": 3
+      },
+      {
+        "utc": "23:30-23:45",
+        "file_id": "1YHLhvITWSru8vm1RWmZudJMSgezJSaiv",
+        "sha256": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798",
+        "rows": 893,
+        "movement_columns": 12,
+        "crossing_bins": 17,
+        "seconds_with_crossing": 17,
+        "max_simultaneous_per_second": 1
+      }
+    ]
+  },
+  "P19": {
+    "world_rows": 256,
+    "distinct_full_tapes": 16,
+    "tape_by_offset_blocks": 32,
+    "cross_offset_geometry_matched_pairs": 128,
+    "offset0": {
+      "worlds": 128,
+      "harmful_gt0": 61,
+      "helpful_lt0": 33,
+      "ties": 34,
+      "harmful_gt5": 25,
+      "tape_blocks_with_any_harm": 14,
+      "tape_blocks_with_any_harm_gt5": 5,
+      "total_delta": 5108,
+      "leave_out_seed115_total": -2248,
+      "leave_out_seed118_total": -2230
+    },
+    "offset15": {
+      "worlds": 128,
+      "harmful_gt0": 0,
+      "helpful_lt0": 35,
+      "ties": 93,
+      "harmful_gt5": 0,
+      "tape_blocks_with_any_harm": 0,
+      "total_delta": -12100
+    },
+    "conditional_one_sided_95_percent_clopper_pearson_upper_zero_of_16": 0.17074972298248095,
+    "independent_crosscheck": "Wolfram Language N[1-(1/20)^(1/16),16] agrees",
+    "limitations": [
+      "16 source-derived pseudorandom tape blocks are not verified IID traffic days",
+      "128 rows are not 128 independent observations",
+      "offset difference compares different predecision physical worlds",
+      "P19 action is a virtual signal rule, not a legal signal plan"
+    ]
+  },
+  "validation": {
+    "tests_passed": 7,
+    "tests_total": 7,
+    "source_git_blob": "6b6a475130f09a493b6e6789bd85592b238954ee",
+    "test_git_blob": "a832aa8eaf098c0e6fe30bfab132193d234376f1",
+    "local_full_json_sha256": "85a216ac134791238f5462254bffbf4792874ec33be05a0069dda0172a4275b7",
+    "local_test_log_sha256": "81a6152ca55b9ab91e581295f276df05a2aef80f3e316ace08f1890d77c050e8"
+  },
+  "verdict": "INTERNAL_REPRODUCIBILITY_PASS_FIELD_VALIDITY_OPEN_REPLICATION_SENSITIVITY_UNSTABLE_NEW_DLR_VOLUME_CONSTRAINTS_ESTABLISHED",
+  "evidence_labels": [
+    "source-derived synthetic",
+    "public observational 1s stopline count",
+    "conditional exact Bernoulli calculation",
+    "internal reviewer argument"
+  ],
+  "K047": "SEALED",
+  "CIM": "UNOPENED_HOLD",
+  "INTERACTION": "DOWNLOADED_ON_USER_PC_NOT_YET_VISIBLE_IN_CONNECTED_DRIVE"
+}
