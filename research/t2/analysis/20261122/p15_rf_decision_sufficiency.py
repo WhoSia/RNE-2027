@@ -133,11 +133,11 @@ def fixed_fixtures() -> tuple[World, ...]:
     return (
         World('o1', 'OPPOSITION', 'clock1', 'pocket', 1, 3, 'virtual_same',
               (('baseline', 0), ('treatment', -8))),
-        World('o2', 'OPPOSITION', 'clock2', 'pocket', 4, 0, 'virtual_same',
+        World('o2', 'OPPOSITION', 'clock2', 'pocket', 4, 1, 'virtual_same',
               (('baseline', 0), ('treatment', 9))),
         World('c1', 'COMMON', 'clock3', 'pocket', 1, 3, 'virtual_same',
               (('baseline', 0), ('treatment', -3))),
-        World('c2', 'COMMON', 'clock4', 'pocket', 4, 0, 'virtual_same',
+        World('c2', 'COMMON', 'clock4', 'pocket', 4, 1, 'virtual_same',
               (('baseline', 0), ('treatment', -1))),
         World('t1', 'TIE', 'clock5', 'both', 1, 0, 'virtual_same',
               (('baseline', 0), ('treatment', 0))),
