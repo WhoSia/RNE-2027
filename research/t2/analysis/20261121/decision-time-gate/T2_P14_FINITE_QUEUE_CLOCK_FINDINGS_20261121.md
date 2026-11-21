@@ -31,3 +31,9 @@ These hashes identify the local executed files; they do not claim GitHub-remote 
 3. Connect only to separately validated PHYS arrival tapes and action constraints, not by reinterpreting abstract AABB/BBAA as real signal timing.
 4. Check whether a meaningful strict reversal survives policy feasibility screening and more diverse clocks. Report effective independent arrival histories, not just 100 enumerated worlds.
 5. Keep K047 sealed, CIM dataset on HOLD, no GitHub Actions/bot.
+
+## Verified canonical source and critical correction (later same-day audit)
+
+Exact GitHub `main` readback matched local git hash-object for the executed code (`65005b44e02998985597946956cbf1c3005ffb56`), revised 14-test file (`5e58d3b742a49ee9d71f8bceabab4608d9de6aef`), and result JSON (`6c99b9cadcdaa96d650b32133c0d428fe56d4063`). After a new antisymmetry test, **14/14 local tests passed**. The final source/test pair is now exact-blob locally verified; the whole repo remains untested.
+
+Interpretation correction: the 39 negative versus 39 positive count is structurally *forced* by exchange symmetry of A and B, not evidence from independent empirical traffic-day samples. Full post-hoc 27-setting audit and proof in [P14 symmetry and sensitivity](T2_P14_SYMMETRY_AND_SENSITIVITY_AUDIT_20261121.md). The 100 worlds are deterministic exhaustive model cases, not 100 statistically independent road observations.
