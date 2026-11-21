@@ -33,6 +33,10 @@ class TestP17(unittest.TestCase):
         a,b=record(0,-305),record(3,1,positions=(-3,))
         self.assertEqual(key_for(a),key_for(b))
         self.assertNotEqual(a['decision_observation']['approach_B_positions'],b['decision_observation']['approach_B_positions'])
+    def test_position_resolved_removes_count_alias(self):
+        rows=[record(0,-305),record(3,1,positions=(-3,))]
+        self.assertEqual(screen(rows,0,mode='strict')['opposition_groups'],1)
+        self.assertEqual(screen(rows,0,mode='strict_positions')['opposition_groups'],0)
     def test_wrong_cost_rejected(self):
         a=record(0,2);a['delta_p60']=3
         with self.assertRaises(ValueError):screen([a])
@@ -59,5 +63,9 @@ class TestP17(unittest.TestCase):
         self.assertEqual(strict[(0,60)]['observation_groups'],133)
         self.assertEqual(strict[(0,60)]['witnesses'][0]['negative'][0]['delta'],-305)
         self.assertEqual(strict[(0,60)]['witnesses'][0]['positive'][0]['delta'],1)
+        positioned={(x['epsilon'],x['penalty']):x for x in data['comparisons'] if x['mode']=='strict_positions'}
+        self.assertEqual(positioned[(0,60)]['observation_groups'],141)
+        self.assertEqual(positioned[(0,60)]['collision_groups'],3)
+        self.assertEqual(positioned[(0,60)]['opposition_groups'],0)
 
 if __name__=='__main__':unittest.main()
