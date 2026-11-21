@@ -1,3 +1,11 @@
+> **2026-11-21 최신 감사 지시(아래 역사적 프롬프트보다 우선):** 문헌 원장 최초 작성 당시 미보유로 표시했던 RF 관련 12편 중 **9편은 현재 10_PAPERS PDF가 실제 확인된 보유 자료**다. 특히 WiTraffic(2017), DeepWiTraffic(2019), Shahid et al.(2025), Zhu et al.(2024), Guarino et al.(2026), WiCross(2023 포스터/2025 arXiv), Wang et al.(2025), Sai et al.(2026 원고), Ma et al.(2026). 정확 원문 미확인은 WiCrossing(2026), Dharmaraj et al.(2025), Wan et al.(2024)의 **3편**, plus 신규 후보 8편이다. 반드시 [문헌 원장의 제일 위 CURRENT 정정표](T2_RF_LITERATURE_STOCK_AND_MISSING_20261121.md)를 먼저 읽어라. 잘못된 미보유표를 복사하지 말고, Drive PDF를 먼저 직접 열어 재감사해라.
+>
+> **추가 독립 검증 도전:** [WiTraffic의 수학적 EMD 축약 구현](../../../exhibition/rf_curtain/witraffic_emd_baseline.py)과 [검증](../../../exhibition/rf_curtain/test_witraffic_emd_baseline.py)을 읽고, 왜 정규화된 1차원 EMD가 원 논문 전체 재현이 아닌지 논증해라. [Shahid(2025)의 분류 성능표 검산 프로그램](../../../exhibition/rf_curtain/published_metric_consistency.py)도 직접 반박해라: 원문 Table I에 기록된 Leguna precision=.67, recall=.57, F1=.24는 산술적 조화평균 약 .616과 맞지 않는다. 오류가 PDF 추출·표 구성·원문 수치 중 어디에 있는지 확인하고, 지적을 과장하거나 다른 데이터로 보정하지 마라.
+>
+> **독립 사유 문서 생성:** 세호가 Claude와 함께 작업한 내용을 **2026-11-21** 날짜의 [김세호의 사유 폴더](https://drive.google.com/drive/folders/1BxbNV7-e87G9phXzWJ_TBORJ4S71KBZM)에 새 네이티브 Google Docs `20261121 김세호의 사유 — T2·RF-CURTAIN 독립 비판 감사 및 문헌 재현`로 작성·검증해라. 단순한 내 연구 요약 대신 반드시 **불일치·구현 실패·실측 한계·대안·증거 링크**를 기록하고, 독립 원고를 내 이름으로 대리 작성하지 마라. 시간이 촉박하다는 전제로 서두르지 않고, 실제 원문/현물/코드 결과가 있을 때만 판정을 승격하라.
+
+---
+
 # 김세호에게 — Claude 독립감사 착수 프롬프트 (2026-11-21)
 
 안녕 세호야. 이 글은 R&E 2027 T2에 합류하거나 계속 참여하는 Claude가 그대로 사용할 **독립 비판 감사 지시문**이야. 이번 협업에서는 내가 기존 결과를 옹호하지 않도록, 네가 더 엄격하게 반증해 주었으면 해. 이전 11월 17일에 네가 찾아 준 문서 불일치, 2.05초 후행 기준, DLR 코호트 선택 편향과 SUMO 시간격자 문제를 이번 감사의 출발점으로 삼아 줘.
