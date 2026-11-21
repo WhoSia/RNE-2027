@@ -10,6 +10,8 @@ Required columns:
 | Field | Meaning |
 |---|---|
 | trial_id | Unique trial identifier; do not put participant names |
+| trial_origin | `measured_authorized_lab` or `synthetic_test_fixture`, never mix |
+
 | session_id | Whole independently reset collection session/date |
 | placement_id | Antenna geometry revision `P1`, `P2` |
 | label | One of no_demand/free/pocket/downstream/both, assigned from ground truth |
@@ -41,6 +43,8 @@ can be fit on the test set. Training coverage must contain all 5
 classes; if not, the experiment is inconclusive rather than
 silently dropping a class. Trial IDs may never overlap between
 train and test.
+
+The evaluator never treats a `synthetic_test_fixture` score as an empirical pass: the gate is `NOT_APPLICABLE_SYNTHETIC_FIXTURE`. Real-input result status remains `LAB_TRIAL_ANALYSIS_REQUIRES_SOURCE_AUDIT` until source bytes, trial provenance and labels are independently inspected. 
 
 The exploratory code contains a clearly marked **synthetic fixture**
 for testing score calculations. It is not laboratory evidence,
