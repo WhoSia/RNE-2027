@@ -53,6 +53,22 @@ class CheckpointTests(unittest.TestCase):
         self.assertEqual(direct,run(c, tape, trace=True, resume_from=checkpoint))
         self.assertEqual(direct["frames"][:84], branched["frames"][:84])
 
+    def test_observation_is_decision_time_only_and_nonmutating(self):
+        from dual_lane_v11 import checkpoint_observation
+        c=config()
+        tape=arrivals(c.base)
+        cp=run(c,tape,checkpoint_at=84)
+        old=deepcopy(cp)
+        o=checkpoint_observation(cp)
+        self.assertEqual(o['decision_tick'],84)
+        self.assertEqual(o['signal_at_decision'],'S')
+        self.assertEqual(o['receiver_vehicles'],len(cp['state']['receiver']))
+        self.assertNotIn('events',o)
+        self.assertNotIn('rng',o)
+        self.assertNotIn('future_arrivals',o)
+        self.assertEqual(cp,old)
+        self.assertEqual(o,checkpoint_observation(cp))
+
     def test_unsafe_phase_switch_rejected(self):
         c=config()
         tape=arrivals(c.base)
