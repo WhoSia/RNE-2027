@@ -60,3 +60,25 @@ P17_HISTORICAL_ZIP=/path/to/T2_PHYS04_05_05b_06_20261121_Research_Bundle.zip pyt
 ```
 
 **9/9 local tests passed**, the actual historical results were opened in this run, source/test Git blobs match committed `main`, and full audit output has a recorded SHA. This is a genuine analysis of earlier model-output bytes, *not* a fresh execution of the T2 physical engine or field observation. The 5GB held CIM dataset was untouched.
+
+
+## P18 — Exact canonical PHYS-04 parity + 256 prospective timing worlds
+
+- [P18 pre-outcome registered clock, position and action contract](P18_PROSPECTIVE_CLOCK_POSITION_ACTION_PREREG_20261122.md)
+- [Exact canonical-code and prospective results analysis](P18_CANONICAL_REPLAY_AND_PROSPECTIVE_FINDINGS_20261122.md)
+- [Executed main-compatible experiment runner](p18_clock_position_action.py)
+- [15 targeted tests](test_p18_clock_position_action.py)
+- [Compact machine-readable summary](P18_EXACT_MAIN_SUMMARY_20261122.json)
+- [Posthoc downstream-service event witness](p18_exploratory_service_witness.py), [its five tests](test_p18_exploratory_service_witness.py)
+- [Exact five-source GitHub transfer manifest](https://docs.google.com/document/d/1NCnqkEJpeUL03d7MAuy2F_DlprxGGOxlpAurA6gwjB0/edit), already in Nov22 dated Drive folder.
+
+The precise five GitHub `main` Python blob hashes matched the local runner. Fresh canonical execution regenerated **all 144 PHYS-04 paired result rows identical** to the historical P17 ZIP's original numeric rows (top-level JSON wrappers differ). The prospectively frozen P18 **256 synthetic worlds**, **32 unique arrival tapes**, **128 same-geometry clock pairs** and **768 baseline/treatment future trajectories** yielded no strict opposite-sign alias at epsilon=5 under six-count or position-complete observation. Strong real-world claims are not established. Under an *invented* minimum 6s left green, 4s is excluded; 8s meets only that single synthetic parameter and does not certify actual clearance or pedestrian constraints.
+
+Exact executable run from the `research/t2` directory, with the P18 runner and tests discoverable on `PYTHONPATH`:
+
+```sh
+PYTHONPATH=research/t2:research/t2/analysis/20261122 python -m unittest -v test_p18_clock_position_action test_p18_exploratory_service_witness
+PYTHONPATH=research/t2:research/t2/analysis/20261122 python research/t2/analysis/20261122/p18_clock_position_action.py p18_result.json
+```
+
+The 15 preregistered runner regressions and five posthoc event regressions passed locally (20/20 combined). Two complete new-cohort JSON generations were byte-identical. A 17-entry standalone local ZIP reproducer and its SHA256 `be3e10629398958500fba71151bff09e7f8312232eae4f07fee85faa3f0cd620` are available as a conversation download, **not yet shared-drive uploaded**. K047 sealed, CIM ZIP held, no GitHub Actions.
