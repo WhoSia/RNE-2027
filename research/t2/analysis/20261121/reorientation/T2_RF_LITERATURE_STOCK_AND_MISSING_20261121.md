@@ -1,3 +1,42 @@
+> **2026-11-21 보유 판정 재감사 — 아래 구판 B절의 `MISSING_CANDIDATE` 12행은 더 이상 현재 미보유표가 아닙니다.** 처음 작성 후 Research OS 정본에 입고된 PDF와 파일 ID를 다시 확인했습니다. **9편은 이미 보유**, 기존 미보유 중 3편만 원문 미확보이며 아래 추가 탐색 후보 8편도 미확보 상태입니다. 이 판정은 정확한 제목·저자·판본으로 Drive 검색하고 해당 PDF의 추출 본문을 직접 연 결과입니다. 오래된 역사적 B절은 보존하지만 현재 입고 판단에는 이 정정표를 사용합니다.
+
+## 2026-11-21 CURRENT — RFC 입고 보유 정정표 (구 B절 12편 전수 대조)
+
+| 기존 판정 | 논문 및 연도 | 현재 판정 | Drive 원문 ID / 근거 |
+|---|---|---|---|
+| 미보유 | Won, Zhang & Son (2017), WiTraffic | **HELD / PDF 내용 확인** | [1hMMeALKst2WyQUGAw0EorCZG6ddSkdK4](https://drive.google.com/file/d/1hMMeALKst2WyQUGAw0EorCZG6ddSkdK4/view) — CSI 분포의 차로별 EMD 비교, 속도 추정 및 실제 차량 실험 |
+| 미보유 | Won, Sahu & Park (2019), DeepWiTraffic | **HELD / PDF 내용 확인** | [1RSuuT9VlXv_KHIYf1u1HVOBlnmqhPqLC](https://drive.google.com/file/d/1RSuuT9VlXv_KHIYf1u1HVOBlnmqhPqLC/view) — 필터·PCA·위상 선형 보정·CNN과 영상 정답 |
+| 미보유 | Shahid et al. (2025), ESP32 CSI traffic monitoring | **HELD / PDF 내용 확인** | [1w2zgRKFFuWl3CsPBec7xHQkqi_7eNIcc](https://drive.google.com/file/d/1w2zgRKFFuWl3CsPBec7xHQkqi_7eNIcc/view) — CSI 수집, 차량유형 분류, 성능표의 산술 무결성 미검증 |
+| 미보유 | Zhu et al. (2024), Commodity Wi-Fi Sensing Survey | **HELD / PDF 내용 확인** | [1L7fKfFvdlikH_BHE-FwHls3gPWRkp0t4](https://drive.google.com/file/d/1L7fKfFvdlikH_BHE-FwHls3gPWRkp0t4/view) — CSI 장비, 다중경로, 일반화 |
+| 미보유 | Guarino et al. (2026), Reproducibility Survey | **HELD / PDF 내용 확인** | [1_p2Y2BrDnuxoTIeUc9a8OZuCNKA_0Fcj](https://drive.google.com/file/d/1_p2Y2BrDnuxoTIeUc9a8OZuCNKA_0Fcj/view) — 데이터·코드·평가 절차 공개수준 |
+| 미보유 | Niu, Su & Zhang (2026), WiCrossing | **MISSING_EXACT_PDF** | 이름 검색에서 WiCross와 관련서베이만 확인; WiCrossing과 혼동 금지 |
+| 미보유 | Dharmaraj, Dias & Hemachandra (ITSC 2025), COTS smart pedestrian crossing | **MISSING_EXACT_PDF** | 저자명 검색에서 일치 PDF 없음; 학회·온라인 발행시점 구분 |
+| 미보유 | Shi et al., WiCross (2023 poster / 2025 arXiv posting) | **HELD_PREPRINT / 판본 주의** | [1MzvUQrq-1GZ2o_e2CoApQyEwOzjwm3xl](https://drive.google.com/file/d/1MzvUQrq-1GZ2o_e2CoApQyEwOzjwm3xl/view) — PDF 본문은 2023 포스터 승인이라고 표시, 파일명 2025 arXiv v2와 구분 |
+| 미보유 | Wang, Feng & Li (2025), Wi-Fi intersection data | **HELD / PDF 내용 확인** | [1vU4Soa-iBZc7dHEK_UZdeK2TjQPrHNBe](https://drive.google.com/file/d/1vU4Soa-iBZc7dHEK_UZdeK2TjQPrHNBe/view) — 핸드셋 MAC/위치 기반 정보, CSI 아님 |
+| 미보유 | Sai et al. (2026), Wi-Fi CSI Recognition Review | **HELD_MANUSCRIPT / 판본 주의** | [1IEtuF5X_wQgRGyVuQP-oJJFRgELdSKOk](https://drive.google.com/file/d/1IEtuF5X_wQgRGyVuQP-oJJFRgELdSKOk/view) — IEEE 논문 PDF가 아닌 원고 형식, 출판 판본 검증 필요 |
+| 미보유 | Ma, Li & Fan (2026), Vehicular ISAC Survey | **HELD / PDF 내용 확인** | [179PJDhQu_nfH-ZKcomFBFhS66UxHgdNB](https://drive.google.com/file/d/179PJDhQu_nfH-ZKcomFBFhS66UxHgdNB/view) — 차량 ISAC·기지국·보안·프라이버시 |
+| 미보유 | Wan, Ma, Lo & Yu (2024), spatially sparse signal optimization | **MISSING_EXACT_PDF** | 제목·저자명 검색에서 해당 원문 ID 미확인 |
+
+**현재 구 B절 대상: 9 HELD(그중 2편은 manuscript/preprint 판본), 3 MISSING_EXACT_PDF.** 세계 전체나 비공개 계정 자료에 부재한다는 뜻은 아닙니다. 구 버전 내용을 삭제하지 않은 것은 누락 정정의 감사 추적을 위해서입니다.
+
+## NEW CANDIDATES — 신규 원문 미보유표(별도 8편, 현재 PDF ID 미확인)
+
+| 우선 | 문헌 / 공개 서지 | 구현에 필요한 이유 | 판정 |
+|---|---|---|---|
+| P0 | Zubow et al. (2024), [SensingWall: Ultra-low Cost WiFi Wireless Sensing](https://www.ccs-labs.org/bib/zubow2024sensingwall/) | ESP32 다중 RF 링크·하드웨어·실험 반복 | **MISSING_EXACT_PDF**; 저자 공개 PDF 존재 |
+| P0 | Euchner et al. (2024), [ESPARGOS: Phase-Coherent WiFi CSI Datasets for Wireless Sensing Research](https://arxiv.org/abs/2408.16377) | 위상 정합·동기화·다중 안테나 벤치마크 | **MISSING_EXACT_PDF**; 공개 프리프린트 존재 |
+| P0 | Brunello et al. (2025), [Time matters: Empirical insights into limits of temporal generalization in CSI-based Wi-Fi sensing](https://doi.org/10.1016/j.iot.2025.101634) | 세션/시간 경과에 따른 CSI 분포 이동; 교차 세션 블라인드 평가 | **MISSING_EXACT_PDF**; 기관 저장소 공개판 탐색 |
+| P0 | Khamaisi et al. (2026), [OpenCSI: Self-Calibration Layer for Heterogeneous Mesh Wireless Sensor Networks](https://arxiv.org/abs/2607.26665) | 서로 다른 ESP32 칩·방 배치의 보정과 일반화 | **MISSING_EXACT_PDF**; arXiv 공개본 탐색 |
+| P1 | [Tools and Methods for Achieving Wi-Fi Sensing in Embedded Devices](https://doi.org/10.3390/s25196220) (2025) | 실제 CSI 수집 도구·패킷률·임베디드 처리 파이프라인 | **MISSING_EXACT_PDF**; 오픈 액세스, GitHub 부속 코드 존재 |
+| P1 | [Second-based queue length estimation with fusing MMW and low penetration rate CAV trajectory data](https://doi.org/10.1080/21680566.2024.2315509) (2024) | mmWave 센싱+궤적의 교통 대기열 비교 대안 | **MISSING_EXACT_PDF** |
+| P1 | [Automatic Real-Time Queue Length Detection Method of Multiple Lanes at Intersections Based on Roadside LiDAR](https://doi.org/10.3390/electronics15030585) (2026) | 정답 기준으로 실제 다차로 대기열과 가림 검증 | **MISSING_EXACT_PDF**; OA 출판본 존재 |
+| P2 | [Real-Time Queue Length Detection with Roadside LiDAR Data](https://pubmed.ncbi.nlm.nih.gov/32326028/) (2020) | LiDAR 근거 대기열 길이 추정과 가림 보정 | **MISSING_EXACT_PDF** |
+
+미보유는 2026-11-21 현재 공유 Drive에서 **정확한 원문을 식별하지 못했다**는 뜻이다. 웹에 OA PDF가 있다고 곧바로 Drive 보유로 승격하지 않는다. 해당 P0 논문을 확보할 때 원문의 저자/연도/페이지/판본/DOI와 바이트 해시를 대조하고 10_PAPERS로 이동한다. PDF 입고 여부와 데이터셋·코드 라이선스는 별도로 판정한다.
+
+
+---
+
 # T2 / RF-CURTAIN — 2026-11-21 literature stock audit and missing-paper register
 
 **Scope:** canonical Research OS `10_PAPERS` plus previous 2026-11-10 missing ledger, full-text Drive extraction of 13 named T2 originals, targeted title/author/DOI searches, and publisher/repository bibliographic pages. This is NOT a complete byte-by-byte audit of >2000 papers. `MISSING_CANDIDATE` means **the exact relevant PDF was not located in accessible canonical Drive by targeted searches as of the audit**, not proof of absence in every private shelf. Do not copy unverified PDFs or mislabel a preprint as the published version.
