@@ -109,11 +109,12 @@
     "interpretation": "INVALID_CROSS_GEOMETRY_AGGREGATION_SAME_SEED_NOT_AN_OBSERVATIONAL_ALIAS"
   },
   "verification": {
-    "unit_tests": 8,
-    "passed": 8,
-    "source_git_blob": "01b336c019fd4d6a322aa32ccc522b9592fa1d2e",
-    "test_git_blob": "632b0a6321f4e41a1c3a6f414d89637cc7baf2c8",
-    "full_audit_json_sha256": "860ea3a25d5b96dfab6d04271cd114ccaf9ab7f035c0d45debe87b74a23c1a9b"
+    "unit_tests": 9,
+    "passed": 9,
+    "source_git_blob": "48520ec26fb215f30cdebf39803524e9c2bd3cc4",
+    "test_git_blob": "5d3cc0cc51deb0ef0d68ce7f0ce93b376067c416",
+    "full_audit_json_sha256": "833b7eecfef1d3f2ab1b7903c2b8190db661ff813f39c25525bb03a2f55f9913",
+    "local_log_sha256": "a155b46e990d1d47e68180a7439e70d424ea8889a7506839167f31aa87c10e59"
   },
   "limitations": [
     "Not freshly rerun on canonical GitHub engine",
