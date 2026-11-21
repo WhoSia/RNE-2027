@@ -40,8 +40,8 @@ OpenDRIVE contains **7 static `road/signals/signal` elements with only 6 distinc
 
 - [Implementation](p23_map_volume_alignment.py) performs exact SHA-256 source gate, XML OpenDRIVE arc/line centerline conversion, official UTM-to-OpenDRIVE CRS, exhaustive trajectory map distance, 100m negative-control, and binary 1Hz stopline movement audit.
 - [Seven regression tests](test_p23_map_volume_alignment.py): all 8,624 real source positions and 893 volume bins, 100m negative control, static/dynamic signal namespace non-equality, exact coordinate landmark, invalid sampling stride, wrong SHA failure, and forbidden unsupported stopline/headway inference.
-- **7/7 tests PASSED locally** on the three exact raw source files. Source Git blob `16c830a93b6dda4860d200f1b7c03c95dcb84105`, test blob `e876bb34fa551bfcef4549fa4dc371120be369c7`; exact hashes have been read back from GitHub `main`.
-- [Full structured result](P23_DLR_SPATIAL_ALIGNMENT_RESULT_20261122.json), locally reproduced SHA-256 `36c1032db31698af3a19c3c01d63822b56a39445461e1b8e1760edf661cc9f35`; 7-test transcript SHA-256 `e48c3fda4ef1377f6e05857069125c460cff69babab0f41fa39e3952ea31f758`.
+- **7/7 tests PASSED locally** on the three exact raw source files. Source Git blob `16c830a93b6dda4860d200f1b7c03c95dcb84105`, test blob `c4e2583b6856d98e768481d6392a0066c2062867`; exact hashes have been read back from GitHub `main`.
+- [Full structured result](P23_DLR_SPATIAL_ALIGNMENT_RESULT_20261122.json), locally reproduced SHA-256 `36c1032db31698af3a19c3c01d63822b56a39445461e1b8e1760edf661cc9f35`; 7-test transcript SHA-256 `b71aa5d5589d96188dde5953178ad01223f9382a37310c929007aad4d3bb0477`.
 - Dependencies: Python 3.13, pyproj 3.7.2, Shapely as installed; this audit does not require the synthetic T2 engine or SUMO.
 
 ```bash
