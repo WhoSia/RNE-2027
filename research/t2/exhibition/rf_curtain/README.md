@@ -1,0 +1,77 @@
+# RF-CURTAIN — Seeing the reason for green-time non-discharge without images
+
+**2026-11-21 / R&E 2027 / exhibition exploratory track / stage: DESIGN, NOT PHYSICAL DEMONSTRATION**
+
+## The audience-facing idea
+"Could a traffic light use the disturbance of ordinary Wi-Fi radio signals as a
+non-imaging sensor to distinguish a short left-turn-bay queue from a full
+downstream link, before recommending any change to signal timing?"
+
+A camera asks *where do the vehicles appear?* Our experiment first asks
+*which physically located radio paths change, and can the pattern distinguish
+two causes of unused green?* It also asks explicitly when the answer is NO.
+
+## Not one project with everything bolted on
+
+Track **E** (Exhibition, apparatus + truth labels):
+- An authorized indoor, tabletop intersection with vehicle stand-ins.
+- A few fixed, known transmitter/receiver radio links across named
+  observation zones, each using **our own packets and hardware**.
+- Conditions: no demand, moving through traffic, pocket entrance blocked,
+  downstream occupied, and both blocked.
+- Detect both **stationary occupancy** and motion; when possible, compare
+  RF CSI amplitude/phase aggregates to a simple RSSI-only baseline.
+- Keep source labels from manually documented model traffic state, not
+  the same RF features being evaluated. Optional ground-truth video stays
+  offline and is never presented as a Wi-Fi-derived image.
+- Main score: held-out-layout and held-out-session diagnosis, false causes,
+  abstentions and inference latency; include a negative result if metal
+  vehicles/adjacent lanes cannot be separated.
+
+Track **T** (Existing T2 physics, parallel):
+- Preserve all current PHYS and arrival-clock result tapes; never
+  claim they measure radio propagation.
+- Only after **measured** confusion probabilities become available
+  evaluate if sensor observations reduce conditional policy regret
+  against an admissible signal-action set.
+- A traffic signal on a real road is not modified in this project.
+
+## Distinct hypotheses (not accomplished results)
+H1: In a controlled small intersection, two spatially separated *licensed,
+authorized Wi-Fi CSI observation links* can discriminate pocket-entry
+obstruction from downstream congestion across unseen sessions better
+than one RSSI link.
+
+H2: The possible improvement does **not** automatically transport when
+the link mounting locations, reflective environment or vehicle scale change.
+The out-of-placement failure is a central outcome, not an optional note.
+
+H3: Under measured source-classification error, adding a detector may
+fail to change any admissible signal-policy choice. Thus sensor diagnostic
+accuracy and **decision value** must be reported separately.
+
+## Hard stop/no-go
+- We do NOT yet know if any currently owned devices expose CSI; ordinary
+  laptop/router RSSI alone is not interchangeable with CSI.
+- Public published Wi-Fi CSI vehicle and outdoor crossing research makes
+  'Wi-Fi used for traffic detection' prior art.
+- First-Fresnel-zone geometry is a *potentially sensitive region*, not a
+  pixel grid or a guarantee of lane recognition.
+- Target outside school/lab: only after supervising institution approvals;
+  no transmitters near active roadway, controller wiring, signal
+  modification or third-party device interception.
+- Never collect identifiable passenger trajectories, Wi-Fi device addresses,
+  unrelated network traffic or human pose data.
+- Hardware procurement: **none authorized by this research plan**.
+  Start with source review, geometric audit, and existing available gear.
+  A public pedestrian Wi-Fi dataset cannot validate vehicle congestion.
+
+## Proposed exhibit
+A transparent tabletop junction, labeled model vehicles, two isolated
+radio corridors, a display showing each *measured channel-quality trace*
+and an honest diagnostic: 'pocket', 'downstream', 'both', 'unresolved'.
+A visual camera may be used solely to check the truth labels.
+An on-screen virtual traffic light illustrates potential signal
+information value; it never operates a real signal controller.
+
+See PRIOR_ART_AND_ALTERNATIVES.md, GEOMETRY_GATE.md, PILOT_PREREG.md.
