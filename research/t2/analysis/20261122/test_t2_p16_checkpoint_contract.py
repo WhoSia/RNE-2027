@@ -32,6 +32,12 @@ class P16Tests(unittest.TestCase):
         r=summarize_checkpoint(obs(r=(0,1)),receiver_capacity=2)
         self.assertTrue(r['receiver_full'])
         self.assertEqual(r['receiver_free_cells'],0)
+    def test_full_implies_entry_cell_occupied(self):
+        for capacity in (1,2,3,4):
+            o=obs(p=0,r=tuple(range(capacity)))
+            summary=summarize_checkpoint(o,receiver_capacity=capacity)
+            self.assertTrue(summary['receiver_full'])
+            self.assertTrue(summary['receiver_entry_cell_occupied'])
     def test_invalid_capacity(self):
         for v in (0,True,-1):
             with self.assertRaises(ValueError): summarize_checkpoint(obs(),receiver_capacity=v)
