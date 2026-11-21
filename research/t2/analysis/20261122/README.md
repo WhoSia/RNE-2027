@@ -131,3 +131,16 @@ Next: use an explicitly mapped real signal ID/stopline and independently execute
 - [Machine-readable P21 manifest](P21_DLR_SIGNAL_RUNS_AND_INTERACTION_CUSTODY_20261122.json)
 
 **8/8 local tests, exact `main` blob-match**. DLR real 2023-09-24 15-minute sample: 37 tracked IDs, 30 signal IDs, 869 code changes, 899 code runs, 4 object IDs with low-speed pairs. Numeric signal codes are **NOT yet mapped to colors or stoplines**. The user reported both INTERACTION archives downloaded to PC; neither was found in accessible Drive/attachments. [Prepared original archive folder](https://drive.google.com/drive/folders/1k-EEwOyBgUVoQaGwQsModGfmP92w0Gzv) is empty until explicit upload. No false move or archive inspection claim.
+
+
+## P22 — BFS/DFS archive replay, adversarial independent-unit audit, actual DLR stopline counts
+
+- [P22 preregistration (committed before newly collected DLR windows)](P22_ADVERSARIAL_REALITY_GATE_PREREG_20261122.md)
+- [Six-role adversarial findings and negative controls](P22_ADVERSARIAL_MULTIROLE_FINDINGS_20261122.md)
+- [Exact-source block/stopline analysis](p22_block_and_stopline_audit.py) and [7 source-backed tests](test_p22_block_and_stopline_audit.py)
+- [Post-prereg exploratory terminal-penalty sensitivity rerunner](p22_penalty_sensitivity.py)
+- [Machine-readable result, independent units, raw checksums and release](P22_ADVERSARIAL_STOPLINE_AND_BLOCK_RESULTS_20261122.json)
+
+**7/7 tests PASS** using exact-DLR original 1s movement-volume files; all 3 input byte SHA256 matched. DLR Sunday 2023-09-24 UTC 12:00 436 crossing bins/32 movement columns, 18:00 192/27, 23:30 17/12; variable columns and vastly different traffic intensity flag invalid constant-schema and night-as-congestion assumptions. P19 256 world outcomes use only 16 full arrival tapes, not 256 independent traffic days; at offset15 0/128 harm = 0/16 tape blocks. Exact conditional IID 95% one-sided upper probability 0.1707497 confirmed in Wolfram, **not valid field-world confidence without IID**. Offset0 +5108 aggregate reverses to −2248 if seed115 omitted or −2230 if seed118 omitted. Post-prereg model penalty 0/60/120 rerun holds policy sign frequencies, but does not validate physically feasible signal interventions.
+
+Actual [shared Drive P22 8-member reproduction ZIP](https://drive.google.com/file/d/1ZbIMHN_4r7xU_xckynxcnlMLB_MG-d35/view) uploaded to 03_REPRODUCIBLE_EVIDENCE/10_RELEASE_BUNDLES, **re-downloaded and SHA256 verified** (9,771 bytes, 73badd36c839968018d9e2420195a3431379895ec4d5e5b22d0609f6506543f8). Original publisher CSV files remain exclusively in 02_DATASETS and have not been replaced. Core research priorities remain physical traffic, real sensing, decision-value; dataset intake does not override scientific gates.
