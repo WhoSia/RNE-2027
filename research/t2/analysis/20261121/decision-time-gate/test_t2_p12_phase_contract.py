@@ -57,6 +57,15 @@ class PhaseContractTests(unittest.TestCase):
         self.assertGreater(len(data["violations"]), 0)
         self.assertEqual(data["duration_ticks"], 12)
         self.assertEqual(data["status"], "ILLUSTRATIVE_SIMULATION_CONTRACT_NOT_REGULATORY")
+    def test_duplicate_adjacent_rejected(self):
+        result = check_plan((Stage("left", 8, 0, 0),
+                             Stage("left", 8, 0, 0)), contract())
+        self.assertIn("stage_0:duplicate_adjacent_movement", result)
+
+    def test_single_stage_cyclic_not_duplicate(self):
+        self.assertEqual(check_plan((Stage("left", 8, 0, 0),),
+                                    contract(cyclic=True)), ())
+
     def test_duration_no_overlap(self):
         self.assertEqual(duration_ticks((Stage("through", 8, 2, 1),
                                          Stage("left", 8, 2, 1))), 22)
