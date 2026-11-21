@@ -20,6 +20,8 @@ Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) for active T2 
 
 ## Current T2 decision gate (2026-11-21)
 
-The three linked PHYS studies (192 + 384 + 128 synthetic runs) found model-dependent interactions among pocket geometry, permissible lane-change opportunity timing, and signal-phase order. Next, preserve an identical predecision microscopic state at tick 84, then branch only the postdecision intervention and compare paired outcomes. See [the synthesis](research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md).
+The earlier three linked PHYS studies (192 + 384 + 128 synthetic runs) found model-dependent interactions among pocket geometry, lane-change opportunity timing and phase order. See [the 704-run synthesis](research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md).
+
+**New PHYS-04/05/05b/06:** source-derived local execution compared 144 same-state signal interventions against independent references, tested a 432-case unseen synthetic seed set, assessed observation noise, and exposed target-lane clearance assumptions. The exact GitHub blob checkout and committed test-suite certification are **still pending**. See the [evidence handoff and verification gate](research/t2/analysis/20261121/decision-time-gate/PHYS_04_05_05B_06_EVIDENCE_HANDOFF.md) and [shared Drive ZIP](https://drive.google.com/file/d/1nIHmzoz0Yk3YUqaaxvbBWH7ztgR2ddo-/view?usp=drivesdk).
 
 The cellular model is an **uncalibrated research prototype**, not a VISSIM reproduction, field causal estimate, or road-control recommendation. The K047 holdout remains sealed.
