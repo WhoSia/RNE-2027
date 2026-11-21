@@ -1,0 +1,57 @@
+# RF05 — Diverse idea-farming literature radar and exact-PDF missing registry
+
+2026-11-21 · Research OS / R&E 2027 T2 · Scope: invention exploration, NOT a claim of discovery priority or original reproduction.
+
+## Exact meaning of MISSING
+
+**NOT_LOCATED_IN_ACCESSIBLE_DRIVE** means a targeted title/author search of connected Research OS Drive did not identify a matching *exact PDF*. It does NOT mean the paper is absent from the internet, that all Drive shelves have been exhaustively scanned, or that a freely accessible dataset has a reusable license. Official publication links are supplied for voluntary intake. Do not overwrite or duplicate originals without title, DOI, author/year and version comparison. No purchases authorized. No student-installed live-road sensors.
+
+### A. Previously registered missing exact originals (carry-forward, five)
+
+| ID | Source | Official/source link | Idea |
+|---|---|---|---|
+| OLD-1 | Niu, Su & Zhang (2026), *WiCrossing: First-Fresnel-Zone Crossing Detection Using Commodity Wi-Fi* | [IEEE DOI / 10.1109/JIOT.2026.3665708](https://doi.org/10.1109/JIOT.2026.3665708) | RF geometry-only crossing, NOT static queue identity |
+| OLD-2 | Dharmaraj, Dias & Hemachandra (ITSC 2025 / online 2026), *Enabling Scalable, Privacy-Preserving Smart Pedestrian Crossings With CSI-Based Sensing on COTS Hardware* | [IEEE 11423151](https://ieeexplore.ieee.org/document/11423151/) | Field transfer versus classroom RF |
+| OLD-3 | Wan, Ma, Lo & Yu (2024), sparse trajectory-based traffic signal optimization (exact title/version to verify) | [Transportation Research C DOI 10.1016/j.trc.2024.104643](https://doi.org/10.1016/j.trc.2024.104643) | Partial observations → control; check bibliographic match before admission |
+| OLD-4 | *Second-based queue length estimation with fusing MMW and low penetration rate CAV trajectory data* (2024) | [DOI 10.1080/21680566.2024.2315509](https://doi.org/10.1080/21680566.2024.2315509) | mmWave + partial connected-car trajectories |
+| OLD-5 | *Real-Time Queue Length Detection with Roadside LiDAR Data* (2020) | [PubMed 32326028](https://pubmed.ncbi.nlm.nih.gov/32326028/) | Queue ground-truth reference and occlusion |
+
+**Do not re-list as missing:** RF04 admitted actual original PDFs of Zubow/SensingWall2024, Euchner/ESPARGOS2024, Brunello/Time matters2025, Khamaisi/OpenCSI2026v2, Armenta-Garcia/EmbeddedCSI2025, Chen/RoadsideLiDAR2026, plus one additional cross-domain paper. Original IDs in [RF04 source receipt](RF04_INTAKE_00_LITERATURE_RECEIPT_20261121.md).
+
+### B. New cross-disciplinary idea candidates, exact PDF not located (17)
+
+| New ID | Discipline | Source / verified publication or data landing page | Specific exhibit/research idea | Fatal experiment or drawback |
+|---|---|---|---|---|
+| RAD-01 | **DAS, fiber-optic** | [*Long-Range Traffic Monitoring Based on Pulse-Compression Distributed Acoustic Sensing and Advanced Vehicle Tracking and Classification Algorithm* (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10059793/) | **The cable is the sensor:** reconstruct passage spacetime from vibrations in optical fiber | High-cost interrogator; existing communication fiber is not automatically a DAS system |
+| RAD-02 | Fiber-optic phase | [*The Performance of Distributed Acoustic Sensing for Tracking the Movement of Road Vehicles* (IEEE T-ITS 2024, open PDF)](https://norceresearch.brage.unit.no/norceresearch-xmlui/bitstream/handle/11250/3158264/The_Performance_of_Distributed_Acoustic_Sensing_for_Tracking_the_Movement_of_Road_Vehicles.pdf?isAllowed=y&sequence=1) | Compare phase-sensitive and intensity-sensitive vibration extraction at low speed | Coupling to pavement and road geometry; fiber optics not cheap DIY |
+| RAD-03 | DAS survey | [*Distributed Acoustic Sensing for Road Traffic Monitoring: Principles, Signal Processing, and Emerging Applications* (2025)](https://www.mdpi.com/2412-3811/10/9/228) | Turn prior fiber sensing into a failure-mode taxonomy | Review; not independent evidence of small tabletop capability |
+| RAD-04 | DAS / edge | [*Edge Computing in Distributed Acoustic Sensing: An Application in Traffic Monitoring* (arXiv 2024)](https://arxiv.org/abs/2410.16278) | Low-latency pattern extraction at a sensor edge | Algorithm demonstration dependent on inaccessible optical infrastructure |
+| RAD-05 | Geomagnetic | [*Traffic Vehicle Counting in Jam Flow Conditions Using Low-Cost and Energy-Efficient Wireless Magnetic Sensors* (Sensors 2016)](https://www.mdpi.com/1424-8220/16/11/1868) | **Traffic light senses magnetic queue** without camera | Metal model vehicles vs realistic full-size vehicle signature; tailgating false counts |
+| RAD-06 | Magnetic multi-sensor | [*Application of Wireless Magnetic Sensors in the Urban Environment and Their Accuracy Verification* (Sensors 2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10303498/) | Magnetic zones as a low-cost *actual* spatial baseline for RF | Moving metal detection is not automatically static cause attribution |
+| RAD-07 | Roadside audio | [*Traffic Noise Assessment Using Intelligent Acoustic Sensors (Traffic Ear) and Vehicle Telematics Data* (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10422506/) | **Listen to traffic** to distinguish moving versus idling/blocked model | Quiet stationary congestion and ambient voices break inference; privacy and consent |
+| RAD-08 | Beamforming | [*An Acoustic Traffic Monitoring System: Design and Implementation* (2015)](https://doi.org/10.1109/uic-atc-scalcom-cbdcom-iop.2015.41) | Two microphone zones to localize road activity without image | Multipath, wind, ambient conversations, microphone synchronization |
+| RAD-09 | mmWave | [*Urban traffic congestion alleviation system based on millimeter wave radar and improved probabilistic neural network* (2023)](https://doi.org/10.1049/rsn2.12443) | Range–Doppler to recognize queue formation and discharge | Radar hardware cost and static-target clutter; traffic phase feasibility separate |
+| RAD-10 | Radar dataset | [*Open urban mmWave radar and camera vehicle classification dataset for traffic monitoring* (Zenodo 2023)](https://zenodo.org/records/8301276) | Reproduce the radar baseline **without buying hardware** if license/bytes permit | Dataset label is vehicle class, not pocket/downstream cause |
+| RAD-11 | Event camera | [Verma et al., *eTraM: Event-based Traffic Monitoring Dataset* (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Verma_eTraM_Event-based_Traffic_Monitoring_Dataset_CVPR_2024_paper.html) | **Traffic light sees changes, not frames** in low light/high dynamic range | Static stopped car produces few events: detection failure is informative |
+| RAD-12 | Multiview event camera | [*TUMTraf CrossVision: A Multi-View Multi-Modal Vision Dataset for Arterial Intersection Traffic Surveillance* (2025 conference)](https://doi.org/10.1109/ICVES65691.2025.11375933) | Cross-view object association and blinded viewpoint shift | Expensive event-camera hardware and privacy considerations |
+| RAD-13 | Thermal imaging | [*Automatic Traffic Data Collection under Varying Lighting and Temperature Conditions: Thermal versus Visible Spectrum Video-Based Systems* (2017)](https://doi.org/10.1155/2017/5142732) | **Night traffic without visible-light contrast** | Thermal hardware/heat confounds; thermal camera still images people |
+| RAD-14 | Dynamic observability | [*Sensor placement considering the observability of traffic dynamics: On the algebraic and graphical perspectives* (Transportation Research B 2024)](https://www.sciencedirect.com/science/article/pii/S0191261524001814) | **Place only 1–2 sensors where they are informative** using state observability | Model-dependent observability, not proof real RF zones separate |
+| RAD-15 | Sensor-selection survey | [*Efficient Sensors Selection for Traffic Flow Monitoring: An Overview of Model-Based Techniques Leveraging Network Observability* (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11902514/) | Formal rank/graph observability and minimal-sensor experiment | Prior art; merely optimizing sensor location isn't novel |
+| RAD-16 | Information + graph ML | [Zhang, Fakhrmoosavi & Zaghi, *A Joint Information-Theoretic and Graph Learning Framework for Sensor Placement and Macroscopic Traffic State Reconstruction* (arXiv 2609.13212, 2026)](https://arxiv.org/abs/2609.13212) | Target information gain, not classifier accuracy, from sparse sensors | Large network simulation is far from two-zone classroom RF |
+| RAD-17 | Kinematic waves | [*Shock Wave Approach for Estimating Queue Length at Signalized Intersections by Fusing Data from Point and Mobile Sensors* (Transportation Research Record 2014)](https://journals.sagepub.com/doi/10.3141/2422-09) | Reconstruct **invisible tail of a queue** from one point sensor + trajectory | Requires valid vehicle-flow/shockwave model and calibrated data |
+
+**Current radar totals from these declared scopes:** 5 carried prior missing exact originals + 17 new ideas = **22 exact-PDF-not-located candidate records**. Not 22 absent scholarly papers, and not a total inventory of all Drive content. Publisher pages and data landing URLs differ from directly downloadable fulltext: distinguish `OPEN_PDF`, `ABSTRACT_ONLY`, `DATASET_WITH_LICENSE_CHECK`, `PREPRINT` at intake.
+
+## C. Ranked *research pathways*, not product recommendations
+
+1. **Minimal cause-identifying sensing**: RF two longitudinal sections, plus magnetic sensor or a trusted (consented) toy model ground truth, reject if physically distinct causes remain observationally aliased. Read WiTraffic held, OpenCSI held, RAD-14/15 and traffic spillback held.
+2. **Traffic light 'hears' blockage**: acoustic array vs magnetic/RF static control; stop if stationary vehicles are indistinguishable from no demand. Read RAD-07/08/05 and original Wu/Qi traffic queue papers.
+3. **Event camera blind spot as scientific subject**: dynamic event recording vs stopped queues; compare eTraM RAD-11 against frame ground truth, not proof of good occupancy under stop. Do not equate event count with cars present.
+4. **Underground light-pulse traffic sensor**: fiber DAS (RAD-01/02/03/04) as future institutional collaboration; not a first-pass budget prototype because an optical interrogator is required.
+5. **Sparse information instead of classifier**: compute whether minimal observation zones distinguish meaningful physical states or interventions; report an impossibility/negative result if not. Use RAD-14/15/16/17 and existing T2 exact physical checkpoint.
+
+**Anti-hype clauses:** Real RF detection is still unmeasured. High previous authors' accuracy is not transportable. Vibration and acoustic hardware are not demonstrated to detect static traffic states; the surprise value belongs to carefully tested *limitations*. No public controller operation or third-party wireless identifiers. K047 sealed and GitHub Actions disabled.
+
+## D. Immediate work with already held PDFs
+
+For actual experiments before any new acquisition, use HELD Brunello (2025), Guarino (2026), OpenCSI (2026v2), WiTraffic (2017), SensingWall (2024), ESPARGOS (2024), Wu (2024), Qi (2020), Shafik/Rakha (2025), Lighthill/Whitham (1955) and Newell (1993). Apply the **RF05 crossed session × placement preregistration** and method-code unit tests. Avoid putting artificial CSI numerical fixtures into a table of real sensor performance.
