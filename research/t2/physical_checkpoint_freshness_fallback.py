@@ -24,7 +24,7 @@ REGIMES = (('uniform_baseline', 1800, .5), ('uniform_lowturn', 1350, .3))
 
 def freshness_choice(age_s, measured_action, geometry_action, threshold_s=FALLBACK_AGE_S):
     """Choose a frozen heuristic based on telemetry age, never on outcomes."""
-    if not isinstance(age_s, int) or age_s < 0 or not isinstance(threshold_s, int) or threshold_s < 1:
+    if type(age_s) is not int or age_s < 0 or type(threshold_s) is not int or threshold_s < 1:
         raise ValueError('invalid telemetry age or threshold')
     return measured_action if age_s < threshold_s else geometry_action
 
