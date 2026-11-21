@@ -47,7 +47,7 @@ class P15Tests(unittest.TestCase):
 
     def test_distinct_group_count(self):
         a,b = fixed_fixtures()[:2]
-        b = World('o2', 'OPPOSITION', 'clock1','pocket',4,0,'virtual_same',
+        b = World('o2', 'OPPOSITION', 'clock1','pocket',4,1,'virtual_same',
                   (('baseline',0),('treatment',9)))
         r = audit((a,b))[0]
         self.assertEqual(r['world_count'],2)
@@ -57,7 +57,7 @@ class P15Tests(unittest.TestCase):
 
     def test_strict_opposition_not_claimed_from_same_group_as_independent(self):
         a,b = fixed_fixtures()[:2]
-        b = World('o2', 'OPPOSITION', 'clock1','pocket',4,0,'virtual_same',
+        b = World('o2', 'OPPOSITION', 'clock1','pocket',4,1,'virtual_same',
                   (('baseline',0),('treatment',9)))
         record = audit((a,b))[0]
         self.assertFalse(record['cross_arrival_group_pairs'])
