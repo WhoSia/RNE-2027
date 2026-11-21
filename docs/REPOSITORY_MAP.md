@@ -180,3 +180,14 @@ The core research remains **T2 traffic physics and model-relative policy falsifi
 **RF08 exhibition** — [official ESP-CSI minimum empirical ladder](../research/t2/exhibition/rf_curtain/RF08_OFFICIAL_CSI_MINIMUM_DEMO_GATE_20261121.md) and [independently accepted T2 simulator vs RF sensor demonstrators](../research/t2/exhibition/rf_curtain/RF08_DUAL_TRACK_EXHIBITION_ACCEPTANCE_20261121.md). CSI still requires appropriate authorized owned devices, supervision and independent truth labels; no measurements or hardware purchase were made.
 
 All changes are targeted to `main`. No GitHub Actions/bot, sealed K047, the separately held large CIM ZIP left untouched.
+
+
+## 2026-11-21 T2-P14 exact toy clock screen / RF09 source-trace gate
+
+**T2 P14**: A deliberately small and separate four-slot, two-queue cost model exhaustively compared abstract AABB/BBAA service orders across 100 fixed-demand timestamp tapes. [Exact local source](../research/t2/analysis/20261121/decision-time-gate/t2_p14_clock_screen.py), [14 exact-blob-matched local tests](../research/t2/analysis/20261121/decision-time-gate/test_t2_p14_clock_screen.py), [machine-readable 100-world result](../research/t2/analysis/20261121/decision-time-gate/t2_p14_results.json), [findings](../research/t2/analysis/20261121/decision-time-gate/T2_P14_FINITE_QUEUE_CLOCK_FINDINGS_20261121.md), [structural symmetry / post-hoc sensitivity correction](../research/t2/analysis/20261121/decision-time-gate/T2_P14_SYMMETRY_AND_SENSITIVITY_AUDIT_20261121.md).
+
+Result: 39 AABB-favored / 39 BBAA-favored / 22 ties. **This symmetry is mathematically enforced by equal lane treatment and complete swapped-tape enumeration** and must not be cited as an empirical frequency. Fourteen locally executed tests and all three committed artifact Git blobs were hash-compared to the executed files. This is **NOT a PHYS engine run, sensor measurement, or operational signal test**.
+
+**RF09 Harvest**: [first-party CSI acquisition versus viral camera-like display](../research/t2/exhibition/rf_curtain/RF09_CSI_FIRST_PARTY_VS_VIRAL_VISUALIZATION_HARVEST_20261121.md). Official Espressif sender/receiver examples establish a realistic *measurement target*, not verified object localization. Cheap optical/magnetic baselines and independent empty/static/moving truth labels remain essential; no hardware was obtained or used.
+
+Both tracks remain independent until model-real observation evidence exists. No GitHub Actions/bot, no K047 access, no CIM dataset inspection.
