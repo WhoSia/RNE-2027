@@ -65,5 +65,29 @@
     "Signal point proximity does not establish controlled lanes or stopline ordering",
     "Actual 1Hz signal state sampling cannot resolve subsecond transition instants",
     "No live road controller operations or safety claims"
-  ]
+  ],
+  "research_genealogy": "P23 official codebook and signal-purpose classification already completed; P24 independently verifies and extends physical coordinate coverage + transition matrix",
+  "coordinate_coverage_by_publisher_purpose": {
+    "motor_traffic": {
+      "ids_with_coordinates": 9,
+      "total_ids": 9,
+      "coordinate_rows": 18
+    },
+    "vulnerable_road_users": {
+      "ids_with_coordinates": 16,
+      "total_ids": 20,
+      "coordinate_rows": 16,
+      "missing_ids": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "special_warning": {
+      "ids_with_coordinates": 1,
+      "total_ids": 1,
+      "coordinate_rows": 1
+    }
+  }
 }
