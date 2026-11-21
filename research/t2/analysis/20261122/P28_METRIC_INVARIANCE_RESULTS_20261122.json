@@ -1,0 +1,36 @@
+{
+  "protocol": "T2_P28_POST_HOC_EVENT_METRIC_COLLISION",
+  "status": "SYNTHETIC_EVENT_INSTRUMENTATION_NOT_CONGESTION_METRIC",
+  "inputs": {
+    "P25_P26_full_sha256": "640ec195830abae2ab99d202d43d92aaf3cbbc5f875a0ddc6765fe82f20c19e4",
+    "P27_full_sha256": "339a9aacc5f3539bbc65931ab9655f362a58ed19305debca53a25e1a6de9b962"
+  },
+  "source_git_blobs": {
+    "runner": "ab596da4739198fa7e2dbde729e240720ef5de82",
+    "tests": "eee35d19235daaedabbd52d5ecb056604c81b92f"
+  },
+  "full_summary_sha256": "af223bc6645a77844c1f955da7135878eb94b236fd728a3f2be9d32b15d73f6f",
+  "tests_passed": 8,
+  "tests_total": 8,
+  "tests_log_sha256": "429db4d63bbd71016f3e06bd6edb6f168dba0d3c7da4b94f853fa1af414acab0",
+  "source_p26_worlds": 64,
+  "source_p27_worlds": 128,
+  "frozen_p26_vs_p27_h2_exact_comparisons": 64,
+  "score_equal_but_different_denial_attempts_6_vs10_p26": 64,
+  "denial_increment_6_vs10_p26": {
+    "4": 64
+  },
+  "denial_increment_6_vs10_p27": {
+    "4": 128
+  },
+  "denial_increment_10_vs16_p27": {
+    "6": 128
+  },
+  "left_crossing_6_vs10_changed_but_cost_equal_p27": 32,
+  "left_crossing_6_vs10_unchanged_and_denial_changed_p27": 96,
+  "limits": [
+    "A denied attempt can repeat for the same vehicle across ticks.",
+    "Denials are policy opportunity-conditioned and should not serve as a treatment-invariant physical congestion measure.",
+    "This is posthoc exploration, not real-world evidence."
+  ]
+}
