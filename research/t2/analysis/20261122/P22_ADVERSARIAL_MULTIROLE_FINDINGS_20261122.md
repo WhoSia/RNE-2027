@@ -74,3 +74,13 @@ MCP_Hub provider was inspected: its currently surfaced 24 actions are bounded ut
 - **Decision information (priority3):** predefine feasible phase action set, then estimate value of predecision observables and worst-case regret across distinct test days/tapes. If no different-action same-observation world is found under ε=5, preserve NO_WITNESS rather than silently dropping matching constraints.
 
 No real traffic-signal actuation, K047 still sealed, CIM ~5GB still hold/unseen, INTERACTION not yet accessible from PC downloads, no GitHub Actions bot, no speculative policy-effect claims. Source lineage: P22 exact local script/log, existing original DLR metadata and P19 frozen JSON, archival chat excerpts specified above.
+
+
+## 5. Release custody and exact-byte acceptance (verified, not merely requested)
+
+This P22 reproducibility bundle was **actually uploaded** as a new Drive file to [03_REPRODUCIBLE_EVIDENCE/10_RELEASE_BUNDLES](https://drive.google.com/drive/folders/1oiCJy7Df2rzE_90jFeek15_is55VbqML), then re-downloaded for an independent source-byte SHA match.
+
+- [T2_P22_20261122_ADVERSARIAL_PHYSICAL_REALITY_AUDIT.zip](https://drive.google.com/file/d/1ZbIMHN_4r7xU_xckynxcnlMLB_MG-d35/view): provider file ID `1ZbIMHN_4r7xU_xckynxcnlMLB_MG-d35`, size **9,771 bytes**, SHA256 **`73badd36c839968018d9e2420195a3431379895ec4d5e5b22d0609f6506543f8`**.
+- **Re-download SHA256 exactly matched the local ZIP.** Eight members: exact-main source, seven tests, full 3-window+P19 block result, verbose run log, postprereg sensitivity runner, sensitivity JSON, manifest, SHA256SUMS.
+- Publisher DLR raw CSVs are **NOT** duplicated in the ZIP and stay in the immutable 02_DATASETS original shelf. A release archive does not establish independent SUMO or physical RF performance.
+- Repository main holds code and structured results, the Drive evidence shelf holds checked bytes, and the daily Google Doc holds interpretation.
