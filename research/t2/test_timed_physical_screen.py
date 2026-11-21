@@ -1,12 +1,12 @@
-import json
 import unittest
-from pathlib import Path
 from timed_physical_screen import experiment,assert_baseline_equal,WINDOWS
+from physical_transfer_screen import experiment as run_original_192
 
 class PhysicalTimingScreenTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.r=experiment()
+  cls.original=run_original_192()
  def test_case_and_pair_counts(self):
   self.assertEqual(len(self.r['runs']),384)
   self.assertEqual(len(self.r['phase_pairs']),192)
@@ -16,8 +16,7 @@ class PhysicalTimingScreenTests(unittest.TestCase):
   self.assertEqual(sum(b-a for a,b in WINDOWS['late']),90)
   self.assertEqual(len(WINDOWS['early']),len(WINDOWS['late']))
  def test_original_192_controls_reproduce_exactly(self):
-  baseline=json.loads(Path('physical_192_runs.json').read_text())
-  self.assertEqual(assert_baseline_equal(self.r,baseline),192)
+  self.assertEqual(assert_baseline_equal(self.r,self.original),192)
  def test_reversal_grid_and_penalty_robustness(self):
   self.assertEqual(self.r['summary']['reversals_by_penalty'],{'0':25,'60':25,'120':24})
   self.assertEqual(self.r['summary']['ties_p60'],0)
