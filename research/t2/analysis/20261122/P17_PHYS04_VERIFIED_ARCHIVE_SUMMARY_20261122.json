@@ -1,0 +1,126 @@
+{
+  "protocol": "T2_P17_HISTORICAL_PHYS04_EXACT_ARCHIVE_AUDIT_20261122",
+  "evidence_status": "HISTORICAL_SOURCE_DERIVED_SYNTHETIC_NOT_CANONICAL_PHYS_RERUN",
+  "original_zip_drive_url": "https://drive.google.com/file/d/1nIHmzoz0Yk3YUqaaxvbBWH7ztgR2ddo-/view",
+  "zip_sha256": "7f7eff90b83cfe5e1f071bb02d5880face9c0e047abcd17349cd3fb06392758e",
+  "inner_result": "canonical_local_capacity144.json",
+  "inner_result_sha256": "0d91beab746b8e67bf1fa5ea327e3c982d10e39b57cd5cf2fef020ad328e1001",
+  "all_rows": 144,
+  "rows_passed_schema_cost_and_capacity_audit": 144,
+  "across_all_penalties": [
+    0,
+    60,
+    120
+  ],
+  "strict_matching": {
+    "fields": [
+      "capacity",
+      "pocket_m",
+      "b_share",
+      "outside_A",
+      "outside_B",
+      "approach_A",
+      "approach_B",
+      "pocket_vehicles",
+      "receiver_vehicles"
+    ],
+    "groups": 133,
+    "collision_groups": 11,
+    "collision_rows": 22,
+    "opposite_sign_groups_epsilon0": 1,
+    "opposite_sign_groups_epsilon5": 0,
+    "opposite_sign_groups_epsilon20": 0
+  },
+  "weak_epsilon0_witness": {
+    "capacity": 2,
+    "pocket_m": 14,
+    "b_share": 0,
+    "counts": [
+      0,
+      0,
+      16,
+      8,
+      2,
+      2
+    ],
+    "negative": {
+      "seed": 0,
+      "delta_p60": -305,
+      "approach_B_positions": [
+        -11,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    "positive": {
+      "seed": 3,
+      "delta_p60": 1,
+      "approach_B_positions": [
+        -11,
+        -9,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    "independent_arrival_tapes_verified": false
+  },
+  "invalid_drop_b_share_negative_control": {
+    "groups": 123,
+    "collision_groups": 19,
+    "collision_rows": 40,
+    "opposite_sign_groups_epsilon5": 2,
+    "contrasts_at_penalty60": [
+      {
+        "capacity": 2,
+        "pocket_m": 14,
+        "seed": 0,
+        "deltas": [
+          -305,
+          1477
+        ],
+        "b_shares": [
+          0,
+          0.5
+        ]
+      },
+      {
+        "capacity": 4,
+        "pocket_m": 14,
+        "seed": 0,
+        "deltas": [
+          -152,
+          1610
+        ],
+        "b_shares": [
+          0,
+          0.5
+        ]
+      }
+    ],
+    "interpretation": "INVALID_CROSS_GEOMETRY_AGGREGATION_SAME_SEED_NOT_AN_OBSERVATIONAL_ALIAS"
+  },
+  "verification": {
+    "unit_tests": 8,
+    "passed": 8,
+    "source_git_blob": "01b336c019fd4d6a322aa32ccc522b9592fa1d2e",
+    "test_git_blob": "632b0a6321f4e41a1c3a6f414d89637cc7baf2c8",
+    "full_audit_json_sha256": "860ea3a25d5b96dfab6d04271cd114ccaf9ab7f035c0d45debe87b74a23c1a9b"
+  },
+  "limitations": [
+    "Not freshly rerun on canonical GitHub engine",
+    "Original ZIP is source-derived local run",
+    "No actual RF CSI or road measurements",
+    "Seed IDs do not establish independent arrival timestamps",
+    "Equal counts do not establish identical full microstates",
+    "P12 action feasibility remains unvalidated"
+  ]
+}
