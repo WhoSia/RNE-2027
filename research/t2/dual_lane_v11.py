@@ -40,7 +40,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
     n,k=validate(c.base)
     if not 0<=c.through_B_share<=1 or not 0<=c.change_zone_m<=c.base.approach_length_m:
         raise ValueError("invalid lane settings")
-    if not isinstance(c.lane_change_target_gap_cells,int) or not 1<=c.lane_change_target_gap_cells<n:
+    if type(c.lane_change_target_gap_cells) is not int or not 1<=c.lane_change_target_gap_cells<n:
         raise ValueError('invalid lane-change target clearance cells')
     if not isinstance(c.downstream_conflict_gap_s,int) or c.downstream_conflict_gap_s<0:
         raise ValueError("invalid common exit headway")
