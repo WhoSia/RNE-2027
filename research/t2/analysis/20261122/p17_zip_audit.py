@@ -41,9 +41,12 @@ def validate(row):
 def key_for(row,mode='strict'):
     o=row['decision_observation']
     prefix=(row['capacity'],row['pocket_m'])
-    if mode=='strict':prefix+=(row['b_share'],)
+    if mode in ('strict','strict_positions'):prefix+=(row['b_share'],)
     elif mode!='drop_b_share':raise ValueError('unknown mode')
-    return prefix+tuple(o[k] for k in COUNTS)
+    key=prefix+tuple(o[k] for k in COUNTS)
+    if mode=='strict_positions':
+        key+=tuple(tuple(o[p]) for p in ('pocket_positions','approach_A_positions','approach_B_positions','receiver_occupied_cells'))
+    return key
 
 
 def screen(rows,epsilon=5,penalty=60,mode='strict'):
@@ -88,7 +91,7 @@ def audit_zip(zip_path):
     rows=data['pairs']
     if len(rows)!=144:raise ValueError('wrong row count')
     outputs=[screen(rows,epsilon=eps,penalty=p,mode=mode)
-             for mode in ('strict','drop_b_share') for eps in (0,5,20) for p in (0,60,120)]
+             for mode in ('strict','strict_positions','drop_b_share') for eps in (0,5,20) for p in (0,60,120)]
     return {'archive_sha256':zip_sha,'result_sha256':result_sha,'original_provenance':data['provenance'],
             'historical_parity_record':{'checkpoint_identity_cases':144,'mismatches':0,'independent_reference_fields_per_case':13},
             'comparisons':outputs}
