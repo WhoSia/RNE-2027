@@ -5,7 +5,7 @@ These tests are NOT an empirical calibration or a completed postdecision phase t
 """
 import unittest
 from dataclasses import replace
-from copy import deepcopy
+import pickle
 
 from dual_lane_v11 import DualConfig, run
 from spatial_v10 import Config, arrivals
@@ -43,10 +43,10 @@ class CheckpointTests(unittest.TestCase):
         c=config(change_windows=((0, 240),))
         tape=arrivals(c.base)
         checkpoint=run(c, tape, checkpoint_at=84, trace=True)
-        frozen=deepcopy(checkpoint)
+        frozen=pickle.dumps(checkpoint,protocol=4)
         changed=replace(c, lane_change_windows=((0, 84), (120, 240)))
         branched=run(changed, tape, trace=True, resume_from=checkpoint)
-        self.assertEqual(checkpoint, frozen)
+        self.assertEqual(pickle.dumps(checkpoint,protocol=4), frozen)
         self.assertEqual(branched["generated"],
                          branched["network_out_S"]+branched["network_out_L"]+branched["remaining"])
         direct=run(c, tape, trace=True)
@@ -58,7 +58,7 @@ class CheckpointTests(unittest.TestCase):
         c=config()
         tape=arrivals(c.base)
         cp=run(c,tape,checkpoint_at=84)
-        old=deepcopy(cp)
+        old=pickle.dumps(cp,protocol=4)
         o=checkpoint_observation(cp)
         self.assertEqual(o['decision_tick'],84)
         self.assertEqual(o['signal_at_decision'],'S')
@@ -66,7 +66,7 @@ class CheckpointTests(unittest.TestCase):
         self.assertNotIn('events',o)
         self.assertNotIn('rng',o)
         self.assertNotIn('future_arrivals',o)
-        self.assertEqual(cp,old)
+        self.assertEqual(pickle.dumps(cp,protocol=4),old)
         self.assertEqual(o,checkpoint_observation(cp))
 
     def test_unsafe_phase_switch_rejected(self):
