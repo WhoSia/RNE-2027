@@ -1,0 +1,107 @@
+{
+  "protocol": "RF05_CROSSED_HOLDOUT_20261121",
+  "provenance": "SYNTHETIC_CLASS_ENCODED_DATA_NOT_WIFI_CSI",
+  "scenarios": {
+    "joint_both_shifts_artificial": {
+      "groups": {
+        "joint": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "placement_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "session_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        }
+      },
+      "primary_gate": "NOT_APPLICABLE_SYNTHETIC_FIXTURE",
+      "train_n": 100,
+      "unused_n": 50
+    },
+    "no_shift_artificial": {
+      "groups": {
+        "joint": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 1.0,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "placement_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 1.0,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "session_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 1.0,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        }
+      },
+      "primary_gate": "NOT_APPLICABLE_SYNTHETIC_FIXTURE",
+      "train_n": 100,
+      "unused_n": 50
+    },
+    "placement_shift_artificial": {
+      "groups": {
+        "joint": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "placement_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "session_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 1.0,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        }
+      },
+      "primary_gate": "NOT_APPLICABLE_SYNTHETIC_FIXTURE",
+      "train_n": 100,
+      "unused_n": 50
+    },
+    "session_shift_artificial": {
+      "groups": {
+        "joint": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "placement_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 1.0,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        },
+        "session_only": {
+          "csi_abstain_rate": 0.0,
+          "csi_macro_f1": 0.06666666666666667,
+          "n": 50,
+          "rssi_both_macro_f1": 0.06666666666666667
+        }
+      },
+      "primary_gate": "NOT_APPLICABLE_SYNTHETIC_FIXTURE",
+      "train_n": 100,
+      "unused_n": 50
+    }
+  },
+  "unit_test_status": "40/40 local RF source tests passed Python 3.13.5"
+}
