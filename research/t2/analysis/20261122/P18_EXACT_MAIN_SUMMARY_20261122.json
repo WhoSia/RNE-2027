@@ -1,0 +1,81 @@
+{
+  "protocol": "T2_P18_EXACT_MAIN",
+  "date": "2026-11-22",
+  "engine_blobs": {
+    "dual_lane_v11.py": "a7c9aa6954402e12894d1d5b722e8a474b0bd58f",
+    "spatial_v10.py": "ffbf3fc3f8b9a64a819d4f73ce70b264b877e84e",
+    "receiving_cells_v15.py": "b078cf215c74b76ace6dffcbcbacab6ae22c3673",
+    "physical_transfer_screen.py": "8d75745053ff720db6c8af0001aaaf13ba1f295e",
+    "physical_checkpoint_capacity_screen.py": "220aeafb492fa41c8a9908f215e393f15fdfb22b",
+    "p18_clock_position_action.py": "2e50899e07d9a353716258b47eaf8196c307390d",
+    "test_p18_clock_position_action.py": "f591cc00073617ebe7dbf359ad5029c1fa33f0df"
+  },
+  "historical_exact_replay": {
+    "rows": 144,
+    "pairs_equal": 144,
+    "pairs_different": 0,
+    "whole_json_equal": false,
+    "original_sha256": "0d91beab746b8e67bf1fa5ea327e3c982d10e39b57cd5cf2fef020ad328e1001",
+    "exact_main_sha256": "71d452fe755965985585a6e13ef6cf282be3dc7e28889c0ee30ba512e68fcb52"
+  },
+  "prospective": {
+    "worlds": 256,
+    "baseline_runs": 256,
+    "treatment_runs": 512,
+    "clock_pairs": 128,
+    "unique_full_arrival_tapes": 32,
+    "results_sha256": "a210bc7a1af4a1550e1f8a461ea585c1ed88a41c4c3245f68199b8a52ec9b8a7",
+    "double_run_byte_identical": true,
+    "tests_passed": 15
+  },
+  "actions": {
+    "left_4s": {
+      "negative": 81,
+      "positive": 110,
+      "ties": 65,
+      "mean_delta": -29.3671875,
+      "illustrative_min6": "INELIGIBLE",
+      "count_groups": 233,
+      "count_collision_groups": 22,
+      "count_collision_rows": 45,
+      "count_strong_alias_groups": 0,
+      "positions_groups": 251,
+      "positions_collision_groups": 4,
+      "positions_strong_alias_groups": 0,
+      "paired_clock_reversals": 0
+    },
+    "left_8s": {
+      "negative": 81,
+      "positive": 114,
+      "ties": 61,
+      "mean_delta": -20.3046875,
+      "illustrative_min6": "ELIGIBLE_ON_MIN_GREEN_ALONE",
+      "count_groups": 233,
+      "count_collision_groups": 22,
+      "count_collision_rows": 45,
+      "count_strong_alias_groups": 0,
+      "positions_groups": 251,
+      "positions_collision_groups": 4,
+      "positions_strong_alias_groups": 0,
+      "paired_clock_reversals": 0
+    }
+  },
+  "clock_checks": {
+    "equal_six_counts_among_128_pairs": 1,
+    "equal_positions": 0,
+    "identical_pickled_checkpoints": 0
+  },
+  "posthoc_duration_diff": {
+    "left_4s_better_worlds": 10,
+    "left_8s_better_worlds": 0,
+    "equal_worlds": 246
+  },
+  "provenance": "EXACT_GITHUB_SOURCE_EXECUTED_LOCAL_SYNTHETIC_UNCALIBRATED",
+  "limitations": [
+    "4s modeled action excluded under invented min-green 6",
+    "8s only meets an illustrative min-green test; no actual yellow/red/pedestrian validation",
+    "256 world results reuse 32 arrival tapes",
+    "no actual CSI or field traffic data",
+    "negative result does not establish universal observation sufficiency"
+  ]
+}
