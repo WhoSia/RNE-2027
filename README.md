@@ -9,6 +9,25 @@ Collaborative R&E 2027 research repository.
 
 Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) for active T2 code, data receipts, and verification records.
 
+
+### Parallel exhibition prototype: RF-CURTAIN (2026-11-21)
+
+A **separate**, teacher-supervised, indoor/tabletop, camera-free RF sensing
+research direction is now under [RF-CURTAIN](research/t2/exhibition/rf_curtain/README.md).
+The question is whether two **longitudinal** Wi-Fi channel observations can
+distinguish turn-bay entrance obstruction from downstream congestion, not
+whether a Wi-Fi signal can literally produce traffic camera images.
+Wi-Fi CSI vehicle sensing already has prior art. A 2.4GHz/1m first-Fresnel
+zone has ~0.177m midpoint radius; naive adjacent-lane resolution is NOT
+established. A trial-level evaluation pipeline and 12 local tests exist, but
+**no project CSI measurements, field trial, physical apparatus or real
+signal actuation has been completed**. See [RF01 proof boundary](research/t2/exhibition/rf_curtain/RF01_FEASIBILITY_RECEIPT_20261121.md).
+
+The existing synthetic T2/PHYS work continues as the **independent modeling
+track** and may only ingest RF detector-error data after measured, verified
+laboratory trials. No hardware purchase, bystander Wi-Fi tracking or public
+traffic-signal changes are authorized by this research plan.
+
 ## Collaboration and preservation
 
 - **Canonical working branch: `main`.** Review changes against `main` and commit reviewed, independently meaningful research increments directly to it. Do not create new research branches as routine workflow. Historical branches may remain temporarily for preservation and migration.
