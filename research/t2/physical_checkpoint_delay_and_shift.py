@@ -8,7 +8,6 @@ Usage: PYTHONPATH=research/t2 python research/t2/physical_checkpoint_delay_and_s
 import argparse
 import hashlib
 import json
-import random
 from itertools import product
 from pathlib import Path
 from dual_lane_v11 import DualConfig, run, checkpoint_observation
@@ -69,6 +68,9 @@ def observation_delay_stress(train, holdout):
         assert all(observation_now[key] == row['decision_observation'][key]
                    for key in ('outside_A','outside_B','approach_A','approach_B',
                                'pocket_vehicles','receiver_vehicles'))
+        assert all(tuple(observation_now[key]) == tuple(row['decision_observation'][key])
+                   for key in ('approach_A_positions','approach_B_positions',
+                               'pocket_positions','receiver_occupied_cells'))
         result = {k: row[k] for k in ('seed','capacity','pocket_m','b_share','delta_p60')}
         for delay in DELAYS:
             if delay:
@@ -95,7 +97,12 @@ def demand_shift_stress(train):
             tape = arrivals(c.base)
             cp=run(c,tape,checkpoint_at=DECISION_TICK)
             baseline=run(c,tape,resume_from=cp)
+            if baseline != run(c,tape):
+                raise AssertionError(('checkpoint replay mismatch',label,seed,cap,pocket,share))
             policy=run(c,tape,resume_from=cp,phase_overrides=INTERVENTION)
+            for branch in (baseline,policy):
+                if branch['generated'] != branch['remaining'] + branch['network_out_S'] + branch['network_out_L']:
+                    raise AssertionError(('conservation',label,seed,cap,pocket,share))
             delta=score(policy,60)-score(baseline,60)
             obs=checkpoint_observation(cp)
             case={'seed':seed,'capacity':cap,'pocket_m':pocket,'b_share':share,
