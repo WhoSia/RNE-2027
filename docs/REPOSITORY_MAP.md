@@ -1,9 +1,9 @@
 # R&E 2027 repository and Drive map
 
-The current T2 code, runnable experiments, and verification tests are on
-[research/t2-spatial-fig2-v02](https://github.com/WhoSia/RNE-2027/tree/research/t2-spatial-fig2-v02).
-Use this branch for navigation. Link to the tested commit SHA when recording
-an experiment, so later branch changes cannot change the cited inputs.
+The canonical T2 code, runnable experiments and verification tests are on
+[main](https://github.com/WhoSia/RNE-2027/tree/main).
+Use only main for current collaboration, and pin the tested commit SHA when
+recording an experiment. Other historical refs exist for preservation only.
 
 | Looking for | Location |
 | --- | --- |
@@ -29,9 +29,19 @@ for source and output placement.
 
 ## 2026-11-21 current T2 source and prior-work transfer
 
-The latest research unit [SF-01 robust sensor-information fusion](../research/t2/analysis/20261121/sensor-fusion/FINDINGS.md) uses Long (2026) decision-time forecast diagnostics, Huang (2025) lane/signal separation, and an explicitly simplified Shafik/Rakha (2025) two-stage queue estimator. [43-test local validation and unresolved 192 physical runs](../research/t2/analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md). [Executable physics-screen design](../research/t2/physical_transfer_screen.py) is **not** yet a completed physical result. No empty K047 HTML or fabricated field scenes are considered evidence.
+The earlier [SF-01 robust sensor-information fusion](../research/t2/analysis/20261121/sensor-fusion/FINDINGS.md) used Long (2026) decision-time diagnostics, Huang (2025) lane/signal separation and a deliberately simplified Shafik/Rakha (2025) queue estimator. Its [43-test validation receipt](../research/t2/analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md) records an **earlier** state in which the 192-case physical screen was not yet executed. The later 704-run PHYS-01/02/03 physical study is reported separately below; do not treat the older pending statement as current. No empty K047 HTML or fabricated field scenes are considered evidence.
 
 
 ## Latest T2 implementation receipt — 2026-11-21
 
-[704 synthetic physical run assessment](../research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md) consists of original 192-case fixed-geometry screen, 384-case physically time-gated opportunity comparisons, and separately exploratory 128-case geometry sensitivity. Source/test byte fingerprints, 3 original output SHA-256 values and the 21/21 self-contained tested checks are provided in the individual receipts. The paired 48/48/16 cost comparisons are preserved as CSV in Git. **These are not 704 independent field samples or 704 validations of a real controller.** The K047 blank viewer remains retired. Next technical gate: clone the complete traffic microstate at a valid decision time and compare future policies with identical information prefixes, then use prior gap-acceptance and state-estimation work.
+[704 synthetic physical run assessment](../research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md) consists of original 192-case fixed-geometry screen, 384-case physically time-gated opportunity comparisons, and separately exploratory 128-case geometry sensitivity. Source/test byte fingerprints, 3 original output SHA-256 values and the 21/21 self-contained tested checks are provided in the individual receipts. The paired 48/48/16 cost comparisons are preserved as CSV in Git. **These are not 704 independent field samples or 704 validations of a real controller.** The K047 blank viewer remains retired.
+
+### PHYS-04 through PHYS-06 — local source-derived execution, canonical exact-checkout gate open
+
+- [PHYS-04 local checkpoint parity](../research/t2/analysis/20261121/decision-time-gate/PHYS_04_LOCAL_PARITY_AND_CHECKPOINT_TESTS.md): 144 uninterrupted/restarted baseline agreements and 1,872/1,872 matched independent-reference fields in a local source-derived Python copy; exact GitHub blob checkout is NOT yet verified. A copied `random.Random` equality-test defect was corrected.
+- [PHYS-05 observation value and new seeds](../research/t2/analysis/20261121/decision-time-gate/PHYS_05_OBSERVATION_ABLATION_AND_NEW_SEED_HOLDOUT.md): 144 exploratory leave-one-seed-out cases followed by 432 genuinely unseen synthetic-seed policy pairs, with fixed k=5 policy and seed-block uncertainty.
+- [PHYS-05b detector-corruption stress](../research/t2/analysis/20261121/decision-time-gate/PHYS_05B_DETECTOR_ERROR_FALSIFICATION.md): count jitter ±1/±2 and independent occupied-cell omission under the frozen policy, 8 noise replicates per nonzero setting.
+- [PHYS-06 target-lane gap sensitivity](../research/t2/analysis/20261121/decision-time-gate/PHYS_06_TARGET_LANE_CLEARANCE_SENSITIVITY.md): backwards-compatible clearance parameter 1/2/3 cells, 144 paired policy comparisons with 2 strict preference reversals.
+- [Research evidence manifest](../research/t2/analysis/20261121/decision-time-gate/PHYS_04_05_05B_06_EVIDENCE_HANDOFF.md), [Drive ZIP archive](https://drive.google.com/file/d/1nIHmzoz0Yk3YUqaaxvbBWH7ztgR2ddo-/view?usp=drivesdk), and [dated Google Docs reasoning](https://docs.google.com/document/d/16C7XE2dr24vfqRiz0KQMrYkOq7fARwXNm5y5l9MaTTE/edit).
+
+**Technical gate:** obtain an exact-byte GitHub main checkout in an authenticated Python environment, run the committed tests, and compare all 144 PHYS-04 pairs against the independent references before calling the entire stage canonically reproduced. All post-PHYS-03 results remain **synthetic, uncalibrated and not field causal estimates**.
