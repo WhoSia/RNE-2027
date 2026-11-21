@@ -212,3 +212,12 @@ The older 2026-11-21 folders remain intact. All updates to repository `main`; Gi
 This **pure mathematical checker** was implemented and tested locally (19/19 unit tests PASS), then its final code, test and generated-output Git blobs on `main` were read back and matched to the executed local bytes. Three *invented* cost-table cohorts distinguish within-label state aliasing from lack of common optimal action, including a legitimate common-action null. A deliberate correction replaced the potentially ambiguous pocket-only downstream-free-cells=0 fixture with a nonzero downstream capacity; the coarse JSON did not change, so the exact code and fixture hashes are essential.
 
 No new traffic engine simulation was run; no live signal or CSI observation occurred. **Independent reviewer 김세호 may inspect, falsify and provide attributed patches but does not automatically commit to `main`; development and integration are owned by 김우준.**
+
+
+### 2026-11-22 P16 — Read actual T2 checkpoint schema before labeling any RF cause
+
+[Checkpoint schema and physical transfer audit](../research/t2/analysis/20261122/P16_CHECKPOINT_INTERFACE_FINDINGS_20261122.md), [fail-closed adapter](../research/t2/analysis/20261122/t2_p16_checkpoint_contract.py), and [20 exact-blob-matched local tests](../research/t2/analysis/20261122/test_t2_p16_checkpoint_contract.py).
+
+The adapter is grounded in `dual_lane_v11.checkpoint_observation` and `physical_checkpoint_capacity_screen.py`. It distinguishes pocket presence, receiver fullness and receiver *entry-cell* occupancy. **A full link necessarily occupies cell 0 under the one-car-per-cell assumption; cell-0 occupancy alone does not imply full.** The output expressly leaves the five causal/manual RF labels UNKNOWN, not inferred from one simulator snapshot.
+
+A second function can screen independently provided PHYS-04 result rows for same-six-count opposite-effect candidates but **was not executed on real PHYS-04 results in this unit**. The 20/20 local regression suite used invented schema fixtures. No claim of found same-observation PHYS witness, physical CSI measurement or deployable signal controller is made.
