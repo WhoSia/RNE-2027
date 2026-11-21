@@ -16,8 +16,8 @@ class WiTrafficTransportAnalogueTests(unittest.TestCase):
 
     def test_symmetry_and_absolute_cdf_decomposition(self):
         a, b = [2, 1, 1], [0, 1, 3]
-        self.assertAlmostEqual(emd_1d(a, b), 1.25)
-        self.assertAlmostEqual(emd_1d(b, a), 1.25)
+        self.assertAlmostEqual(emd_1d(a, b), 1.0)
+        self.assertAlmostEqual(emd_1d(b, a), 1.0)
 
     def test_metric_triangle_inequality_for_three_examples(self):
         a, b, c = [1, 0, 0], [0, 1, 0], [0, 0, 1]
