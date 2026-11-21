@@ -29,6 +29,7 @@ class DualConfig:
     receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
     lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
     lane_change_target_gap_cells:int=1 # symmetric target-lane clearance, not calibrated gap acceptance
+    lane_change_gap_confirmation_s:int=1 # consecutive eligible one-second ticks; 1 retains legacy behavior
 
 def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None,phase_overrides=()):
     """Run unchanged by default; optionally stop before a tick or resume exact state.
@@ -42,6 +43,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         raise ValueError("invalid lane settings")
     if type(c.lane_change_target_gap_cells) is not int or not 1<=c.lane_change_target_gap_cells<n:
         raise ValueError('invalid lane-change target clearance cells')
+    if type(c.lane_change_gap_confirmation_s) is not int or not 1<=c.lane_change_gap_confirmation_s<=10:
+        raise ValueError('invalid lane-change gap confirmation ticks')
     if not isinstance(c.downstream_conflict_gap_s,int) or c.downstream_conflict_gap_s<0:
         raise ValueError("invalid common exit headway")
     if not isinstance(c.receiver_slots,int) or c.receiver_slots<0 or not isinstance(c.receiver_headway_s,int) or c.receiver_headway_s<1:
@@ -80,6 +83,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
+    gap_confirmation={}
     first_tick=0
     if resume_from is not None:
         cp=deepcopy(resume_from)
@@ -105,11 +109,12 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         st=cp['state']
         (rng,outside,A,B,pocket,index,count,last,admission,cycles,frames,
          service_events,access_events,lane_change_events,last_common_exit,
-         receiver,last_receiver_service)=(
+         receiver,last_receiver_service,gap_confirmation)=(
             st['rng'],st['outside'],st['A'],st['B'],st['pocket'],st['index'],
             st['count'],st['last'],st['admission'],st['cycles'],st['frames'],
             st['service_events'],st['access_events'],st['lane_change_events'],
-            st['last_common_exit'],st['receiver'],st['last_receiver_service'])
+            st['last_common_exit'],st['receiver'],st['last_receiver_service'],
+            st.get('gap_confirmation',{}))
     if phase_overrides:
         if any(a<first_tick for a,b,light in phase_overrides):
             raise ValueError('phase intervention starts before checkpoint')
@@ -133,7 +138,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                        frames=frames,service_events=service_events,
                        access_events=access_events,lane_change_events=lane_change_events,
                        last_common_exit=last_common_exit,receiver=receiver,
-                       last_receiver_service=last_receiver_service)
+                       last_receiver_service=last_receiver_service,
+                       gap_confirmation=gap_confirmation)
             return deepcopy(dict(format='dual_lane_v11_checkpoint_v1',
                                  next_tick=t,config=c,events=events,
                                  trace=trace,state=state))
@@ -203,17 +209,25 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                     if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"no_pocket","blocker_id":None})
                 elif x< -1 and x+1 not in occ and not(lane=="A" and v[1]=="L" and x>=-k-1):
                     moved_ids.add(v[0]);occ[x+1]=occ.pop(x)
+        next_gap_confirmation={}
         if c.allow_lane_changes and (not c.lane_change_windows or any(a<=t<b for a,b in c.lane_change_windows)):
             zone=floor(c.change_zone_m/c.base.cell_m+1e-9)
             for x in sorted(tuple(A),reverse=True):
                 if x not in A or A[x][1]!="S" or A[x][0] in moved_ids or x>=-k or x< -zone:continue
                 if x+1 in A and (A[x+1][1]=="L" or x+2 in A):
                     if all(x+offset not in B for offset in range(-c.lane_change_target_gap_cells,c.lane_change_target_gap_cells+1)):
-                        v=A.pop(x)
-                        B[x]=v;count["changes_A_to_B"]+=1
-                        if trace:lane_change_events.append({"t":t,"vehicle_id":v[0],"from":"A","to":"B","cell":x})
+                        vehicle_id=A[x][0]
+                        eligible_streak=gap_confirmation.get(vehicle_id,0)+1
+                        if eligible_streak>=c.lane_change_gap_confirmation_s:
+                            v=A.pop(x)
+                            B[x]=v;count["changes_A_to_B"]+=1
+                            if trace:lane_change_events.append({"t":t,"vehicle_id":v[0],"from":"A","to":"B","cell":x})
+                        else:
+                            next_gap_confirmation[vehicle_id]=eligible_streak
+                            count["lane_change_gap_confirmation_wait_s"]+=1
                     else:
                         count["lane_change_target_gap_denials"]+=1
+        gap_confirmation=next_gap_confirmation
         for lane,occ in (("A",A),("B",B)):
             if outside[lane] and -n not in occ and t-admission[lane]>=c.base.entry_headway_s:
                 occ[-n]=outside[lane].popleft();count["admitted"]+=1;admission[lane]=t
@@ -249,7 +263,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                   "receiver_mode":c.receiver_mode,"downstream_cycle_s":c.downstream_cycle_s,
                   "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s,
                   "receiver_closures":c.receiver_closures,"lane_change_windows":c.lane_change_windows,
-                  "lane_change_target_gap_cells":c.lane_change_target_gap_cells},
+                  "lane_change_target_gap_cells":c.lane_change_target_gap_cells,
+                  "lane_change_gap_confirmation_s":c.lane_change_gap_confirmation_s},
         "generated":len(events),"admitted":count["admitted"],
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),
@@ -265,6 +280,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         "pocket_block_seconds":count["pocket_block_seconds"],
         "changes_A_to_B":count["changes_A_to_B"],
         "lane_change_target_gap_denials":count["lane_change_target_gap_denials"],
+        "lane_change_gap_confirmation_wait_s":count["lane_change_gap_confirmation_wait_s"],
         "common_exit_denied_s":count["common_exit_denied_s"],
         "mean_time_S_s":count["time_S_s"]/count["exit_S"] if count["exit_S"] else None,
         "mean_time_L_s":count["time_L_s"]/count["exit_L"] if count["exit_L"] else None,
