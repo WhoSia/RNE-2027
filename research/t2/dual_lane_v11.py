@@ -270,3 +270,33 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         result["access_events"]=access_events
         result["lane_change_events"]=lane_change_events
     return result
+
+
+def checkpoint_observation(checkpoint):
+    """Public-at-decision aggregate extracted from an already frozen state.
+
+    Never exposes the future arrival tape, a random generator, or future
+    policy windows. Vehicle IDs are deliberately omitted. This observation
+    is not asserted to be available from a real detector installation.
+    """
+    if checkpoint.get('format')!='dual_lane_v11_checkpoint_v1':
+        raise ValueError('invalid checkpoint format')
+    s=checkpoint['state']
+    receiver=s['receiver']
+    receiver_cells=(tuple(sorted(receiver.occupied))
+                    if isinstance(receiver,ReceivingCells)
+                    else tuple(range(len(receiver))))
+    return {
+        'decision_tick':checkpoint['next_tick'],
+        'signal_at_decision':phase(checkpoint['config'].base,checkpoint['next_tick']),
+        'outside_A':len(s['outside']['A']),
+        'outside_B':len(s['outside']['B']),
+        'approach_A':len(s['A']),
+        'approach_B':len(s['B']),
+        'pocket_vehicles':len(s['pocket']),
+        'receiver_vehicles':len(receiver),
+        'receiver_occupied_cells':receiver_cells,
+        'pocket_positions':tuple(sorted(s['pocket'])),
+        'approach_A_positions':tuple(sorted(s['A'])),
+        'approach_B_positions':tuple(sorted(s['B'])),
+    }
