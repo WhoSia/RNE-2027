@@ -1,11 +1,12 @@
 import csv
+import os
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 from p23_map_volume_alignment import inspect, map_geometry, observed, seal
 
-BASE=Path('/mnt/data')
+BASE=Path(os.environ.get('P23_SOURCE_DIR','/mnt/data'))
 MAP=BASE/'bs-inner-ring-road-ut.xodr.xml'
 TRACK=BASE/'trajectories_230924-233000_230924-234500.csv'
 VOL=BASE/'traffic-volume_230924-233000_230924-234500.csv'
