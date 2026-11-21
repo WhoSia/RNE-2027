@@ -29,12 +29,12 @@ class DualConfig:
     receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
     lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
 
-def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None):
+def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None,phase_overrides=()):
     """Run unchanged by default; optionally stop before a tick or resume exact state.
 
     The checkpoint holds the mutable simulation state. Post-checkpoint phase
-    future lane-change windows can be modified on resumed runs. Changing the
-    entire phase order is blocked until a clearance-safe controller exists.
+    future lane-change windows and a clearance-safe future phase plan may be
+    modified on resumed runs. Changing the whole base schedule is blocked.
     """
     n,k=validate(c.base)
     if not 0<=c.through_B_share<=1 or not 0<=c.change_zone_m<=c.base.approach_length_m:
@@ -60,6 +60,15 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         raise ValueError('invalid checkpoint tick')
     if resume_from is not None and checkpoint_at is not None:
         raise ValueError('cannot request another checkpoint while resuming')
+    if phase_overrides and resume_from is None:
+        raise ValueError('phase overrides require a fixed checkpoint')
+    if any(len(w)!=3 or not isinstance(w[0],int) or not isinstance(w[1],int)
+           or w[0]>=w[1] or w[1]>c.base.duration_s or w[2] not in ('L','S','-')
+           for w in phase_overrides):
+        raise ValueError('invalid future phase override')
+    if any(phase_overrides[i][1]>phase_overrides[i+1][0]
+           for i in range(len(phase_overrides)-1)):
+        raise ValueError('overlapping phase overrides')
     rng=random.Random(c.base.seed+193)
     outside={"A":deque(),"B":deque()}
     A={};B={};pocket={};index=0
@@ -98,6 +107,22 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
             st['count'],st['last'],st['admission'],st['cycles'],st['frames'],
             st['service_events'],st['access_events'],st['lane_change_events'],
             st['last_common_exit'],st['receiver'],st['last_receiver_service'])
+    if phase_overrides:
+        if any(a<first_tick for a,b,light in phase_overrides):
+            raise ValueError('phase intervention starts before checkpoint')
+        # Audit the entire phase timeline, including the preceding baseline.
+        last_active=None
+        clearance_count=0
+        for tick in range(c.base.duration_s):
+            effective=next((light for a,b,light in phase_overrides if a<=tick<b),phase(c.base,tick))
+            if effective=='-':
+                clearance_count+=1
+            else:
+                if last_active is not None and effective!=last_active and clearance_count<c.base.clearance_s:
+                    raise ValueError('unsafe phase transition without clearance')
+                if effective!=last_active:
+                    last_active=effective
+                clearance_count=0
     for t in range(first_tick,c.base.duration_s):
         if checkpoint_at==t:
             state=dict(rng=rng,outside=outside,A=A,B=B,pocket=pocket,index=index,
@@ -119,7 +144,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         elif receiver and t-last_receiver_service>=c.receiver_headway_s:
             vehicle=receiver.popleft();count["network_out_"+vehicle[1]]+=1
             last_receiver_service=t
-        light=phase(c.base,t)
+        light=next((v for a,b,v in phase_overrides if a<=t<b),phase(c.base,t))
         receiver_denial_this_tick=False
         if light=="S":
             for lane,occ in (("A",A),("B",B)):
@@ -237,6 +262,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         "mean_time_S_s":count["time_S_s"]/count["exit_S"] if count["exit_S"] else None,
         "mean_time_L_s":count["time_L_s"]/count["exit_L"] if count["exit_L"] else None,
         "cycles":cycles}
+    if phase_overrides:
+        result['postdecision_phase_overrides']=phase_overrides
     if trace:
         result["frames"]=frames
         result["service_events"]=service_events
