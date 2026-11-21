@@ -22,6 +22,13 @@ FALLBACK_AGE_S = 12
 REGIMES = (('uniform_baseline', 1800, .5), ('uniform_lowturn', 1350, .3))
 
 
+def freshness_choice(age_s, measured_action, geometry_action, threshold_s=FALLBACK_AGE_S):
+    """Choose a frozen heuristic based on telemetry age, never on outcomes."""
+    if not isinstance(age_s, int) or age_s < 0 or not isinstance(threshold_s, int) or threshold_s < 1:
+        raise ValueError('invalid telemetry age or threshold')
+    return measured_action if age_s < threshold_s else geometry_action
+
+
 def evaluate(train):
     if len(train) != 144 or {r['seed'] for r in train} != set(range(8)):
         raise ValueError('expected 144 training conditions, seeds 0..7')
@@ -52,7 +59,7 @@ def evaluate(train):
                 for level in ('counts','positions'):
                     key=f'{level}_age{age}'
                     case[key]=decision(train,case,old,level)
-                    case[f'fallback_{key}']=case[key] if age < FALLBACK_AGE_S else geom
+                    case[f'fallback_{key}']=freshness_choice(age,case[key],geom)
             cases.append(case)
         if len(cases) != 288:raise AssertionError('wrong prospective case count')
         summaries={}
