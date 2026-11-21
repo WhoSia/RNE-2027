@@ -79,6 +79,8 @@ def check_plan(stages: Iterable[Stage], contract: Contract) -> tuple[str, ...]:
             violations.append(f"stage_{i}:pedestrian_clearance_without_green")
         next_index = (i + 1) % len(stages)
         has_successor = i + 1 < len(stages) or contract.cyclic
+        if has_successor and len(stages) > 1 and stage.movement == stages[next_index].movement:
+            violations.append(f"stage_{i}:duplicate_adjacent_movement")
         if has_successor and stage.movement != stages[next_index].movement:
             if stage.yellow < contract.min_yellow:
                 violations.append(f"stage_{i}:missing_yellow_change")
