@@ -1,0 +1,56 @@
+{
+  "asymmetric_no_sensor_oracle_regret": "2/5",
+  "cases": {
+    "aggregate": {
+      "expected_cost": "-1/2",
+      "full_state_information_bits": 1.5,
+      "oracle_cost": "-1",
+      "regret": "1/2"
+    },
+    "aggregate_and_pocket": {
+      "expected_cost": "-1",
+      "full_state_information_bits": 2.0,
+      "oracle_cost": "-1",
+      "regret": "0"
+    },
+    "downstream": {
+      "expected_cost": "0",
+      "full_state_information_bits": 1.0,
+      "oracle_cost": "-1",
+      "regret": "1"
+    },
+    "motion": {
+      "expected_cost": "0",
+      "full_state_information_bits": -0.0,
+      "oracle_cost": "-1",
+      "regret": "1"
+    },
+    "none": {
+      "expected_cost": "0",
+      "full_state_information_bits": 0.0,
+      "oracle_cost": "-1",
+      "regret": "1"
+    },
+    "pocket": {
+      "expected_cost": "-1",
+      "full_state_information_bits": 1.0,
+      "oracle_cost": "-1",
+      "regret": "0"
+    },
+    "rf_or": {
+      "expected_cost": "-1/4",
+      "full_state_information_bits": 0.8112781244591328,
+      "oracle_cost": "-1",
+      "regret": "3/4"
+    },
+    "rf_or_and_pocket": {
+      "expected_cost": "-1",
+      "full_state_information_bits": 1.5,
+      "oracle_cost": "-1",
+      "regret": "0"
+    }
+  },
+  "hypothetical_intervention_delta_if_P0": "+3",
+  "hypothetical_intervention_delta_if_P1": "-2",
+  "status": "ARBITRARY_HYPOTHETICAL_COSTS_NOT_ACTUAL_T2_DELTAJ"
+}
