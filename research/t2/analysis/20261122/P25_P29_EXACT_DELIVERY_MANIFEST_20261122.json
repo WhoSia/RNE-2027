@@ -1,0 +1,44 @@
+{
+  "protocol": "T2_P25_P29_DELIVERY_AND_SOURCE_SEAL",
+  "repository": "WhoSia/RNE-2027",
+  "branch": "main",
+  "date": "2026-11-22",
+  "delivery": {
+    "kind": "Google Drive uploaded ZIP and SHA-verified readback",
+    "file_id": "1U8KErQrF_7YyXGUvH4CM0AawchRkJuDQ",
+    "url": "https://drive.google.com/file/d/1U8KErQrF_7YyXGUvH4CM0AawchRkJuDQ/view",
+    "folder_id": "1oiCJy7Df2rzE_90jFeek15_is55VbqML",
+    "file_name": "T2_P25_P29_20261122_FOLLOWUP_REPRODUCTION.zip",
+    "bytes": 93782,
+    "sha256": "9de9ab34333c4afd8ba3e54d901a503b1a9a76096fa6a4f692b8b5052ce442fd",
+    "member_count": 22,
+    "zip_integrity": "testzip() returned None",
+    "remote_readback_sha256_equal": true
+  },
+  "original_reference": {
+    "p19_frozen_full_json_sha256": "0681f683acd549cb2d32cc8957038ce3e652819f47e8288c5a751b6acd7e2468",
+    "P25_P26_full_json_sha256": "640ec195830abae2ab99d202d43d92aaf3cbbc5f875a0ddc6765fe82f20c19e4",
+    "P27_full_json_sha256": "339a9aacc5f3539bbc65931ab9655f362a58ed19305debca53a25e1a6de9b962",
+    "P28_json_sha256": "af223bc6645a77844c1f955da7135878eb94b236fd728a3f2be9d32b15d73f6f",
+    "P29_full_json_sha256": "cb126997cd36c2cc1cec6d54ef7678d68f1ef4367101d46cec8a2ab693c278ec"
+  },
+  "tests": {
+    "P25_P26_P27": 11,
+    "P28": 8,
+    "P29": 7,
+    "total": 26,
+    "all_pass": true
+  },
+  "canonical_runner_sha256_git_blob": {
+    "P25_P26": "5aba6df9b4285553a435d6f14814b19756545526",
+    "P27": "537493d9002b35efac075f6a846462253a7fae33",
+    "P28": "ab596da4739198fa7e2dbde729e240720ef5de82",
+    "P29": "50a61898ab3f757be6e2ad440db0cdf98e5125dc"
+  },
+  "limitations": [
+    "Evidence proves repeatable synthetic T2 computations, NOT external physical validity or field controller legality.",
+    "The same four complete arrival tapes are reused across many geometry worlds within each cohort.",
+    "P27 was motivated by a small outcome-informed exploratory pilot; P29 uses new synthetic seed labels but not an independent external model.",
+    "No user INTERACTION archives were accessed, no CIM ZIP content opened, no K047 access."
+  ]
+}
