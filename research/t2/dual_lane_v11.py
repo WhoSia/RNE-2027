@@ -62,7 +62,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
            for t,r in events) or any(events[i][0]>events[i+1][0] for i in range(len(events)-1)):
         raise ValueError("invalid arrival events")
     events=tuple(events)
-    if checkpoint_at is not None and (not isinstance(checkpoint_at,int) or not 0<=checkpoint_at<c.base.duration_s):
+    if checkpoint_at is not None and (type(checkpoint_at) is not int or not 0<=checkpoint_at<c.base.duration_s):
         raise ValueError('invalid checkpoint tick')
     if resume_from is not None and checkpoint_at is not None:
         raise ValueError('cannot request another checkpoint while resuming')
@@ -90,7 +90,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         if cp.get('format')!='dual_lane_v11_checkpoint_v1':
             raise ValueError('unknown checkpoint format')
         first_tick=cp['next_tick']
-        if not isinstance(first_tick,int) or not 0<first_tick<c.base.duration_s:
+        if type(first_tick) is not int or not 0<=first_tick<c.base.duration_s:
             raise ValueError('invalid checkpoint boundary')
         if cp['events']!=events or cp['trace']!=trace:
             raise ValueError('arrival tape or trace mode differs from checkpoint')
