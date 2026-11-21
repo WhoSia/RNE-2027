@@ -1,12 +1,11 @@
-import json
-from pathlib import Path
 from unittest import TestCase
 from zone100_probe import experiment
+from timed_physical_screen import experiment as run_zone70
 
 class Zone100ExplorationTests(TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.source=json.loads(Path('window_384_runs.json').read_text())
+  cls.source=run_zone70()
   cls.results=experiment(cls.source)
  def test_full_exploratory_grid(self):
   self.assertEqual(self.results['summary']['n_runs'],128)
