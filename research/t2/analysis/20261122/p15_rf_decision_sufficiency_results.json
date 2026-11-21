@@ -1,0 +1,85 @@
+[
+  {
+    "cohort": "COMMON",
+    "rf_label": "pocket",
+    "contract": "virtual_same",
+    "feasible_actions": [
+      "baseline",
+      "treatment"
+    ],
+    "world_count": 2,
+    "independent_arrival_groups": 2,
+    "state_alias": true,
+    "common_optimal_actions": [
+      "treatment"
+    ],
+    "decision_sufficient_in_enumerated_worlds": true,
+    "minimax_regret": "0",
+    "minimax_actions": [
+      "treatment"
+    ],
+    "strict_opposition_pairs": [],
+    "cross_arrival_group_pairs": [],
+    "same_arrival_group_pairs": [],
+    "epsilon": "5",
+    "scope": "EXACT_ARTIFICIAL_COST_FIXTURE_NOT_PHYS_NOT_CSI"
+  },
+  {
+    "cohort": "OPPOSITION",
+    "rf_label": "pocket",
+    "contract": "virtual_same",
+    "feasible_actions": [
+      "baseline",
+      "treatment"
+    ],
+    "world_count": 2,
+    "independent_arrival_groups": 2,
+    "state_alias": true,
+    "common_optimal_actions": [],
+    "decision_sufficient_in_enumerated_worlds": false,
+    "minimax_regret": "8",
+    "minimax_actions": [
+      "baseline"
+    ],
+    "strict_opposition_pairs": [
+      [
+        "o1",
+        "o2"
+      ]
+    ],
+    "cross_arrival_group_pairs": [
+      [
+        "o1",
+        "o2"
+      ]
+    ],
+    "same_arrival_group_pairs": [],
+    "epsilon": "5",
+    "scope": "EXACT_ARTIFICIAL_COST_FIXTURE_NOT_PHYS_NOT_CSI"
+  },
+  {
+    "cohort": "TIE",
+    "rf_label": "both",
+    "contract": "virtual_same",
+    "feasible_actions": [
+      "baseline",
+      "treatment"
+    ],
+    "world_count": 2,
+    "independent_arrival_groups": 2,
+    "state_alias": true,
+    "common_optimal_actions": [
+      "baseline"
+    ],
+    "decision_sufficient_in_enumerated_worlds": true,
+    "minimax_regret": "0",
+    "minimax_actions": [
+      "baseline"
+    ],
+    "strict_opposition_pairs": [],
+    "cross_arrival_group_pairs": [],
+    "same_arrival_group_pairs": [],
+    "epsilon": "5",
+    "scope": "EXACT_ARTIFICIAL_COST_FIXTURE_NOT_PHYS_NOT_CSI"
+  }
+]
