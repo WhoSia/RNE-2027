@@ -22,6 +22,10 @@ Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) for active T2 
 
 The earlier three linked PHYS studies (192 + 384 + 128 synthetic runs) found model-dependent interactions among pocket geometry, lane-change opportunity timing and phase order. See [the 704-run synthesis](research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md).
 
-**New PHYS-04/05/05b/06:** source-derived local execution compared 144 same-state signal interventions against independent references, tested a 432-case unseen synthetic seed set, assessed observation noise, and exposed target-lane clearance assumptions. The exact GitHub blob checkout and committed test-suite certification are **still pending**. See the [evidence handoff and verification gate](research/t2/analysis/20261121/decision-time-gate/PHYS_04_05_05B_06_EVIDENCE_HANDOFF.md) and [shared Drive ZIP](https://drive.google.com/file/d/1nIHmzoz0Yk3YUqaaxvbBWH7ztgR2ddo-/view?usp=drivesdk).
+**PHYS-04/05/05b/06:** state-identical signal interventions, unseen synthetic demand seeds, detector jitter and configurable target-lane clearance. [Earlier evidence ledger](research/t2/analysis/20261121/decision-time-gate/PHYS_04_05_05B_06_EVIDENCE_HANDOFF.md).
+
+**PHYS-07/08/09:** 720 new matched pairs under observation lag / demand shift, 576 pre-registered pairs testing a 12-second geometry fallback, and 576 further pre-registered pairs testing 95th-percentile training-support abstention. The geometry fallback **failed** under low-turn demand; the support-abstention heuristic avoided this synthetic loss but excluded beneficial nominal cases. None is a road-safety claim. [Current evidence ledger](research/t2/analysis/20261121/decision-time-gate/PHYS_07_09_EVIDENCE_HANDOFF.md) · [shared Drive ZIP](https://drive.google.com/file/d/13rCiN3LrVLPVrUMhUtBNpv8Ttl9Bo6Av/view?usp=drivesdk).
+
+**Verification boundary:** new analysis scripts and local files have matching Git blob digests; the simulator's full imported dependency tree is still **source-derived, not a verified exact-byte GitHub checkout**. The K047 field holdout remains sealed.
 
 The cellular model is an **uncalibrated research prototype**, not a VISSIM reproduction, field causal estimate, or road-control recommendation. The K047 holdout remains sealed.
