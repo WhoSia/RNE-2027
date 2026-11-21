@@ -42,7 +42,13 @@ Local reference outputs were independently regenerated twice with byte equality.
 - C=4 reference JSON SHA-256: `90c55f22580738cb7d2da68544281824b971c9682da54de3ebc7b8fc8658ffb3`
 - C=8 reference JSON SHA-256: `e46fd3fa966f762b298281688a08a79473c0d4ff4132ec482ef5b9d8313b4d5e`
 
-These local results are **not claimed to have been uploaded to Drive or committed here**. The source and result JSON were generated as downloadable chat artifacts. The new canonical engine study entrypoint is `research/t2/physical_checkpoint_capacity_screen.py`, but has not yet been executed successfully in an environment with an authenticated repository checkout.
+The independent reference Python source and all three 48-pair JSON output files were archived together, and the complete ZIP was **uploaded and read back** on the R&E 2027 shared Drive:
+
+- [20261121 research evidence ZIP](https://drive.google.com/file/d/11Fjx0C-xPZMKJrY2S89fOoh709xuPS6A/view?usp=drivesdk)
+- Drive file ID: `11Fjx0C-xPZMKJrY2S89fOoh709xuPS6A`; parent: `20261121 김우준의 사유`
+- ZIP size 7301 bytes; local ZIP SHA-256 `ac87c5320e0293ea91296723b92c29dcb62707dc19d2f194aed90a544c934a29` (local, upload bytes not independently re-downloaded).
+
+The source and three complete JSONs are stored in that ZIP, but were **not** committed to GitHub. The new canonical engine study entrypoint is `research/t2/physical_checkpoint_capacity_screen.py`, but has not yet been executed successfully in an environment with an authenticated repository checkout.
 
 ## Decision after comparison: expand the simulator in a targeted way
 
@@ -51,3 +57,7 @@ The next simulator capability is **decision-time observation extraction** from f
 ## Reuse and limitations
 
 Earlier 704-run PHYS work varied both lane-change opportunity timing and phase order across independent runs; this study holds predecision state fixed within each pair, but the independent implementation is a separate codebase and still requires parity checks. The early/late PHYS-02 experiment and the present phase-reallocation experiment are different interventions. K047 holdout remains sealed. No valid inference about observed human lane-change behavior, field delays, legal signal plans, or causal policy effectiveness follows from these synthetic numerical results.
+
+### Decision-time aggregate aliasing witness (independent reference only)
+
+At receiver capacity 4 and 14m pocket, two cases shared the **same** available aggregate counts at t=84: pocket 2, receiver 3, approach A 16, approach B 8, outside A/B 0/0. Nevertheless, seed 0 with B share 0 yielded \u0394=-152, while seed 0 with B share 0.5 yielded \u0394=+1610. Their micropositions and underlying B-allocation assumptions differ; the aggregate signature therefore fails to identify the better phase allocation in this illustrative model. This is not proof that a field detector cannot identify the case, because geometric configuration and B allocation may be additional available information.
