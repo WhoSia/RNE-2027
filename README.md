@@ -5,6 +5,7 @@ Collaborative R&E 2027 research repository.
 ## Active research
 
 - **T2 — Spatial Traffic Dynamics:** signalized intersections, short left-turn bays, finite storage, spillback, and lane-specific throughput.
+- **RF-CURTAIN — Parallel T2 exhibition sensing research:** camera-free multi-link Wi-Fi CSI as a *hypothesis* for distinguishing pocket-vs-downstream blockage on an authorized indoor model; currently **no real CSI data, no detector or road-signal validation**. [Scientific prior art, apparatus and 21 unit tests](research/t2/exhibition/rf_curtain/README.md) · [2026-11-21 source and missing-paper ledger](research/t2/analysis/20261121/reorientation/T2_RF_LITERATURE_STOCK_AND_MISSING_20261121.md).
 - Other candidate projects remain separate until the team agrees to pursue them.
 
 Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) for active T2 code, data receipts, and verification records.
