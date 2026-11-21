@@ -1,0 +1,72 @@
+{
+  "protocol": "P29_FRESH_SEED_HOLDOUT",
+  "date": "2026-11-22",
+  "status": "SYNTHETIC_NOT_FIELD",
+  "prereg_commit": "cc854e84425b0e301c4170a67a79a7d5f979f2a5",
+  "source_git_blobs": {
+    "runner": "50a61898ab3f757be6e2ad440db0cdf98e5125dc",
+    "tests": "267a77565fb178262ca3d898f27e215517bded12"
+  },
+  "full_result_sha256": "cb126997cd36c2cc1cec6d54ef7678d68f1ef4367101d46cec8a2ab693c278ec",
+  "test_log_sha256": "af546caa7d52a912277501fab224f223f7c214d30b35ec71a434e8a529dffde7",
+  "tests_passed": 7,
+  "worlds": 128,
+  "unique_tapes": 4,
+  "seeds": [
+    120,
+    121,
+    122,
+    123
+  ],
+  "arms": [
+    "baseline",
+    "abstract6s",
+    "abstract24s"
+  ],
+  "strata": [
+    {
+      "receiver_headway_s": 1,
+      "offset_s": 0,
+      "n": 32,
+      "dose24_better": 0,
+      "tied": 32,
+      "worse": 0,
+      "additional_L_crossing_in_16": 16
+    },
+    {
+      "receiver_headway_s": 1,
+      "offset_s": 15,
+      "n": 32,
+      "dose24_better": 32,
+      "tied": 0,
+      "worse": 0,
+      "additional_L_crossing_in_32": 32,
+      "delta24_minus6_sum": -18973
+    },
+    {
+      "receiver_headway_s": 2,
+      "offset_s": 0,
+      "n": 32,
+      "dose24_better": 0,
+      "tied": 32,
+      "worse": 0,
+      "additional_L_crossing_in_16": 16
+    },
+    {
+      "receiver_headway_s": 2,
+      "offset_s": 15,
+      "n": 32,
+      "dose24_better": 32,
+      "tied": 0,
+      "worse": 0,
+      "additional_L_crossing_in_32": 32,
+      "delta24_minus6_sum": -16084
+    }
+  ],
+  "complete_reproduction_twice_byte_identical": true,
+  "limits": [
+    "4 independent traffic tapes, NOT 128 independent records",
+    "The action is an abstract cell-based simulator experiment, NOT real signal safety approval",
+    "Offset differs before decision; no same-state causal offset contrast"
+  ]
+}
