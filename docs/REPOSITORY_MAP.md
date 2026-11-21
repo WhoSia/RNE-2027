@@ -27,6 +27,18 @@ their existing Drive shelves. See the [Drive contract](DRIVE_LAYOUT_CONTRACT_202
 for source and output placement.
 
 
+## Exhibition innovation lane — RF-CURTAIN (2026-11-21, design stage only)
+
+- [Concept, staged gate and source boundary](../research/t2/exhibition/rf_curtain/README.md).
+- [Precedents / five candidate technologies](../research/t2/exhibition/rf_curtain/PRIOR_ART_AND_ALTERNATIVES.md) and [candidate decision](../research/t2/exhibition/rf_curtain/CANDIDATE_DECISION_GATE.md): 2017/2019 Wi-Fi CSI traffic research, 2025 ESP32 CSI traffic work, 2026 Wi-Fi crossing work already exist; **no first-of-kind Wi-Fi-vehicle-detection claim**.
+- [Physical first-Fresnel-zone falsification](../research/t2/exhibition/rf_curtain/GEOMETRY_GATE.md): naive 1:20 tabletop *adjacent-lane* Wi-Fi link discrimination is not supported even by a midpoint overlap plausibility check. The two measured zones should be longitudinally separated, not presented as RF camera pixels.
+- [Lab pilot prespecification](../research/t2/exhibition/rf_curtain/PILOT_PREREG.md), [privacy-safe data contract](../research/t2/exhibition/rf_curtain/DATA_CONTRACT.md), [apparatus and controls](../research/t2/exhibition/rf_curtain/APPARATUS_AND_LABELS.md).
+- [Parallel modeling interface](../research/t2/exhibition/rf_curtain/PARALLEL_RESEARCH_INTERFACE.md): no synthetic CSI used as empirical detection probability; only measured, verified sensor errors may later enter the traffic-state uncertainty model.
+- [Software/geometry verification receipt](../research/t2/exhibition/rf_curtain/RF01_FEASIBILITY_RECEIPT_20261121.md): 12 local tests passed across four Git-blob-verified source files; **zero CSI measurements, no hardware apparatus, no field trials**.
+- [Drive: RF01 source/analysis ZIP](https://drive.google.com/file/d/17zaQUPxzMo8VyYEqE5mEMLGzeswcLd3s/view?usp=drivesdk): 10,361 bytes, eight members, Drive folder `03_REPRODUCIBLE_EVIDENCE`; remote download+SHA verification remains undone.
+
+This **E** apparatus track runs in parallel with, not as a replacement for, the prior T2 `PHYS` synthetic traffic investigation. New technology buzzwords do not imply an original research contribution or a successful physical measurement.
+
 ## 2026-11-21 current T2 source and prior-work transfer
 
 The earlier [SF-01 robust sensor-information fusion](../research/t2/analysis/20261121/sensor-fusion/FINDINGS.md) used Long (2026) decision-time diagnostics, Huang (2025) lane/signal separation and a deliberately simplified Shafik/Rakha (2025) queue estimator. Its [43-test validation receipt](../research/t2/analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md) records an **earlier** state in which the 192-case physical screen was not yet executed. The later 704-run PHYS-01/02/03 physical study is reported separately below; do not treat the older pending statement as current. No empty K047 HTML or fabricated field scenes are considered evidence.
