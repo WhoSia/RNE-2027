@@ -104,3 +104,21 @@ PYTHONPATH=research/t2:research/t2/analysis/20261122 python research/t2/analysis
 ```
 
 The local 12-entry reproducer `P19_20261122_RECEIVER_MECHANISM_BUNDLE.zip` has SHA256 `bd23ae325f84880dd8f6eacc25bad385c559e6e749af46a7e43651bdf6a65b42` (39,580 bytes). This is a chat attachment, not a claim of shared Drive upload. K047 and the held 5GB CIM ZIP were untouched; GitHub Actions unused.
+
+
+## P20 — Exact-core event ledger, empirical DLR time gate and dataset custody (2026-11-22)
+
+**Internal event consistency:** [P20 findings](P20_EVENT_LEDGER_AND_EXTERNAL_MODEL_GATE_20261122.md), [independent cellular shadow auditor](p20_independent_receiver_ledger.py), [9 adversarial tests](test_p20_independent_receiver_ledger.py), [full 256-world P19 trace runner](p20_full_256_audit.py), and [machine-readable seal/limitations](P20_EVENT_LEDGER_RESULTS_20261122.json). A second implementation audits receiver discharge, cell shifts, stopline admission, position continuity and cumulative conservation. The exact `main` source/test files were read back and executed locally: 9/9 PASS. Full 256 synthetic worlds × 2 branches = 512 trajectories, 122,880 time ticks, zero internal disagreements, P19 costs/tape hashes 256/256 matched. Two generated full result JSON files were byte-identical (SHA256 b8d88c6ed7a771e7b489ae761070d78d88d9970957a7458d7304a33f37a6318b). **This is NOT SUMO validation or physical calibration.**
+
+**Real independent published data:** [DLR 15-minute findings](P20_DLR_OBSERVED_TIME_ALIGNMENT_FINDINGS_20261122.md), [SHA-locked original CSV parser](p20_dlr_observed_window_gate.py), [5 tests](test_p20_dlr_observed_window_gate.py), [structured results](P20_DLR_UT_REAL_OBSERVATION_15MIN_SUMMARY_20261122.json). The existing Drive DLR-UT v1.3.1 `2023-09-24 23:30–23:45 UTC` aligned CSV file pair had 8,624 trajectory rows from 37 tracked object IDs and 26,970 signal-code rows from 30 signal IDs; sample interval medians 0.05s and 1.0s. Five exact-remote-blob local tests passed. No map/signal-head mapping or empirical stopline discharge has been validated, so no direct vehicle-headway calibration is claimed.
+
+**Data acquisitions and large ZIP:** [P20 dataset inventory, priorities, and honest CIM custody status](P20_DATASET_INVENTORY_AND_CIM_CUSTODY_20261122.md). Existing DLR, CityArtery and SUMO scenarios should be exploited before further mass downloads. Utah SPaT and BSM currently have empty dataset-lake folders; official open datasets can be staged after license and matched-time selection. ~5GB `CIM dataset.zip` was **NOT FOUND in accessible Drive** and has NOT been moved, inspected or downloaded; a new empty receiving folder has been verified at [02_DATASETS/90_QUARANTINE_AND_UNVERIFIED/CIM_dataset_zip — UNVERIFIED_HOLD](https://drive.google.com/drive/folders/1BWRCLDTyvRkQZRIUloZo63EHDGIlgjet).
+
+Reproduce (download original DLR files from source links above; use the correct SHA-locked file names):
+```sh
+python -m unittest -v test_p20_independent_receiver_ledger.py
+python p20_full_256_audit.py /tmp/p20_full_256_results.json
+P20_DLR_TRAJECTORIES=/path/to/trajectories_230924-233000_230924-234500.csv P20_DLR_SIGNALS=/path/to/traffic-lights_230924-233000_230924-234500.csv python -m unittest -v test_p20_dlr_observed_window_gate.py
+```
+
+Next: use an explicitly mapped real signal ID/stopline and independently execute SUMO with matched geometry and selected arrival tape. Preserve discrepancies and avoid controller-safety claims. GitHub Actions/bot banned, K047 sealed.
