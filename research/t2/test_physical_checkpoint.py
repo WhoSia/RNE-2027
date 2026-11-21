@@ -61,6 +61,32 @@ class CheckpointTests(unittest.TestCase):
             run(replace(c,base=replace(c.base,phase_order="lagging")),
                 tape,resume_from=checkpoint)
 
+    def test_clearance_safe_future_phase_plan(self):
+        c=config()
+        tape=arrivals(c.base)
+        checkpoint=run(c,tape,trace=True,checkpoint_at=84)
+        # Baseline at t=83 is through green. Insert three clearance ticks,
+        # then permit left green until the next cycle boundary.
+        plan=((84,87,"-"),(87,120,"L"))
+        outcome=run(c,tape,trace=True,resume_from=checkpoint,
+                    phase_overrides=plan)
+        self.assertEqual(outcome["frames"][:84],
+                         run(c,tape,trace=True)["frames"][:84])
+        self.assertTrue(all(f["signal"]=="-" for f in outcome["frames"][84:87]))
+        self.assertEqual(outcome["frames"][87]["signal"],"L")
+        self.assertEqual(outcome["generated"],
+                         outcome["network_out_S"]+outcome["network_out_L"]+outcome["remaining"])
+        self.assertEqual(outcome["postdecision_phase_overrides"],plan)
+
+    def test_unsafe_direct_phase_change_rejected(self):
+        c=config()
+        tape=arrivals(c.base)
+        checkpoint=run(c,tape,checkpoint_at=84)
+        with self.assertRaisesRegex(ValueError,"unsafe phase transition"):
+            run(c,tape,resume_from=checkpoint,phase_overrides=((84,120,"L"),))
+        with self.assertRaisesRegex(ValueError,"before checkpoint"):
+            run(c,tape,resume_from=checkpoint,phase_overrides=((83,120,"-"),))
+
     def test_different_arrival_tape_rejected(self):
         c=config()
         tape=arrivals(c.base)
