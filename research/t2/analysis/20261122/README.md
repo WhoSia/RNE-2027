@@ -82,3 +82,25 @@ PYTHONPATH=research/t2:research/t2/analysis/20261122 python research/t2/analysis
 ```
 
 The 15 preregistered runner regressions and five posthoc event regressions passed locally (20/20 combined). Two complete new-cohort JSON generations were byte-identical. A 17-entry standalone local ZIP reproducer and its SHA256 `be3e10629398958500fba71151bff09e7f8312232eae4f07fee85faa3f0cd620` are available as a conversation download, **not yet shared-drive uploaded**. K047 sealed, CIM ZIP held, no GitHub Actions.
+
+
+## P19 — Prospective receiver storage × downstream signal offset mechanism screen
+
+- [Pre-execution frozen P19 protocol](P19_RECEIVER_SERVICE_OPPORTUNITY_PREREG_20261122.md)
+- [Executed exact-core 256-world receiver/offset runner](p19_receiver_service_opportunity.py)
+- [9 exact-byte tests](test_p19_receiver_service_opportunity.py)
+- [Full findings, event-count caveats and causal-boundary verdict](P19_RECEIVER_SERVICE_OPPORTUNITY_FINDINGS_20261122.md)
+- [Compact 4-stratum machine-readable summary](P19_RECEIVER_SERVICE_SUMMARY_20261122.json)
+
+P19 holds every world’s baseline and synthetic 8s left intervention to the same frozen checkpoint and arrival tape. Cross-world comparisons vary downstream capacity 2/4 and offset 0/15 and are **NOT same-state interventions on the receiver**. 256 worlds reuse **16** unique route-matched arrival tapes. All **9/9** tests passed and two full-result runs matched SHA256 `0681f683acd549cb2d32cc8957038ce3e652819f47e8288c5a751b6acd7e2468`.
+
+Receiver cell capacity2/offset0: 17 favorable /47 harmful /0 ties; cap2/offset15: 16/0/48; cap4/offset0: 16/14/34; cap4/offset15: 19/0/45. **Zero** strict opposite sign pairs across matched offset changes at epsilon5. Early extra turning crossings and later receiver-entry denial events are logged separately; **do not equate their correlation with mediation causality**. All units artificial/synthetic, no real signals or RF sensing.
+
+To reproduce, place the exact five verified engine sources plus P18 runner on the Python path and run:
+
+```sh
+PYTHONPATH=research/t2:research/t2/analysis/20261122 python -m unittest -v test_p19_receiver_service_opportunity
+PYTHONPATH=research/t2:research/t2/analysis/20261122 python research/t2/analysis/20261122/p19_receiver_service_opportunity.py p19_result.json
+```
+
+The local 12-entry reproducer `P19_20261122_RECEIVER_MECHANISM_BUNDLE.zip` has SHA256 `bd23ae325f84880dd8f6eacc25bad385c559e6e749af46a7e43651bdf6a65b42` (39,580 bytes). This is a chat attachment, not a claim of shared Drive upload. K047 and the held 5GB CIM ZIP were untouched; GitHub Actions unused.
