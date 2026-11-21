@@ -28,4 +28,10 @@ The earlier three linked PHYS studies (192 + 384 + 128 synthetic runs) found mod
 
 **Verification boundary:** new analysis scripts and local files have matching Git blob digests; the simulator's full imported dependency tree is still **source-derived, not a verified exact-byte GitHub checkout**. The K047 field holdout remains sealed.
 
+### PHYS-10 / PHYS-11 (2026-11-21): decision support failure and explicit gap physics
+
+- [PHYS-10](research/t2/analysis/20261121/decision-time-gate/PHYS_10_NEAR_SUPPORT_SHIFT_AND_TELEMETRY_FINDINGS.md) used **576 pre-registered matched policy pairs** on unused seeds72–79. Even a zero-distance counts-feature match admitted a harmful synthetic action; correlated detector occlusion made the OOD veto suppress all interventions. In-support feature similarity is not a safety guarantee.
+- [PHYS-11](research/t2/analysis/20261121/decision-time-gate/PHYS_11_GAP_CONFIRMATION_FINDINGS.md) introduced optional **1/2/3 consecutive eligible-tick lane-change confirmation**, with default 1 maintaining historical model outcomes. **144** new pairs on seeds80–87 produced **zero strict policy-rank reversals**, an explicit null finding.
+- [Reproduction and Drive handoff](research/t2/analysis/20261121/decision-time-gate/PHYS_10_11_EVIDENCE_AND_REPRODUCTION_HANDOFF.md): five GitHub core blobs, runners and tests verified against local source; **34/34** relevant tests pass and PHYS-10/11 JSONs have byte-identical reruns. **Whole-repository authenticated clone and full historical tests remain an OPEN gate.**
+
 The cellular model is an **uncalibrated research prototype**, not a VISSIM reproduction, field causal estimate, or road-control recommendation. The K047 holdout remains sealed.
