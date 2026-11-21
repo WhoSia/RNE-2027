@@ -12,6 +12,7 @@ class P15Tests(unittest.TestCase):
         by = {r['cohort']: r for r in audit(fixed_fixtures())}
         self.assertFalse(by['OPPOSITION']['decision_sufficient_in_enumerated_worlds'])
         self.assertEqual(by['OPPOSITION']['strict_opposition_pairs'], (('o1', 'o2'),))
+        self.assertEqual(by['OPPOSITION']['cross_arrival_group_pairs'], (('o1', 'o2'),))
         self.assertEqual(by['OPPOSITION']['minimax_regret'], '8')
         self.assertEqual(by['OPPOSITION']['minimax_actions'], ('baseline',))
 
@@ -51,6 +52,16 @@ class P15Tests(unittest.TestCase):
         r = audit((a,b))[0]
         self.assertEqual(r['world_count'],2)
         self.assertEqual(r['independent_arrival_groups'],1)
+        self.assertEqual(r['cross_arrival_group_pairs'], ())
+        self.assertEqual(r['same_arrival_group_pairs'], (('o1','o2'),))
+
+    def test_strict_opposition_not_claimed_from_same_group_as_independent(self):
+        a,b = fixed_fixtures()[:2]
+        b = World('o2', 'OPPOSITION', 'clock1','pocket',4,0,'virtual_same',
+                  (('baseline',0),('treatment',9)))
+        record = audit((a,b))[0]
+        self.assertFalse(record['cross_arrival_group_pairs'])
+        self.assertEqual(record['same_arrival_group_pairs'], (('o1','o2'),))
 
     def test_duplicate_id_rejected(self):
         a = fixed_fixtures()[0]
