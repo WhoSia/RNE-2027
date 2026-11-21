@@ -1,12 +1,7 @@
 """Holdout clock-isolation contracts: fixed route sequence, distinct timestamps."""
-import json
 import unittest
-from pathlib import Path
 from spatial_v10 import Config
-from t2_route_matched_clock_screen import SEEDS,REGIMES,CLOCKS,route_matched_tapes
-
-HERE=Path(__file__).resolve().parent.parent
-OUTPUT=HERE/'route_matched_clock_192.json'
+from t2_route_matched_clock_screen import SEEDS,REGIMES,CLOCKS,route_matched_tapes,experiment
 
 class RouteMatchedContracts(unittest.TestCase):
     def test_prespecified_seeds_and_combinations(self):
@@ -24,7 +19,7 @@ class RouteMatchedContracts(unittest.TestCase):
             self.assertNotEqual(tuple(t for t,_ in left),tuple(t for t,_ in right))
 
     def test_frozen_holdout_results_not_reinterpreted_as_independent_worlds(self):
-        result=json.loads(OUTPUT.read_text())
+        result=experiment()
         self.assertEqual(len(result['worlds']),192)
         self.assertEqual(result['summary']['left45']['strict_sign_oppositions'],1)
         self.assertEqual(result['summary']['demand1650']['strict_sign_oppositions'],9)
