@@ -5,7 +5,8 @@ Optional A->B lateral move requires empty target, front and rear cells
 and an upstream zone. No simultaneous forward move during lane-change.
 This is a synthetic minimal mesoscopic approximation, not real gap acceptance.
 """
-from dataclasses import dataclass,asdict
+from dataclasses import dataclass,asdict,replace
+from copy import deepcopy
 from collections import deque,Counter
 from math import floor
 import random
@@ -28,7 +29,12 @@ class DualConfig:
     receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
     lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
 
-def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
+def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None):
+    """Run unchanged by default; optionally stop before a tick or resume exact state.
+
+    The checkpoint holds the mutable simulation state. Post-checkpoint phase
+    order and future lane-change windows can be modified on resumed runs.
+    """
     n,k=validate(c.base)
     if not 0<=c.through_B_share<=1 or not 0<=c.change_zone_m<=c.base.approach_length_m:
         raise ValueError("invalid lane settings")
@@ -48,6 +54,11 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     if any(not isinstance(t,int) or not 0<=t<c.base.duration_s or r not in ("L","S")
            for t,r in events) or any(events[i][0]>events[i+1][0] for i in range(len(events)-1)):
         raise ValueError("invalid arrival events")
+    events=tuple(events)
+    if checkpoint_at is not None and (not isinstance(checkpoint_at,int) or not 0<=checkpoint_at<c.base.duration_s):
+        raise ValueError('invalid checkpoint tick')
+    if resume_from is not None and checkpoint_at is not None:
+        raise ValueError('cannot request another checkpoint while resuming')
     rng=random.Random(c.base.seed+193)
     outside={"A":deque(),"B":deque()}
     A={};B={};pocket={};index=0
@@ -56,7 +67,47 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
-    for t in range(c.base.duration_s):
+    first_tick=0
+    if resume_from is not None:
+        cp=deepcopy(resume_from)
+        if cp.get('format')!='dual_lane_v11_checkpoint_v1':
+            raise ValueError('unknown checkpoint format')
+        first_tick=cp['next_tick']
+        if not isinstance(first_tick,int) or not 0<first_tick<c.base.duration_s:
+            raise ValueError('invalid checkpoint boundary')
+        if cp['events']!=events or cp['trace']!=trace:
+            raise ValueError('arrival tape or trace mode differs from checkpoint')
+        original=cp['config']
+        if replace(original.base,phase_order=c.base.phase_order)!=c.base:
+            raise ValueError('incompatible base parameters')
+        if replace(original,base=c.base,lane_change_windows=c.lane_change_windows)!=c:
+            raise ValueError('incompatible physical parameters')
+        old_windows=original.lane_change_windows
+        new_windows=c.lane_change_windows
+        if old_windows!=new_windows:
+            def enabled(w,t):
+                return not w or any(a<=t<b for a,b in w)
+            if any(enabled(old_windows,t)!=enabled(new_windows,t) for t in range(first_tick)):
+                raise ValueError('lane-change opportunity differs before checkpoint')
+        st=cp['state']
+        (rng,outside,A,B,pocket,index,count,last,admission,cycles,frames,
+         service_events,access_events,lane_change_events,last_common_exit,
+         receiver,last_receiver_service)=(
+            st['rng'],st['outside'],st['A'],st['B'],st['pocket'],st['index'],
+            st['count'],st['last'],st['admission'],st['cycles'],st['frames'],
+            st['service_events'],st['access_events'],st['lane_change_events'],
+            st['last_common_exit'],st['receiver'],st['last_receiver_service'])
+    for t in range(first_tick,c.base.duration_s):
+        if checkpoint_at==t:
+            state=dict(rng=rng,outside=outside,A=A,B=B,pocket=pocket,index=index,
+                       count=count,last=last,admission=admission,cycles=cycles,
+                       frames=frames,service_events=service_events,
+                       access_events=access_events,lane_change_events=lane_change_events,
+                       last_common_exit=last_common_exit,receiver=receiver,
+                       last_receiver_service=last_receiver_service)
+            return deepcopy(dict(format='dual_lane_v11_checkpoint_v1',
+                                 next_tick=t,config=c,events=events,
+                                 trace=trace,state=state))
         while index<len(events) and events[index][0]==t:
             route=events[index][1]
             lane="A" if route=="L" or rng.random()>=c.through_B_share else "B"
