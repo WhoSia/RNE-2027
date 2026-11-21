@@ -1,0 +1,98 @@
+{
+  "protocol": "T2_P27_EXPLORATORY_OUTCOME_INFORMED_STAGE_DURATION",
+  "runner_git_blob": "537493d9002b35efac075f6a846462253a7fae33",
+  "full_result_sha256": "339a9aacc5f3539bbc65931ab9655f362a58ed19305debca53a25e1a6de9b962",
+  "prior_pilot_outcome_informed": true,
+  "worlds": 128,
+  "unique_arrival_tapes": 4,
+  "reference_p19_headway2_8s_matches": 64,
+  "strata": [
+    {
+      "headway_s": 1,
+      "duration_s": 6,
+      "improved": 47,
+      "worsened": 0,
+      "ties": 17,
+      "sum_delta": -17194,
+      "extra_left_crossings_87_119": 121
+    },
+    {
+      "headway_s": 1,
+      "duration_s": 10,
+      "improved": 47,
+      "worsened": 0,
+      "ties": 17,
+      "sum_delta": -17194,
+      "extra_left_crossings_87_119": 137
+    },
+    {
+      "headway_s": 1,
+      "duration_s": 16,
+      "improved": 47,
+      "worsened": 0,
+      "ties": 17,
+      "sum_delta": -17194,
+      "extra_left_crossings_87_119": 137
+    },
+    {
+      "headway_s": 1,
+      "duration_s": 24,
+      "improved": 64,
+      "worsened": 0,
+      "ties": 0,
+      "sum_delta": -36387,
+      "extra_left_crossings_87_119": 217
+    },
+    {
+      "headway_s": 2,
+      "duration_s": 6,
+      "improved": 18,
+      "worsened": 12,
+      "ties": 34,
+      "sum_delta": -6960,
+      "extra_left_crossings_87_119": 111
+    },
+    {
+      "headway_s": 2,
+      "duration_s": 10,
+      "improved": 18,
+      "worsened": 12,
+      "ties": 34,
+      "sum_delta": -6960,
+      "extra_left_crossings_87_119": 127
+    },
+    {
+      "headway_s": 2,
+      "duration_s": 16,
+      "improved": 18,
+      "worsened": 12,
+      "ties": 34,
+      "sum_delta": -6960,
+      "extra_left_crossings_87_119": 127
+    },
+    {
+      "headway_s": 2,
+      "duration_s": 24,
+      "improved": 41,
+      "worsened": 12,
+      "ties": 11,
+      "sum_delta": -25708,
+      "extra_left_crossings_87_119": 207
+    }
+  ],
+  "first_tested_dose_differing_from6": {
+    "24": 64,
+    "never": 64
+  },
+  "dose24_vs6_cost": {
+    "better": 64,
+    "same": 64
+  },
+  "dose24_vs6_cost_different_without_crossing_difference": 0,
+  "limitations": [
+    "Dose threshold 24s was suggested by a diagnostic exploratory pilot before full cohort; discovery is NOT confirmatory.",
+    "Nominal model '-' clearance and green durations are not field-safe or operational signal control.",
+    "Repeated geometric worlds share four full arrival tapes.",
+    "Cross-headway histories before decision differ."
+  ]
+}
