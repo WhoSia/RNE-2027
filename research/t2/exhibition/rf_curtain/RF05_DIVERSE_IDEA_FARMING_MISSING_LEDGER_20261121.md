@@ -1,3 +1,7 @@
+> **Additional held source found in another Drive project folder, 2026-11-21.** Zhao, Ma & Zhang (2025), *Distributed optical fiber sensors for pavement Engineering: A-State-of-Art review*, *Measurement* 246:116732, DOI [10.1016/j.measurement.2025.116732](https://doi.org/10.1016/j.measurement.2025.116732), original [Drive PDF 170xG64S_vUE28HC_JnFvHMK5GeGGWU2-](https://drive.google.com/file/d/170xG64S_vUE28HC_JnFvHMK5GeGGWU2-/view). Extracted full text reviewed for DOFS/FBG/OFDR/DAS road traffic and pavement measurements. **HELD_IN_CONNECTED_DRIVE_BUT_NOT_CONFIRMED_IN_RESEARCH_OS_10_PAPERS**: the PDF is actually in a separate project folder and remains untouched there; do not duplicate or move without source-owning project approval. A hidden numeric filename does NOT imply the work is missing. The review is not evidence that an ordinary classroom fiber cable has a DAS interrogator. This supplement does not change the 5+17 candidate count.
+
+---
+
 # RF05 — Diverse idea-farming literature radar and exact-PDF missing registry
 
 2026-11-21 · Research OS / R&E 2027 T2 · Scope: invention exploration, NOT a claim of discovery priority or original reproduction.
