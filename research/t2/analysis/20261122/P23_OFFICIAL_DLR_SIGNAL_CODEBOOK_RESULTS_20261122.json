@@ -1,0 +1,85 @@
+{
+  "protocol": "T2_P23_DLR_V1_3_1_OFFICIAL_CODEBOOK_20261122",
+  "status": "PUBLISHER_SIGNAL_CODEBOOK_CONFIRMED_HEADWAY_AND_LANE_MAPPING_OPEN",
+  "official_pdf": {
+    "drive_file_id": "1gUqUJEAGtXw06RjQCLbBoJ0k-pcee5Uq",
+    "sha256": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "printed_page_signal_ids": 12,
+    "printed_page_code_map": 14,
+    "figure": "Figure 1",
+    "code_table": "Table 4"
+  },
+  "raw_signal_csv": {
+    "drive_file_id": "1TXma5bvw_M-NSfqO2LhW7JrEFqANxUOy",
+    "sha256": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c",
+    "rows": 26970,
+    "signals": 30
+  },
+  "codebook": {
+    "0": "unavailable",
+    "1": "off",
+    "2": "stop_before_proceed",
+    "3": "red_stop_wait",
+    "4": "red_and_yellow",
+    "5": "green",
+    "6": "green_protected_movement",
+    "7": "yellow",
+    "8": "yellow_protected_movement",
+    "9": "yellow_flashing"
+  },
+  "groups": [
+    {
+      "role": "motor_vehicle_signal",
+      "ids": "1-9",
+      "rows": 8091,
+      "observed_codes": {
+        "3": 6105,
+        "4": 86,
+        "5": 1645,
+        "7": 255
+      }
+    },
+    {
+      "role": "vulnerable_road_user_signal",
+      "ids": "10-29",
+      "rows": 17980,
+      "observed_codes": {
+        "3": 14819,
+        "4": 42,
+        "5": 3035,
+        "7": 84
+      }
+    },
+    {
+      "role": "flashing_vru_warning",
+      "ids": "30",
+      "rows": 899,
+      "observed_codes": {
+        "1": 604,
+        "9": 295
+      }
+    }
+  ],
+  "sampling_s": {
+    "median": 1,
+    "minimum": 0.879,
+    "maximum": 2.004,
+    "intervals_over_1_5s": 30
+  },
+  "validation": {
+    "tests": 5,
+    "passed": 5,
+    "source_blob": "6866838ef5df68b761cb93e6ae837af1d66810ee",
+    "test_blob": "d0a33abe4788a8954c78a9b1f3a772f5fafe7ca4",
+    "full_local_output_sha256": "32082768e667522f5b191dbc76fd0b92604844c4001dd30186b387ea54c85b10",
+    "test_log_sha256": "c40575e73f33b0b8db8267f9390e127a41d406b29e5755ef3b05f11a016d6fa9"
+  },
+  "gates": {
+    "official_codebook": true,
+    "signal_purpose": true,
+    "signal_to_movement": false,
+    "subsecond_headway": false,
+    "legal_phase": false,
+    "independent_sumocrossmodel": false
+  }
+}
