@@ -203,3 +203,12 @@ Both tracks remain independent until model-real observation evidence exists. No 
 **P15:** [Adversarial review and verified paper-arithmetic receipt](../research/t2/analysis/20261122/P15_COLLABORATOR_CLAUDE_AUDIT_RECEIPT_20261122.md) confirms a specific inconsistent published Table I via source PDF and independently recomputed F1/weighted recall. Reviewer's local `f1e57b0` is NOT pushed; do not count it as a remote project commit or re-author his patch. [Preregistered RF class-to-T2 state/decision sufficiency contract](../research/t2/analysis/20261122/P15_RF_TO_T2_STATE_INTERFACE_PREREG_20261122.md) distinguishes staged toy-zone labels from policy-relevant traffic state; no new physical CSI measurement or strict PHYS action-reversal witness yet.
 
 The older 2026-11-21 folders remain intact. All updates to repository `main`; GitHub Actions and bot commits forbidden; K047 sealed and the ~5GB CIM dataset stays on HOLD.
+
+
+### 2026-11-22 P15 exact artificial decision-interface implementation and reviewer separation
+
+[Nov22 P15 index](../research/t2/analysis/20261122/README.md), [originally frozen interface prereg](../research/t2/analysis/20261122/P15_RF_TO_T2_STATE_INTERFACE_PREREG_20261122.md), [exact source](../research/t2/analysis/20261122/p15_rf_decision_sufficiency.py), [19 tests](../research/t2/analysis/20261122/test_p15_rf_decision_sufficiency.py), [generated JSON](../research/t2/analysis/20261122/p15_rf_decision_sufficiency_results.json), [exact byte/hash and limitations](../research/t2/analysis/20261122/P15_1_EXACT_DECISION_SUFFICIENCY_FINDINGS_20261122.md), [김세호 independent-review mandate](../research/t2/analysis/20261122/P15_INDEPENDENT_PEER_REVIEW_MANDATE_20261122.md).
+
+This **pure mathematical checker** was implemented and tested locally (19/19 unit tests PASS), then its final code, test and generated-output Git blobs on `main` were read back and matched to the executed local bytes. Three *invented* cost-table cohorts distinguish within-label state aliasing from lack of common optimal action, including a legitimate common-action null. A deliberate correction replaced the potentially ambiguous pocket-only downstream-free-cells=0 fixture with a nonzero downstream capacity; the coarse JSON did not change, so the exact code and fixture hashes are essential.
+
+No new traffic engine simulation was run; no live signal or CSI observation occurred. **Independent reviewer 김세호 may inspect, falsify and provide attributed patches but does not automatically commit to `main`; development and integration are owned by 김우준.**
