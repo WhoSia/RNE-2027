@@ -96,12 +96,20 @@ def audit(worlds: tuple[World, ...], *, epsilon: Fraction = Fraction(5)) -> tupl
         robust = tuple(a for a in actions if regrets[a] == minimax)
         # Witnesses are all exact two-action sign oppositions beyond epsilon.
         witness = []
+        cross_group_witness = []
+        within_group_witness = []
         if 'baseline' in actions and 'treatment' in actions:
-            delta = [(w.world_id, costs['treatment'] - costs['baseline'])
+            delta = [(w.world_id, w.arrival_group,
+                      costs['treatment'] - costs['baseline'])
                      for w, costs, _ in by_world]
-            for (id_a, da), (id_b, db) in combinations(delta, 2):
+            for (id_a, group_a, da), (id_b, group_b, db) in combinations(delta, 2):
                 if (da < -eps and db > eps) or (db < -eps and da > eps):
-                    witness.append((id_a, id_b))
+                    pair = (id_a, id_b)
+                    witness.append(pair)
+                    if group_a != group_b:
+                        cross_group_witness.append(pair)
+                    else:
+                        within_group_witness.append(pair)
         state_signatures = {(w.pocket_vehicles, w.downstream_free_cells) for w in rows}
         result.append({
             'cohort': cohort, 'rf_label': label, 'contract': contract,
@@ -112,6 +120,8 @@ def audit(worlds: tuple[World, ...], *, epsilon: Fraction = Fraction(5)) -> tupl
             'decision_sufficient_in_enumerated_worlds': bool(common),
             'minimax_regret': str(minimax), 'minimax_actions': robust,
             'strict_opposition_pairs': tuple(witness),
+            'cross_arrival_group_pairs': tuple(cross_group_witness),
+            'same_arrival_group_pairs': tuple(within_group_witness),
             'epsilon': str(eps),
             'scope': 'EXACT_ARTIFICIAL_COST_FIXTURE_NOT_PHYS_NOT_CSI',
         })
