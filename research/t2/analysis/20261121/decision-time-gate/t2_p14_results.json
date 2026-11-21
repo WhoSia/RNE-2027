@@ -1,0 +1,56 @@
+{
+  "delta_distribution": {
+    "-11": 4,
+    "-7": 2,
+    "-6": 10,
+    "-5": 10,
+    "-4": 2,
+    "-2": 2,
+    "-1": 9,
+    "0": 22,
+    "1": 9,
+    "2": 2,
+    "4": 2,
+    "5": 10,
+    "6": 10,
+    "7": 2,
+    "11": 4
+  },
+  "negative": 39,
+  "positive": 39,
+  "scope": "ARTIFICIAL_FINITE_QUEUE_CLOCK_SCREEN_NOT_PHYS_OR_FIELD",
+  "ties": 22,
+  "witness": [
+    {
+      "a": [
+        0,
+        2
+      ],
+      "a_cost": 7,
+      "a_lost": 0,
+      "b": [
+        1,
+        1
+      ],
+      "b_cost": 8,
+      "b_lost": 0,
+      "delta": -1
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "a_cost": 8,
+      "a_lost": 0,
+      "b": [
+        0,
+        2
+      ],
+      "b_cost": 7,
+      "b_lost": 0,
+      "delta": 1
+    }
+  ],
+  "world_count": 100
+}
