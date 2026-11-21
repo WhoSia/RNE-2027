@@ -1,0 +1,69 @@
+{
+  "protocol": "T2_P24_DLR_OFFICIAL_SIGNAL_ID_AND_CODEBOOK",
+  "scope": "VERIFIED_DLR_UT_V1_3_1_PDF_AND_RAW_CSV_NOT_LANE_CONTROL_MAPPING",
+  "source_sha256": {
+    "official_pdf": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "traffic_lights": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c"
+  },
+  "pdf_page_and_table": {
+    "coordinate_table": "Table 3 pp12-13",
+    "state_table": "Table 4 p14",
+    "figure": "Figure 1 p12"
+  },
+  "official_states": {
+    "0": "unavailable",
+    "1": "off",
+    "2": "stop required",
+    "3": "red",
+    "4": "red-yellow",
+    "5": "green",
+    "6": "protected green",
+    "7": "yellow",
+    "8": "protected yellow",
+    "9": "flashing yellow"
+  },
+  "official_coordinate_rows": 35,
+  "official_distinct_positioned_signal_ids": 26,
+  "observed_distinct_signal_ids": 30,
+  "unpositioned_live_signal_ids": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "observed_15min_signal_rows": 26970,
+  "observed_code_changes": 869,
+  "observed_samples_by_code": {
+    "1": 604,
+    "3": 20924,
+    "4": 128,
+    "5": 4680,
+    "7": 339,
+    "9": 295
+  },
+  "observed_transitions_by_code": {
+    "3->5": 171,
+    "5->3": 168,
+    "3->4": 128,
+    "5->7": 127,
+    "7->3": 127,
+    "4->5": 127,
+    "9->1": 11,
+    "1->9": 10
+  },
+  "validation": {
+    "exact_local_main_source_blob": "0e5edb4884b9385eb778f71222270249aaebcf47",
+    "exact_local_main_test_blob": "5dfe96f6e74fec4919fe8975628ce957d1c12cb6",
+    "local_tests_passed": 7,
+    "full_original_result_sha256": "d48376cf8958764e567b75b97b38307be799934ab7d04446775dafd9d727c3a1",
+    "local_test_log_sha256": "39f597d8bcd2b3b6b8e16f4b570edc795298960ecc97631930a296727158bb6e"
+  },
+  "caveats": [
+    "A PDF signal ID may have multiple recorded physical coordinates; 26 distinct ID labels map to 35 position rows",
+    "Missing coordinates for 10-13 are not imputed",
+    "Direct 3->5 or 5->3 transitions in 1Hz samples do not establish physical clearance omission",
+    "Signal point proximity does not establish controlled lanes or stopline ordering",
+    "Actual 1Hz signal state sampling cannot resolve subsecond transition instants",
+    "No live road controller operations or safety claims"
+  ]
+}
