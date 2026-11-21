@@ -30,3 +30,8 @@ for source and output placement.
 ## 2026-11-21 current T2 source and prior-work transfer
 
 The latest research unit [SF-01 robust sensor-information fusion](../research/t2/analysis/20261121/sensor-fusion/FINDINGS.md) uses Long (2026) decision-time forecast diagnostics, Huang (2025) lane/signal separation, and an explicitly simplified Shafik/Rakha (2025) two-stage queue estimator. [43-test local validation and unresolved 192 physical runs](../research/t2/analysis/20261121/sensor-fusion/VALIDATION_RECEIPT.md). [Executable physics-screen design](../research/t2/physical_transfer_screen.py) is **not** yet a completed physical result. No empty K047 HTML or fabricated field scenes are considered evidence.
+
+
+## Latest T2 implementation receipt — 2026-11-21
+
+[704 synthetic physical run assessment](../research/t2/analysis/20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md) consists of original 192-case fixed-geometry screen, 384-case physically time-gated opportunity comparisons, and separately exploratory 128-case geometry sensitivity. Source/test byte fingerprints, 3 original output SHA-256 values and the 21/21 self-contained tested checks are provided in the individual receipts. The paired 48/48/16 cost comparisons are preserved as CSV in Git. **These are not 704 independent field samples or 704 validations of a real controller.** The K047 blank viewer remains retired. Next technical gate: clone the complete traffic microstate at a valid decision time and compare future policies with identical information prefixes, then use prior gap-acceptance and state-estimation work.
