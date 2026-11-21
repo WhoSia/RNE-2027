@@ -87,6 +87,18 @@ class CheckpointTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"before checkpoint"):
             run(c,tape,resume_from=checkpoint,phase_overrides=((83,120,"-"),))
 
+    def test_single_matched_cost_pair(self):
+        from physical_transfer_screen import score
+        c=config()
+        tape=arrivals(c.base)
+        cp=run(c,tape,checkpoint_at=84)
+        baseline=run(c,tape,resume_from=cp)
+        alternate=run(c,tape,resume_from=cp,
+                      phase_overrides=((84,87,"-"),(87,91,"L"),(91,120,"-")))
+        self.assertEqual(baseline,run(c,tape))
+        self.assertIsInstance(score(baseline),int)
+        self.assertIsInstance(score(alternate)-score(baseline),int)
+
     def test_different_arrival_tape_rejected(self):
         c=config()
         tape=arrivals(c.base)
