@@ -52,7 +52,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
     outside={"A":deque(),"B":deque()}
     A={};B={};pocket={};index=0
     count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
-    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[];access_events=[]
+    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[];access_events=[];lane_change_events=[]
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
     last_receiver_service=-999999
@@ -129,7 +129,9 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
                 if x not in A or A[x][1]!="S" or A[x][0] in moved_ids or x>=-k or x< -zone:continue
                 if x not in B and x-1 not in B and x+1 not in B:
                     if x+1 in A and (A[x+1][1]=="L" or x+2 in A):
-                        B[x]=A.pop(x);count["changes_A_to_B"]+=1
+                        v=A.pop(x)
+                        B[x]=v;count["changes_A_to_B"]+=1
+                        if trace:lane_change_events.append({"t":t,"vehicle_id":v[0],"from":"A","to":"B","cell":x})
         for lane,occ in (("A",A),("B",B)):
             if outside[lane] and -n not in occ and t-admission[lane]>=c.base.entry_headway_s:
                 occ[-n]=outside[lane].popleft();count["admitted"]+=1;admission[lane]=t
@@ -187,4 +189,5 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False):
         result["frames"]=frames
         result["service_events"]=service_events
         result["access_events"]=access_events
+        result["lane_change_events"]=lane_change_events
     return result
