@@ -1,6 +1,7 @@
 import csv
 import hashlib
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
@@ -11,7 +12,7 @@ from p34_official_volume_overlap import (
     hash_guard, parse_utc, read_volume, read_tracks, read_signal_gap,
 )
 
-DATA=Path('/mnt/data')
+DATA=Path(os.environ.get('P34_SOURCE_DIR','/mnt/data'))
 VOL=DATA/'traffic-volume_230924-233000_230924-234500.csv'
 TRA=DATA/'trajectories_230924-233000_230924-234500.csv'
 SIG=DATA/'traffic-lights_230924-233000_230924-234500.csv'
