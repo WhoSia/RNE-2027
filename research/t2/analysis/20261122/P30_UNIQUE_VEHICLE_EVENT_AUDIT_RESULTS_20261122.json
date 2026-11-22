@@ -1,0 +1,76 @@
+{
+  "protocol": "P30_PAIRED_PER_ID_RECEIVER_DENIAL_AUDIT",
+  "date": "2026-11-22",
+  "status": "SYNTHETIC_UNCALIBRATED",
+  "prereg_commit": "5b65010827eba10b0c2dd8460a9b50689d8e0c7b",
+  "runner_blob": "f4b6adfecab9639616182a35591014befb517362",
+  "tests_blob": "98aefdde88e8dfb22b70ae44e1884c15ab73efde",
+  "original_p26_result_sha256": "640ec195830abae2ab99d202d43d92aaf3cbbc5f875a0ddc6765fe82f20c19e4",
+  "full_p30_result_sha256": "6fc5d2e02192f8dd4ad97f420bbb8961bb0339d2c7ca01bc3a7ac16c3a43763f",
+  "test_log_sha256": "52bdee17f7df2d711d029ac80664dfe6513483fc0c734c0efd8e6876b7dc210c",
+  "tests_passed": 9,
+  "tests_total": 9,
+  "original_test_error": "Initial tests expected string histogram keys although in-memory dict uses integer keys; corrected only test expectations, no experiment/code modifications.",
+  "worlds": 64,
+  "unique_tapes": 4,
+  "durations": [
+    6,
+    10
+  ],
+  "comparison": "same t84 checkpoint each world",
+  "all_equal_model_cost": 64,
+  "denial_attempt_delta_hist": {
+    "4": 64
+  },
+  "distinct_rejected_delta_hist": {
+    "0": 30,
+    "1": 34
+  },
+  "repeat_attempt_delta_hist": {
+    "3": 34,
+    "4": 30
+  },
+  "contiguous_episode_delta_hist": {
+    "0": 30,
+    "1": 18,
+    "2": 16
+  },
+  "rejected_then_crossed_delta_hist": {
+    "0": 30,
+    "1": 34
+  },
+  "first_denial_to_crossing_sum_delta_hist": {
+    "0": 30,
+    "27": 34
+  },
+  "censor_count_delta_hist": {
+    "0": 64
+  },
+  "observed_crossing_total_delta_hist": {
+    "0": 64
+  },
+  "left_crossings_delta_hist": {
+    "0": 64
+  },
+  "remaining_delta_hist": {
+    "0": 64
+  },
+  "by_offset": [
+    {
+      "offset": 0,
+      "worlds": 32,
+      "distinct_rejected_increase_1": 32
+    },
+    {
+      "offset": 15,
+      "worlds": 32,
+      "distinct_rejected_increase_1": 2
+    }
+  ],
+  "limitations": [
+    "No per-ID downstream link exit timestamp exposed by run result; cannot infer it.",
+    "Common exit gap denials do not generate per-ID service events.",
+    "Finite termination t240, noncrossers right-censored.",
+    "No actual traffic controller, empirical validation, independent SUMO model or legal clearance."
+  ]
+}
