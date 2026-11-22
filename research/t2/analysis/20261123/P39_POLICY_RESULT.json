@@ -1,4 +1,10 @@
 {
+  "diagnostics": {
+    "oracle_prefers_extension": 8,
+    "oracle_prefers_fixed": 1,
+    "pocket_positive": 128,
+    "receiver_two_free": 27
+  },
   "policies": {
     "fixed": {
       "advances": false,
