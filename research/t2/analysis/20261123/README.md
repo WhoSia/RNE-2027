@@ -47,3 +47,7 @@ Scientific ceiling: **field-time observation quality**. No 2023 active head-to-l
 ## P38 breadth and evidence review
 
 [Research scorecard](P38_RESEARCH_SCORECARD.md) · [Green-window observation counts](P38_GREEN_OBSERVATION_RESULT.json) · [Burst-arrival pilot](P38_BURST_PILOT.json)
+
+## P39 model comparison and policy holdout
+
+[Protocol](P39_DECISION_PROTOCOL.md) · [Decision review](P39_DECISION_REVIEW.md) · [Engine results](P39_ENGINE_RESULT.json) · [Policy results](P39_POLICY_RESULT.json)
