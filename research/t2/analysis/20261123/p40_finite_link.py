@@ -57,11 +57,11 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
     argv = ["sumo", "-n", "net.xml", "-r", "demand.rou.xml",
             "--end", str(HORIZON), "--step-length", str(step_size), "--time-to-teleport", "-1",
             "--tripinfo-output", "trips.xml", "--tripinfo-output.write-unfinished", "true",
-            "--tripinfo-output.write-undeparted", "true", "--fcd-output", "fcd.xml", "--no-step-log", "true", "--seed", "17"]
+            "--tripinfo-output.write-undeparted", "true", "--fcd-output", "fcd.xml", "--collision-output", "collisions.xml", "--no-step-log", "true", "--seed", "17"]
     argv += ["-a", "startup.add.xml"]
-    run = subprocess.run(argv, cwd=folder, check=True, text=True, capture_output=True)
-    if "collision" in run.stderr.lower():
-        raise ValueError(run.stderr)
+    subprocess.run(argv, cwd=folder, check=True, text=True, capture_output=True)
+    if ET.parse(folder / "collisions.xml").getroot().find("collision") is not None:
+        raise ValueError("SUMO reported a collision")
     states = ET.parse(folder / "tls.xml").getroot().findall("tlsState")
     if len(states) != round(HORIZON / step_size) or any(
             float(state.get("time")) != i * step_size
