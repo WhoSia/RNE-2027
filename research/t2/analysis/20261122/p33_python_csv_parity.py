@@ -87,10 +87,14 @@ def audit(go_result: dict, signals: Path, trajectories: Path) -> dict:
     class_changes = 0
     prior_class = {}
     track_counts = Counter()
+    gap_start=datetime.fromisoformat(g['last_observed_utc'])
+    gap_end=datetime.fromisoformat(g['next_observed_utc'])
+    tracked_within_gap=Counter()
     for row in csv.DictReader(trajectories.open(newline='')):
         ident,stamp=int(row['id']),datetime.fromisoformat(row['timestamp'])
         trajectories_rows += 1
         track_counts[ident] += 1
+        if gap_start<stamp<gap_end: tracked_within_gap[ident]+=1
         interp += row['interpolated'].lower() == 'true'
         vec=math.hypot(float(row['velocity_easting']),float(row['velocity_northing']))
         diff=abs(vec-float(row['velocity_magnitude']))
@@ -115,9 +119,14 @@ def audit(go_result: dict, signals: Path, trajectories: Path) -> dict:
     assert gt['speed_component_disagreements_gt_0_1_mps'] == speed_01 == 0
     assert gt['speed_component_disagreements_gt_0_5_mps'] == speed_05 == 0
     assert gt['observed_top_class_changes'] == class_changes == 0
+    assert sum(tracked_within_gap.values())==40
+    assert len(tracked_within_gap)==1
     return {'cross_language':'Go producer / independent Python stdlib parity','matched_fields':18,
             'signal_timestamp_groups':len(snapshots),'shared_gap_changed_heads':[12,20,21],
-            'trajectory_interpolated_rows':interp,'status':'PASS'}
+            'trajectory_interpolated_rows':interp,
+            'trajectory_rows_within_shared_signal_gap':sum(tracked_within_gap.values()),
+            'tracked_object_ids_within_shared_signal_gap':len(tracked_within_gap),
+            'status':'PASS'}
 
 if __name__ == '__main__':
     p=argparse.ArgumentParser()
