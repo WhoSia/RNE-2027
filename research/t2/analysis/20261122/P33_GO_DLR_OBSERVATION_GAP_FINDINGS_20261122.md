@@ -10,7 +10,7 @@ Per the [Research OS Polyglot Computation Atlas](https://app.notion.com/p/3e9ef5
 
 - [Go module](dlr_temporal_gate_go/go.mod); [Go parser/temporal auditor](dlr_temporal_gate_go/main.go), source Git blob `9267f71ceff95d2204418b2060413f3a996e040b`.
 - [13 Go tests](dlr_temporal_gate_go/main_test.go), exact Git blob `00faf2972a9a628ff7210b9ede73b893bca6f00c`; **13/13 PASS**, `go vet` PASS, race-instrumented tests PASS.
-- [Independent Python parity oracle](p33_python_csv_parity.py), blob `01683f5df05853f9275c3ead39469968bfa04555`: **18 measurement checks PASS**.
+- [Independent Python parity oracle](p33_python_csv_parity.py), blob `f7b54d7ccccb312e450aba1639696e4c03e29a97`: **18 measurement checks PASS**.
 - [Full JSON observation ledger](P33_GO_DLR_FIELD_FIDELITY_FULL_20261122.json), blob `cdabdf11abc2cfa5cf56f5b4331e2b522775fda0`; SHA-256 `fc70c9cd0859a73a2d113ecbeea8a531b23151901391959d18ffabf1c1dc7687`.
 
 ## Raw immutable observations
@@ -53,6 +53,8 @@ Among the 30 signal heads, **three** show a different code on the two sides of t
 - Head **20** and **21**: code **5 (green)** → **3 (red)**.
 
 The 2.004s is the span between *sample instants*. It is **not** the duration of an unseen signal phase, nor does observing equal endpoints on the other 27 heads prove no intermediate transitions. Exact transition instants within the open/closed window cannot be inferred from these 1Hz samples. A 50ms trajectory sample in the middle does **not** restore the missing phase measurement.
+
+The independent trajectory reader finds **40 tracked-object rows from one object ID** whose timestamps fall strictly inside this common signal-observation gap (t23:31:44.016482–23:31:45.966482 UTC). These are 40 *observed track samples*, **not** 40 distinct vehicles and **not** evidence that any particular signal head controls this object's movement. No lane/head join has been established.
 
 ### Signal classification and relation to road scene
 
