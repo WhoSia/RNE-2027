@@ -1,0 +1,35 @@
+{
+  "families": {
+    "platoon4": {
+      "benefit_over_10s": 15,
+      "harm_over_10s": 3,
+      "mixed_vehicle_effects": 4,
+      "offsetting_movements": 0,
+      "ties": 56
+    },
+    "uniform": {
+      "benefit_over_10s": 16,
+      "harm_over_10s": 1,
+      "mixed_vehicle_effects": 2,
+      "offsetting_movements": 0,
+      "ties": 63
+    }
+  },
+  "vehicle_delta_histogram": {
+    "-54": 1,
+    "-42": 1,
+    "-34": 1,
+    "-27": 31,
+    "-22": 1,
+    "-20": 4,
+    "-18": 2,
+    "-2": 1,
+    "0": 13594,
+    "2": 27,
+    "20": 2,
+    "22": 2,
+    "34": 1,
+    "44": 1,
+    "54": 1
+  }
+}
