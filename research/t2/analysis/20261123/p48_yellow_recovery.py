@@ -7,7 +7,7 @@ from p40_finite_link import SimulationCollision, sumo_run
 from p44_crossing_bounds import bound
 
 
-def experiment(failed):
+def experiment(failed, action_step=1.):
     rows = []
     with TemporaryDirectory() as directory:
         for i, case in enumerate(failed):
@@ -18,7 +18,7 @@ def experiment(failed):
                 try:
                     pair.append(sumo_run(Path(directory) / f"{i}-{order}", order,
                                          case["capacity"], case["closed"], step_size=step,
-                                         action_step=1., yellow=True))
+                                         action_step=action_step, yellow=True))
                 except SimulationCollision:
                     pair.append(None)
             row["collision_arms"] = [name for name, arm in zip(("lagging", "leading"), pair)
