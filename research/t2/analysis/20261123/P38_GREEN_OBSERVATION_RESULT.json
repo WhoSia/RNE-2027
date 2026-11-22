@@ -1,0 +1,9 @@
+{
+  "ambiguous_crossing_time": 1,
+  "detected_crossing": 1,
+  "frame_without_detected_crossing": 114,
+  "green_bracket_slots": 292,
+  "no_selected_frame": 176,
+  "slow_upstream_0_receiver_0": 110,
+  "slow_upstream_1_receiver_0": 4
+}
