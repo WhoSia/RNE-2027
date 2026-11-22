@@ -10,6 +10,10 @@ from p39_engine_bridge import t2_case
 from sumo_phase_pair import DEMAND, HORIZON, outcome, prepare, write
 
 
+class SimulationCollision(ValueError):
+    """Recorded collision invalidates a paired contrast."""
+
+
 def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None):
     prepare(folder, order, yellow=False)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
@@ -61,7 +65,7 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
     argv += ["-a", "startup.add.xml"]
     subprocess.run(argv, cwd=folder, check=True, text=True, capture_output=True)
     if ET.parse(folder / "collisions.xml").getroot().find("collision") is not None:
-        raise ValueError("SUMO reported a collision")
+        raise SimulationCollision("SUMO reported a collision")
     states = ET.parse(folder / "tls.xml").getroot().findall("tlsState")
     if len(states) != round(HORIZON / step_size) or any(
             float(state.get("time")) != i * step_size
