@@ -220,3 +220,26 @@ Actual DLR source map: 28 road elements, 1 junction; 7 static type-294 sign inst
 DLR's public [TASI](https://github.com/DLR-TS/TASI) at commit `5dc52b93cd375e92cd5ae4aa3a7f10e5aeafca11`: `DLRTrafficVolumeDataset` is a pass-through CSV wrapper and `TrafficVolumeDataset.from_csv` only stacks imported columns. **This does not establish any lane-to-signal generation/mapping contract.** TASI data loader is useful for reading published 1s data, not proof of actual signal control. Local P24 source tests 9/9 PASS; exact remote main Git blob was not separately executed in this session. Keep field-phase/map correspondence UNKNOWN until real authoritative lane topology/label evidence.
 
 Physical goal: provide regional (Changwon/Gyeongnam) traffic-flow improvement models calibrated/checked against external datasets. The P24 join gate is a prerequisite, not a replacement science-fair topic. Independent SUMO and true signal/queue/stopline validation remain open.
+
+
+## P33 — Go DLR field-time fidelity and synchronized observation gap
+
+- [Prospective field-data QC protocol](P33_GO_DLR_TEMPORAL_FIDELITY_PREREG_20261122.md)
+- [Go 1.23 stdlib source](dlr_temporal_gate_go/main.go), [Go module](dlr_temporal_gate_go/go.mod), [13 Go unit/integration tests](dlr_temporal_gate_go/main_test.go)
+- [Independent Python raw-CSV measurement parity](p33_python_csv_parity.py)
+- [Full 30-head/37-track JSON result](P33_GO_DLR_FIELD_FIDELITY_FULL_20261122.json)
+- [Scientific interpretation and adversarial findings](P33_GO_DLR_OBSERVATION_GAP_FINDINGS_20261122.md)
+
+Raw input SHA-locked to DLR-UT v1.3.1 real 15-minute window: 26,970 signal observations across 30 heads, 8,624 tracked-object observations across 37 IDs, exactly **899** synchronized signal timestamps, 869 sampled state changes. **One globally synchronized 2.004s observation gap** (23:31:44.010Z–23:31:46.014Z) affects all 30 signal heads; IDs **12,20,21** change observed code across the gap, while one tracked object contributes **40 trajectory samples inside it**. No exact transition instant, controlled-lane mapping, field causation, or signal timing legality is inferred. The Go implementation reproduces the earlier P24/P20 counts exactly and finds the common-mode missing observation. **13/13 tests PASS**, Go vet and race checks PASS, independent Python parity PASS. Go full JSON SHA256 `fc70c9cd0859a73a2d113ecbeea8a531b23151901391959d18ffabf1c1dc7687`.
+
+No extra modules, system install, GitHub Actions or new development branch. Reproduce with Go 1.23+ and the two exact CSVs locally:
+
+```sh
+cd research/t2/analysis/20261122/dlr_temporal_gate_go
+P33_SOURCE_DIR=/path/to/dir/with/exact/CSVs go test -count=1 -v ./...
+go vet ./...
+go run . --signals /path/to/traffic-lights_230924-233000_230924-234500.csv --trajectories /path/to/trajectories_230924-233000_230924-234500.csv --out /tmp/p33_new.json
+python ../p33_python_csv_parity.py /tmp/p33_new.json /path/to/traffic-lights_230924-233000_230924-234500.csv /path/to/trajectories_230924-233000_230924-234500.csv
+```
+
+Go was selected for independent typed streaming and no-dependency output, **not** as a replacement for the source Python physical simulator. Scientific next gate: combine officially grounded signal head→movement geometry with the observation-gap interval mask; only then assess movement-specific stopline crossing observation or independent SUMO calibration.
