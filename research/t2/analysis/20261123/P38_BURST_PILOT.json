@@ -1,0 +1,38 @@
+{
+  "by_family": [
+    {
+      "denials_4_more": 62,
+      "denials_other": 2,
+      "different_score": 0,
+      "family": "uniform",
+      "same_remaining": 64,
+      "same_score": 64,
+      "same_total_crossings": 64,
+      "unique_less": 0,
+      "unique_more": 36,
+      "worlds": 64
+    },
+    {
+      "denials_4_more": 53,
+      "denials_other": 11,
+      "different_score": 9,
+      "family": "platoon4",
+      "same_remaining": 55,
+      "same_score": 55,
+      "same_total_crossings": 55,
+      "unique_less": 0,
+      "unique_more": 42,
+      "worlds": 64
+    }
+  ],
+  "platoon_span_s": 5,
+  "seeds": [
+    128,
+    129,
+    130,
+    131
+  ],
+  "status": "exploratory synthetic",
+  "unique_arrival_tapes": 8,
+  "worlds": 128
+}
