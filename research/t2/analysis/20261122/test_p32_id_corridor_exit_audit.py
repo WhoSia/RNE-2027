@@ -31,8 +31,8 @@ class CorridorIDTests(unittest.TestCase):
                       b["score_equal_but_crossing_or_exit_history_changed"]),(16,32))
     self.assertEqual((a["aggregate_exact_but_individual_history_changed"],
                       b["aggregate_exact_but_individual_history_changed"]),(16,31))
-    self.assertEqual((a["identical_full_vehicle_event_histories"],
-                      b["identical_full_vehicle_event_histories"]),(48,87))
+    self.assertEqual((a["identical_crossing_and_downstream_exit_histories"],
+                      b["identical_crossing_and_downstream_exit_histories"]),(48,87))
 
  def test_prior_bad_baseline_score_field_detected_in_all_rows(self):
     self.assertEqual(self.new["archived_P31_baseline_score_wrong_label_rows"],128)
