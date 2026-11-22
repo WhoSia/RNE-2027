@@ -1,0 +1,98 @@
+[
+  {
+    "offset_s": 0,
+    "sumo": {
+      "through": -11.125,
+      "total": -44.25,
+      "total_bounds": {
+        "lower": -47.25,
+        "sign": "leading",
+        "upper": -41.5
+      }
+    },
+    "t2": {
+      "through": 330,
+      "total": -87
+    }
+  },
+  {
+    "offset_s": 10,
+    "sumo": {
+      "through": 365.125,
+      "total": 502.75,
+      "total_bounds": {
+        "lower": 501.0,
+        "sign": "lagging",
+        "upper": 505.25
+      }
+    },
+    "t2": {
+      "through": 856,
+      "total": 259
+    }
+  },
+  {
+    "offset_s": 20,
+    "sumo": {
+      "through": 133.0,
+      "total": 127.25,
+      "total_bounds": {
+        "lower": 125.625,
+        "sign": "lagging",
+        "upper": 129.125
+      }
+    },
+    "t2": {
+      "through": 680,
+      "total": 123
+    }
+  },
+  {
+    "offset_s": 30,
+    "sumo": {
+      "through": -85.625,
+      "total": 0.375,
+      "total_bounds": {
+        "lower": -1.75,
+        "sign": "ambiguous",
+        "upper": 2.5
+      }
+    },
+    "t2": {
+      "through": -460,
+      "total": -125
+    }
+  },
+  {
+    "offset_s": 40,
+    "sumo": {
+      "through": -271.375,
+      "total": -308.875,
+      "total_bounds": {
+        "lower": -311.5,
+        "sign": "leading",
+        "upper": -306.625
+      }
+    },
+    "t2": {
+      "through": -866,
+      "total": -286
+    }
+  },
+  {
+    "offset_s": 50,
+    "sumo": {
+      "through": 66.5,
+      "total": 141.625,
+      "total_bounds": {
+        "lower": 139.0,
+        "sign": "lagging",
+        "upper": 144.5
+      }
+    },
+    "t2": {
+      "through": -248,
+      "total": 230
+    }
+  }
+]
