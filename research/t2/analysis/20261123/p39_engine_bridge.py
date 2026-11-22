@@ -9,11 +9,12 @@ from spatial_v10 import Config
 from sumo_phase_pair import DEMAND, HORIZON, execute, outcome, prepare
 
 
-def t2_case(left_first, pocket, receiver):
+def t2_case(left_first, pocket, receiver, *, receiver_closures=()):
     base = Config(duration_s=HORIZON, cycle_s=60, left_green_s=12, through_green_s=24,
                   clearance_s=5, phase_order="leading" if left_first else "lagging",
                   approach_length_m=100, pocket_length_m=pocket, cell_m=5)
-    cfg = DualConfig(base=base, through_B_share=1, receiver_slots=receiver)
+    cfg = DualConfig(base=base, through_B_share=1, receiver_slots=receiver,
+                     receiver_closures=receiver_closures)
     result = run(cfg, tuple((v.time, "S" if v.movement == "T" else "L") for v in DEMAND),
                  trace=True)
     crossings = {}
@@ -47,6 +48,12 @@ def experiment():
     for pocket, receiver in product((10, 30), (0, 2, 4)):
         engines["T2"].append({"pocket_m": pocket, "receiver_slots": receiver,
                               "pair": [t2_case(order, pocket, receiver) for order in (False, True)]})
+    engines["T2_receiver_stress"] = [
+        {"pocket_m": 10, "receiver_slots": cap, "receiver_closures": [(0, 50)],
+         "pair": [t2_case(order, 10, cap, receiver_closures=((0, 50),))
+                  for order in (False, True)]}
+        for cap in (2, 4)
+    ]
     for rows in engines.values():
         for row in rows:
             lag, lead = row["pair"]
