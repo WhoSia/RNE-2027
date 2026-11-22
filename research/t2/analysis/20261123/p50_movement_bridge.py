@@ -15,13 +15,13 @@ def split(crossings):
             for movement in ("L", "T")}
 
 
-def experiment():
+def experiment(*, yellow=True):
     rows = []
     with TemporaryDirectory() as root:
         for cap, closed in product((2, 4), (False, True)):
             row = {"capacity": cap, "closed": closed}
             sumo = [sumo_run(Path(root) / f"{cap}-{closed}-{order}", order, cap, closed,
-                             step_size=.125, yellow=True, movement_details=True)
+                             step_size=.125, yellow=yellow, movement_details=True)
                     for order in (False, True)]
             t2 = [t2_case(order, 10, cap, receiver_mode="cells",
                           receiver_closures=((0, 50),) if closed else (),
