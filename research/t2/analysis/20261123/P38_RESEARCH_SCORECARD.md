@@ -40,7 +40,7 @@ Physical fidelity by component: storage/conservation .75; lane-level geometry .6
 | Motorcycle/heavy-vehicle mixture and wet braking on saturation flow | .72 | .72 | .50 | .60 | 0.658 |
 | Upstream offset with neighboring signal and finite receiving link | .88 | .78 | .65 | .65 | 0.769 |
 | Right-turn branching and movement-specific receiver lanes | .86 | .82 | .60 | .65 | .765 |
-| Pocket full versus empty-but-inaccessible: independent queue labels | .94 | .92 | .70 | .80 | .869 |
+| Pocket full versus empty-but-inaccessible: independent queue labels | .94 | .92 | .70 | .80 | .865 |
 | Camera-free RF vs simple occupancy sensor on a tabletop queue | .70 | .75 | .35 | .45 | 0.607 |
 
 Execute the already available green-window screen and preserve its missing-data denominator. Prioritize same-geometry SUMO physical contrast for the next engine answer. Run arrival-family and objective comparisons in the policy track. Screen inputs across arrival timing (renewal, platooned, bursty), pocket and storage lengths, stop-line headways, acceleration, yellow clearance, pedestrian competing demands, turn distribution, upstream offset, buses, class mix, and observation delay. Test mechanism-specific contrasts before interactions. Use matched arrival tapes and state, then vary independently across entire tapes/sites; distinguish absolute cost, regret, P95 delay, queue, throughput and receiver refusals.
