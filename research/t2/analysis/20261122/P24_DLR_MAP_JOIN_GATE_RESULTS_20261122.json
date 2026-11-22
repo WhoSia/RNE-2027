@@ -1,0 +1,64 @@
+{
+  "protocol": "P24_DLR_UT_OPEN_DRIVE_FIELD_SIGNAL_NAMESPACE_AND_GEO_JOIN",
+  "date": "2026-11-22",
+  "status": "GEO_CORRESPONDENCE_PASS_CONTROLLING_SIGNAL_JOIN_NOT_IDENTIFIED",
+  "publisher_pdf_sha256_correction": {
+    "old": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "actual": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
+    "original_p23_actual_source_regression": "4 passed, 1 error because PDF lock rejected actual unchanged PDF",
+    "corrected_p23_same_five_tests": "5 passed",
+    "corrected_p23_source_blob": "f2363324a7a3c8aa2017901d9d2da1d9f4f5c1c1"
+  },
+  "sources": {
+    "xodr": {
+      "id": "1j6xu3ngbh1dO75_eCdrgBWVgytRAzGtg",
+      "sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4"
+    },
+    "official_pdf": {
+      "id": "1gUqUJEAGtXw06RjQCLbBoJ0k-pcee5Uq",
+      "sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3"
+    },
+    "night_trajectory": {
+      "id": "16SyjOzQBy5t9iVIV0tdZaAOlo39jYOri",
+      "sha256": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50"
+    }
+  },
+  "observations": {
+    "roads": 28,
+    "junctions": 1,
+    "open_drive_static_signal_instances": 7,
+    "unique_static_map_signal_ids": 6,
+    "dynamic_controller_tags": 0,
+    "signal_reference_tags": 0,
+    "official_publisher_vehicle_signal_IDs": 9,
+    "official_vehicle_head_coordinate_instances": 18,
+    "matching_numeric_map_vs_publisher_IDs": 0,
+    "vehicle_trajectory_centers_inside_map_bbox": 8624,
+    "vehicle_trajectory_observations": 8624,
+    "local_transform_example": "EPSG:32632 easting 604755.480 northing 5792814.102 maps to x -7.520, y +19.102 (OpenDRIVE georef x_0=-104763 y_0=-5792795)",
+    "movement_columns_by_frozen_window": {
+      "12:00": 32,
+      "18:00": 27,
+      "23:30": 12
+    },
+    "same_approach_route_token_example": "West0West1"
+  },
+  "tests": {
+    "local_source_test_result": "9 passed, 0 failed",
+    "note": "GitHub source and tests follow the same tested rules, but the remote P24 source was not re-executed from exact Git blob; do not claim exact Git-byte reproduction.",
+    "repo_code_blob": "8388b7786705ed76a6794bda529184422041eb0d",
+    "repo_tests_blob": "53e4e5fc7b92167b37e1c617c958c1f9798ed4b2",
+    "local_full_result_sha256": "d965b7f47096d5f9b3490fa3e5e729630b5081e5f4d482869f6c00b4ca4037b2"
+  },
+  "gates": {
+    "raw_map_geo_transform": true,
+    "official_signal_coordinates": true,
+    "trajectory_in_map_bbox": true,
+    "movement_label_parsing": true,
+    "route_name_to_OpenDRIVE_lane_ID": false,
+    "actual_controlling_signal_head": false,
+    "actual_stopline_crossing_by_trajectory_ID": false,
+    "independent_SUMO_physical_external_validation": false
+  },
+  "recommended_next_step": "official TASI stopline and movement derivation or independently labeled map correspondence; avoid nearest-light automatic false assignments"
+}
