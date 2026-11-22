@@ -22,13 +22,14 @@ def metrics(result, tape, horizon):
             if ident in crossed or not 0 <= ident < len(tape) or not tape[ident][0] <= e["t"] < horizon:
                 raise ValueError("invalid crossing event")
             crossed[ident] = e["t"]
-    times = sorted(crossed.get(i, horizon) - t for i, (t, _) in enumerate(tape))
+    individual = tuple((crossed.get(i, horizon) - t, i in crossed) for i, (t, _) in enumerate(tape))
+    times = sorted(t for t, _ in individual)
     frames = result["frames"]
     if len(frames) != horizon:
         raise ValueError("incomplete backlog trace")
     return (times[ceil(.95 * len(times)) - 1],
             max(len(f["A"]) + len(f["B"]) + len(f["pocket"]) + f["outside"] for f in frames),
-            len(tape) - len(crossed))
+            len(tape) - len(crossed)), individual
 
 
 def experiment():
@@ -49,7 +50,10 @@ def experiment():
                 if score(a, 60) != score(b, 60):
                     continue
                 counts["cost_ties"] += 1
-                before, after = (metrics(r, tape, cfg.base.duration_s) for r in (a, b))
+                (before, individual_a), (after, individual_b) = (
+                    metrics(r, tape, cfg.base.duration_s) for r in (a, b)
+                )
+                counts["individual_history_changed"] += individual_a != individual_b
                 for k, initial, final in zip(("p95", "peak_backlog", "uncrossed"), before, after):
                     counts[k + "_changed"] += initial != final
                     counts[k + "_worse"] += final > initial
