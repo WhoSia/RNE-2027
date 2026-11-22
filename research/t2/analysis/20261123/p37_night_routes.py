@@ -1,6 +1,8 @@
 """Check P36 movement hypotheses against direct nighttime trajectory samples."""
 import argparse
+from bisect import bisect_right
 from collections import Counter, defaultdict
+from datetime import datetime
 import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -10,7 +12,7 @@ from dlr_joint_observability import read_block
 from dlr_path_screen import EXPECTED_MAP, raster
 from dlr_route_evidence import BANDS, CELL_M, SOUTH, WEST, has_sequence, regions_and_gates
 from dlr_review_replay import time_s
-from p35_observation_timing import load_p34, verify_bytes
+from p35_observation_timing import SIGNAL_SHA, load_p34, read_signals, verify_bytes
 from p36_crosswalk_transfer import EAST_GROUP_BY_LANE
 
 LEFT_CONNECTOR = "left_connector"
@@ -75,7 +77,29 @@ def stage_counts(candidates, detections):
     return stages
 
 
-def analyse(archive, map_path, track_path):
+def prior_signal_counts(candidates, detections, heads):
+    """Tabulate prior sampled codes, preserving unsupported or stale observations."""
+    counts = defaultdict(Counter)
+    for event, group in candidates:
+        lower = datetime.fromisoformat(event["bracket_start_utc"])
+        upper = datetime.fromisoformat(event["bracket_end_utc"])
+        samples = heads[group]
+        index = bisect_right(samples, lower, key=lambda sample: sample[0]) - 1
+        code = "missing_or_stale"
+        if index >= 0:
+            stamp, raw = samples[index]
+            if (upper - stamp).total_seconds() <= 1.0:
+                code = str(raw)
+        start = time_s(event["bracket_end_utc"])
+        hits = detections.get(event["id"], {})
+        observed = has_sequence(hits, ROUTES[group], start, start + 20)
+        counts[f"group_{group}_all"][code] += 1
+        if observed:
+            counts[f"group_{group}_expected_path"][code] += 1
+    return {cohort: dict(codes) for cohort, codes in counts.items()}
+
+
+def analyse(archive, map_path, track_path, signal_path):
     verify_bytes(map_path, EXPECTED_MAP)
     verify_bytes(track_path, TRACK_SHA)
     geometry = load_p34(archive)
@@ -95,8 +119,10 @@ def analyse(archive, map_path, track_path):
 
     regions, gate = route_masks(map_path)
     read_block(track_path, regions, gate, time_s(BLOCK_START), on_detection=on_detection)
+    heads, _, _ = read_signals(signal_path)
     return {
-        "source_sha256": {"map": EXPECTED_MAP, "trajectories": TRACK_SHA},
+        "source_sha256": {"map": EXPECTED_MAP, "trajectories": TRACK_SHA, "signals": SIGNAL_SHA},
+        "prior_sampled_codes": prior_signal_counts(candidates, detections, heads),
         "groups": count_routes(candidates, detections),
         "ordered_prefixes_40s": stage_counts(candidates, detections),
     }
@@ -104,7 +130,7 @@ def analyse(archive, map_path, track_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    for argument in ("p34_zip", "map", "trajectories"):
+    for argument in ("p34_zip", "map", "trajectories", "signals"):
         parser.add_argument(argument, type=Path)
     args = parser.parse_args()
-    print(json.dumps(analyse(args.p34_zip, args.map, args.trajectories), indent=2, sort_keys=True))
+    print(json.dumps(analyse(args.p34_zip, args.map, args.trajectories, args.signals), indent=2, sort_keys=True))
