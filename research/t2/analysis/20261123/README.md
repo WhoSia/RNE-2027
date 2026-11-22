@@ -55,3 +55,9 @@ Scientific ceiling: **field-time observation quality**. No 2023 active head-to-l
 ## P40–P51 finite-link, sampling and individual-impact review
 
 [Protocol](P40_PROTOCOL.md) · [Decision log and priorities](P40_P51_DECISION_LOG.md) · [Finite-link results](P40_RESULT.json) · [Individual impacts](P47_RESULT.json)
+
+## P52–P53 event boundaries and lane allocation
+
+[Stage decomposition](P52_RESULT.json) · [Lane allocation sensitivity](P53_RESULT.json)
+
+The short closed receiver benchmark localizes the through phase-order disagreement to the admitted-to-stopline interval. Changing the T2 through-B share changes the result; intermediate assignment uses the existing seeded allocator. Unobserved boundaries are censored at the horizon. SUMO receiver release is the first downstream sample, while T2 release is the tick at which the vehicle leaves its receiver cells.
