@@ -1,0 +1,8 @@
+{
+  "any_group_discordant": 2,
+  "candidate_group_discordant": 0,
+  "group_3_candidates": 4,
+  "group_4_candidates": 1,
+  "prior_sample_age_le_1s": 5,
+  "unmapped": 12
+}

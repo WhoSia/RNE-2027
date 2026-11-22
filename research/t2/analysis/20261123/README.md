@@ -35,3 +35,7 @@ P35 main source/test Git blobs:
 To reproduce from the exact ZIP, extract and follow its README. The Python runner uses the **original P34 exact matcher** with a temporarily set tolerance restored in `finally`; Node independently parses microsecond UTC and reconstructs max-cardinality/minimum-error matching.
 
 Scientific ceiling: **field-time observation quality**. No 2023 active head-to-lane mapping, no signal timing actuation, no causal queue discharge or validated independent SUMO. Next mainline stage should address actual geometry/head ownership or physically test the receiver model; **avoid another metadata-only stage without returning to the problem of observed discharge blockage and an actionable school-science-fair demonstrator**.
+
+## P36 nighttime crosswalk transfer
+
+[Protocol](P36_CROSSWALK_PROTOCOL.md) · [Findings and reproduction](P36_CROSSWALK_FINDINGS.md) · [Counts](P36_CROSSWALK_RESULT.json)
