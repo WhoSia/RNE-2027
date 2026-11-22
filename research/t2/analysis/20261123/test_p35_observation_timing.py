@@ -2,6 +2,7 @@
 import copy
 import hashlib
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -14,9 +15,10 @@ from p35_observation_timing import (
 )
 
 BASE = Path(__file__).resolve().parent
-ARCHIVE = Path('/mnt/data/P34_OBS_20261122_REAL_DLR_STOPLINE_REPRO.zip')
-SIGNALS = Path('/mnt/data/traffic-lights_230924-233000_230924-234500.csv')
-VOLUME = Path('/mnt/data/traffic-volume_230924-233000_230924-234500.csv')
+DATA = Path(os.environ.get('P35_SOURCE_DIR', '/mnt/data'))
+ARCHIVE = Path(os.environ.get('P35_P34_ZIP', str(DATA / 'P34_OBS_20261122_REAL_DLR_STOPLINE_REPRO.zip')))
+SIGNALS = DATA / 'traffic-lights_230924-233000_230924-234500.csv'
+VOLUME = DATA / 'traffic-volume_230924-233000_230924-234500.csv'
 
 class ObservationTimingTest(unittest.TestCase):
     @classmethod
