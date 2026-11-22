@@ -7,10 +7,10 @@ from statistics import mean
 from p39_policy_holdout import build_config, p31, run, score, action, tape_hash
 
 
-def experiment():
+def experiment(seeds=range(201, 207)):
     rows = []
     for seed, demand, turn, family, capacity, offset in product(
-        range(201, 207), (900, 1800), (.2, .5), p31.FAMILIES, (2, 4), (0, 15)
+        seeds, (900, 1800), (.2, .5), p31.FAMILIES, (2, 4), (0, 15)
     ):
         cfg = replace(build_config(seed, demand, turn, 14., capacity, .5),
                       downstream_offset_s=offset)
