@@ -1,0 +1,93 @@
+{
+  "protocol": "T2_P24_OFFICIAL_MAP_VERSUS_REAL_SIGNAL",
+  "source": {
+    "map_drive_id": "1j6xu3ngbh1dO75_eCdrgBWVgytRAzGtg",
+    "map_sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "pdf_drive_id": "1gUqUJEAGtXw06RjQCLbBoJ0k-pcee5Uq",
+    "pdf_sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
+    "official_pdf_motor_head_coordinates": 18,
+    "official_signal_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "map": {
+    "version": "1.0.0",
+    "date": "2015-03-25",
+    "road_count": 28,
+    "junction_count": 1,
+    "static_signal_elements": 7,
+    "static_signal_unique_ids": [
+      "300600",
+      "300602",
+      "300604",
+      "300605",
+      "300606",
+      "300607"
+    ],
+    "dynamic_values": [
+      "no"
+    ],
+    "type_values": [
+      "294"
+    ],
+    "observed_state_ids_not_embedded": true
+  },
+  "coordinate_validation": {
+    "map_projection": "tmerc lon0=9 false easting -104763, false northing -5792795",
+    "observed_crs": "EPSG:32632",
+    "example_light1_original_utm": [
+      604755.48,
+      5792814.102
+    ],
+    "example_light1_map_xy_m": [
+      -7.52,
+      19.102
+    ],
+    "distance_to_nearest_static_marker_m": {
+      "min": 4.673,
+      "median": 8.057,
+      "max": 18.924
+    },
+    "candidate_count": 18,
+    "candidate_final_controlling_lane_assignments": 0
+  },
+  "code_and_tests": {
+    "source_git_blob": "abbc47e9b735c24266add10020ab33113f5f2f7f",
+    "test_git_blob": "0b0af2215f2c01c2e95a3c7be996032570ba5890",
+    "actual_source_tests_passed": 9,
+    "actual_source_tests_total": 9,
+    "exact_main_blob_matches_confirmed": 2,
+    "full_json_sha256": "dd9edd1b714a3f43d65740cbb54037d30e85a8e56235063911113030e879dea5",
+    "test_log_sha256": "353d2e0d1be2dc77a8fd44c3f37c2348aaf9eb026d69a08600d61af7d34de857"
+  },
+  "P23_correction": {
+    "prior_release_pdf_hash": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "current_read_pdf_sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
+    "current_p23_main_blob": "f2363324a7a3c8aa2017901d9d2da1d9f4f5c1c1",
+    "current_p23_real_source_tests_passed": 5,
+    "old_release_marked_historical": true
+  },
+  "gate": {
+    "source_byte_verified": true,
+    "publisher_head_geometry_candidate_verified": true,
+    "static_type_294_stopline_interpretation_external_standard": true,
+    "road_link_lane_direction_checked": false,
+    "physical_signal_lamp_link_checked": false,
+    "signal_to_stopline_movement_verified": false,
+    "measured_queue_spillback_verified": false,
+    "independent_SUMO_verified": false
+  },
+  "review": "INTERNAL_ADVERSARIAL_ROLES_ONLY; NO EXTERNAL PEER MODEL; NO REAL CONTROL",
+  "references": {
+    "official_ASAM_stopline": "https://publications.pages.asam.net/standards/ASAM_OpenDRIVE_with_CityGML/index.html",
+    "official_ASAM_signal_reference": "https://publications.pages.asam.net/standards/ASAM_OpenDRIVE/ASAM_OpenDRIVE_Specification/v1.8.1/specification/14_signals/14_04_signal_reference.html"
+  }
+}
