@@ -36,3 +36,12 @@ This removes an obvious false interpretation: 7 static XML `<signal>` entries ar
 **Next P25:** for each of the four approach-end candidates, compute reference-line direction and laneSection driving-lane indices at that point; match a vehicle's passage to the source stopline geometry with a frozen signed-crossing rule, then independently compare 1Hz source movement-bin counts. Retain unmatched vehicles, censored cases and negative controls. Yellow/clearance and SUMO external confirmation remain open.
 
 Original publisher source files remain in Drive; K047 sealed and CIM held; no actions on live traffic controllers.
+
+
+## P34-OBS erratum (2026-11-22): correct lane-validity element
+
+**SUPERSEDES P24b lane-validity absence statement above; historical execution record preserved.** Original map does not use `<validity>` as searched by the old P24b reader. It uses **`<laneValidity fromLane="…" toLane="…"/>`**, appearing once on each of all seven static type294 features. The prior claim of "no explicit lane-validity record" and `stopline_lane_validity_explicit=false` was an **XML parser bug**, not a fact about the publisher source.
+
+The corrected `main` [P24b reader](p24b_junction_stopline_roles.py) (blob `1a4de55710f15ed51a7cf1e2e772c2acecd188c8`) and [regression test](test_p24b_junction_stopline_roles.py) (blob `da8509314768567c480027c13b055db126d33fb1`) now read explicit lane scope, 7/7 tests PASS on the actual SHA-locked original map/PDF. Inbound 100000 has range [-5,-1], while 179000/201000/280000 declare only lane -1.
+
+The [P34-OBS measured-trajectory comparison](P34_OBS_DLR_STOPLINE_RECONCILIATION_FINDINGS_20261122.md) shows that strictly filtering by these **2015 static marking** ranges would keep only **7/17** observed crossings and only **6/16** events internally consistent with 2023 publisher volume. Thus the map metadata is **present and readable**, but it is **not currently validated as the full 2023 signal-control or route-counting lane scope**. The original P24b ZIP and static JSON remain frozen historical evidence; use corrected reader and P34 results for current research. No claim that current 2023 controller IDs were recovered.
