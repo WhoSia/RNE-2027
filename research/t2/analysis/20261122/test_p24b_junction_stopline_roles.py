@@ -21,8 +21,11 @@ class P24bTest(unittest.TestCase):
   pairs=[(r["road_id"],r["marker_id"]) for r in self.result["features"]]
   self.assertEqual(len(set(pairs)),7)
   self.assertEqual(len(set(r["marker_id"] for r in self.result["features"])),6)
- def test_no_lane_attribution(self):
-  self.assertFalse(self.result["gates"]["stopline_lane_validity_explicit"])
+ def test_explicit_lane_ranges_do_not_prove_controller(self):
+  self.assertTrue(self.result["gates"]["stopline_lane_validity_explicit"])
+  self.assertFalse(self.result["gates"]["lane_ranges_current_2023_and_counting_validated"])
+  self.assertTrue(all(x["explicit_lane_validity_count"]==1 for x in self.result["features"]))
+  self.assertEqual(next(x["declared_lane_ranges"] for x in self.result["features"] if x["road_id"]=="100000"),[{"fromLane":-1,"toLane":-5}])
   self.assertFalse(self.result["gates"]["observed_light_id_crosswalk"])
   self.assertTrue(all(r["controller_id"] is None and not r["right_of_way_verified"] for r in self.result["features"]))
  def test_pdf_wrong_bytes(self):
