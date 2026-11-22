@@ -1,0 +1,62 @@
+{
+  "protocol": "P31_NEW_ARRIVAL_FAMILY_STRESS",
+  "date": "2026-11-22",
+  "status": "SYNTHETIC_ONLY",
+  "prereg_commit": "f5e92bb0f5b8cd22ab083b28450912f621adc7d7",
+  "engine": "exact original GitHub main T2 engine and unchanged score",
+  "runner_git_blob": "d53eb9c1b04a162f39866c4ae5627600288bf9d9",
+  "tests_git_blob": "1d2b5957bd7cc86fb99764339a8b496a57576427",
+  "full_output_sha256": "ff0452b4b37174b17bf91228722209de0f26ac60730ef9ef673b08d50c0f4915",
+  "fresh_seeds": [
+    124,
+    125,
+    126,
+    127
+  ],
+  "new_full_tapes": 8,
+  "synthetic_worlds": 128,
+  "worlds_per_family": 64,
+  "test_status": "11/11 PASS",
+  "clock_definitions": {
+    "uniform": "floor((i+0.5)*duration/N)",
+    "platoon4": "4 ordered groups in 15s windows starting at 20,80,140,200"
+  },
+  "family_results": [
+    {
+      "clock": "uniform",
+      "same_score": 63,
+      "different_score": 1,
+      "all_cost_nonzero_delta": "-189",
+      "denial_attempt_delta_eq4": 52,
+      "denial_delta_other": 12,
+      "unique_rejected_increased": 34,
+      "identical_total_crossings": 63,
+      "identical_remaining": 63
+    },
+    {
+      "clock": "platoon4",
+      "same_score": 56,
+      "different_score": 8,
+      "all_cost_nonzero_delta": "-189",
+      "denial_attempt_delta_eq4": 56,
+      "denial_delta_other": 8,
+      "unique_rejected_increased": 46,
+      "identical_total_crossings": 56,
+      "identical_remaining": 56
+    }
+  ],
+  "overall": {
+    "same_score": 119,
+    "nonzero_score_delta": -189,
+    "nonzero_score_delta_worlds": 9,
+    "denial_attempt_plus4": 108,
+    "denial_attempt_other": 20
+  },
+  "nonzero_cost_delta_worlds_all_downstream_offset15": true,
+  "interpretation": "P26/P30 observed 6/10 cost equivalence and exactly+4 denial attempts does not transport universally across distinct arrival clocks",
+  "limitations": [
+    "8 full arrival tapes shared across 128 synthetic geometry conditions",
+    "clock families alter traffic before tick84; offset also alters predecision state",
+    "no independent calibrated traffic model, measured vehicle delays or real signal controller"
+  ]
+}
