@@ -1,0 +1,166 @@
+{
+  "default_clock": [
+    {
+      "capacity": 2,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": -68.5,
+      "lower": -71.5,
+      "sign": "leading",
+      "step": 0.125,
+      "upper": -65.75
+    },
+    {
+      "capacity": 2,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": -76.0,
+      "lower": -82.0,
+      "sign": "leading",
+      "step": 0.25,
+      "upper": -70.5
+    },
+    {
+      "capacity": 2,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -94.75,
+      "lower": -97.75,
+      "sign": "leading",
+      "step": 0.125,
+      "upper": -92.0
+    },
+    {
+      "capacity": 2,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -44.25,
+      "lower": -50.25,
+      "sign": "leading",
+      "step": 0.25,
+      "upper": -38.75
+    },
+    {
+      "capacity": 4,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": 79.875,
+      "lower": 76.875,
+      "sign": "lagging",
+      "step": 0.125,
+      "upper": 82.875
+    },
+    {
+      "capacity": 4,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": 81.0,
+      "lower": 75.0,
+      "sign": "lagging",
+      "step": 0.25,
+      "upper": 87.0
+    },
+    {
+      "capacity": 4,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -44.875,
+      "lower": -47.875,
+      "sign": "leading",
+      "step": 0.125,
+      "upper": -41.875
+    },
+    {
+      "capacity": 4,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -44.75,
+      "lower": -50.75,
+      "sign": "leading",
+      "step": 0.25,
+      "upper": -38.75
+    }
+  ],
+  "fixed_clock": [
+    {
+      "capacity": 2,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": -48.625,
+      "lower": -51.625,
+      "sign": "leading",
+      "step": 0.125,
+      "upper": -45.875
+    },
+    {
+      "capacity": 2,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": -47.5,
+      "lower": -53.5,
+      "sign": "leading",
+      "step": 0.25,
+      "upper": -42.0
+    },
+    {
+      "capacity": 2,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -88.25,
+      "lower": -91.25,
+      "sign": "leading",
+      "step": 0.125,
+      "upper": -85.5
+    },
+    {
+      "capacity": 2,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": -88.0,
+      "lower": -94.0,
+      "sign": "leading",
+      "step": 0.25,
+      "upper": -82.5
+    },
+    {
+      "capacity": 4,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": 47.0,
+      "lower": 44.0,
+      "sign": "lagging",
+      "step": 0.125,
+      "upper": 50.0
+    },
+    {
+      "capacity": 4,
+      "closed": false,
+      "collision_arms": [],
+      "contrast": 48.0,
+      "lower": 42.0,
+      "sign": "lagging",
+      "step": 0.25,
+      "upper": 54.0
+    },
+    {
+      "capacity": 4,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": 15.125,
+      "lower": 12.125,
+      "sign": "lagging",
+      "step": 0.125,
+      "upper": 18.125
+    },
+    {
+      "capacity": 4,
+      "closed": true,
+      "collision_arms": [],
+      "contrast": 15.0,
+      "lower": 9.0,
+      "sign": "lagging",
+      "step": 0.25,
+      "upper": 21.0
+    }
+  ]
+}
