@@ -1,0 +1,196 @@
+{
+  "SUMO": [
+    {
+      "lead_minus_lag_vehicle_s": 7.75,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 742.25,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 750.0,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "tau": 1,
+      "yellow": false
+    },
+    {
+      "lead_minus_lag_vehicle_s": 52.0,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 766.5,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 818.5,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "tau": 1.5,
+      "yellow": false
+    },
+    {
+      "lead_minus_lag_vehicle_s": -99.25,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 742.25,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 643.0,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "tau": 1,
+      "yellow": true
+    },
+    {
+      "lead_minus_lag_vehicle_s": -57.25,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 766.5,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 709.25,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "tau": 1.5,
+      "yellow": true
+    }
+  ],
+  "T2": [
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 10,
+      "receiver_slots": 0
+    },
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 10,
+      "receiver_slots": 2
+    },
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 10,
+      "receiver_slots": 4
+    },
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 30,
+      "receiver_slots": 0
+    },
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 30,
+      "receiver_slots": 2
+    },
+    {
+      "lead_minus_lag_vehicle_s": -137,
+      "pair": [
+        {
+          "approach_vehicle_seconds": 1188,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        },
+        {
+          "approach_vehicle_seconds": 1051,
+          "crossed": 24,
+          "scheduled": 24,
+          "uncrossed": 0
+        }
+      ],
+      "pocket_m": 30,
+      "receiver_slots": 4
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "policies": {
+    "fixed": {
+      "advances": false,
+      "better_worlds": 0,
+      "extensions": 0,
+      "total_delta_vs_fixed": 0,
+      "total_regret": 1512,
+      "worse_tapes": 0,
+      "worse_worlds": 0,
+      "worst_regret": 189
+    },
+    "guarded": {
+      "advances": false,
+      "better_worlds": 0,
+      "extensions": 0,
+      "total_delta_vs_fixed": 0,
+      "total_regret": 1512,
+      "worse_tapes": 0,
+      "worse_worlds": 0,
+      "worst_regret": 189
+    },
+    "pressure_proxy": {
+      "advances": false,
+      "better_worlds": 0,
+      "extensions": 0,
+      "total_delta_vs_fixed": 0,
+      "total_regret": 1512,
+      "worse_tapes": 0,
+      "worse_worlds": 0,
+      "worst_regret": 189
+    }
+  },
+  "tapes": 8,
+  "worlds": 128
+}
