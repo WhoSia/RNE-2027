@@ -7,10 +7,10 @@ from tempfile import TemporaryDirectory
 import xml.etree.ElementTree as ET
 
 from p39_engine_bridge import t2_case
-from sumo_phase_pair import HORIZON, outcome, prepare, write
+from sumo_phase_pair import DEMAND, HORIZON, outcome, prepare, write
 
 
-def sumo_run(folder, order, capacity, closed):
+def sumo_run(folder, order, capacity, closed, *, step_size=.25):
     prepare(folder, order, yellow=False)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
     nodes.remove(nodes.find("node[@id='left']"))
@@ -53,25 +53,37 @@ def sumo_run(folder, order, capacity, closed):
         ET.SubElement(startup, "phase", duration="30", state="r", next="1")
     write(folder, "startup.add.xml", root)
     argv = ["sumo", "-n", "net.xml", "-r", "demand.rou.xml",
-            "--end", str(HORIZON), "--step-length", ".25", "--time-to-teleport", "-1",
-            "--fcd-output", "fcd.xml", "--no-step-log", "true", "--seed", "17"]
+            "--end", str(HORIZON), "--step-length", str(step_size), "--time-to-teleport", "-1",
+            "--tripinfo-output", "trips.xml", "--tripinfo-output.write-unfinished", "true",
+            "--tripinfo-output.write-undeparted", "true", "--fcd-output", "fcd.xml", "--no-step-log", "true", "--seed", "17"]
     argv += ["-a", "startup.add.xml"]
     run = subprocess.run(argv, cwd=folder, check=True, text=True, capture_output=True)
     if "collision" in run.stderr.lower():
         raise ValueError(run.stderr)
     states = ET.parse(folder / "tls.xml").getroot().findall("tlsState")
-    if len(states) != HORIZON * 4 or any(
-            float(state.get("time")) != i / 4
-            or state.get("state") != ("G" if i % 240 < 120 and (not closed or i >= 200) else "r")
+    if len(states) != round(HORIZON / step_size) or any(
+            float(state.get("time")) != i * step_size
+            or state.get("state") != ("G" if (i * step_size) % 60 < 30
+                                      and (not closed or i * step_size >= 50) else "r")
             for i, state in enumerate(states)):
         raise ValueError("Compiled receiver signal does not match T2 discharge calendar")
+    ids = [e.get("id") for e in ET.parse(folder / "trips.xml").getroot().findall("tripinfo")]
+    if sorted(ids) != sorted(v.ident for v in DEMAND):
+        raise ValueError("SUMO vehicle accounting mismatch")
     crossings = {}
+    last_upstream = {}
     for _, step in ET.iterparse(folder / "fcd.xml", events=("end",)):
         if step.tag != "timestep":
             continue
         for v in step.findall("vehicle"):
-            if v.get("lane") == "T_0":
-                crossings.setdefault(v.get("id"), float(step.get("time")))
+            ident, lane = v.get("id"), v.get("lane")
+            stamp = float(step.get("time"))
+            if lane in ("A_0", "A_1"):
+                last_upstream[ident] = stamp
+            elif lane == "T_0" and ident not in crossings:
+                if stamp - last_upstream.get(ident, float("-inf")) != step_size:
+                    raise ValueError("Receiver entry lacks an adjacent upstream observation")
+                crossings[ident] = stamp
         step.clear()
     return outcome(crossings)
 
