@@ -1,0 +1,102 @@
+[
+  {
+    "agrees": true,
+    "capacity": 2,
+    "closed": false,
+    "contrast": 36.875,
+    "lower": 33.875,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1128.5,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1165.375,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 5.25,
+    "sign": "lagging",
+    "step": 0.125,
+    "upper": 39.625
+  },
+  {
+    "agrees": false,
+    "capacity": 2,
+    "closed": true,
+    "contrast": -44.25,
+    "lower": -47.25,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1675.0,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1630.75,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 7.25,
+    "sign": "leading",
+    "step": 0.125,
+    "upper": -41.5
+  },
+  {
+    "agrees": true,
+    "capacity": 4,
+    "closed": false,
+    "contrast": 193.25,
+    "lower": 190.25,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 883.625,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1076.875,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 154.75,
+    "sign": "lagging",
+    "step": 0.125,
+    "upper": 196.25
+  },
+  {
+    "agrees": true,
+    "capacity": 4,
+    "closed": true,
+    "contrast": 0.25,
+    "lower": -2.75,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1401.375,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1401.625,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 2.5,
+    "sign": "ambiguous",
+    "step": 0.125,
+    "upper": 3.25
+  }
+]
