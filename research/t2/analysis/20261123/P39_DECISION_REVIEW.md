@@ -10,7 +10,7 @@ Scores are priorities using the P38 weights (.35 relevance, .30 discrimination, 
 
 | Candidate | Relevance | Discrimination | Ready | Feasible | Score | Previous | Local decision |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Match T2/SUMO finite link and closure, then test amber | .99 | .97 | .84 | .72 | .913 | .896 | Continue. Both engines now runnable and T2 stress has a discriminating contrast. Require shared geometry and activated receiving denial before interpreting parity. |
+| Match T2/SUMO finite link and closure, then test amber | .99 | .97 | .84 | .72 | .914 | .896 | Continue. Both engines now runnable and T2 stress has a discriminating contrast. Require shared geometry and activated receiving denial before interpreting parity. |
 | P95 delay and maximum queue on observed cost ties | .92 | .85 | .90 | .90 | .892 | .874 | Raise. Aggregate policy cost cannot distinguish inactive decisions and tails. |
 | Independent upstream/downstream observation | .99 | .93 | .67 | .75 | .872 | .872 | Retain. No additional field labels in P39. |
 | Pocket-full versus inaccessible | .94 | .92 | .70 | .80 | .865 | .865 | Retain. Access denials occurred but the bridge has no independent cause labels. |
