@@ -9,11 +9,11 @@ from spatial_v10 import Config
 from sumo_phase_pair import DEMAND, HORIZON, execute, outcome, prepare
 
 
-def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode="fifo", receiver_headway=2, movement_details=False):
+def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode="fifo", receiver_headway=2, movement_details=False, through_share=1):
     base = Config(duration_s=HORIZON, cycle_s=60, left_green_s=12, through_green_s=24,
                   clearance_s=5, phase_order="leading" if left_first else "lagging",
                   approach_length_m=100, pocket_length_m=pocket, cell_m=5)
-    cfg = DualConfig(base=base, through_B_share=1, receiver_slots=receiver,
+    cfg = DualConfig(base=base, through_B_share=through_share, receiver_slots=receiver,
                      receiver_closures=receiver_closures, receiver_mode=receiver_mode,
                      receiver_headway_s=receiver_headway)
     result = run(cfg, tuple((v.time, "S" if v.movement == "T" else "L") for v in DEMAND),
