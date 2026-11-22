@@ -10,7 +10,7 @@ from p39_engine_bridge import t2_case
 from sumo_phase_pair import DEMAND, HORIZON, outcome, prepare, write
 
 
-def sumo_run(folder, order, capacity, closed, *, step_size=.25):
+def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None):
     prepare(folder, order, yellow=False)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
     nodes.remove(nodes.find("node[@id='left']"))
@@ -33,6 +33,8 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25):
         ET.SubElement(program, "phase", duration=str(duration), state=state)
     demand = ET.parse(folder / "demand.rou.xml").getroot()
     demand.find("vType").attrib.update(length="4.5", minGap=".5")
+    if action_step is not None:
+        demand.find("vType").set("actionStepLength", str(action_step))
     for v in demand.findall("vehicle"):
         v.find("route").set("edges", "A T X")
     for name, tree in (("nodes.nod.xml", nodes), ("edges.edg.xml", edges),

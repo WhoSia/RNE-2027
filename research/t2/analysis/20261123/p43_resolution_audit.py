@@ -7,12 +7,12 @@ from tempfile import TemporaryDirectory
 from p40_finite_link import sumo_run
 
 
-def experiment(reference, steps=(.5, 1.0)):
+def experiment(reference, steps=(.5, 1.0), *, action_step=None):
     rows = []
     with TemporaryDirectory() as directory:
         for i, (case, step_size) in enumerate(product(reference, steps)):
             outcomes = [sumo_run(Path(directory) / f"{i}-{order}", order, case["capacity"],
-                                 case["closed"], step_size=step_size)
+                                 case["closed"], step_size=step_size, action_step=action_step)
                         for order in (False, True)]
             lag, lead = outcomes
             contrast = lead["approach_vehicle_seconds"] - lag["approach_vehicle_seconds"]
