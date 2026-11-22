@@ -19,6 +19,7 @@ DATA = Path(os.environ.get('P35_SOURCE_DIR', '/mnt/data'))
 ARCHIVE = Path(os.environ.get('P35_P34_ZIP', str(DATA / 'P34_OBS_20261122_REAL_DLR_STOPLINE_REPRO.zip')))
 SIGNALS = DATA / 'traffic-lights_230924-233000_230924-234500.csv'
 VOLUME = DATA / 'traffic-volume_230924-233000_230924-234500.csv'
+RESULT = Path(os.environ.get('P35_RESULT_JSON', str(BASE / 'p35_result.json')))
 
 class ObservationTimingTest(unittest.TestCase):
     @classmethod
@@ -104,7 +105,7 @@ class ObservationTimingTest(unittest.TestCase):
     def test_repeated_result_is_byte_deterministic(self):
         repeat=analyse(ARCHIVE,SIGNALS,VOLUME)
         self.assertEqual(repeat,self.results)
-        on_disk=json.loads((BASE/'p35_result.json').read_text(encoding='utf-8'))
+        on_disk=json.loads(RESULT.read_text(encoding='utf-8'))
         self.assertEqual(on_disk,json.loads(json.dumps(self.results)))
 
     def test_p34_matcher_global_restored(self):
