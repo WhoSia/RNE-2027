@@ -7,10 +7,10 @@ from tempfile import TemporaryDirectory
 from p40_finite_link import sumo_run
 
 
-def experiment(reference):
+def experiment(reference, steps=(.5, 1.0)):
     rows = []
     with TemporaryDirectory() as directory:
-        for i, (case, step_size) in enumerate(product(reference, (.5, 1.0))):
+        for i, (case, step_size) in enumerate(product(reference, steps)):
             outcomes = [sumo_run(Path(directory) / f"{i}-{order}", order, case["capacity"],
                                  case["closed"], step_size=step_size)
                         for order in (False, True)]
