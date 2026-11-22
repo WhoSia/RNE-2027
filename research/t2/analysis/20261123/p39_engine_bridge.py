@@ -23,7 +23,12 @@ def t2_case(left_first, pocket, receiver):
             if ident in crossings:
                 raise ValueError("duplicate T2 crossing")
             crossings[ident] = event["t"]
-    return outcome(crossings)
+    return outcome(crossings) | {
+        "receiver_denials": sum(e["reason"] in ("receiver_entry_cell_busy", "receiver_capacity_full")
+                                for e in result["service_events"]),
+        "pocket_access_denials": sum(e["event"] == "pocket_entry_denied"
+                                    for e in result["access_events"]),
+    }
 
 
 def experiment():
