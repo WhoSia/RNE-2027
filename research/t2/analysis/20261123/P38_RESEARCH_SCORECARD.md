@@ -48,3 +48,9 @@ Execute the already available green-window screen and preserve its missing-data 
 ## Sources
 
 [Historical factor landscape](../V18_FACTOR_LANDSCAPE_AND_PRIORITY.md), [PHYS evidence](../20261121/decision-time-gate/PHYS_192_384_128_FINDINGS.md), [November 17 SUMO pair](../../efficiency_loop/SUMO_PHASE_PAIR.md), [P25–P29](../20261122/P25_P29_PHYSICAL_FOLLOWUP_FINDINGS_20261122.md), [P32](../20261122/P32_ID_CORRIDOR_EXIT_AUDIT_AND_PAPER_AXIS_20261122.md), [P35](P35_FORWARD_ONLY_FIELD_TIMING_FINDINGS_20261123.md), [P37](P37_NIGHT_ROUTE_FINDINGS.md), [P38 counts](P38_GREEN_OBSERVATION_RESULT.json).
+
+## P38 exploratory arrival follow-up
+
+Reused P31 with four new seeds and compressed four-platoon span from 15 s to 5 s. Each 6 s vs 10 s action pair shares the decision checkpoint within its world. Across 8 unique tapes and 128 worlds, modeled cost ties were 64/64 uniform (1.000) and 55/64 platoon (.859). Distinct rejected-vehicle counts increased in 36/64 uniform (.563) and 42/64 platoon (.656). These are descriptive contrasts clustered by tape. Both seed and span differ from historical P31, so historical differences do not identify a span effect. Hold the seeds fixed across spans for a mechanism-specific follow-up.
+
+From this directory: `PYTHONPATH=../..:../20261122 python p38_burst_pilot.py`. See [pilot results](P38_BURST_PILOT.json).

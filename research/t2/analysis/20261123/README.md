@@ -43,3 +43,7 @@ Scientific ceiling: **field-time observation quality**. No 2023 active head-to-l
 ## P37 nighttime route evidence
 
 [Protocol](P37_NIGHT_ROUTE_PROTOCOL.md) · [Findings and reproduction](P37_NIGHT_ROUTE_FINDINGS.md) · [Aggregate results](P37_NIGHT_ROUTE_RESULT.json)
+
+## P38 breadth and evidence review
+
+[Research scorecard](P38_RESEARCH_SCORECARD.md) · [Green-window observation counts](P38_GREEN_OBSERVATION_RESULT.json) · [Burst-arrival pilot](P38_BURST_PILOT.json)
