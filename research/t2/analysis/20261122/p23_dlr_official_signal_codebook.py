@@ -12,7 +12,7 @@ from pathlib import Path
 from statistics import median
 
 CSV_SHA='95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c'
-PDF_SHA='3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849'
+PDF_SHA='94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3'
 CODES={'0':'unavailable','1':'off','2':'stop_before_proceed','3':'red_stop_wait',
  '4':'red_and_yellow','5':'green','6':'green_protected_movement',
  '7':'yellow','8':'yellow_protected_movement','9':'yellow_flashing'}
