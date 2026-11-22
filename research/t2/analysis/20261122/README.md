@@ -205,3 +205,18 @@ The **original DLR-UT v1.3.1 27-page PDF**, printed page14 Table4, defines state
 - [Actual archived-chat prompt pattern review and decision on priorities](P32_CHAT_ARCHIVE_PI_PATTERN_AND_DELIVERABLE_PRIORITY_20261122.md): read four dated R&E chat original MD exports; exhibition/prototype track and paper/novelty track are distinct. No claim of review by external Claude or any other model; internal mechanistic, measurement, novelty and progress reviews are documented.
 - [Friend-readable LR-L Harvest in Notion](https://app.notion.com/p/420ef561cf9281688691dd9ffd4a537f), continuing LR-J and LR-K.
 - [Complete P32 16-file reproduction archive on Research OS Drive](https://drive.google.com/file/d/1Y2xY7q6PRGqU3gtBO3iJmsQCDQ2xH1uz/view): SHA-256 `f8cea1babfceb841da6087f5563f9877b4771ad46fc52005d508d01706558b12`, exact-source and test logs, full P30/P31/P32 JSON, checksum manifest; raw upload/download verified.
+
+
+## P24 — Native OpenDRIVE/UTM geometry sanity check; do NOT invent vehicle-signal control mapping
+
+- [P24 exact-source official map joining and failed-map correspondence report](P24_DLR_MAP_JOIN_AND_P23_CORRECTION_FINDINGS_20261122.md)
+- [P24 offline source-locked map/vehicle/route auditor](p24_dlr_map_join_gate.py), [nine input-backed regression checks](test_p24_dlr_map_join_gate.py), [road-reference geometric proximity check](p24_geometry_proximity_check.py), [structured results](P24_DLR_MAP_JOIN_GATE_RESULTS_20261122.json)
+- [Original-byte P24 reproduction ZIP on Drive](https://drive.google.com/file/d/1OX2RpxVZQMF7A6aTZUA1VW8Glsju5Amq/view): 13,958 bytes, re-downloaded SHA256 `cb677b5b98dcdb29d669b9fd41a9dd766259eb8c606ada9c1883193916875e9e`, and each of eight member checksums verified.
+
+Official DLR publisher PDF's **actually downloaded SHA256** is `94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3`, not the original reported P23 value. Replaying original P23 bundle on this exact PDF yielded 4 PASS + 1 source-hash ERROR, corrected source now **5/5 PASS**, Git blob `f2363324a7a3c8aa2017901d9d2da1d9f4f5c1c1`. Main P23 code and JSON amended, historical evidence kept.
+
+Actual DLR source map: 28 road elements, 1 junction; 7 static type-294 sign instances with 6 IDs, no dynamic controller and no mapping to actual light heads ID1–9. Publisher has 18 positions for 9 motor signal IDs. Real 8,624 vehicle trajectory samples transform correctly into map bbox; road-reference line nearest distance median3.572m/p95 7.416m, 97.26345% within 10m (serially correlated samples, NOT valid vehicle-lane attribution). Traffic-volume 12:00/18:00/23:30 labels have 32/27/12 columns and include same-approach route `West0West1`; no direct OpenDRIVE lane IDs inferred.
+
+DLR's public [TASI](https://github.com/DLR-TS/TASI) at commit `5dc52b93cd375e92cd5ae4aa3a7f10e5aeafca11`: `DLRTrafficVolumeDataset` is a pass-through CSV wrapper and `TrafficVolumeDataset.from_csv` only stacks imported columns. **This does not establish any lane-to-signal generation/mapping contract.** TASI data loader is useful for reading published 1s data, not proof of actual signal control. Local P24 source tests 9/9 PASS; exact remote main Git blob was not separately executed in this session. Keep field-phase/map correspondence UNKNOWN until real authoritative lane topology/label evidence.
+
+Physical goal: provide regional (Changwon/Gyeongnam) traffic-flow improvement models calibrated/checked against external datasets. The P24 join gate is a prerequisite, not a replacement science-fair topic. Independent SUMO and true signal/queue/stopline validation remain open.
