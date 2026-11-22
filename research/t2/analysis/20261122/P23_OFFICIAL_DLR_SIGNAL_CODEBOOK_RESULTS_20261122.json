@@ -3,7 +3,7 @@
   "status": "PUBLISHER_SIGNAL_CODEBOOK_CONFIRMED_HEADWAY_AND_LANE_MAPPING_OPEN",
   "official_pdf": {
     "drive_file_id": "1gUqUJEAGtXw06RjQCLbBoJ0k-pcee5Uq",
-    "sha256": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
     "printed_page_signal_ids": 12,
     "printed_page_code_map": 14,
     "figure": "Figure 1",
@@ -69,7 +69,7 @@
   "validation": {
     "tests": 5,
     "passed": 5,
-    "source_blob": "6866838ef5df68b761cb93e6ae837af1d66810ee",
+    "source_blob": "f2363324a7a3c8aa2017901d9d2da1d9f4f5c1c1",
     "test_blob": "d0a33abe4788a8954c78a9b1f3a772f5fafe7ca4",
     "full_local_output_sha256": "32082768e667522f5b191dbc76fd0b92604844c4001dd30186b387ea54c85b10",
     "test_log_sha256": "c40575e73f33b0b8db8267f9390e127a41d406b29e5755ef3b05f11a016d6fa9"
@@ -81,5 +81,14 @@
     "subsecond_headway": false,
     "legal_phase": false,
     "independent_sumocrossmodel": false
+  },
+  "amendment_20261122_P24": {
+    "reason": "P24 exact publisher-PDF re-download SHA256 did not match the hash asserted in original P23",
+    "original_reported_pdf_sha256": "3c733b677ee63fd2cb282946f415f649d23954ac420d5bc37e0af545f7293849",
+    "actual_pdf_sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
+    "original_p23_tests_replayed_against_actual_pdf": "4 tests pass, 1 error",
+    "corrected_p23_tests_replayed": "5 tests pass",
+    "corrected_implementation_git_blob": "f2363324a7a3c8aa2017901d9d2da1d9f4f5c1c1",
+    "notes": "Previous source archive and original per-file hash remain historical; no evidence of a different pdf content version. The publisher Table4 interpretation was reverified from the actual current source document. Source-era claims about 5/5 on this exact document are superseded by corrected reexecution."
   }
 }
