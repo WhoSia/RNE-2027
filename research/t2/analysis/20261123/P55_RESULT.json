@@ -1,0 +1,194 @@
+[
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        -75,
+        -139
+      ],
+      "through": [
+        -14,
+        -162,
+        84
+      ]
+    },
+    "offset_s": 0,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        -417,
+        -123
+      ],
+      "through": [
+        0,
+        330,
+        64
+      ]
+    },
+    "offset_s": 0,
+    "through_B_share": 1.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        35,
+        -99
+      ],
+      "through": [
+        -14,
+        350,
+        136
+      ]
+    },
+    "offset_s": 10,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        -597,
+        -49
+      ],
+      "through": [
+        0,
+        856,
+        66
+      ]
+    },
+    "offset_s": 10,
+    "through_B_share": 1.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        -45,
+        -45
+      ],
+      "through": [
+        -14,
+        278,
+        52
+      ]
+    },
+    "offset_s": 20,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        -557,
+        45
+      ],
+      "through": [
+        0,
+        680,
+        -62
+      ]
+    },
+    "offset_s": 20,
+    "through_B_share": 1.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        3,
+        85
+      ],
+      "through": [
+        -14,
+        -426,
+        -48
+      ]
+    },
+    "offset_s": 30,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        335,
+        69
+      ],
+      "through": [
+        0,
+        -460,
+        -44
+      ]
+    },
+    "offset_s": 30,
+    "through_B_share": 1.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        273,
+        -21
+      ],
+      "through": [
+        -34,
+        -170,
+        30
+      ]
+    },
+    "offset_s": 40,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        580,
+        -27
+      ],
+      "through": [
+        0,
+        -866,
+        58
+      ]
+    },
+    "offset_s": 40,
+    "through_B_share": 1.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        312,
+        -29
+      ],
+      "through": [
+        -24,
+        163,
+        2
+      ]
+    },
+    "offset_s": 50,
+    "through_B_share": 0.0
+  },
+  {
+    "lead_minus_lag": {
+      "left": [
+        0,
+        478,
+        -66
+      ],
+      "through": [
+        0,
+        -248,
+        37
+      ]
+    },
+    "offset_s": 50,
+    "through_B_share": 1.0
+  }
+]
