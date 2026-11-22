@@ -1,0 +1,45 @@
+{
+  "protocol": "P24B_LANE_TO_JUNCTION_TOPOLOGY_AUDIT",
+  "status": "STRUCTURAL_CANDIDATES_ONLY",
+  "date": "2026-11-22",
+  "sources": {
+    "xodr_sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "official_pdf_sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3"
+  },
+  "map_static_stopline_elements_total": 7,
+  "role_counts": {
+    "inbound_approach_end": 4,
+    "outbound_junction_start": 1,
+    "internal_junction_connector": 2,
+    "undetermined": 0
+  },
+  "inbound_road_ids": [
+    "100000",
+    "179000",
+    "201000",
+    "280000"
+  ],
+  "outbound_road_ids": [
+    "101000"
+  ],
+  "connector_road_ids": [
+    "300013",
+    "300018"
+  ],
+  "duplicate_static_marker_id_300607": [
+    "101000",
+    "280000"
+  ],
+  "no_explicit_lane_validity": 7,
+  "verified_lane_attribution": 0,
+  "verified_control_signal_attribution": 0,
+  "verification": {
+    "source_blob": "bc3468312afb52de27c161b001e3a7deedc6160c",
+    "test_blob": "001abde2c8472f1f5b8d8a749c0e39fac6421152",
+    "tests": "7/7",
+    "blobs_equal_local": true,
+    "full_result_sha256": "79f1ff78090cce0fe974571d0a5ae7ba666df7c753b06dc1f0738d2a96666f5f",
+    "test_log_sha256": "34f369aa8d09a7475ed44581d8996ef349d3fd402fff0003aa7939c031c3fcdd"
+  },
+  "caveat": "The junction successor and s proximity rule yields 4 inbound candidates; it does not verify signal timing, lane validity or discharge headway. Road geometry and dated map may differ from observed traffic."
+}
