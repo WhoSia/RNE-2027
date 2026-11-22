@@ -1,0 +1,30 @@
+{
+  "protocol": "P35_INDEPENDENT_NODE_EXACT_MICROSECOND_ORACLE",
+  "sources": {
+    "event": "ea0eaae72afd8e82547a5f0b278765e27a871d86cdabeb34a2e4bf4e0a646c72",
+    "signals": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c",
+    "volume": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798"
+  },
+  "checks": 13,
+  "matched": [
+    4,
+    7,
+    10,
+    16,
+    16
+  ],
+  "latest_age_fresh": [
+    3,
+    6,
+    16,
+    17,
+    17
+  ],
+  "nearest_future": 11,
+  "nearest_after_bracket": 10,
+  "inside_bracket": 1,
+  "discordant_events": 5,
+  "discordant_pairs": 8,
+  "gap_crossings": 0,
+  "use": "independent parser and DP matcher; NO signal-to-lane mapping"
+}
