@@ -1,0 +1,370 @@
+[
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        152.0,
+        141.5
+      ],
+      "T2": [
+        82,
+        141
+      ]
+    },
+    "delta": {
+      "SUMO": -10.5,
+      "T2": 59
+    },
+    "gap": 69.5,
+    "scheduled": 36,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v18"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        149.875,
+        140.0
+      ],
+      "T2": [
+        80,
+        139
+      ]
+    },
+    "delta": {
+      "SUMO": -9.875,
+      "T2": 59
+    },
+    "gap": 68.875,
+    "scheduled": 34,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v17"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        180,
+        144.375
+      ],
+      "T2": [
+        120,
+        143
+      ]
+    },
+    "delta": {
+      "SUMO": -35.625,
+      "T2": 23
+    },
+    "gap": 58.625,
+    "scheduled": 40,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v20"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        89.875,
+        90.375
+      ],
+      "T2": [
+        78,
+        137
+      ]
+    },
+    "delta": {
+      "SUMO": 0.5,
+      "T2": 59
+    },
+    "gap": 58.5,
+    "scheduled": 30,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      8
+    ],
+    "vehicle": "v15"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        122.0,
+        88.875
+      ],
+      "T2": [
+        76,
+        91
+      ]
+    },
+    "delta": {
+      "SUMO": -33.125,
+      "T2": 15
+    },
+    "gap": 48.125,
+    "scheduled": 28,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v14"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        63.0,
+        63.125
+      ],
+      "T2": [
+        60,
+        24
+      ]
+    },
+    "delta": {
+      "SUMO": 0.125,
+      "T2": -36
+    },
+    "gap": -36.125,
+    "scheduled": 4,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v02"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        124.25,
+        124.0
+      ],
+      "T2": [
+        124,
+        147
+      ]
+    },
+    "delta": {
+      "SUMO": -0.25,
+      "T2": 23
+    },
+    "gap": 23.25,
+    "scheduled": 46,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v23"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        78.25,
+        120.25
+      ],
+      "T2": [
+        122,
+        145
+      ]
+    },
+    "delta": {
+      "SUMO": 42.0,
+      "T2": 23
+    },
+    "gap": -19.0,
+    "scheduled": 42,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v21"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        67.625,
+        67.625
+      ],
+      "T2": [
+        64,
+        79
+      ]
+    },
+    "delta": {
+      "SUMO": 0.0,
+      "T2": 15
+    },
+    "gap": 15.0,
+    "scheduled": 10,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v05"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        64.625,
+        64.75
+      ],
+      "T2": [
+        62,
+        77
+      ]
+    },
+    "delta": {
+      "SUMO": 0.125,
+      "T2": 15
+    },
+    "gap": 14.875,
+    "scheduled": 6,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      15
+    ],
+    "vehicle": "v03"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        82.25,
+        85.875
+      ],
+      "T2": [
+        74,
+        89
+      ]
+    },
+    "delta": {
+      "SUMO": 3.625,
+      "T2": 15
+    },
+    "gap": 11.375,
+    "scheduled": 24,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v12"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        76.75,
+        84.375
+      ],
+      "T2": [
+        72,
+        87
+      ]
+    },
+    "delta": {
+      "SUMO": 7.625,
+      "T2": 15
+    },
+    "gap": 7.375,
+    "scheduled": 22,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v11"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        72.25,
+        80.0
+      ],
+      "T2": [
+        68,
+        83
+      ]
+    },
+    "delta": {
+      "SUMO": 7.75,
+      "T2": 15
+    },
+    "gap": 7.25,
+    "scheduled": 16,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v08"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        73.75,
+        81.5
+      ],
+      "T2": [
+        70,
+        85
+      ]
+    },
+    "delta": {
+      "SUMO": 7.75,
+      "T2": 15
+    },
+    "gap": 7.25,
+    "scheduled": 18,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v09"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        69.125,
+        77.875
+      ],
+      "T2": [
+        66,
+        81
+      ]
+    },
+    "delta": {
+      "SUMO": 8.75,
+      "T2": 15
+    },
+    "gap": 6.25,
+    "scheduled": 12,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v06"
+  },
+  {
+    "crossing_lag_lead": {
+      "SUMO": [
+        10.125,
+        10.125
+      ],
+      "T2": [
+        20,
+        20
+      ]
+    },
+    "delta": {
+      "SUMO": 0.0,
+      "T2": 0
+    },
+    "gap": 0.0,
+    "scheduled": 0,
+    "t2_receiver_denials_lag_lead": [
+      0,
+      0
+    ],
+    "vehicle": "v00"
+  }
+]
