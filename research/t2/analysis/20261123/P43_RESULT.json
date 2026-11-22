@@ -1,0 +1,178 @@
+[
+  {
+    "agrees": true,
+    "capacity": 2,
+    "closed": false,
+    "contrast": 43.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1101.5,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1144.5,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 5.25,
+    "step": 0.5
+  },
+  {
+    "agrees": true,
+    "capacity": 2,
+    "closed": false,
+    "contrast": 136.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1107.0,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1243.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 5.25,
+    "step": 1.0
+  },
+  {
+    "agrees": true,
+    "capacity": 2,
+    "closed": true,
+    "contrast": 6.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1628.5,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1634.5,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 7.25,
+    "step": 0.5
+  },
+  {
+    "agrees": true,
+    "capacity": 2,
+    "closed": true,
+    "contrast": 64.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1631.0,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1695.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 7.25,
+    "step": 1.0
+  },
+  {
+    "agrees": true,
+    "capacity": 4,
+    "closed": false,
+    "contrast": 129.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 955.5,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1084.5,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 154.75,
+    "step": 0.5
+  },
+  {
+    "agrees": true,
+    "capacity": 4,
+    "closed": false,
+    "contrast": 209.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 969.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1178.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 154.75,
+    "step": 1.0
+  },
+  {
+    "agrees": true,
+    "capacity": 4,
+    "closed": true,
+    "contrast": 9.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1406.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1415.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 2.5,
+    "step": 0.5
+  },
+  {
+    "agrees": false,
+    "capacity": 4,
+    "closed": true,
+    "contrast": -28.0,
+    "outcomes": [
+      {
+        "approach_vehicle_seconds": 1512.0,
+        "crossed": 23,
+        "scheduled": 24,
+        "uncrossed": 1
+      },
+      {
+        "approach_vehicle_seconds": 1484.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "reference": 2.5,
+    "step": 1.0
+  }
+]
