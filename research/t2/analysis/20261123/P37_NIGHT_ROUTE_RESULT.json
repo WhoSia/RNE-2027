@@ -1,0 +1,85 @@
+{
+  "groups": {
+    "3": {
+      "candidates": 4,
+      "windows_seconds": {
+        "10": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 3,
+          "neither": 1
+        },
+        "20": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 3,
+          "neither": 1
+        },
+        "40": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 3,
+          "neither": 1
+        }
+      }
+    },
+    "4": {
+      "candidates": 1,
+      "windows_seconds": {
+        "10": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 1,
+          "neither": 0
+        },
+        "20": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 1,
+          "neither": 0
+        },
+        "40": {
+          "alternative_only": 0,
+          "both": 0,
+          "expected_only": 1,
+          "neither": 0
+        }
+      }
+    }
+  },
+  "ordered_prefixes_40s": {
+    "3": {
+      "0\u20138": 4,
+      "24\u201340": 4,
+      "40\u201352": 4,
+      "52\u2013end": 3,
+      "8\u201324": 4,
+      "receiver_only_test": 3,
+      "west_receiver": 3
+    },
+    "4": {
+      "left_connector": 1,
+      "receiver_only_test": 1,
+      "south_receiver": 1
+    }
+  },
+  "prior_sampled_codes": {
+    "group_3_all": {
+      "5": 4
+    },
+    "group_3_expected_path": {
+      "5": 3
+    },
+    "group_4_all": {
+      "5": 1
+    },
+    "group_4_expected_path": {
+      "5": 1
+    }
+  },
+  "source_sha256": {
+    "map": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "signals": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c",
+    "trajectories": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50"
+  }
+}
