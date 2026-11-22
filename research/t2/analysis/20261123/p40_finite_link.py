@@ -14,8 +14,8 @@ class SimulationCollision(ValueError):
     """Recorded collision invalidates a paired contrast."""
 
 
-def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None):
-    prepare(folder, order, yellow=False)
+def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None, yellow=False):
+    prepare(folder, order, yellow=yellow)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
     nodes.remove(nodes.find("node[@id='left']"))
     boundary = nodes.find("node[@id='straight']")
