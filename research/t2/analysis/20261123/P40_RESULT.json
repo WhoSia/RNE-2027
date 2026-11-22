@@ -1,0 +1,154 @@
+[
+  {
+    "capacity": 2,
+    "closed": false,
+    "sumo": [
+      {
+        "approach_vehicle_seconds": 1135.0,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1140.25,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "sumo_contrast": 5.25,
+    "t2": [
+      {
+        "approach_vehicle_seconds": 1586,
+        "crossed": 22,
+        "pocket_access_denials": 104,
+        "receiver_denials": 23,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1301,
+        "crossed": 24,
+        "pocket_access_denials": 33,
+        "receiver_denials": 13,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "t2_contrast": -285
+  },
+  {
+    "capacity": 2,
+    "closed": true,
+    "sumo": [
+      {
+        "approach_vehicle_seconds": 1625.75,
+        "crossed": 22,
+        "scheduled": 24,
+        "uncrossed": 2
+      },
+      {
+        "approach_vehicle_seconds": 1633.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "sumo_contrast": 7.25,
+    "t2": [
+      {
+        "approach_vehicle_seconds": 1735,
+        "crossed": 21,
+        "pocket_access_denials": 138,
+        "receiver_denials": 26,
+        "scheduled": 24,
+        "uncrossed": 3
+      },
+      {
+        "approach_vehicle_seconds": 1648,
+        "crossed": 24,
+        "pocket_access_denials": 33,
+        "receiver_denials": 23,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "t2_contrast": -87
+  },
+  {
+    "capacity": 4,
+    "closed": false,
+    "sumo": [
+      {
+        "approach_vehicle_seconds": 924.25,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1079.0,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "sumo_contrast": 154.75,
+    "t2": [
+      {
+        "approach_vehicle_seconds": 1262,
+        "crossed": 24,
+        "pocket_access_denials": 34,
+        "receiver_denials": 4,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1220,
+        "crossed": 24,
+        "pocket_access_denials": 85,
+        "receiver_denials": 13,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "t2_contrast": -42
+  },
+  {
+    "capacity": 4,
+    "closed": true,
+    "sumo": [
+      {
+        "approach_vehicle_seconds": 1402.75,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1405.25,
+        "crossed": 24,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "sumo_contrast": 2.5,
+    "t2": [
+      {
+        "approach_vehicle_seconds": 1371,
+        "crossed": 24,
+        "pocket_access_denials": 41,
+        "receiver_denials": 9,
+        "scheduled": 24,
+        "uncrossed": 0
+      },
+      {
+        "approach_vehicle_seconds": 1432,
+        "crossed": 24,
+        "pocket_access_denials": 85,
+        "receiver_denials": 19,
+        "scheduled": 24,
+        "uncrossed": 0
+      }
+    ],
+    "t2_contrast": 61
+  }
+]
