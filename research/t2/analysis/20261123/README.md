@@ -52,6 +52,6 @@ Scientific ceiling: **field-time observation quality**. No 2023 active head-to-l
 
 [Protocol](P39_DECISION_PROTOCOL.md) · [Decision review](P39_DECISION_REVIEW.md) · [Engine results](P39_ENGINE_RESULT.json) · [Policy results](P39_POLICY_RESULT.json)
 
-## P40–P49 finite-link, sampling and individual-impact review
+## P40–P51 finite-link, sampling and individual-impact review
 
-[Protocol](P40_PROTOCOL.md) · [Decision log and priorities](P40_P49_DECISION_LOG.md) · [Finite-link results](P40_RESULT.json) · [Individual impacts](P47_RESULT.json)
+[Protocol](P40_PROTOCOL.md) · [Decision log and priorities](P40_P51_DECISION_LOG.md) · [Finite-link results](P40_RESULT.json) · [Individual impacts](P47_RESULT.json)
