@@ -1,0 +1,22 @@
+[
+  {
+    "error": 0,
+    "expected_delta": -7097
+  },
+  {
+    "error": 0.1,
+    "expected_delta": -6474.7
+  },
+  {
+    "error": 0.25,
+    "expected_delta": -5541.25
+  },
+  {
+    "error": 0.5,
+    "expected_delta": -3985.5
+  },
+  {
+    "error": 1,
+    "expected_delta": -874
+  }
+]
