@@ -60,5 +60,28 @@
     "actual_stopline_crossing_by_trajectory_ID": false,
     "independent_SUMO_physical_external_validation": false
   },
-  "recommended_next_step": "official TASI stopline and movement derivation or independently labeled map correspondence; avoid nearest-light automatic false assignments"
+  "recommended_next_step": "official TASI stopline and movement derivation or independently labeled map correspondence; avoid nearest-light automatic false assignments",
+  "reference_centerline_sanity_check": {
+    "source_model": "original DLR xodr 201 line/arc planView segments sampled every ~1m along road reference centerlines",
+    "minimum_distance_m": 0.018,
+    "median_distance_m": 3.572,
+    "p90_distance_m": 6.969,
+    "p95_distance_m": 7.416,
+    "p99_distance_m": 12.459,
+    "maximum_distance_m": 13.16,
+    "within_10m_ratio": 0.9726345083487941,
+    "sample_count": 8624,
+    "independent_trajectory_IDs": 37,
+    "local_output_artifact_sha256": "see P24 evidence zip member SHA256SUMS.txt",
+    "interpretation": "position registration sanity check only. Nearest road reference line does not identify physical lane/stopline or signal controlling any movement.",
+    "github_source": "research/t2/analysis/20261122/p24_geometry_proximity_check.py"
+  },
+  "release": {
+    "drive_file_id": "1OX2RpxVZQMF7A6aTZUA1VW8Glsju5Amq",
+    "url": "https://drive.google.com/file/d/1OX2RpxVZQMF7A6aTZUA1VW8Glsju5Amq/view",
+    "size_bytes": 13958,
+    "sha256": "cb677b5b98dcdb29d669b9fd41a9dd766259eb8c606ada9c1883193916875e9e",
+    "round_trip_sha_verified": true,
+    "archive_member_checksum_verification": "all 8 members match SHA256SUMS.txt"
+  }
 }
