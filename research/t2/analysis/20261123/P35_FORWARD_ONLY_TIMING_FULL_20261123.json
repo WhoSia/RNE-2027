@@ -1,0 +1,384 @@
+{
+  "age_at_bracket_end_s": {
+    "max": 1.022482,
+    "median": 0.678482,
+    "min": 0.126482
+  },
+  "common_signal_gap": [
+    [
+      "2023-09-24T23:31:44.010000+00:00",
+      "2023-09-24T23:31:46.014000+00:00",
+      2.004
+    ]
+  ],
+  "crossing_brackets_containing_signal_sample": 1,
+  "crossings": 17,
+  "crossings_overlapping_common_gap": 0,
+  "crossings_with_any_head_discordant_between_sample_bounds": 5,
+  "crossings_with_nearest_hindsight_sample_after_bracket": 10,
+  "crossings_with_nearest_hindsight_sample_future": 11,
+  "event_records": [
+    {
+      "bracket_end": "2023-09-24T23:32:03.816482+00:00",
+      "bracket_start": "2023-09-24T23:32:03.766482+00:00",
+      "causal_last_sample": "2023-09-24T23:32:02.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.826482,
+      "crossing_estimate": "2023-09-24T23:32:03.800909+00:00",
+      "first_future_sample": "2023-09-24T23:32:03.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:32:03.990000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598320985952",
+      "sampled_state_discordant_head_ids": [
+        7
+      ],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "South",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:32:16.516482+00:00",
+      "bracket_start": "2023-09-24T23:32:16.466482+00:00",
+      "causal_last_sample": "2023-09-24T23:32:15.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.526482,
+      "crossing_estimate": "2023-09-24T23:32:16.504583+00:00",
+      "first_future_sample": "2023-09-24T23:32:16.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:32:16.990000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598300234044",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "East",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:33:54.716482+00:00",
+      "bracket_start": "2023-09-24T23:33:54.666482+00:00",
+      "causal_last_sample": "2023-09-24T23:33:53.992000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.724482,
+      "crossing_estimate": "2023-09-24T23:33:54.705232+00:00",
+      "first_future_sample": "2023-09-24T23:33:54.996000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:33:54.996000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598431584813",
+      "sampled_state_discordant_head_ids": [
+        4
+      ],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "East",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:35:05.916482+00:00",
+      "bracket_start": "2023-09-24T23:35:05.866482+00:00",
+      "causal_last_sample": "2023-09-24T23:35:04.987000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.929482,
+      "crossing_estimate": "2023-09-24T23:35:05.916300+00:00",
+      "first_future_sample": "2023-09-24T23:35:05.987000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:35:05.987000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598500135966",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "East",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:35:06.566482+00:00",
+      "bracket_start": "2023-09-24T23:35:06.516482+00:00",
+      "causal_last_sample": "2023-09-24T23:35:05.987000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.579482,
+      "crossing_estimate": "2023-09-24T23:35:06.522577+00:00",
+      "first_future_sample": "2023-09-24T23:35:06.988000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:35:06.988000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598498685304",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:36:32.116482+00:00",
+      "bracket_start": "2023-09-24T23:36:32.066482+00:00",
+      "causal_last_sample": "2023-09-24T23:36:31.979000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.137482,
+      "crossing_estimate": "2023-09-24T23:36:32.106255+00:00",
+      "first_future_sample": "2023-09-24T23:36:32.981000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:36:31.979000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598590285061",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "East",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:36:35.766482+00:00",
+      "bracket_start": "2023-09-24T23:36:35.716482+00:00",
+      "causal_last_sample": "2023-09-24T23:36:34.980000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.786482,
+      "crossing_estimate": "2023-09-24T23:36:35.751171+00:00",
+      "first_future_sample": "2023-09-24T23:36:35.980000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:36:35.980000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598590334092",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:40:26.866482+00:00",
+      "bracket_start": "2023-09-24T23:40:26.816482+00:00",
+      "causal_last_sample": "2023-09-24T23:40:25.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.876482,
+      "crossing_estimate": "2023-09-24T23:40:26.824578+00:00",
+      "first_future_sample": "2023-09-24T23:40:26.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:40:26.990000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598826434461",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "South",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:40:45.416482+00:00",
+      "bracket_start": "2023-09-24T23:40:45.366482+00:00",
+      "causal_last_sample": "2023-09-24T23:40:45.002000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.414482,
+      "crossing_estimate": "2023-09-24T23:40:45.401045+00:00",
+      "first_future_sample": "2023-09-24T23:40:45.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:40:45.002000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598797335103",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:40:47.116482+00:00",
+      "bracket_start": "2023-09-24T23:40:47.066482+00:00",
+      "causal_last_sample": "2023-09-24T23:40:46.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.126482,
+      "crossing_estimate": "2023-09-24T23:40:47.068748+00:00",
+      "first_future_sample": "2023-09-24T23:40:47.991000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:40:46.990000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598846035292",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:40:48.766482+00:00",
+      "bracket_start": "2023-09-24T23:40:48.716482+00:00",
+      "causal_last_sample": "2023-09-24T23:40:47.991000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.775482,
+      "crossing_estimate": "2023-09-24T23:40:48.754167+00:00",
+      "first_future_sample": "2023-09-24T23:40:49.016000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:40:49.016000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598846884519",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:40:51.816482+00:00",
+      "bracket_start": "2023-09-24T23:40:51.766482+00:00",
+      "causal_last_sample": "2023-09-24T23:40:50.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.826482,
+      "crossing_estimate": "2023-09-24T23:40:51.776977+00:00",
+      "first_future_sample": "2023-09-24T23:40:52.004000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:40:52.004000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598847733773",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:41:06.116482+00:00",
+      "bracket_start": "2023-09-24T23:41:06.066482+00:00",
+      "causal_last_sample": "2023-09-24T23:41:05.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.126482,
+      "crossing_estimate": "2023-09-24T23:41:06.107410+00:00",
+      "first_future_sample": "2023-09-24T23:41:06.989000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:41:05.990000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598857287952",
+      "sampled_state_discordant_head_ids": [
+        11
+      ],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "East",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:41:26.266482+00:00",
+      "bracket_start": "2023-09-24T23:41:26.216482+00:00",
+      "causal_last_sample": "2023-09-24T23:41:25.990000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.276482,
+      "crossing_estimate": "2023-09-24T23:41:26.253941+00:00",
+      "first_future_sample": "2023-09-24T23:41:26.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:41:25.990000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598841835607",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "South",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:42:00.416482+00:00",
+      "bracket_start": "2023-09-24T23:42:00.366482+00:00",
+      "causal_last_sample": "2023-09-24T23:41:59.991000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.425482,
+      "crossing_estimate": "2023-09-24T23:42:00.373666+00:00",
+      "first_future_sample": "2023-09-24T23:42:00.991000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:41:59.991000+00:00",
+      "nearest_hindsight_uses_future": false,
+      "object_id": "1695598916334140",
+      "sampled_state_discordant_head_ids": [
+        6,
+        8,
+        15
+      ],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "West",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:43:23.016482+00:00",
+      "bracket_start": "2023-09-24T23:43:22.966482+00:00",
+      "causal_last_sample": "2023-09-24T23:43:21.994000+00:00",
+      "causal_sample_age_at_bracket_end_s": 1.022482,
+      "crossing_estimate": "2023-09-24T23:43:22.969614+00:00",
+      "first_future_sample": "2023-09-24T23:43:23.990000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:43:22.991000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695598999536687",
+      "sampled_state_discordant_head_ids": [
+        6,
+        7
+      ],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 1,
+      "source_arm": "South",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    },
+    {
+      "bracket_end": "2023-09-24T23:44:44.666482+00:00",
+      "bracket_start": "2023-09-24T23:44:44.616482+00:00",
+      "causal_last_sample": "2023-09-24T23:44:43.988000+00:00",
+      "causal_sample_age_at_bracket_end_s": 0.678482,
+      "crossing_estimate": "2023-09-24T23:44:44.657904+00:00",
+      "first_future_sample": "2023-09-24T23:44:44.988000+00:00",
+      "nearest_hindsight_timestamp": "2023-09-24T23:44:44.988000+00:00",
+      "nearest_hindsight_uses_future": true,
+      "object_id": "1695599079835017",
+      "sampled_state_discordant_head_ids": [],
+      "shared_gap_overlap": false,
+      "signal_samples_inside_crossing_bracket": 0,
+      "source_arm": "South",
+      "status": "UNMAPPED_SIGNAL_HEAD_TO_MOVEMENT"
+    }
+  ],
+  "freshness_at_bracket_end": {
+    "0.25": {
+      "causally_fresh_crossings": 3,
+      "stale_crossings": 14
+    },
+    "0.5": {
+      "causally_fresh_crossings": 6,
+      "stale_crossings": 11
+    },
+    "1.0": {
+      "causally_fresh_crossings": 16,
+      "stale_crossings": 1
+    },
+    "1.5": {
+      "causally_fresh_crossings": 17,
+      "stale_crossings": 0
+    },
+    "2.5": {
+      "causally_fresh_crossings": 17,
+      "stale_crossings": 0
+    }
+  },
+  "limits": [
+    "No independent traffic field truth: volume counts derive from the same tracking source",
+    "Neither 30-head sampled state nor 2015 OpenDRIVE static IDs establish the controlled lane",
+    "The nearest sampled signal state may be from the FUTURE of a crossing; it is hindsight only",
+    "Signal state cannot be assumed unchanged between two 1Hz samples",
+    "Crossing time is 50ms bracketed/estimated, not exact physical instant"
+  ],
+  "matched_tolerance_sensitivity": [
+    {
+      "matched": 4,
+      "matching_tolerance_s": 0.25,
+      "median_abs_error_s": 0.0875,
+      "unmatched_trajectory": 13,
+      "unmatched_volume": 13
+    },
+    {
+      "matched": 7,
+      "matching_tolerance_s": 0.5,
+      "median_abs_error_s": 0.1074,
+      "unmatched_trajectory": 10,
+      "unmatched_volume": 10
+    },
+    {
+      "matched": 10,
+      "matching_tolerance_s": 0.75,
+      "median_abs_error_s": 0.3138,
+      "unmatched_trajectory": 7,
+      "unmatched_volume": 7
+    },
+    {
+      "matched": 16,
+      "matching_tolerance_s": 1.0,
+      "median_abs_error_s": 0.59025,
+      "unmatched_trajectory": 1,
+      "unmatched_volume": 1
+    },
+    {
+      "matched": 16,
+      "matching_tolerance_s": 1.5,
+      "median_abs_error_s": 0.59025,
+      "unmatched_trajectory": 1,
+      "unmatched_volume": 1
+    }
+  ],
+  "protocol": "P35_FORWARD_ONLY_OBSERVATION_TIMING",
+  "signal_head_event_pairs_with_discordant_samples": 8,
+  "signal_ids": 30,
+  "signal_rows": 26970,
+  "source_sha256": {
+    "P34_archive": "bb8701db35578951e82202845c5fa9b65d5ee55afb31c1afed22292e65a3c679",
+    "P34_event_ledger": "ea0eaae72afd8e82547a5f0b278765e27a871d86cdabeb34a2e4bf4e0a646c72",
+    "signal_csv": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c",
+    "volume_csv": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798"
+  },
+  "status": "REAL_SAME_SOURCE_MEASUREMENT_QA_NOT_CONTROLLER_EVIDENCE"
+}
