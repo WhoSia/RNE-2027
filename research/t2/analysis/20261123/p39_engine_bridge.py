@@ -9,7 +9,7 @@ from spatial_v10 import Config
 from sumo_phase_pair import DEMAND, HORIZON, execute, outcome, prepare
 
 
-def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode="fifo", receiver_headway=2):
+def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode="fifo", receiver_headway=2, movement_details=False):
     base = Config(duration_s=HORIZON, cycle_s=60, left_green_s=12, through_green_s=24,
                   clearance_s=5, phase_order="leading" if left_first else "lagging",
                   approach_length_m=100, pocket_length_m=pocket, cell_m=5)
@@ -25,7 +25,8 @@ def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode
             if ident in crossings:
                 raise ValueError("duplicate T2 crossing")
             crossings[ident] = event["t"]
-    return outcome(crossings) | {
+    details = {"crossing_times": crossings} if movement_details else {}
+    return outcome(crossings) | details | {
         "receiver_denials": sum(e["reason"] in ("receiver_entry_cell_busy", "receiver_capacity_full")
                                 for e in result["service_events"]),
         "pocket_access_denials": sum(e["event"] == "pocket_entry_denied"

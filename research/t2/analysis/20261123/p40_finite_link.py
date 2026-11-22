@@ -14,7 +14,7 @@ class SimulationCollision(ValueError):
     """Recorded collision invalidates a paired contrast."""
 
 
-def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None, yellow=False):
+def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None, yellow=False, movement_details=False):
     prepare(folder, order, yellow=yellow)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
     nodes.remove(nodes.find("node[@id='left']"))
@@ -91,7 +91,8 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
                     raise ValueError("Receiver entry lacks an adjacent upstream observation")
                 crossings[ident] = stamp
         step.clear()
-    return outcome(crossings)
+    details = {"crossing_times": crossings} if movement_details else {}
+    return outcome(crossings) | details
 
 
 def experiment():
