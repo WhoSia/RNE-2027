@@ -1,0 +1,35 @@
+{
+  "families": {
+    "platoon4": {
+      "any_changed": 0,
+      "cost_ties": 56,
+      "individual_history_changed": 15,
+      "p95_changed": 0,
+      "p95_worse": 0,
+      "peak_backlog_changed": 0,
+      "peak_backlog_worse": 0,
+      "uncrossed_changed": 0,
+      "uncrossed_worse": 0,
+      "worlds": 64
+    },
+    "uniform": {
+      "any_changed": 0,
+      "cost_ties": 63,
+      "individual_history_changed": 16,
+      "p95_changed": 0,
+      "p95_worse": 0,
+      "peak_backlog_changed": 0,
+      "peak_backlog_worse": 0,
+      "uncrossed_changed": 0,
+      "uncrossed_worse": 0,
+      "worlds": 64
+    }
+  },
+  "p95_peak_delta_histogram": [
+    [
+      0,
+      0,
+      119
+    ]
+  ]
+}
