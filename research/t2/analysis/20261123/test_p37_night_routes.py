@@ -1,6 +1,7 @@
+from datetime import datetime, timedelta
 import unittest
 
-from p37_night_routes import ROUTES, count_routes, stage_counts, time_s
+from p37_night_routes import ROUTES, count_routes, prior_signal_counts, stage_counts, time_s
 
 
 class NightRoutesTest(unittest.TestCase):
@@ -30,3 +31,14 @@ class NightRoutesTest(unittest.TestCase):
         self.assertEqual(count_routes(self.candidates, detections)[3]["windows_seconds"][40]["neither"], 2)
         detections["observed"][receiver] = [self.start + 2]
         self.assertEqual(count_routes(self.candidates, detections)[3]["windows_seconds"][40]["alternative_only"], 1)
+
+    def test_signal_inside_bracket_is_excluded_even_if_fresher(self):
+        stamp = datetime.fromisoformat("2023-09-24T23:30:00+00:00")
+        event = dict(self.candidates[0][0], bracket_start_utc=stamp.isoformat(),
+                     bracket_end_utc=(stamp + timedelta(milliseconds=50)).isoformat())
+        heads = {3: [(stamp - timedelta(milliseconds=950), 5),
+                     (stamp + timedelta(milliseconds=25), 3)]}
+        self.assertEqual(prior_signal_counts([(event, 3)], {}, heads), {"group_3_all": {"5": 1}})
+        heads[3][0] = (stamp - timedelta(milliseconds=951), 5)
+        self.assertEqual(prior_signal_counts([(event, 3)], {}, heads),
+                         {"group_3_all": {"missing_or_stale": 1}})
