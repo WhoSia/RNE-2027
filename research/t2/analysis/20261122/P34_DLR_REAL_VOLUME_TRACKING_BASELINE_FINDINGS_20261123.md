@@ -64,7 +64,7 @@ Exact original `bs-inner-ring-road-ut.xodr` SHA256 `256115a13cd29cb1d36cbbf110a4
 - [SHA-fail-closed Python stdlib runner](p34_official_volume_overlap.py) — no new dependency or runtime; Research OS Polyglot rule is to use the smallest coherent implementation.
 - [14 integration/adversarial tests](test_p34_official_volume_overlap.py): **14/14 PASS** on original three publisher CSVs and malformed/fake fixtures, including source SHA drift, missing zone, duplicate 1s bin, duplicate signal head, invalid binary movement indicator, asymmetric time shifts, common gap and exact 17/322 confusion.
 - [Full reproducible 893-bin aggregate JSON](P34_OFFICIAL_VOLUME_OVERLAP_RESULTS_20261123.json), original output SHA256 `77efa960815049b0a3c89602eef5d4cdf930674bf36ea8cac8cf8ca463e1f968`. Exact 1-second movement columns are aggregated without rewriting source files.
-- Test transcript SHA256 `a13007d747365cbad04cb360587df00e17110e9c164ef0ce8c40e742aab7d119`.
+- Test transcript SHA256 `d32639112c361d01fd4131a43060efd8fa2ba3d0b6f2dc826f8082d6f9a87182`.
 
 ```sh
 python p34_official_volume_overlap.py /data/traffic-volume_230924-233000_230924-234500.csv /data/trajectories_230924-233000_230924-234500.csv /data/traffic-lights_230924-233000_230924-234500.csv p34_results.json
