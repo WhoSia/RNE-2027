@@ -27,3 +27,9 @@ Weights carried forward from P38: relevance .35, discrimination .30, readiness .
 | Repeat whole-cohort P95 and peak backlog on the same ties | .70 | .35 | .95 | .95 | 0.683 |
 
 Overall comparison reproducibility .90 given deterministic replay; construct fidelity .60 given shared downstream calendar and unmatched upstream geometry; external validity .40 given synthetic engines and no independent field labels. Physical headway, amber and topology remain material factors. The immediate validation target is per-movement upstream insertion, stop-line crossing, downstream discharge, and queue evolution rather than an aggregate cost-only match.
+
+## P49–P51 follow-through
+
+P49: amber produced 16/16 valid comparisons across default and fixed driver clocks. Robust leading occurred in 6/8 with the default clock and 4/8 with the fixed clock. Both clocks favored lagging in both samples for the 20 m open receiver. The 20 m closed case changed sign with the clock under amber. P48 collision recovery therefore does not imply a general leading-phase advantage.
+
+P50/P51: movement cost components reproduce each aggregate. The 10 m closed red-clearance case favors leading for left turns in both engines (SUMO −33.125, T2 −417) while the through contrast has opposite signs (SUMO −11.125, T2 +330). For the 20 m open case the through contrast is +117.625 versus −242. Next, the first priority is to match upstream movement paths and measure insertion debt, first stopline crossing and downstream release on the same arms. Movement-level diagnosis is now executable, but treatment equivalence is still open.
