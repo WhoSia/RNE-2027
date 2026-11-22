@@ -1,0 +1,1110 @@
+[
+  {
+    "fixed_cohort_size": 16,
+    "net_gap": 341.125,
+    "offset_s": 0,
+    "top_four_signed_gap": 255.5,
+    "vehicles": [
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            152.0,
+            141.5
+          ],
+          "T2": [
+            82,
+            141
+          ]
+        },
+        "delta": {
+          "SUMO": -10.5,
+          "T2": 59
+        },
+        "gap": 69.5,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 36,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v18"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            149.875,
+            140.0
+          ],
+          "T2": [
+            80,
+            139
+          ]
+        },
+        "delta": {
+          "SUMO": -9.875,
+          "T2": 59
+        },
+        "gap": 68.875,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 34,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v17"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            180,
+            144.375
+          ],
+          "T2": [
+            120,
+            143
+          ]
+        },
+        "delta": {
+          "SUMO": -35.625,
+          "T2": 23
+        },
+        "gap": 58.625,
+        "observed_lag_lead": {
+          "SUMO": [
+            false,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 40,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v20"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            89.875,
+            90.375
+          ],
+          "T2": [
+            78,
+            137
+          ]
+        },
+        "delta": {
+          "SUMO": 0.5,
+          "T2": 59
+        },
+        "gap": 58.5,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 30,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          8
+        ],
+        "vehicle": "v15"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            122.0,
+            88.875
+          ],
+          "T2": [
+            76,
+            91
+          ]
+        },
+        "delta": {
+          "SUMO": -33.125,
+          "T2": 15
+        },
+        "gap": 48.125,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 28,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v14"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            63.0,
+            63.125
+          ],
+          "T2": [
+            60,
+            24
+          ]
+        },
+        "delta": {
+          "SUMO": 0.125,
+          "T2": -36
+        },
+        "gap": -36.125,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 4,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v02"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            124.25,
+            124.0
+          ],
+          "T2": [
+            124,
+            147
+          ]
+        },
+        "delta": {
+          "SUMO": -0.25,
+          "T2": 23
+        },
+        "gap": 23.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 46,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v23"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            78.25,
+            120.25
+          ],
+          "T2": [
+            122,
+            145
+          ]
+        },
+        "delta": {
+          "SUMO": 42.0,
+          "T2": 23
+        },
+        "gap": -19.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 42,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v21"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            67.625,
+            67.625
+          ],
+          "T2": [
+            64,
+            79
+          ]
+        },
+        "delta": {
+          "SUMO": 0.0,
+          "T2": 15
+        },
+        "gap": 15.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 10,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v05"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            64.625,
+            64.75
+          ],
+          "T2": [
+            62,
+            77
+          ]
+        },
+        "delta": {
+          "SUMO": 0.125,
+          "T2": 15
+        },
+        "gap": 14.875,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 6,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          15
+        ],
+        "vehicle": "v03"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            82.25,
+            85.875
+          ],
+          "T2": [
+            74,
+            89
+          ]
+        },
+        "delta": {
+          "SUMO": 3.625,
+          "T2": 15
+        },
+        "gap": 11.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 24,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v12"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            76.75,
+            84.375
+          ],
+          "T2": [
+            72,
+            87
+          ]
+        },
+        "delta": {
+          "SUMO": 7.625,
+          "T2": 15
+        },
+        "gap": 7.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 22,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v11"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            72.25,
+            80.0
+          ],
+          "T2": [
+            68,
+            83
+          ]
+        },
+        "delta": {
+          "SUMO": 7.75,
+          "T2": 15
+        },
+        "gap": 7.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 16,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v08"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            73.75,
+            81.5
+          ],
+          "T2": [
+            70,
+            85
+          ]
+        },
+        "delta": {
+          "SUMO": 7.75,
+          "T2": 15
+        },
+        "gap": 7.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 18,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v09"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            69.125,
+            77.875
+          ],
+          "T2": [
+            66,
+            81
+          ]
+        },
+        "delta": {
+          "SUMO": 8.75,
+          "T2": 15
+        },
+        "gap": 6.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 12,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v06"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            10.125,
+            10.125
+          ],
+          "T2": [
+            20,
+            20
+          ]
+        },
+        "delta": {
+          "SUMO": 0.0,
+          "T2": 0
+        },
+        "gap": 0.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 0,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v00"
+      }
+    ],
+    "windows": {
+      "90": {
+        "SUMO": 46.5,
+        "T2": 113
+      },
+      "120": {
+        "SUMO": 46.875,
+        "T2": 204
+      },
+      "150": {
+        "SUMO": 20.875,
+        "T2": 330
+      },
+      "180": {
+        "SUMO": -11.125,
+        "T2": 330
+      }
+    }
+  },
+  {
+    "fixed_cohort_size": 16,
+    "net_gap": -314.5,
+    "offset_s": 50,
+    "top_four_signed_gap": -249.375,
+    "vehicles": [
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            73.0,
+            131.0
+          ],
+          "T2": [
+            70,
+            24
+          ]
+        },
+        "delta": {
+          "SUMO": 58.0,
+          "T2": -46
+        },
+        "gap": -104.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 4,
+        "t2_receiver_denials_lag_lead": [
+          10,
+          0
+        ],
+        "vehicle": "v02"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            74.625,
+            180
+          ],
+          "T2": [
+            72,
+            77
+          ]
+        },
+        "delta": {
+          "SUMO": 105.375,
+          "T2": 5
+        },
+        "gap": -100.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            false
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 6,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          15
+        ],
+        "vehicle": "v03"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            77.625,
+            180
+          ],
+          "T2": [
+            74,
+            79
+          ]
+        },
+        "delta": {
+          "SUMO": 102.375,
+          "T2": 5
+        },
+        "gap": -97.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            false
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 10,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v05"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            131.75,
+            84.375
+          ],
+          "T2": [
+            82,
+            87
+          ]
+        },
+        "delta": {
+          "SUMO": -47.375,
+          "T2": 5
+        },
+        "gap": 52.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 22,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v11"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            96.375,
+            93.375
+          ],
+          "T2": [
+            134,
+            95
+          ]
+        },
+        "delta": {
+          "SUMO": -3.0,
+          "T2": -39
+        },
+        "gap": -36.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 34,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v17"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            97.875,
+            94.875
+          ],
+          "T2": [
+            136,
+            97
+          ]
+        },
+        "delta": {
+          "SUMO": -3.0,
+          "T2": -39
+        },
+        "gap": -36.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 36,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v18"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            93.5,
+            90.375
+          ],
+          "T2": [
+            132,
+            93
+          ]
+        },
+        "delta": {
+          "SUMO": -3.125,
+          "T2": -39
+        },
+        "gap": -35.875,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 30,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v15"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            180,
+            141.5
+          ],
+          "T2": [
+            142,
+            139
+          ]
+        },
+        "delta": {
+          "SUMO": -38.5,
+          "T2": -3
+        },
+        "gap": 35.5,
+        "observed_lag_lead": {
+          "SUMO": [
+            false,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 46,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v23"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            89.875,
+            85.875
+          ],
+          "T2": [
+            120,
+            89
+          ]
+        },
+        "delta": {
+          "SUMO": -4.0,
+          "T2": -31
+        },
+        "gap": -27.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 24,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v12"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            149.25,
+            97.875
+          ],
+          "T2": [
+            138,
+            99
+          ]
+        },
+        "delta": {
+          "SUMO": -51.375,
+          "T2": -39
+        },
+        "gap": 12.375,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 40,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v20"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            135.75,
+            88.875
+          ],
+          "T2": [
+            130,
+            91
+          ]
+        },
+        "delta": {
+          "SUMO": -46.875,
+          "T2": -39
+        },
+        "gap": 7.875,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 28,
+        "t2_receiver_denials_lag_lead": [
+          8,
+          0
+        ],
+        "vehicle": "v14"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            82.25,
+            80.0
+          ],
+          "T2": [
+            78,
+            83
+          ]
+        },
+        "delta": {
+          "SUMO": -2.25,
+          "T2": 5
+        },
+        "gap": 7.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 16,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v08"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            83.75,
+            81.5
+          ],
+          "T2": [
+            80,
+            85
+          ]
+        },
+        "delta": {
+          "SUMO": -2.25,
+          "T2": 5
+        },
+        "gap": 7.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 18,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v09"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            134.125,
+            137.875
+          ],
+          "T2": [
+            140,
+            137
+          ]
+        },
+        "delta": {
+          "SUMO": 3.75,
+          "T2": -3
+        },
+        "gap": -6.75,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 42,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v21"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            79.125,
+            77.875
+          ],
+          "T2": [
+            76,
+            81
+          ]
+        },
+        "delta": {
+          "SUMO": -1.25,
+          "T2": 5
+        },
+        "gap": 6.25,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 12,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v06"
+      },
+      {
+        "crossing_lag_lead": {
+          "SUMO": [
+            10.125,
+            10.125
+          ],
+          "T2": [
+            20,
+            20
+          ]
+        },
+        "delta": {
+          "SUMO": 0.0,
+          "T2": 0
+        },
+        "gap": 0.0,
+        "observed_lag_lead": {
+          "SUMO": [
+            true,
+            true
+          ],
+          "T2": [
+            true,
+            true
+          ]
+        },
+        "scheduled": 0,
+        "t2_receiver_denials_lag_lead": [
+          0,
+          0
+        ],
+        "vehicle": "v00"
+      }
+    ],
+    "windows": {
+      "90": {
+        "SUMO": 28.25,
+        "T2": -17
+      },
+      "120": {
+        "SUMO": 27.0,
+        "T2": -172
+      },
+      "150": {
+        "SUMO": 36.5,
+        "T2": -248
+      },
+      "180": {
+        "SUMO": 66.5,
+        "T2": -248
+      }
+    }
+  }
+]
