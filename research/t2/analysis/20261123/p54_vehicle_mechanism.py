@@ -11,12 +11,12 @@ from sumo_phase_pair import DEMAND, HORIZON
 DENIALS = {"receiver_entry_cell_busy", "receiver_capacity_full"}
 
 
-def experiment():
+def experiment(offset=0, *, include_observed=False):
     with TemporaryDirectory() as directory:
         sumo = [sumo_run(Path(directory) / str(order), order, 2, True,
-                         step_size=.125, movement_details=True) for order in (False, True)]
+                         step_size=.125, movement_details=True, receiver_offset=offset) for order in (False, True)]
     t2 = [t2_case(order, 10, 2, receiver_mode="cells", receiver_closures=((0, 50),),
-                  movement_details=True) for order in (False, True)]
+                  movement_details=True, receiver_offset=offset) for order in (False, True)]
     denied = [Counter(e["vehicle_id"] for e in arm["service_events"] if e["reason"] in DENIALS)
               for arm in t2]
     rows = []
@@ -29,6 +29,10 @@ def experiment():
         rows.append({"vehicle": v.ident, "scheduled": v.time, "crossing_lag_lead": crossing,
                      "delta": deltas, "gap": deltas["T2"] - deltas["SUMO"],
                      "t2_receiver_denials_lag_lead": [c[i] for c in denied]})
+        if include_observed:
+            rows[-1]["observed_lag_lead"] = {name: [v.ident in arm["crossing_times"]
+                                                     for arm in pair]
+                                             for name, pair in (("SUMO", sumo), ("T2", t2))}
     return sorted(rows, key=lambda row: (-abs(row["gap"]), row["vehicle"]))
 
 
