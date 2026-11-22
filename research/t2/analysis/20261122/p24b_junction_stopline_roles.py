@@ -28,11 +28,15 @@ def structural_roles(map_file,document_pdf):
                   and s<=1.0):
                 role="OUTBOUND_ROAD_JUNCTION_START"
             else:role="UNDETERMINED"
-            valid=sig.findall("validity")
+            valid=sig.findall("laneValidity")
+            if not valid:raise ValueError("missing laneValidity in original map")
+            valid_ranges=[{"fromLane":int(v.get("fromLane")),"toLane":int(v.get("toLane"))} for v in valid]
             items.append({"road_id":road.get("id"),"marker_id":sig.get("id"),
                 "role":role,"s_m":round(s,3),"distance_to_road_end_m":round(s_len-s,3),
                 "junction_road_attribute":road.get("junction"),
                 "explicit_lane_validity_count":len(valid),
+                "declared_lane_ranges":valid_ranges,
+                "lane_scope_declared_in_2015_map":True,
                 "lane_scope_verified":False,"controller_id":None,
                 "right_of_way_verified":False})
     counts={k:sum(r["role"]==k for r in items) for k in
@@ -45,7 +49,8 @@ def structural_roles(map_file,document_pdf):
         "inbound_candidate_road_ids":sorted(x["road_id"] for x in items
             if x["role"]=="INBOUND_ROAD_APPROACH_END"),
         "gates":{"structural_role_rule_executed":True,
-          "stopline_lane_validity_explicit":False,
+          "stopline_lane_validity_explicit":True,
+          "lane_ranges_current_2023_and_counting_validated":False,
           "observed_light_id_crosswalk":False,
           "movement_specific_discharge":False},
         "caveat":"Role is based on road junction connectivity and s position; not proof that a signal head controls the road lane."}
