@@ -1,0 +1,47 @@
+{
+  "protocol": "P32_ID_CORRIDOR_EXIT_EQUIVALENCE",
+  "date": "2026-11-22",
+  "status": "SYNTHETIC_UNCALIBRATED",
+  "main_source_runner_blob": "dea56149c017cfd49116d53f98385eb0294bce30",
+  "main_source_test_blob": "9f2a0d0f4b0ea0fc590fd9124405eeba3f33dd66",
+  "prereg_main_commit": "23d74b03a0573b33b84fa754d90a14b6e5124837",
+  "frozen_p30_sha256": "6fc5d2e02192f8dd4ad97f420bbb8961bb0339d2c7ca01bc3a7ac16c3a43763f",
+  "frozen_p31_sha256": "ff0452b4b37174b17bf91228722209de0f26ac60730ef9ef673b08d50c0f4915",
+  "full_P32_result_SHA256": "fa0e1447377e2aa716dd12e348e3a8a2c17dc4a165913da2883b22110e3f636e",
+  "final_test_log_sha256": "391c2eee83e43d66bb570ecca4d83760f79a8c96c089da0d6025b04bde8f6e48",
+  "tests": "11/11",
+  "synthetic_worlds": 192,
+  "unique_full_arrival_tapes": 12,
+  "P30": {
+    "worlds": 64,
+    "same_score": 64,
+    "same_aggregate_but_different_observed_identity_time": 16,
+    "identical_observed_crossing_exit_history": 48,
+    "crossing_id_set_diff": 2,
+    "downstream_exit_id_set_diff": 2,
+    "downstream_exit_timestamp_changed": 2
+  },
+  "P31": {
+    "worlds": 128,
+    "same_score": 119,
+    "same_score_but_different_observed_identity_time": 32,
+    "same_all_aggregates_but_different_observed_identity_time": 31,
+    "identical_observed_crossing_exit_history": 87,
+    "crossing_id_set_diff": 26,
+    "downstream_exit_id_set_diff": 27,
+    "downstream_exit_timestamp_changed": 25
+  },
+  "corrected_P31_old_result_semantics": {
+    "archived_field": "baseline_score",
+    "actual_value": "baseline.remaining",
+    "affected_rows": 128,
+    "policy": "Archive old result immutable, recompute physical_transfer_screen.score in P32 baseline_true_score"
+  },
+  "interpretation": "Aggregate score/throughput identical does not entail equal vehicle-ID crossing and receiving-link-exit traces. This is observational aliasing inside a fixed synthetic model, not opposing optimal-control ranking or a field improvement.",
+  "second_pass_repairs": [
+    "Wrong left-censoring term -> right-censoring",
+    "Overclaim of full vehicle histories -> observed stopline and downstream-exit events only"
+  ],
+  "external_validity": "No real-world calibration or external SUMO model. Receiver exit inferred from frame-to-frame disappearance and audited against network_out counts.",
+  "human_action": "Delete old strict-ancestor research/t2-spatial-fig2-v02 via GitHub Branches UI. No connector delete_ref; NOT DELETED."
+}
