@@ -1,0 +1,5 @@
+# P39 comparison and policy selection
+
+Preserve P38 priorities until measured results. Compare SUMO phase order, amber mode and Krauss tau on the existing dedicated 100 m benchmark. Reuse demand and nominal green starts in a T2 bridge and measure scheduled-arrival to first observed crossing with the common horizon. T2 pocket topology and receiver cells still require treatment equivalence before claiming matched spillback. Record each engine's contrasts separately.
+
+On unseen simulated demand seeds 132–135, compare fixed 6 s, a pocket-versus-non-pocket demand pressure proxy, and a receiving-space guarded version. All actions have the same clearance and use a common frozen tick-84 state. Select using observations available at the decision only. Report paired cost, regret, worst regret and cases worse than fixed. A controller candidate may advance to another holdout only if it improves total cost without worsening worst regret or any tape-level total versus fixed. Scores describe research priorities.
