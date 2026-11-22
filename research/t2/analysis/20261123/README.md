@@ -61,3 +61,11 @@ Scientific ceiling: **field-time observation quality**. No 2023 active head-to-l
 [Stage decomposition](P52_RESULT.json) · [Lane allocation sensitivity](P53_RESULT.json)
 
 The short closed receiver benchmark localizes the through phase-order disagreement to the admitted-to-stopline interval. Changing the T2 through-B share changes the result; intermediate assignment uses the existing seeded allocator. Unobserved boundaries are censored at the horizon. SUMO receiver release is the first downstream sample, while T2 release is the tick at which the vehicle leaves its receiver cells.
+
+## P54–P55 individual crossings and downstream offsets
+
+[Vehicle-level evidence](P54_RESULT.json) · [Clock-offset sweep](P55_RESULT.json)
+
+In the 10 m closed-receiver comparison, the four largest vehicle gaps account for 255.5 of 341.125 vehicle-seconds (0.749, signed contribution). Three of those four vehicles have no direct T2 receiver-denial event. This does not rule out indirect queue effects. At six downstream offsets, changing the T2 through-lane share between 0 and 1 reverses the admitted-to-stop-line contrast at only two offsets (0.333). Therefore compare lane allocation jointly with the downstream clock.
+
+Updated priorities use the P38 weights. Match lane path and downstream clock jointly (.99, .96, .87, .77 → .924); maintain independent field annotation (.99, .93, .67, .75 → .872). The clock sweep is T2-only. A SUMO horizon value of 180 for an unobserved crossing is censoring, not an observed crossing at t=180.
