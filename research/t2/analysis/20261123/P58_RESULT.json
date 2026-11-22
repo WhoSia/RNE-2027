@@ -1,0 +1,138 @@
+{
+  "boundaries": [
+    "insert",
+    "cross",
+    "release"
+  ],
+  "vehicles": [
+    {
+      "SUMO": {
+        "boundary_deltas": [
+          0.0,
+          58.0,
+          58.625
+        ],
+        "censored_crossing_delta": 58.0,
+        "lag_lead_times": [
+          [
+            4.0,
+            73.0,
+            74.75
+          ],
+          [
+            4.0,
+            131.0,
+            133.375
+          ]
+        ]
+      },
+      "T2": {
+        "boundary_deltas": [
+          0,
+          -46,
+          -2
+        ],
+        "censored_crossing_delta": -46,
+        "lag_lead_times": [
+          [
+            4,
+            70,
+            74
+          ],
+          [
+            4,
+            24,
+            72
+          ]
+        ]
+      },
+      "vehicle": "v02"
+    },
+    {
+      "SUMO": {
+        "boundary_deltas": [
+          0.0,
+          null,
+          null
+        ],
+        "censored_crossing_delta": 105.375,
+        "lag_lead_times": [
+          [
+            6.0,
+            74.625,
+            76.125
+          ],
+          [
+            6.0,
+            null,
+            null
+          ]
+        ]
+      },
+      "T2": {
+        "boundary_deltas": [
+          0,
+          5,
+          3
+        ],
+        "censored_crossing_delta": 5,
+        "lag_lead_times": [
+          [
+            6,
+            72,
+            76
+          ],
+          [
+            6,
+            77,
+            79
+          ]
+        ]
+      },
+      "vehicle": "v03"
+    },
+    {
+      "SUMO": {
+        "boundary_deltas": [
+          0.0,
+          null,
+          null
+        ],
+        "censored_crossing_delta": 102.375,
+        "lag_lead_times": [
+          [
+            10.0,
+            77.625,
+            79.0
+          ],
+          [
+            10.0,
+            null,
+            null
+          ]
+        ]
+      },
+      "T2": {
+        "boundary_deltas": [
+          0,
+          5,
+          3
+        ],
+        "censored_crossing_delta": 5,
+        "lag_lead_times": [
+          [
+            10,
+            74,
+            78
+          ],
+          [
+            10,
+            79,
+            81
+          ]
+        ]
+      },
+      "vehicle": "v05"
+    }
+  ]
+}
