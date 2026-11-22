@@ -1,0 +1,47 @@
+[
+  {
+    "contrast": {
+      "left": [
+        0,
+        -75,
+        -139
+      ],
+      "through": [
+        -14,
+        -162,
+        84
+      ]
+    },
+    "through_B_share": 0.0
+  },
+  {
+    "contrast": {
+      "left": [
+        0,
+        -75,
+        -131
+      ],
+      "through": [
+        0,
+        8,
+        98
+      ]
+    },
+    "through_B_share": 0.5
+  },
+  {
+    "contrast": {
+      "left": [
+        0,
+        -417,
+        -123
+      ],
+      "through": [
+        0,
+        330,
+        64
+      ]
+    },
+    "through_B_share": 1.0
+  }
+]
