@@ -1,0 +1,55 @@
+"""Nominal-schedule bridge and separate within-engine sensitivity contrasts."""
+from itertools import product
+import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
+
+from dual_lane_v11 import DualConfig, run
+from spatial_v10 import Config
+from sumo_phase_pair import DEMAND, HORIZON, execute, outcome, prepare
+
+
+def t2_case(left_first, pocket, receiver):
+    base = Config(duration_s=HORIZON, cycle_s=60, left_green_s=12, through_green_s=24,
+                  clearance_s=5, phase_order="leading" if left_first else "lagging",
+                  approach_length_m=100, pocket_length_m=pocket, cell_m=5)
+    cfg = DualConfig(base=base, through_B_share=1, receiver_slots=receiver)
+    result = run(cfg, tuple((v.time, "S" if v.movement == "T" else "L") for v in DEMAND),
+                 trace=True)
+    crossings = {}
+    for event in result["service_events"]:
+        if event["reason"] == "stopline_cross":
+            ident = DEMAND[event["vehicle_id"]].ident
+            if ident in crossings:
+                raise ValueError("duplicate T2 crossing")
+            crossings[ident] = event["t"]
+    return outcome(crossings)
+
+
+def experiment():
+    engines = {"SUMO": [], "T2": []}
+    with TemporaryDirectory() as directory:
+        for i, (yellow, tau) in enumerate(product((False, True), (1, 1.5))):
+            pair = []
+            for left_first in (False, True):
+                folder = Path(directory) / f"{i}-{left_first}"
+                prepare(folder, left_first, yellow=yellow, tau=tau)
+                report = execute(folder, left_first, yellow=yellow)
+                if report["sumo_status"] != "EXECUTED":
+                    raise RuntimeError(report)
+                pair.append(report["sumo"])
+            engines["SUMO"].append({"yellow": yellow, "tau": tau, "pair": pair})
+    for pocket, receiver in product((10, 30), (0, 2, 4)):
+        engines["T2"].append({"pocket_m": pocket, "receiver_slots": receiver,
+                              "pair": [t2_case(order, pocket, receiver) for order in (False, True)]})
+    for rows in engines.values():
+        for row in rows:
+            lag, lead = row["pair"]
+            row["lead_minus_lag_vehicle_s"] = (
+                lead["approach_vehicle_seconds"] - lag["approach_vehicle_seconds"]
+            )
+    return engines
+
+
+if __name__ == "__main__":
+    print(json.dumps(experiment(), indent=2, sort_keys=True))
