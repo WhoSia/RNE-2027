@@ -1,0 +1,31 @@
+# R&E 2027 T2 — Four-chat archive prompt-pattern audit and outcome-driven research plan (2026-11-22)
+
+## Source coverage (actual archived conversation messages, not model memory alone)
+Inspected Google Drive R&E Chat Archive folder `1JFo2Ik9CDb8TzRaXtjIv1NDSFBcPzIdG`; nine date-named Markdown exports were present. Reviewed and programmatically extracted `## Prompt:` sections from **four specific original exports**: `20261030.md` (30 prompt sections, id `1xzQKARcg998baxCtA7ba6TzzYb3ZFrbT`), `20261111.md` (38, id `1EvPMaT9AnY5-W2tl2cI1qrP5tqWq_8oi`), `20261117.md` (30, id `1axwW8GaQI7UvzBoA2Rnoitby51vCfqmE`), `20261121 1.md` (14, id `1tKlkfTVL5J30p4h7GG-9carEzXYdpxIp`). **112 tagged prompt sections across four files, not necessarily 112 unique user-only utterances** because exports contain long forwarded messages and discussion context. This is **not** a complete review of the other five archived dates.
+
+## What user repeatedly requested (dated evidence)
+1. **An executable research PI, not a task list.** 10/30 seeks multi-part, multi-commit research, not empty documents; 11/11 and 11/17 request tangible implementation, tests, objective assessment, and critical choice among options. '계속' means make progress, not restate plans.
+2. **Science fair and scholarly paper are separate standards.** 10/31 asks for a functioning Korean/local traffic modeling demonstration even if not all elements are novel; 11/11 explicitly says novelty is not mandatory for exhibition; 11/13 differentiates exhibition usability versus genuine paper contribution. Avoid converting T2 into exclusively epistemic assessment without producing a model.
+3. **Literature is engineering material.** 10/30, 11/11 and 11/21 repeatedly request owning/missing-paper inventories, intake normalization, reading accessible papers, concrete borrowed baselines and incremental design innovation. Do not waste weeks on minor edition disputes; do not imply citation proves transfer.
+4. **Direct main, frequent substantive commits, Docs everywhere; Notion for Harvest only.** 11/17 asks consolidation and branch cleanup, 11/21 explicitly requests main-only and no GitHub Actions bot. Many messages request multiple small real commits per research unit, not 10 empty commits. Preserve source SHA and evidence in Google Docs and Drive; Notion is not the T2 project execution notebook.
+5. **One research team with objective dissent.** 11/21 explicitly asks for Claude-style independent critique but then rules out paid external AI usage and asks current assistant to perform skeptical loops itself. Do **not** claim an external model reviewed anything unless genuinely called. Treat independent code reference, negative examples and data-source held-outs as stronger checks than rhetorical 'multi-agent' titles.
+6. **Sensor ideas only matter if fed into the signal model.** 10/31 says T2 is ultimately modeling, Wi-Fi/RF sensing must improve a model decision; 11/21 permits dramatic sensing prototypes alongside simulation. Don't let Wi-Fi demo displace the near-term simulated science-fair deliverable.
+7. **Future scope with two-month practical urgency.** 11/17 asks results before judging, focus rather than endless forensics; 11/21 encourages broad paper harvest but continuing runnable simulator work in parallel. A clean 'not yet validated' gate is useful; repeatedly proving the same internal assertion at immense cost is not.
+
+## Outcome-first allocation for the next feasible four research units
+- **Unit A, physical validity (highest).** One DLR observed signal/trajectory stopline movement case and map codebook with clear uncertainty status, plus independent SUMO/IDM microscopic baseline if available. Deliver: a real matched observation figure, explicit lane/signal mapping and validation residual—not broad claims.
+- **Unit B, prototype for exhibition.** Fix a single junction geometry and executable visual explanation: when short left pocket blocks through traffic vs when downstream is the true cause. Show positive controls, negative controls, and 2-3 physically grounded parameter changes. Output screenshot/video only if user requests such artifacts, but preserve raw simulation comparisons.
+- **Unit C, paper falsifier.** Same aggregate detector observations Y, two admissible latent states X, analyze whether conditional action ranking (not only individual-ID history) is nonidentified. Predefine possible outcomes (positive, negative, tie), compare fixed-time and finite-storage-aware simple baseline before RL. Stop if novelty is already covered by existing finite-storage/partial-information literature.
+- **Unit D, RF optional pilot.** Only after demonstrating the actual RF signal maps to a model-relevant estimand such as lane arrival count or queue occupancy, with domain shift and independent labeling. Do not claim traffic RF validation from an indoor CSI classification score.
+
+## Mandatory self-adversarial gates per substantial result
+- **Mechanistic reviewer:** same checkpoint? source count conservation? actual physical mechanism or artifact?
+- **Measurement reviewer:** what variable was directly observed vs inferred? right-censoring, lane/signal mapping, negatives?
+- **Novelty reviewer:** known Emtenan–Day, Varaiya, Daganzo, Manski overlap? baseline first?
+- **PI/time reviewer:** would a science-fair visitor understand the causal phenomenon and where model is useful this week?
+Each can reject the next task. Keep a short evidence + next action + decision in Google Docs rather than large ceremonial review scripts.
+
+## Actual immediate outputs from this turn
+- Old `research/t2-spatial-fig2-v02` branch is a strict ancestor of main, ahead0 behind336 at audit; [safe deletion evidence](P32_MAIN_ONLY_BRANCH_CONSOLIDATION_AUDIT_20261122.md). No merge needed, old branch deletion still manual.
+- [P32 executed](P32_ID_CORRIDOR_EXIT_AUDIT_AND_PAPER_AXIS_20261122.md): 192 synthetic matched worlds, 12 independent arrival tapes, **47 matched worlds with exactly equal aggregate cost and counts but changed observable individual crossing/receiver-exit events**. 11/11 tests, archived P31 label bug detected; fixes versioned.
+- New [Notion Harvest L](https://app.notion.com/p/420ef561cf9281688691dd9ffd4a537f) adds friend-readable insight and bounds proposal, not a new duplicate T2 research ledger.
