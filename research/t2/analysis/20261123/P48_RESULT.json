@@ -1,0 +1,32 @@
+[
+  {
+    "capacity": 2,
+    "closed": true,
+    "collision_arms": [],
+    "contrast": -88.25,
+    "lower": -91.25,
+    "sign": "leading",
+    "step": 0.125,
+    "upper": -85.5
+  },
+  {
+    "capacity": 2,
+    "closed": true,
+    "collision_arms": [],
+    "contrast": -88.0,
+    "lower": -94.0,
+    "sign": "leading",
+    "step": 0.25,
+    "upper": -82.5
+  },
+  {
+    "capacity": 2,
+    "closed": true,
+    "collision_arms": [],
+    "contrast": -82.0,
+    "lower": -94.0,
+    "sign": "leading",
+    "step": 0.5,
+    "upper": -71.5
+  }
+]
