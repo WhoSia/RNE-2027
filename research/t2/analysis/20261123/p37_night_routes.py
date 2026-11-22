@@ -58,6 +58,23 @@ def count_routes(candidates, detections):
     return totals
 
 
+def stage_counts(candidates, detections):
+    """Locate a missing sequence without dropping candidates from the cohort."""
+    stages = {}
+    for group, route in ROUTES.items():
+        counts = Counter(dict.fromkeys((*route, "receiver_only_test"), 0))
+        for event, candidate_group in candidates:
+            if candidate_group != group:
+                continue
+            start = time_s(event["bracket_end_utc"])
+            hits = detections.get(event["id"], {})
+            for index, zone in enumerate(route, start=1):
+                counts[zone] += has_sequence(hits, route[:index], start, start + 40)
+            counts["receiver_only_test"] += has_sequence(hits, route[-1:], start, start + 40)
+        stages[group] = dict(counts)
+    return stages
+
+
 def analyse(archive, map_path, track_path):
     verify_bytes(map_path, EXPECTED_MAP)
     verify_bytes(track_path, TRACK_SHA)
@@ -81,6 +98,7 @@ def analyse(archive, map_path, track_path):
     return {
         "source_sha256": {"map": EXPECTED_MAP, "trajectories": TRACK_SHA},
         "groups": count_routes(candidates, detections),
+        "ordered_prefixes_40s": stage_counts(candidates, detections),
     }
 
 
