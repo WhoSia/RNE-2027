@@ -1,0 +1,149 @@
+{
+  "candidate_ids_at_official_positive_bins_histogram": {
+    "1": 6,
+    "2": 7,
+    "3": 1,
+    "5": 2,
+    "6": 1
+  },
+  "distinct_tracked_ids": 37,
+  "global_signal_observation_gaps_over_1_5s": [
+    {
+      "all_heads_sampled_at_both_ends": 30,
+      "changed_endpoint_codes": {
+        "12": [
+          5,
+          7
+        ],
+        "20": [
+          5,
+          3
+        ],
+        "21": [
+          5,
+          3
+        ]
+      },
+      "changed_endpoint_ids": [
+        12,
+        20,
+        21
+      ],
+      "distinct_tracked_ids_strictly_inside": 1,
+      "duration_ms": 2004,
+      "end_utc": "2023-09-24T23:31:46.014000+00:00",
+      "official_1s_volume_intervals_intersecting_gap": [
+        "2023-09-24T23:31:44+00:00",
+        "2023-09-24T23:31:45+00:00",
+        "2023-09-24T23:31:46+00:00"
+      ],
+      "published_positive_bins_whose_intervals_intersect_gap": 0,
+      "start_utc": "2023-09-24T23:31:44.010000+00:00",
+      "tracked_samples_strictly_inside": 40
+    }
+  ],
+  "interpretive_limits": [
+    "Movement labels and track IDs do not establish per-vehicle event identity",
+    "Published volume and trajectory exports may share an upstream tracking pipeline",
+    "Any track in a second is an intentionally weak negative-control baseline, not a geomatic stopline detector",
+    "Common-mode missing signal observation cannot be filled from trajectories",
+    "No causal traffic-signal intervention, stopline geometry matching, or SUMO validation"
+  ],
+  "movement_positive_counts": {
+    "East1South1": 1,
+    "East2West0": 2,
+    "East3West1": 1,
+    "South1West1": 1,
+    "South2North1": 4,
+    "South4East0": 1,
+    "West0North0": 1,
+    "West0North1": 1,
+    "West1East0": 2,
+    "West2East0": 1,
+    "West2East1": 1,
+    "West4South1": 1
+  },
+  "naive_presence_classifier": {
+    "bins": 893,
+    "fn": 0,
+    "fp": 305,
+    "precision": 0.052795031055900624,
+    "recall": 1.0,
+    "shift_seconds": 0,
+    "specificity": 0.6518264840182648,
+    "tn": 571,
+    "tp": 17
+  },
+  "positive_bins_with_more_than_one_candidate": 11,
+  "protocol": "P34_OFFICIAL_DLR_VOLUME_VS_TRAJECTORY_BIN_BASELINE",
+  "published_positive_channel_bins": 17,
+  "published_positive_unique_1s_bins": 17,
+  "scope": "REAL_CSV_TEMPORAL_COOCCURRENCE_NOT_VEHICLE_MATCH_NOT_CAUSAL_SIGNAL",
+  "shift_diagnostics": [
+    {
+      "bins": 893,
+      "fn": 0,
+      "fp": 303,
+      "precision": 0.053125,
+      "recall": 1.0,
+      "shift_seconds": -2,
+      "specificity": 0.6541095890410958,
+      "tn": 573,
+      "tp": 17
+    },
+    {
+      "bins": 893,
+      "fn": 0,
+      "fp": 304,
+      "precision": 0.0529595015576324,
+      "recall": 1.0,
+      "shift_seconds": -1,
+      "specificity": 0.6529680365296804,
+      "tn": 572,
+      "tp": 17
+    },
+    {
+      "bins": 893,
+      "fn": 0,
+      "fp": 305,
+      "precision": 0.052795031055900624,
+      "recall": 1.0,
+      "shift_seconds": 0,
+      "specificity": 0.6518264840182648,
+      "tn": 571,
+      "tp": 17
+    },
+    {
+      "bins": 893,
+      "fn": 1,
+      "fp": 305,
+      "precision": 0.04984423676012461,
+      "recall": 0.9411764705882353,
+      "shift_seconds": 1,
+      "specificity": 0.6518264840182648,
+      "tn": 571,
+      "tp": 16
+    },
+    {
+      "bins": 893,
+      "fn": 1,
+      "fp": 304,
+      "precision": 0.05,
+      "recall": 0.9411764705882353,
+      "shift_seconds": 2,
+      "specificity": 0.6529680365296804,
+      "tn": 572,
+      "tp": 16
+    }
+  ],
+  "signal_heads_per_instant": 30,
+  "signal_sample_instants": 899,
+  "source_sha256": {
+    "signals": "95802b0c00f1232572279fed62668dfb484d8ea2303c4d3eb4a88339d41a8f0c",
+    "trajectories": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50",
+    "volume": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798"
+  },
+  "trajectory_rows": 8624,
+  "volume_movement_channels": 12,
+  "volume_rows_1s": 893
+}
