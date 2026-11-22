@@ -73,11 +73,13 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
                                       and (not closed or i * step_size >= 50) else "r")
             for i, state in enumerate(states)):
         raise ValueError("Compiled receiver signal does not match T2 discharge calendar")
-    ids = [e.get("id") for e in ET.parse(folder / "trips.xml").getroot().findall("tripinfo")]
+    trips = ET.parse(folder / "trips.xml").getroot().findall("tripinfo")
+    ids = [e.get("id") for e in trips]
     if sorted(ids) != sorted(v.ident for v in DEMAND):
         raise ValueError("SUMO vehicle accounting mismatch")
     crossings = {}
     last_upstream = {}
+    released = {}
     for _, step in ET.iterparse(folder / "fcd.xml", events=("end",)):
         if step.tag != "timestep":
             continue
@@ -90,8 +92,13 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
                 if stamp - last_upstream.get(ident, float("-inf")) != step_size:
                     raise ValueError("Receiver entry lacks an adjacent upstream observation")
                 crossings[ident] = stamp
+            elif lane == "X_0":
+                released.setdefault(ident, stamp)
         step.clear()
     details = {"crossing_times": crossings} if movement_details else {}
+    if movement_details:
+        details.update(admitted={e.get("id"): float(e.get("depart")) for e in trips
+                                 if float(e.get("depart")) >= 0}, released=released)
     return outcome(crossings) | details
 
 

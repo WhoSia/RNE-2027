@@ -26,6 +26,20 @@ def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode
                 raise ValueError("duplicate T2 crossing")
             crossings[ident] = event["t"]
     details = {"crossing_times": crossings} if movement_details else {}
+    if movement_details:
+        admitted = {}
+        released = {}
+        previous = set()
+        for frame in result["frames"]:
+            for lane in ("A", "B", "pocket"):
+                for _, vehicle, *_ in frame[lane]:
+                    admitted.setdefault(DEMAND[vehicle].ident, frame["t"])
+            if receiver_mode == "cells":
+                current = {vehicle for _, vehicle, _ in frame["receiver"]}
+                for vehicle in previous - current:
+                    released[DEMAND[vehicle].ident] = frame["t"]
+                previous = current
+        details.update(admitted=admitted, released=released)
     return outcome(crossings) | details | {
         "receiver_denials": sum(e["reason"] in ("receiver_entry_cell_busy", "receiver_capacity_full")
                                 for e in result["service_events"]),
