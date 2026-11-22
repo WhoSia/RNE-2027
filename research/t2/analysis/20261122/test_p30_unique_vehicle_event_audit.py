@@ -17,18 +17,18 @@ class P30Tests(unittest.TestCase):
     self.assertEqual(self.output["same_score_worlds"],64)
  def test_denials_not_one_to_one_unique_cars(self):
     h=self.output["difference_histogram_10_minus_6"]
-    self.assertEqual(h["attempts"],{"4":64})
-    self.assertEqual(h["distinct_rejected_vehicles"],{"0":30,"1":34})
-    self.assertEqual(h["repeat_attempts"],{"3":34,"4":30})
+    self.assertEqual(h["attempts"],{4:64})
+    self.assertEqual(h["distinct_rejected_vehicles"],{0:30,1:34})
+    self.assertEqual(h["repeat_attempts"],{3:34,4:30})
  def test_equal_counts_do_not_imply_id_equal(self):
     h=self.output["difference_histogram_10_minus_6"]
-    self.assertEqual(h["observed_crossing_count"],{"0":64})
-    self.assertEqual(h["score"],{"0":64})
-    self.assertEqual(h["remaining"],{"0":64})
+    self.assertEqual(h["observed_crossing_count"],{0:64})
+    self.assertEqual(h["score"],{0:64})
+    self.assertEqual(h["remaining"],{0:64})
  def test_censoring_not_imputed_as_completed(self):
     h=self.output["difference_histogram_10_minus_6"]
-    self.assertEqual(h["rejected_censored_at_240"],{"0":64})
-    self.assertEqual(h["rejected_then_crossed"],{"0":30,"1":34})
+    self.assertEqual(h["rejected_censored_at_240"],{0:64})
+    self.assertEqual(h["rejected_then_crossed"],{0:30,1:34})
  def test_trace_rejects_invalid_vehicle_id(self):
     _,cfg,tape=next(worlds());r=run(cfg,tape,trace=True)
     broken=copy.deepcopy(r)
