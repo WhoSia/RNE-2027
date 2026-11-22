@@ -16,11 +16,17 @@ Measured rates are ratios with named denominators. An unmeasured accuracy, preci
 | Detector latency, support and policy abstention | .80 | .55 | .25 | PHYS-07/08/09 paired stress: geometry fallback failed at low turning demand; support abstention avoided that modeled loss while excluding some helpful nominal cases. |
 | Signal/stopline temporal alignment | .85 | .60 | .40 | Same-source P34 match .941 at ±1s and .412 at ±.5s; P35 hindsight exposure .647. Independent crossing precision/recall NA. |
 | Signal group and movement | .80 | .65 | .40 | Known daytime map Figure 1; P37 nighttime path support .800 overall, .750 straight, 1.000 left (n=1). True signal-head attribution accuracy NA. |
-| Green-time blockage diagnosis | .65 | .45 | .20 | P38 selected frame coverage .398; simultaneous slow upstream and receiver evidence 0/114 selected frames with no detected crossing. Actual blockage precision/recall NA. |
+| Green-time blockage diagnosis | .65 | .45 | .20 | P38 selected-frame coverage .393 among 290 slots with neither a detected crossing nor a boundary-straddling crossing; simultaneous slow upstream and receiver evidence 0/114 selected frames with no detected crossing. Actual blockage precision/recall NA. |
 | Real-world policy benefit / safety | .50 | .30 | .00 | Synthetic policy experiments and one historical simulator comparison. Deployment benefit, conflict rate and pedestrian delay validation NA. |
 | RF-CURTAIN cause recognition | .50 | .25 | .00 | Synthetic noisy-channel and regret studies; real CSI accuracy, cause-label precision/recall and benefit NA. |
 
 Physical fidelity by component: storage/conservation .75; lane-level geometry .65; lane-change acceptance .55; acceleration/braking .45; saturation headway .45; queue-start response .40; yellow/dilemma transition .40; yielding/permissive turn .35; pedestrians .25; wet-road sensitivity .25; transit dwell .25; external trajectory calibration .25. These are evidence maturity for the T2 engine, not geometric or engineering tolerances. Avoid averaging them into a single 'realism' percentage.
+
+## Measured metrics with limited scope
+
+- P34 weak time-co-presence baseline against publisher labels: precision 17/322 = .053, recall 17/17 = 1.000, specificity 571/876 = .652, accuracy 588/893 = .658. These are internal publisher-label metrics and illustrate why recall alone is misleading.
+- P38: 292 half-second slots bracketed by consecutive green samples, 1 with a detected crossing, 1 with an ambiguous crossing interval, and 290 with neither. Of the 290, 114 had a selected direct frame (.393) and 176 did not (.607). Within the 114 frames, 4 had a slow upstream center without a slow receiver center (.035), and 0 had both (.000). Slots are correlated; no binomial precision, prevalence or causal blockage claim follows. Missing capture or a missing center cannot establish an empty road. The screen keeps the historical ±26 ms frame-alignment tolerance and 2 m/s slow proxy.
+- P37 path support is an observed agreement fraction, with the map-based assignment and route test sharing the same underlying source. Continuously displayed signal accuracy: NA.
 
 ## Candidate comparison
 
@@ -33,6 +39,8 @@ Physical fidelity by component: storage/conservation .75; lane-level geometry .6
 | Protected/permissive turn, pedestrians and bus dwell as separate contrasts | .89 | .81 | .55 | .55 | 0.747 |
 | Motorcycle/heavy-vehicle mixture and wet braking on saturation flow | .72 | .72 | .50 | .60 | 0.658 |
 | Upstream offset with neighboring signal and finite receiving link | .88 | .78 | .65 | .65 | 0.769 |
+| Right-turn branching and movement-specific receiver lanes | .86 | .82 | .60 | .65 | .765 |
+| Pocket full versus empty-but-inaccessible: independent queue labels | .94 | .92 | .70 | .80 | .869 |
 | Camera-free RF vs simple occupancy sensor on a tabletop queue | .70 | .75 | .35 | .45 | 0.607 |
 
 Execute the already available green-window screen and preserve its missing-data denominator. Prioritize same-geometry SUMO physical contrast for the next engine answer. Run arrival-family and objective comparisons in the policy track. Screen inputs across arrival timing (renewal, platooned, bursty), pocket and storage lengths, stop-line headways, acceleration, yellow clearance, pedestrian competing demands, turn distribution, upstream offset, buses, class mix, and observation delay. Test mechanism-specific contrasts before interactions. Use matched arrival tapes and state, then vary independently across entire tapes/sites; distinguish absolute cost, regret, P95 delay, queue, throughput and receiver refusals.
