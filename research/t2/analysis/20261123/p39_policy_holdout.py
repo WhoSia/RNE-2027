@@ -1,5 +1,5 @@
 """Frozen-state policy comparison on unseen synthetic arrival tapes."""
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import replace
 from itertools import product
 import json
@@ -25,6 +25,7 @@ def select(obs, capacity):
 
 def experiment():
     rows = []
+    diagnostics = Counter()
     with patch.object(p31, "PLATOON_SPAN", 5):
         for (seed, demand, turn), family, cap, offset, pocket, share in product(
                 REGIMES, p31.FAMILIES, (2, 4), (0, 15), (14., 28.), (0., .5)):
@@ -33,7 +34,10 @@ def experiment():
             tape = p31.clock(cfg.base, family)
             cp = run(cfg, tape, checkpoint_at=84)
             frozen = pickle.dumps(cp, protocol=4)
-            durations = select(checkpoint_observation(cp), cap)
+            observation = checkpoint_observation(cp)
+            diagnostics["pocket_positive"] += observation["pocket_vehicles"] > 0
+            diagnostics["receiver_two_free"] += cap - observation["receiver_vehicles"] >= 2
+            durations = select(observation, cap)
             costs = {d: score(run(cfg, tape, resume_from=cp, phase_overrides=action(d)), 60)
                      for d in (6, 10)}
             if pickle.dumps(cp, protocol=4) != frozen:
@@ -59,7 +63,10 @@ def experiment():
         stats["advances"] = (stats["total_delta_vs_fixed"] < 0
                              and stats["worst_regret"] <= results["fixed"]["worst_regret"]
                              and stats["worse_tapes"] == 0)
-    return {"worlds": len(rows), "tapes": len({r[1] for r in rows}), "policies": results}
+    diagnostics["oracle_prefers_extension"] = sum(r[2][10] < r[2][6] for r in rows)
+    diagnostics["oracle_prefers_fixed"] = sum(r[2][6] < r[2][10] for r in rows)
+    return {"worlds": len(rows), "tapes": len({r[1] for r in rows}),
+            "diagnostics": dict(diagnostics), "policies": results}
 
 
 if __name__ == "__main__":
