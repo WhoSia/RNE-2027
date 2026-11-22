@@ -1,0 +1,101 @@
+{
+  "study": "P34-OBS — DLR official movement-volume internal consistency against directly observed 20Hz center crossing",
+  "date": "2026-11-22",
+  "source_data": {
+    "map_xodr_sha256": "256115a13cd29cb1d36cbbf110a4dbfa104ec2bdb680e3af1505a53f4ded30c4",
+    "trajectory_csv_sha256": "6ba8920caa839dc20e2fd7f2fe2dedd553aeb4c27e4be3ea453054de0b09af50",
+    "traffic_volume_csv_sha256": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798",
+    "time_window_utc": "2023-09-24T23:30:00+00:00/2023-09-24T23:45:00+00:00"
+  },
+  "inputs": {
+    "20hz_trajectory_rows": 8624,
+    "unique_object_ids": 37,
+    "1hz_volume_rows": 893,
+    "official_route_columns": 12,
+    "candidate_inbound_stoplines": 4
+  },
+  "method": {
+    "crossing": "consecutive non-interpolated motor-object center observations, forward sign-change across 2015 OpenDRIVE static stopline tangent, within 20.5m lateral / driving lane, <=0.2s gap",
+    "matching": "independent candidate extraction, then source-arm + time within 1s; dynamic programming max cardinality then min absolute error, no movement inferred",
+    "timing": "all 17 detected crossings bracketed by 50ms consecutive 20Hz samples; interpolated event timestamps are NOT exact observed crossing times"
+  },
+  "by_origin": {
+    "East": {
+      "trajectory_candidates": 5,
+      "official_derived_volume": 4,
+      "matched": 4
+    },
+    "South": {
+      "trajectory_candidates": 5,
+      "official_derived_volume": 6,
+      "matched": 5
+    },
+    "West": {
+      "trajectory_candidates": 7,
+      "official_derived_volume": 7,
+      "matched": 7
+    },
+    "North": {
+      "trajectory_candidates": 0,
+      "official_derived_volume": 0,
+      "matched": 0
+    }
+  },
+  "counts": {
+    "candidate_crossings": 17,
+    "official_derived_counts": 17,
+    "one_to_one_matches": 16,
+    "unmatched_candidates": 1,
+    "unmatched_official_counts": 1,
+    "within_2015_marker_laneValidity": 7,
+    "matched_events_within_2015_marker_laneValidity": 6
+  },
+  "matched_abs_seconds": {
+    "median": 0.59025,
+    "max": 0.9163
+  },
+  "trajectory_only": {
+    "road_id": "100000",
+    "object_id": "1695598300234044",
+    "time_utc": "2023-09-24T23:32:16.504583+00:00",
+    "classification": "car",
+    "inferred_source_arm": "East",
+    "verdict": "NO_CORRESPONDING_SAME_APPROACH_1S_VOLUME_ROW; CAUSE_UNKNOWN"
+  },
+  "official_only": {
+    "route": "South1West1",
+    "time_utc": "2023-09-24 23:36:10+00:00",
+    "possible_left_censor": {
+      "object_id": "1695598569934245",
+      "first_frame_utc": "2023-09-24 23:36:10.516482+00:00",
+      "signed_dist_downstream_m": 0.436,
+      "verdict": "CANDIDATE_ONLY_NOT_OBSERVED_CROSSING"
+    }
+  },
+  "p24b_erratum": {
+    "prior_bug": "code searched <validity> while source XODR actually uses <laneValidity>",
+    "corrected_xml_records": 7,
+    "explicit_lane_ranges_2015_map": true,
+    "map_lane_filter_rejects_real_matched": 10,
+    "current_2023_lane_control_validated": false
+  },
+  "source_code": {
+    "main": "research/t2/analysis/20261122/p34_dlr_stopline_event_reconciliation.py",
+    "git_blob_sha": "e2813ef8e42e86fec9066fcb1870fbcc7816144c",
+    "test": "research/t2/analysis/20261122/test_p34_dlr_stopline_event_reconciliation.py",
+    "test_git_blob_sha": "9004a078887f261c7840ff245b3025e390c81108"
+  },
+  "validation": {
+    "P34_tests": "23/23 PASS, original 3 source hashes + synthetic counterexamples",
+    "P24b_corrected": "7/7 PASS original XODR and publisher PDF",
+    "remote_main_code_equals_local_test_code": true
+  },
+  "limitations": [
+    "Traffic volume is a metadata transform of the same optical tracking trajectories; agreement is NOT independent real-world ground truth",
+    "A tangent plane near an approximate 2015 stopline is not a high-precision physical stripe polygon",
+    "No 2023 observed signal ID mapped to specific lane/controller",
+    "No verified route destination, queue tail, headway or policy causal efficacy",
+    "Unmatched source volume and unmatched trajectory are not silently inferred to be false positives/negatives"
+  ],
+  "review": "INTERNAL_MULTIROLE_ONLY; GEO+EMPIRICAL PARTIAL PASS; 2023 LANE_MAPPING AND FIELD_TRUTH OPEN"
+}
