@@ -1,6 +1,6 @@
 """Paired downstream closure experiment in SUMO and T2."""
 import json
-from itertools import product
+from itertools import groupby, product
 from pathlib import Path
 import subprocess
 from tempfile import TemporaryDirectory
@@ -14,7 +14,7 @@ class SimulationCollision(ValueError):
     """Recorded collision invalidates a paired contrast."""
 
 
-def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None, yellow=False, movement_details=False):
+def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None, yellow=False, movement_details=False, receiver_offset=0):
     prepare(folder, order, yellow=yellow)
     nodes = ET.parse(folder / "nodes.nod.xml").getroot()
     nodes.remove(nodes.find("node[@id='left']"))
@@ -50,13 +50,15 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
                     "true", "-o", "net.xml"], cwd=folder, check=True, capture_output=True)
     root = ET.Element("additional")
     ET.SubElement(root, "timedEvent", type="SaveTLSStates", source="straight", dest="tls.xml")
-    if closed:
-        # Override startup only. The next scheduled green starts at second 60.
+    def receiver_state(time):
+        return "G" if (time + receiver_offset) % 60 < 30 and (not closed or time >= 50) else "r"
+
+    if closed or receiver_offset:
+        # Encode the full observation calendar so the initial closure does not recur.
         startup = ET.SubElement(root, "tlLogic", id="straight", type="static",
                                 programID="startup", offset="0")
-        ET.SubElement(startup, "phase", duration="60", state="r", next="1")
-        ET.SubElement(startup, "phase", duration="30", state="G", next="2")
-        ET.SubElement(startup, "phase", duration="30", state="r", next="1")
+        for state, seconds in groupby(range(HORIZON), key=receiver_state):
+            ET.SubElement(startup, "phase", duration=str(sum(1 for _ in seconds)), state=state)
     write(folder, "startup.add.xml", root)
     argv = ["sumo", "-n", "net.xml", "-r", "demand.rou.xml",
             "--end", str(HORIZON), "--step-length", str(step_size), "--time-to-teleport", "-1",
@@ -69,8 +71,7 @@ def sumo_run(folder, order, capacity, closed, *, step_size=.25, action_step=None
     states = ET.parse(folder / "tls.xml").getroot().findall("tlsState")
     if len(states) != round(HORIZON / step_size) or any(
             float(state.get("time")) != i * step_size
-            or state.get("state") != ("G" if (i * step_size) % 60 < 30
-                                      and (not closed or i * step_size >= 50) else "r")
+            or state.get("state") != receiver_state(i * step_size)
             for i, state in enumerate(states)):
         raise ValueError("Compiled receiver signal does not match T2 discharge calendar")
     trips = ET.parse(folder / "trips.xml").getroot().findall("tripinfo")
