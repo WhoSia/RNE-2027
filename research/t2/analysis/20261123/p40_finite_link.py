@@ -42,23 +42,29 @@ def sumo_run(folder, order, capacity, closed):
     subprocess.run(["netconvert", "-n", "nodes.nod.xml", "-e", "edges.edg.xml",
                     "-x", "links.con.xml", "-i", "signal.tll.xml", "--no-internal-links",
                     "true", "-o", "net.xml"], cwd=folder, check=True, capture_output=True)
+    root = ET.Element("additional")
+    ET.SubElement(root, "timedEvent", type="SaveTLSStates", source="straight", dest="tls.xml")
     if closed:
         # Override startup only. The next scheduled green starts at second 60.
-        root = ET.Element("additional")
         startup = ET.SubElement(root, "tlLogic", id="straight", type="static",
                                 programID="startup", offset="0")
         ET.SubElement(startup, "phase", duration="60", state="r", next="1")
         ET.SubElement(startup, "phase", duration="30", state="G", next="2")
         ET.SubElement(startup, "phase", duration="30", state="r", next="1")
-        write(folder, "startup.add.xml", root)
+    write(folder, "startup.add.xml", root)
     argv = ["sumo", "-n", "net.xml", "-r", "demand.rou.xml",
             "--end", str(HORIZON), "--step-length", ".25", "--time-to-teleport", "-1",
             "--fcd-output", "fcd.xml", "--no-step-log", "true", "--seed", "17"]
-    if closed:
-        argv += ["-a", "startup.add.xml"]
+    argv += ["-a", "startup.add.xml"]
     run = subprocess.run(argv, cwd=folder, check=True, text=True, capture_output=True)
     if "collision" in run.stderr.lower():
         raise ValueError(run.stderr)
+    states = ET.parse(folder / "tls.xml").getroot().findall("tlsState")
+    if len(states) != HORIZON * 4 or any(
+            float(state.get("time")) != i / 4
+            or state.get("state") != ("G" if i % 240 < 120 and (not closed or i >= 200) else "r")
+            for i, state in enumerate(states)):
+        raise ValueError("Compiled receiver signal does not match T2 discharge calendar")
     crossings = {}
     for _, step in ET.iterparse(folder / "fcd.xml", events=("end",)):
         if step.tag != "timestep":
