@@ -43,3 +43,8 @@ The publisher's `traffic_volume` movement names for the predeclared DLR observat
 5. Translate the validated geometry, baseline congestion and operational constraints into Changwon/Gyeongnam candidate scenarios. A usable school science-fair result is a tested local traffic-flow improvement, not just an ever-growing validation harness.
 
 No K047 opened, no CIM ZIP opened, no GitHub Actions/bot, no new working branch, no fictitious independent external LLM peer review.
+
+
+## Publisher checksum cross-check
+
+The actual connected-Drive 2,383,435-byte official PDF also has **MD5 `fa7f80c57c85d58c02ac71a3c100e102`**, matching the original official Zenodo v1.3.1 release file listed at https://zenodo.org/records/20919480. This corroborates that the corrected SHA256 reflects the intended publisher original, rather than a local edited PDF. MD5 is used only to compare the publisher's published checksum; SHA256 is the source byte-lock in our tested code. The archived prior P23 PDF digest remains a provenance erratum, not an alternate accepted published file.
