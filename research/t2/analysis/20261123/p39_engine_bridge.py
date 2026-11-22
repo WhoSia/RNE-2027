@@ -39,7 +39,7 @@ def t2_case(left_first, pocket, receiver, *, receiver_closures=(), receiver_mode
                 for vehicle in previous - current:
                     released[DEMAND[vehicle].ident] = frame["t"]
                 previous = current
-        details.update(admitted=admitted, released=released)
+        details.update(admitted=admitted, released=released, service_events=result["service_events"])
     return outcome(crossings) | details | {
         "receiver_denials": sum(e["reason"] in ("receiver_entry_cell_busy", "receiver_capacity_full")
                                 for e in result["service_events"]),
