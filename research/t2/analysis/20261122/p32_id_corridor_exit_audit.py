@@ -99,13 +99,13 @@ def comparison(a,b,tape):
        "exit_time_delayed_ids":sum(x>0 for x in exit_shift),
        "crossing_time_advanced_ids":sum(x<0 for x in cross_shift),
        "crossing_time_delayed_ids":sum(x>0 for x in cross_shift),
-       "id_and_time_identical":ac==bc and ae==be,
+       "observed_crossing_and_exit_events_identical":ac==bc and ae==be,
        "fully_matching_aggregate":all((score(a,60)==score(b,60),
          a["remaining"]==b["remaining"],
          a["exit_S"]==b["exit_S"],a["exit_L"]==b["exit_L"],
          a["network_out_S"]==b["network_out_S"],
          a["network_out_L"]==b["network_out_L"])),
-       "censoring":"Non-exited ID end-to-end times left censored at t240, never imputed",
+       "censoring":"Non-exited ID end-to-end times are RIGHT-censored at t=240; not imputed",
     }
 
 
@@ -165,13 +165,13 @@ def analyse(p30,p31):
         groups.append({"cohort":cohort,"worlds":len(group),
          "score_equal":sum(z["score_delta"]==0 for z in m),
          "score_equal_but_crossing_or_exit_history_changed":
-             sum(z["score_delta"]==0 and not z["id_and_time_identical"] for z in m),
+             sum(z["score_delta"]==0 and not z["observed_crossing_and_exit_events_identical"] for z in m),
          "aggregate_exact_but_individual_history_changed":
-             sum(z["fully_matching_aggregate"] and not z["id_and_time_identical"] for z in m),
+             sum(z["fully_matching_aggregate"] and not z["observed_crossing_and_exit_events_identical"] for z in m),
          "different_stopline_crossing_ID_sets":sum(z["crossing_id_symmetric_difference"]>0 for z in m),
          "different_network_exit_ID_sets":sum(z["exit_id_symmetric_difference"]>0 for z in m),
          "changed_network_exit_timestamps":sum(z["exit_time_changed_common_ids"]>0 for z in m),
-         "identical_full_vehicle_event_histories":sum(z["id_and_time_identical"] for z in m),
+         "identical_crossing_and_downstream_exit_histories":sum(z["observed_crossing_and_exit_events_identical"] for z in m),
          "all_valid_corridor_ledger":True})
     return {"protocol":"P32_ID_CORRIDOR_EXIT_EQUIVALENCE",
        "status":"SYNTHETIC_ONLY",
