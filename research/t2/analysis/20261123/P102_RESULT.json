@@ -1,0 +1,36 @@
+{
+  "source": "P71_RESULT.json",
+  "evidence": "re-analysis of PREEXISTING independent-engine SUMO 64-seed comparison, not fresh SUMO runs",
+  "comparator": "left green 10s minus 6s at offset 0 or 15, NOT P87 downstream 30s minus 60s",
+  "offsets": [
+    {
+      "offset": 0,
+      "exact_sign": 13,
+      "strict_opposite_sign": 16,
+      "t2_ten_better": 6,
+      "sumo_ten_better": 34,
+      "t2_ten_worse": 23,
+      "sumo_ten_worse": 28
+    },
+    {
+      "offset": 15,
+      "exact_sign": 2,
+      "strict_opposite_sign": 40,
+      "t2_ten_better": 42,
+      "sumo_ten_better": 0,
+      "t2_ten_worse": 2,
+      "sumo_ten_worse": 62
+    }
+  ],
+  "offset_contrasts": {
+    "t2_six_better_at_0_ten_better_at_15": 7,
+    "sumo_ten_better_at_0_six_better_at_15": 34
+  },
+  "caveats": [
+    "T2 and SUMO physical lane/receiver geometry were not matched in P71",
+    "no P100/P101 seed or intervention identity with P71",
+    "sign agreement alone cannot establish field fidelity",
+    "P80/P81 real nocturnal trajectories lack physical end-of-link downstream exits"
+  ],
+  "mandatory_next": "reconstruct equivalent lane geometry, movement turn paths, downstream clock and storage in independent engine, then sample exactly the P100 tapes"
+}
