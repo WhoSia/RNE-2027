@@ -1,0 +1,100 @@
+{
+  "model": "independent transparent FIFO negative control, not calibrated T2",
+  "interval": "[84,684)",
+  "lost_green_seconds_per_onset": 2,
+  "headway_seconds": 2,
+  "rows": [
+    {
+      "demand": "empty",
+      "generated": 0,
+      "outcomes": {
+        "30": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 260,
+          "departures": 0,
+          "remaining": 0,
+          "queue_vehicle_seconds": 0,
+          "last_exit_second": null
+        },
+        "60": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 280,
+          "departures": 0,
+          "remaining": 0,
+          "queue_vehicle_seconds": 0,
+          "last_exit_second": null
+        }
+      },
+      "delta_queue_vehicle_seconds": 0
+    },
+    {
+      "demand": "sparse",
+      "generated": 5,
+      "outcomes": {
+        "30": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 260,
+          "departures": 5,
+          "remaining": 0,
+          "queue_vehicle_seconds": 0,
+          "last_exit_second": 334
+        },
+        "60": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 280,
+          "departures": 5,
+          "remaining": 0,
+          "queue_vehicle_seconds": 0,
+          "last_exit_second": 334
+        }
+      },
+      "delta_queue_vehicle_seconds": 0
+    },
+    {
+      "demand": "single_initial_platoon_80",
+      "generated": 80,
+      "outcomes": {
+        "30": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 260,
+          "departures": 80,
+          "remaining": 0,
+          "queue_vehicle_seconds": 13168,
+          "last_exit_second": 420
+        },
+        "60": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 280,
+          "departures": 80,
+          "remaining": 0,
+          "queue_vehicle_seconds": 12560,
+          "last_exit_second": 404
+        }
+      },
+      "delta_queue_vehicle_seconds": 608
+    },
+    {
+      "demand": "uniform_90",
+      "generated": 90,
+      "outcomes": {
+        "30": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 260,
+          "departures": 90,
+          "remaining": 0,
+          "queue_vehicle_seconds": 8724,
+          "last_exit_second": 456
+        },
+        "60": {
+          "nominal_green_seconds": 300,
+          "service_eligible_seconds": 280,
+          "departures": 90,
+          "remaining": 0,
+          "queue_vehicle_seconds": 8052,
+          "last_exit_second": 456
+        }
+      },
+      "delta_queue_vehicle_seconds": 672
+    }
+  ]
+}
