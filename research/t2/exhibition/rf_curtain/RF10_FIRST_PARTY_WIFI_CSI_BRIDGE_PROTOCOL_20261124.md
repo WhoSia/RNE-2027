@@ -15,7 +15,7 @@ RF-CURTAIN 원 정본 [README](README.md), [APPARATUS_AND_LABELS](APPARATUS_AND_
 
 ## RF10 실제 코드 경로
 
-- [rf10_esp_csi_trial_bridge.py](rf10_esp_csi_trial_bridge.py): Espressif CSV `CSI_DATA` 행을 로드, CSI signed I/Q pair에서 amplitude mean을 계산. malformed byte, length mismatch, 중복·역전 timestamp 및 `first_word_invalid`를 **실패 처리**한다. 여기서 가능한 칩별 인코딩/CSI 선별·calibration은 아직 검증하지 않았다. `first_word=1`은 단순히 버리지 않고 안전하게 멈춘다. 이는 공식 로그를 언제나 모두 수락한다는 주장이 아니다.
+- [rf10_esp_csi_trial_bridge.py](rf10_esp_csi_trial_bridge.py): Espressif CSV `CSI_DATA` 행을 로드, CSI signed I/Q pair에서 amplitude mean을 계산. malformed byte, length mismatch, 중복·역전 timestamp 및 `first_word_invalid`를 **실패 처리**한다. 여기서 가능한 칩별 인코딩/CSI 선별·calibration은 아직 검증하지 않았다. 기본 `--invalid-word-policy reject`는 `first_word=1` 프레임을 안전하게 거부한다. 단, **ESP32 legacy signed-byte 포맷을 장비 문서로 확인한 경우에만** `--invalid-word-policy esp32_drop_first_four`를 명시적으로 선택해 공식 드라이버 문서에서 불량이라고 지정한 선두 4바이트를 제거한다(https://docs.espressif.com/projects/esp-idf/en/v5.4.4/esp32/api-guides/wifi.html). 다른 SoC(C5/C61)·12-bit packed 포맷에 같은 가정을 일반화하지 않는다.
 - 두 개의 구역 링크 1,2는 각각 **별도의 자체 TX/RX 장비**, 별도의 로컬 클록으로 CSV를 읽고, 수동 레이블 manifest에 있는 각 링크별 측정창 `start_us,stop_us`로 연결한다. 클록 동기화를 추측해 두 수신기의 microsecond timestamp를 합치지 않는다.
 - 출력 필드: RF05 기존 [rf_pilot_evaluator.py](rf_pilot_evaluator.py) 필수 `trial_id,session_id,placement_id,trial_origin,label,ground_truth_source,quality,rssi_1_dbm,rssi_2_dbm,csi_1_amp_dispersion,csi_2_amp_dispersion`. 장치 MAC, 패킷식별자, 원 raw-I/Q, 원 packet timestamp는 **출력하지 않는다**.
 - CSI feature `csi_#_amp_dispersion`는 한 실험창 동안 관측한 **프레임별 평균 subcarrier magnitude의 시간표준편차**다. 이미 정의된 RF05의 피처 이름을 채우는 **명시적 구현 선택**이며 원 논문의 feature 또는 물리 의미를 구현했다고 주장하지 않는다. 고정된 장애물을 시간변화만으로 탐지하기 어렵기 때문에 향후 static occupancy contrast가 반드시 필요하다.
@@ -40,3 +40,15 @@ python rf_crossed_holdout_evaluator.py --help
 2026-11-24 기준 로컬 Python3.13: `python -m py_compile rf10_esp_csi_trial_bridge.py test_rf10_esp_csi_trial_bridge.py` 통과 및 `unittest` **3/3** 통과. 수치·원시 RF 측정 결과 아님. git commit은 실제 GitHub main, github-actions bot 사용 금지. 현재 RF 전통의 기술적 최고 단계는 **실제 허가된 CSI 프레임을 수집할 준비**이며 물리 시험은 시작되지 않았다.
 
 **추가 필요:** 원본 공식 CSI 수신기 버전 확인, 측정창 수동/센서 독립 truth 고정, clock reset 처리, 포켓·하류 표지판을 실제로 구분할 만큼 배치된 링크의 selectivity, 기준선 RSSI vs CSI, 정지된 객체 holdout, 위치·시간 교차 holdout, RF 불확실성으로 인한 실질 T2 정책가치의 변화.
+
+## RF11 — 물리 실험 이전의 무작위·블라인드 표본 배정 (2026-11-24)
+
+[rf11_blind_trial_schedule.py](rf11_blind_trial_schedule.py)와 [회귀 테스트](test_rf11_blind_trial_schedule.py)는 RF05 prereg의 3개 setup sessions×2 antenna placements×5개 수동 레이블×10개 reset을 배정한다. 실제 데이터가 아니라 **300개 향후 물리 실험 계획표**다. Train 100, blind primary P2/S3 50, secondary test 100, sealed-unused reserve P2/S1 50을 코드 불변식으로 유지한다. 장치가 준비되기 전에는 어떤 classification 수치도 주장하지 않는다.
+
+**블라인드 보안 교정:** 공개된 난수 시드를 쓰면 관찰자가 같은 코드로 정답을 재생할 수 있으므로, CLI의 실제 사용 시 기본은 `secrets.randbits(128)`로 만든 **비공개 난수 시드**다. `--seed`를 사용할 때는 `--demo-deterministic`를 함께 요구한다. 운영자 전용 디렉터리와 분석자 공유 디렉터리는 서로 같거나 포함관계일 수 없으며, 운영자 정답표는 공유하지 않는다. 공개 검증은 정답 원본의 SHA-256 커밋만으로 수행하며 SHA 자체는 실험에서 실제 관측이 있었다는 증명이 아니다. 공개 시드로 만들었던 초기 샘플 계획표는 데모일 뿐 블라인드 실험으로 사용 불가. 정답표를 저장한 디렉터리의 접근권한은 실험자가 별도 확인해야 한다.
+
+```bash
+python rf11_blind_trial_schedule.py --operator-private-dir PRIVATE_OPERATOR_ONLY --analyst-public-dir SHARE_WITH_ANALYST
+```
+
+**최종 테스트 상태:** RF10 parser3개 + RF11 blind plan5개 = **8/8 Python stdlib unit tests PASS**; 독립 RF 장치/CSI 캡처/실물 차량 판별은 0건. RF10 파일 버전 수정 후 이전 3개 테스트를 포함해 전체 8개를 재실행했다. GitHub `main` 커밋에서 출처와 테스트 입력을 확인할 수 있다.
