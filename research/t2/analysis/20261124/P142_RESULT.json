@@ -1,0 +1,2980 @@
+{
+  "status": "P142_UNINFORMATIVE_NO_TRIGGERS",
+  "prereg": "P142_NEW_ROUTE_SEED_TRANSFER_PREREG.md",
+  "simulator_arms": 128,
+  "matched_pairs": 64,
+  "distinct_demand_tapes": 16,
+  "time_seeds": [
+    89101,
+    89102
+  ],
+  "all_cleared": true,
+  "event_logs_crosschecked": true,
+  "receiver_topology": "movement_separate_shared_exit",
+  "checkpoint_time": 84,
+  "calibration": "threshold 14 and share<=.5 selected after P140 outcomes; P142 new time seeds",
+  "pooled": {
+    "n": 64,
+    "calendar": {
+      "correct": 62,
+      "total_regret": 120
+    },
+    "guard": {
+      "correct": 62,
+      "total_regret": 120
+    },
+    "fixed30": {
+      "correct": 34,
+      "total_regret": 29679
+    },
+    "fixed60": {
+      "correct": 30,
+      "total_regret": 117416
+    },
+    "triggered": 0,
+    "helpful": 0,
+    "harmful": 0
+  },
+  "by_offset": {
+    "0,30": {
+      "n": 16,
+      "calendar": {
+        "correct": 14,
+        "total_regret": 120
+      },
+      "guard": {
+        "correct": 14,
+        "total_regret": 120
+      },
+      "fixed30": {
+        "correct": 2,
+        "total_regret": 2803
+      },
+      "fixed60": {
+        "correct": 14,
+        "total_regret": 120
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "15,0": {
+      "n": 16,
+      "calendar": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed60": {
+        "correct": 0,
+        "total_regret": 27031
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "7,15": {
+      "n": 16,
+      "calendar": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 0,
+        "total_regret": 26876
+      },
+      "fixed60": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "23,45": {
+      "n": 16,
+      "calendar": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed60": {
+        "correct": 0,
+        "total_regret": 90265
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "by_share": {
+    "0.5": {
+      "n": 32,
+      "calendar": {
+        "correct": 30,
+        "total_regret": 120
+      },
+      "guard": {
+        "correct": 30,
+        "total_regret": 120
+      },
+      "fixed30": {
+        "correct": 18,
+        "total_regret": 5186
+      },
+      "fixed60": {
+        "correct": 14,
+        "total_regret": 35250
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "0.75": {
+      "n": 32,
+      "calendar": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 24493
+      },
+      "fixed60": {
+        "correct": 16,
+        "total_regret": 82166
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "by_family": {
+    "stochastic_uniform": {
+      "n": 32,
+      "calendar": {
+        "correct": 30,
+        "total_regret": 120
+      },
+      "guard": {
+        "correct": 30,
+        "total_regret": 120
+      },
+      "fixed30": {
+        "correct": 18,
+        "total_regret": 13956
+      },
+      "fixed60": {
+        "correct": 14,
+        "total_regret": 55363
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "stochastic_platoon4": {
+      "n": 32,
+      "calendar": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 15723
+      },
+      "fixed60": {
+        "correct": 16,
+        "total_regret": 62053
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "within_tape_paired_regret": {
+    "calendar_better": 0,
+    "guard_better": 0,
+    "equal": 16
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "2b06582d5bf9629a07b65e2c3125ccfaf6f034058d1f2f23ddcae0beace526e5",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 3868,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 3965,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -97,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "2b06582d5bf9629a07b65e2c3125ccfaf6f034058d1f2f23ddcae0beace526e5",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 4349,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 5041,
+          "receiver_denied_seconds": 119,
+          "receiver_denied_attempts": 119,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -692,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "2b06582d5bf9629a07b65e2c3125ccfaf6f034058d1f2f23ddcae0beace526e5",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 4410,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4137,
+          "receiver_denied_seconds": 95,
+          "receiver_denied_attempts": 95,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 273,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "2b06582d5bf9629a07b65e2c3125ccfaf6f034058d1f2f23ddcae0beace526e5",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 3933,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6438,
+          "receiver_denied_seconds": 91,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2505,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9d6562878ae5a4e4f8b534f6dae77b2e18a5574ae3fcc861202b5c27bfa5b431",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 4795,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4666,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 129,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9d6562878ae5a4e4f8b534f6dae77b2e18a5574ae3fcc861202b5c27bfa5b431",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5442,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6394,
+          "receiver_denied_seconds": 133,
+          "receiver_denied_attempts": 133,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -952,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9d6562878ae5a4e4f8b534f6dae77b2e18a5574ae3fcc861202b5c27bfa5b431",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5262,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4888,
+          "receiver_denied_seconds": 95,
+          "receiver_denied_attempts": 95,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 374,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9d6562878ae5a4e4f8b534f6dae77b2e18a5574ae3fcc861202b5c27bfa5b431",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 4741,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7731,
+          "receiver_denied_seconds": 111,
+          "receiver_denied_attempts": 111,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2990,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "db422374e418202eb4384d09184059abbc7fe46652dd60707f987278c5ec42e4",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 3773,
+          "receiver_denied_seconds": 82,
+          "receiver_denied_attempts": 82,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 3628,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 145,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "db422374e418202eb4384d09184059abbc7fe46652dd60707f987278c5ec42e4",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 4247,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 5359,
+          "receiver_denied_seconds": 131,
+          "receiver_denied_attempts": 131,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -1112,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "db422374e418202eb4384d09184059abbc7fe46652dd60707f987278c5ec42e4",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 4315,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4040,
+          "receiver_denied_seconds": 92,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 275,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "db422374e418202eb4384d09184059abbc7fe46652dd60707f987278c5ec42e4",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 3884,
+          "receiver_denied_seconds": 82,
+          "receiver_denied_attempts": 82,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6808,
+          "receiver_denied_seconds": 114,
+          "receiver_denied_attempts": 114,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2924,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "8b4379ac3a8090aee7b164f9496bab473a0651eea7e67164c6c8f9637917dfbc",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 4796,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4667,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 129,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "8b4379ac3a8090aee7b164f9496bab473a0651eea7e67164c6c8f9637917dfbc",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 5361,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6337,
+          "receiver_denied_seconds": 133,
+          "receiver_denied_attempts": 133,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -976,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "8b4379ac3a8090aee7b164f9496bab473a0651eea7e67164c6c8f9637917dfbc",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 5177,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4889,
+          "receiver_denied_seconds": 92,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 288,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "8b4379ac3a8090aee7b164f9496bab473a0651eea7e67164c6c8f9637917dfbc",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 4742,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7667,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 109,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2925,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "e9573e982696dd95be66d3a2f0e9008eb37d2e0db17debc7b38e05f9b02a1f18",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 3939,
+          "receiver_denied_seconds": 82,
+          "receiver_denied_attempts": 101,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 3812,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 127,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "e9573e982696dd95be66d3a2f0e9008eb37d2e0db17debc7b38e05f9b02a1f18",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 4620,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5500,
+          "receiver_denied_seconds": 98,
+          "receiver_denied_attempts": 117,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -880,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "e9573e982696dd95be66d3a2f0e9008eb37d2e0db17debc7b38e05f9b02a1f18",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 4670,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 99,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 3908,
+          "receiver_denied_seconds": 93,
+          "receiver_denied_attempts": 133,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 762,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "e9573e982696dd95be66d3a2f0e9008eb37d2e0db17debc7b38e05f9b02a1f18",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 3944,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7140,
+          "receiver_denied_seconds": 130,
+          "receiver_denied_attempts": 149,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3196,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7793f5cdb5e7d206655b1440ccebd930b2174f32a937173dac1bf923253a7898",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5087,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5016,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 71,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7793f5cdb5e7d206655b1440ccebd930b2174f32a937173dac1bf923253a7898",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6112,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7426,
+          "receiver_denied_seconds": 125,
+          "receiver_denied_attempts": 125,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1314,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7793f5cdb5e7d206655b1440ccebd930b2174f32a937173dac1bf923253a7898",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5755,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4875,
+          "receiver_denied_seconds": 92,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 880,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7793f5cdb5e7d206655b1440ccebd930b2174f32a937173dac1bf923253a7898",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5289,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9539,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 109,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -4250,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e9adcb816ee2cf12cdddbe8299995b9b6749e52d4de5500641307c5097c9b91",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 8,
+      "arms": {
+        "30": {
+          "cost": 4094,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4117,
+          "receiver_denied_seconds": 37,
+          "receiver_denied_attempts": 37,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -23,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e9adcb816ee2cf12cdddbe8299995b9b6749e52d4de5500641307c5097c9b91",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 8,
+      "arms": {
+        "30": {
+          "cost": 4765,
+          "receiver_denied_seconds": 50,
+          "receiver_denied_attempts": 50,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 6034,
+          "receiver_denied_seconds": 113,
+          "receiver_denied_attempts": 113,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1269,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e9adcb816ee2cf12cdddbe8299995b9b6749e52d4de5500641307c5097c9b91",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 8,
+      "arms": {
+        "30": {
+          "cost": 4809,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4027,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 782,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e9adcb816ee2cf12cdddbe8299995b9b6749e52d4de5500641307c5097c9b91",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 7,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 8,
+      "arms": {
+        "30": {
+          "cost": 4428,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 8106,
+          "receiver_denied_seconds": 98,
+          "receiver_denied_attempts": 98,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3678,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7f156e5b1761c06fb1a3e37de107cb54eb4c62904beab8849ebbd8e96b0f33e1",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5103,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5032,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 71,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7f156e5b1761c06fb1a3e37de107cb54eb4c62904beab8849ebbd8e96b0f33e1",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6114,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7415,
+          "receiver_denied_seconds": 125,
+          "receiver_denied_attempts": 125,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1301,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7f156e5b1761c06fb1a3e37de107cb54eb4c62904beab8849ebbd8e96b0f33e1",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5771,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4891,
+          "receiver_denied_seconds": 91,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 880,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "7f156e5b1761c06fb1a3e37de107cb54eb4c62904beab8849ebbd8e96b0f33e1",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5394,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9560,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 109,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -4166,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "50fa81c0947d4cf4917c13410297370785d980b0c80a71a058dd7d7540bf52ec",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5300,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5229,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 71,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "50fa81c0947d4cf4917c13410297370785d980b0c80a71a058dd7d7540bf52ec",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6877,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 8705,
+          "receiver_denied_seconds": 100,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -1828,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "50fa81c0947d4cf4917c13410297370785d980b0c80a71a058dd7d7540bf52ec",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6720,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 83,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 4889,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 1831,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "50fa81c0947d4cf4917c13410297370785d980b0c80a71a058dd7d7540bf52ec",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5969,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 12369,
+          "receiver_denied_seconds": 137,
+          "receiver_denied_attempts": 137,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -6400,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "95e035a5d5190aca0a91b0d8bda2fbe6f19e8cd5a82d3d74f51a2bad53e31ef7",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6697,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6450,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 247,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "95e035a5d5190aca0a91b0d8bda2fbe6f19e8cd5a82d3d74f51a2bad53e31ef7",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 9157,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11423,
+          "receiver_denied_seconds": 115,
+          "receiver_denied_attempts": 115,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2266,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "95e035a5d5190aca0a91b0d8bda2fbe6f19e8cd5a82d3d74f51a2bad53e31ef7",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 8601,
+          "receiver_denied_seconds": 81,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6189,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2412,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "95e035a5d5190aca0a91b0d8bda2fbe6f19e8cd5a82d3d74f51a2bad53e31ef7",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 7167,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 14839,
+          "receiver_denied_seconds": 153,
+          "receiver_denied_attempts": 153,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7672,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "16e35f7b125cfed3f8c820e4f4ae94491fc9066d7e20d157ba5a2a8697b1bc9e",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 6,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 5546,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 64,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5426,
+          "receiver_denied_seconds": 48,
+          "receiver_denied_attempts": 48,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 120,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "16e35f7b125cfed3f8c820e4f4ae94491fc9066d7e20d157ba5a2a8697b1bc9e",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 6,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 7459,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 9180,
+          "receiver_denied_seconds": 104,
+          "receiver_denied_attempts": 104,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -1721,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "16e35f7b125cfed3f8c820e4f4ae94491fc9066d7e20d157ba5a2a8697b1bc9e",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 6,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 7171,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 4751,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2420,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "16e35f7b125cfed3f8c820e4f4ae94491fc9066d7e20d157ba5a2a8697b1bc9e",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 6,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 9,
+      "arms": {
+        "30": {
+          "cost": 5885,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 12983,
+          "receiver_denied_seconds": 121,
+          "receiver_denied_attempts": 121,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7098,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1eeba09840af923f59e26827fd9cb6f3701188711f923e894501588da8a7bc14",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 8,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 6698,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6451,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 247,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1eeba09840af923f59e26827fd9cb6f3701188711f923e894501588da8a7bc14",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 8,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 9106,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11376,
+          "receiver_denied_seconds": 114,
+          "receiver_denied_attempts": 114,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2270,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1eeba09840af923f59e26827fd9cb6f3701188711f923e894501588da8a7bc14",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 8,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 8540,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6190,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2350,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86101,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1eeba09840af923f59e26827fd9cb6f3701188711f923e894501588da8a7bc14",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 8,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 7752,
+          "receiver_denied_seconds": 55,
+          "receiver_denied_attempts": 55,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 14787,
+          "receiver_denied_seconds": 152,
+          "receiver_denied_attempts": 152,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7035,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "7cccfaaaffccd2e96b1c6b78a07b716671f3a984e92a9f267e2a7d2ff2ea464e",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 14,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 7077,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 6738,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 83,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 339,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "7cccfaaaffccd2e96b1c6b78a07b716671f3a984e92a9f267e2a7d2ff2ea464e",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 14,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 8854,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 94,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 11090,
+          "receiver_denied_seconds": 123,
+          "receiver_denied_attempts": 142,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -2236,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "7cccfaaaffccd2e96b1c6b78a07b716671f3a984e92a9f267e2a7d2ff2ea464e",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 14,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 8792,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 105,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 6042,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 2750,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_uniform",
+      "time_sha256": "7cccfaaaffccd2e96b1c6b78a07b716671f3a984e92a9f267e2a7d2ff2ea464e",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 14,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 7528,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 15472,
+          "receiver_denied_seconds": 163,
+          "receiver_denied_attempts": 182,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -7944,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1d904b206b031a770b4b4ef90ac63ed8f5f4d8031764a524c68645d0d76a5ae9",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 8329,
+          "receiver_denied_seconds": 77,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 7940,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 389,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1d904b206b031a770b4b4ef90ac63ed8f5f4d8031764a524c68645d0d76a5ae9",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 11328,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 14120,
+          "receiver_denied_seconds": 137,
+          "receiver_denied_attempts": 137,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -2792,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1d904b206b031a770b4b4ef90ac63ed8f5f4d8031764a524c68645d0d76a5ae9",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 10585,
+          "receiver_denied_seconds": 93,
+          "receiver_denied_attempts": 93,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 7152,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 3433,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89101,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1d904b206b031a770b4b4ef90ac63ed8f5f4d8031764a524c68645d0d76a5ae9",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 9390,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 18567,
+          "receiver_denied_seconds": 178,
+          "receiver_denied_attempts": 178,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -9177,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "668d06b4ba6c47e18dcd077892da2e0167adcc995566f9e36f4d6a44a11e22f2",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 6712,
+          "receiver_denied_seconds": 48,
+          "receiver_denied_attempts": 48,
+          "ever_denied_unique_ids": 4,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 6383,
+          "receiver_denied_seconds": 41,
+          "receiver_denied_attempts": 41,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 329,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "668d06b4ba6c47e18dcd077892da2e0167adcc995566f9e36f4d6a44a11e22f2",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 9028,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 11658,
+          "receiver_denied_seconds": 100,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -2630,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "668d06b4ba6c47e18dcd077892da2e0167adcc995566f9e36f4d6a44a11e22f2",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 8801,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 5069,
+          "receiver_denied_seconds": 42,
+          "receiver_denied_attempts": 42,
+          "ever_denied_unique_ids": 4,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 3732,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_uniform",
+      "time_sha256": "668d06b4ba6c47e18dcd077892da2e0167adcc995566f9e36f4d6a44a11e22f2",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 7282,
+          "receiver_denied_seconds": 42,
+          "receiver_denied_attempts": 42,
+          "ever_denied_unique_ids": 4,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 16412,
+          "receiver_denied_seconds": 163,
+          "receiver_denied_attempts": 163,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -9130,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1e29e2ceb9b0e6558d56d83624bf2679d8a6fd9e47c9903a142f410376a225d7",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 8345,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 7956,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 389,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1e29e2ceb9b0e6558d56d83624bf2679d8a6fd9e47c9903a142f410376a225d7",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 11341,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 14133,
+          "receiver_denied_seconds": 137,
+          "receiver_denied_attempts": 137,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -2792,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1e29e2ceb9b0e6558d56d83624bf2679d8a6fd9e47c9903a142f410376a225d7",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 10602,
+          "receiver_denied_seconds": 93,
+          "receiver_denied_attempts": 93,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 7168,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": 3434,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86102,
+      "time_seed": 89102,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1e29e2ceb9b0e6558d56d83624bf2679d8a6fd9e47c9903a142f410376a225d7",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 9406,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 46,
+          "network_out_S": 14
+        },
+        "60": {
+          "cost": 18581,
+          "receiver_denied_seconds": 178,
+          "receiver_denied_attempts": 178,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 46,
+          "network_out_S": 14
+        }
+      },
+      "delta_cost": -9175,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    }
+  ],
+  "limitations": "Synthetic same T2 engine; route label seed reuse across shares; 4 offsets per 16 arrival tapes; no physical detector validation; no independent SUMO parity."
+}
