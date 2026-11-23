@@ -1,0 +1,56 @@
+[
+  {
+    "share": 0.25,
+    "clock": "uniform",
+    "pairs": 64,
+    "distinct_endpoints": 1,
+    "matches_two_when_distinct": 1,
+    "below": [],
+    "above": []
+  },
+  {
+    "share": 0.25,
+    "clock": "platoon4",
+    "pairs": 64,
+    "distinct_endpoints": 23,
+    "matches_two_when_distinct": 23,
+    "below": [],
+    "above": []
+  },
+  {
+    "share": 0.5,
+    "clock": "uniform",
+    "pairs": 64,
+    "distinct_endpoints": 3,
+    "matches_two_when_distinct": 3,
+    "below": [],
+    "above": []
+  },
+  {
+    "share": 0.5,
+    "clock": "platoon4",
+    "pairs": 64,
+    "distinct_endpoints": 44,
+    "matches_two_when_distinct": 44,
+    "below": [],
+    "above": []
+  },
+  {
+    "share": 0.75,
+    "clock": "uniform",
+    "pairs": 64,
+    "distinct_endpoints": 24,
+    "matches_two_when_distinct": 24,
+    "below": [],
+    "above": []
+  },
+  {
+    "share": 0.75,
+    "clock": "platoon4",
+    "pairs": 64,
+    "distinct_endpoints": 64,
+    "matches_two_when_distinct": 64,
+    "below": [],
+    "above": []
+  }
+]
