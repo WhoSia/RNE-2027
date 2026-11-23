@@ -1,0 +1,1020 @@
+{
+  "prereg": "P106_POCKET_GEOMETRY_PREREG.md",
+  "status": "FULL_REPLAY_COMPLETE",
+  "source": "same T2 model; new seeds 87001..87008; not independent engine",
+  "physical_correction": "pocket_length_m=7 and cell_m=7 imply ONE pocket slot",
+  "pocket_length_m_to_slots": {
+    "7": 1,
+    "14": 2,
+    "28": 4,
+    "56": 8
+  },
+  "unique_seed_blocks": 8,
+  "unique_demand_tapes": 16,
+  "paired_comparisons": 64,
+  "simulator_arms": 128,
+  "summary": {
+    "7": {
+      "n": 16,
+      "paradox": 15,
+      "30_cost_worse": 16,
+      "30_cost_better": 0,
+      "cost_sum": 18289,
+      "denied_sum": -203,
+      "cost_mean": 1143.0625,
+      "preregistered_geometry_robustness_pass": null
+    },
+    "14": {
+      "n": 16,
+      "paradox": 15,
+      "30_cost_worse": 16,
+      "30_cost_better": 0,
+      "cost_sum": 18289,
+      "denied_sum": -203,
+      "cost_mean": 1143.0625,
+      "preregistered_geometry_robustness_pass": true
+    },
+    "28": {
+      "n": 16,
+      "paradox": 15,
+      "30_cost_worse": 16,
+      "30_cost_better": 0,
+      "cost_sum": 18289,
+      "denied_sum": -205,
+      "cost_mean": 1143.0625,
+      "preregistered_geometry_robustness_pass": true
+    },
+    "56": {
+      "n": 16,
+      "paradox": 16,
+      "30_cost_worse": 16,
+      "30_cost_better": 0,
+      "cost_sum": 18288,
+      "denied_sum": -231,
+      "cost_mean": 1143.0,
+      "preregistered_geometry_robustness_pass": true
+    }
+  },
+  "rows": [
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1206,
+        "denied": -8,
+        "full_red": -41
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1399,
+        "denied": -12,
+        "full_red": -30
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1232,
+        "denied": -15,
+        "full_red": -18
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1455,
+        "denied": -10,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 564,
+        "denied": -10,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1019,
+        "denied": 4,
+        "full_red": -3
+      },
+      "paradox": false
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 620,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1563,
+        "denied": -8,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 687,
+        "denied": -30,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1516,
+        "denied": -17,
+        "full_red": -13
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1223,
+        "denied": -8,
+        "full_red": -2
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1490,
+        "denied": -6,
+        "full_red": -5
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 852,
+        "denied": -21,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1089,
+        "denied": -15,
+        "full_red": -14
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 624,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 7,
+      "pocket_slots": 1,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1750,
+        "denied": -9,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1206,
+        "denied": -8,
+        "full_red": -41
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1399,
+        "denied": -12,
+        "full_red": -30
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1232,
+        "denied": -15,
+        "full_red": -18
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1455,
+        "denied": -10,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 564,
+        "denied": -10,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1019,
+        "denied": 4,
+        "full_red": -3
+      },
+      "paradox": false
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 620,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1563,
+        "denied": -8,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 687,
+        "denied": -30,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1516,
+        "denied": -17,
+        "full_red": -13
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1223,
+        "denied": -8,
+        "full_red": -2
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1490,
+        "denied": -6,
+        "full_red": -5
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 852,
+        "denied": -21,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1089,
+        "denied": -15,
+        "full_red": -14
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 624,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 14,
+      "pocket_slots": 2,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1750,
+        "denied": -9,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1206,
+        "denied": -8,
+        "full_red": -41
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1399,
+        "denied": -12,
+        "full_red": -30
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1232,
+        "denied": -15,
+        "full_red": -18
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1455,
+        "denied": -12,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 564,
+        "denied": -10,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1019,
+        "denied": 4,
+        "full_red": -3
+      },
+      "paradox": false
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 620,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1563,
+        "denied": -8,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 687,
+        "denied": -30,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1516,
+        "denied": -17,
+        "full_red": -13
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1223,
+        "denied": -8,
+        "full_red": -2
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1490,
+        "denied": -6,
+        "full_red": -5
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 852,
+        "denied": -21,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1089,
+        "denied": -15,
+        "full_red": -14
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 624,
+        "denied": -19,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 28,
+      "pocket_slots": 4,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1750,
+        "denied": -9,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1206,
+        "denied": -8,
+        "full_red": -41
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1399,
+        "denied": -14,
+        "full_red": -30
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1232,
+        "denied": -13,
+        "full_red": -18
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1454,
+        "denied": -10,
+        "full_red": -13
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 564,
+        "denied": -9,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1019,
+        "denied": -2,
+        "full_red": -3
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 620,
+        "denied": -25,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1563,
+        "denied": -10,
+        "full_red": -12
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 687,
+        "denied": -35,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1516,
+        "denied": -17,
+        "full_red": -13
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1223,
+        "denied": -8,
+        "full_red": -2
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1490,
+        "denied": -8,
+        "full_red": -5
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 852,
+        "denied": -23,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1089,
+        "denied": -19,
+        "full_red": -14
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 624,
+        "denied": -21,
+        "full_red": -20
+      },
+      "paradox": true
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "share": 0.75,
+      "onset": "red",
+      "pocket_length_m": 56,
+      "pocket_slots": 8,
+      "generated": 60,
+      "delta_30_minus_60": {
+        "cost": 1750,
+        "denied": -9,
+        "full_red": -12
+      },
+      "paradox": true
+    }
+  ]
+}
