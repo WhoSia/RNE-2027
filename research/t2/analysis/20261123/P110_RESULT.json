@@ -1,0 +1,50 @@
+{
+  "source": "actual P100 T2 build_config and runtime validate",
+  "engine_status": "BLOCKED_NO_SUMO_RUNTIME",
+  "runtime_presence": {
+    "sumo_executable": false,
+    "netconvert_executable": false,
+    "traci_python": false,
+    "sumolib_python": false
+  },
+  "t2_source_locked_geometry": {
+    "cell_length_m": 7.0,
+    "approach_length_m": 140.0,
+    "approach_cells_per_lane": 20,
+    "pocket_length_m": 7,
+    "pocket_cells": 1,
+    "receiver_cells": 4,
+    "nominal_receiver_length_if_same_cell_m": 28.0,
+    "receiver_discharge_headway_s": 2,
+    "upstream_approach_green_mode": "left-first, 6s left (overridden after t84)",
+    "downstream_cycle_options_s": [
+      30,
+      60
+    ],
+    "downstream_green_fraction": 0.5,
+    "decision_tick": 84,
+    "warmup_is_checkpoint_with_identical_events": true,
+    "through_B_share": 0.5,
+    "lane_change_zone_m": 100.0,
+    "allow_lane_changes": true,
+    "change_gap_cells": 1,
+    "change_confirmation_s": 1,
+    "seed": 86001,
+    "arrivals_on_tape": 60
+  },
+  "parity_gates": {
+    "identical_arrival_times_and_vehicle_IDs": "NOT_TESTED_IN_SUMO",
+    "lane_A_B_and_turn_route_geometry": "NOT_TESTED_IN_SUMO",
+    "pocket_length_7m_not_7_cells": "SOURCE_CONFIRMED_ONLY",
+    "finite_4_cell_receiver_equivalent_storage": "NOT_TESTED_IN_SUMO",
+    "green_red_30_60_onset_at_t84": "NOT_TESTED_IN_SUMO",
+    "upstream_left_first_6s_and_clearance": "NOT_TESTED_IN_SUMO",
+    "cellular_1s_tick_vs_micro_headway": "NOT_TESTED_IN_SUMO",
+    "matched_initial_state_at_84": "NOT_TESTED_IN_SUMO",
+    "per_ID_end_of_receiving_segment_event": "NOT_TESTED_IN_SUMO",
+    "pedestrian_and_opposing_flow": "NOT_MODELED_IN_T2"
+  },
+  "policy_effect_compare_allowed": false,
+  "reason": "SUMO package availability cannot prove equivalence; policy sign analysis strictly forbidden until E0 geometry, signal and per-ID routes are locked.",
+  "past_sumo_p71": "Different 10s-versus-6s upstream intervention with unmatched downstream geometry; cannot be reused as P100 matched intervention"
+}
