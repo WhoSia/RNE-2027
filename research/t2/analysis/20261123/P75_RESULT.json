@@ -1,0 +1,6146 @@
+[
+  {
+    "seed": 701,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      42,
+      42,
+      18
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      43,
+      43,
+      17
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.25,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 701,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      44,
+      44,
+      16
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      42,
+      42,
+      18
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      42,
+      42,
+      18
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      43,
+      43,
+      17
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      42,
+      42,
+      18
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.25,
+    "clock": "platoon4",
+    "counts": [
+      42,
+      42,
+      18
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 701,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      41,
+      41,
+      19
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.5,
+    "clock": "uniform",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 701,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      38,
+      38,
+      22
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      40,
+      40,
+      20
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      31,
+      31,
+      29
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      34,
+      34,
+      26
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      37,
+      37,
+      23
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      33,
+      33,
+      27
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      39,
+      39,
+      21
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      35,
+      35,
+      25
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      36,
+      36,
+      24
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.5,
+    "clock": "platoon4",
+    "counts": [
+      32,
+      32,
+      28
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 701,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      30,
+      30,
+      30
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      25,
+      25,
+      35
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": false
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.75,
+    "clock": "uniform",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 701,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 702,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 703,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 704,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 705,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 706,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      15,
+      15,
+      45
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 707,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 708,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 709,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 710,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 711,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 712,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 713,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 714,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 715,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 716,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 717,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 718,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 719,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 720,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 721,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 722,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 723,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 724,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 725,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 726,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 727,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 728,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 729,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 730,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 731,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 732,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 733,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 734,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 735,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 736,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 737,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 738,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      28,
+      28,
+      32
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 739,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 740,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 741,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 742,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 743,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      17,
+      17,
+      43
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 744,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      15,
+      15,
+      45
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 745,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 746,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 747,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      15,
+      15,
+      45
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 748,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      14,
+      14,
+      46
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 749,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 750,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      23,
+      23,
+      37
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 751,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      29,
+      29,
+      31
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 752,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 753,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      27,
+      27,
+      33
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 754,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      16,
+      16,
+      44
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 755,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 756,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      18,
+      18,
+      42
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 757,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      21,
+      21,
+      39
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 758,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      26,
+      26,
+      34
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 759,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 760,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      24,
+      24,
+      36
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 761,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 762,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 763,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      19,
+      19,
+      41
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  },
+  {
+    "seed": 764,
+    "share": 0.75,
+    "clock": "platoon4",
+    "counts": [
+      22,
+      22,
+      38
+    ],
+    "differs": {
+      "crossing": false,
+      "departure": false,
+      "remaining": false,
+      "denials": true
+    }
+  }
+]
