@@ -1,0 +1,2 @@
+# P69 fixed green budget
+Use P66 seeds 402–405 with both demand, turn and arrival-family levels. At tick 84 resume the same checkpoint twice. Reserve 84–87 for clearance, then 6 or 10 seconds left, 3 seconds clearance, and 18 or 14 seconds through until tick 114. Both arms end with six red seconds. Cross receiver offset 0/15, headway 2/4, pocket 7/28 m and receiver interruption absent/present [92,108). Retain separate admissions to the network exit by movement and costs at terminal weights 0 and 60. This compares two new schedules.
