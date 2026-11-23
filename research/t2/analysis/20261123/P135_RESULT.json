@@ -1,0 +1,2684 @@
+{
+  "status": "P135_NEW_TIME_HOLDOUT_SURROGATE_DECISION_128_ARMS_COMPLETE",
+  "prereg": "P135_HOLDOUT_SURROGATE_REGRET_PREREG.md",
+  "simulator_arms": 128,
+  "matched_period_pairs": 64,
+  "tapes_by_share": 32,
+  "distinct_time_vectors_per_share": {
+    "0.5": 16,
+    "0.75": 16
+  },
+  "all_vehicles_cleared": true,
+  "all_trace_denial_attempts_verified": true,
+  "by_share_priority": {
+    "0.5": {
+      "S_first": {
+        "n": 16,
+        "fixed30_regret": 10755,
+        "fixed60_regret": 0,
+        "thirty_cheaper": 0,
+        "sixty_cheaper": 16,
+        "cost_tied": 0,
+        "metrics": {
+          "receiver_denied_seconds": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 10,
+            "accuracy_covered": 0.625,
+            "covered_regret_sum": 3880,
+            "covered_mean_regret": 242.5,
+            "covered_max_regret": 1010,
+            "deployed_regret_ties60": 3880,
+            "primary_gate_pass": false
+          },
+          "receiver_denied_attempts": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 9,
+            "accuracy_covered": 0.5625,
+            "covered_regret_sum": 4541,
+            "covered_mean_regret": 283.8125,
+            "covered_max_regret": 1010,
+            "deployed_regret_ties60": 4541,
+            "primary_gate_pass": false
+          },
+          "ever_denied_unique_ids": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 15,
+            "accuracy_covered": 0.9375,
+            "covered_regret_sum": 385,
+            "covered_mean_regret": 24.0625,
+            "covered_max_regret": 385,
+            "deployed_regret_ties60": 385,
+            "primary_gate_pass": false
+          }
+        }
+      },
+      "L_first": {
+        "n": 16,
+        "fixed30_regret": 7745,
+        "fixed60_regret": 1544,
+        "thirty_cheaper": 2,
+        "sixty_cheaper": 14,
+        "cost_tied": 0,
+        "metrics": {
+          "receiver_denied_seconds": {
+            "covered": 15,
+            "abstained": 1,
+            "coverage": 0.9375,
+            "correct_covered": 5,
+            "accuracy_covered": 0.3333333333333333,
+            "covered_regret_sum": 6552,
+            "covered_mean_regret": 436.8,
+            "covered_max_regret": 1079,
+            "deployed_regret_ties60": 6552,
+            "primary_gate_pass": false
+          },
+          "receiver_denied_attempts": {
+            "covered": 15,
+            "abstained": 1,
+            "coverage": 0.9375,
+            "correct_covered": 6,
+            "accuracy_covered": 0.4,
+            "covered_regret_sum": 5473,
+            "covered_mean_regret": 364.8666666666667,
+            "covered_max_regret": 853,
+            "deployed_regret_ties60": 5473,
+            "primary_gate_pass": false
+          },
+          "ever_denied_unique_ids": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 14,
+            "accuracy_covered": 0.875,
+            "covered_regret_sum": 1544,
+            "covered_mean_regret": 96.5,
+            "covered_max_regret": 1079,
+            "deployed_regret_ties60": 1544,
+            "primary_gate_pass": false
+          }
+        }
+      }
+    },
+    "0.75": {
+      "S_first": {
+        "n": 16,
+        "fixed30_regret": 39200,
+        "fixed60_regret": 0,
+        "thirty_cheaper": 0,
+        "sixty_cheaper": 16,
+        "cost_tied": 0,
+        "metrics": {
+          "receiver_denied_seconds": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          },
+          "receiver_denied_attempts": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          },
+          "ever_denied_unique_ids": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          }
+        }
+      },
+      "L_first": {
+        "n": 16,
+        "fixed30_regret": 38872,
+        "fixed60_regret": 0,
+        "thirty_cheaper": 0,
+        "sixty_cheaper": 16,
+        "cost_tied": 0,
+        "metrics": {
+          "receiver_denied_seconds": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          },
+          "receiver_denied_attempts": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          },
+          "ever_denied_unique_ids": {
+            "covered": 16,
+            "abstained": 0,
+            "coverage": 1.0,
+            "correct_covered": 16,
+            "accuracy_covered": 1.0,
+            "covered_regret_sum": 0,
+            "covered_mean_regret": 0.0,
+            "covered_max_regret": 0,
+            "deployed_regret_ties60": 0,
+            "primary_gate_pass": true
+          }
+        }
+      }
+    }
+  },
+  "overall": {
+    "n": 64,
+    "fixed30_regret": 96572,
+    "fixed60_regret": 1544,
+    "thirty_cheaper": 2,
+    "sixty_cheaper": 62,
+    "cost_tied": 0,
+    "metrics": {
+      "receiver_denied_seconds": {
+        "covered": 63,
+        "abstained": 1,
+        "coverage": 0.984375,
+        "correct_covered": 47,
+        "accuracy_covered": 0.746031746031746,
+        "covered_regret_sum": 10432,
+        "covered_mean_regret": 165.5873015873016,
+        "covered_max_regret": 1079,
+        "deployed_regret_ties60": 10432,
+        "primary_gate_pass": false
+      },
+      "receiver_denied_attempts": {
+        "covered": 63,
+        "abstained": 1,
+        "coverage": 0.984375,
+        "correct_covered": 47,
+        "accuracy_covered": 0.746031746031746,
+        "covered_regret_sum": 10014,
+        "covered_mean_regret": 158.95238095238096,
+        "covered_max_regret": 1010,
+        "deployed_regret_ties60": 10014,
+        "primary_gate_pass": false
+      },
+      "ever_denied_unique_ids": {
+        "covered": 64,
+        "abstained": 0,
+        "coverage": 1.0,
+        "correct_covered": 61,
+        "accuracy_covered": 0.953125,
+        "covered_regret_sum": 1929,
+        "covered_mean_regret": 30.140625,
+        "covered_max_regret": 1079,
+        "deployed_regret_ties60": 1929,
+        "primary_gate_pass": false
+      }
+    }
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "ee3d8f165841487f9382d5d64bb80ac14173577c869d739686c79ce38c78fb3a",
+      "delta_cost": 843,
+      "metric_delta": {
+        "receiver_denied_seconds": 13,
+        "receiver_denied_attempts": 13,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5527,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 46
+          }
+        },
+        "60": {
+          "cost": 4684,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 61
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "ee3d8f165841487f9382d5d64bb80ac14173577c869d739686c79ce38c78fb3a",
+      "delta_cost": -465,
+      "metric_delta": {
+        "receiver_denied_seconds": 23,
+        "receiver_denied_attempts": 10,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 5547,
+          "receiver_denied_seconds": 95,
+          "receiver_denied_attempts": 102,
+          "ever_denied_unique_ids": 14,
+          "total_distinct_refused_event_ticks": 95,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 65
+          }
+        },
+        "60": {
+          "cost": 6012,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 81
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "9a6f05b37756880d5b65156294a119517da5e2c8dc6fb556cc26e531443e33b2",
+      "delta_cost": 828,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5375,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 42
+          }
+        },
+        "60": {
+          "cost": 4547,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 56
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "9a6f05b37756880d5b65156294a119517da5e2c8dc6fb556cc26e531443e33b2",
+      "delta_cost": 520,
+      "metric_delta": {
+        "receiver_denied_seconds": 5,
+        "receiver_denied_attempts": 5,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5215,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 47
+          }
+        },
+        "60": {
+          "cost": 4695,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 68
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "ff91f5eca700e32eb426c402d0bb0b19e76c7e9db0dd9e8d78d040a2f63abaaa",
+      "delta_cost": 337,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4910,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 34
+          }
+        },
+        "60": {
+          "cost": 4573,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 60
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "ff91f5eca700e32eb426c402d0bb0b19e76c7e9db0dd9e8d78d040a2f63abaaa",
+      "delta_cost": -1079,
+      "metric_delta": {
+        "receiver_denied_seconds": 1,
+        "receiver_denied_attempts": -12,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 4822,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 79,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 42
+          }
+        },
+        "60": {
+          "cost": 5901,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 80
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "2cc1244c24b92c007168f188745bfda5b65fb721f62055d440116c111741190d",
+      "delta_cost": 711,
+      "metric_delta": {
+        "receiver_denied_seconds": 11,
+        "receiver_denied_attempts": 11,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5264,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 39
+          }
+        },
+        "60": {
+          "cost": 4553,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 56
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "2cc1244c24b92c007168f188745bfda5b65fb721f62055d440116c111741190d",
+      "delta_cost": 401,
+      "metric_delta": {
+        "receiver_denied_seconds": 0,
+        "receiver_denied_attempts": 0,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5102,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 44
+          }
+        },
+        "60": {
+          "cost": 4701,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 70
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "76ecac94455e6626d9677344ce5c9a0aa35c5a113434d330f1a7f68818a22962",
+      "delta_cost": 160,
+      "metric_delta": {
+        "receiver_denied_seconds": -3,
+        "receiver_denied_attempts": -3,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 5332,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 49
+          }
+        },
+        "60": {
+          "cost": 5172,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 76,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 78
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "76ecac94455e6626d9677344ce5c9a0aa35c5a113434d330f1a7f68818a22962",
+      "delta_cost": 12,
+      "metric_delta": {
+        "receiver_denied_seconds": -7,
+        "receiver_denied_attempts": -7,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 5332,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 79,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 55
+          }
+        },
+        "60": {
+          "cost": 5320,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 99,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 86,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 88
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "beee6143754ef563cb58f8f4515b4428af6edc18f9960f1a18a5f2943f8702fb",
+      "delta_cost": 716,
+      "metric_delta": {
+        "receiver_denied_seconds": 12,
+        "receiver_denied_attempts": 12,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5245,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 42
+          }
+        },
+        "60": {
+          "cost": 4529,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 58
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "beee6143754ef563cb58f8f4515b4428af6edc18f9960f1a18a5f2943f8702fb",
+      "delta_cost": 406,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5083,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 47
+          }
+        },
+        "60": {
+          "cost": 4677,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 70
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "7298ef8410bd44a072d7d7e35cc0b5a9cd120fa606df88dbfbfef2a3b5f48f2d",
+      "delta_cost": 460,
+      "metric_delta": {
+        "receiver_denied_seconds": 6,
+        "receiver_denied_attempts": 6,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 4918,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 47
+          }
+        },
+        "60": {
+          "cost": 4458,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 67
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "7298ef8410bd44a072d7d7e35cc0b5a9cd120fa606df88dbfbfef2a3b5f48f2d",
+      "delta_cost": 460,
+      "metric_delta": {
+        "receiver_denied_seconds": 4,
+        "receiver_denied_attempts": 4,
+        "ever_denied_unique_ids": 6
+      },
+      "arms": {
+        "30": {
+          "cost": 4918,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 14,
+          "total_distinct_refused_event_ticks": 84,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 53
+          }
+        },
+        "60": {
+          "cost": 4458,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 80,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 75
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "9b12e971477d9929eb8a08c0cbc4045922ab92fe87fd1115a026dc4296573419",
+      "delta_cost": 716,
+      "metric_delta": {
+        "receiver_denied_seconds": 12,
+        "receiver_denied_attempts": 12,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5194,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 41
+          }
+        },
+        "60": {
+          "cost": 4478,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 57
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "9b12e971477d9929eb8a08c0cbc4045922ab92fe87fd1115a026dc4296573419",
+      "delta_cost": 406,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5032,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 83,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 76,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 46
+          }
+        },
+        "60": {
+          "cost": 4626,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 69
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "2d3d6999b137635c4d9703f52f04e0d3e895ff89d684dde7ec5b4e63fd03a7c5",
+      "delta_cost": 750,
+      "metric_delta": {
+        "receiver_denied_seconds": 21,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4687,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 80,
+          "refusal_events_by_movement": {
+            "L": 42,
+            "S": 50
+          }
+        },
+        "60": {
+          "cost": 3937,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 59,
+          "refusal_events_by_movement": {
+            "L": 5,
+            "S": 79
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "2d3d6999b137635c4d9703f52f04e0d3e895ff89d684dde7ec5b4e63fd03a7c5",
+      "delta_cost": 544,
+      "metric_delta": {
+        "receiver_denied_seconds": 22,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 4481,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 105,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 89,
+          "refusal_events_by_movement": {
+            "L": 40,
+            "S": 65
+          }
+        },
+        "60": {
+          "cost": 3937,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 67,
+          "refusal_events_by_movement": {
+            "L": 5,
+            "S": 91
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "ba17b1fc0695423cdf89a54a2576aa60c1a5a598ca4c7dd6bdc7b6dee72b930e",
+      "delta_cost": 772,
+      "metric_delta": {
+        "receiver_denied_seconds": -3,
+        "receiver_denied_attempts": -3,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 6052,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 24
+          }
+        },
+        "60": {
+          "cost": 5280,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 64,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 64,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 44
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "ba17b1fc0695423cdf89a54a2576aa60c1a5a598ca4c7dd6bdc7b6dee72b930e",
+      "delta_cost": 772,
+      "metric_delta": {
+        "receiver_denied_seconds": -9,
+        "receiver_denied_attempts": -9,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 6052,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 5280,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 52
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "8aaa1cb6ef20c5795a88237dd4f36066e63124ab7d0f636a06e134f3606329de",
+      "delta_cost": 853,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4984,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 17
+          }
+        },
+        "60": {
+          "cost": 4131,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 52,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 41
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "8aaa1cb6ef20c5795a88237dd4f36066e63124ab7d0f636a06e134f3606329de",
+      "delta_cost": 853,
+      "metric_delta": {
+        "receiver_denied_seconds": -4,
+        "receiver_denied_attempts": -4,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 4984,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 4131,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 51
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "be07e386c191eb232687d91d5fa02b5cfec9afffa8673dfd821972a5705993a0",
+      "delta_cost": 774,
+      "metric_delta": {
+        "receiver_denied_seconds": -2,
+        "receiver_denied_attempts": -2,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 5988,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 57,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 20
+          }
+        },
+        "60": {
+          "cost": 5214,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 59,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 39
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "be07e386c191eb232687d91d5fa02b5cfec9afffa8673dfd821972a5705993a0",
+      "delta_cost": 774,
+      "metric_delta": {
+        "receiver_denied_seconds": -8,
+        "receiver_denied_attempts": -8,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5988,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 59,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 22
+          }
+        },
+        "60": {
+          "cost": 5214,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 67,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 47
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "384c996907d814bacf151e38a1f76fa62cd56a72fad4b358634b57e2a86d0e58",
+      "delta_cost": 385,
+      "metric_delta": {
+        "receiver_denied_seconds": -29,
+        "receiver_denied_attempts": -42,
+        "ever_denied_unique_ids": -1
+      },
+      "arms": {
+        "30": {
+          "cost": 4723,
+          "receiver_denied_seconds": 38,
+          "receiver_denied_attempts": 38,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 38,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 1
+          }
+        },
+        "60": {
+          "cost": 4338,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 67,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 60
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "384c996907d814bacf151e38a1f76fa62cd56a72fad4b358634b57e2a86d0e58",
+      "delta_cost": 385,
+      "metric_delta": {
+        "receiver_denied_seconds": -31,
+        "receiver_denied_attempts": -48,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4723,
+          "receiver_denied_seconds": 44,
+          "receiver_denied_attempts": 44,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 44,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 7
+          }
+        },
+        "60": {
+          "cost": 4338,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 72
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "a25e42002aca672b8e2c0841e1c7c737e87f962bf79ebbfe59abd81b3d796f82",
+      "delta_cost": 779,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -1,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 6003,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 59,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 22
+          }
+        },
+        "60": {
+          "cost": 5224,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 60,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 40
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "a25e42002aca672b8e2c0841e1c7c737e87f962bf79ebbfe59abd81b3d796f82",
+      "delta_cost": 779,
+      "metric_delta": {
+        "receiver_denied_seconds": -6,
+        "receiver_denied_attempts": -6,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 6003,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 5224,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 68,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 48
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "7a5854580fdd9e6f2078a90b3e5a23dcae6d5fbe56d614bdbbc461fe737a756e",
+      "delta_cost": 661,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": -9,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4727,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 57,
+          "refusal_events_by_movement": {
+            "L": 31,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 4066,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 55
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "7a5854580fdd9e6f2078a90b3e5a23dcae6d5fbe56d614bdbbc461fe737a756e",
+      "delta_cost": 661,
+      "metric_delta": {
+        "receiver_denied_seconds": -2,
+        "receiver_denied_attempts": -18,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 4727,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 31,
+            "S": 31
+          }
+        },
+        "60": {
+          "cost": 4066,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 64,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 69
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "745605a3bbefa36e8f7b96b239d5be8eebeeb99b5082f4d86ea67bf4cfdea3cd",
+      "delta_cost": 1010,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -1,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 6258,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 24
+          }
+        },
+        "60": {
+          "cost": 5248,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 64,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 64,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 44
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "745605a3bbefa36e8f7b96b239d5be8eebeeb99b5082f4d86ea67bf4cfdea3cd",
+      "delta_cost": 772,
+      "metric_delta": {
+        "receiver_denied_seconds": -9,
+        "receiver_denied_attempts": -9,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 6020,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 5248,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 52
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "ee3d8f165841487f9382d5d64bb80ac14173577c869d739686c79ce38c78fb3a",
+      "delta_cost": 2601,
+      "metric_delta": {
+        "receiver_denied_seconds": 10,
+        "receiver_denied_attempts": 10,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9404,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 54,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 6803,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "ee3d8f165841487f9382d5d64bb80ac14173577c869d739686c79ce38c78fb3a",
+      "delta_cost": 2273,
+      "metric_delta": {
+        "receiver_denied_seconds": 4,
+        "receiver_denied_attempts": 4,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 9076,
+          "receiver_denied_seconds": 77,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 77,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 6803,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "9a6f05b37756880d5b65156294a119517da5e2c8dc6fb556cc26e531443e33b2",
+      "delta_cost": 2209,
+      "metric_delta": {
+        "receiver_denied_seconds": 10,
+        "receiver_denied_attempts": 10,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 6857,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 47
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "9a6f05b37756880d5b65156294a119517da5e2c8dc6fb556cc26e531443e33b2",
+      "delta_cost": 2209,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 6857,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 55
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "ff91f5eca700e32eb426c402d0bb0b19e76c7e9db0dd9e8d78d040a2f63abaaa",
+      "delta_cost": 2206,
+      "metric_delta": {
+        "receiver_denied_seconds": 8,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 8891,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 6685,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "ff91f5eca700e32eb426c402d0bb0b19e76c7e9db0dd9e8d78d040a2f63abaaa",
+      "delta_cost": 2206,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 8891,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 6685,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "2cc1244c24b92c007168f188745bfda5b65fb721f62055d440116c111741190d",
+      "delta_cost": 2226,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9089,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 22
+          }
+        },
+        "60": {
+          "cost": 6863,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 60,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "2cc1244c24b92c007168f188745bfda5b65fb721f62055d440116c111741190d",
+      "delta_cost": 2226,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9089,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 6863,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 68,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "76ecac94455e6626d9677344ce5c9a0aa35c5a113434d330f1a7f68818a22962",
+      "delta_cost": 2205,
+      "metric_delta": {
+        "receiver_denied_seconds": 8,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9687,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 7482,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "76ecac94455e6626d9677344ce5c9a0aa35c5a113434d330f1a7f68818a22962",
+      "delta_cost": 2205,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 9687,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 7482,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "beee6143754ef563cb58f8f4515b4428af6edc18f9960f1a18a5f2943f8702fb",
+      "delta_cost": 2227,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 6839,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 48
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "beee6143754ef563cb58f8f4515b4428af6edc18f9960f1a18a5f2943f8702fb",
+      "delta_cost": 2227,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 6839,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 56
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "7298ef8410bd44a072d7d7e35cc0b5a9cd120fa606df88dbfbfef2a3b5f48f2d",
+      "delta_cost": 2240,
+      "metric_delta": {
+        "receiver_denied_seconds": 8,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 8914,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 6674,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "7298ef8410bd44a072d7d7e35cc0b5a9cd120fa606df88dbfbfef2a3b5f48f2d",
+      "delta_cost": 2240,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 8914,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 6674,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "9b12e971477d9929eb8a08c0cbc4045922ab92fe87fd1115a026dc4296573419",
+      "delta_cost": 2209,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 8997,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 24
+          }
+        },
+        "60": {
+          "cost": 6788,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 64,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 47
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "9b12e971477d9929eb8a08c0cbc4045922ab92fe87fd1115a026dc4296573419",
+      "delta_cost": 2209,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 8997,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 74,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 6788,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 55
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "2d3d6999b137635c4d9703f52f04e0d3e895ff89d684dde7ec5b4e63fd03a7c5",
+      "delta_cost": 2286,
+      "metric_delta": {
+        "receiver_denied_seconds": 20,
+        "receiver_denied_attempts": 20,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 8590,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 54,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 6304,
+          "receiver_denied_seconds": 34,
+          "receiver_denied_attempts": 34,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 34,
+          "refusal_events_by_movement": {
+            "L": 22,
+            "S": 12
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "2d3d6999b137635c4d9703f52f04e0d3e895ff89d684dde7ec5b4e63fd03a7c5",
+      "delta_cost": 2286,
+      "metric_delta": {
+        "receiver_denied_seconds": 17,
+        "receiver_denied_attempts": 17,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 8590,
+          "receiver_denied_seconds": 55,
+          "receiver_denied_attempts": 55,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 55,
+          "refusal_events_by_movement": {
+            "L": 54,
+            "S": 1
+          }
+        },
+        "60": {
+          "cost": 6304,
+          "receiver_denied_seconds": 38,
+          "receiver_denied_attempts": 38,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 38,
+          "refusal_events_by_movement": {
+            "L": 22,
+            "S": 16
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "ba17b1fc0695423cdf89a54a2576aa60c1a5a598ca4c7dd6bdc7b6dee72b930e",
+      "delta_cost": 2827,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11983,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 5
+          }
+        },
+        "60": {
+          "cost": 9156,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 57,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 28
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88401,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "ba17b1fc0695423cdf89a54a2576aa60c1a5a598ca4c7dd6bdc7b6dee72b930e",
+      "delta_cost": 2827,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 6
+      },
+      "arms": {
+        "30": {
+          "cost": 11983,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 74,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 7
+          }
+        },
+        "60": {
+          "cost": 9156,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 36
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "8aaa1cb6ef20c5795a88237dd4f36066e63124ab7d0f636a06e134f3606329de",
+      "delta_cost": 2452,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9784,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 62,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 7332,
+          "receiver_denied_seconds": 53,
+          "receiver_denied_attempts": 53,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 53,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 24
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "8aaa1cb6ef20c5795a88237dd4f36066e63124ab7d0f636a06e134f3606329de",
+      "delta_cost": 2452,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 9784,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 68,
+          "refusal_events_by_movement": {
+            "L": 62,
+            "S": 6
+          }
+        },
+        "60": {
+          "cost": 7332,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 36
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "be07e386c191eb232687d91d5fa02b5cfec9afffa8673dfd821972a5705993a0",
+      "delta_cost": 2828,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11918,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 2
+          }
+        },
+        "60": {
+          "cost": 9090,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 25
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88402,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "be07e386c191eb232687d91d5fa02b5cfec9afffa8673dfd821972a5705993a0",
+      "delta_cost": 2828,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 6
+      },
+      "arms": {
+        "30": {
+          "cost": 11918,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 4
+          }
+        },
+        "60": {
+          "cost": 9090,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 33
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "384c996907d814bacf151e38a1f76fa62cd56a72fad4b358634b57e2a86d0e58",
+      "delta_cost": 2579,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 10395,
+          "receiver_denied_seconds": 67,
+          "receiver_denied_attempts": 67,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 67,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 7816,
+          "receiver_denied_seconds": 53,
+          "receiver_denied_attempts": 53,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 53,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 24
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "384c996907d814bacf151e38a1f76fa62cd56a72fad4b358634b57e2a86d0e58",
+      "delta_cost": 2579,
+      "metric_delta": {
+        "receiver_denied_seconds": 8,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 6
+      },
+      "arms": {
+        "30": {
+          "cost": 10395,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 2
+          }
+        },
+        "60": {
+          "cost": 7816,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 32
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "a25e42002aca672b8e2c0841e1c7c737e87f962bf79ebbfe59abd81b3d796f82",
+      "delta_cost": 2829,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11929,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 4
+          }
+        },
+        "60": {
+          "cost": 9100,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 57,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 28
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88403,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "a25e42002aca672b8e2c0841e1c7c737e87f962bf79ebbfe59abd81b3d796f82",
+      "delta_cost": 2829,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 7
+      },
+      "arms": {
+        "30": {
+          "cost": 11929,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 14,
+          "total_distinct_refused_event_ticks": 74,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 7
+          }
+        },
+        "60": {
+          "cost": 9100,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 36
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "timestamp_sha256": "7a5854580fdd9e6f2078a90b3e5a23dcae6d5fbe56d614bdbbc461fe737a756e",
+      "delta_cost": 2448,
+      "metric_delta": {
+        "receiver_denied_seconds": 11,
+        "receiver_denied_attempts": 11,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9092,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 62,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 6644,
+          "receiver_denied_seconds": 51,
+          "receiver_denied_attempts": 51,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 51,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 22
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "timestamp_sha256": "7a5854580fdd9e6f2078a90b3e5a23dcae6d5fbe56d614bdbbc461fe737a756e",
+      "delta_cost": 2448,
+      "metric_delta": {
+        "receiver_denied_seconds": 4,
+        "receiver_denied_attempts": 4,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9092,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 62,
+            "S": 1
+          }
+        },
+        "60": {
+          "cost": 6644,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 59,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 30
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "timestamp_sha256": "745605a3bbefa36e8f7b96b239d5be8eebeeb99b5082f4d86ea67bf4cfdea3cd",
+      "delta_cost": 2828,
+      "metric_delta": {
+        "receiver_denied_seconds": 18,
+        "receiver_denied_attempts": 18,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11952,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 3
+          }
+        },
+        "60": {
+          "cost": 9124,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 52,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 23
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88404,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "timestamp_sha256": "745605a3bbefa36e8f7b96b239d5be8eebeeb99b5082f4d86ea67bf4cfdea3cd",
+      "delta_cost": 2828,
+      "metric_delta": {
+        "receiver_denied_seconds": 12,
+        "receiver_denied_attempts": 12,
+        "ever_denied_unique_ids": 6
+      },
+      "arms": {
+        "30": {
+          "cost": 11952,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 5
+          }
+        },
+        "60": {
+          "cost": 9124,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 60,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 31
+          }
+        }
+      }
+    }
+  ],
+  "scope": "New timestamp seeds 88401–88404 under two preserved T2 fork topologies; labels 86001/86002, two arrival families; time draws reused across left shares. Cost is full network vehicle-seconds, not field delay. Tie-decision default fixed60. This is a within-engine out-of-time-tape holdout, not independent microsimulation."
+}
