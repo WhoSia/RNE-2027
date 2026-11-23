@@ -56,9 +56,29 @@ def replay(cfg, tape, cp, period, onset):
                      "lane": e["lane"]} for e in result["service_events"]
                     if e["reason"] == "stopline_cross" and e["t"] >= 84),
                    key=lambda e: (e["t"], str(e["id"]), e["lane"]))
+    # Infer actual downstream network departures from consecutive post-tick receiver
+    # snapshots; first comparison uses the frozen receiver before tick 84.
+    previous = {item[1]: item[2] for item in cp["state"]["receiver"].snapshot()}
+    downstream_departures = []
+    for f in result["frames"]:
+        if f["t"] < 84:
+            continue
+        current = {item[1]: item[2] for item in f["receiver"]}
+        leaving = set(previous) - set(current)
+        assert len(leaving) <= 1, ("multiple downstream departures", f["t"])
+        for vehicle_id in leaving:
+            downstream_departures.append({"t": f["t"], "id": vehicle_id,
+                                          "movement": previous[vehicle_id]})
+        previous = current
+    old_count = cp["state"]["count"]
+    expected_departures = sum(result["network_out_" + m] - old_count["network_out_" + m]
+                              for m in ("S", "L"))
+    assert len(downstream_departures) == expected_departures, (
+        "downstream departure conservation", len(downstream_departures), expected_departures)
     return {"cost": score(result, 0), "denied": result["receiver_denied_seconds"],
             "full_red": red_full, "zones": zone, "vehicle_zones": vehicle,
-            "scalar": scalar, "crossings": exits}
+            "scalar": scalar, "crossings": exits,
+            "downstream_departures": downstream_departures}
 
 
 def experiment():
@@ -100,7 +120,9 @@ def experiment():
                                      category=category, delta=delta, zone_delta=zone_delta,
                                      # Crossing order is a case study, not a universal mechanism.
                                      short_first_crossings=short["crossings"][:30],
-                                     long_first_crossings=long["crossings"][:30]))
+                                     long_first_crossings=long["crossings"][:30],
+                                     short_first_downstream_departures=short["downstream_departures"][:30],
+                                     long_first_downstream_departures=long["downstream_departures"][:30]))
     assert len(rows) == 192
     assert groups[("green", "blockage_down_cost_up")] == 12
     assert groups[("red", "blockage_down_cost_up")] == 43
