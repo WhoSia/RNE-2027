@@ -1,0 +1,524 @@
+{
+  "rows": [
+    {
+      "seed": 402,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "4c2f7f3b9b58f23345e9ccf18a6d54555ae9f6a3c1522bd823aa348058dd052f",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 402,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "9efa40b96924ceaa46341314165c20ff2e57ac6bc009e5e4ce7ec123ea156377",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        6458.0,
+        6897.5
+      ],
+      "sumo_delta": 439.5
+    },
+    {
+      "seed": 402,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "148d0c03cdc0d47488f119405b289e26e45a5a2be47c8ef539ba0ee58571e9cc",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 402,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "ee33978e44d4bb953ad049d92d212db911d778e7216db9bd73e2624a7f8f98a1",
+      "delta0": -129,
+      "delta60": -189,
+      "sumo_costs": [
+        6894.25,
+        6895.5
+      ],
+      "sumo_delta": 1.25
+    },
+    {
+      "seed": 402,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "0e661acdd8aec15220f350be5c21e123ddaaaae98769c77a865f232730c1dcec",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12778.25,
+        12276.5
+      ],
+      "sumo_delta": -501.75
+    },
+    {
+      "seed": 402,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "3c991983a096a4288f8d0d2b1007d1aed1fde9e88c31e4fe6e037aa74c48b11b",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 402,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "892255a910b6ce5b46691662dae27d1d1c621cd4c621dfbc34303b3b3400884e",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12276.5,
+        12670.25
+      ],
+      "sumo_delta": 393.75
+    },
+    {
+      "seed": 402,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "69e615a5b2443145de3a387fc82a534fa797e9e6a9c0e48b5d98eaec27960578",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16692.5,
+        16692.5
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "13b08d3e64dcedd1e226e5cc3d3f0015f989b60323783a77c68eebb46661f28c",
+      "delta0": -15,
+      "delta60": -15,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "ddb31b65285001b84aa1b7abb9769462a54b6d570061832b46c5e5885bb913da",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        5761.75,
+        5983.25
+      ],
+      "sumo_delta": 221.5
+    },
+    {
+      "seed": 403,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "6310e06d9172a120bda0c565fd7446e3bf35fb0e5dc84bb054ddc19b30737052",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "2df74cebe6579b7458db6610c2418df82d809c0315f6db8735352f9127640061",
+      "delta0": -17,
+      "delta60": -17,
+      "sumo_costs": [
+        6292.25,
+        6635.0
+      ],
+      "sumo_delta": 342.75
+    },
+    {
+      "seed": 403,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "63c4e68f3ae9c7c56b7020382f7fc77bb3ef5f6917047d66fe6b1f0cb0ac06da",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        13013.75,
+        13013.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "7f1fbd81e366f792818a699dd043c0d299bda5ad334807cd7afb8c862eff2ac6",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "452c86797b4cc0bc451ac79fa4ad195483d18f7ec09765472bc612626a7ef5ac",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12512.0,
+        12512.0
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 403,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "0daa7a3789aba8963db8bc180caa88d5c06eadf920e00d6974dd4c7bbbfd6e51",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 404,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "f997664893e155d08dcab621094884e22793ff5b50c0bd799e615486ce237411",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 404,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "66cfa80e7d9f959fac78561e25c4b33905eeead939258ae0e949114ed6720182",
+      "delta0": -129,
+      "delta60": -189,
+      "sumo_costs": [
+        6408.0,
+        6635.25
+      ],
+      "sumo_delta": 227.25
+    },
+    {
+      "seed": 404,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "230edc5ebb8acfa00ca10b1e0031036d13ddf33aa4a8e3c182b820ecc834c2b5",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 404,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "8c1feccfc712c24de24bd6ee402e74948818d679ad63cdf1e6c0ccde5dcab76c",
+      "delta0": -129,
+      "delta60": -189,
+      "sumo_costs": [
+        6440.25,
+        6656.75
+      ],
+      "sumo_delta": 216.5
+    },
+    {
+      "seed": 404,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "2cda59b2fe4fadc2e90b7365554a3256c571f51394e06fa59ecfff04670b0232",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12905.75,
+        13123.25
+      ],
+      "sumo_delta": 217.5
+    },
+    {
+      "seed": 404,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "585d591d06215964ca4076dd1a038f93cc9d367fe19f723afdf904198dacc368",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 404,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "614ae5989f0423a81129521a976206da29167347474c872a6356ffe567eb81b4",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12512.0,
+        12512.0
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 404,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "9f4024a779dbf67a9184f4fd6655213b69e74e46600279eec2394787206896d2",
+      "delta0": -129,
+      "delta60": -189,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 405,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "13310be49e17d8b92fb614135e4ab1d426c2e1e68181d0807f2765d20d653168",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 405,
+      "demand": 900,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "4c6d4cf716877020d939ec8e89bf56f57cb074e098c3b5e51455250f70153977",
+      "delta0": -15,
+      "delta60": -15,
+      "sumo_costs": [
+        6895.25,
+        6245.5
+      ],
+      "sumo_delta": -649.75
+    },
+    {
+      "seed": 405,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "c9e91fc4ed5de58c30bdbb6c0b0225da786106a3e68e7a2d54ff4a4940a5bec0",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        3987.75,
+        3987.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 405,
+      "demand": 900,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "6940345187fc03aa169c5660d6d75a1feff5e35a56a5a2310e8fd8928775c996",
+      "delta0": -129,
+      "delta60": -189,
+      "sumo_costs": [
+        6299.0,
+        6641.75
+      ],
+      "sumo_delta": 342.75
+    },
+    {
+      "seed": 405,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "5481a57a3d9536bb55e10994d688aecb56d7c9b64b5463d06db1fbb06692291b",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12512.25,
+        12512.25
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 405,
+      "demand": 1800,
+      "turn": 0.2,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "e75e3d4089ef4d838d2c1b1aa95a1821fda403aacbff162d755790fd3bc7a349",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    },
+    {
+      "seed": 405,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "uniform",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "4445ab35320cdc9f40e9b85b814e537a438714ed7267757d7672bd9d39776904",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        12512.25,
+        13123.5
+      ],
+      "sumo_delta": 611.25
+    },
+    {
+      "seed": 405,
+      "demand": 1800,
+      "turn": 0.5,
+      "family": "platoon4",
+      "capacity": 4,
+      "offset": 15,
+      "tape": "df066f780a239c7d019af0b7c180d3b7e94330cc29536ed05314bd91830592b1",
+      "delta0": 0,
+      "delta60": 0,
+      "sumo_costs": [
+        16691.75,
+        16691.75
+      ],
+      "sumo_delta": 0.0
+    }
+  ],
+  "counts": {
+    "improved/improved": 1,
+    "improved/tie": 2,
+    "improved/worse": 5,
+    "tie/improved": 1,
+    "tie/tie": 18,
+    "tie/worse": 5
+  }
+}
