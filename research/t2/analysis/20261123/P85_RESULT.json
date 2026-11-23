@@ -1,0 +1,61 @@
+{
+  "split_ranks_by_offset_order": {
+    "0/left_first": {
+      "1": 38,
+      "0": 32,
+      "-1": 26
+    },
+    "0/through_first": {
+      "0": 48,
+      "1": 33,
+      "-1": 15
+    },
+    "15/left_first": {
+      "0": 54,
+      "1": 7,
+      "-1": 35
+    },
+    "15/through_first": {
+      "-1": 73,
+      "1": 21,
+      "0": 2
+    },
+    "30/left_first": {
+      "1": 8,
+      "-1": 88
+    },
+    "30/through_first": {
+      "-1": 63,
+      "1": 33
+    },
+    "45/left_first": {
+      "1": 35,
+      "-1": 61
+    },
+    "45/through_first": {
+      "0": 35,
+      "1": 36,
+      "-1": 25
+    }
+  },
+  "paired": {
+    "order_effect/6": {
+      "-1": 94,
+      "1": 256,
+      "0": 34
+    },
+    "order_effect/10": {
+      "-1": 112,
+      "1": 224,
+      "0": 48
+    },
+    "offset_strict_reversal/left_first": {
+      "False": 54,
+      "True": 42
+    },
+    "offset_strict_reversal/through_first": {
+      "False": 75,
+      "True": 21
+    }
+  }
+}
