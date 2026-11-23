@@ -1,0 +1,93 @@
+{
+  "status": "P132_TOPOLOGY_AUDIT_COMPLETE",
+  "replayed_simulator_arms": 0,
+  "input_sources": [
+    "P127_RESULT.json",
+    "P129_RESULT.json",
+    "P130_RESULT.json",
+    "P131_RESULT.json"
+  ],
+  "p129_p130_p131_distinct_simulator_arms": 160,
+  "p129_legacy_regression_exact_arms": 32,
+  "paradox_counts_by_left_share": {
+    "0.5": {
+      "shared4": 3,
+      "separate2+2": 2,
+      "separate4+4": 1,
+      "separate2+2_shared_exit_S_first": 2,
+      "separate2+2_shared_exit_L_first": 5
+    },
+    "0.75": {
+      "shared4": 8,
+      "separate2+2": 1,
+      "separate4+4": 1,
+      "separate2+2_shared_exit_S_first": 1,
+      "separate2+2_shared_exit_L_first": 1
+    }
+  },
+  "s_first_vs_l_first_compared_tapes": 16,
+  "paradox_label_flips": 3,
+  "paradox_label_flip_rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "s_first": {
+        "cost_delta": 538,
+        "denied_delta": 0,
+        "paradox": false
+      },
+      "l_first": {
+        "cost_delta": 390,
+        "denied_delta": -7,
+        "paradox": true
+      },
+      "cost_delta_change": -148,
+      "denied_delta_change": -7
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "s_first": {
+        "cost_delta": 755,
+        "denied_delta": 2,
+        "paradox": false
+      },
+      "l_first": {
+        "cost_delta": 755,
+        "denied_delta": -2,
+        "paradox": true
+      },
+      "cost_delta_change": 0,
+      "denied_delta_change": -4
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "s_first": {
+        "cost_delta": 784,
+        "denied_delta": 2,
+        "paradox": false
+      },
+      "l_first": {
+        "cost_delta": 784,
+        "denied_delta": -2,
+        "paradox": true
+      },
+      "cost_delta_change": 0,
+      "denied_delta_change": -4
+    }
+  ],
+  "unchanged_cost_contrast_count": 12,
+  "unchanged_denied_contrast_count": 0,
+  "cost_sign_flips": 0,
+  "headline": "Paradox label flips in three tapes when the split-receiver global-exit tie arbitration changes; in two of three the signed network cost contrast stays numerically identical but local receiver-denial sign reverses.",
+  "metric_caution": "receiver_denied_seconds is one tick-level boolean for any denied upstream receiver-admission attempt, not the sum of individual vehicle waiting seconds. The period contrast in this indicator can flip under exit precedence without a cost-ranking flip.",
+  "topology_caution": "shared4 vs separate2+2 conserves aggregate receiving CELL COUNT but not link traversal length or downstream service order. separate4+4 doubles storage and service opportunities. Any cross-topology causal isolation statement is invalid.",
+  "status_limits": "Exact arithmetic, deterministic fork controls, same T2 model. No SUMO, no empirical validation or known theorem novelty. These same 16 label/timestamp tapes appear in P129–P131 and are not independent draws across interventions."
+}
