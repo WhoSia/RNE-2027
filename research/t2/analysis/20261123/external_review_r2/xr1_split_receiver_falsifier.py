@@ -72,7 +72,12 @@ def main():
                                                  sum_delta_cost=sum(r["delta_cost"] for r in sub),
                                                  by_family={f: sum(r["paradox"] for r in sub if r["family"] == f) for f in FAMILIES})
     split = summary["0.75/C4/split_same_clock"]["paradox"]
-    verdict = ("REQUIRES_SHARED_RECEIVER" if split <= 8 else "SURVIVES_SEPARATION" if split >= 24 else "PARTIAL")
+    # The frozen XR1 gate used <=8/32 to label sharing 'required'. That is
+    # logically invalid when ANY split-link paradox remains (7/32 observed).
+    # Preserve counts; correct only the post-hoc INTERPRETATION, not the gate.
+    verdict = ("NO_SPLIT_PARADOX_OBSERVED_NOT_PROVEN_NECESSARY" if split == 0 else
+               "STRONG_ATTENUATION_WITH_RESIDUAL" if split <= 8 else
+               "SURVIVES_SEPARATION" if split >= 24 else "PARTIAL")
     # secondary: full offset grid
     ov = {p: {phi: left_overlap(phi, p) for phi in range(p)} for p in (30, 60)}
     grid = []
