@@ -1,0 +1,1454 @@
+{
+  "status": "P133_DENIAL_METRICS_64_ARMS_REPLAY_COMPLETE",
+  "prereg": "P133_DENIAL_METRIC_SENSITIVITY_PREREG.md",
+  "new_simulator_arms": 64,
+  "matched_period_pairs": 32,
+  "unique_demand_tapes": 16,
+  "all_id_complete": true,
+  "original_p130_p131_exact_regression": true,
+  "metrics": [
+    "receiver_denied_seconds",
+    "receiver_denied_attempts",
+    "ever_denied_unique_ids"
+  ],
+  "by_share_priority": {
+    "0.5": {
+      "S_first": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 0
+      },
+      "L_first": {
+        "receiver_denied_seconds": 5,
+        "receiver_denied_attempts": 5,
+        "ever_denied_unique_ids": 0
+      }
+    },
+    "0.75": {
+      "S_first": {
+        "receiver_denied_seconds": 1,
+        "receiver_denied_attempts": 1,
+        "ever_denied_unique_ids": 0
+      },
+      "L_first": {
+        "receiver_denied_seconds": 1,
+        "receiver_denied_attempts": 1,
+        "ever_denied_unique_ids": 0
+      }
+    }
+  },
+  "paradox_label_flips_under_priority": {
+    "receiver_denied_seconds": 3,
+    "receiver_denied_attempts": 2,
+    "ever_denied_unique_ids": 0
+  },
+  "paradox_label_flips_with_identical_cost_delta": {
+    "receiver_denied_seconds": 2,
+    "receiver_denied_attempts": 1,
+    "ever_denied_unique_ids": 0
+  },
+  "changed_labels": [
+    {
+      "metric": "receiver_denied_seconds",
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "sfirst_delta": 0,
+      "lfirst_delta": -7,
+      "cost_sfirst": 538,
+      "cost_lfirst": 390
+    },
+    {
+      "metric": "receiver_denied_seconds",
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "sfirst_delta": 2,
+      "lfirst_delta": -2,
+      "cost_sfirst": 755,
+      "cost_lfirst": 755
+    },
+    {
+      "metric": "receiver_denied_seconds",
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "sfirst_delta": 2,
+      "lfirst_delta": -2,
+      "cost_sfirst": 784,
+      "cost_lfirst": 784
+    },
+    {
+      "metric": "receiver_denied_attempts",
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "sfirst_delta": 0,
+      "lfirst_delta": -7,
+      "cost_sfirst": 538,
+      "cost_lfirst": 390
+    },
+    {
+      "metric": "receiver_denied_attempts",
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "sfirst_delta": 2,
+      "lfirst_delta": -2,
+      "cost_sfirst": 784,
+      "cost_lfirst": 784
+    }
+  ],
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 545,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 1
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 5053,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 50
+          }
+        },
+        "60": {
+          "cost": 4508,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 68,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 76
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 309,
+      "metric_delta": {
+        "receiver_denied_seconds": 0,
+        "receiver_denied_attempts": 0,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4965,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 97,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 60
+          }
+        },
+        "60": {
+          "cost": 4656,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 97,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 86
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 825,
+      "metric_delta": {
+        "receiver_denied_seconds": 13,
+        "receiver_denied_attempts": 13,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 5368,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 46
+          }
+        },
+        "60": {
+          "cost": 4543,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 60,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 61
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 517,
+      "metric_delta": {
+        "receiver_denied_seconds": 4,
+        "receiver_denied_attempts": 4,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 5208,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 88,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 76,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 51
+          }
+        },
+        "60": {
+          "cost": 4691,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 73
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 538,
+      "metric_delta": {
+        "receiver_denied_seconds": 0,
+        "receiver_denied_attempts": 0,
+        "ever_denied_unique_ids": 1
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4849,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 47
+          }
+        },
+        "60": {
+          "cost": 4311,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 73
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 390,
+      "metric_delta": {
+        "receiver_denied_seconds": -7,
+        "receiver_denied_attempts": -7,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4849,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 78,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 52
+          }
+        },
+        "60": {
+          "cost": 4459,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 85,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 85
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 716,
+      "metric_delta": {
+        "receiver_denied_seconds": 12,
+        "receiver_denied_attempts": 12,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 5281,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 39,
+            "S": 42
+          }
+        },
+        "60": {
+          "cost": 4565,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 58
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 406,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 5119,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 47
+          }
+        },
+        "60": {
+          "cost": 4713,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 70
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 755,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": -11,
+        "ever_denied_unique_ids": 0
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4438,
+          "receiver_denied_seconds": 48,
+          "receiver_denied_attempts": 48,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 48,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 11
+          }
+        },
+        "60": {
+          "cost": 3683,
+          "receiver_denied_seconds": 46,
+          "receiver_denied_attempts": 59,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 46,
+          "refusal_events_by_movement": {
+            "L": 6,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 755,
+      "metric_delta": {
+        "receiver_denied_seconds": -2,
+        "receiver_denied_attempts": -19,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4438,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 52,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 15
+          }
+        },
+        "60": {
+          "cost": 3683,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 6,
+            "S": 65
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 774,
+      "metric_delta": {
+        "receiver_denied_seconds": -2,
+        "receiver_denied_attempts": -2,
+        "ever_denied_unique_ids": 1
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 6047,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 24
+          }
+        },
+        "60": {
+          "cost": 5273,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 43
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 774,
+      "metric_delta": {
+        "receiver_denied_seconds": -8,
+        "receiver_denied_attempts": -8,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 6047,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 5273,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 51
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 784,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4713,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 17
+          }
+        },
+        "60": {
+          "cost": 3929,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 52,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 41
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 784,
+      "metric_delta": {
+        "receiver_denied_seconds": -2,
+        "receiver_denied_attempts": -2,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 4713,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 9,
+          "total_distinct_refused_event_ticks": 60,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 3929,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 5,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 11,
+            "S": 51
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 838,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -1,
+        "ever_denied_unique_ids": 1
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 6057,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 5219,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 43
+          }
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 838,
+      "metric_delta": {
+        "receiver_denied_seconds": -6,
+        "receiver_denied_attempts": -6,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 6057,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 37,
+            "S": 28
+          }
+        },
+        "60": {
+          "cost": 5219,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 51
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 2244,
+      "metric_delta": {
+        "receiver_denied_seconds": 10,
+        "receiver_denied_attempts": 10,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 6822,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 48
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 2244,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9066,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 76,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 27
+          }
+        },
+        "60": {
+          "cost": 6822,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 56
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 2229,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9082,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 29
+          }
+        },
+        "60": {
+          "cost": 6853,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 64,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 52
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 2229,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9082,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 82,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 74,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 30
+          }
+        },
+        "60": {
+          "cost": 6853,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 60
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 2205,
+      "metric_delta": {
+        "receiver_denied_seconds": 8,
+        "receiver_denied_attempts": 8,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 8829,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 21
+          }
+        },
+        "60": {
+          "cost": 6624,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 45
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 2205,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 5
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 8829,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 23
+          }
+        },
+        "60": {
+          "cost": 6624,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 53
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 2208,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9083,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 70,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 25
+          }
+        },
+        "60": {
+          "cost": 6875,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 48
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 2208,
+      "metric_delta": {
+        "receiver_denied_seconds": 2,
+        "receiver_denied_attempts": 2,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9083,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 71,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 26
+          }
+        },
+        "60": {
+          "cost": 6875,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 69,
+          "refusal_events_by_movement": {
+            "L": 20,
+            "S": 56
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 2327,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -1,
+        "ever_denied_unique_ids": 2
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9045,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 8,
+          "total_distinct_refused_event_ticks": 52,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 6718,
+          "receiver_denied_seconds": 53,
+          "receiver_denied_attempts": 53,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 53,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 24
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 2327,
+      "metric_delta": {
+        "receiver_denied_seconds": -7,
+        "receiver_denied_attempts": -7,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": true,
+        "receiver_denied_attempts": true,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9045,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 52,
+            "S": 2
+          }
+        },
+        "60": {
+          "cost": 6718,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 6,
+          "total_distinct_refused_event_ticks": 61,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 32
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 2827,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 11976,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 73,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 6
+          }
+        },
+        "60": {
+          "cost": 9149,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 29
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 2827,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 6
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 11976,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 13,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 8
+          }
+        },
+        "60": {
+          "cost": 9149,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 66,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 37
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "S_first",
+      "delta_cost": 2452,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 3
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9832,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 10,
+          "total_distinct_refused_event_ticks": 63,
+          "refusal_events_by_movement": {
+            "L": 63,
+            "S": 0
+          }
+        },
+        "60": {
+          "cost": 7380,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 54,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 54,
+          "refusal_events_by_movement": {
+            "L": 30,
+            "S": 24
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "priority": "L_first",
+      "delta_cost": 2452,
+      "metric_delta": {
+        "receiver_denied_seconds": 3,
+        "receiver_denied_attempts": 3,
+        "ever_denied_unique_ids": 5
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 9832,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 12,
+          "total_distinct_refused_event_ticks": 65,
+          "refusal_events_by_movement": {
+            "L": 63,
+            "S": 2
+          }
+        },
+        "60": {
+          "cost": 7380,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 62,
+          "refusal_events_by_movement": {
+            "L": 30,
+            "S": 32
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "S_first",
+      "delta_cost": 2831,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 4
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 11926,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 11,
+          "total_distinct_refused_event_ticks": 72,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 5
+          }
+        },
+        "60": {
+          "cost": 9095,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 58,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 29
+          }
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "priority": "L_first",
+      "delta_cost": 2831,
+      "metric_delta": {
+        "receiver_denied_seconds": 9,
+        "receiver_denied_attempts": 9,
+        "ever_denied_unique_ids": 7
+      },
+      "paradox_by_metric": {
+        "receiver_denied_seconds": false,
+        "receiver_denied_attempts": false,
+        "ever_denied_unique_ids": false
+      },
+      "arms": {
+        "30": {
+          "cost": 11926,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 14,
+          "total_distinct_refused_event_ticks": 75,
+          "refusal_events_by_movement": {
+            "L": 67,
+            "S": 8
+          }
+        },
+        "60": {
+          "cost": 9095,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 7,
+          "total_distinct_refused_event_ticks": 66,
+          "refusal_events_by_movement": {
+            "L": 29,
+            "S": 37
+          }
+        }
+      }
+    }
+  ],
+  "interpretation_limits": "Only local measure definitions differ, and each can depend on lane competition. Attempts, denied seconds and unique IDs are not direct vehicle waiting time. T2 same source; per-tape policy comparisons share traffic identities and routes. No field/SUMO."
+}
