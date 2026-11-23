@@ -1,0 +1,41 @@
+{
+  "status": "P125_CUMULATIVE_DEPARTURE_IDENTITY_RECONSTRUCTED",
+  "prereg": "P125_CUMULATIVE_DEPARTURE_IDENTITY_PREREG.md",
+  "source": "P124_RESULT.json",
+  "replayed_t2_arms": 0,
+  "changed_identity_count": 50,
+  "first_cumulative_departure_difference_tick": 114,
+  "max_absolute_cumulative_departure_difference": 3,
+  "extremum_first_tick": 204,
+  "extremum_tick_204": true,
+  "windows": [
+    {
+      "start": 84,
+      "end": 114,
+      "delta": 0
+    },
+    {
+      "start": 114,
+      "end": 144,
+      "delta": -1
+    },
+    {
+      "start": 144,
+      "end": 204,
+      "delta": -49
+    },
+    {
+      "start": 204,
+      "end": 324,
+      "delta": -257
+    },
+    {
+      "start": 324,
+      "end": 4800,
+      "delta": -425
+    }
+  ],
+  "total_delta": -732,
+  "proof": "For identical arrivals A(t), after-tick occupancy N_p(t)=A(t)-D_p(t). So N_a(t)-N_b(t)=D_b(t)-D_a(t), and its time integral equals total vehicle-seconds difference. With full clearing and matched IDs, total difference also equals sum_i(exit_a(i)-exit_b(i)).",
+  "limits": "Known queueing mass-balance identity; not a novel finding or independently validated causal mechanism."
+}
