@@ -18,22 +18,50 @@ HERE = Path(__file__).resolve().parent
 ZONES = ("outside", "approach_A", "approach_B", "pocket", "receiver")
 
 
-def aggregate(result):
-    """Frame emitted AFTER entry and movements, exactly as scalar score accumulates."""
+def aggregate(result, checkpoint, tape):
+    """Post-tick occupancy, with all active IDs/turn movements, including OUTSIDE.
+
+    Do not modify the engine or guess an outside vehicle's movement from
+    aggregate queue size: reconstruct outside identities from the immutable
+    arrival tape and snapshot, removing them only when they are seen inside.
+    """
     total = Counter()
+    by_movement = {"L": Counter(), "S": Counter()}
     vehicles = {}
+    waiting = {v[0]: v[1] for queue in checkpoint["state"]["outside"].values()
+               for v in queue}
+    future = {}
+    for i, (t, movement) in enumerate(tape):
+        if t >= 84:
+            future.setdefault(t, []).append((i, movement))
     for f in result["frames"]:
         if f["t"] < 84:
             continue
-        values = {"outside": f["outside"], "approach_A": len(f["A"]),
-                  "approach_B": len(f["B"]), "pocket": len(f["pocket"]),
-                  "receiver": len(f["receiver"])}
-        total.update(values)
-        for zone in ("approach_A", "approach_B", "pocket"):
-            entries = f["pocket"] if zone == "pocket" else f[zone]
-            for item in entries:
-                vehicles.setdefault(item[1], Counter())[zone] += 1
-    return dict(total), vehicles
+        for vehicle_id, movement in future.get(f["t"], ()):
+            assert vehicle_id not in waiting
+            waiting[vehicle_id] = movement
+        groups = {
+            "approach_A": [(item[1], item[2]) for item in f["A"]],
+            "approach_B": [(item[1], item[2]) for item in f["B"]],
+            "pocket": [(item[1], "L") for item in f["pocket"]],
+            "receiver": [(item[1], item[2]) for item in f["receiver"]]
+        }
+        ids_inside = [vehicle_id for group in groups.values() for vehicle_id, _ in group]
+        assert len(ids_inside) == len(set(ids_inside))
+        for vehicle_id in ids_inside:
+            waiting.pop(vehicle_id, None)
+        assert len(waiting) == f["outside"], (
+            "outside identity conservation", f["t"], len(waiting), f["outside"])
+        groups["outside"] = list(waiting.items())
+        for zone, entries in groups.items():
+            total[zone] += len(entries)
+            for vehicle_id, movement in entries:
+                assert movement in ("L", "S"), ("unknown route", f["t"], vehicle_id)
+                by_movement[movement][zone] += 1
+                vehicles.setdefault(vehicle_id, Counter())[zone] += 1
+        assert sum(len(entries) for entries in groups.values()) == (
+            f["outside"] + len(ids_inside))
+    return dict(total), {m: dict(z) for m,z in by_movement.items()}, vehicles
 
 
 def replay(cfg, tape, cp, period, onset):
@@ -45,7 +73,7 @@ def replay(cfg, tape, cp, period, onset):
     with patch.object(ReceivingCells, "green", green):
         result = run(cfg, tape, resume_from=cp, phase_overrides=phases(6, "left_first"), trace=True)
     assert result["remaining"] == 0 and result["generated"] == len(tape)
-    zone, vehicle = aggregate(result)
+    zone, by_movement, vehicle = aggregate(result, cp, tape)
     scalar = {k: result[k] for k in
               ("outside_vehicle_seconds", "upstream_vehicle_seconds", "receiver_vehicle_seconds")}
     # The checkpoint has common pre-84 scalar counters; compare two arms via deltas, not absolutes.
@@ -77,7 +105,7 @@ def replay(cfg, tape, cp, period, onset):
         "downstream departure conservation", len(downstream_departures), expected_departures)
     return {"cost": score(result, 0), "denied": result["receiver_denied_seconds"],
             "full_red": red_full, "zones": zone, "vehicle_zones": vehicle,
-            "scalar": scalar, "crossings": exits,
+            "scalar": scalar, "by_movement": by_movement, "crossings": exits,
             "downstream_departures": downstream_departures}
 
 
@@ -108,16 +136,25 @@ def experiment():
                 long["scalar"]["upstream_vehicle_seconds"])
             assert zone_delta["receiver"] == (short["scalar"]["receiver_vehicle_seconds"] -
                                               long["scalar"]["receiver_vehicle_seconds"])
+            movement_delta = {
+                m: {zone: short["by_movement"][m].get(zone, 0)
+                       - long["by_movement"][m].get(zone, 0) for zone in ZONES}
+                for m in ("L", "S")}
+            for zone in ZONES:
+                assert sum(movement_delta[m][zone] for m in ("L", "S")) == zone_delta[zone]
+            assert sum(sum(z.values()) for z in movement_delta.values()) == delta["cost"]
             category = ("blockage_down_cost_up" if delta["denied"] < 0 < delta["cost"]
                         else "both_down" if delta["denied"] < 0 and delta["cost"] < 0
                         else "other")
             groups[(onset, category)] += 1
             rows.append(dict(seed=seed, share=share, clock=clock, onset=onset,
-                             category=category, delta=delta, zone_delta=zone_delta))
+                             category=category, delta=delta, zone_delta=zone_delta,
+                             movement_zone_delta=movement_delta))
             if category in ("blockage_down_cost_up", "both_down") and not any(
                     e["onset"] == onset and e["category"] == category for e in examples):
                 examples.append(dict(seed=seed, share=share, clock=clock, onset=onset,
                                      category=category, delta=delta, zone_delta=zone_delta,
+                                     movement_zone_delta=movement_delta,
                                      # Crossing order is a case study, not a universal mechanism.
                                      short_first_crossings=short["crossings"][:30],
                                      long_first_crossings=long["crossings"][:30],
