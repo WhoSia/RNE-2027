@@ -1,0 +1,2980 @@
+{
+  "status": "P141_PREDECLARED_FAIL",
+  "prereg": "P141_DEMAND_CONDITIONED_GUARD_PREREG.md",
+  "simulator_arms": 128,
+  "matched_pairs": 64,
+  "distinct_demand_tapes": 16,
+  "time_seeds": [
+    89001,
+    89002
+  ],
+  "all_cleared": true,
+  "event_logs_crosschecked": true,
+  "receiver_topology": "movement_separate_shared_exit",
+  "checkpoint_time": 84,
+  "calibration": "threshold 14 and share<=.5 selected after P140 outcomes; P141 new time seeds",
+  "pooled": {
+    "n": 64,
+    "calendar": {
+      "correct": 59,
+      "total_regret": 3111
+    },
+    "guard": {
+      "correct": 57,
+      "total_regret": 5107
+    },
+    "fixed30": {
+      "correct": 37,
+      "total_regret": 39924
+    },
+    "fixed60": {
+      "correct": 27,
+      "total_regret": 130484
+    },
+    "triggered": 2,
+    "helpful": 0,
+    "harmful": 2
+  },
+  "by_offset": {
+    "0,30": {
+      "n": 16,
+      "calendar": {
+        "correct": 15,
+        "total_regret": 174
+      },
+      "guard": {
+        "correct": 15,
+        "total_regret": 174
+      },
+      "fixed30": {
+        "correct": 1,
+        "total_regret": 9218
+      },
+      "fixed60": {
+        "correct": 15,
+        "total_regret": 174
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "15,0": {
+      "n": 16,
+      "calendar": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed60": {
+        "correct": 0,
+        "total_regret": 31296
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    },
+    "7,15": {
+      "n": 16,
+      "calendar": {
+        "correct": 12,
+        "total_regret": 2937
+      },
+      "guard": {
+        "correct": 10,
+        "total_regret": 4933
+      },
+      "fixed30": {
+        "correct": 4,
+        "total_regret": 30706
+      },
+      "fixed60": {
+        "correct": 12,
+        "total_regret": 2937
+      },
+      "triggered": 2,
+      "helpful": 0,
+      "harmful": 2
+    },
+    "23,45": {
+      "n": 16,
+      "calendar": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 0
+      },
+      "fixed60": {
+        "correct": 0,
+        "total_regret": 96077
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "by_share": {
+    "0.5": {
+      "n": 32,
+      "calendar": {
+        "correct": 27,
+        "total_regret": 3111
+      },
+      "guard": {
+        "correct": 25,
+        "total_regret": 5107
+      },
+      "fixed30": {
+        "correct": 21,
+        "total_regret": 10223
+      },
+      "fixed60": {
+        "correct": 11,
+        "total_regret": 40004
+      },
+      "triggered": 2,
+      "helpful": 0,
+      "harmful": 2
+    },
+    "0.75": {
+      "n": 32,
+      "calendar": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "guard": {
+        "correct": 32,
+        "total_regret": 0
+      },
+      "fixed30": {
+        "correct": 16,
+        "total_regret": 29701
+      },
+      "fixed60": {
+        "correct": 16,
+        "total_regret": 90480
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "by_family": {
+    "stochastic_uniform": {
+      "n": 32,
+      "calendar": {
+        "correct": 29,
+        "total_regret": 1418
+      },
+      "guard": {
+        "correct": 27,
+        "total_regret": 3414
+      },
+      "fixed30": {
+        "correct": 19,
+        "total_regret": 19334
+      },
+      "fixed60": {
+        "correct": 13,
+        "total_regret": 63813
+      },
+      "triggered": 2,
+      "helpful": 0,
+      "harmful": 2
+    },
+    "stochastic_platoon4": {
+      "n": 32,
+      "calendar": {
+        "correct": 30,
+        "total_regret": 1693
+      },
+      "guard": {
+        "correct": 30,
+        "total_regret": 1693
+      },
+      "fixed30": {
+        "correct": 18,
+        "total_regret": 20590
+      },
+      "fixed60": {
+        "correct": 14,
+        "total_regret": 66671
+      },
+      "triggered": 0,
+      "helpful": 0,
+      "harmful": 0
+    }
+  },
+  "within_tape_paired_regret": {
+    "calendar_better": 2,
+    "guard_better": 0,
+    "equal": 14
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "f4c88f6bfc3ee45645f8838fe49cb760e83516a268d52dcfda5b2e40b503614b",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 5252,
+          "receiver_denied_seconds": 104,
+          "receiver_denied_attempts": 129,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4021,
+          "receiver_denied_seconds": 54,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 1231,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "f4c88f6bfc3ee45645f8838fe49cb760e83516a268d52dcfda5b2e40b503614b",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 4749,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6399,
+          "receiver_denied_seconds": 127,
+          "receiver_denied_attempts": 139,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -1650,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "f4c88f6bfc3ee45645f8838fe49cb760e83516a268d52dcfda5b2e40b503614b",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 4857,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 95,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 5575,
+          "receiver_denied_seconds": 107,
+          "receiver_denied_attempts": 164,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -718,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "f4c88f6bfc3ee45645f8838fe49cb760e83516a268d52dcfda5b2e40b503614b",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 10,
+      "arms": {
+        "30": {
+          "cost": 4397,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7774,
+          "receiver_denied_seconds": 129,
+          "receiver_denied_attempts": 141,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -3377,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "e926ae346652584a3169be45ae96a94a29d879482a188e20ae672dbebedbbace",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 6267,
+          "receiver_denied_seconds": 104,
+          "receiver_denied_attempts": 129,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4566,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 1701,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "e926ae346652584a3169be45ae96a94a29d879482a188e20ae672dbebedbbace",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5504,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7097,
+          "receiver_denied_seconds": 139,
+          "receiver_denied_attempts": 151,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -1593,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "e926ae346652584a3169be45ae96a94a29d879482a188e20ae672dbebedbbace",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5329,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6062,
+          "receiver_denied_seconds": 107,
+          "receiver_denied_attempts": 173,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -733,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "e926ae346652584a3169be45ae96a94a29d879482a188e20ae672dbebedbbace",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5323,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7691,
+          "receiver_denied_seconds": 115,
+          "receiver_denied_attempts": 127,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2368,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "2a19106286d0db9cfce7cce71557a4ef97edd75c5b3557ccabc59b74b868a83e",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5368,
+          "receiver_denied_seconds": 102,
+          "receiver_denied_attempts": 115,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 3887,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 1481,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "2a19106286d0db9cfce7cce71557a4ef97edd75c5b3557ccabc59b74b868a83e",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 4449,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6096,
+          "receiver_denied_seconds": 137,
+          "receiver_denied_attempts": 137,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -1647,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "2a19106286d0db9cfce7cce71557a4ef97edd75c5b3557ccabc59b74b868a83e",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 4637,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 88,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 5163,
+          "receiver_denied_seconds": 107,
+          "receiver_denied_attempts": 163,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -526,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "2a19106286d0db9cfce7cce71557a4ef97edd75c5b3557ccabc59b74b868a83e",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 4424,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 88,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7053,
+          "receiver_denied_seconds": 128,
+          "receiver_denied_attempts": 128,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2629,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3b73ca741fabf180cde91f54c555f354d903721c17c6a28a26ff8594797551e7",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6256,
+          "receiver_denied_seconds": 106,
+          "receiver_denied_attempts": 131,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4555,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": 1701,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3b73ca741fabf180cde91f54c555f354d903721c17c6a28a26ff8594797551e7",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5271,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6574,
+          "receiver_denied_seconds": 138,
+          "receiver_denied_attempts": 150,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -1303,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3b73ca741fabf180cde91f54c555f354d903721c17c6a28a26ff8594797551e7",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5091,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 99,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6051,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 175,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -960,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3b73ca741fabf180cde91f54c555f354d903721c17c6a28a26ff8594797551e7",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 5312,
+          "receiver_denied_seconds": 90,
+          "receiver_denied_attempts": 102,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7455,
+          "receiver_denied_seconds": 114,
+          "receiver_denied_attempts": 126,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      },
+      "delta_cost": -2143,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "cad216a5dea881fd75ca6eb9ac2381bc92ce28ce9714fe2a26dea81eadbd6ba4",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 16,
+      "arms": {
+        "30": {
+          "cost": 4505,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4679,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -174,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "cad216a5dea881fd75ca6eb9ac2381bc92ce28ce9714fe2a26dea81eadbd6ba4",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 16,
+      "arms": {
+        "30": {
+          "cost": 5792,
+          "receiver_denied_seconds": 41,
+          "receiver_denied_attempts": 41,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 6812,
+          "receiver_denied_seconds": 91,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1020,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "cad216a5dea881fd75ca6eb9ac2381bc92ce28ce9714fe2a26dea81eadbd6ba4",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 16,
+      "arms": {
+        "30": {
+          "cost": 5299,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4430,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 869,
+      "choices": {
+        "calendar": 60,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "cad216a5dea881fd75ca6eb9ac2381bc92ce28ce9714fe2a26dea81eadbd6ba4",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 1
+      },
+      "q_upstream": 16,
+      "arms": {
+        "30": {
+          "cost": 5101,
+          "receiver_denied_seconds": 36,
+          "receiver_denied_attempts": 36,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 8526,
+          "receiver_denied_seconds": 97,
+          "receiver_denied_attempts": 97,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3425,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "384aa991aadd726b5a119842bac6bf46bdc4170d39db7b0142df2305050f338d",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 5306,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 84,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5235,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 71,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "384aa991aadd726b5a119842bac6bf46bdc4170d39db7b0142df2305050f338d",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 6007,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7768,
+          "receiver_denied_seconds": 123,
+          "receiver_denied_attempts": 123,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1761,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "384aa991aadd726b5a119842bac6bf46bdc4170d39db7b0142df2305050f338d",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 5986,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5094,
+          "receiver_denied_seconds": 90,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 892,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "384aa991aadd726b5a119842bac6bf46bdc4170d39db7b0142df2305050f338d",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 10,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 5516,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9473,
+          "receiver_denied_seconds": 107,
+          "receiver_denied_attempts": 107,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3957,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e3dde9df82a6e6bd8b459507e0a0eed843415de46c0e240b16a55becd37a8547",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 4512,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4489,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 23,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e3dde9df82a6e6bd8b459507e0a0eed843415de46c0e240b16a55becd37a8547",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 5362,
+          "receiver_denied_seconds": 49,
+          "receiver_denied_attempts": 49,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 6516,
+          "receiver_denied_seconds": 100,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1154,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e3dde9df82a6e6bd8b459507e0a0eed843415de46c0e240b16a55becd37a8547",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 5387,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4260,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 1127,
+      "choices": {
+        "calendar": 60,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e3dde9df82a6e6bd8b459507e0a0eed843415de46c0e240b16a55becd37a8547",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 2,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 4751,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 8466,
+          "receiver_denied_seconds": 106,
+          "receiver_denied_attempts": 106,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3715,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "91ea89ba40ca9968a5a0eaf32a7cb99ac59456ee64b5b2f357ad0b4feb26b154",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5319,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5248,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 71,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "91ea89ba40ca9968a5a0eaf32a7cb99ac59456ee64b5b2f357ad0b4feb26b154",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 6089,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7300,
+          "receiver_denied_seconds": 119,
+          "receiver_denied_attempts": 119,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -1211,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "91ea89ba40ca9968a5a0eaf32a7cb99ac59456ee64b5b2f357ad0b4feb26b154",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 6163,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5107,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": 1056,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "91ea89ba40ca9968a5a0eaf32a7cb99ac59456ee64b5b2f357ad0b4feb26b154",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 9,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 11,
+      "arms": {
+        "30": {
+          "cost": 5615,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9555,
+          "receiver_denied_seconds": 105,
+          "receiver_denied_attempts": 105,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      },
+      "delta_cost": -3940,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "96bb9cea0e436d82287fb77556c12244872013a1aa1c1f0b425ffd5fbc040936",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 6504,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 83,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6252,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 252,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "96bb9cea0e436d82287fb77556c12244872013a1aa1c1f0b425ffd5fbc040936",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 8495,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 10664,
+          "receiver_denied_seconds": 138,
+          "receiver_denied_attempts": 138,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2169,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "96bb9cea0e436d82287fb77556c12244872013a1aa1c1f0b425ffd5fbc040936",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 8451,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5336,
+          "receiver_denied_seconds": 90,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 3115,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "96bb9cea0e436d82287fb77556c12244872013a1aa1c1f0b425ffd5fbc040936",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 11,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 12,
+      "arms": {
+        "30": {
+          "cost": 7038,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15030,
+          "receiver_denied_seconds": 166,
+          "receiver_denied_attempts": 166,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7992,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1dd3b15439abc085b6e912afd52cca62ea3b65ef0324f63e0aa8fea5bc1e06ee",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 7111,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6876,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 235,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1dd3b15439abc085b6e912afd52cca62ea3b65ef0324f63e0aa8fea5bc1e06ee",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 9086,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11145,
+          "receiver_denied_seconds": 121,
+          "receiver_denied_attempts": 129,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2059,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1dd3b15439abc085b6e912afd52cca62ea3b65ef0324f63e0aa8fea5bc1e06ee",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 9086,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6278,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 97,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2808,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "1dd3b15439abc085b6e912afd52cca62ea3b65ef0324f63e0aa8fea5bc1e06ee",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 12,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 13,
+      "arms": {
+        "30": {
+          "cost": 7714,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 93,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15510,
+          "receiver_denied_seconds": 161,
+          "receiver_denied_attempts": 169,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7796,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "540601659bfb46a20c5bf1b2c3db856f642361c3b88d84e99133f4f8bfc6651a",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 6246,
+          "receiver_denied_seconds": 77,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5979,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 267,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "540601659bfb46a20c5bf1b2c3db856f642361c3b88d84e99133f4f8bfc6651a",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 8231,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 10283,
+          "receiver_denied_seconds": 131,
+          "receiver_denied_attempts": 131,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2052,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "540601659bfb46a20c5bf1b2c3db856f642361c3b88d84e99133f4f8bfc6651a",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 8226,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 88,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5377,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 88,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2849,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "540601659bfb46a20c5bf1b2c3db856f642361c3b88d84e99133f4f8bfc6651a",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 6840,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 14719,
+          "receiver_denied_seconds": 161,
+          "receiver_denied_attempts": 161,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7879,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2050bd715cdfa123a2e9a7ceb538f21653e0ca6ff3b91881f1268f623c1d3e89",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 7100,
+          "receiver_denied_seconds": 77,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6865,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 235,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2050bd715cdfa123a2e9a7ceb538f21653e0ca6ff3b91881f1268f623c1d3e89",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 9091,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11208,
+          "receiver_denied_seconds": 148,
+          "receiver_denied_attempts": 156,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -2117,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2050bd715cdfa123a2e9a7ceb538f21653e0ca6ff3b91881f1268f623c1d3e89",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 9073,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6267,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": 2806,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2050bd715cdfa123a2e9a7ceb538f21653e0ca6ff3b91881f1268f623c1d3e89",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 14,
+      "arms": {
+        "30": {
+          "cost": 7703,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15505,
+          "receiver_denied_seconds": 160,
+          "receiver_denied_attempts": 168,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      },
+      "delta_cost": -7802,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e19fc9789f3f8dc6c3030aa12d964323fffba39d7bb6ab82647cb27415a7d0b",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 8708,
+          "receiver_denied_seconds": 36,
+          "receiver_denied_attempts": 36,
+          "ever_denied_unique_ids": 3,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 8135,
+          "receiver_denied_seconds": 41,
+          "receiver_denied_attempts": 41,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 573,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e19fc9789f3f8dc6c3030aa12d964323fffba39d7bb6ab82647cb27415a7d0b",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 11369,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14133,
+          "receiver_denied_seconds": 102,
+          "receiver_denied_attempts": 102,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -2764,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e19fc9789f3f8dc6c3030aa12d964323fffba39d7bb6ab82647cb27415a7d0b",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 10599,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7223,
+          "receiver_denied_seconds": 52,
+          "receiver_denied_attempts": 52,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 3376,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_uniform",
+      "time_sha256": "2e19fc9789f3f8dc6c3030aa12d964323fffba39d7bb6ab82647cb27415a7d0b",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 9180,
+          "receiver_denied_seconds": 39,
+          "receiver_denied_attempts": 39,
+          "ever_denied_unique_ids": 3,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 18269,
+          "receiver_denied_seconds": 140,
+          "receiver_denied_attempts": 140,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -9089,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2414b70ad8d8cab1a89dcf026957f0570a5246b7e232d7928506eabaf269725b",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 15,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 17,
+      "arms": {
+        "30": {
+          "cost": 9518,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 9111,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 407,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2414b70ad8d8cab1a89dcf026957f0570a5246b7e232d7928506eabaf269725b",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 15,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 17,
+      "arms": {
+        "30": {
+          "cost": 11938,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14972,
+          "receiver_denied_seconds": 124,
+          "receiver_denied_attempts": 124,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -3034,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2414b70ad8d8cab1a89dcf026957f0570a5246b7e232d7928506eabaf269725b",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 15,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 17,
+      "arms": {
+        "30": {
+          "cost": 11838,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 13,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7738,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 4100,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89001,
+      "family": "stochastic_platoon4",
+      "time_sha256": "2414b70ad8d8cab1a89dcf026957f0570a5246b7e232d7928506eabaf269725b",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 15,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 17,
+      "arms": {
+        "30": {
+          "cost": 9959,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 20389,
+          "receiver_denied_seconds": 167,
+          "receiver_denied_attempts": 167,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -10430,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e268793ab6fcc7fc69c07b29a97acf62d06cc7d31ef627aca84ff73524d18cd7",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 8531,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7968,
+          "receiver_denied_seconds": 53,
+          "receiver_denied_attempts": 53,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 563,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e268793ab6fcc7fc69c07b29a97acf62d06cc7d31ef627aca84ff73524d18cd7",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 10545,
+          "receiver_denied_seconds": 62,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 13272,
+          "receiver_denied_seconds": 100,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -2727,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e268793ab6fcc7fc69c07b29a97acf62d06cc7d31ef627aca84ff73524d18cd7",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 10402,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 6794,
+          "receiver_denied_seconds": 69,
+          "receiver_denied_attempts": 69,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 3608,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_uniform",
+      "time_sha256": "e268793ab6fcc7fc69c07b29a97acf62d06cc7d31ef627aca84ff73524d18cd7",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 19,
+        "approach_B": 0,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 20,
+      "arms": {
+        "30": {
+          "cost": 8963,
+          "receiver_denied_seconds": 39,
+          "receiver_denied_attempts": 39,
+          "ever_denied_unique_ids": 3,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 18069,
+          "receiver_denied_seconds": 140,
+          "receiver_denied_attempts": 140,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -9106,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3055ba7156bfa810bbb796a4c822cb22a29204be5da41d869208b798c25e0d94",
+      "phi30": 0,
+      "phi60": 30,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 9531,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 9124,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 407,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3055ba7156bfa810bbb796a4c822cb22a29204be5da41d869208b798c25e0d94",
+      "phi30": 15,
+      "phi60": 0,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 11953,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14988,
+          "receiver_denied_seconds": 125,
+          "receiver_denied_attempts": 125,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -3035,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3055ba7156bfa810bbb796a4c822cb22a29204be5da41d869208b798c25e0d94",
+      "phi30": 7,
+      "phi60": 15,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 11851,
+          "receiver_denied_seconds": 90,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 13,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7751,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": 4100,
+      "choices": {
+        "calendar": 60,
+        "guard": 60,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 89002,
+      "family": "stochastic_platoon4",
+      "time_sha256": "3055ba7156bfa810bbb796a4c822cb22a29204be5da41d869208b798c25e0d94",
+      "phi30": 23,
+      "phi60": 45,
+      "prestate": {
+        "outside_A": 0,
+        "outside_B": 0,
+        "approach_A": 13,
+        "approach_B": 1,
+        "pocket_vehicles": 1,
+        "receiver_vehicles": 0
+      },
+      "q_upstream": 15,
+      "arms": {
+        "30": {
+          "cost": 9975,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 20404,
+          "receiver_denied_seconds": 168,
+          "receiver_denied_attempts": 168,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      },
+      "delta_cost": -10429,
+      "choices": {
+        "calendar": 30,
+        "guard": 30,
+        "fixed30": 30,
+        "fixed60": 60
+      }
+    }
+  ],
+  "limitations": "Synthetic same T2 engine; route label seed reuse across shares; 4 offsets per 16 arrival tapes; no physical detector validation; no independent SUMO parity."
+}
