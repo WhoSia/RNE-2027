@@ -1,0 +1,230 @@
+{
+  "artifact": "P105_LIRA_RESULT.json",
+  "protocol": "P104 observational funnel + LIRA claim-warrant register",
+  "scores_are": "current claim-adoption recommendation, NOT truth probabilities",
+  "retain_threshold": 0.8,
+  "source_files": [
+    "P35_FORWARD_ONLY_TIMING_FULL_20261123.json",
+    "P36_CROSSWALK_RESULT.json",
+    "P37_NIGHT_ROUTE_RESULT.json",
+    "P38_GREEN_OBSERVATION_RESULT.json",
+    "P101_RESULT.json",
+    "P102_RESULT.json"
+  ],
+  "field_counts": {
+    "crossings": 17,
+    "prior_1s": 16,
+    "east_hypotheses": 5,
+    "route_compatible": 4,
+    "official_head_ownership": 0,
+    "confirmed_downstream_final_exits": 0,
+    "green_slots": 292,
+    "no_selected_frame": 176,
+    "selected_noncrossing_frames": 114
+  },
+  "decision_counts": {
+    "KEEP": 7,
+    "REJECT": 7
+  },
+  "claims": [
+    {
+      "id": "OBS01",
+      "claim": "There are 17 map-derived 50ms geometric stopline-center crossing candidates.",
+      "lira": 0.96,
+      "decision": "KEEP",
+      "defect_severity": "P2",
+      "evidence": [
+        "P35 event_records=17; each bracket 50ms"
+      ],
+      "warrant": "P34 geometry/P35 independent time-join source checks support exactly the candidate count.",
+      "rival": "2015 map stripe need not equal 2023 physical paint.",
+      "change_to_reassess": "Require independent surveyed 2023 line before upgrading to physical ground truth.",
+      "scope": "same-source geometric candidates"
+    },
+    {
+      "id": "OBS02",
+      "claim": "At least one prior signal sample is no older than 1s at bracket end for 16/17 candidates.",
+      "lira": 0.94,
+      "decision": "KEEP",
+      "defect_severity": "P2",
+      "evidence": [
+        "P35 freshness_at_bracket_end[1.0]=16/17"
+      ],
+      "warrant": "Causally eligible sample at or before start of each 50ms bracket.",
+      "rival": "Sampled code may change between observations.",
+      "change_to_reassess": "Reassess with exact clock drift and controller event timestamps.",
+      "scope": "past sample freshness only"
+    },
+    {
+      "id": "OBS03",
+      "claim": "Nearest-time matching can leak future information: 11/17 P35 candidates.",
+      "lira": 0.95,
+      "decision": "KEEP",
+      "defect_severity": "P1",
+      "evidence": [
+        "P35 crossings_with_nearest_hindsight_sample_future=11"
+      ],
+      "warrant": "Compare retrospective nearest timestamp to crossing time.",
+      "rival": "Future time sample is not necessarily a different signal code.",
+      "change_to_reassess": "Reassess with event-synchronous signal feed.",
+      "scope": "sampling leakage only"
+    },
+    {
+      "id": "MAP01",
+      "claim": "A physical 2023 signal-head-to-movement mapping is established for 5 eastern candidates.",
+      "lira": 0.12,
+      "decision": "REJECT",
+      "defect_severity": "P0",
+      "evidence": [
+        "P36 five hypothetical lane-group candidates",
+        "P35 status unmapped 17/17"
+      ],
+      "warrant": "Lane-group hypotheses are not official controller head ownership.",
+      "rival": "Historical daytime map transfer might be correct but is unverified.",
+      "change_to_reassess": "Require independently surveyed controller-phase/approach mapping.",
+      "scope": "real controller mapping"
+    },
+    {
+      "id": "PATH01",
+      "claim": "Four of five hypothesized eastern candidates follow expected ordered receiver-entry routes.",
+      "lira": 0.86,
+      "decision": "KEEP",
+      "defect_severity": "P2",
+      "evidence": [
+        "P37 3/4 group3; 1/1 group4, windows 10/20/40s"
+      ],
+      "warrant": "Sequential map-cell path support within same tracking source, not independent physical exit.",
+      "rival": "Mapping and detection from the same map/tracking data create correlated errors.",
+      "change_to_reassess": "Reassess using independent camera or verified end-of-link detections.",
+      "scope": "same-source route plausibility"
+    },
+    {
+      "id": "EXIT01",
+      "claim": "Four route-compatible trajectories prove their final downstream segment exit times.",
+      "lira": 0.06,
+      "decision": "REJECT",
+      "defect_severity": "P0",
+      "evidence": [
+        "P37 route entry only",
+        "P80/P81 downstream terminal unobserved"
+      ],
+      "warrant": "Entry to receiver is not terminal departure.",
+      "rival": "Fragmented track may be caused by capture boundaries, not blockage.",
+      "change_to_reassess": "Acquire terminal crossing ID and synchronized end-of-link observation.",
+      "scope": "physical terminal event"
+    },
+    {
+      "id": "GREEN01",
+      "claim": "All 292 observed green-bracket slots have valid classified simultaneous upstream/receiver frames.",
+      "lira": 0.07,
+      "decision": "REJECT",
+      "defect_severity": "P0",
+      "evidence": [
+        "P38 only 114 selected non-crossing frames; 176 none"
+      ],
+      "warrant": "Observed screen has missing and ambiguous intervals.",
+      "rival": "Absence of one tracked center is not absence of traffic.",
+      "change_to_reassess": "Create synchronized complete occupancy ground truth for denominator.",
+      "scope": "field blockage prevalence"
+    },
+    {
+      "id": "GREEN02",
+      "claim": "No concurrently slow upstream and receiver center seen in 114 selected frames proves no blockage.",
+      "lira": 0.04,
+      "decision": "REJECT",
+      "defect_severity": "P0",
+      "evidence": [
+        "P38 4 slow-upstream-only, 0 both in 114 selected frames"
+      ],
+      "warrant": "Failure to detect is not a false-negative-bounded ground-truth classification.",
+      "rival": "Field of view and timing selection are incomplete.",
+      "change_to_reassess": "Calibrate detection sensitivity and label upstream/downstream occupancy.",
+      "scope": "field congestion diagnosis"
+    },
+    {
+      "id": "SIM01",
+      "claim": "The P101 red-onset high-left-share 64/64 left-delay pattern is reproducible within the T2 model.",
+      "lira": 0.92,
+      "decision": "KEEP",
+      "defect_severity": "P2",
+      "evidence": [
+        "P101 64/64 red onset; 128/128 source-locked spatial identity"
+      ],
+      "warrant": "Matched P100 cohort, all 256 replay arms clear; same engine.",
+      "rival": "Vehicle priority and 4-slot geometry may structurally generate pattern.",
+      "change_to_reassess": "Reassess if physical geometry or independent-engine replication breaks it.",
+      "scope": "conditional simulator result"
+    },
+    {
+      "id": "SIM02",
+      "claim": "P101 constitutes a fresh independent replication of P100.",
+      "lira": 0.03,
+      "decision": "REJECT",
+      "defect_severity": "P0",
+      "evidence": [
+        "P101 same 64 P100 tapes, explicit P101 prereg"
+      ],
+      "warrant": "Nested mechanism analysis does not create new independent sampling units.",
+      "rival": "Separate tracing adds explanatory resolution, not independent sampling.",
+      "change_to_reassess": "Use independent engine and distinct held-out locations.",
+      "scope": "evidence independence"
+    },
+    {
+      "id": "EXT01",
+      "claim": "P71 SUMO comparisons directly falsify P100 downstream 30s vs 60s results.",
+      "lira": 0.09,
+      "decision": "REJECT",
+      "defect_severity": "P1",
+      "evidence": [
+        "P102 says P71 compares upstream left green 10s vs 6s"
+      ],
+      "warrant": "Treatment, downstream offset and physical geometry differ.",
+      "rival": "P71 nonetheless motivates cross-engine concern.",
+      "change_to_reassess": "Run P100 exact intervention with isomorphic independent simulation.",
+      "scope": "cross-engine transport"
+    },
+    {
+      "id": "EXT02",
+      "claim": "Geometry-matched independent engine and mapped field exits are needed before real policy claims.",
+      "lira": 0.96,
+      "decision": "KEEP",
+      "defect_severity": "P1",
+      "evidence": [
+        "P102 P71 SUMO rank agreement 2/64 at offset15 under different intervention",
+        "P35 head ownership unknown"
+      ],
+      "warrant": "Current evidence does not identify physical policy causal impact.",
+      "rival": "Independent engine alone would still not establish real intersection benefit.",
+      "change_to_reassess": "Update after verified geometry parity and field head/end crossing.",
+      "scope": "research decision"
+    },
+    {
+      "id": "TIME01",
+      "claim": "P99 identical signed costs after extending a fully-cleared horizon validates physical delay mechanisms.",
+      "lira": 0.14,
+      "decision": "REJECT",
+      "defect_severity": "P1",
+      "evidence": [
+        "P99 768/768 exact signed pair match after t1440→1464"
+      ],
+      "warrant": "No remaining vehicles means additional empty ticks add zero occupancy.",
+      "rival": "It checks horizon bookkeeping, not physical fidelity.",
+      "change_to_reassess": "Construct active-arrival near-horizon stress with terminal censor rules.",
+      "scope": "model validation strength"
+    },
+    {
+      "id": "LIRA01",
+      "claim": "LIRA 0..1 is a present recommendation to retain the scope-limited claim, not a Bayesian probability.",
+      "lira": 0.99,
+      "decision": "KEEP",
+      "defect_severity": "P2",
+      "evidence": [
+        "research method: LIRA kept >=0.80"
+      ],
+      "warrant": "Scores are explicit editorial research judgments with rival and change trigger.",
+      "rival": "No calibration claims.",
+      "change_to_reassess": "Revise interpretation if original LIRA protocol changes.",
+      "scope": "research governance"
+    }
+  ]
+}
