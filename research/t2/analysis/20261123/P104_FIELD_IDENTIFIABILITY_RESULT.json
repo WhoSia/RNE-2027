@@ -1,0 +1,63 @@
+{
+  "analysis": "P104 field identifiability attrition audit; evidence availability NOT probability of correct signal/transport",
+  "source_blobs": {
+    "P35_FORWARD_ONLY_TIMING_FULL_20261123.json": "877c80866acb4c792d448e08007b19764068a88b",
+    "P36_CROSSWALK_RESULT.json": "0aa5c16e7dc72d0b81c68d7301d592d1743a3944",
+    "P37_NIGHT_ROUTE_RESULT.json": "b435ae355ad478e7665f15f4b70de531c0c34931",
+    "P38_GREEN_OBSERVATION_RESULT.json": "34f6a9fa8a4b9ec7b0d1ed3a450244618c3c4dff"
+  },
+  "crossing_candidates": 17,
+  "source_arms": {
+    "East": 5,
+    "South": 5,
+    "West": 7
+  },
+  "candidate_crossings_sampled_head_map_verified": 0,
+  "causal_fresh_at_bracket_end": {
+    "under_0_25_s": 3,
+    "under_0_5_s": 6,
+    "under_1_s": 16
+  },
+  "nearest_future": 11,
+  "nearest_after_bracket": 10,
+  "east_hypothesis": {
+    "candidate_mapped_lane_group": 5,
+    "unmapped_other_candidates": 12,
+    "within_1s": 5,
+    "group_3_straight_expected_route": 3,
+    "group_3_straight_missing_route": 1,
+    "group_4_left_expected_route": 1
+  },
+  "green_bracket_screen": {
+    "slots": 292,
+    "frame_available": 114,
+    "frame_missing": 176,
+    "direct_crossing": 1,
+    "ambiguous_crossing": 1,
+    "slow_upstream_observed": 4,
+    "simultaneously_slow_upstream_and_receiver": 0
+  },
+  "unobserved": {
+    "official_head_to_movement_identity": 0,
+    "observed_downstream_terminal_exit": 0,
+    "observed_blockage_groundtruth": 0,
+    "real_policy_effect": 0
+  },
+  "interpretation": [
+    "The 5 east lane-group candidates are NOT 5 official confirmed controlling signal heads",
+    "4 route-compatible trajectories share source/map assumptions and lack downstream end crossing",
+    "The 292 green-bracket slots are not 292 independently classified vehicle outcomes; 176 have no selected frame",
+    "Zero observed concurrent slow centers in the 114 selected frames cannot be interpreted as zero true blockage",
+    "No physical controlling signal map or downstream terminal exit supports causal signal-policy evaluation"
+  ],
+  "lira_rules": {
+    "score_means": "current recommendation to retain scoped claim, NOT truth probability",
+    "keep_threshold": 0.8,
+    "priority_labels": {
+      "P0": "fatal inference error",
+      "P1": "major reasoning/evidence defect",
+      "P2": "scope or clarity weakness",
+      "P3": "minor wording"
+    }
+  }
+}
