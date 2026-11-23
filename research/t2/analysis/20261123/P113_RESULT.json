@@ -1,0 +1,605 @@
+{
+  "status": "T2_CHECKPOINT_STATE_EXPORTED_NOT_SUMO_PARITY",
+  "tape_states": 4,
+  "id_conservation_passed": 4,
+  "full_predecision_departure_included": true,
+  "physically_unobserved_velocity_count": "all present vehicle IDs",
+  "records": [
+    {
+      "seed": 86001,
+      "family": "uniform",
+      "checkpoint": {
+        "decision_s": 84,
+        "processed_tape_arrivals": 21,
+        "predecision_departed": 4,
+        "predecision_active": 17,
+        "predecision_departures": [
+          {
+            "t": 60,
+            "vehicle_id": 1,
+            "movement": "S"
+          },
+          {
+            "t": 62,
+            "vehicle_id": 0,
+            "movement": "S"
+          },
+          {
+            "t": 64,
+            "vehicle_id": 2,
+            "movement": "S"
+          },
+          {
+            "t": 71,
+            "vehicle_id": 11,
+            "movement": "S"
+          }
+        ],
+        "occupied_groups": {
+          "A": [
+            {
+              "cell": -19,
+              "vehicle_id": 20,
+              "movement": "L",
+              "arrived_second": 82
+            },
+            {
+              "cell": -16,
+              "vehicle_id": 19,
+              "movement": "S",
+              "arrived_second": 78
+            },
+            {
+              "cell": -15,
+              "vehicle_id": 18,
+              "movement": "L",
+              "arrived_second": 74
+            },
+            {
+              "cell": -14,
+              "vehicle_id": 17,
+              "movement": "L",
+              "arrived_second": 70
+            },
+            {
+              "cell": -13,
+              "vehicle_id": 16,
+              "movement": "L",
+              "arrived_second": 66
+            },
+            {
+              "cell": -12,
+              "vehicle_id": 15,
+              "movement": "L",
+              "arrived_second": 62
+            },
+            {
+              "cell": -11,
+              "vehicle_id": 14,
+              "movement": "L",
+              "arrived_second": 58
+            },
+            {
+              "cell": -10,
+              "vehicle_id": 13,
+              "movement": "L",
+              "arrived_second": 54
+            },
+            {
+              "cell": -9,
+              "vehicle_id": 12,
+              "movement": "L",
+              "arrived_second": 50
+            },
+            {
+              "cell": -8,
+              "vehicle_id": 10,
+              "movement": "L",
+              "arrived_second": 42
+            },
+            {
+              "cell": -7,
+              "vehicle_id": 9,
+              "movement": "L",
+              "arrived_second": 38
+            },
+            {
+              "cell": -6,
+              "vehicle_id": 8,
+              "movement": "L",
+              "arrived_second": 34
+            },
+            {
+              "cell": -5,
+              "vehicle_id": 7,
+              "movement": "L",
+              "arrived_second": 30
+            },
+            {
+              "cell": -4,
+              "vehicle_id": 6,
+              "movement": "L",
+              "arrived_second": 26
+            },
+            {
+              "cell": -3,
+              "vehicle_id": 5,
+              "movement": "L",
+              "arrived_second": 22
+            },
+            {
+              "cell": -2,
+              "vehicle_id": 4,
+              "movement": "L",
+              "arrived_second": 18
+            }
+          ],
+          "B": [],
+          "pocket": [
+            {
+              "cell": -1,
+              "vehicle_id": 3,
+              "movement": "L",
+              "arrived_second": 14
+            }
+          ],
+          "receiver": [],
+          "outside": []
+        },
+        "receiver_last_exit_second": 71,
+        "last_upstream_stopline": {
+          "A": 41,
+          "B": 67,
+          "L": -999999
+        },
+        "last_admission": {
+          "A": 82,
+          "B": 2
+        },
+        "unobserved_car_following_velocities": true,
+        "warning": "A state with cell locations and IDs is NOT a SUMO physical state: velocities, lane-change execution and driver dynamics must be independently specified."
+      }
+    },
+    {
+      "seed": 86001,
+      "family": "platoon4",
+      "checkpoint": {
+        "decision_s": 84,
+        "processed_tape_arrivals": 19,
+        "predecision_departed": 4,
+        "predecision_active": 15,
+        "predecision_departures": [
+          {
+            "t": 60,
+            "vehicle_id": 0,
+            "movement": "S"
+          },
+          {
+            "t": 62,
+            "vehicle_id": 1,
+            "movement": "S"
+          },
+          {
+            "t": 64,
+            "vehicle_id": 2,
+            "movement": "S"
+          },
+          {
+            "t": 66,
+            "vehicle_id": 11,
+            "movement": "S"
+          }
+        ],
+        "occupied_groups": {
+          "A": [
+            {
+              "cell": -20,
+              "vehicle_id": 18,
+              "movement": "L",
+              "arrived_second": 83
+            },
+            {
+              "cell": -19,
+              "vehicle_id": 17,
+              "movement": "L",
+              "arrived_second": 82
+            },
+            {
+              "cell": -18,
+              "vehicle_id": 16,
+              "movement": "L",
+              "arrived_second": 81
+            },
+            {
+              "cell": -17,
+              "vehicle_id": 15,
+              "movement": "L",
+              "arrived_second": 80
+            },
+            {
+              "cell": -11,
+              "vehicle_id": 14,
+              "movement": "L",
+              "arrived_second": 34
+            },
+            {
+              "cell": -10,
+              "vehicle_id": 13,
+              "movement": "L",
+              "arrived_second": 33
+            },
+            {
+              "cell": -9,
+              "vehicle_id": 12,
+              "movement": "L",
+              "arrived_second": 32
+            },
+            {
+              "cell": -8,
+              "vehicle_id": 10,
+              "movement": "L",
+              "arrived_second": 30
+            },
+            {
+              "cell": -7,
+              "vehicle_id": 9,
+              "movement": "L",
+              "arrived_second": 29
+            },
+            {
+              "cell": -6,
+              "vehicle_id": 8,
+              "movement": "L",
+              "arrived_second": 28
+            },
+            {
+              "cell": -5,
+              "vehicle_id": 7,
+              "movement": "L",
+              "arrived_second": 27
+            },
+            {
+              "cell": -4,
+              "vehicle_id": 6,
+              "movement": "L",
+              "arrived_second": 26
+            },
+            {
+              "cell": -3,
+              "vehicle_id": 5,
+              "movement": "L",
+              "arrived_second": 25
+            },
+            {
+              "cell": -2,
+              "vehicle_id": 4,
+              "movement": "L",
+              "arrived_second": 24
+            }
+          ],
+          "B": [],
+          "pocket": [
+            {
+              "cell": -1,
+              "vehicle_id": 3,
+              "movement": "L",
+              "arrived_second": 23
+            }
+          ],
+          "receiver": [],
+          "outside": []
+        },
+        "receiver_last_exit_second": 66,
+        "last_upstream_stopline": {
+          "A": 43,
+          "B": 52,
+          "L": -999999
+        },
+        "last_admission": {
+          "A": 83,
+          "B": 20
+        },
+        "unobserved_car_following_velocities": true,
+        "warning": "A state with cell locations and IDs is NOT a SUMO physical state: velocities, lane-change execution and driver dynamics must be independently specified."
+      }
+    },
+    {
+      "seed": 86002,
+      "family": "uniform",
+      "checkpoint": {
+        "decision_s": 84,
+        "processed_tape_arrivals": 21,
+        "predecision_departed": 7,
+        "predecision_active": 14,
+        "predecision_departures": [
+          {
+            "t": 26,
+            "vehicle_id": 0,
+            "movement": "L"
+          },
+          {
+            "t": 60,
+            "vehicle_id": 1,
+            "movement": "L"
+          },
+          {
+            "t": 62,
+            "vehicle_id": 2,
+            "movement": "L"
+          },
+          {
+            "t": 64,
+            "vehicle_id": 3,
+            "movement": "L"
+          },
+          {
+            "t": 66,
+            "vehicle_id": 9,
+            "movement": "S"
+          },
+          {
+            "t": 68,
+            "vehicle_id": 10,
+            "movement": "S"
+          },
+          {
+            "t": 83,
+            "vehicle_id": 14,
+            "movement": "S"
+          }
+        ],
+        "occupied_groups": {
+          "A": [
+            {
+              "cell": -19,
+              "vehicle_id": 20,
+              "movement": "L",
+              "arrived_second": 82
+            },
+            {
+              "cell": -15,
+              "vehicle_id": 19,
+              "movement": "L",
+              "arrived_second": 78
+            },
+            {
+              "cell": -11,
+              "vehicle_id": 18,
+              "movement": "L",
+              "arrived_second": 74
+            },
+            {
+              "cell": -10,
+              "vehicle_id": 16,
+              "movement": "L",
+              "arrived_second": 66
+            },
+            {
+              "cell": -9,
+              "vehicle_id": 15,
+              "movement": "L",
+              "arrived_second": 62
+            },
+            {
+              "cell": -8,
+              "vehicle_id": 13,
+              "movement": "L",
+              "arrived_second": 54
+            },
+            {
+              "cell": -7,
+              "vehicle_id": 12,
+              "movement": "L",
+              "arrived_second": 50
+            },
+            {
+              "cell": -6,
+              "vehicle_id": 11,
+              "movement": "L",
+              "arrived_second": 46
+            },
+            {
+              "cell": -5,
+              "vehicle_id": 8,
+              "movement": "L",
+              "arrived_second": 34
+            },
+            {
+              "cell": -4,
+              "vehicle_id": 7,
+              "movement": "L",
+              "arrived_second": 30
+            },
+            {
+              "cell": -3,
+              "vehicle_id": 6,
+              "movement": "L",
+              "arrived_second": 26
+            },
+            {
+              "cell": -2,
+              "vehicle_id": 5,
+              "movement": "L",
+              "arrived_second": 22
+            }
+          ],
+          "B": [
+            {
+              "cell": -7,
+              "vehicle_id": 17,
+              "movement": "S",
+              "arrived_second": 70
+            }
+          ],
+          "pocket": [
+            {
+              "cell": -1,
+              "vehicle_id": 4,
+              "movement": "L",
+              "arrived_second": 18
+            }
+          ],
+          "receiver": [],
+          "outside": []
+        },
+        "receiver_last_exit_second": 83,
+        "last_upstream_stopline": {
+          "A": -999999,
+          "B": 79,
+          "L": 34
+        },
+        "last_admission": {
+          "A": 82,
+          "B": 70
+        },
+        "unobserved_car_following_velocities": true,
+        "warning": "A state with cell locations and IDs is NOT a SUMO physical state: velocities, lane-change execution and driver dynamics must be independently specified."
+      }
+    },
+    {
+      "seed": 86002,
+      "family": "platoon4",
+      "checkpoint": {
+        "decision_s": 84,
+        "processed_tape_arrivals": 19,
+        "predecision_departed": 3,
+        "predecision_active": 16,
+        "predecision_departures": [
+          {
+            "t": 60,
+            "vehicle_id": 10,
+            "movement": "S"
+          },
+          {
+            "t": 62,
+            "vehicle_id": 9,
+            "movement": "S"
+          },
+          {
+            "t": 64,
+            "vehicle_id": 14,
+            "movement": "S"
+          }
+        ],
+        "occupied_groups": {
+          "A": [
+            {
+              "cell": -20,
+              "vehicle_id": 18,
+              "movement": "L",
+              "arrived_second": 83
+            },
+            {
+              "cell": -18,
+              "vehicle_id": 16,
+              "movement": "L",
+              "arrived_second": 81
+            },
+            {
+              "cell": -17,
+              "vehicle_id": 15,
+              "movement": "L",
+              "arrived_second": 80
+            },
+            {
+              "cell": -12,
+              "vehicle_id": 13,
+              "movement": "L",
+              "arrived_second": 33
+            },
+            {
+              "cell": -11,
+              "vehicle_id": 12,
+              "movement": "L",
+              "arrived_second": 32
+            },
+            {
+              "cell": -10,
+              "vehicle_id": 11,
+              "movement": "L",
+              "arrived_second": 31
+            },
+            {
+              "cell": -9,
+              "vehicle_id": 8,
+              "movement": "L",
+              "arrived_second": 28
+            },
+            {
+              "cell": -8,
+              "vehicle_id": 7,
+              "movement": "L",
+              "arrived_second": 27
+            },
+            {
+              "cell": -7,
+              "vehicle_id": 6,
+              "movement": "L",
+              "arrived_second": 26
+            },
+            {
+              "cell": -6,
+              "vehicle_id": 5,
+              "movement": "L",
+              "arrived_second": 25
+            },
+            {
+              "cell": -5,
+              "vehicle_id": 4,
+              "movement": "L",
+              "arrived_second": 24
+            },
+            {
+              "cell": -4,
+              "vehicle_id": 3,
+              "movement": "L",
+              "arrived_second": 23
+            },
+            {
+              "cell": -3,
+              "vehicle_id": 2,
+              "movement": "L",
+              "arrived_second": 22
+            },
+            {
+              "cell": -2,
+              "vehicle_id": 1,
+              "movement": "L",
+              "arrived_second": 21
+            }
+          ],
+          "B": [
+            {
+              "cell": -19,
+              "vehicle_id": 17,
+              "movement": "S",
+              "arrived_second": 82
+            }
+          ],
+          "pocket": [
+            {
+              "cell": -1,
+              "vehicle_id": 0,
+              "movement": "L",
+              "arrived_second": 20
+            }
+          ],
+          "receiver": [],
+          "outside": []
+        },
+        "receiver_last_exit_second": 64,
+        "last_upstream_stopline": {
+          "A": -999999,
+          "B": 55,
+          "L": -999999
+        },
+        "last_admission": {
+          "A": 83,
+          "B": 82
+        },
+        "unobserved_car_following_velocities": true,
+        "warning": "A state with cell locations and IDs is NOT a SUMO physical state: velocities, lane-change execution and driver dynamics must be independently specified."
+      }
+    }
+  ]
+}
