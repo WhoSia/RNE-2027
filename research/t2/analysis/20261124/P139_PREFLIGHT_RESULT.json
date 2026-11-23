@@ -1,0 +1,144 @@
+{
+  "status": "P139_UNINFORMATIVE_NO_TRIGGERS_PREFLIGHT",
+  "evidence_scope": "16 exact t84 checkpoint observations from local T2 P130 code, no full 128-arm P139 holdout run; one 30/60 arm pair executed for diagnostic sanity only",
+  "prereg": "P139_PRESTATE_QUEUE_GUARD_PREREG.md",
+  "preflight_checkpoints": 16,
+  "checkpoints_receiver_vehicles_zero": 16,
+  "predicted_queue_guard_trigger_count": 0,
+  "planned_pairs_not_executed": 64,
+  "planned_full_arms_not_executed": 128,
+  "diagnostic_arm_count_executed": 2,
+  "min_upstream_queue": 8,
+  "max_upstream_queue": 19,
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88801,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 15
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88801,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 12
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88802,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 11
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88802,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 15
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88801,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 8
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88801,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 15
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88802,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 9
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88802,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 11
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88801,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 17
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88801,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 14
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88802,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 13
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88802,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 17
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88801,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 12
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88801,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 19
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88802,
+      "family": "stochastic_uniform",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 12
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88802,
+      "family": "stochastic_platoon4",
+      "receiver_vehicles": 0,
+      "upstream_plus_pocket": 15
+    }
+  ],
+  "conclusion": "Frozen receiver>=3 branch can never activate on this cohort; no added-value result can be inferred. Pre-intervention state-derived queue threshold needs a new prospectively registered experiment, not a hidden change to P139."
+}
