@@ -1,0 +1,69 @@
+{
+  "all": {
+    "improved": 10,
+    "worse": 78,
+    "tie": 424,
+    "mean": 31.22265625
+  },
+  "family=platoon4": {
+    "improved": 10,
+    "worse": 40,
+    "tie": 206,
+    "mean": 26.6640625
+  },
+  "family=uniform": {
+    "improved": 0,
+    "worse": 38,
+    "tie": 218,
+    "mean": 35.78125
+  },
+  "blocked=False": {
+    "improved": 6,
+    "worse": 39,
+    "tie": 211,
+    "mean": 30.078125
+  },
+  "blocked=True": {
+    "improved": 4,
+    "worse": 39,
+    "tie": 213,
+    "mean": 32.3671875
+  },
+  "offset=0": {
+    "improved": 0,
+    "worse": 68,
+    "tie": 188,
+    "mean": 61.90625
+  },
+  "offset=15": {
+    "improved": 10,
+    "worse": 10,
+    "tie": 236,
+    "mean": 0.5390625
+  },
+  "headway=2": {
+    "improved": 10,
+    "worse": 76,
+    "tie": 170,
+    "mean": 61.1953125
+  },
+  "headway=4": {
+    "improved": 0,
+    "worse": 2,
+    "tie": 254,
+    "mean": 1.25
+  },
+  "pocket=7": {
+    "improved": 5,
+    "worse": 34,
+    "tie": 217,
+    "mean": 32.78515625
+  },
+  "pocket=28": {
+    "improved": 5,
+    "worse": 44,
+    "tie": 207,
+    "mean": 29.66015625
+  },
+  "opposite_within_tape": 1
+}
