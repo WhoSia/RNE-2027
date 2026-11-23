@@ -1,0 +1,91 @@
+{
+  "status": "EXPLORATORY_ON_DISCOVERY_GRID_NOT_OUT_OF_SAMPLE",
+  "source": "P114_RESULT.json",
+  "primary_feature": "signed LEFT green-overlap seconds t84..400 (calendar only)",
+  "tested_pairs": 7200,
+  "cohort_count": 4,
+  "pooled": {
+    "total": 7200,
+    "true_tie": 0,
+    "overlap_tie": 176,
+    "strict_prediction_count": 7024,
+    "strict_prediction_correct": 6276,
+    "overall_prediction_correct_with_ties": 6276,
+    "always_30_better_correct": 3854
+  },
+  "pooled_non_tie_accuracy": 0.893507972665148,
+  "pooled_all_accuracy": 0.8716666666666667,
+  "always_30_better_accuracy": 0.5352777777777777,
+  "cohorts": [
+    {
+      "seed": 86001,
+      "family": "uniform",
+      "counts": {
+        "total": 1800,
+        "true_tie": 0,
+        "overlap_tie": 44,
+        "strict_prediction_count": 1756,
+        "strict_prediction_correct": 1559,
+        "overall_prediction_correct_with_ties": 1559,
+        "always_30_better_correct": 983,
+        "spearman_rank_correlation": 0.8956144614821703
+      },
+      "accuracy_non_tie": 0.8878132118451025,
+      "accuracy_all_with_ties": 0.8661111111111112
+    },
+    {
+      "seed": 86001,
+      "family": "platoon4",
+      "counts": {
+        "total": 1800,
+        "true_tie": 0,
+        "overlap_tie": 44,
+        "strict_prediction_count": 1756,
+        "strict_prediction_correct": 1569,
+        "overall_prediction_correct_with_ties": 1569,
+        "always_30_better_correct": 989,
+        "spearman_rank_correlation": 0.8965023258056438
+      },
+      "accuracy_non_tie": 0.893507972665148,
+      "accuracy_all_with_ties": 0.8716666666666667
+    },
+    {
+      "seed": 86002,
+      "family": "uniform",
+      "counts": {
+        "total": 1800,
+        "true_tie": 0,
+        "overlap_tie": 44,
+        "strict_prediction_count": 1756,
+        "strict_prediction_correct": 1577,
+        "overall_prediction_correct_with_ties": 1577,
+        "always_30_better_correct": 937,
+        "spearman_rank_correlation": 0.8910585819323941
+      },
+      "accuracy_non_tie": 0.8980637813211845,
+      "accuracy_all_with_ties": 0.8761111111111111
+    },
+    {
+      "seed": 86002,
+      "family": "platoon4",
+      "counts": {
+        "total": 1800,
+        "true_tie": 0,
+        "overlap_tie": 44,
+        "strict_prediction_count": 1756,
+        "strict_prediction_correct": 1571,
+        "overall_prediction_correct_with_ties": 1571,
+        "always_30_better_correct": 945,
+        "spearman_rank_correlation": 0.9085546924288731
+      },
+      "accuracy_non_tie": 0.8946469248291572,
+      "accuracy_all_with_ties": 0.8727777777777778
+    }
+  ],
+  "limitations": [
+    "1800 offset comparisons per tape share policy arms and are not independent observations",
+    "same 4 tapes used to inspect heuristic and assess predictions: no predictive validation",
+    "calendar overlap includes policy clock; storage and upstream queue can mediate delay",
+    "overlap window was chosen after Claude report and P114 outcomes, not preregistered"
+  ]
+}
