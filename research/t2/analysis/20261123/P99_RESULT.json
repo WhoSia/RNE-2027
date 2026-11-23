@@ -1,0 +1,139 @@
+{
+  "evidence": "full 1536 run repeat with integer-cycle observation window",
+  "reference": "P89_RESULT.json",
+  "horizon_original": 1440,
+  "horizon_aligned": 1464,
+  "postdecision_window_seconds": 1380,
+  "displayed_green_seconds_at_zero_loss": 690,
+  "paired_comparisons": 768,
+  "exact_matches": 768,
+  "changed_cost_rankings": 0,
+  "all_clearance_assertions_passed": true,
+  "total_signed_cost_difference": -487119,
+  "source_sum_repeated": -487119,
+  "exposures": {
+    "30/green/0": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 690,
+      "removed_green_seconds": 0,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/green/1": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 644,
+      "removed_green_seconds": 46,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/green/2": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 598,
+      "removed_green_seconds": 92,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/green/3": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 552,
+      "removed_green_seconds": 138,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/red/0": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 690,
+      "removed_green_seconds": 0,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/red/1": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 644,
+      "removed_green_seconds": 46,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/red/2": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 598,
+      "removed_green_seconds": 92,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "30/red/3": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 552,
+      "removed_green_seconds": 138,
+      "green_onsets": 46,
+      "window_seconds": 1380
+    },
+    "60/green/0": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 690,
+      "removed_green_seconds": 0,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/green/1": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 667,
+      "removed_green_seconds": 23,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/green/2": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 644,
+      "removed_green_seconds": 46,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/green/3": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 621,
+      "removed_green_seconds": 69,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/red/0": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 690,
+      "removed_green_seconds": 0,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/red/1": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 667,
+      "removed_green_seconds": 23,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/red/2": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 644,
+      "removed_green_seconds": 46,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    },
+    "60/red/3": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 621,
+      "removed_green_seconds": 69,
+      "green_onsets": 23,
+      "window_seconds": 1380
+    }
+  },
+  "group_cost_sums": {
+    "green/0/cost_sum": -145003,
+    "green/1/cost_sum": -160241,
+    "green/2/cost_sum": -158416,
+    "green/3/cost_sum": -169159,
+    "red/0/cost_sum": -13485,
+    "red/1/cost_sum": 34178,
+    "red/2/cost_sum": 26518,
+    "red/3/cost_sum": 98489
+  },
+  "caveat": "SYNTHETIC_ONLY; matching costs removes finite-horizon counting as the driver of these comparisons, not other structural confounding"
+}
