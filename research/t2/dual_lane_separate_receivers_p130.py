@@ -1,0 +1,409 @@
+"""P130 controlled fork of P129: add global discharge headway to movement-separated links.
+Source SHA256: 5f93f4074ecee2f2249243c95fa12fdf578586481cd63049d9b341564feaf242.  Pre-register experimental comparisons separately.
+P129 source SHA256: 130ea35122cc08fd190c578a61ed9d93de462609e3ef72cb62845bd3276e32cd. The P129 fork is preserved.
+"""
+"""T2 v1.1 two through lanes and a finite physical turn pocket.
+
+L cars preposition in lane A; straight cars route to A/B before approach.
+Optional A->B lateral move requires empty target, front and rear cells
+and an upstream zone. No simultaneous forward move during lane-change.
+This is a synthetic minimal mesoscopic approximation, not real gap acceptance.
+"""
+from dataclasses import dataclass,asdict,replace
+from copy import deepcopy
+from collections import deque,Counter
+from math import floor
+import random
+from spatial_v10 import Config,validate,phase,arrivals
+from receiving_cells_v15 import ReceivingCells,LinkConfig
+
+@dataclass(frozen=True)
+class DualConfig:
+    base:Config=Config()
+    through_B_share:float=.5
+    allow_lane_changes:bool=False
+    change_zone_m:float=100.
+    downstream_conflict_gap_s:int=0 # optional shared exit conflict; 0 disables
+    receiver_slots:int=0 # zero disables finite receiving buffer
+    receiver_headway_s:int=2
+    receiver_mode:str="fifo"
+    receiver_topology:str="shared" # shared, movement_separate, movement_separate_shared_exit
+    downstream_cycle_s:int=60
+    downstream_green_s:int=30
+    downstream_offset_s:int=0
+    receiver_closures:tuple[tuple[int,int],...]=() # exogenous outage, not explicit bus motion
+    lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
+    lane_change_target_gap_cells:int=1 # symmetric target-lane clearance, not calibrated gap acceptance
+    lane_change_gap_confirmation_s:int=1 # consecutive eligible one-second ticks; 1 retains legacy behavior
+
+class MovementSeparateReceiver:
+    """Two fully independent cellular downstream links (L and S).
+
+    Both links use the same downstream green calendar. Each has its own
+    upstream entrance cell and 2s exit-headway counter; allows 0–2 exits
+    per tick. This DOES NOT conserve aggregate saturation flow vs shared.
+    """
+    def __init__(self,config,shared_exit=False):
+        self.links={m:ReceivingCells(config) for m in ('L','S')}
+        self.config=config
+        self.shared_exit=shared_exit
+        self.last_global_exit=-10**9
+        self.denied_entries=0
+        self.exits=[]
+    def tick(self,t):
+        exits=[]
+        if not self.shared_exit:
+            for m in ('L','S'):
+                v=self.links[m].tick(t)
+                if v is not None:
+                    assert v[1]==m
+                    exits.append(v)
+                    self.exits.append((t,v[0],m))
+            return tuple(exits)
+        # Exact same downstream green and one global downstream exit headway.
+        # Tie precedence S -> L is a structural intervention, not an observed rule.
+        for m in ('S','L'):
+            link=self.links[m]
+            if (link.green(t) and link.config.cells-1 in link.occupied and
+                t-self.last_global_exit>=link.config.exit_headway_s):
+                v=link.occupied.pop(link.config.cells-1)
+                assert v[1]==m
+                link.last_exit=t
+                link.exits.append((t,v[0],m))
+                self.last_global_exit=t
+                exits.append(v)
+                self.exits.append((t,v[0],m))
+                break
+        for link in self.links.values():
+            previous=set(link.occupied)
+            for i in range(link.config.cells-2,-1,-1):
+                if i in previous and i+1 not in previous:
+                    link.occupied[i+1]=link.occupied.pop(i)
+            link._audit()
+        assert len(exits)<=1
+        return tuple(exits)
+    def can_accept(self,m):
+        assert m in self.links
+        link=self.links[m]
+        return 0 not in link.occupied and len(link)<self.config.cells
+    def accept(self,v):
+        m=v[1]
+        if not self.can_accept(m):
+            self.denied_entries+=1
+            return False
+        return self.links[m].accept(v)
+    def snapshot(self):
+        return tuple((m,i,vid,mov) for m in ('L','S') for i,vid,mov in self.links[m].snapshot())
+    def vehicles(self):
+        return tuple(v for link in self.links.values() for v in link.occupied.values())
+    def __len__(self):
+        return sum(map(len,self.links.values()))
+    def audit(self):
+        ids=[]
+        for m,link in self.links.items():
+            assert len(link)<=self.config.cells
+            for v in link.occupied.values():
+                assert v[1]==m, (m,v)
+                ids.append(v[0])
+        assert len(ids)==len(set(ids)), ('duplicate across receivers',ids)
+
+
+def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None,phase_overrides=()):
+    """Run unchanged by default; optionally stop before a tick or resume exact state.
+
+    The checkpoint holds the mutable simulation state. Post-checkpoint phase
+    future lane-change windows and a clearance-safe future phase plan may be
+    modified on resumed runs. Changing the whole base schedule is blocked.
+    """
+    if c.receiver_topology not in ('shared','movement_separate','movement_separate_shared_exit'):
+        raise ValueError('unknown receiver topology')
+    if c.receiver_topology.startswith('movement_separate') and c.receiver_mode!='cells':
+        raise ValueError('movement_separate requires cellular receiver')
+    n,k=validate(c.base)
+    if not 0<=c.through_B_share<=1 or not 0<=c.change_zone_m<=c.base.approach_length_m:
+        raise ValueError("invalid lane settings")
+    if type(c.lane_change_target_gap_cells) is not int or not 1<=c.lane_change_target_gap_cells<n:
+        raise ValueError('invalid lane-change target clearance cells')
+    if type(c.lane_change_gap_confirmation_s) is not int or not 1<=c.lane_change_gap_confirmation_s<=10:
+        raise ValueError('invalid lane-change gap confirmation ticks')
+    if not isinstance(c.downstream_conflict_gap_s,int) or c.downstream_conflict_gap_s<0:
+        raise ValueError("invalid common exit headway")
+    if not isinstance(c.receiver_slots,int) or c.receiver_slots<0 or not isinstance(c.receiver_headway_s,int) or c.receiver_headway_s<1:
+        raise ValueError("invalid downstream receiver")
+    if c.receiver_mode not in ("fifo","cells") or (c.receiver_mode=="cells" and c.receiver_slots<1):
+        raise ValueError("cellular downstream requires positive receiver storage")
+    if any(not isinstance(a,int) or not isinstance(b,int) or a<0 or a>=b or b>c.base.duration_s
+           for a,b in c.lane_change_windows):
+        raise ValueError("invalid lane-change windows")
+    if any(c.lane_change_windows[i][1]>c.lane_change_windows[i+1][0]
+           for i in range(len(c.lane_change_windows)-1)):
+        raise ValueError("overlapping/unsorted lane-change windows")
+    if events is None:events=arrivals(c.base)
+    if any(not isinstance(t,int) or not 0<=t<c.base.duration_s or r not in ("L","S")
+           for t,r in events) or any(events[i][0]>events[i+1][0] for i in range(len(events)-1)):
+        raise ValueError("invalid arrival events")
+    events=tuple(events)
+    if checkpoint_at is not None and (type(checkpoint_at) is not int or not 0<=checkpoint_at<c.base.duration_s):
+        raise ValueError('invalid checkpoint tick')
+    if resume_from is not None and checkpoint_at is not None:
+        raise ValueError('cannot request another checkpoint while resuming')
+    if phase_overrides and resume_from is None:
+        raise ValueError('phase overrides require a fixed checkpoint')
+    if any(len(w)!=3 or not isinstance(w[0],int) or not isinstance(w[1],int)
+           or w[0]>=w[1] or w[1]>c.base.duration_s or w[2] not in ('L','S','-')
+           for w in phase_overrides):
+        raise ValueError('invalid future phase override')
+    if any(phase_overrides[i][1]>phase_overrides[i+1][0]
+           for i in range(len(phase_overrides)-1)):
+        raise ValueError('overlapping phase overrides')
+    rng=random.Random(c.base.seed+193)
+    outside={"A":deque(),"B":deque()}
+    A={};B={};pocket={};index=0
+    count=Counter();last={"A":-999999,"B":-999999,"L":-999999}
+    admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[];access_events=[];lane_change_events=[]
+    last_common_exit=-999999
+    receiver=(MovementSeparateReceiver(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures),shared_exit=c.receiver_topology=="movement_separate_shared_exit") if c.receiver_topology.startswith("movement_separate") else ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures))) if c.receiver_mode=="cells" else deque()
+    last_receiver_service=-999999
+    gap_confirmation={}
+    first_tick=0
+    if resume_from is not None:
+        cp=deepcopy(resume_from)
+        if cp.get('format')!='dual_lane_v11_checkpoint_v1':
+            raise ValueError('unknown checkpoint format')
+        first_tick=cp['next_tick']
+        if type(first_tick) is not int or not 0<=first_tick<c.base.duration_s:
+            raise ValueError('invalid checkpoint boundary')
+        if cp['events']!=events or cp['trace']!=trace:
+            raise ValueError('arrival tape or trace mode differs from checkpoint')
+        original=cp['config']
+        if original.base!=c.base:
+            raise ValueError('base schedule cannot change at a checkpoint without a clearance-safe controller')
+        if replace(original,base=c.base,lane_change_windows=c.lane_change_windows)!=c:
+            raise ValueError('incompatible physical parameters')
+        old_windows=original.lane_change_windows
+        new_windows=c.lane_change_windows
+        if old_windows!=new_windows:
+            def enabled(w,t):
+                return not w or any(a<=t<b for a,b in w)
+            if any(enabled(old_windows,t)!=enabled(new_windows,t) for t in range(first_tick)):
+                raise ValueError('lane-change opportunity differs before checkpoint')
+        st=cp['state']
+        (rng,outside,A,B,pocket,index,count,last,admission,cycles,frames,
+         service_events,access_events,lane_change_events,last_common_exit,
+         receiver,last_receiver_service,gap_confirmation)=(
+            st['rng'],st['outside'],st['A'],st['B'],st['pocket'],st['index'],
+            st['count'],st['last'],st['admission'],st['cycles'],st['frames'],
+            st['service_events'],st['access_events'],st['lane_change_events'],
+            st['last_common_exit'],st['receiver'],st['last_receiver_service'],
+            st.get('gap_confirmation',{}))
+    if phase_overrides:
+        if any(a<first_tick for a,b,light in phase_overrides):
+            raise ValueError('phase intervention starts before checkpoint')
+        # Audit the entire phase timeline, including the preceding baseline.
+        last_active=None
+        clearance_count=0
+        for tick in range(c.base.duration_s):
+            effective=next((light for a,b,light in phase_overrides if a<=tick<b),phase(c.base,tick))
+            if effective=='-':
+                clearance_count+=1
+            else:
+                if last_active is not None and effective!=last_active and clearance_count<c.base.clearance_s:
+                    raise ValueError('unsafe phase transition without clearance')
+                if effective!=last_active:
+                    last_active=effective
+                clearance_count=0
+    for t in range(first_tick,c.base.duration_s):
+        if checkpoint_at==t:
+            state=dict(rng=rng,outside=outside,A=A,B=B,pocket=pocket,index=index,
+                       count=count,last=last,admission=admission,cycles=cycles,
+                       frames=frames,service_events=service_events,
+                       access_events=access_events,lane_change_events=lane_change_events,
+                       last_common_exit=last_common_exit,receiver=receiver,
+                       last_receiver_service=last_receiver_service,
+                       gap_confirmation=gap_confirmation)
+            return deepcopy(dict(format='dual_lane_v11_checkpoint_v1',
+                                 next_tick=t,config=c,events=events,
+                                 trace=trace,state=state))
+        while index<len(events) and events[index][0]==t:
+            route=events[index][1]
+            lane="A" if route=="L" or rng.random()>=c.through_B_share else "B"
+            outside[lane].append((index,route,t));index+=1
+        if c.receiver_mode=="cells":
+            vehicle=receiver.tick(t)
+            if isinstance(receiver,MovementSeparateReceiver):
+                for discharged in vehicle: count["network_out_"+discharged[1]]+=1
+            elif vehicle is not None:count["network_out_"+vehicle[1]]+=1
+        elif receiver and t-last_receiver_service>=c.receiver_headway_s:
+            vehicle=receiver.popleft();count["network_out_"+vehicle[1]]+=1
+            last_receiver_service=t
+        light=next((v for a,b,v in phase_overrides if a<=t<b),phase(c.base,t))
+        receiver_denial_this_tick=False
+        if light=="S":
+            for lane,occ in (("A",A),("B",B)):
+                if -1 in occ and occ[-1][1]=="S" and t-last[lane]>=c.base.departure_headway_s:
+                    if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
+                        count["common_exit_denied_s"]+=1
+                    elif c.receiver_slots and ((not receiver.can_accept("S")) if isinstance(receiver,MovementSeparateReceiver) else (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied))):
+                        count["receiver_full_denied_s"]+=1
+                        receiver_denial_this_tick=True
+                        if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and (not receiver.can_accept("S") if isinstance(receiver,MovementSeparateReceiver) else 0 in receiver.occupied) else "receiver_capacity_full")})
+                    else:
+                        v=occ.pop(-1);count["exit_S"]+=1
+                        if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":lane,"movement":"S","reason":"stopline_cross"})
+                        if c.receiver_slots:
+                            if c.receiver_mode=="cells":assert receiver.accept(v)
+                            else:receiver.append(v)
+                        else:count["network_out_S"]+=1
+                        count["time_S_s"]+=t-v[2];last[lane]=t;last_common_exit=t
+        elif light=="L" and -1 in pocket and t-last["L"]>=c.base.departure_headway_s:
+            if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
+                count["common_exit_denied_s"]+=1
+            elif c.receiver_slots and ((not receiver.can_accept("L")) if isinstance(receiver,MovementSeparateReceiver) else (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied))):
+                count["receiver_full_denied_s"]+=1
+                receiver_denial_this_tick=True
+                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and (not receiver.can_accept("L") if isinstance(receiver,MovementSeparateReceiver) else 0 in receiver.occupied) else "receiver_capacity_full")})
+            else:
+                v=pocket.pop(-1);count["exit_L"]+=1
+                if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":"pocket","movement":"L","reason":"stopline_cross"})
+                if c.receiver_slots:
+                    if c.receiver_mode=="cells":assert receiver.accept(v)
+                    else:receiver.append(v)
+                else:count["network_out_L"]+=1
+                count["time_L_s"]+=t-v[2];last["L"]=t;last_common_exit=t
+        if receiver_denial_this_tick:count["receiver_denied_seconds"]+=1
+        moved_ids=set()
+        for x in sorted(tuple(pocket),reverse=True):
+            if x< -1 and x+1 not in pocket:
+                moved_ids.add(pocket[x][0]);pocket[x+1]=pocket.pop(x)
+        for lane,occ in (("A",A),("B",B)):
+            for x in sorted(tuple(occ),reverse=True):
+                if x not in occ:continue
+                v=occ[x]
+                if lane=="A" and v[1]=="L" and k>0 and x==-k-1:
+                    if -k not in pocket:
+                        moved_ids.add(v[0])
+                        if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry","blocker_id":None})
+                        pocket[-k]=occ.pop(x);count["merges"]+=1
+                    else:
+                        count["pocket_block_seconds"]+=1
+                        if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"pocket_entry_cell_busy","blocker_id":pocket[-k][0]})
+                elif lane=="A" and v[1]=="L" and k==0 and x==-1:
+                    count["pocket_block_seconds"]+=1
+                    if trace:access_events.append({"t":t,"vehicle_id":v[0],"event":"pocket_entry_denied","reason":"no_pocket","blocker_id":None})
+                elif x< -1 and x+1 not in occ and not(lane=="A" and v[1]=="L" and x>=-k-1):
+                    moved_ids.add(v[0]);occ[x+1]=occ.pop(x)
+        next_gap_confirmation={}
+        if c.allow_lane_changes and (not c.lane_change_windows or any(a<=t<b for a,b in c.lane_change_windows)):
+            zone=floor(c.change_zone_m/c.base.cell_m+1e-9)
+            for x in sorted(tuple(A),reverse=True):
+                if x not in A or A[x][1]!="S" or A[x][0] in moved_ids or x>=-k or x< -zone:continue
+                if x+1 in A and (A[x+1][1]=="L" or x+2 in A):
+                    if all(x+offset not in B for offset in range(-c.lane_change_target_gap_cells,c.lane_change_target_gap_cells+1)):
+                        vehicle_id=A[x][0]
+                        eligible_streak=gap_confirmation.get(vehicle_id,0)+1
+                        if eligible_streak>=c.lane_change_gap_confirmation_s:
+                            v=A.pop(x)
+                            B[x]=v;count["changes_A_to_B"]+=1
+                            if trace:lane_change_events.append({"t":t,"vehicle_id":v[0],"from":"A","to":"B","cell":x})
+                        else:
+                            next_gap_confirmation[vehicle_id]=eligible_streak
+                            count["lane_change_gap_confirmation_wait_s"]+=1
+                    else:
+                        count["lane_change_target_gap_denials"]+=1
+        gap_confirmation=next_gap_confirmation
+        for lane,occ in (("A",A),("B",B)):
+            if outside[lane] and -n not in occ and t-admission[lane]>=c.base.entry_headway_s:
+                occ[-n]=outside[lane].popleft();count["admitted"]+=1;admission[lane]=t
+        out=len(outside["A"])+len(outside["B"])
+        count["outside_vehicle_seconds"]+=out
+        count["upstream_vehicle_seconds"]+=len(A)+len(B)+len(pocket)
+        count["receiver_vehicle_seconds"]+=len(receiver)
+        count["max_receiver"]=max(count["max_receiver"],len(receiver))
+        if index!=count["network_out_S"]+count["network_out_L"]+out+len(A)+len(B)+len(pocket)+len(receiver):
+            raise AssertionError(("conservation",t))
+        if any(len(occ)>n or any(x< -n or x>-1 for x in occ) for occ in (A,B)) or len(pocket)>k or (c.receiver_slots and len(receiver)>c.receiver_slots*(2 if isinstance(receiver,MovementSeparateReceiver) else 1)):
+            raise AssertionError(("road geometry",t))
+        receiving_vehicles=(receiver.vehicles() if isinstance(receiver,MovementSeparateReceiver) else (receiver.occupied.values() if c.receiver_mode=="cells" else receiver))
+        ids=[v[0] for occ in (A,B,pocket) for v in occ.values()]+[v[0] for v in receiving_vehicles]
+        if len(ids)!=len(set(ids)):raise AssertionError(("duplicate vehicle",t))
+        if isinstance(receiver,MovementSeparateReceiver):receiver.audit()
+        if trace:
+            frames.append({"t":t,"signal":light,
+                "A":sorted((x,v[0],v[1]) for x,v in A.items()),
+                "B":sorted((x,v[0],v[1]) for x,v in B.items()),
+                "pocket":sorted((x,v[0]) for x,v in pocket.items()),"outside":out,
+                "receiver":(receiver.snapshot() if c.receiver_mode=="cells" else [v[0] for v in receiver])})
+        if (t+1)%c.base.cycle_s==0 or t==c.base.duration_s-1:
+            cycles.append({"end_s":t+1,"exit_S":count["exit_S"],"exit_L":count["exit_L"],
+                "A":len(A),"B":len(B),"pocket":len(pocket),"outside":out,
+                "receiver":len(receiver),"network_out_S":count["network_out_S"],
+                "network_out_L":count["network_out_L"]})
+    outside_total=len(outside["A"])+len(outside["B"])
+    result={"status":"SYNTHETIC_UNCALIBRATED",
+        "config":{"base":asdict(c.base),"through_B_share":c.through_B_share,
+                  "allow_lane_changes":c.allow_lane_changes,"change_zone_m":c.change_zone_m,
+                  "downstream_conflict_gap_s":c.downstream_conflict_gap_s,
+                  "receiver_slots":c.receiver_slots,"receiver_headway_s":c.receiver_headway_s,
+                  "receiver_mode":c.receiver_mode,"receiver_topology":c.receiver_topology,"downstream_cycle_s":c.downstream_cycle_s,
+                  "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s,
+                  "receiver_closures":c.receiver_closures,"lane_change_windows":c.lane_change_windows,
+                  "lane_change_target_gap_cells":c.lane_change_target_gap_cells,
+                  "lane_change_gap_confirmation_s":c.lane_change_gap_confirmation_s},
+        "generated":len(events),"admitted":count["admitted"],
+        "exit_S":count["exit_S"],"exit_L":count["exit_L"],
+        "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),
+        "network_out_S":count["network_out_S"],"network_out_L":count["network_out_L"],
+        "receiver_final":len(receiver),"max_receiver":count["max_receiver"],
+        "receiver_full_denied_s":count["receiver_full_denied_s"],
+        "receiver_denied_attempts":count["receiver_full_denied_s"],
+        "receiver_denied_seconds":count["receiver_denied_seconds"],
+        "outside_vehicle_seconds":count["outside_vehicle_seconds"],
+        "upstream_vehicle_seconds":count["upstream_vehicle_seconds"],
+        "receiver_vehicle_seconds":count["receiver_vehicle_seconds"],
+        "outside":outside_total,"pocket_slots":k,"through_slots_per_lane":n,
+        "pocket_block_seconds":count["pocket_block_seconds"],
+        "changes_A_to_B":count["changes_A_to_B"],
+        "lane_change_target_gap_denials":count["lane_change_target_gap_denials"],
+        "lane_change_gap_confirmation_wait_s":count["lane_change_gap_confirmation_wait_s"],
+        "common_exit_denied_s":count["common_exit_denied_s"],
+        "mean_time_S_s":count["time_S_s"]/count["exit_S"] if count["exit_S"] else None,
+        "mean_time_L_s":count["time_L_s"]/count["exit_L"] if count["exit_L"] else None,
+        "cycles":cycles}
+    if phase_overrides:
+        result['postdecision_phase_overrides']=phase_overrides
+    if trace:
+        result["frames"]=frames
+        result["service_events"]=service_events
+        result["access_events"]=access_events
+        result["lane_change_events"]=lane_change_events
+    return result
+
+
+def checkpoint_observation(checkpoint):
+    """Public-at-decision aggregate extracted from an already frozen state.
+
+    Never exposes the future arrival tape, a random generator, or future
+    policy windows. Vehicle IDs are deliberately omitted. This observation
+    is not asserted to be available from a real detector installation.
+    """
+    if checkpoint.get('format')!='dual_lane_v11_checkpoint_v1':
+        raise ValueError('invalid checkpoint format')
+    s=checkpoint['state']
+    receiver=s['receiver']
+    receiver_cells=(tuple(receiver.snapshot()) if isinstance(receiver,MovementSeparateReceiver) else tuple(sorted(receiver.occupied))
+                    if isinstance(receiver,ReceivingCells)
+                    else tuple(range(len(receiver))))
+    return {
+        'decision_tick':checkpoint['next_tick'],
+        'signal_at_decision':phase(checkpoint['config'].base,checkpoint['next_tick']),
+        'outside_A':len(s['outside']['A']),
+        'outside_B':len(s['outside']['B']),
+        'approach_A':len(s['A']),
+        'approach_B':len(s['B']),
+        'pocket_vehicles':len(s['pocket']),
+        'receiver_vehicles':len(receiver),
+        'receiver_occupied_cells':receiver_cells,
+        'pocket_positions':tuple(sorted(s['pocket'])),
+        'approach_A_positions':tuple(sorted(s['A'])),
+        'approach_B_positions':tuple(sorted(s['B'])),
+    }
