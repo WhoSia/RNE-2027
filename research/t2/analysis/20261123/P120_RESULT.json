@@ -1,0 +1,84 @@
+{
+  "status": "P120_360_NEW_TIME_ARM_HOLDOUT_COMPLETE",
+  "prereg": "P120_OVERLAP_HOLDOUT_PREREG.md",
+  "unique_time_vectors": 4,
+  "unique_tapes": 4,
+  "arms": 360,
+  "offset_pairs": 7200,
+  "coverage": 0.9755555555555555,
+  "strict_accuracy": 0.8915148063781321,
+  "always_30_better_baseline": 0.5477777777777778,
+  "absolute_accuracy_lift": 0.34373702860035427,
+  "gate_pass": true,
+  "pooled": {
+    "n": 7200,
+    "abstain": 176,
+    "strict_n": 7024,
+    "strict_correct": 6262,
+    "true_tie": 0,
+    "baseline_30_better_correct": 3944
+  },
+  "rows": [
+    {
+      "time_seed": 88101,
+      "family": "stochastic_uniform",
+      "arrival_time_sha256": "7ea9b535e1673d03d95385aaecd91ebc537212c824448cf5849cc5d5cb99b5f9",
+      "counts": {
+        "n": 1800,
+        "abstain": 44,
+        "strict_n": 1756,
+        "strict_correct": 1559,
+        "true_tie": 0,
+        "baseline_30_better_correct": 983
+      },
+      "strict_accuracy": 0.8878132118451025
+    },
+    {
+      "time_seed": 88101,
+      "family": "stochastic_platoon4",
+      "arrival_time_sha256": "4eeb7ce9dcd33c6dd86d787d32423c42a83811d509f1e4e2b130a0010c9a6123",
+      "counts": {
+        "n": 1800,
+        "abstain": 44,
+        "strict_n": 1756,
+        "strict_correct": 1569,
+        "true_tie": 0,
+        "baseline_30_better_correct": 989
+      },
+      "strict_accuracy": 0.893507972665148
+    },
+    {
+      "time_seed": 88102,
+      "family": "stochastic_uniform",
+      "arrival_time_sha256": "06869010d5d20b9543b4fe14efdc6f6f5648596790ccf4f2d9f7939cf76fcf8c",
+      "counts": {
+        "n": 1800,
+        "abstain": 44,
+        "strict_n": 1756,
+        "strict_correct": 1560,
+        "true_tie": 0,
+        "baseline_30_better_correct": 986
+      },
+      "strict_accuracy": 0.8883826879271071
+    },
+    {
+      "time_seed": 88102,
+      "family": "stochastic_platoon4",
+      "arrival_time_sha256": "5552f16db576cc492b2db369c236c4f2fb8860a9124369615a27f5377a80bf66",
+      "counts": {
+        "n": 1800,
+        "abstain": 44,
+        "strict_n": 1756,
+        "strict_correct": 1574,
+        "true_tie": 0,
+        "baseline_30_better_correct": 986
+      },
+      "strict_accuracy": 0.8963553530751709
+    }
+  ],
+  "limitations": [
+    "7200 comparisons arise from four time vectors, not 7200 independent trials",
+    "same T2 software only, despite independently randomized timestamps",
+    "prediction is not a causal explanation and not independent-engine validation"
+  ]
+}
