@@ -1,0 +1,4918 @@
+{
+  "prereg": "P101_MECHANISM_PREREG.md",
+  "reference": "P100_RESULT.json",
+  "scope": "64 held-out synthetic tapes, red and green onsets paired",
+  "pairs": 128,
+  "arms": 256,
+  "zero_remaining": true,
+  "identities_passed": 128,
+  "prereg_criteria": {
+    "left_58_of_64": true,
+    "A_58_of_64": true,
+    "B_58_of_64": true
+  },
+  "summary": {
+    "green": {
+      "n": 64,
+      "paradox": 0,
+      "left_cost_positive": 0,
+      "through_cost_negative": 52,
+      "A_positive": 0,
+      "B_negative": 12,
+      "A_positive_B_negative": 0,
+      "outside_positive": 0,
+      "cost_sum": -214014,
+      "zone_sum_outside": -57372,
+      "zone_sum_approach_A": -143931,
+      "zone_sum_approach_B": 2202,
+      "zone_sum_pocket": -8726,
+      "zone_sum_receiver": -6187,
+      "movement_sum_L": -206120,
+      "movement_sum_S": -7894
+    },
+    "red": {
+      "n": 64,
+      "paradox": 64,
+      "left_cost_positive": 64,
+      "through_cost_negative": 52,
+      "A_positive": 64,
+      "B_negative": 64,
+      "A_positive_B_negative": 64,
+      "outside_positive": 64,
+      "cost_sum": 77740,
+      "zone_sum_outside": 16124,
+      "zone_sum_approach_A": 73003,
+      "zone_sum_approach_B": -14137,
+      "zone_sum_pocket": 5218,
+      "zone_sum_receiver": -2468,
+      "movement_sum_L": 85706,
+      "movement_sum_S": -7966
+    }
+  },
+  "rows": [
+    {
+      "seed": 86001,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2710,
+        "denied": -12,
+        "full_red": -12
+      },
+      "zones": {
+        "outside": -523,
+        "approach_A": -2033,
+        "approach_B": 50,
+        "pocket": -120,
+        "receiver": -84
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -415,
+          "approach_A": -1817,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -140
+        },
+        "S": {
+          "outside": -108,
+          "approach_A": -216,
+          "approach_B": 50,
+          "pocket": 0,
+          "receiver": 56
+        }
+      },
+      "movement_total": {
+        "L": -2492,
+        "S": -218
+      }
+    },
+    {
+      "seed": 86001,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 845,
+        "denied": -11,
+        "full_red": -15
+      },
+      "zones": {
+        "outside": 158,
+        "approach_A": 697,
+        "approach_B": -167,
+        "pocket": 104,
+        "receiver": 53
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 149,
+          "approach_A": 619,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -4
+        },
+        "S": {
+          "outside": 9,
+          "approach_A": 78,
+          "approach_B": -167,
+          "pocket": 0,
+          "receiver": 57
+        }
+      },
+      "movement_total": {
+        "L": 868,
+        "S": -23
+      }
+    },
+    {
+      "seed": 86001,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -2755,
+        "denied": -16,
+        "full_red": -43
+      },
+      "zones": {
+        "outside": -520,
+        "approach_A": -2019,
+        "approach_B": 52,
+        "pocket": -120,
+        "receiver": -148
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -414,
+          "approach_A": -1818,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -140
+        },
+        "S": {
+          "outside": -106,
+          "approach_A": -201,
+          "approach_B": 52,
+          "pocket": 0,
+          "receiver": -8
+        }
+      },
+      "movement_total": {
+        "L": -2492,
+        "S": -263
+      }
+    },
+    {
+      "seed": 86001,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 846,
+        "denied": -11,
+        "full_red": 0
+      },
+      "zones": {
+        "outside": 145,
+        "approach_A": 719,
+        "approach_B": -205,
+        "pocket": 104,
+        "receiver": 83
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 135,
+          "approach_A": 633,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -4
+        },
+        "S": {
+          "outside": 10,
+          "approach_A": 86,
+          "approach_B": -205,
+          "pocket": 0,
+          "receiver": 87
+        }
+      },
+      "movement_total": {
+        "L": 868,
+        "S": -22
+      }
+    },
+    {
+      "seed": 86002,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2997,
+        "denied": -24,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -737,
+        "approach_A": -2109,
+        "approach_B": 51,
+        "pocket": -120,
+        "receiver": -82
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -544,
+          "approach_A": -2048,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -186
+        },
+        "S": {
+          "outside": -193,
+          "approach_A": -61,
+          "approach_B": 51,
+          "pocket": 0,
+          "receiver": 104
+        }
+      },
+      "movement_total": {
+        "L": -2898,
+        "S": -99
+      }
+    },
+    {
+      "seed": 86002,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1013,
+        "denied": -11,
+        "full_red": -17
+      },
+      "zones": {
+        "outside": 159,
+        "approach_A": 940,
+        "approach_B": -154,
+        "pocket": 104,
+        "receiver": -36
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 145,
+          "approach_A": 935,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -49
+        },
+        "S": {
+          "outside": 14,
+          "approach_A": 5,
+          "approach_B": -154,
+          "pocket": 0,
+          "receiver": 13
+        }
+      },
+      "movement_total": {
+        "L": 1135,
+        "S": -122
+      }
+    },
+    {
+      "seed": 86002,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3622,
+        "denied": -31,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": -1195,
+        "approach_A": -2255,
+        "approach_B": -18,
+        "pocket": -126,
+        "receiver": -28
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -962,
+          "approach_A": -2164,
+          "approach_B": 0,
+          "pocket": -126,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -233,
+          "approach_A": -91,
+          "approach_B": -18,
+          "pocket": 0,
+          "receiver": 122
+        }
+      },
+      "movement_total": {
+        "L": -3402,
+        "S": -220
+      }
+    },
+    {
+      "seed": 86002,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1402,
+        "denied": -12,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": 448,
+        "approach_A": 1172,
+        "approach_B": -118,
+        "pocket": 15,
+        "receiver": -115
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 430,
+          "approach_A": 983,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -101
+        },
+        "S": {
+          "outside": 18,
+          "approach_A": 189,
+          "approach_B": -118,
+          "pocket": 0,
+          "receiver": -14
+        }
+      },
+      "movement_total": {
+        "L": 1327,
+        "S": 75
+      }
+    },
+    {
+      "seed": 86003,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2776,
+        "denied": -24,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": -664,
+        "approach_A": -1955,
+        "approach_B": 76,
+        "pocket": -120,
+        "receiver": -113
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -467,
+          "approach_A": -1885,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": -197,
+          "approach_A": -70,
+          "approach_B": 76,
+          "pocket": 0,
+          "receiver": 47
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": -144
+      }
+    },
+    {
+      "seed": 86003,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 950,
+        "denied": -8,
+        "full_red": -15
+      },
+      "zones": {
+        "outside": 152,
+        "approach_A": 840,
+        "approach_B": -182,
+        "pocket": 104,
+        "receiver": 36
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 87,
+          "approach_A": 785,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 65,
+          "approach_A": 55,
+          "approach_B": -182,
+          "pocket": 0,
+          "receiver": 35
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": -27
+      }
+    },
+    {
+      "seed": 86003,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3494,
+        "denied": -23,
+        "full_red": -23
+      },
+      "zones": {
+        "outside": -1109,
+        "approach_A": -2163,
+        "approach_B": 37,
+        "pocket": -122,
+        "receiver": -137
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -899,
+          "approach_A": -1929,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -166
+        },
+        "S": {
+          "outside": -210,
+          "approach_A": -234,
+          "approach_B": 37,
+          "pocket": 0,
+          "receiver": 29
+        }
+      },
+      "movement_total": {
+        "L": -3116,
+        "S": -378
+      }
+    },
+    {
+      "seed": 86003,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1258,
+        "denied": -12,
+        "full_red": -11
+      },
+      "zones": {
+        "outside": 191,
+        "approach_A": 1163,
+        "approach_B": -259,
+        "pocket": 106,
+        "receiver": 57
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 95,
+          "approach_A": 1133,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": 7
+        },
+        "S": {
+          "outside": 96,
+          "approach_A": 30,
+          "approach_B": -259,
+          "pocket": 0,
+          "receiver": 50
+        }
+      },
+      "movement_total": {
+        "L": 1341,
+        "S": -83
+      }
+    },
+    {
+      "seed": 86004,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3099,
+        "denied": -44,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -703,
+        "approach_A": -2147,
+        "approach_B": 14,
+        "pocket": -138,
+        "receiver": -125
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -697,
+          "approach_A": -2015,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -6,
+          "approach_A": -132,
+          "approach_B": 14,
+          "pocket": 0,
+          "receiver": 49
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -75
+      }
+    },
+    {
+      "seed": 86004,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1093,
+        "denied": -8,
+        "full_red": -17
+      },
+      "zones": {
+        "outside": 140,
+        "approach_A": 1046,
+        "approach_B": -113,
+        "pocket": 107,
+        "receiver": -87
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 94,
+          "approach_A": 1090,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 46,
+          "approach_A": -44,
+          "approach_B": -113,
+          "pocket": 0,
+          "receiver": -10
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": -121
+      }
+    },
+    {
+      "seed": 86004,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3444,
+        "denied": -47,
+        "full_red": -23
+      },
+      "zones": {
+        "outside": -1073,
+        "approach_A": -2119,
+        "approach_B": -21,
+        "pocket": -138,
+        "receiver": -93
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1045,
+          "approach_A": -1943,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -28,
+          "approach_A": -176,
+          "approach_B": -21,
+          "pocket": 0,
+          "receiver": 57
+        }
+      },
+      "movement_total": {
+        "L": -3276,
+        "S": -168
+      }
+    },
+    {
+      "seed": 86004,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1192,
+        "denied": -15,
+        "full_red": -40
+      },
+      "zones": {
+        "outside": 143,
+        "approach_A": 1261,
+        "approach_B": -121,
+        "pocket": 15,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 139,
+          "approach_A": 1259,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -103
+        },
+        "S": {
+          "outside": 4,
+          "approach_A": 2,
+          "approach_B": -121,
+          "pocket": 0,
+          "receiver": -3
+        }
+      },
+      "movement_total": {
+        "L": 1310,
+        "S": -118
+      }
+    },
+    {
+      "seed": 86005,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2873,
+        "denied": -26,
+        "full_red": -22
+      },
+      "zones": {
+        "outside": -286,
+        "approach_A": -2381,
+        "approach_B": 21,
+        "pocket": -122,
+        "receiver": -105
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -286,
+          "approach_A": -2420,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -146
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 39,
+          "approach_B": 21,
+          "pocket": 0,
+          "receiver": 41
+        }
+      },
+      "movement_total": {
+        "L": -2974,
+        "S": 101
+      }
+    },
+    {
+      "seed": 86005,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 867,
+        "denied": -19,
+        "full_red": -4
+      },
+      "zones": {
+        "outside": 108,
+        "approach_A": 914,
+        "approach_B": -345,
+        "pocket": 138,
+        "receiver": 52
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 108,
+          "approach_A": 982,
+          "approach_B": 0,
+          "pocket": 138,
+          "receiver": 2
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -68,
+          "approach_B": -345,
+          "pocket": 0,
+          "receiver": 50
+        }
+      },
+      "movement_total": {
+        "L": 1230,
+        "S": -363
+      }
+    },
+    {
+      "seed": 86005,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3725,
+        "denied": -45,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": -786,
+        "approach_A": -2755,
+        "approach_B": 86,
+        "pocket": -142,
+        "receiver": -128
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -786,
+          "approach_A": -2788,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -158
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 33,
+          "approach_B": 86,
+          "pocket": 0,
+          "receiver": 30
+        }
+      },
+      "movement_total": {
+        "L": -3874,
+        "S": 149
+      }
+    },
+    {
+      "seed": 86005,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1451,
+        "denied": -12,
+        "full_red": -9
+      },
+      "zones": {
+        "outside": 220,
+        "approach_A": 1495,
+        "approach_B": -378,
+        "pocket": 111,
+        "receiver": 3
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 220,
+          "approach_A": 1587,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -47
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -92,
+          "approach_B": -378,
+          "pocket": 0,
+          "receiver": 50
+        }
+      },
+      "movement_total": {
+        "L": 1871,
+        "S": -420
+      }
+    },
+    {
+      "seed": 86006,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3072,
+        "denied": -54,
+        "full_red": -54
+      },
+      "zones": {
+        "outside": -671,
+        "approach_A": -2156,
+        "approach_B": 8,
+        "pocket": -138,
+        "receiver": -115
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -613,
+          "approach_A": -2099,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -58,
+          "approach_A": -57,
+          "approach_B": 8,
+          "pocket": 0,
+          "receiver": 59
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -48
+      }
+    },
+    {
+      "seed": 86006,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1062,
+        "denied": -19,
+        "full_red": -17
+      },
+      "zones": {
+        "outside": 121,
+        "approach_A": 1062,
+        "approach_B": -141,
+        "pocket": 107,
+        "receiver": -87
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 121,
+          "approach_A": 1063,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -1,
+          "approach_B": -141,
+          "pocket": 0,
+          "receiver": -10
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": -152
+      }
+    },
+    {
+      "seed": 86006,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3254,
+        "denied": -50,
+        "full_red": -26
+      },
+      "zones": {
+        "outside": -922,
+        "approach_A": -2116,
+        "approach_B": 44,
+        "pocket": -138,
+        "receiver": -122
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -873,
+          "approach_A": -2115,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -49,
+          "approach_A": -1,
+          "approach_B": 44,
+          "pocket": 0,
+          "receiver": 28
+        }
+      },
+      "movement_total": {
+        "L": -3276,
+        "S": 22
+      }
+    },
+    {
+      "seed": 86006,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1262,
+        "denied": -23,
+        "full_red": -41
+      },
+      "zones": {
+        "outside": 185,
+        "approach_A": 1301,
+        "approach_B": -147,
+        "pocket": 15,
+        "receiver": -92
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 185,
+          "approach_A": 1213,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -103
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 88,
+          "approach_B": -147,
+          "pocket": 0,
+          "receiver": 11
+        }
+      },
+      "movement_total": {
+        "L": 1310,
+        "S": -48
+      }
+    },
+    {
+      "seed": 86007,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3270,
+        "denied": -29,
+        "full_red": -22
+      },
+      "zones": {
+        "outside": -648,
+        "approach_A": -2396,
+        "approach_B": -3,
+        "pocket": -122,
+        "receiver": -101
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -486,
+          "approach_A": -2220,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -146
+        },
+        "S": {
+          "outside": -162,
+          "approach_A": -176,
+          "approach_B": -3,
+          "pocket": 0,
+          "receiver": 45
+        }
+      },
+      "movement_total": {
+        "L": -2974,
+        "S": -296
+      }
+    },
+    {
+      "seed": 86007,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 890,
+        "denied": -20,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": 159,
+        "approach_A": 986,
+        "approach_B": -354,
+        "pocket": 106,
+        "receiver": -7
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 105,
+          "approach_A": 1017,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": 2
+        },
+        "S": {
+          "outside": 54,
+          "approach_A": -31,
+          "approach_B": -354,
+          "pocket": 0,
+          "receiver": -9
+        }
+      },
+      "movement_total": {
+        "L": 1230,
+        "S": -340
+      }
+    },
+    {
+      "seed": 86007,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3569,
+        "denied": -53,
+        "full_red": -38
+      },
+      "zones": {
+        "outside": -1148,
+        "approach_A": -2193,
+        "approach_B": 24,
+        "pocket": -140,
+        "receiver": -112
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -925,
+          "approach_A": -2147,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -223,
+          "approach_A": -46,
+          "approach_B": 24,
+          "pocket": 0,
+          "receiver": 62
+        }
+      },
+      "movement_total": {
+        "L": -3386,
+        "S": -183
+      }
+    },
+    {
+      "seed": 86007,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1378,
+        "denied": -13,
+        "full_red": -10
+      },
+      "zones": {
+        "outside": 195,
+        "approach_A": 1455,
+        "approach_B": -337,
+        "pocket": 109,
+        "receiver": -44
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 168,
+          "approach_A": 1272,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -46
+        },
+        "S": {
+          "outside": 27,
+          "approach_A": 183,
+          "approach_B": -337,
+          "pocket": 0,
+          "receiver": 2
+        }
+      },
+      "movement_total": {
+        "L": 1503,
+        "S": -125
+      }
+    },
+    {
+      "seed": 86008,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2158,
+        "denied": -12,
+        "full_red": -5
+      },
+      "zones": {
+        "outside": -189,
+        "approach_A": -1865,
+        "approach_B": 11,
+        "pocket": -120,
+        "receiver": 5
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -189,
+          "approach_A": -1803,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -134
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -62,
+          "approach_B": 11,
+          "pocket": 0,
+          "receiver": 139
+        }
+      },
+      "movement_total": {
+        "L": -2246,
+        "S": 88
+      }
+    },
+    {
+      "seed": 86008,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 341,
+        "denied": -26,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": 38,
+        "approach_A": 694,
+        "approach_B": -386,
+        "pocket": 19,
+        "receiver": -24
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 38,
+          "approach_A": 696,
+          "approach_B": 0,
+          "pocket": 19,
+          "receiver": -21
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -2,
+          "approach_B": -386,
+          "pocket": 0,
+          "receiver": -3
+        }
+      },
+      "movement_total": {
+        "L": 732,
+        "S": -391
+      }
+    },
+    {
+      "seed": 86008,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3594,
+        "denied": -33,
+        "full_red": -31
+      },
+      "zones": {
+        "outside": -811,
+        "approach_A": -2675,
+        "approach_B": 146,
+        "pocket": -142,
+        "receiver": -112
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -723,
+          "approach_A": -2709,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -170
+        },
+        "S": {
+          "outside": -88,
+          "approach_A": 34,
+          "approach_B": 146,
+          "pocket": 0,
+          "receiver": 58
+        }
+      },
+      "movement_total": {
+        "L": -3744,
+        "S": 150
+      }
+    },
+    {
+      "seed": 86008,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1364,
+        "denied": -12,
+        "full_red": -9
+      },
+      "zones": {
+        "outside": 228,
+        "approach_A": 1486,
+        "approach_B": -463,
+        "pocket": 111,
+        "receiver": 2
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 228,
+          "approach_A": 1468,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -19
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 18,
+          "approach_B": -463,
+          "pocket": 0,
+          "receiver": 21
+        }
+      },
+      "movement_total": {
+        "L": 1788,
+        "S": -424
+      }
+    },
+    {
+      "seed": 86009,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3050,
+        "denied": -42,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": -713,
+        "approach_A": -2158,
+        "approach_B": 36,
+        "pocket": -138,
+        "receiver": -77
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -659,
+          "approach_A": -2191,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -162
+        },
+        "S": {
+          "outside": -54,
+          "approach_A": 33,
+          "approach_B": 36,
+          "pocket": 0,
+          "receiver": 85
+        }
+      },
+      "movement_total": {
+        "L": -3150,
+        "S": 100
+      }
+    },
+    {
+      "seed": 86009,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1187,
+        "denied": -8,
+        "full_red": -45
+      },
+      "zones": {
+        "outside": 143,
+        "approach_A": 1152,
+        "approach_B": -109,
+        "pocket": 107,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 143,
+          "approach_A": 1148,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -105
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 4,
+          "approach_B": -109,
+          "pocket": 0,
+          "receiver": -1
+        }
+      },
+      "movement_total": {
+        "L": 1293,
+        "S": -106
+      }
+    },
+    {
+      "seed": 86009,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4201,
+        "denied": -44,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": -1405,
+        "approach_A": -2455,
+        "approach_B": -20,
+        "pocket": -212,
+        "receiver": -109
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1379,
+          "approach_A": -2381,
+          "approach_B": 0,
+          "pocket": -212,
+          "receiver": -156
+        },
+        "S": {
+          "outside": -26,
+          "approach_A": -74,
+          "approach_B": -20,
+          "pocket": 0,
+          "receiver": 47
+        }
+      },
+      "movement_total": {
+        "L": -4128,
+        "S": -73
+      }
+    },
+    {
+      "seed": 86009,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1527,
+        "denied": -19,
+        "full_red": -37
+      },
+      "zones": {
+        "outside": 462,
+        "approach_A": 1345,
+        "approach_B": -229,
+        "pocket": 17,
+        "receiver": -68
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 456,
+          "approach_A": 1345,
+          "approach_B": 0,
+          "pocket": 17,
+          "receiver": -68
+        },
+        "S": {
+          "outside": 6,
+          "approach_A": 0,
+          "approach_B": -229,
+          "pocket": 0,
+          "receiver": 0
+        }
+      },
+      "movement_total": {
+        "L": 1750,
+        "S": -223
+      }
+    },
+    {
+      "seed": 86010,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2836,
+        "denied": -24,
+        "full_red": -24
+      },
+      "zones": {
+        "outside": -716,
+        "approach_A": -2033,
+        "approach_B": 38,
+        "pocket": -120,
+        "receiver": -5
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -373,
+          "approach_A": -1739,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -120
+        },
+        "S": {
+          "outside": -343,
+          "approach_A": -294,
+          "approach_B": 38,
+          "pocket": 0,
+          "receiver": 115
+        }
+      },
+      "movement_total": {
+        "L": -2352,
+        "S": -484
+      }
+    },
+    {
+      "seed": 86010,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 658,
+        "denied": -5,
+        "full_red": 1
+      },
+      "zones": {
+        "outside": 145,
+        "approach_A": 645,
+        "approach_B": -189,
+        "pocket": 11,
+        "receiver": 46
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 75,
+          "approach_A": 682,
+          "approach_B": 0,
+          "pocket": 11,
+          "receiver": -9
+        },
+        "S": {
+          "outside": 70,
+          "approach_A": -37,
+          "approach_B": -189,
+          "pocket": 0,
+          "receiver": 55
+        }
+      },
+      "movement_total": {
+        "L": 759,
+        "S": -101
+      }
+    },
+    {
+      "seed": 86010,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -2815,
+        "denied": -24,
+        "full_red": -21
+      },
+      "zones": {
+        "outside": -951,
+        "approach_A": -1794,
+        "approach_B": 108,
+        "pocket": -120,
+        "receiver": -58
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -593,
+          "approach_A": -1759,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": -358,
+          "approach_A": -35,
+          "approach_B": 108,
+          "pocket": 0,
+          "receiver": 102
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": -183
+      }
+    },
+    {
+      "seed": 86010,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1186,
+        "denied": -8,
+        "full_red": 1
+      },
+      "zones": {
+        "outside": 236,
+        "approach_A": 944,
+        "approach_B": -157,
+        "pocket": 104,
+        "receiver": 59
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 204,
+          "approach_A": 668,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 32,
+          "approach_A": 276,
+          "approach_B": -157,
+          "pocket": 0,
+          "receiver": 58
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": 209
+      }
+    },
+    {
+      "seed": 86011,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3260,
+        "denied": -42,
+        "full_red": -31
+      },
+      "zones": {
+        "outside": -1004,
+        "approach_A": -2062,
+        "approach_B": 1,
+        "pocket": -138,
+        "receiver": -57
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -694,
+          "approach_A": -2018,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -310,
+          "approach_A": -44,
+          "approach_B": 1,
+          "pocket": 0,
+          "receiver": 117
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -236
+      }
+    },
+    {
+      "seed": 86011,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1278,
+        "denied": -5,
+        "full_red": -10
+      },
+      "zones": {
+        "outside": 187,
+        "approach_A": 1216,
+        "approach_B": -130,
+        "pocket": 107,
+        "receiver": -102
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 169,
+          "approach_A": 1015,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 18,
+          "approach_A": 201,
+          "approach_B": -130,
+          "pocket": 0,
+          "receiver": -25
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": 64
+      }
+    },
+    {
+      "seed": 86011,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4426,
+        "denied": -32,
+        "full_red": -31
+      },
+      "zones": {
+        "outside": -1687,
+        "approach_A": -2521,
+        "approach_B": 8,
+        "pocket": -128,
+        "receiver": -98
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1478,
+          "approach_A": -2154,
+          "approach_B": 0,
+          "pocket": -128,
+          "receiver": -138
+        },
+        "S": {
+          "outside": -209,
+          "approach_A": -367,
+          "approach_B": 8,
+          "pocket": 0,
+          "receiver": 40
+        }
+      },
+      "movement_total": {
+        "L": -3898,
+        "S": -528
+      }
+    },
+    {
+      "seed": 86011,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1672,
+        "denied": -35,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": 774,
+        "approach_A": 1142,
+        "approach_B": -216,
+        "pocket": 17,
+        "receiver": -45
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 471,
+          "approach_A": 1313,
+          "approach_B": 0,
+          "pocket": 17,
+          "receiver": -84
+        },
+        "S": {
+          "outside": 303,
+          "approach_A": -171,
+          "approach_B": -216,
+          "pocket": 0,
+          "receiver": 39
+        }
+      },
+      "movement_total": {
+        "L": 1717,
+        "S": -45
+      }
+    },
+    {
+      "seed": 86012,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3461,
+        "denied": -56,
+        "full_red": -46
+      },
+      "zones": {
+        "outside": -744,
+        "approach_A": -2447,
+        "approach_B": 11,
+        "pocket": -140,
+        "receiver": -141
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -686,
+          "approach_A": -2386,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -58,
+          "approach_A": -61,
+          "approach_B": 11,
+          "pocket": 0,
+          "receiver": 33
+        }
+      },
+      "movement_total": {
+        "L": -3386,
+        "S": -75
+      }
+    },
+    {
+      "seed": 86012,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1527,
+        "denied": -10,
+        "full_red": -8
+      },
+      "zones": {
+        "outside": 257,
+        "approach_A": 1303,
+        "approach_B": -80,
+        "pocket": 109,
+        "receiver": -62
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 257,
+          "approach_A": 1183,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -46
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 120,
+          "approach_B": -80,
+          "pocket": 0,
+          "receiver": -16
+        }
+      },
+      "movement_total": {
+        "L": 1503,
+        "S": 24
+      }
+    },
+    {
+      "seed": 86012,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3370,
+        "denied": -47,
+        "full_red": -23
+      },
+      "zones": {
+        "outside": -1030,
+        "approach_A": -2107,
+        "approach_B": 30,
+        "pocket": -138,
+        "receiver": -125
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -892,
+          "approach_A": -2096,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -138,
+          "approach_A": -11,
+          "approach_B": 30,
+          "pocket": 0,
+          "receiver": 25
+        }
+      },
+      "movement_total": {
+        "L": -3276,
+        "S": -94
+      }
+    },
+    {
+      "seed": 86012,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1114,
+        "denied": -24,
+        "full_red": -38
+      },
+      "zones": {
+        "outside": 147,
+        "approach_A": 1258,
+        "approach_B": -195,
+        "pocket": 15,
+        "receiver": -111
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 147,
+          "approach_A": 1251,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -103
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 7,
+          "approach_B": -195,
+          "pocket": 0,
+          "receiver": -8
+        }
+      },
+      "movement_total": {
+        "L": 1310,
+        "S": -196
+      }
+    },
+    {
+      "seed": 86013,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3471,
+        "denied": -42,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -1182,
+        "approach_A": -2128,
+        "approach_B": 48,
+        "pocket": -126,
+        "receiver": -83
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -870,
+          "approach_A": -2256,
+          "approach_B": 0,
+          "pocket": -126,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -312,
+          "approach_A": 128,
+          "approach_B": 48,
+          "pocket": 0,
+          "receiver": 67
+        }
+      },
+      "movement_total": {
+        "L": -3402,
+        "S": -69
+      }
+    },
+    {
+      "seed": 86013,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1575,
+        "denied": -12,
+        "full_red": -45
+      },
+      "zones": {
+        "outside": 501,
+        "approach_A": 1219,
+        "approach_B": -57,
+        "pocket": 15,
+        "receiver": -103
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 476,
+          "approach_A": 937,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -101
+        },
+        "S": {
+          "outside": 25,
+          "approach_A": 282,
+          "approach_B": -57,
+          "pocket": 0,
+          "receiver": -2
+        }
+      },
+      "movement_total": {
+        "L": 1327,
+        "S": 248
+      }
+    },
+    {
+      "seed": 86013,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4464,
+        "denied": -30,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -1641,
+        "approach_A": -2529,
+        "approach_B": 23,
+        "pocket": -210,
+        "receiver": -107
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1359,
+          "approach_A": -2439,
+          "approach_B": 0,
+          "pocket": -210,
+          "receiver": -190
+        },
+        "S": {
+          "outside": -282,
+          "approach_A": -90,
+          "approach_B": 23,
+          "pocket": 0,
+          "receiver": 83
+        }
+      },
+      "movement_total": {
+        "L": -4198,
+        "S": -266
+      }
+    },
+    {
+      "seed": 86013,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1460,
+        "denied": -30,
+        "full_red": -26
+      },
+      "zones": {
+        "outside": 783,
+        "approach_A": 823,
+        "approach_B": -110,
+        "pocket": 15,
+        "receiver": -51
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 569,
+          "approach_A": 904,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -37
+        },
+        "S": {
+          "outside": 214,
+          "approach_A": -81,
+          "approach_B": -110,
+          "pocket": 0,
+          "receiver": -14
+        }
+      },
+      "movement_total": {
+        "L": 1451,
+        "S": 9
+      }
+    },
+    {
+      "seed": 86014,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2911,
+        "denied": -24,
+        "full_red": -15
+      },
+      "zones": {
+        "outside": -607,
+        "approach_A": -2090,
+        "approach_B": 26,
+        "pocket": -120,
+        "receiver": -120
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -509,
+          "approach_A": -1963,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -180
+        },
+        "S": {
+          "outside": -98,
+          "approach_A": -127,
+          "approach_B": 26,
+          "pocket": 0,
+          "receiver": 60
+        }
+      },
+      "movement_total": {
+        "L": -2772,
+        "S": -139
+      }
+    },
+    {
+      "seed": 86014,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 844,
+        "denied": -24,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 120,
+        "approach_A": 872,
+        "approach_B": -254,
+        "pocket": 104,
+        "receiver": 2
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 78,
+          "approach_A": 898,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -24
+        },
+        "S": {
+          "outside": 42,
+          "approach_A": -26,
+          "approach_B": -254,
+          "pocket": 0,
+          "receiver": 26
+        }
+      },
+      "movement_total": {
+        "L": 1056,
+        "S": -212
+      }
+    },
+    {
+      "seed": 86014,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3988,
+        "denied": -49,
+        "full_red": -35
+      },
+      "zones": {
+        "outside": -1006,
+        "approach_A": -2765,
+        "approach_B": 45,
+        "pocket": -142,
+        "receiver": -120
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -825,
+          "approach_A": -2607,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -170
+        },
+        "S": {
+          "outside": -181,
+          "approach_A": -158,
+          "approach_B": 45,
+          "pocket": 0,
+          "receiver": 50
+        }
+      },
+      "movement_total": {
+        "L": -3744,
+        "S": -244
+      }
+    },
+    {
+      "seed": 86014,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1396,
+        "denied": -15,
+        "full_red": -9
+      },
+      "zones": {
+        "outside": 242,
+        "approach_A": 1469,
+        "approach_B": -425,
+        "pocket": 111,
+        "receiver": -1
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 191,
+          "approach_A": 1505,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -19
+        },
+        "S": {
+          "outside": 51,
+          "approach_A": -36,
+          "approach_B": -425,
+          "pocket": 0,
+          "receiver": 18
+        }
+      },
+      "movement_total": {
+        "L": 1788,
+        "S": -392
+      }
+    },
+    {
+      "seed": 86015,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2555,
+        "denied": -24,
+        "full_red": -24
+      },
+      "zones": {
+        "outside": -327,
+        "approach_A": -2069,
+        "approach_B": 68,
+        "pocket": -120,
+        "receiver": -107
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -273,
+          "approach_A": -2079,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": -54,
+          "approach_A": 10,
+          "approach_B": 68,
+          "pocket": 0,
+          "receiver": 53
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": 77
+      }
+    },
+    {
+      "seed": 86015,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 797,
+        "denied": -22,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 101,
+        "approach_A": 773,
+        "approach_B": -173,
+        "pocket": 104,
+        "receiver": -8
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 101,
+          "approach_A": 771,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 2,
+          "approach_B": -173,
+          "pocket": 0,
+          "receiver": -9
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": -180
+      }
+    },
+    {
+      "seed": 86015,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -2811,
+        "denied": -24,
+        "full_red": -41
+      },
+      "zones": {
+        "outside": -603,
+        "approach_A": -2036,
+        "approach_B": 81,
+        "pocket": -120,
+        "receiver": -133
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -472,
+          "approach_A": -2120,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -186
+        },
+        "S": {
+          "outside": -131,
+          "approach_A": 84,
+          "approach_B": 81,
+          "pocket": 0,
+          "receiver": 53
+        }
+      },
+      "movement_total": {
+        "L": -2898,
+        "S": 87
+      }
+    },
+    {
+      "seed": 86015,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 957,
+        "denied": -22,
+        "full_red": -14
+      },
+      "zones": {
+        "outside": 127,
+        "approach_A": 967,
+        "approach_B": -210,
+        "pocket": 104,
+        "receiver": -31
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 127,
+          "approach_A": 953,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -49
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 14,
+          "approach_B": -210,
+          "pocket": 0,
+          "receiver": 18
+        }
+      },
+      "movement_total": {
+        "L": 1135,
+        "S": -178
+      }
+    },
+    {
+      "seed": 86016,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2746,
+        "denied": -36,
+        "full_red": -29
+      },
+      "zones": {
+        "outside": -324,
+        "approach_A": -2140,
+        "approach_B": -56,
+        "pocket": -120,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -324,
+          "approach_A": -2028,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -112,
+          "approach_B": -56,
+          "pocket": 0,
+          "receiver": 54
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": -114
+      }
+    },
+    {
+      "seed": 86016,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 631,
+        "denied": -24,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 64,
+        "approach_A": 800,
+        "approach_B": -309,
+        "pocket": 104,
+        "receiver": -28
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 64,
+          "approach_A": 808,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -8,
+          "approach_B": -309,
+          "pocket": 0,
+          "receiver": -29
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": -346
+      }
+    },
+    {
+      "seed": 86016,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3599,
+        "denied": -45,
+        "full_red": -31
+      },
+      "zones": {
+        "outside": -1009,
+        "approach_A": -2433,
+        "approach_B": 60,
+        "pocket": -140,
+        "receiver": -77
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -874,
+          "approach_A": -2338,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -162
+        },
+        "S": {
+          "outside": -135,
+          "approach_A": -95,
+          "approach_B": 60,
+          "pocket": 0,
+          "receiver": 85
+        }
+      },
+      "movement_total": {
+        "L": -3514,
+        "S": -85
+      }
+    },
+    {
+      "seed": 86016,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1381,
+        "denied": -20,
+        "full_red": -13
+      },
+      "zones": {
+        "outside": 267,
+        "approach_A": 1454,
+        "approach_B": -361,
+        "pocket": 109,
+        "receiver": -88
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 267,
+          "approach_A": 1282,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -74
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 172,
+          "approach_B": -361,
+          "pocket": 0,
+          "receiver": -14
+        }
+      },
+      "movement_total": {
+        "L": 1584,
+        "S": -203
+      }
+    },
+    {
+      "seed": 86017,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2747,
+        "denied": -26,
+        "full_red": -26
+      },
+      "zones": {
+        "outside": -361,
+        "approach_A": -2213,
+        "approach_B": 17,
+        "pocket": -122,
+        "receiver": -68
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -289,
+          "approach_A": -2089,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -122
+        },
+        "S": {
+          "outside": -72,
+          "approach_A": -124,
+          "approach_B": 17,
+          "pocket": 0,
+          "receiver": 54
+        }
+      },
+      "movement_total": {
+        "L": -2622,
+        "S": -125
+      }
+    },
+    {
+      "seed": 86017,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 661,
+        "denied": -30,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": 108,
+        "approach_A": 910,
+        "approach_B": -383,
+        "pocket": 13,
+        "receiver": 13
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 102,
+          "approach_A": 901,
+          "approach_B": 0,
+          "pocket": 13,
+          "receiver": -8
+        },
+        "S": {
+          "outside": 6,
+          "approach_A": 9,
+          "approach_B": -383,
+          "pocket": 0,
+          "receiver": 21
+        }
+      },
+      "movement_total": {
+        "L": 1008,
+        "S": -347
+      }
+    },
+    {
+      "seed": 86017,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3641,
+        "denied": -27,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": -1029,
+        "approach_A": -2537,
+        "approach_B": 144,
+        "pocket": -124,
+        "receiver": -95
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -885,
+          "approach_A": -2423,
+          "approach_B": 0,
+          "pocket": -124,
+          "receiver": -168
+        },
+        "S": {
+          "outside": -144,
+          "approach_A": -114,
+          "approach_B": 144,
+          "pocket": 0,
+          "receiver": 73
+        }
+      },
+      "movement_total": {
+        "L": -3600,
+        "S": -41
+      }
+    },
+    {
+      "seed": 86017,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1536,
+        "denied": -14,
+        "full_red": -10
+      },
+      "zones": {
+        "outside": 319,
+        "approach_A": 1471,
+        "approach_B": -418,
+        "pocket": 108,
+        "receiver": 56
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 266,
+          "approach_A": 1322,
+          "approach_B": 0,
+          "pocket": 108,
+          "receiver": 9
+        },
+        "S": {
+          "outside": 53,
+          "approach_A": 149,
+          "approach_B": -418,
+          "pocket": 0,
+          "receiver": 47
+        }
+      },
+      "movement_total": {
+        "L": 1705,
+        "S": -169
+      }
+    },
+    {
+      "seed": 86018,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2681,
+        "denied": -36,
+        "full_red": -21
+      },
+      "zones": {
+        "outside": -390,
+        "approach_A": -2119,
+        "approach_B": -15,
+        "pocket": -120,
+        "receiver": -37
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -344,
+          "approach_A": -2008,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": -46,
+          "approach_A": -111,
+          "approach_B": -15,
+          "pocket": 0,
+          "receiver": 123
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": -49
+      }
+    },
+    {
+      "seed": 86018,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 714,
+        "denied": -24,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 109,
+        "approach_A": 793,
+        "approach_B": -254,
+        "pocket": 104,
+        "receiver": -38
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 109,
+          "approach_A": 763,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 30,
+          "approach_B": -254,
+          "pocket": 0,
+          "receiver": -39
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": -263
+      }
+    },
+    {
+      "seed": 86018,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3962,
+        "denied": -43,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": -1163,
+        "approach_A": -2687,
+        "approach_B": 136,
+        "pocket": -142,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -912,
+          "approach_A": -2662,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -158
+        },
+        "S": {
+          "outside": -251,
+          "approach_A": -25,
+          "approach_B": 136,
+          "pocket": 0,
+          "receiver": 52
+        }
+      },
+      "movement_total": {
+        "L": -3874,
+        "S": -88
+      }
+    },
+    {
+      "seed": 86018,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1663,
+        "denied": -16,
+        "full_red": -10
+      },
+      "zones": {
+        "outside": 337,
+        "approach_A": 1660,
+        "approach_B": -400,
+        "pocket": 111,
+        "receiver": -45
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 256,
+          "approach_A": 1551,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -47
+        },
+        "S": {
+          "outside": 81,
+          "approach_A": 109,
+          "approach_B": -400,
+          "pocket": 0,
+          "receiver": 2
+        }
+      },
+      "movement_total": {
+        "L": 1871,
+        "S": -208
+      }
+    },
+    {
+      "seed": 86019,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2527,
+        "denied": -15,
+        "full_red": -13
+      },
+      "zones": {
+        "outside": -399,
+        "approach_A": -1996,
+        "approach_B": 2,
+        "pocket": -120,
+        "receiver": -14
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -278,
+          "approach_A": -1834,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -120
+        },
+        "S": {
+          "outside": -121,
+          "approach_A": -162,
+          "approach_B": 2,
+          "pocket": 0,
+          "receiver": 106
+        }
+      },
+      "movement_total": {
+        "L": -2352,
+        "S": -175
+      }
+    },
+    {
+      "seed": 86019,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 621,
+        "denied": -19,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 80,
+        "approach_A": 682,
+        "approach_B": -142,
+        "pocket": 11,
+        "receiver": -10
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 75,
+          "approach_A": 682,
+          "approach_B": 0,
+          "pocket": 11,
+          "receiver": -9
+        },
+        "S": {
+          "outside": 5,
+          "approach_A": 0,
+          "approach_B": -142,
+          "pocket": 0,
+          "receiver": -1
+        }
+      },
+      "movement_total": {
+        "L": 759,
+        "S": -138
+      }
+    },
+    {
+      "seed": 86019,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3116,
+        "denied": -18,
+        "full_red": -17
+      },
+      "zones": {
+        "outside": -1017,
+        "approach_A": -1929,
+        "approach_B": 56,
+        "pocket": -120,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -680,
+          "approach_A": -1792,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -180
+        },
+        "S": {
+          "outside": -337,
+          "approach_A": -137,
+          "approach_B": 56,
+          "pocket": 0,
+          "receiver": 74
+        }
+      },
+      "movement_total": {
+        "L": -2772,
+        "S": -344
+      }
+    },
+    {
+      "seed": 86019,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1255,
+        "denied": -8,
+        "full_red": -14
+      },
+      "zones": {
+        "outside": 215,
+        "approach_A": 1041,
+        "approach_B": -109,
+        "pocket": 104,
+        "receiver": 4
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 126,
+          "approach_A": 850,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -24
+        },
+        "S": {
+          "outside": 89,
+          "approach_A": 191,
+          "approach_B": -109,
+          "pocket": 0,
+          "receiver": 28
+        }
+      },
+      "movement_total": {
+        "L": 1056,
+        "S": 199
+      }
+    },
+    {
+      "seed": 86020,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2867,
+        "denied": -12,
+        "full_red": -12
+      },
+      "zones": {
+        "outside": -725,
+        "approach_A": -2004,
+        "approach_B": 51,
+        "pocket": -120,
+        "receiver": -69
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -523,
+          "approach_A": -1949,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -180
+        },
+        "S": {
+          "outside": -202,
+          "approach_A": -55,
+          "approach_B": 51,
+          "pocket": 0,
+          "receiver": 111
+        }
+      },
+      "movement_total": {
+        "L": -2772,
+        "S": -95
+      }
+    },
+    {
+      "seed": 86020,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1017,
+        "denied": -8,
+        "full_red": -16
+      },
+      "zones": {
+        "outside": 147,
+        "approach_A": 947,
+        "approach_B": -158,
+        "pocket": 104,
+        "receiver": -23
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 129,
+          "approach_A": 847,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -24
+        },
+        "S": {
+          "outside": 18,
+          "approach_A": 100,
+          "approach_B": -158,
+          "pocket": 0,
+          "receiver": 1
+        }
+      },
+      "movement_total": {
+        "L": 1056,
+        "S": -39
+      }
+    },
+    {
+      "seed": 86020,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4032,
+        "denied": -49,
+        "full_red": -35
+      },
+      "zones": {
+        "outside": -1507,
+        "approach_A": -2319,
+        "approach_B": 11,
+        "pocket": -140,
+        "receiver": -77
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1157,
+          "approach_A": -2195,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -350,
+          "approach_A": -124,
+          "approach_B": 11,
+          "pocket": 0,
+          "receiver": 73
+        }
+      },
+      "movement_total": {
+        "L": -3642,
+        "S": -390
+      }
+    },
+    {
+      "seed": 86020,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1803,
+        "denied": -6,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": 510,
+        "approach_A": 1468,
+        "approach_B": -184,
+        "pocket": 109,
+        "receiver": -100
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 384,
+          "approach_A": 1274,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -102
+        },
+        "S": {
+          "outside": 126,
+          "approach_A": 194,
+          "approach_B": -184,
+          "pocket": 0,
+          "receiver": 2
+        }
+      },
+      "movement_total": {
+        "L": 1665,
+        "S": 138
+      }
+    },
+    {
+      "seed": 86021,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2528,
+        "denied": -12,
+        "full_red": -12
+      },
+      "zones": {
+        "outside": -273,
+        "approach_A": -2077,
+        "approach_B": 29,
+        "pocket": -120,
+        "receiver": -87
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -273,
+          "approach_A": -2079,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 2,
+          "approach_B": 29,
+          "pocket": 0,
+          "receiver": 73
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": 104
+      }
+    },
+    {
+      "seed": 86021,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 946,
+        "denied": -11,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 107,
+        "approach_A": 817,
+        "approach_B": -82,
+        "pocket": 104,
+        "receiver": 0
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 107,
+          "approach_A": 765,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 52,
+          "approach_B": -82,
+          "pocket": 0,
+          "receiver": -1
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": -31
+      }
+    },
+    {
+      "seed": 86021,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4121,
+        "denied": -46,
+        "full_red": -43
+      },
+      "zones": {
+        "outside": -1194,
+        "approach_A": -2639,
+        "approach_B": 5,
+        "pocket": -142,
+        "receiver": -151
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1097,
+          "approach_A": -2619,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -146
+        },
+        "S": {
+          "outside": -97,
+          "approach_A": -20,
+          "approach_B": 5,
+          "pocket": 0,
+          "receiver": -5
+        }
+      },
+      "movement_total": {
+        "L": -4004,
+        "S": -117
+      }
+    },
+    {
+      "seed": 86021,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1796,
+        "denied": -13,
+        "full_red": -9
+      },
+      "zones": {
+        "outside": 343,
+        "approach_A": 1667,
+        "approach_B": -284,
+        "pocket": 111,
+        "receiver": -41
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 257,
+          "approach_A": 1661,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -75
+        },
+        "S": {
+          "outside": 86,
+          "approach_A": 6,
+          "approach_B": -284,
+          "pocket": 0,
+          "receiver": 34
+        }
+      },
+      "movement_total": {
+        "L": 1954,
+        "S": -158
+      }
+    },
+    {
+      "seed": 86022,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3258,
+        "denied": -42,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": -972,
+        "approach_A": -2112,
+        "approach_B": 26,
+        "pocket": -138,
+        "receiver": -62
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -852,
+          "approach_A": -1998,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -162
+        },
+        "S": {
+          "outside": -120,
+          "approach_A": -114,
+          "approach_B": 26,
+          "pocket": 0,
+          "receiver": 100
+        }
+      },
+      "movement_total": {
+        "L": -3150,
+        "S": -108
+      }
+    },
+    {
+      "seed": 86022,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1282,
+        "denied": -5,
+        "full_red": -45
+      },
+      "zones": {
+        "outside": 188,
+        "approach_A": 1212,
+        "approach_B": -119,
+        "pocket": 107,
+        "receiver": -106
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 177,
+          "approach_A": 1114,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -105
+        },
+        "S": {
+          "outside": 11,
+          "approach_A": 98,
+          "approach_B": -119,
+          "pocket": 0,
+          "receiver": -1
+        }
+      },
+      "movement_total": {
+        "L": 1293,
+        "S": -11
+      }
+    },
+    {
+      "seed": 86022,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4472,
+        "denied": -46,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": -1675,
+        "approach_A": -2589,
+        "approach_B": 46,
+        "pocket": -142,
+        "receiver": -112
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1435,
+          "approach_A": -2565,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -122
+        },
+        "S": {
+          "outside": -240,
+          "approach_A": -24,
+          "approach_B": 46,
+          "pocket": 0,
+          "receiver": 10
+        }
+      },
+      "movement_total": {
+        "L": -4264,
+        "S": -208
+      }
+    },
+    {
+      "seed": 86022,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1878,
+        "denied": -33,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": 679,
+        "approach_A": 1498,
+        "approach_B": -258,
+        "pocket": 19,
+        "receiver": -60
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 565,
+          "approach_A": 1575,
+          "approach_B": 0,
+          "pocket": 19,
+          "receiver": -87
+        },
+        "S": {
+          "outside": 114,
+          "approach_A": -77,
+          "approach_B": -258,
+          "pocket": 0,
+          "receiver": 27
+        }
+      },
+      "movement_total": {
+        "L": 2072,
+        "S": -194
+      }
+    },
+    {
+      "seed": 86023,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3226,
+        "denied": -14,
+        "full_red": -14
+      },
+      "zones": {
+        "outside": -710,
+        "approach_A": -2372,
+        "approach_B": 74,
+        "pocket": -122,
+        "receiver": -96
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -514,
+          "approach_A": -2314,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -166
+        },
+        "S": {
+          "outside": -196,
+          "approach_A": -58,
+          "approach_B": 74,
+          "pocket": 0,
+          "receiver": 70
+        }
+      },
+      "movement_total": {
+        "L": -3116,
+        "S": -110
+      }
+    },
+    {
+      "seed": 86023,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1149,
+        "denied": -19,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": 198,
+        "approach_A": 1141,
+        "approach_B": -323,
+        "pocket": 106,
+        "receiver": 27
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 182,
+          "approach_A": 1046,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": 7
+        },
+        "S": {
+          "outside": 16,
+          "approach_A": 95,
+          "approach_B": -323,
+          "pocket": 0,
+          "receiver": 20
+        }
+      },
+      "movement_total": {
+        "L": 1341,
+        "S": -192
+      }
+    },
+    {
+      "seed": 86023,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3117,
+        "denied": -30,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -1029,
+        "approach_A": -1937,
+        "approach_B": 68,
+        "pocket": -138,
+        "receiver": -81
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -819,
+          "approach_A": -1893,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -210,
+          "approach_A": -44,
+          "approach_B": 68,
+          "pocket": 0,
+          "receiver": 93
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -93
+      }
+    },
+    {
+      "seed": 86023,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1087,
+        "denied": -14,
+        "full_red": -14
+      },
+      "zones": {
+        "outside": 147,
+        "approach_A": 1149,
+        "approach_B": -265,
+        "pocket": 107,
+        "receiver": -51
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 93,
+          "approach_A": 1091,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 54,
+          "approach_A": 58,
+          "approach_B": -265,
+          "pocket": 0,
+          "receiver": 26
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": -127
+      }
+    },
+    {
+      "seed": 86024,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3342,
+        "denied": -38,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": -537,
+        "approach_A": -2488,
+        "approach_B": -70,
+        "pocket": -122,
+        "receiver": -125
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -537,
+          "approach_A": -2291,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -166
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -197,
+          "approach_B": -70,
+          "pocket": 0,
+          "receiver": 41
+        }
+      },
+      "movement_total": {
+        "L": -3116,
+        "S": -226
+      }
+    },
+    {
+      "seed": 86024,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 997,
+        "denied": -7,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": 105,
+        "approach_A": 1114,
+        "approach_B": -317,
+        "pocket": 106,
+        "receiver": -11
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 105,
+          "approach_A": 1123,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": 7
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": -9,
+          "approach_B": -317,
+          "pocket": 0,
+          "receiver": -18
+        }
+      },
+      "movement_total": {
+        "L": 1341,
+        "S": -344
+      }
+    },
+    {
+      "seed": 86024,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4058,
+        "denied": -51,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": -1262,
+        "approach_A": -2679,
+        "approach_B": 164,
+        "pocket": -142,
+        "receiver": -139
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1121,
+          "approach_A": -2737,
+          "approach_B": 0,
+          "pocket": -142,
+          "receiver": -134
+        },
+        "S": {
+          "outside": -141,
+          "approach_A": 58,
+          "approach_B": 164,
+          "pocket": 0,
+          "receiver": -5
+        }
+      },
+      "movement_total": {
+        "L": -4134,
+        "S": 76
+      }
+    },
+    {
+      "seed": 86024,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1844,
+        "denied": -18,
+        "full_red": -39
+      },
+      "zones": {
+        "outside": 352,
+        "approach_A": 1855,
+        "approach_B": -400,
+        "pocket": 111,
+        "receiver": -74
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 312,
+          "approach_A": 1717,
+          "approach_B": 0,
+          "pocket": 111,
+          "receiver": -103
+        },
+        "S": {
+          "outside": 40,
+          "approach_A": 138,
+          "approach_B": -400,
+          "pocket": 0,
+          "receiver": 29
+        }
+      },
+      "movement_total": {
+        "L": 2037,
+        "S": -193
+      }
+    },
+    {
+      "seed": 86025,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3040,
+        "denied": -44,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -727,
+        "approach_A": -2117,
+        "approach_B": 23,
+        "pocket": -138,
+        "receiver": -81
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -703,
+          "approach_A": -2009,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -24,
+          "approach_A": -108,
+          "approach_B": 23,
+          "pocket": 0,
+          "receiver": 93
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -16
+      }
+    },
+    {
+      "seed": 86025,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1096,
+        "denied": -8,
+        "full_red": -13
+      },
+      "zones": {
+        "outside": 144,
+        "approach_A": 1051,
+        "approach_B": -116,
+        "pocket": 107,
+        "receiver": -90
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 100,
+          "approach_A": 1084,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 44,
+          "approach_A": -33,
+          "approach_B": -116,
+          "pocket": 0,
+          "receiver": -13
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": -118
+      }
+    },
+    {
+      "seed": 86025,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4325,
+        "denied": -44,
+        "full_red": -37
+      },
+      "zones": {
+        "outside": -1535,
+        "approach_A": -2451,
+        "approach_B": -8,
+        "pocket": -212,
+        "receiver": -119
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1399,
+          "approach_A": -2361,
+          "approach_B": 0,
+          "pocket": -212,
+          "receiver": -156
+        },
+        "S": {
+          "outside": -136,
+          "approach_A": -90,
+          "approach_B": -8,
+          "pocket": 0,
+          "receiver": 37
+        }
+      },
+      "movement_total": {
+        "L": -4128,
+        "S": -197
+      }
+    },
+    {
+      "seed": 86025,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1534,
+        "denied": -21,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": 518,
+        "approach_A": 1301,
+        "approach_B": -231,
+        "pocket": 17,
+        "receiver": -71
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 421,
+          "approach_A": 1380,
+          "approach_B": 0,
+          "pocket": 17,
+          "receiver": -68
+        },
+        "S": {
+          "outside": 97,
+          "approach_A": -79,
+          "approach_B": -231,
+          "pocket": 0,
+          "receiver": -3
+        }
+      },
+      "movement_total": {
+        "L": 1750,
+        "S": -216
+      }
+    },
+    {
+      "seed": 86026,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3755,
+        "denied": -44,
+        "full_red": -32
+      },
+      "zones": {
+        "outside": -1204,
+        "approach_A": -2384,
+        "approach_B": 39,
+        "pocket": -140,
+        "receiver": -66
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -878,
+          "approach_A": -2334,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -162
+        },
+        "S": {
+          "outside": -326,
+          "approach_A": -50,
+          "approach_B": 39,
+          "pocket": 0,
+          "receiver": 96
+        }
+      },
+      "movement_total": {
+        "L": -3514,
+        "S": -241
+      }
+    },
+    {
+      "seed": 86026,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1419,
+        "denied": -11,
+        "full_red": -15
+      },
+      "zones": {
+        "outside": 272,
+        "approach_A": 1398,
+        "approach_B": -296,
+        "pocket": 109,
+        "receiver": -64
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 194,
+          "approach_A": 1355,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -74
+        },
+        "S": {
+          "outside": 78,
+          "approach_A": 43,
+          "approach_B": -296,
+          "pocket": 0,
+          "receiver": 10
+        }
+      },
+      "movement_total": {
+        "L": 1584,
+        "S": -165
+      }
+    },
+    {
+      "seed": 86026,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -5260,
+        "denied": -35,
+        "full_red": -33
+      },
+      "zones": {
+        "outside": -2162,
+        "approach_A": -2790,
+        "approach_B": 17,
+        "pocket": -214,
+        "receiver": -111
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1776,
+          "approach_A": -2580,
+          "approach_B": 0,
+          "pocket": -214,
+          "receiver": -158
+        },
+        "S": {
+          "outside": -386,
+          "approach_A": -210,
+          "approach_B": 17,
+          "pocket": 0,
+          "receiver": 47
+        }
+      },
+      "movement_total": {
+        "L": -4728,
+        "S": -532
+      }
+    },
+    {
+      "seed": 86026,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 2074,
+        "denied": -32,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": 1098,
+        "approach_A": 1315,
+        "approach_B": -330,
+        "pocket": 19,
+        "receiver": -28
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 878,
+          "approach_A": 1300,
+          "approach_B": 0,
+          "pocket": 19,
+          "receiver": -55
+        },
+        "S": {
+          "outside": 220,
+          "approach_A": 15,
+          "approach_B": -330,
+          "pocket": 0,
+          "receiver": 27
+        }
+      },
+      "movement_total": {
+        "L": 2142,
+        "S": -68
+      }
+    },
+    {
+      "seed": 86027,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3042,
+        "denied": -54,
+        "full_red": -35
+      },
+      "zones": {
+        "outside": -690,
+        "approach_A": -2133,
+        "approach_B": -3,
+        "pocket": -138,
+        "receiver": -78
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -666,
+          "approach_A": -2046,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -24,
+          "approach_A": -87,
+          "approach_B": -3,
+          "pocket": 0,
+          "receiver": 96
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -18
+      }
+    },
+    {
+      "seed": 86027,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1031,
+        "denied": -16,
+        "full_red": -17
+      },
+      "zones": {
+        "outside": 128,
+        "approach_A": 1031,
+        "approach_B": -141,
+        "pocket": 107,
+        "receiver": -94
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 121,
+          "approach_A": 1063,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 7,
+          "approach_A": -32,
+          "approach_B": -141,
+          "pocket": 0,
+          "receiver": -17
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": -183
+      }
+    },
+    {
+      "seed": 86027,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3735,
+        "denied": -56,
+        "full_red": -44
+      },
+      "zones": {
+        "outside": -1219,
+        "approach_A": -2301,
+        "approach_B": 17,
+        "pocket": -140,
+        "receiver": -92
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1109,
+          "approach_A": -2383,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -138
+        },
+        "S": {
+          "outside": -110,
+          "approach_A": 82,
+          "approach_B": 17,
+          "pocket": 0,
+          "receiver": 46
+        }
+      },
+      "movement_total": {
+        "L": -3770,
+        "S": 35
+      }
+    },
+    {
+      "seed": 86027,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1582,
+        "denied": -19,
+        "full_red": -36
+      },
+      "zones": {
+        "outside": 304,
+        "approach_A": 1562,
+        "approach_B": -199,
+        "pocket": 17,
+        "receiver": -102
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 295,
+          "approach_A": 1472,
+          "approach_B": 0,
+          "pocket": 17,
+          "receiver": -100
+        },
+        "S": {
+          "outside": 9,
+          "approach_A": 90,
+          "approach_B": -199,
+          "pocket": 0,
+          "receiver": -2
+        }
+      },
+      "movement_total": {
+        "L": 1684,
+        "S": -102
+      }
+    },
+    {
+      "seed": 86028,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2521,
+        "denied": -23,
+        "full_red": -12
+      },
+      "zones": {
+        "outside": -349,
+        "approach_A": -2062,
+        "approach_B": 81,
+        "pocket": -120,
+        "receiver": -71
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -273,
+          "approach_A": -2079,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -160
+        },
+        "S": {
+          "outside": -76,
+          "approach_A": 17,
+          "approach_B": 81,
+          "pocket": 0,
+          "receiver": 89
+        }
+      },
+      "movement_total": {
+        "L": -2632,
+        "S": 111
+      }
+    },
+    {
+      "seed": 86028,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1029,
+        "denied": -23,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 224,
+        "approach_A": 825,
+        "approach_B": -85,
+        "pocket": 104,
+        "receiver": -39
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 186,
+          "approach_A": 686,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": 1
+        },
+        "S": {
+          "outside": 38,
+          "approach_A": 139,
+          "approach_B": -85,
+          "pocket": 0,
+          "receiver": -40
+        }
+      },
+      "movement_total": {
+        "L": 977,
+        "S": 52
+      }
+    },
+    {
+      "seed": 86028,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3407,
+        "denied": -26,
+        "full_red": -39
+      },
+      "zones": {
+        "outside": -849,
+        "approach_A": -2368,
+        "approach_B": 57,
+        "pocket": -122,
+        "receiver": -125
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -648,
+          "approach_A": -2302,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -186
+        },
+        "S": {
+          "outside": -201,
+          "approach_A": -66,
+          "approach_B": 57,
+          "pocket": 0,
+          "receiver": 61
+        }
+      },
+      "movement_total": {
+        "L": -3258,
+        "S": -149
+      }
+    },
+    {
+      "seed": 86028,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1283,
+        "denied": -21,
+        "full_red": -11
+      },
+      "zones": {
+        "outside": 221,
+        "approach_A": 1212,
+        "approach_B": -244,
+        "pocket": 106,
+        "receiver": -12
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 214,
+          "approach_A": 1120,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": -18
+        },
+        "S": {
+          "outside": 7,
+          "approach_A": 92,
+          "approach_B": -244,
+          "pocket": 0,
+          "receiver": 6
+        }
+      },
+      "movement_total": {
+        "L": 1422,
+        "S": -139
+      }
+    },
+    {
+      "seed": 86029,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2733,
+        "denied": -26,
+        "full_red": -18
+      },
+      "zones": {
+        "outside": -431,
+        "approach_A": -2098,
+        "approach_B": -22,
+        "pocket": -120,
+        "receiver": -62
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -333,
+          "approach_A": -1899,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -140
+        },
+        "S": {
+          "outside": -98,
+          "approach_A": -199,
+          "approach_B": -22,
+          "pocket": 0,
+          "receiver": 78
+        }
+      },
+      "movement_total": {
+        "L": -2492,
+        "S": -241
+      }
+    },
+    {
+      "seed": 86029,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 578,
+        "denied": -24,
+        "full_red": -20
+      },
+      "zones": {
+        "outside": 91,
+        "approach_A": 689,
+        "approach_B": -293,
+        "pocket": 104,
+        "receiver": -13
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 80,
+          "approach_A": 688,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -4
+        },
+        "S": {
+          "outside": 11,
+          "approach_A": 1,
+          "approach_B": -293,
+          "pocket": 0,
+          "receiver": -9
+        }
+      },
+      "movement_total": {
+        "L": 868,
+        "S": -290
+      }
+    },
+    {
+      "seed": 86029,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3155,
+        "denied": -42,
+        "full_red": -35
+      },
+      "zones": {
+        "outside": -1149,
+        "approach_A": -1850,
+        "approach_B": 54,
+        "pocket": -138,
+        "receiver": -72
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -826,
+          "approach_A": -1886,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -174
+        },
+        "S": {
+          "outside": -323,
+          "approach_A": 36,
+          "approach_B": 54,
+          "pocket": 0,
+          "receiver": 102
+        }
+      },
+      "movement_total": {
+        "L": -3024,
+        "S": -131
+      }
+    },
+    {
+      "seed": 86029,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1300,
+        "denied": -17,
+        "full_red": -16
+      },
+      "zones": {
+        "outside": 229,
+        "approach_A": 1331,
+        "approach_B": -279,
+        "pocket": 107,
+        "receiver": -88
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 174,
+          "approach_A": 1010,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -77
+        },
+        "S": {
+          "outside": 55,
+          "approach_A": 321,
+          "approach_B": -279,
+          "pocket": 0,
+          "receiver": -11
+        }
+      },
+      "movement_total": {
+        "L": 1214,
+        "S": 86
+      }
+    },
+    {
+      "seed": 86030,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3475,
+        "denied": -38,
+        "full_red": -56
+      },
+      "zones": {
+        "outside": -702,
+        "approach_A": -2424,
+        "approach_B": -27,
+        "pocket": -122,
+        "receiver": -200
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -676,
+          "approach_A": -2274,
+          "approach_B": 0,
+          "pocket": -122,
+          "receiver": -186
+        },
+        "S": {
+          "outside": -26,
+          "approach_A": -150,
+          "approach_B": -27,
+          "pocket": 0,
+          "receiver": -14
+        }
+      },
+      "movement_total": {
+        "L": -3258,
+        "S": -217
+      }
+    },
+    {
+      "seed": 86030,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1469,
+        "denied": -9,
+        "full_red": -3
+      },
+      "zones": {
+        "outside": 188,
+        "approach_A": 1213,
+        "approach_B": -43,
+        "pocket": 106,
+        "receiver": 5
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 155,
+          "approach_A": 1179,
+          "approach_B": 0,
+          "pocket": 106,
+          "receiver": -18
+        },
+        "S": {
+          "outside": 33,
+          "approach_A": 34,
+          "approach_B": -43,
+          "pocket": 0,
+          "receiver": 23
+        }
+      },
+      "movement_total": {
+        "L": 1422,
+        "S": 47
+      }
+    },
+    {
+      "seed": 86030,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3778,
+        "denied": -52,
+        "full_red": -43
+      },
+      "zones": {
+        "outside": -1080,
+        "approach_A": -2414,
+        "approach_B": 25,
+        "pocket": -140,
+        "receiver": -169
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -967,
+          "approach_A": -2385,
+          "approach_B": 0,
+          "pocket": -140,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -113,
+          "approach_A": -29,
+          "approach_B": 25,
+          "pocket": 0,
+          "receiver": -19
+        }
+      },
+      "movement_total": {
+        "L": -3642,
+        "S": -136
+      }
+    },
+    {
+      "seed": 86030,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1530,
+        "denied": -8,
+        "full_red": -34
+      },
+      "zones": {
+        "outside": 203,
+        "approach_A": 1470,
+        "approach_B": -177,
+        "pocket": 109,
+        "receiver": -75
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 195,
+          "approach_A": 1463,
+          "approach_B": 0,
+          "pocket": 109,
+          "receiver": -102
+        },
+        "S": {
+          "outside": 8,
+          "approach_A": 7,
+          "approach_B": -177,
+          "pocket": 0,
+          "receiver": 27
+        }
+      },
+      "movement_total": {
+        "L": 1665,
+        "S": -135
+      }
+    },
+    {
+      "seed": 86031,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -2917,
+        "denied": -24,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": -658,
+        "approach_A": -2082,
+        "approach_B": 54,
+        "pocket": -120,
+        "receiver": -111
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -566,
+          "approach_A": -2026,
+          "approach_B": 0,
+          "pocket": -120,
+          "receiver": -186
+        },
+        "S": {
+          "outside": -92,
+          "approach_A": -56,
+          "approach_B": 54,
+          "pocket": 0,
+          "receiver": 75
+        }
+      },
+      "movement_total": {
+        "L": -2898,
+        "S": -19
+      }
+    },
+    {
+      "seed": 86031,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1151,
+        "denied": -11,
+        "full_red": -13
+      },
+      "zones": {
+        "outside": 197,
+        "approach_A": 966,
+        "approach_B": -68,
+        "pocket": 104,
+        "receiver": -48
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 145,
+          "approach_A": 935,
+          "approach_B": 0,
+          "pocket": 104,
+          "receiver": -49
+        },
+        "S": {
+          "outside": 52,
+          "approach_A": 31,
+          "approach_B": -68,
+          "pocket": 0,
+          "receiver": 1
+        }
+      },
+      "movement_total": {
+        "L": 1135,
+        "S": 16
+      }
+    },
+    {
+      "seed": 86031,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -3433,
+        "denied": -42,
+        "full_red": -30
+      },
+      "zones": {
+        "outside": -1186,
+        "approach_A": -2067,
+        "approach_B": 39,
+        "pocket": -138,
+        "receiver": -81
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -960,
+          "approach_A": -2028,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -150
+        },
+        "S": {
+          "outside": -226,
+          "approach_A": -39,
+          "approach_B": 39,
+          "pocket": 0,
+          "receiver": 69
+        }
+      },
+      "movement_total": {
+        "L": -3276,
+        "S": -157
+      }
+    },
+    {
+      "seed": 86031,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1210,
+        "denied": -15,
+        "full_red": -38
+      },
+      "zones": {
+        "outside": 209,
+        "approach_A": 1212,
+        "approach_B": -125,
+        "pocket": 15,
+        "receiver": -101
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 112,
+          "approach_A": 1286,
+          "approach_B": 0,
+          "pocket": 15,
+          "receiver": -103
+        },
+        "S": {
+          "outside": 97,
+          "approach_A": -74,
+          "approach_B": -125,
+          "pocket": 0,
+          "receiver": 2
+        }
+      },
+      "movement_total": {
+        "L": 1310,
+        "S": -100
+      }
+    },
+    {
+      "seed": 86032,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -3185,
+        "denied": -54,
+        "full_red": -42
+      },
+      "zones": {
+        "outside": -812,
+        "approach_A": -2147,
+        "approach_B": -9,
+        "pocket": -138,
+        "receiver": -79
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -749,
+          "approach_A": -2101,
+          "approach_B": 0,
+          "pocket": -138,
+          "receiver": -162
+        },
+        "S": {
+          "outside": -63,
+          "approach_A": -46,
+          "approach_B": -9,
+          "pocket": 0,
+          "receiver": 83
+        }
+      },
+      "movement_total": {
+        "L": -3150,
+        "S": -35
+      }
+    },
+    {
+      "seed": 86032,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1129,
+        "denied": -20,
+        "full_red": -45
+      },
+      "zones": {
+        "outside": 155,
+        "approach_A": 1141,
+        "approach_B": -150,
+        "pocket": 107,
+        "receiver": -124
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 155,
+          "approach_A": 1136,
+          "approach_B": 0,
+          "pocket": 107,
+          "receiver": -105
+        },
+        "S": {
+          "outside": 0,
+          "approach_A": 5,
+          "approach_B": -150,
+          "pocket": 0,
+          "receiver": -19
+        }
+      },
+      "movement_total": {
+        "L": 1293,
+        "S": -164
+      }
+    },
+    {
+      "seed": 86032,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "green",
+      "delta": {
+        "cost": -4182,
+        "denied": -32,
+        "full_red": -32
+      },
+      "zones": {
+        "outside": -1442,
+        "approach_A": -2442,
+        "approach_B": 36,
+        "pocket": -212,
+        "receiver": -122
+      },
+      "movement_zones": {
+        "L": {
+          "outside": -1409,
+          "approach_A": -2351,
+          "approach_B": 0,
+          "pocket": -212,
+          "receiver": -156
+        },
+        "S": {
+          "outside": -33,
+          "approach_A": -91,
+          "approach_B": 36,
+          "pocket": 0,
+          "receiver": 34
+        }
+      },
+      "movement_total": {
+        "L": -4128,
+        "S": -54
+      }
+    },
+    {
+      "seed": 86032,
+      "share": 0.75,
+      "clock": "platoon4",
+      "onset": "red",
+      "delta": {
+        "cost": 1672,
+        "denied": -25,
+        "full_red": -39
+      },
+      "zones": {
+        "outside": 653,
+        "approach_A": 1248,
+        "approach_B": -190,
+        "pocket": 17,
+        "receiver": -56
+      },
+      "movement_zones": {
+        "L": {
+          "outside": 646,
+          "approach_A": 1155,
+          "approach_B": 0,
+          "pocket": 17,
+          "receiver": -68
+        },
+        "S": {
+          "outside": 7,
+          "approach_A": 93,
+          "approach_B": -190,
+          "pocket": 0,
+          "receiver": 12
+        }
+      },
+      "movement_total": {
+        "L": 1750,
+        "S": -78
+      }
+    }
+  ]
+}
