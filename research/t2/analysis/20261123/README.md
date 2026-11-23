@@ -77,3 +77,15 @@ Updated priorities use the P38 weights. Match lane path and downstream clock joi
 ## P57 cutoff and vehicle sensitivity
 
 [Findings](P57_FINDINGS.md) · [Vehicle results](P57_RESULT.json)
+
+## P88–P89 follow-up (2026-11-23; execution status explicit)
+
+- [P88 post-tick spatial conservation replay](p88_spatial_audit.py): 192 matched comparisons, five locations (outside, approach A/B, turn pocket, receiver), 30s−60s costs and representative crossing order. **Committed, not yet replayed in an executable Python environment.**
+- [P89 startup-lost-green intervention](p89_startup_loss.py): additional 0/1/2/3 seconds of unavailable receiver service at every downstream green onset; separately reports nominal displayed and effective service-eligible seconds. **Committed, not yet replayed in an executable Python environment.**
+- [Independently recomputed P87 cohort counts and deterministic P89 service-clock arithmetic](P88_P89_PREFLIGHT_RESULT.json): checked JSON reaggregation, **not** P88 or P89 full simulation output.
+- [Shared Drive evidence ledger (20261123 dated project folder)](https://docs.google.com/document/d/1wPs7DMY_SL9rV0iUGTEzLQpSE8JXI2tYU5LGynlPos4/edit)
+- [Existing Google Docs running diary](https://docs.google.com/document/d/1ySC3KhATJ2VyGt4w7Jq77gvatKKcpuVZv7aPskRHUxw/edit)
+
+The P87 score is the post-movement, post-admission occupancy integral outside + A + B + pocket + receiver (terminal penalty 0 at clearance). Do not interpret receiver-denied seconds as a vehicle-seconds measure. P88 requires all 192 exact signed spatial totals to equal the source P87 cost delta. Neither an unexecuted script nor a clean import can substitute for this test.
+
+For P89, the finite observation window [84,1440) is 1356 seconds, so even with the same 50% *asymptotic* green fraction, observed displayed seconds differ by period and start condition. For green-onset 2s lost time, 30s cycle has 681 displayed/589 effective seconds and 60s has 690 displayed/644 effective seconds. In the red-onset comparison they are 675/585 and 666/620. This is *clock arithmetic*, not a measured travel-time outcome.
