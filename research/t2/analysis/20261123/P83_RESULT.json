@@ -1,0 +1,39 @@
+{
+  "transitions": {
+    "tie->tie": 222,
+    "6s->6s": 23,
+    "10s->10s": 135,
+    "10s->6s": 1,
+    "tie->10s": 3
+  },
+  "changed_cases": [
+    {
+      "seed": 748,
+      "share": 0.25,
+      "clock": "platoon4",
+      "original": -172,
+      "cleared": 346
+    },
+    {
+      "seed": 704,
+      "share": 0.5,
+      "clock": "platoon4",
+      "original": 0,
+      "cleared": -67
+    },
+    {
+      "seed": 750,
+      "share": 0.5,
+      "clock": "platoon4",
+      "original": 0,
+      "cleared": -61
+    },
+    {
+      "seed": 762,
+      "share": 0.5,
+      "clock": "platoon4",
+      "original": 0,
+      "cleared": -53
+    }
+  ]
+}
