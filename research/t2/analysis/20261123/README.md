@@ -80,8 +80,8 @@ Updated priorities use the P38 weights. Match lane path and downstream clock joi
 
 ## P88–P89 follow-up (2026-11-23; execution status explicit)
 
-- [P88 post-tick spatial conservation replay](p88_spatial_audit.py): 192 matched comparisons, five locations (outside, approach A/B, turn pocket, receiver), 30s−60s costs and representative crossing order. **Committed, not yet replayed in an executable Python environment.**
-- [P89 startup-lost-green intervention](p89_startup_loss.py): additional 0/1/2/3 seconds of unavailable receiver service at every downstream green onset; separately reports nominal displayed and effective service-eligible seconds. **Committed, not yet replayed in an executable Python environment.**
+- [P88 post-tick spatial conservation replay](p88_spatial_audit.py): 192 matched comparisons, five locations (outside, approach A/B, turn pocket, receiver), 30s−60s costs and representative crossing order. **Executed and source-locked: P88 192/192 exact spatial and movement-by-zone identities; see P88_RESULT.json.**
+- [P89 startup-lost-green intervention](p89_startup_loss.py): additional 0/1/2/3 seconds of unavailable receiver service at every downstream green onset; separately reports nominal displayed and effective service-eligible seconds. **Executed: P89 768 paired cycle comparisons at 0/1/2/3s loss; see P89_RESULT.json.**
 - [Independently recomputed P87 cohort counts and deterministic P89 service-clock arithmetic](P88_P89_PREFLIGHT_RESULT.json): checked JSON reaggregation, **not** P88 or P89 full simulation output.
 - [Shared Drive evidence ledger (20261123 dated project folder)](https://docs.google.com/document/d/1wPs7DMY_SL9rV0iUGTEzLQpSE8JXI2tYU5LGynlPos4/edit)
 - [Existing Google Docs running diary](https://docs.google.com/document/d/1ySC3KhATJ2VyGt4w7Jq77gvatKKcpuVZv7aPskRHUxw/edit)
@@ -97,12 +97,12 @@ For P89, the finite observation window [84,1440) is 1356 seconds, so even with t
 - [P92 director-reviewed adversarial procedure](P92_RESEARCH_REVIEW_LOOP.md) · [P90 methodological findings and FHWA references](P90_FINDINGS_AND_ADVERSARIAL_GATES.md): evidence grading, source invariants, counterexamples, twice-DFS-then-BFS discipline, required blocked-state labeling.
 - [P92 independent FIFO control code](p92_exposure_negative_control.py) · [P92 saved independent output](P92_RESULT.json) · [event-driven Python oracle](test_p92_independent_oracle.py). For a *toy* FIFO over 600 seconds with 2s startup mask: both 30s and 60s cycles show 300s displayed green but 260s/280s eligible green; sparse arrivals produce equal departure counts **and equal delay**; 80 simultaneous arrivals produce equal 80 departures yet 608 more queue vehicle-seconds for the 30s clock. The event-based Python oracle independently matched these results. **This is NOT a replacement for the pending P89 T2 simulation or field data.**
 
-Important limitation: P88 and P89 *full* T2 simulations remain pending. Source-derived P90/P91 and separately checked toy P92 cannot assert 192/192 full spatial reconstruction. The full-window green-seconds discrepancy at 1440 is not by itself a proven mechanism when all test vehicles have cleared. `github-actions[bot]` is not used.
+Historical status before the later full replay: P88 and P89 full simulations were then pending; this has been **superseded by the P88_RESULT.json and P89_RESULT.json validated full runs**. Source-derived P90/P91 and separately checked toy P92 cannot assert 192/192 full spatial reconstruction. The full-window green-seconds discrepancy at 1440 is not by itself a proven mechanism when all test vehicles have cleared. `github-actions[bot]` is not used.
 
-## P93 movement-level trace reconstruction (pending full T2 replay)
+## P93 movement-level trace reconstruction (fully validated in P88/P101)
 
 - [Extended P88 mechanism script](p88_spatial_audit.py) now reconstructs outside waiting **by immutable vehicle ID and movement**, not just counts, and uses native traced A/B/pocket/receiver identities for exact left-versus-through zone contributions. It also reconstructs and checks actual downstream-network departure IDs against network-out count increments.
-- [P93 accounting tests](test_p93_spatial_movement_identity.py) · [isolated fixture result](P93_FIXTURE_RESULT.json). A separate Python implementation of the exact accounting function passed one hand-built three-frame positive fixture and two intentionally corrupted negative fixtures. These are **fixture-only** results, NOT a 192-pair replay.
+- [P93 accounting tests](test_p93_spatial_movement_identity.py) · [isolated fixture result](P93_FIXTURE_RESULT.json). A separate Python implementation of the exact accounting function passed one hand-built three-frame positive fixture and two intentionally corrupted negative fixtures. These fixtures predate the full P88/P101 execution; P88 now has 192/192 exact decomposition and P101 128/128 held-out decomposition.
 - Acceptance: 192/192 exact signed deltas for P87 cost/denied/full-red, 192/192 five-zone cost identities, 192/192 movement-by-zone identities, event order & network-out consistency, zero remaining on all 384 full runs. Do not print P93 left/through performance estimates until these gates pass.
 
 ## P94 literature-backed finite-capacity BFS control
@@ -110,3 +110,19 @@ Important limitation: P88 and P89 *full* T2 simulations remain pending. Source-d
 - [Six counterexample states and naive vs capacity-gated one-tick decisions](P94_RESULT.json) · [standalone Python code](p94_capacity_gate_screen.py). The naive pressure proxy `q_up−n_receiver` chooses an infeasible discharge in two intentionally chosen states; a simple feasibility gate avoids these. Independent Python decision evaluation agreed. **These six constructed states do not establish a traffic network benefit or a published capacity-aware algorithm reproduction.**
 - [Varaiya (2013), Gregoire et al. and field/CV/pedestrian transfer appraisal](P94_LITERATURE_TRANSFER_AUDIT.md). Source access levels are explicitly separated: full text inspected for Varaiya, abstract/figure-level for other studies. Varaiya's point-queue stability theorem does not transfer to a 4-cell finite receiver, and his MP split analysis does not by itself optimize offset/cycle length.
 - New post-BFS priority balance (non-probabilistic): independent simultaneous field exit observation 0.97; full P88/P93 reconstruction 0.96; P89 startup sensitivity 0.93; competing pedestrian/conflicting user cost 0.92; held capacity-aware controller 0.88; actuated/detector error 0.86; independent new arrivals 0.85.
+
+## Latest verified milestone — P88 through P101 (2026-11-23)
+
+**Current evidence status: FULL SIMULATOR REPLAY PASSED; EXTERNAL TRANSPORT STILL OPEN.**
+
+- [P101 director's complete scientific synthesis](P101_VERIFIED_SYNTHESIS_AND_NEXT_GATES.md) is the current interpretation and priority source; previous P88/P89 'pending' notes are historical pre-execution records.
+- [P88 full spatial, left/through and downstream-exit results](P88_RESULT.json): 192/192 matches to P87, 384 fully cleared simulator arms; paradox red-onset 43 pairs left +46,853, through −9,248, total +37,605 vehicle-seconds. Four-cell downstream occupancy reductions do not establish reductions for each road user.
+- [P89 full startup-loss study](P89_RESULT.json): 768 pairs / 1,536 arms with no remaining vehicles, and 192 loss-zero source matches.
+- [P95 seed-block robustness](P95_RESULT.json) · [P96 representative ID/event trace](P96_RESULT.json) · [P97 absolute cost monotonicity screen](P97_RESULT.json) · [P98 two exceptions traced by ID](P98_RESULT.json).
+- [P99 fully aligned observation horizon](P99_RESULT.json): [84,1464) exactly 23×60 seconds, 690 displayed green seconds for all period/onset combinations at loss zero, 768/768 signed P89 pairs reproduced, no rank changes.
+- [P100 prospective new seed protocol](P100_HOLDOUT_PREREG.md) · [P100 32-seed synthetic holdout](P100_RESULT.json): red onset at 75% left share paradox 64/64, baseline original 32/32; green onset at 25% left share 29/64, 0/192 both-onset paradox.
+- [P101 preregistered heldout movement mechanism](P101_MECHANISM_PREREG.md) · [P101 verified 128 spatial pair result](P101_RESULT.json): held-out red onset 64/64 higher left delay, 64/64 A increase, B decrease and outside increase, green onset 0/64 higher left delay.
+- Source audit: 8/8 original core-module Git blob SHA match to remote main and 14/14 local core and P93 tests pass. No GitHub Actions bot.
+- Google Docs [running diary](https://docs.google.com/document/d/1ySC3KhATJ2VyGt4w7Jq77gvatKKcpuVZv7aPskRHUxw/edit) and [dated reproducibility folder](https://drive.google.com/drive/folders/1HGigW9JfBuIuG-mx6gK3GjTHAA5XhDZC).
+
+**Next non-negotiable boundary**: synthetic seed repetition cannot validate field operations. Independent engine with matched storage geometry, measured simultaneous two-stopline signal/vehicle events, and pedestrian/conflicting user cost are the top scientific gaps. Do not claim real corridor performance from P101.
