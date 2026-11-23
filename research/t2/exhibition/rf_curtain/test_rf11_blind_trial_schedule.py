@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from collections import Counter
-from rf11_blind_trial_schedule import schedule,export,manifest_receipt
+from rf11_blind_trial_schedule import schedule,export,manifest_receipt,main
 
 
 class TestSchedule(unittest.TestCase):
@@ -36,6 +36,20 @@ class TestSchedule(unittest.TestCase):
                             manifest_receipt(schedule(seed=2))['schedule_sha256'])
         with self.assertRaises(ValueError):schedule(reset_per_class=9)
         with self.assertRaises(ValueError):schedule(seed=-1)
+
+    def test_cli_enforces_directory_separation_and_no_public_seed(self):
+        with tempfile.TemporaryDirectory() as d:
+            private=str(Path(d)/'operator')
+            public=str(Path(d)/'analyst')
+            with self.assertRaisesRegex(ValueError,'disjoint'):
+                main(['--operator-private-dir',d,'--analyst-public-dir',str(Path(d)/'child')])
+            with self.assertRaisesRegex(ValueError,'fixed seeds forbidden'):
+                main(['--operator-private-dir',private,'--analyst-public-dir',public,'--seed','12'])
+            main(['--operator-private-dir',private,'--analyst-public-dir',public])
+            self.assertTrue((Path(private)/'operator_only_truth_schedule.csv').exists())
+            self.assertFalse((Path(public)/'operator_only_truth_schedule.csv').exists())
+            self.assertTrue((Path(public)/'analyst_blind_schedule.csv').exists())
+            self.assertTrue((Path(public)/'schedule_integrity.json').exists())
 
     def test_default_seed_is_not_publicly_replayable(self):
         self.assertNotEqual(manifest_receipt(schedule())['schedule_sha256'],
