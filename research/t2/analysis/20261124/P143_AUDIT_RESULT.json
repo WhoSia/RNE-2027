@@ -1,0 +1,209 @@
+{
+  "status": "P143_POSTHOC_COHORT_TRANSPORT_AUDIT",
+  "new_simulator_arms": 0,
+  "inputs": [
+    "P140_RESULT.json",
+    "P141_RESULT.json",
+    "P142_RESULT.json"
+  ],
+  "cohorts": {
+    "P140": {
+      "source_status": "P140_PREDECLARED_FAIL",
+      "simulator_arms_already_run": 128,
+      "new_arms_for_this_audit": 0,
+      "regret_calendar": 4035,
+      "regret_guard": 21875,
+      "extra_regret_guard": 17840,
+      "correct_calendar": 58,
+      "correct_guard": 54,
+      "trigger_count": 8,
+      "by_share_target_offset": {
+        "0.5": {
+          "n": 8,
+          "queue_values": [
+            9,
+            10,
+            11,
+            11,
+            11,
+            13,
+            14,
+            16
+          ],
+          "min_queue": 9,
+          "max_queue": 16,
+          "eligible_q_ge_14": 2,
+          "activated": 2,
+          "helpful": 2,
+          "harmful": 0,
+          "triggered_delta_cost": [
+            -1052,
+            -1252
+          ]
+        },
+        "0.75": {
+          "n": 8,
+          "queue_values": [
+            12,
+            13,
+            14,
+            14,
+            15,
+            15,
+            16,
+            18
+          ],
+          "min_queue": 12,
+          "max_queue": 18,
+          "eligible_q_ge_14": 6,
+          "activated": 6,
+          "helpful": 0,
+          "harmful": 6,
+          "triggered_delta_cost": [
+            3094,
+            2806,
+            2806,
+            4100,
+            3238,
+            4100
+          ]
+        }
+      },
+      "label_seeds": [
+        86001,
+        86002
+      ],
+      "time_seeds": [
+        88901,
+        88902
+      ]
+    },
+    "P141": {
+      "source_status": "P141_PREDECLARED_FAIL",
+      "simulator_arms_already_run": 128,
+      "new_arms_for_this_audit": 0,
+      "regret_calendar": 3111,
+      "regret_guard": 5107,
+      "extra_regret_guard": 1996,
+      "correct_calendar": 59,
+      "correct_guard": 57,
+      "trigger_count": 2,
+      "by_share_target_offset": {
+        "0.5": {
+          "n": 8,
+          "queue_values": [
+            10,
+            11,
+            11,
+            12,
+            12,
+            13,
+            15,
+            16
+          ],
+          "min_queue": 10,
+          "max_queue": 16,
+          "eligible_q_ge_14": 2,
+          "activated": 2,
+          "helpful": 0,
+          "harmful": 2,
+          "triggered_delta_cost": [
+            869,
+            1127
+          ]
+        },
+        "0.75": {
+          "n": 8,
+          "queue_values": [
+            12,
+            13,
+            14,
+            14,
+            15,
+            17,
+            20,
+            20
+          ],
+          "min_queue": 12,
+          "max_queue": 20,
+          "eligible_q_ge_14": 6,
+          "activated": 0,
+          "helpful": 0,
+          "harmful": 0,
+          "triggered_delta_cost": []
+        }
+      },
+      "label_seeds": [
+        86001,
+        86002
+      ],
+      "time_seeds": [
+        89001,
+        89002
+      ]
+    },
+    "P142": {
+      "source_status": "P142_UNINFORMATIVE_NO_TRIGGERS",
+      "simulator_arms_already_run": 128,
+      "new_arms_for_this_audit": 0,
+      "regret_calendar": 120,
+      "regret_guard": 120,
+      "extra_regret_guard": 0,
+      "correct_calendar": 62,
+      "correct_guard": 62,
+      "trigger_count": 0,
+      "by_share_target_offset": {
+        "0.5": {
+          "n": 8,
+          "queue_values": [
+            8,
+            9,
+            9,
+            11,
+            11,
+            12,
+            12,
+            12
+          ],
+          "min_queue": 8,
+          "max_queue": 12,
+          "eligible_q_ge_14": 0,
+          "activated": 0,
+          "helpful": 0,
+          "harmful": 0,
+          "triggered_delta_cost": []
+        },
+        "0.75": {
+          "n": 8,
+          "queue_values": [
+            9,
+            10,
+            10,
+            12,
+            12,
+            15,
+            15,
+            15
+          ],
+          "min_queue": 9,
+          "max_queue": 15,
+          "eligible_q_ge_14": 3,
+          "activated": 0,
+          "helpful": 0,
+          "harmful": 0,
+          "triggered_delta_cost": []
+        }
+      },
+      "label_seeds": [
+        86101,
+        86102
+      ],
+      "time_seeds": [
+        89101,
+        89102
+      ]
+    }
+  },
+  "verdict": "P140 reward-driven share interaction reverses on P141 unseen times; P142 novel route labels have no cutoff support; no reusable upstream >=14 controller demonstrated.",
+  "method_limitations": "3 cohorts have 16 demand tapes each repeated at 4 offset packages, and one identical synthetic model. P141 adapts to P140 outcome; P142 rules were frozen before P141 output. Configured turn share is not a measured field variable."
+}
