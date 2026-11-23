@@ -1,0 +1,34 @@
+{
+  "status": "FIXTURE_ONLY_PASS",
+  "full_p87_replay": "NOT_EXECUTED",
+  "isolation": "standalone Python reimplementation of p88 aggregate accounting, no engine imports",
+  "positive_cases": 1,
+  "adversarial_cases": 2,
+  "assertions": [
+    "outside IDs agree with post-tick outside count",
+    "every zone total equals left plus through",
+    "sum all vehicle-zone exposures equals sum zone exposures",
+    "corrupted outside count rejected",
+    "duplicate active vehicle id rejected"
+  ],
+  "verified_fixture": {
+    "zone_vehicle_seconds": {
+      "approach_A": 2,
+      "approach_B": 2,
+      "pocket": 3,
+      "receiver": 1,
+      "outside": 3
+    },
+    "left": {
+      "pocket": 3,
+      "outside": 1,
+      "approach_A": 2
+    },
+    "through": {
+      "outside": 2,
+      "approach_B": 2,
+      "receiver": 1
+    }
+  },
+  "caveat": "Synthetic three-frame fixture; not numerical evidence for any of the 192 P87 cycle pairs."
+}
