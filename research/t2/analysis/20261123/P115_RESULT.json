@@ -1,0 +1,800 @@
+{
+  "status": "P115_72_ARMS_COMPLETE_CONDITIONAL_T2",
+  "prereg": "P115_RECEIVER_FRONTIER_PREREG.md",
+  "seed_blocks": 2,
+  "label_tapes": 4,
+  "capacity_levels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    12,
+    16,
+    64
+  ],
+  "paired_comparisons": 36,
+  "simulator_arms": 72,
+  "all_complete": true,
+  "summary": {
+    "2": {
+      "paradox": 4,
+      "cost_30_worse": 4,
+      "cost_delta_sum": 9428,
+      "denial_delta_sum": -43
+    },
+    "3": {
+      "paradox": 4,
+      "cost_30_worse": 4,
+      "cost_delta_sum": 7299,
+      "denial_delta_sum": -52
+    },
+    "4": {
+      "paradox": 4,
+      "cost_30_worse": 4,
+      "cost_delta_sum": 4106,
+      "denial_delta_sum": -45
+    },
+    "5": {
+      "paradox": 4,
+      "cost_30_worse": 4,
+      "cost_delta_sum": 3072,
+      "denial_delta_sum": -46
+    },
+    "6": {
+      "paradox": 4,
+      "cost_30_worse": 4,
+      "cost_delta_sum": 741,
+      "denial_delta_sum": -77
+    },
+    "8": {
+      "paradox": 0,
+      "cost_30_worse": 0,
+      "cost_delta_sum": -1321,
+      "denial_delta_sum": -101
+    },
+    "12": {
+      "paradox": 0,
+      "cost_30_worse": 0,
+      "cost_delta_sum": -1718,
+      "denial_delta_sum": -97
+    },
+    "16": {
+      "paradox": 0,
+      "cost_30_worse": 0,
+      "cost_delta_sum": -2005,
+      "denial_delta_sum": -120
+    },
+    "64": {
+      "paradox": 0,
+      "cost_30_worse": 1,
+      "cost_delta_sum": -6,
+      "denial_delta_sum": 0
+    }
+  },
+  "rows": [
+    {
+      "receiver_slots": 2,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 8926,
+        "denied": 76,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6757,
+        "denied": 83,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 2169,
+      "delta_denied": -7,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 2,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 9064,
+        "denied": 74,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6934,
+        "denied": 80,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 2130,
+      "delta_denied": -6,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 2,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 9376,
+        "denied": 69,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 7009,
+        "denied": 80,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 2367,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 2,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 11932,
+        "denied": 75,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 9170,
+        "denied": 94,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 2762,
+      "delta_denied": -19,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 3,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 7730,
+        "denied": 49,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6125,
+        "denied": 60,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 1605,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 3,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 7887,
+        "denied": 56,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6301,
+        "denied": 66,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 1586,
+      "delta_denied": -10,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 3,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 8199,
+        "denied": 53,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6277,
+        "denied": 66,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 1922,
+      "delta_denied": -13,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 3,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 10243,
+        "denied": 49,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 8057,
+        "denied": 67,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 2186,
+      "delta_denied": -18,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 4,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 7026,
+        "denied": 41,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6181,
+        "denied": 52,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 845,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 4,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 7202,
+        "denied": 39,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6356,
+        "denied": 50,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 4,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 7420,
+        "denied": 39,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6407,
+        "denied": 50,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 1013,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 4,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 9554,
+        "denied": 45,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 8152,
+        "denied": 57,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 1402,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 5,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 6530,
+        "denied": 32,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 5965,
+        "denied": 50,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 565,
+      "delta_denied": -18,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 5,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 6705,
+        "denied": 42,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6139,
+        "denied": 48,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 566,
+      "delta_denied": -6,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 5,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 6859,
+        "denied": 35,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6149,
+        "denied": 48,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 710,
+      "delta_denied": -13,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 5,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 8945,
+        "denied": 39,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 7714,
+        "denied": 48,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 1231,
+      "delta_denied": -9,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 6,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 6244,
+        "denied": 30,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6103,
+        "denied": 52,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 141,
+      "delta_denied": -22,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 6,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 6418,
+        "denied": 39,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6276,
+        "denied": 50,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": 142,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 6,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 6468,
+        "denied": 25,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6308,
+        "denied": 50,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 160,
+      "delta_denied": -25,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 6,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 8178,
+        "denied": 31,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 7880,
+        "denied": 50,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 298,
+      "delta_denied": -19,
+      "paradox": true
+    },
+    {
+      "receiver_slots": 8,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 5666,
+        "denied": 27,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6015,
+        "denied": 52,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -349,
+      "delta_denied": -25,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 8,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 5936,
+        "denied": 34,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6268,
+        "denied": 50,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -332,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 8,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 5922,
+        "denied": 20,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6222,
+        "denied": 50,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -300,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 8,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 7404,
+        "denied": 20,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 7744,
+        "denied": 50,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -340,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 12,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 5628,
+        "denied": 33,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6099,
+        "denied": 54,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -471,
+      "delta_denied": -21,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 12,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 5907,
+        "denied": 36,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6378,
+        "denied": 52,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -471,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 12,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 5644,
+        "denied": 22,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6035,
+        "denied": 52,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -391,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 12,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 7220,
+        "denied": 22,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 7605,
+        "denied": 52,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -385,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 16,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 6024,
+        "denied": 24,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6551,
+        "denied": 54,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -527,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 16,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 6301,
+        "denied": 21,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 6829,
+        "denied": 51,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -528,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 16,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 6014,
+        "denied": 22,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 6479,
+        "denied": 52,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -465,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 16,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 7644,
+        "denied": 22,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 8129,
+        "denied": 52,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -485,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 64,
+      "seed": 86001,
+      "family": "uniform",
+      "short": {
+        "cost": 8796,
+        "denied": 2,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 8837,
+        "denied": 2,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -41,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 64,
+      "seed": 86001,
+      "family": "platoon4",
+      "short": {
+        "cost": 9079,
+        "denied": 0,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "long": {
+        "cost": 9088,
+        "denied": 0,
+        "out_L": 40,
+        "out_S": 20
+      },
+      "delta_cost": -9,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 64,
+      "seed": 86002,
+      "family": "uniform",
+      "short": {
+        "cost": 8828,
+        "denied": 0,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 8872,
+        "denied": 0,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": -44,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "receiver_slots": 64,
+      "seed": 86002,
+      "family": "platoon4",
+      "short": {
+        "cost": 10455,
+        "denied": 0,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "long": {
+        "cost": 10367,
+        "denied": 0,
+        "out_L": 47,
+        "out_S": 13
+      },
+      "delta_cost": 88,
+      "delta_denied": 0,
+      "paradox": false
+    }
+  ],
+  "capacity_16_vs_4_gate": true,
+  "caveat": "Not a physical network; changing receiver cell count changes pre-t84 checkpoint states across capacities. Matched within each capacity only."
+}
