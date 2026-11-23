@@ -80,17 +80,30 @@ def manifest_receipt(rows):
 
 def main(argv=None):
     p=argparse.ArgumentParser()
-    p.add_argument('--outdir',required=True)
+    p.add_argument('--operator-private-dir',required=True)
+    p.add_argument('--analyst-public-dir',required=True)
     p.add_argument('--seed',type=int,default=None,
                    help='DEMO/REPRO ONLY; never use a published seed for a blinded experiment')
     p.add_argument('--resets',type=int,default=10)
+    p.add_argument('--demo-deterministic',action='store_true')
     a=p.parse_args(argv)
-    directory=Path(a.outdir);directory.mkdir(parents=True,exist_ok=True)
+    if a.seed is not None and not a.demo_deterministic:
+        raise ValueError('public or fixed seeds forbidden in real blind schedule')
+    private=Path(a.operator_private_dir).resolve()
+    public=Path(a.analyst_public_dir).resolve()
+    if private==public or private in public.parents or public in private.parents:
+        raise ValueError('private and analyst directories must be disjoint')
+    private.mkdir(parents=True,exist_ok=True)
+    public.mkdir(parents=True,exist_ok=True)
     rows=schedule(seed=a.seed,reset_per_class=a.resets)
-    export(rows,directory/'operator_only_truth_schedule.csv',operator=True)
-    export(rows,directory/'analyst_blind_schedule.csv',operator=False)
+    truth=private/'operator_only_truth_schedule.csv'
+    export(rows,truth,operator=True)
+    # POSIX protection is best effort; directory permissions and Drive sharing
+    # still need explicit manual operator verification.
+    truth.chmod(0o600)
+    export(rows,public/'analyst_blind_schedule.csv',operator=False)
     rec=manifest_receipt(rows)
-    (directory/'schedule_integrity.json').write_text(json.dumps(rec,indent=2)+'\n')
+    (public/'schedule_integrity.json').write_text(json.dumps(rec,indent=2)+'\n')
     print(json.dumps(rec,ensure_ascii=False))
     print('OPERATOR: keep truth CSV PRIVATE; do not publish seed/labels or '+
           'share the operator directory with analysts.')
