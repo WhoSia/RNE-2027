@@ -5,7 +5,7 @@
  "arms_grid": 1440,
  "primary_split_paradox": "7/32",
  "primary_shared_paradox": "32/32",
- "verdict": "REQUIRES_SHARED_RECEIVER",
+ "verdict": "STRONG_ATTENUATION_WITH_RESIDUAL",
  "summary": {
   "0.25/C4/shared": {
    "n": 32,
