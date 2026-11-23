@@ -11,7 +11,7 @@ from p69_fixed_budget import build_config, p31, run, schedule, score, tape_hash
 DISCOVERY = "ee33978e44d4bb953ad049d92d212db911d778e7216db9bd73e2624a7f8f98a1"
 
 
-def compare(seed, folder):
+def compare(seed, folder, *, include_sumo=False):
     base = build_config(seed, 900, .5, 7, 4, .5)
     tape = p31.clock(base.base, "platoon4")
     result = dict(seed=seed, tape=tape_hash(tape), t2=[])
@@ -21,8 +21,9 @@ def compare(seed, folder):
         costs = [score(run(cfg, tape, resume_from=cp, phase_overrides=schedule(d)), 60)
                  for d in (6, 10)]
         result["t2"].append(costs[1]-costs[0])
-        if seed == 402:
-            assert result["tape"] == DISCOVERY
+        if seed == 402 or include_sumo:
+            if seed == 402 and result["tape"] != DISCOVERY:
+                raise ValueError("Discovery tape mismatch")
             trips = tuple(adapter.network.Arrival(f"v{i:03}", t, "T" if m=="S" else "L")
                           for i,(t,m) in enumerate(tape))
             h = cfg.base.duration_s
