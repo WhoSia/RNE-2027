@@ -1,0 +1,2 @@
+# P68 paired access and discharge screen
+Use the 32 P66 tapes, receiver capacity 4 and offset 15. Cross pocket length (7, 14, 28 m), through B share (0, 0.5, 1), A-to-B changes (off/on) and receiver headway (2/4 s). Compare a single 6/10 s green and score with terminal penalty 60. Verify every archived reference contrast before interpreting extremes. Report strict sign reversals within the same tape and paired one-factor comparisons. No new field observations.
