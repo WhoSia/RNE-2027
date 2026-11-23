@@ -22,6 +22,22 @@ class SensorNoiseTests(unittest.TestCase):
         row = observation()
         self.assertEqual(corrupt(row, 0, 0., 0), row)
 
+    def test_zero_noise_preserves_types_and_input(self):
+        row = observation()
+        original = copy.deepcopy(row)
+        noisy = corrupt(row, 0, 0., 123)
+        self.assertEqual(noisy, original)
+        self.assertEqual(row, original)
+        self.assertIsNot(noisy, row)
+        for key in ("approach_A_positions", "approach_B_positions",
+                    "pocket_positions", "receiver_occupied_cells"):
+            self.assertIsInstance(noisy["decision_observation"][key], tuple)
+        as_lists = observation()
+        for key in ("approach_A_positions", "approach_B_positions",
+                    "pocket_positions", "receiver_occupied_cells"):
+            as_lists["decision_observation"][key] = list(as_lists["decision_observation"][key])
+        self.assertEqual(corrupt(as_lists, 0, 0., 123), as_lists)
+
     def test_input_and_outcome_remain_unchanged(self):
         row = observation()
         frozen = copy.deepcopy(row)
