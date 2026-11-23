@@ -1,0 +1,1802 @@
+{
+  "status": "exploratory trace replay",
+  "comparison": "7m (1 cell) vs 28m (4 cells)",
+  "unique_tapes": 16,
+  "period_conditions": 2,
+  "paired_geometry_comparisons": 32,
+  "simulator_arms": 64,
+  "counts": {
+    "n": 32,
+    "network_cost_identical": 32,
+    "all_downstream_exit_events_identical": 31,
+    "all_per_vehicle_cost_identical": 31
+  },
+  "rows": [
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 7592,
+      "downstream_exit_same": true,
+      "downstream_departures": 53,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          8,
+          "L"
+        ],
+        [
+          107,
+          20,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          8,
+          "L"
+        ],
+        [
+          107,
+          20,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6386,
+      "downstream_exit_same": true,
+      "downstream_departures": 53,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          8,
+          "L"
+        ],
+        [
+          120,
+          20,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          8,
+          "L"
+        ],
+        [
+          120,
+          20,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 9857,
+      "downstream_exit_same": true,
+      "downstream_departures": 57,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          129,
+          3,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          129,
+          3,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 8458,
+      "downstream_exit_same": true,
+      "downstream_departures": 57,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          124,
+          3,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          124,
+          3,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 6570,
+      "downstream_exit_same": true,
+      "downstream_departures": 51,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          9,
+          "L"
+        ],
+        [
+          103,
+          10,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          9,
+          "L"
+        ],
+        [
+          103,
+          10,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 5338,
+      "downstream_exit_same": true,
+      "downstream_departures": 51,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          9,
+          "L"
+        ],
+        [
+          118,
+          10,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          9,
+          "L"
+        ],
+        [
+          118,
+          10,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8061,
+      "downstream_exit_same": true,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          1,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          106,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          1,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          106,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6606,
+      "downstream_exit_same": false,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 6,
+      "per_car_difference_examples": [
+        [
+          22,
+          2
+        ],
+        [
+          26,
+          2
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          -10
+        ],
+        [
+          33,
+          2
+        ],
+        [
+          44,
+          2
+        ]
+      ],
+      "original_first_exit": [
+        [
+          114,
+          1,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          1,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 5430,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          15,
+          "S"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          6,
+          "L"
+        ],
+        [
+          105,
+          7,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          15,
+          "S"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          6,
+          "L"
+        ],
+        [
+          105,
+          7,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 4866,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          15,
+          "S"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          6,
+          "L"
+        ],
+        [
+          120,
+          7,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          15,
+          "S"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          6,
+          "L"
+        ],
+        [
+          120,
+          7,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 7021,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          105,
+          15,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          105,
+          15,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6002,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          15,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          15,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 5952,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          8,
+          "L"
+        ],
+        [
+          103,
+          9,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          8,
+          "L"
+        ],
+        [
+          103,
+          9,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 5332,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          8,
+          "L"
+        ],
+        [
+          118,
+          9,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          8,
+          "L"
+        ],
+        [
+          118,
+          9,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8425,
+      "downstream_exit_same": true,
+      "downstream_departures": 56,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          106,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          106,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6862,
+      "downstream_exit_same": true,
+      "downstream_departures": 56,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 6148,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          8,
+          "L"
+        ],
+        [
+          103,
+          9,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          7,
+          "L"
+        ],
+        [
+          101,
+          8,
+          "L"
+        ],
+        [
+          103,
+          9,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 5461,
+      "downstream_exit_same": true,
+      "downstream_departures": 52,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          8,
+          "L"
+        ],
+        [
+          118,
+          9,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          7,
+          "L"
+        ],
+        [
+          116,
+          8,
+          "L"
+        ],
+        [
+          118,
+          9,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8270,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          2,
+          "L"
+        ],
+        [
+          103,
+          3,
+          "L"
+        ],
+        [
+          105,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6754,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          2,
+          "L"
+        ],
+        [
+          118,
+          3,
+          "L"
+        ],
+        [
+          120,
+          16,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 7753,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          6,
+          "L"
+        ],
+        [
+          129,
+          7,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          5,
+          "L"
+        ],
+        [
+          103,
+          6,
+          "L"
+        ],
+        [
+          129,
+          7,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6530,
+      "downstream_exit_same": true,
+      "downstream_departures": 55,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          6,
+          "L"
+        ],
+        [
+          124,
+          7,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          5,
+          "L"
+        ],
+        [
+          118,
+          6,
+          "L"
+        ],
+        [
+          124,
+          7,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8576,
+      "downstream_exit_same": true,
+      "downstream_departures": 56,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          1,
+          "L"
+        ],
+        [
+          101,
+          4,
+          "L"
+        ],
+        [
+          103,
+          5,
+          "L"
+        ],
+        [
+          113,
+          24,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          1,
+          "L"
+        ],
+        [
+          101,
+          4,
+          "L"
+        ],
+        [
+          103,
+          5,
+          "L"
+        ],
+        [
+          113,
+          24,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 7086,
+      "downstream_exit_same": true,
+      "downstream_departures": 56,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          1,
+          "L"
+        ],
+        [
+          116,
+          4,
+          "L"
+        ],
+        [
+          118,
+          5,
+          "L"
+        ],
+        [
+          120,
+          24,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          1,
+          "L"
+        ],
+        [
+          116,
+          4,
+          "L"
+        ],
+        [
+          118,
+          5,
+          "L"
+        ],
+        [
+          120,
+          24,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 6736,
+      "downstream_exit_same": true,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          6,
+          "L"
+        ],
+        [
+          103,
+          7,
+          "L"
+        ],
+        [
+          105,
+          17,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          4,
+          "L"
+        ],
+        [
+          101,
+          6,
+          "L"
+        ],
+        [
+          103,
+          7,
+          "L"
+        ],
+        [
+          105,
+          17,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 5884,
+      "downstream_exit_same": true,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          6,
+          "L"
+        ],
+        [
+          118,
+          7,
+          "L"
+        ],
+        [
+          120,
+          17,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          4,
+          "L"
+        ],
+        [
+          116,
+          6,
+          "L"
+        ],
+        [
+          118,
+          7,
+          "L"
+        ],
+        [
+          120,
+          17,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8303,
+      "downstream_exit_same": true,
+      "downstream_departures": 57,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          106,
+          17,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          106,
+          17,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 7214,
+      "downstream_exit_same": true,
+      "downstream_departures": 57,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          17,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          17,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "period": 30,
+      "cost_same": true,
+      "cost": 5907,
+      "downstream_exit_same": true,
+      "downstream_departures": 51,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          15,
+          "S"
+        ],
+        [
+          101,
+          4,
+          "L"
+        ],
+        [
+          103,
+          5,
+          "L"
+        ],
+        [
+          105,
+          6,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          15,
+          "S"
+        ],
+        [
+          101,
+          4,
+          "L"
+        ],
+        [
+          103,
+          5,
+          "L"
+        ],
+        [
+          105,
+          6,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "period": 60,
+      "cost_same": true,
+      "cost": 5283,
+      "downstream_exit_same": true,
+      "downstream_departures": 51,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          15,
+          "S"
+        ],
+        [
+          116,
+          4,
+          "L"
+        ],
+        [
+          118,
+          5,
+          "L"
+        ],
+        [
+          120,
+          6,
+          "L"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          15,
+          "S"
+        ],
+        [
+          116,
+          4,
+          "L"
+        ],
+        [
+          118,
+          5,
+          "L"
+        ],
+        [
+          120,
+          6,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "period": 30,
+      "cost_same": true,
+      "cost": 8260,
+      "downstream_exit_same": true,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          105,
+          15,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          99,
+          0,
+          "L"
+        ],
+        [
+          101,
+          1,
+          "L"
+        ],
+        [
+          103,
+          2,
+          "L"
+        ],
+        [
+          105,
+          15,
+          "S"
+        ]
+      ]
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "period": 60,
+      "cost_same": true,
+      "cost": 6510,
+      "downstream_exit_same": true,
+      "downstream_departures": 54,
+      "per_car_cost_difference_count": 0,
+      "per_car_difference_examples": [],
+      "original_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          15,
+          "S"
+        ]
+      ],
+      "expanded_first_exit": [
+        [
+          114,
+          0,
+          "L"
+        ],
+        [
+          116,
+          1,
+          "L"
+        ],
+        [
+          118,
+          2,
+          "L"
+        ],
+        [
+          120,
+          15,
+          "S"
+        ]
+      ]
+    }
+  ],
+  "caveat": "Identity inside one deterministic simulator; not a calibrated headway or field observation"
+}
