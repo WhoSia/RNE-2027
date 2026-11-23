@@ -1,0 +1,1184 @@
+{
+  "status": "P118_NEW_TEMPORAL_REALIZATIONS_128_ARMS_COMPLETE",
+  "prereg": "P118_RANDOM_TIME_HOLDOUT_PREREG.md",
+  "route_label_seeds": 2,
+  "time_seeds": 8,
+  "timing_families": 2,
+  "distinct_time_vectors": 32,
+  "unique_tapes": 32,
+  "matched_comparisons": 64,
+  "simulator_arms": 128,
+  "all_cleared": true,
+  "primary_gate_pass": true,
+  "summary": {
+    "4": {
+      "matched": 32,
+      "paradox": 32,
+      "cost_30_worse": 32,
+      "sum_cost_delta": 33009,
+      "sum_denied_delta": -403
+    },
+    "8": {
+      "matched": 32,
+      "paradox": 1,
+      "cost_30_worse": 1,
+      "sum_cost_delta": -8325,
+      "sum_denied_delta": -789
+    }
+  },
+  "rows": [
+    {
+      "label_seed": 86001,
+      "time_seed": 88001,
+      "family": "stochastic_uniform",
+      "arrival_hash": "4d244f4f1cb34ccbb095903afd85210ea91f92cfb78ace475e6d377f71be6197",
+      "capacity": 4,
+      "short": {
+        "cost": 6888,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6091,
+        "denied": 52
+      },
+      "delta_cost": 797,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88001,
+      "family": "stochastic_uniform",
+      "arrival_hash": "4d244f4f1cb34ccbb095903afd85210ea91f92cfb78ace475e6d377f71be6197",
+      "capacity": 8,
+      "short": {
+        "cost": 5594,
+        "denied": 22
+      },
+      "long": {
+        "cost": 5923,
+        "denied": 52
+      },
+      "delta_cost": -329,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88001,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "d01ba716ff757f60e93bd1eb2fb19c8d0933cfe4555d9787c8eab8cfd118444e",
+      "capacity": 4,
+      "short": {
+        "cost": 7213,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6367,
+        "denied": 50
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88001,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "d01ba716ff757f60e93bd1eb2fb19c8d0933cfe4555d9787c8eab8cfd118444e",
+      "capacity": 8,
+      "short": {
+        "cost": 5947,
+        "denied": 34
+      },
+      "long": {
+        "cost": 6279,
+        "denied": 50
+      },
+      "delta_cost": -332,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88002,
+      "family": "stochastic_uniform",
+      "arrival_hash": "1fb3600c847eb6376e7f3e5df3fd8cde7a78dbcd116963656ee84bd02f88dd90",
+      "capacity": 4,
+      "short": {
+        "cost": 6873,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6028,
+        "denied": 52
+      },
+      "delta_cost": 845,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88002,
+      "family": "stochastic_uniform",
+      "arrival_hash": "1fb3600c847eb6376e7f3e5df3fd8cde7a78dbcd116963656ee84bd02f88dd90",
+      "capacity": 8,
+      "short": {
+        "cost": 5611,
+        "denied": 27
+      },
+      "long": {
+        "cost": 5944,
+        "denied": 52
+      },
+      "delta_cost": -333,
+      "delta_denied": -25,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88002,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "669fc824035856389f587a15a61b5a5920a7abbd710ef0789041e0b880a66c27",
+      "capacity": 4,
+      "short": {
+        "cost": 7186,
+        "denied": 40
+      },
+      "long": {
+        "cost": 6340,
+        "denied": 51
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88002,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "669fc824035856389f587a15a61b5a5920a7abbd710ef0789041e0b880a66c27",
+      "capacity": 8,
+      "short": {
+        "cost": 5920,
+        "denied": 35
+      },
+      "long": {
+        "cost": 6252,
+        "denied": 51
+      },
+      "delta_cost": -332,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88003,
+      "family": "stochastic_uniform",
+      "arrival_hash": "c2adbb51488777c068ff1dab6d7606e0d269a725d46a081e8ec14198b2402cac",
+      "capacity": 4,
+      "short": {
+        "cost": 7083,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6237,
+        "denied": 52
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88003,
+      "family": "stochastic_uniform",
+      "arrival_hash": "c2adbb51488777c068ff1dab6d7606e0d269a725d46a081e8ec14198b2402cac",
+      "capacity": 8,
+      "short": {
+        "cost": 5716,
+        "denied": 22
+      },
+      "long": {
+        "cost": 6065,
+        "denied": 52
+      },
+      "delta_cost": -349,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88003,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "12bcd6700b64c9423a98941b986fe33c8f8679c4504d73f91cf74f69bb30e435",
+      "capacity": 4,
+      "short": {
+        "cost": 7200,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6352,
+        "denied": 50
+      },
+      "delta_cost": 848,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88003,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "12bcd6700b64c9423a98941b986fe33c8f8679c4504d73f91cf74f69bb30e435",
+      "capacity": 8,
+      "short": {
+        "cost": 6198,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6264,
+        "denied": 50
+      },
+      "delta_cost": -66,
+      "delta_denied": -14,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88004,
+      "family": "stochastic_uniform",
+      "arrival_hash": "c0b8ace1c1374545ecd97d333f6b9771d81adee8cc5256761f1f796000a7ae76",
+      "capacity": 4,
+      "short": {
+        "cost": 7233,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6532,
+        "denied": 52
+      },
+      "delta_cost": 701,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88004,
+      "family": "stochastic_uniform",
+      "arrival_hash": "c0b8ace1c1374545ecd97d333f6b9771d81adee8cc5256761f1f796000a7ae76",
+      "capacity": 8,
+      "short": {
+        "cost": 6053,
+        "denied": 22
+      },
+      "long": {
+        "cost": 6368,
+        "denied": 52
+      },
+      "delta_cost": -315,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88004,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "24d1e13bd9b79c86c5c1214d029340830dd64db0c8d08563e65fbffc35f283b8",
+      "capacity": 4,
+      "short": {
+        "cost": 7216,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6370,
+        "denied": 50
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88004,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "24d1e13bd9b79c86c5c1214d029340830dd64db0c8d08563e65fbffc35f283b8",
+      "capacity": 8,
+      "short": {
+        "cost": 5950,
+        "denied": 34
+      },
+      "long": {
+        "cost": 6282,
+        "denied": 50
+      },
+      "delta_cost": -332,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88005,
+      "family": "stochastic_uniform",
+      "arrival_hash": "7ca09614e8081c290a8c0498a7b5c7d44f70e5634cbf4ed9f40582c9fb3c0e66",
+      "capacity": 4,
+      "short": {
+        "cost": 6927,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6079,
+        "denied": 52
+      },
+      "delta_cost": 848,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88005,
+      "family": "stochastic_uniform",
+      "arrival_hash": "7ca09614e8081c290a8c0498a7b5c7d44f70e5634cbf4ed9f40582c9fb3c0e66",
+      "capacity": 8,
+      "short": {
+        "cost": 5654,
+        "denied": 22
+      },
+      "long": {
+        "cost": 5987,
+        "denied": 52
+      },
+      "delta_cost": -333,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88005,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "c142cc69f99ab9ae4d70d54518ce548948ed17a108456d5ff603896dff11e80f",
+      "capacity": 4,
+      "short": {
+        "cost": 7188,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6338,
+        "denied": 50
+      },
+      "delta_cost": 850,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88005,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "c142cc69f99ab9ae4d70d54518ce548948ed17a108456d5ff603896dff11e80f",
+      "capacity": 8,
+      "short": {
+        "cost": 6184,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6250,
+        "denied": 50
+      },
+      "delta_cost": -66,
+      "delta_denied": -14,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88006,
+      "family": "stochastic_uniform",
+      "arrival_hash": "a33700b8b77f2ca503d9265e3a105187eb6cbb3486ce13ab6f0e2d70c8b5558a",
+      "capacity": 4,
+      "short": {
+        "cost": 7524,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6679,
+        "denied": 52
+      },
+      "delta_cost": 845,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88006,
+      "family": "stochastic_uniform",
+      "arrival_hash": "a33700b8b77f2ca503d9265e3a105187eb6cbb3486ce13ab6f0e2d70c8b5558a",
+      "capacity": 8,
+      "short": {
+        "cost": 6164,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6513,
+        "denied": 52
+      },
+      "delta_cost": -349,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88006,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "cad45462a9aa5dd444c1f586cb5ce27414faaa4e08a3641f87fc5468ef7c93e1",
+      "capacity": 4,
+      "short": {
+        "cost": 7143,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6295,
+        "denied": 50
+      },
+      "delta_cost": 848,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88006,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "cad45462a9aa5dd444c1f586cb5ce27414faaa4e08a3641f87fc5468ef7c93e1",
+      "capacity": 8,
+      "short": {
+        "cost": 6141,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6207,
+        "denied": 50
+      },
+      "delta_cost": -66,
+      "delta_denied": -14,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88007,
+      "family": "stochastic_uniform",
+      "arrival_hash": "e32dee79b495fc6ed016e961a1ee743ec8ef01e775808f8b3f5c3e7ada057410",
+      "capacity": 4,
+      "short": {
+        "cost": 7603,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6760,
+        "denied": 52
+      },
+      "delta_cost": 843,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88007,
+      "family": "stochastic_uniform",
+      "arrival_hash": "e32dee79b495fc6ed016e961a1ee743ec8ef01e775808f8b3f5c3e7ada057410",
+      "capacity": 8,
+      "short": {
+        "cost": 6263,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6628,
+        "denied": 52
+      },
+      "delta_cost": -365,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88007,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "cd82d1b4337f63cdab385bf59a066cafdfef2bee9a6dc6bb9a34b940d97eb056",
+      "capacity": 4,
+      "short": {
+        "cost": 7276,
+        "denied": 41
+      },
+      "long": {
+        "cost": 6430,
+        "denied": 52
+      },
+      "delta_cost": 846,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88007,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "cd82d1b4337f63cdab385bf59a066cafdfef2bee9a6dc6bb9a34b940d97eb056",
+      "capacity": 8,
+      "short": {
+        "cost": 6010,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6342,
+        "denied": 52
+      },
+      "delta_cost": -332,
+      "delta_denied": -16,
+      "paradox": false
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88008,
+      "family": "stochastic_uniform",
+      "arrival_hash": "a3778cd0ccdfe97980c7733f959040edfadd60f89590d03f379ebe49e30047c0",
+      "capacity": 4,
+      "short": {
+        "cost": 6751,
+        "denied": 41
+      },
+      "long": {
+        "cost": 5901,
+        "denied": 52
+      },
+      "delta_cost": 850,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88008,
+      "family": "stochastic_uniform",
+      "arrival_hash": "a3778cd0ccdfe97980c7733f959040edfadd60f89590d03f379ebe49e30047c0",
+      "capacity": 8,
+      "short": {
+        "cost": 5751,
+        "denied": 34
+      },
+      "long": {
+        "cost": 5735,
+        "denied": 52
+      },
+      "delta_cost": 16,
+      "delta_denied": -18,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88008,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "efee30214a4aa79c1f2f7ede1002376f48e3bf23f6fe0d0dfaba854f28f50377",
+      "capacity": 4,
+      "short": {
+        "cost": 7232,
+        "denied": 39
+      },
+      "long": {
+        "cost": 6384,
+        "denied": 50
+      },
+      "delta_cost": 848,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "label_seed": 86001,
+      "time_seed": 88008,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "efee30214a4aa79c1f2f7ede1002376f48e3bf23f6fe0d0dfaba854f28f50377",
+      "capacity": 8,
+      "short": {
+        "cost": 6230,
+        "denied": 36
+      },
+      "long": {
+        "cost": 6296,
+        "denied": 50
+      },
+      "delta_cost": -66,
+      "delta_denied": -14,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88001,
+      "family": "stochastic_uniform",
+      "arrival_hash": "fe976e40156548ece8d11b2df34057f24c734d3238c8fb22138f8718fb72166f",
+      "capacity": 4,
+      "short": {
+        "cost": 7501,
+        "denied": 47
+      },
+      "long": {
+        "cost": 5980,
+        "denied": 54
+      },
+      "delta_cost": 1521,
+      "delta_denied": -7,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88001,
+      "family": "stochastic_uniform",
+      "arrival_hash": "fe976e40156548ece8d11b2df34057f24c734d3238c8fb22138f8718fb72166f",
+      "capacity": 8,
+      "short": {
+        "cost": 5727,
+        "denied": 22
+      },
+      "long": {
+        "cost": 5728,
+        "denied": 50
+      },
+      "delta_cost": -1,
+      "delta_denied": -28,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88001,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "7782fcade9c73e9200a4314504408f2ab83ff35aec8bb119bf004a28007b9c0a",
+      "capacity": 4,
+      "short": {
+        "cost": 9527,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8125,
+        "denied": 57
+      },
+      "delta_cost": 1402,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88001,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "7782fcade9c73e9200a4314504408f2ab83ff35aec8bb119bf004a28007b9c0a",
+      "capacity": 8,
+      "short": {
+        "cost": 7377,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7717,
+        "denied": 50
+      },
+      "delta_cost": -340,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88002,
+      "family": "stochastic_uniform",
+      "arrival_hash": "b32f46880b7bac2607d5e15ffb40be0e61b5bfdcdf4d94412a08e6e6adb66dfa",
+      "capacity": 4,
+      "short": {
+        "cost": 8248,
+        "denied": 45
+      },
+      "long": {
+        "cost": 6960,
+        "denied": 59
+      },
+      "delta_cost": 1288,
+      "delta_denied": -14,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88002,
+      "family": "stochastic_uniform",
+      "arrival_hash": "b32f46880b7bac2607d5e15ffb40be0e61b5bfdcdf4d94412a08e6e6adb66dfa",
+      "capacity": 8,
+      "short": {
+        "cost": 6302,
+        "denied": 20
+      },
+      "long": {
+        "cost": 6626,
+        "denied": 50
+      },
+      "delta_cost": -324,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88002,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "60215f0f933691b6a70ff2b203cb4cf9188ff15a2de743d1ccd3ef720287e3bb",
+      "capacity": 4,
+      "short": {
+        "cost": 9564,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8160,
+        "denied": 57
+      },
+      "delta_cost": 1404,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88002,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "60215f0f933691b6a70ff2b203cb4cf9188ff15a2de743d1ccd3ef720287e3bb",
+      "capacity": 8,
+      "short": {
+        "cost": 7415,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7753,
+        "denied": 50
+      },
+      "delta_cost": -338,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88003,
+      "family": "stochastic_uniform",
+      "arrival_hash": "e6935bba3d32b64c462f1a64ee08cd55ff4d319cfa8d0907dfa7cb1ba17b1b05",
+      "capacity": 4,
+      "short": {
+        "cost": 7564,
+        "denied": 61
+      },
+      "long": {
+        "cost": 6770,
+        "denied": 85
+      },
+      "delta_cost": 794,
+      "delta_denied": -24,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88003,
+      "family": "stochastic_uniform",
+      "arrival_hash": "e6935bba3d32b64c462f1a64ee08cd55ff4d319cfa8d0907dfa7cb1ba17b1b05",
+      "capacity": 8,
+      "short": {
+        "cost": 6399,
+        "denied": 22
+      },
+      "long": {
+        "cost": 6439,
+        "denied": 50
+      },
+      "delta_cost": -40,
+      "delta_denied": -28,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88003,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "d732981ee9048a6a2793a50a9399904836e51c5516cac4187e584a0c68dde7a1",
+      "capacity": 4,
+      "short": {
+        "cost": 9520,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8117,
+        "denied": 57
+      },
+      "delta_cost": 1403,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88003,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "d732981ee9048a6a2793a50a9399904836e51c5516cac4187e584a0c68dde7a1",
+      "capacity": 8,
+      "short": {
+        "cost": 7371,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7710,
+        "denied": 50
+      },
+      "delta_cost": -339,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88004,
+      "family": "stochastic_uniform",
+      "arrival_hash": "2cfefe8f8d3e9ba9897fa05c9c9ea10828b334fa68bf538961d400de05651fb8",
+      "capacity": 4,
+      "short": {
+        "cost": 8412,
+        "denied": 50
+      },
+      "long": {
+        "cost": 7271,
+        "denied": 75
+      },
+      "delta_cost": 1141,
+      "delta_denied": -25,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88004,
+      "family": "stochastic_uniform",
+      "arrival_hash": "2cfefe8f8d3e9ba9897fa05c9c9ea10828b334fa68bf538961d400de05651fb8",
+      "capacity": 8,
+      "short": {
+        "cost": 6651,
+        "denied": 22
+      },
+      "long": {
+        "cost": 6731,
+        "denied": 50
+      },
+      "delta_cost": -80,
+      "delta_denied": -28,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88004,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "6b65242e198b03e34103f7a00b9ead98a99c566161eed681ea94310aa5f71c71",
+      "capacity": 4,
+      "short": {
+        "cost": 9553,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8151,
+        "denied": 57
+      },
+      "delta_cost": 1402,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88004,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "6b65242e198b03e34103f7a00b9ead98a99c566161eed681ea94310aa5f71c71",
+      "capacity": 8,
+      "short": {
+        "cost": 7404,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7744,
+        "denied": 50
+      },
+      "delta_cost": -340,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88005,
+      "family": "stochastic_uniform",
+      "arrival_hash": "2c407ade3314575d574ce397f1cd98cacfbdf1f629611ca60b2a1e4e2f620442",
+      "capacity": 4,
+      "short": {
+        "cost": 5777,
+        "denied": 60
+      },
+      "long": {
+        "cost": 5031,
+        "denied": 69
+      },
+      "delta_cost": 746,
+      "delta_denied": -9,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88005,
+      "family": "stochastic_uniform",
+      "arrival_hash": "2c407ade3314575d574ce397f1cd98cacfbdf1f629611ca60b2a1e4e2f620442",
+      "capacity": 8,
+      "short": {
+        "cost": 4853,
+        "denied": 15
+      },
+      "long": {
+        "cost": 5154,
+        "denied": 45
+      },
+      "delta_cost": -301,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88005,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "7be5221d9657a2e74a037d14ae7482f42c3024649c5327227dab31c6e803708e",
+      "capacity": 4,
+      "short": {
+        "cost": 9576,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8175,
+        "denied": 57
+      },
+      "delta_cost": 1401,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88005,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "7be5221d9657a2e74a037d14ae7482f42c3024649c5327227dab31c6e803708e",
+      "capacity": 8,
+      "short": {
+        "cost": 7426,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7767,
+        "denied": 50
+      },
+      "delta_cost": -341,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88006,
+      "family": "stochastic_uniform",
+      "arrival_hash": "3573597ca358adede6ee33ab5db96215151c31f96e5e4f5dca56f4c6a7a56088",
+      "capacity": 4,
+      "short": {
+        "cost": 6239,
+        "denied": 42
+      },
+      "long": {
+        "cost": 5467,
+        "denied": 66
+      },
+      "delta_cost": 772,
+      "delta_denied": -24,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88006,
+      "family": "stochastic_uniform",
+      "arrival_hash": "3573597ca358adede6ee33ab5db96215151c31f96e5e4f5dca56f4c6a7a56088",
+      "capacity": 8,
+      "short": {
+        "cost": 4868,
+        "denied": 20
+      },
+      "long": {
+        "cost": 5184,
+        "denied": 50
+      },
+      "delta_cost": -316,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88006,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "dca6344cef6f9966fc118eb0a9a29cc90434e7a0ea2639ffde33a3958edfc0f0",
+      "capacity": 4,
+      "short": {
+        "cost": 9587,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8184,
+        "denied": 57
+      },
+      "delta_cost": 1403,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88006,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "dca6344cef6f9966fc118eb0a9a29cc90434e7a0ea2639ffde33a3958edfc0f0",
+      "capacity": 8,
+      "short": {
+        "cost": 7437,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7776,
+        "denied": 50
+      },
+      "delta_cost": -339,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88007,
+      "family": "stochastic_uniform",
+      "arrival_hash": "9a4803efeb82ce41d39f4452d8d75f91d7f72e455039c8d243e3d382507ba0cc",
+      "capacity": 4,
+      "short": {
+        "cost": 8604,
+        "denied": 45
+      },
+      "long": {
+        "cost": 7282,
+        "denied": 50
+      },
+      "delta_cost": 1322,
+      "delta_denied": -5,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88007,
+      "family": "stochastic_uniform",
+      "arrival_hash": "9a4803efeb82ce41d39f4452d8d75f91d7f72e455039c8d243e3d382507ba0cc",
+      "capacity": 8,
+      "short": {
+        "cost": 6789,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7088,
+        "denied": 50
+      },
+      "delta_cost": -299,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88007,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "03e481716ef7594d177fe2db23a5eadc2492d5799120a7a526ea48a5061f0791",
+      "capacity": 4,
+      "short": {
+        "cost": 9589,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8187,
+        "denied": 57
+      },
+      "delta_cost": 1402,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88007,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "03e481716ef7594d177fe2db23a5eadc2492d5799120a7a526ea48a5061f0791",
+      "capacity": 8,
+      "short": {
+        "cost": 7440,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7780,
+        "denied": 50
+      },
+      "delta_cost": -340,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88008,
+      "family": "stochastic_uniform",
+      "arrival_hash": "f0adc9a24449892965ea637f92c8a1a478854e3c53e0194a1ab7b9b245c67a16",
+      "capacity": 4,
+      "short": {
+        "cost": 6826,
+        "denied": 42
+      },
+      "long": {
+        "cost": 5973,
+        "denied": 65
+      },
+      "delta_cost": 853,
+      "delta_denied": -23,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88008,
+      "family": "stochastic_uniform",
+      "arrival_hash": "f0adc9a24449892965ea637f92c8a1a478854e3c53e0194a1ab7b9b245c67a16",
+      "capacity": 8,
+      "short": {
+        "cost": 5418,
+        "denied": 20
+      },
+      "long": {
+        "cost": 5716,
+        "denied": 50
+      },
+      "delta_cost": -298,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88008,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "5c00be04be0a5352db49bc276670e02aa00c79c982116b1aab0171a8eb5de19a",
+      "capacity": 4,
+      "short": {
+        "cost": 9572,
+        "denied": 45
+      },
+      "long": {
+        "cost": 8170,
+        "denied": 57
+      },
+      "delta_cost": 1402,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "label_seed": 86002,
+      "time_seed": 88008,
+      "family": "stochastic_platoon4",
+      "arrival_hash": "5c00be04be0a5352db49bc276670e02aa00c79c982116b1aab0171a8eb5de19a",
+      "capacity": 8,
+      "short": {
+        "cost": 7424,
+        "denied": 20
+      },
+      "long": {
+        "cost": 7764,
+        "denied": 50
+      },
+      "delta_cost": -340,
+      "delta_denied": -30,
+      "paradox": false
+    }
+  ],
+  "limitation": "New stochastic arrival vectors within same T2 engine; not an independent physical model or representative field demand sample."
+}
