@@ -1,0 +1,2992 @@
+{
+  "source": "P87_RESULT.json",
+  "verification": "P87 delta identical for every selected case and per-ID signed vehicle-seconds exactly reconstructs cost",
+  "warning": "mechanism-level representative examples only; there is no statistical common-cause proof for all 55 pairs",
+  "rows": [
+    {
+      "seed": 85004,
+      "share": 0.25,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": 950,
+        "denied": -21,
+        "full_red": -19
+      },
+      "movement_total_delta": {
+        "L": 496,
+        "S": 454
+      },
+      "signed_vehicle_cost_total": 950,
+      "positive_vehicle_count": 31,
+      "negative_vehicle_count": 13,
+      "zero_vehicle_count": 16,
+      "largest_positive": [
+        {
+          "id": 35,
+          "arrival_s": 142,
+          "movement": "S",
+          "vehicle_seconds_delta": 128,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 116,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 12
+          }
+        },
+        {
+          "id": 33,
+          "arrival_s": 134,
+          "movement": "S",
+          "vehicle_seconds_delta": 126,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 115,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 11
+          }
+        },
+        {
+          "id": 45,
+          "arrival_s": 182,
+          "movement": "L",
+          "vehicle_seconds_delta": 112,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 118,
+            "approach_B": 0,
+            "pocket": -18,
+            "receiver": 12
+          }
+        },
+        {
+          "id": 25,
+          "arrival_s": 102,
+          "movement": "L",
+          "vehicle_seconds_delta": 98,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 41,
+            "approach_B": 0,
+            "pocket": 77,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 37,
+          "arrival_s": 150,
+          "movement": "L",
+          "vehicle_seconds_delta": 98,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 39,
+            "approach_B": 0,
+            "pocket": 79,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 40,
+          "arrival_s": 162,
+          "movement": "L",
+          "vehicle_seconds_delta": 98,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 118,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 41,
+          "arrival_s": 166,
+          "movement": "L",
+          "vehicle_seconds_delta": 98,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 118,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 20,
+          "arrival_s": 82,
+          "movement": "S",
+          "vehicle_seconds_delta": 66,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 55,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 11
+          }
+        }
+      ],
+      "largest_negative": [
+        {
+          "id": 36,
+          "arrival_s": 146,
+          "movement": "S",
+          "vehicle_seconds_delta": -72,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -73,
+            "pocket": 0,
+            "receiver": 1
+          }
+        },
+        {
+          "id": 53,
+          "arrival_s": 214,
+          "movement": "S",
+          "vehicle_seconds_delta": -70,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -72,
+            "pocket": 0,
+            "receiver": 2
+          }
+        },
+        {
+          "id": 30,
+          "arrival_s": 122,
+          "movement": "L",
+          "vehicle_seconds_delta": -18,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 81,
+            "approach_B": 0,
+            "pocket": -79,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 44,
+          "arrival_s": 178,
+          "movement": "S",
+          "vehicle_seconds_delta": -18,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 11,
+            "pocket": 0,
+            "receiver": -29
+          }
+        },
+        {
+          "id": 28,
+          "arrival_s": 114,
+          "movement": "S",
+          "vehicle_seconds_delta": -16,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 13,
+            "pocket": 0,
+            "receiver": -29
+          }
+        },
+        {
+          "id": 29,
+          "arrival_s": 118,
+          "movement": "S",
+          "vehicle_seconds_delta": -2,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 13,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 31,
+          "arrival_s": 126,
+          "movement": "S",
+          "vehicle_seconds_delta": -2,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 13,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 32,
+          "arrival_s": 130,
+          "movement": "S",
+          "vehicle_seconds_delta": -2,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 13,
+            "pocket": 0,
+            "receiver": -15
+          }
+        }
+      ],
+      "first_stopline_crossing_divergence": {
+        "index": 5,
+        "short_30": {
+          "t": 158,
+          "id": 20,
+          "movement": "S",
+          "lane": "A"
+        },
+        "long_60": {
+          "t": 103,
+          "id": 20,
+          "movement": "S",
+          "lane": "A"
+        }
+      },
+      "first_downstream_departure_divergence": {
+        "index": 4,
+        "short_30": {
+          "t": 114,
+          "id": 18,
+          "movement": "S"
+        },
+        "long_60": {
+          "t": 100,
+          "id": 18,
+          "movement": "S"
+        }
+      },
+      "first_15_stopline_short": [
+        {
+          "t": 87,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 18,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 97,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 99,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 101,
+          "id": 19,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 158,
+          "id": 20,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 21,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 161,
+          "id": 22,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 163,
+          "id": 24,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 176,
+          "id": 23,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 178,
+          "id": 26,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 180,
+          "id": 27,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 182,
+          "id": 28,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 184,
+          "id": 29,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 186,
+          "id": 31,
+          "movement": "S",
+          "lane": "B"
+        }
+      ],
+      "first_15_stopline_long": [
+        {
+          "t": 87,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 18,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 97,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 99,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 101,
+          "id": 19,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 103,
+          "id": 20,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 106,
+          "id": 21,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 122,
+          "id": 25,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 158,
+          "id": 24,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 23,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 161,
+          "id": 26,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 163,
+          "id": 33,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 165,
+          "id": 35,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 167,
+          "id": 27,
+          "movement": "S",
+          "lane": "B"
+        }
+      ],
+      "first_15_receiver_short": [
+        {
+          "t": 84,
+          "id": 14,
+          "movement": "S"
+        },
+        {
+          "t": 86,
+          "id": 13,
+          "movement": "S"
+        },
+        {
+          "t": 88,
+          "id": 15,
+          "movement": "S"
+        },
+        {
+          "t": 91,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 114,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 116,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 118,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 120,
+          "id": 19,
+          "movement": "S"
+        },
+        {
+          "t": 174,
+          "id": 20,
+          "movement": "S"
+        },
+        {
+          "t": 176,
+          "id": 21,
+          "movement": "S"
+        },
+        {
+          "t": 178,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 180,
+          "id": 24,
+          "movement": "S"
+        },
+        {
+          "t": 182,
+          "id": 23,
+          "movement": "S"
+        },
+        {
+          "t": 184,
+          "id": 26,
+          "movement": "S"
+        },
+        {
+          "t": 186,
+          "id": 27,
+          "movement": "S"
+        }
+      ],
+      "first_15_receiver_long": [
+        {
+          "t": 84,
+          "id": 14,
+          "movement": "S"
+        },
+        {
+          "t": 86,
+          "id": 13,
+          "movement": "S"
+        },
+        {
+          "t": 88,
+          "id": 15,
+          "movement": "S"
+        },
+        {
+          "t": 91,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 100,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 102,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 104,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 106,
+          "id": 19,
+          "movement": "S"
+        },
+        {
+          "t": 108,
+          "id": 20,
+          "movement": "S"
+        },
+        {
+          "t": 110,
+          "id": 21,
+          "movement": "S"
+        },
+        {
+          "t": 144,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 146,
+          "id": 25,
+          "movement": "L"
+        },
+        {
+          "t": 162,
+          "id": 24,
+          "movement": "S"
+        },
+        {
+          "t": 164,
+          "id": 23,
+          "movement": "S"
+        },
+        {
+          "t": 166,
+          "id": 26,
+          "movement": "S"
+        }
+      ]
+    },
+    {
+      "seed": 85001,
+      "share": 0.5,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 126,
+        "denied": -5,
+        "full_red": -15
+      },
+      "movement_total_delta": {
+        "L": 265,
+        "S": -139
+      },
+      "signed_vehicle_cost_total": 126,
+      "positive_vehicle_count": 32,
+      "negative_vehicle_count": 18,
+      "zero_vehicle_count": 10,
+      "largest_positive": [
+        {
+          "id": 57,
+          "arrival_s": 230,
+          "movement": "L",
+          "vehicle_seconds_delta": 71,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 3,
+            "approach_B": 0,
+            "pocket": 93,
+            "receiver": -25
+          }
+        },
+        {
+          "id": 58,
+          "arrival_s": 234,
+          "movement": "L",
+          "vehicle_seconds_delta": 71,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 96,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -25
+          }
+        },
+        {
+          "id": 21,
+          "arrival_s": 86,
+          "movement": "L",
+          "vehicle_seconds_delta": 21,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 5,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 16
+          }
+        },
+        {
+          "id": 24,
+          "arrival_s": 98,
+          "movement": "L",
+          "vehicle_seconds_delta": 21,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 5,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 16
+          }
+        },
+        {
+          "id": 29,
+          "arrival_s": 118,
+          "movement": "L",
+          "vehicle_seconds_delta": 21,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 4,
+            "approach_B": 0,
+            "pocket": 1,
+            "receiver": 16
+          }
+        },
+        {
+          "id": 49,
+          "arrival_s": 198,
+          "movement": "L",
+          "vehicle_seconds_delta": 19,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 3,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 16
+          }
+        },
+        {
+          "id": 50,
+          "arrival_s": 202,
+          "movement": "L",
+          "vehicle_seconds_delta": 19,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 3,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 16
+          }
+        },
+        {
+          "id": 42,
+          "arrival_s": 170,
+          "movement": "S",
+          "vehicle_seconds_delta": 17,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 3,
+            "pocket": 0,
+            "receiver": 14
+          }
+        }
+      ],
+      "largest_negative": [
+        {
+          "id": 22,
+          "arrival_s": 90,
+          "movement": "S",
+          "vehicle_seconds_delta": -49,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -49,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 5,
+          "arrival_s": 22,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 7,
+          "arrival_s": 30,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 8,
+          "arrival_s": 34,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 16,
+          "arrival_s": 66,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 47,
+          "arrival_s": 190,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 51,
+          "arrival_s": 206,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 52,
+          "arrival_s": 210,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        }
+      ],
+      "first_stopline_crossing_divergence": {
+        "index": 4,
+        "short_30": {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        "long_60": {
+          "t": 120,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      },
+      "first_downstream_departure_divergence": {
+        "index": 0,
+        "short_30": {
+          "t": 99,
+          "id": 5,
+          "movement": "L"
+        },
+        "long_60": {
+          "t": 114,
+          "id": 5,
+          "movement": "L"
+        }
+      },
+      "first_15_stopline_short": [
+        {
+          "t": 87,
+          "id": 5,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 131,
+          "id": 17,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 133,
+          "id": 18,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 135,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 137,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 139,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 141,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 143,
+          "id": 29,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      ],
+      "first_15_stopline_long": [
+        {
+          "t": 87,
+          "id": 5,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 126,
+          "id": 17,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 128,
+          "id": 18,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 130,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 132,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 134,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 136,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 138,
+          "id": 29,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 154,
+          "id": 33,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      ],
+      "first_15_receiver_short": [
+        {
+          "t": 99,
+          "id": 5,
+          "movement": "L"
+        },
+        {
+          "t": 101,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 103,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 105,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 129,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 131,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 133,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 135,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 137,
+          "id": 17,
+          "movement": "L"
+        },
+        {
+          "t": 139,
+          "id": 18,
+          "movement": "L"
+        },
+        {
+          "t": 141,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 143,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 159,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 161,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 163,
+          "id": 29,
+          "movement": "L"
+        }
+      ],
+      "first_15_receiver_long": [
+        {
+          "t": 114,
+          "id": 5,
+          "movement": "L"
+        },
+        {
+          "t": 116,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 118,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 120,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 124,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 126,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 128,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 130,
+          "id": 17,
+          "movement": "L"
+        },
+        {
+          "t": 132,
+          "id": 18,
+          "movement": "L"
+        },
+        {
+          "t": 134,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 136,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 138,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 140,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 142,
+          "id": 29,
+          "movement": "L"
+        },
+        {
+          "t": 174,
+          "id": 33,
+          "movement": "L"
+        }
+      ]
+    },
+    {
+      "seed": 85001,
+      "share": 0.75,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": 1505,
+        "denied": -6,
+        "full_red": -3
+      },
+      "movement_total_delta": {
+        "L": 1584,
+        "S": -79
+      },
+      "signed_vehicle_cost_total": 1505,
+      "positive_vehicle_count": 43,
+      "negative_vehicle_count": 10,
+      "zero_vehicle_count": 7,
+      "largest_positive": [
+        {
+          "id": 53,
+          "arrival_s": 214,
+          "movement": "L",
+          "vehicle_seconds_delta": 111,
+          "zone_delta": {
+            "outside": 8,
+            "approach_A": 5,
+            "approach_B": 0,
+            "pocket": 93,
+            "receiver": 5
+          }
+        },
+        {
+          "id": 55,
+          "arrival_s": 222,
+          "movement": "L",
+          "vehicle_seconds_delta": 111,
+          "zone_delta": {
+            "outside": 9,
+            "approach_A": 97,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 5
+          }
+        },
+        {
+          "id": 56,
+          "arrival_s": 226,
+          "movement": "L",
+          "vehicle_seconds_delta": 111,
+          "zone_delta": {
+            "outside": 9,
+            "approach_A": 97,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 5
+          }
+        },
+        {
+          "id": 37,
+          "arrival_s": 150,
+          "movement": "L",
+          "vehicle_seconds_delta": 107,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 9,
+            "approach_B": 0,
+            "pocket": 93,
+            "receiver": 5
+          }
+        },
+        {
+          "id": 57,
+          "arrival_s": 230,
+          "movement": "L",
+          "vehicle_seconds_delta": 81,
+          "zone_delta": {
+            "outside": 9,
+            "approach_A": 97,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -25
+          }
+        },
+        {
+          "id": 58,
+          "arrival_s": 234,
+          "movement": "L",
+          "vehicle_seconds_delta": 81,
+          "zone_delta": {
+            "outside": 9,
+            "approach_A": 97,
+            "approach_B": 0,
+            "pocket": 3,
+            "receiver": -28
+          }
+        },
+        {
+          "id": 59,
+          "arrival_s": 238,
+          "movement": "L",
+          "vehicle_seconds_delta": 81,
+          "zone_delta": {
+            "outside": 9,
+            "approach_A": 100,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -28
+          }
+        },
+        {
+          "id": 40,
+          "arrival_s": 162,
+          "movement": "L",
+          "vehicle_seconds_delta": 77,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 102,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -25
+          }
+        }
+      ],
+      "largest_negative": [
+        {
+          "id": 5,
+          "arrival_s": 22,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 6,
+          "arrival_s": 26,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 7,
+          "arrival_s": 30,
+          "movement": "L",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -15
+          }
+        },
+        {
+          "id": 25,
+          "arrival_s": 102,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 26,
+          "arrival_s": 106,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 30,
+          "arrival_s": 122,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 44,
+          "arrival_s": 178,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 6,
+            "approach_B": -21,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 51,
+          "arrival_s": 206,
+          "movement": "S",
+          "vehicle_seconds_delta": -15,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -15,
+            "pocket": 0,
+            "receiver": 0
+          }
+        }
+      ],
+      "first_stopline_crossing_divergence": {
+        "index": 7,
+        "short_30": {
+          "t": 131,
+          "id": 11,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        "long_60": {
+          "t": 126,
+          "id": 11,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      },
+      "first_downstream_departure_divergence": {
+        "index": 0,
+        "short_30": {
+          "t": 99,
+          "id": 5,
+          "movement": "L"
+        },
+        "long_60": {
+          "t": 114,
+          "id": 5,
+          "movement": "L"
+        }
+      },
+      "first_15_stopline_short": [
+        {
+          "t": 87,
+          "id": 5,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 6,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 111,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 10,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 131,
+          "id": 11,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 133,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 135,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 137,
+          "id": 16,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 139,
+          "id": 17,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 141,
+          "id": 18,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 143,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 145,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      ],
+      "first_15_stopline_long": [
+        {
+          "t": 87,
+          "id": 5,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 6,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 111,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 8,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 10,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 126,
+          "id": 11,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 128,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 130,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 132,
+          "id": 16,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 134,
+          "id": 17,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 136,
+          "id": 18,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 138,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 140,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      ],
+      "first_15_receiver_short": [
+        {
+          "t": 99,
+          "id": 5,
+          "movement": "L"
+        },
+        {
+          "t": 101,
+          "id": 6,
+          "movement": "L"
+        },
+        {
+          "t": 103,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 129,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 131,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 133,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 135,
+          "id": 10,
+          "movement": "L"
+        },
+        {
+          "t": 137,
+          "id": 11,
+          "movement": "L"
+        },
+        {
+          "t": 139,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 141,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 143,
+          "id": 16,
+          "movement": "L"
+        },
+        {
+          "t": 159,
+          "id": 17,
+          "movement": "L"
+        },
+        {
+          "t": 161,
+          "id": 18,
+          "movement": "L"
+        },
+        {
+          "t": 163,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 165,
+          "id": 20,
+          "movement": "L"
+        }
+      ],
+      "first_15_receiver_long": [
+        {
+          "t": 114,
+          "id": 5,
+          "movement": "L"
+        },
+        {
+          "t": 116,
+          "id": 6,
+          "movement": "L"
+        },
+        {
+          "t": 118,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 120,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 124,
+          "id": 8,
+          "movement": "L"
+        },
+        {
+          "t": 126,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 128,
+          "id": 10,
+          "movement": "L"
+        },
+        {
+          "t": 130,
+          "id": 11,
+          "movement": "L"
+        },
+        {
+          "t": 132,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 134,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 136,
+          "id": 16,
+          "movement": "L"
+        },
+        {
+          "t": 138,
+          "id": 17,
+          "movement": "L"
+        },
+        {
+          "t": 140,
+          "id": 18,
+          "movement": "L"
+        },
+        {
+          "t": 142,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 174,
+          "id": 20,
+          "movement": "L"
+        }
+      ]
+    },
+    {
+      "seed": 85001,
+      "share": 0.25,
+      "clock": "uniform",
+      "onset": "green",
+      "delta": {
+        "cost": -1242,
+        "denied": -42,
+        "full_red": -42
+      },
+      "movement_total_delta": {
+        "L": -780,
+        "S": -462
+      },
+      "signed_vehicle_cost_total": -1242,
+      "positive_vehicle_count": 17,
+      "negative_vehicle_count": 24,
+      "zero_vehicle_count": 19,
+      "largest_positive": [
+        {
+          "id": 27,
+          "arrival_s": 110,
+          "movement": "S",
+          "vehicle_seconds_delta": 36,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 21,
+            "pocket": 0,
+            "receiver": 15
+          }
+        },
+        {
+          "id": 31,
+          "arrival_s": 126,
+          "movement": "S",
+          "vehicle_seconds_delta": 16,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 15,
+            "pocket": 0,
+            "receiver": 1
+          }
+        },
+        {
+          "id": 32,
+          "arrival_s": 130,
+          "movement": "S",
+          "vehicle_seconds_delta": 16,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 15,
+            "pocket": 0,
+            "receiver": 1
+          }
+        },
+        {
+          "id": 41,
+          "arrival_s": 166,
+          "movement": "S",
+          "vehicle_seconds_delta": 16,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 15,
+            "pocket": 0,
+            "receiver": 1
+          }
+        },
+        {
+          "id": 16,
+          "arrival_s": 66,
+          "movement": "S",
+          "vehicle_seconds_delta": 14,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 17,
+          "arrival_s": 70,
+          "movement": "S",
+          "vehicle_seconds_delta": 14,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 18,
+          "arrival_s": 74,
+          "movement": "S",
+          "vehicle_seconds_delta": 14,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 23,
+          "arrival_s": 94,
+          "movement": "S",
+          "vehicle_seconds_delta": 12,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 12
+          }
+        }
+      ],
+      "largest_negative": [
+        {
+          "id": 43,
+          "arrival_s": 174,
+          "movement": "L",
+          "vehicle_seconds_delta": -138,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -39,
+            "approach_B": 0,
+            "pocket": -79,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 46,
+          "arrival_s": 186,
+          "movement": "L",
+          "vehicle_seconds_delta": -138,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -118,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -20
+          }
+        },
+        {
+          "id": 48,
+          "arrival_s": 194,
+          "movement": "L",
+          "vehicle_seconds_delta": -124,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -118,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -6
+          }
+        },
+        {
+          "id": 49,
+          "arrival_s": 198,
+          "movement": "L",
+          "vehicle_seconds_delta": -124,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -118,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": -6
+          }
+        },
+        {
+          "id": 50,
+          "arrival_s": 202,
+          "movement": "L",
+          "vehicle_seconds_delta": -124,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -118,
+            "approach_B": 0,
+            "pocket": -18,
+            "receiver": 12
+          }
+        },
+        {
+          "id": 47,
+          "arrival_s": 190,
+          "movement": "S",
+          "vehicle_seconds_delta": -108,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -120,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 12
+          }
+        },
+        {
+          "id": 56,
+          "arrival_s": 226,
+          "movement": "S",
+          "vehicle_seconds_delta": -102,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 60,
+            "approach_B": -163,
+            "pocket": 0,
+            "receiver": 1
+          }
+        },
+        {
+          "id": 53,
+          "arrival_s": 214,
+          "movement": "S",
+          "vehicle_seconds_delta": -82,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -69,
+            "approach_B": -28,
+            "pocket": 0,
+            "receiver": 15
+          }
+        }
+      ],
+      "first_stopline_crossing_divergence": {
+        "index": 10,
+        "short_30": {
+          "t": 126,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        "long_60": {
+          "t": 146,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      },
+      "first_downstream_departure_divergence": {
+        "index": 3,
+        "short_30": {
+          "t": 114,
+          "id": 16,
+          "movement": "S"
+        },
+        "long_60": {
+          "t": 100,
+          "id": 16,
+          "movement": "S"
+        }
+      },
+      "first_15_stopline_short": [
+        {
+          "t": 87,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 98,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 100,
+          "id": 18,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 126,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 128,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 154,
+          "id": 33,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 158,
+          "id": 34,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 23,
+          "movement": "S",
+          "lane": "B"
+        }
+      ],
+      "first_15_stopline_long": [
+        {
+          "t": 87,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 98,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 100,
+          "id": 18,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 146,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 148,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 154,
+          "id": 33,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 158,
+          "id": 34,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 23,
+          "movement": "S",
+          "lane": "B"
+        }
+      ],
+      "first_15_receiver_short": [
+        {
+          "t": 91,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 93,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 95,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 114,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 116,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 118,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 120,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 124,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 126,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 128,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 144,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 146,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 158,
+          "id": 33,
+          "movement": "L"
+        },
+        {
+          "t": 174,
+          "id": 34,
+          "movement": "S"
+        },
+        {
+          "t": 176,
+          "id": 23,
+          "movement": "S"
+        }
+      ],
+      "first_15_receiver_long": [
+        {
+          "t": 91,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 93,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 95,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 100,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 102,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 104,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 144,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 146,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 148,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 150,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 152,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 154,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 158,
+          "id": 33,
+          "movement": "L"
+        },
+        {
+          "t": 162,
+          "id": 34,
+          "movement": "S"
+        },
+        {
+          "t": 164,
+          "id": 23,
+          "movement": "S"
+        }
+      ]
+    },
+    {
+      "seed": 85001,
+      "share": 0.25,
+      "clock": "uniform",
+      "onset": "red",
+      "delta": {
+        "cost": -911,
+        "denied": -18,
+        "full_red": -19
+      },
+      "movement_total_delta": {
+        "L": -97,
+        "S": -814
+      },
+      "signed_vehicle_cost_total": -911,
+      "positive_vehicle_count": 18,
+      "negative_vehicle_count": 30,
+      "zero_vehicle_count": 12,
+      "largest_positive": [
+        {
+          "id": 54,
+          "arrival_s": 218,
+          "movement": "S",
+          "vehicle_seconds_delta": 11,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -49,
+            "approach_B": 57,
+            "pocket": 0,
+            "receiver": 3
+          }
+        },
+        {
+          "id": 56,
+          "arrival_s": 226,
+          "movement": "S",
+          "vehicle_seconds_delta": 11,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -44,
+            "approach_B": 52,
+            "pocket": 0,
+            "receiver": 3
+          }
+        },
+        {
+          "id": 38,
+          "arrival_s": 154,
+          "movement": "S",
+          "vehicle_seconds_delta": 9,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -5,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 39,
+          "arrival_s": 158,
+          "movement": "S",
+          "vehicle_seconds_delta": 9,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 9,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 40,
+          "arrival_s": 162,
+          "movement": "S",
+          "vehicle_seconds_delta": 9,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 9,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 15,
+          "arrival_s": 62,
+          "movement": "L",
+          "vehicle_seconds_delta": 7,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 7
+          }
+        },
+        {
+          "id": 19,
+          "arrival_s": 78,
+          "movement": "L",
+          "vehicle_seconds_delta": 7,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 7
+          }
+        },
+        {
+          "id": 20,
+          "arrival_s": 82,
+          "movement": "L",
+          "vehicle_seconds_delta": 7,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": 0,
+            "pocket": 0,
+            "receiver": 7
+          }
+        }
+      ],
+      "largest_negative": [
+        {
+          "id": 59,
+          "arrival_s": 238,
+          "movement": "L",
+          "vehicle_seconds_delta": -102,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": -25,
+            "approach_B": 0,
+            "pocket": -77,
+            "receiver": 0
+          }
+        },
+        {
+          "id": 41,
+          "arrival_s": 166,
+          "movement": "S",
+          "vehicle_seconds_delta": -79,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -93,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 44,
+          "arrival_s": 178,
+          "movement": "S",
+          "vehicle_seconds_delta": -79,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -93,
+            "pocket": 0,
+            "receiver": 14
+          }
+        },
+        {
+          "id": 32,
+          "arrival_s": 130,
+          "movement": "S",
+          "vehicle_seconds_delta": -75,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -78,
+            "pocket": 0,
+            "receiver": 3
+          }
+        },
+        {
+          "id": 17,
+          "arrival_s": 70,
+          "movement": "S",
+          "vehicle_seconds_delta": -71,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -58,
+            "pocket": 0,
+            "receiver": -13
+          }
+        },
+        {
+          "id": 18,
+          "arrival_s": 74,
+          "movement": "S",
+          "vehicle_seconds_delta": -71,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -58,
+            "pocket": 0,
+            "receiver": -13
+          }
+        },
+        {
+          "id": 22,
+          "arrival_s": 90,
+          "movement": "S",
+          "vehicle_seconds_delta": -63,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -76,
+            "pocket": 0,
+            "receiver": 13
+          }
+        },
+        {
+          "id": 28,
+          "arrival_s": 114,
+          "movement": "S",
+          "vehicle_seconds_delta": -45,
+          "zone_delta": {
+            "outside": 0,
+            "approach_A": 0,
+            "approach_B": -29,
+            "pocket": 0,
+            "receiver": -16
+          }
+        }
+      ],
+      "first_stopline_crossing_divergence": {
+        "index": 4,
+        "short_30": {
+          "t": 101,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        "long_60": {
+          "t": 120,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        }
+      },
+      "first_downstream_departure_divergence": {
+        "index": 0,
+        "short_30": {
+          "t": 99,
+          "id": 7,
+          "movement": "L"
+        },
+        "long_60": {
+          "t": 114,
+          "id": 7,
+          "movement": "L"
+        }
+      },
+      "first_15_stopline_short": [
+        {
+          "t": 87,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 101,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 103,
+          "id": 18,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 110,
+          "id": 22,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 131,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 133,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 154,
+          "id": 33,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 158,
+          "id": 34,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 23,
+          "movement": "S",
+          "lane": "B"
+        }
+      ],
+      "first_15_stopline_long": [
+        {
+          "t": 87,
+          "id": 7,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 89,
+          "id": 9,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 91,
+          "id": 12,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 96,
+          "id": 16,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 120,
+          "id": 15,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 122,
+          "id": 19,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 124,
+          "id": 20,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 126,
+          "id": 21,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 128,
+          "id": 24,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 154,
+          "id": 33,
+          "movement": "L",
+          "lane": "pocket"
+        },
+        {
+          "t": 158,
+          "id": 34,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 159,
+          "id": 17,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 161,
+          "id": 18,
+          "movement": "S",
+          "lane": "B"
+        },
+        {
+          "t": 176,
+          "id": 36,
+          "movement": "S",
+          "lane": "A"
+        },
+        {
+          "t": 178,
+          "id": 37,
+          "movement": "S",
+          "lane": "A"
+        }
+      ],
+      "first_15_receiver_short": [
+        {
+          "t": 99,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 101,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 103,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 105,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 107,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 109,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 129,
+          "id": 22,
+          "movement": "S"
+        },
+        {
+          "t": 131,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 133,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 135,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 137,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 139,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 159,
+          "id": 33,
+          "movement": "L"
+        },
+        {
+          "t": 162,
+          "id": 34,
+          "movement": "S"
+        },
+        {
+          "t": 164,
+          "id": 23,
+          "movement": "S"
+        }
+      ],
+      "first_15_receiver_long": [
+        {
+          "t": 114,
+          "id": 7,
+          "movement": "L"
+        },
+        {
+          "t": 116,
+          "id": 9,
+          "movement": "L"
+        },
+        {
+          "t": 118,
+          "id": 12,
+          "movement": "L"
+        },
+        {
+          "t": 120,
+          "id": 16,
+          "movement": "S"
+        },
+        {
+          "t": 124,
+          "id": 15,
+          "movement": "L"
+        },
+        {
+          "t": 126,
+          "id": 19,
+          "movement": "L"
+        },
+        {
+          "t": 128,
+          "id": 20,
+          "movement": "L"
+        },
+        {
+          "t": 130,
+          "id": 21,
+          "movement": "L"
+        },
+        {
+          "t": 132,
+          "id": 24,
+          "movement": "L"
+        },
+        {
+          "t": 174,
+          "id": 33,
+          "movement": "L"
+        },
+        {
+          "t": 176,
+          "id": 34,
+          "movement": "S"
+        },
+        {
+          "t": 178,
+          "id": 17,
+          "movement": "S"
+        },
+        {
+          "t": 180,
+          "id": 18,
+          "movement": "S"
+        },
+        {
+          "t": 182,
+          "id": 36,
+          "movement": "S"
+        },
+        {
+          "t": 184,
+          "id": 37,
+          "movement": "S"
+        }
+      ]
+    }
+  ]
+}
