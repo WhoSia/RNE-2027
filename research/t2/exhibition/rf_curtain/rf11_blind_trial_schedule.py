@@ -11,6 +11,7 @@ import csv
 import hashlib
 import json
 import random
+import secrets
 from pathlib import Path
 
 LABELS=('no_demand','free','pocket','downstream','both')
@@ -21,7 +22,9 @@ PRIMARY=('S3','P2')
 RESERVE=('S1','P2')
 
 
-def schedule(*,seed: int=20261124,reset_per_class: int=10):
+def schedule(*,seed: int | None=None,reset_per_class: int=10):
+    if seed is None:
+        seed=secrets.randbits(128)
     if type(seed) is not int or seed<0:
         raise ValueError('seed must be nonnegative integer')
     if type(reset_per_class) is not int or reset_per_class<10:
@@ -78,7 +81,8 @@ def manifest_receipt(rows):
 def main(argv=None):
     p=argparse.ArgumentParser()
     p.add_argument('--outdir',required=True)
-    p.add_argument('--seed',type=int,default=20261124)
+    p.add_argument('--seed',type=int,default=None,
+                   help='DEMO/REPRO ONLY; never use a published seed for a blinded experiment')
     p.add_argument('--resets',type=int,default=10)
     a=p.parse_args(argv)
     directory=Path(a.outdir);directory.mkdir(parents=True,exist_ok=True)
@@ -88,5 +92,7 @@ def main(argv=None):
     rec=manifest_receipt(rows)
     (directory/'schedule_integrity.json').write_text(json.dumps(rec,indent=2)+'\n')
     print(json.dumps(rec,ensure_ascii=False))
+    print('OPERATOR: keep truth CSV PRIVATE; do not publish seed/labels or '+
+          'share the operator directory with analysts.')
 
 if __name__=='__main__':main()
