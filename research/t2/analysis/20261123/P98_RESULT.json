@@ -1,0 +1,561 @@
+{
+  "scope": "two preselected exceptions to absolute-cost monotonicity in P97",
+  "verification": "source P97 absolute cost + per-zone + per-movement + per-vehicle signed identities match",
+  "caution": "observed order differences do not identify a unique causal mechanism without interventions on the conflicting vehicles",
+  "rows": [
+    {
+      "seed": 85003,
+      "share": 0.5,
+      "clock": "uniform",
+      "onset": "red",
+      "period": 30,
+      "loss_old": 2,
+      "loss_new": 3,
+      "cost_old": 5048,
+      "cost_new": 4795,
+      "delta_new_minus_old": -253,
+      "zone_delta": {
+        "outside": -24,
+        "approach_A": -616,
+        "approach_B": 176,
+        "pocket": 9,
+        "receiver": 202
+      },
+      "movement_delta": {
+        "L": -496,
+        "S": 243
+      },
+      "positive_vehicles": 27,
+      "negative_vehicles": 22,
+      "top_positive": [
+        {
+          "id": 28,
+          "movement": "S",
+          "arrival_s": 114,
+          "cost_new_minus_old": 30
+        },
+        {
+          "id": 41,
+          "movement": "S",
+          "arrival_s": 166,
+          "cost_new_minus_old": 27
+        },
+        {
+          "id": 42,
+          "movement": "S",
+          "arrival_s": 170,
+          "cost_new_minus_old": 27
+        },
+        {
+          "id": 29,
+          "movement": "S",
+          "arrival_s": 118,
+          "cost_new_minus_old": 26
+        },
+        {
+          "id": 25,
+          "movement": "S",
+          "arrival_s": 102,
+          "cost_new_minus_old": 24
+        },
+        {
+          "id": 26,
+          "movement": "S",
+          "arrival_s": 106,
+          "cost_new_minus_old": 24
+        },
+        {
+          "id": 53,
+          "movement": "S",
+          "arrival_s": 214,
+          "cost_new_minus_old": 23
+        },
+        {
+          "id": 23,
+          "movement": "L",
+          "arrival_s": 94,
+          "cost_new_minus_old": 21
+        }
+      ],
+      "top_negative": [
+        {
+          "id": 30,
+          "movement": "L",
+          "arrival_s": 122,
+          "cost_new_minus_old": -87
+        },
+        {
+          "id": 31,
+          "movement": "L",
+          "arrival_s": 126,
+          "cost_new_minus_old": -87
+        },
+        {
+          "id": 32,
+          "movement": "L",
+          "arrival_s": 130,
+          "cost_new_minus_old": -87
+        },
+        {
+          "id": 45,
+          "movement": "L",
+          "arrival_s": 182,
+          "cost_new_minus_old": -85
+        },
+        {
+          "id": 47,
+          "movement": "L",
+          "arrival_s": 190,
+          "cost_new_minus_old": -85
+        },
+        {
+          "id": 38,
+          "movement": "L",
+          "arrival_s": 154,
+          "cost_new_minus_old": -21
+        },
+        {
+          "id": 40,
+          "movement": "L",
+          "arrival_s": 162,
+          "cost_new_minus_old": -21
+        },
+        {
+          "id": 57,
+          "movement": "L",
+          "arrival_s": 230,
+          "cost_new_minus_old": -19
+        }
+      ],
+      "first_upstream_order_divergence": {
+        "index": 3,
+        "loss_old": [
+          103,
+          18,
+          "S",
+          "B"
+        ],
+        "loss_new": [
+          104,
+          18,
+          "S",
+          "B"
+        ]
+      },
+      "first_receiver_departure_divergence": {
+        "index": 0,
+        "loss_old": [
+          101,
+          15,
+          "S"
+        ],
+        "loss_new": [
+          102,
+          15,
+          "S"
+        ]
+      },
+      "first_12_receiver_old": [
+        [
+          101,
+          15,
+          "S"
+        ],
+        [
+          103,
+          7,
+          "L"
+        ],
+        [
+          105,
+          9,
+          "L"
+        ],
+        [
+          107,
+          11,
+          "L"
+        ],
+        [
+          109,
+          18,
+          "S"
+        ],
+        [
+          111,
+          19,
+          "S"
+        ],
+        [
+          113,
+          21,
+          "S"
+        ],
+        [
+          131,
+          14,
+          "L"
+        ],
+        [
+          133,
+          16,
+          "L"
+        ],
+        [
+          135,
+          17,
+          "L"
+        ],
+        [
+          137,
+          20,
+          "L"
+        ],
+        [
+          139,
+          22,
+          "L"
+        ]
+      ],
+      "first_12_receiver_new": [
+        [
+          102,
+          15,
+          "S"
+        ],
+        [
+          104,
+          7,
+          "L"
+        ],
+        [
+          106,
+          9,
+          "L"
+        ],
+        [
+          108,
+          11,
+          "L"
+        ],
+        [
+          110,
+          18,
+          "S"
+        ],
+        [
+          112,
+          19,
+          "S"
+        ],
+        [
+          132,
+          21,
+          "S"
+        ],
+        [
+          134,
+          14,
+          "L"
+        ],
+        [
+          136,
+          16,
+          "L"
+        ],
+        [
+          138,
+          17,
+          "L"
+        ],
+        [
+          140,
+          20,
+          "L"
+        ],
+        [
+          142,
+          22,
+          "L"
+        ]
+      ]
+    },
+    {
+      "seed": 85009,
+      "share": 0.5,
+      "clock": "uniform",
+      "onset": "green",
+      "period": 60,
+      "loss_old": 0,
+      "loss_new": 1,
+      "cost_old": 4716,
+      "cost_new": 4262,
+      "delta_new_minus_old": -454,
+      "zone_delta": {
+        "outside": 0,
+        "approach_A": -526,
+        "approach_B": 45,
+        "pocket": 9,
+        "receiver": 18
+      },
+      "movement_delta": {
+        "L": -465,
+        "S": 11
+      },
+      "positive_vehicles": 23,
+      "negative_vehicles": 9,
+      "top_positive": [
+        {
+          "id": 29,
+          "movement": "L",
+          "arrival_s": 118,
+          "cost_new_minus_old": 105
+        },
+        {
+          "id": 58,
+          "movement": "S",
+          "arrival_s": 234,
+          "cost_new_minus_old": 70
+        },
+        {
+          "id": 42,
+          "movement": "S",
+          "arrival_s": 170,
+          "cost_new_minus_old": 4
+        },
+        {
+          "id": 33,
+          "movement": "L",
+          "arrival_s": 134,
+          "cost_new_minus_old": 3
+        },
+        {
+          "id": 36,
+          "movement": "L",
+          "arrival_s": 146,
+          "cost_new_minus_old": 3
+        },
+        {
+          "id": 44,
+          "movement": "S",
+          "arrival_s": 178,
+          "cost_new_minus_old": 2
+        },
+        {
+          "id": 16,
+          "movement": "L",
+          "arrival_s": 66,
+          "cost_new_minus_old": 1
+        },
+        {
+          "id": 17,
+          "movement": "L",
+          "arrival_s": 70,
+          "cost_new_minus_old": 1
+        }
+      ],
+      "top_negative": [
+        {
+          "id": 45,
+          "movement": "L",
+          "arrival_s": 182,
+          "cost_new_minus_old": -113
+        },
+        {
+          "id": 48,
+          "movement": "L",
+          "arrival_s": 194,
+          "cost_new_minus_old": -113
+        },
+        {
+          "id": 49,
+          "movement": "L",
+          "arrival_s": 198,
+          "cost_new_minus_old": -113
+        },
+        {
+          "id": 50,
+          "movement": "L",
+          "arrival_s": 202,
+          "cost_new_minus_old": -113
+        },
+        {
+          "id": 52,
+          "movement": "L",
+          "arrival_s": 210,
+          "cost_new_minus_old": -113
+        },
+        {
+          "id": 59,
+          "movement": "S",
+          "arrival_s": 238,
+          "cost_new_minus_old": -69
+        },
+        {
+          "id": 56,
+          "movement": "L",
+          "arrival_s": 226,
+          "cost_new_minus_old": -9
+        },
+        {
+          "id": 57,
+          "movement": "L",
+          "arrival_s": 230,
+          "cost_new_minus_old": -9
+        }
+      ],
+      "first_upstream_order_divergence": {
+        "index": 10,
+        "loss_old": [
+          146,
+          23,
+          "L",
+          "pocket"
+        ],
+        "loss_new": [
+          147,
+          23,
+          "L",
+          "pocket"
+        ]
+      },
+      "first_receiver_departure_divergence": {
+        "index": 7,
+        "loss_old": [
+          144,
+          22,
+          "S"
+        ],
+        "loss_new": [
+          145,
+          22,
+          "S"
+        ]
+      },
+      "first_12_receiver_old": [
+        [
+          87,
+          15,
+          "S"
+        ],
+        [
+          91,
+          5,
+          "L"
+        ],
+        [
+          93,
+          10,
+          "L"
+        ],
+        [
+          95,
+          13,
+          "L"
+        ],
+        [
+          100,
+          18,
+          "S"
+        ],
+        [
+          107,
+          20,
+          "S"
+        ],
+        [
+          111,
+          21,
+          "S"
+        ],
+        [
+          144,
+          22,
+          "S"
+        ],
+        [
+          146,
+          16,
+          "L"
+        ],
+        [
+          148,
+          17,
+          "L"
+        ],
+        [
+          150,
+          19,
+          "L"
+        ],
+        [
+          152,
+          23,
+          "L"
+        ]
+      ],
+      "first_12_receiver_new": [
+        [
+          87,
+          15,
+          "S"
+        ],
+        [
+          91,
+          5,
+          "L"
+        ],
+        [
+          93,
+          10,
+          "L"
+        ],
+        [
+          95,
+          13,
+          "L"
+        ],
+        [
+          100,
+          18,
+          "S"
+        ],
+        [
+          107,
+          20,
+          "S"
+        ],
+        [
+          111,
+          21,
+          "S"
+        ],
+        [
+          145,
+          22,
+          "S"
+        ],
+        [
+          147,
+          16,
+          "L"
+        ],
+        [
+          149,
+          17,
+          "L"
+        ],
+        [
+          151,
+          19,
+          "L"
+        ],
+        [
+          153,
+          23,
+          "L"
+        ]
+      ]
+    }
+  ]
+}
