@@ -1,0 +1,302 @@
+{
+  "status": "P128_SELECTED_C8_PLATOON_REVERSAL_TRACE_COMPLETE",
+  "prereg": "P128_PLATOON_FAMILY_REVERSAL_PREREG.md",
+  "simulator_arms": 6,
+  "matched_pairs": 3,
+  "all_clear": true,
+  "per_id_closure": true,
+  "rows": [
+    {
+      "share": 0.5,
+      "family": "stochastic_uniform",
+      "delta_cost": -148,
+      "delta_denied": -1,
+      "totals": {
+        "total": -148,
+        "pre": 67,
+        "post": -215
+      },
+      "bymovement": {
+        "L": {
+          "total": 14,
+          "pre": 156,
+          "post": -142
+        },
+        "S": {
+          "total": -162,
+          "pre": -89,
+          "post": -73
+        }
+      },
+      "top_positive": [
+        {
+          "id": 28,
+          "movement": "L",
+          "exit_delta": 63,
+          "pre_stopline_delta": 94,
+          "post_stopline_delta": -31
+        },
+        {
+          "id": 14,
+          "movement": "L",
+          "exit_delta": 19,
+          "pre_stopline_delta": 5,
+          "post_stopline_delta": 14
+        },
+        {
+          "id": 15,
+          "movement": "L",
+          "exit_delta": 19,
+          "pre_stopline_delta": 5,
+          "post_stopline_delta": 14
+        },
+        {
+          "id": 52,
+          "movement": "L",
+          "exit_delta": 17,
+          "pre_stopline_delta": 2,
+          "post_stopline_delta": 15
+        },
+        {
+          "id": 6,
+          "movement": "L",
+          "exit_delta": 5,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": 5
+        }
+      ],
+      "top_negative": [
+        {
+          "id": 3,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 4,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 5,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 18,
+          "movement": "S",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 19,
+          "movement": "S",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        }
+      ]
+    },
+    {
+      "share": 0.5,
+      "family": "stochastic_platoon4",
+      "delta_cost": 202,
+      "delta_denied": -3,
+      "totals": {
+        "total": 202,
+        "pre": 241,
+        "post": -39
+      },
+      "bymovement": {
+        "L": {
+          "total": 224,
+          "pre": 292,
+          "post": -68
+        },
+        "S": {
+          "total": -22,
+          "pre": -51,
+          "post": 29
+        }
+      },
+      "top_positive": [
+        {
+          "id": 27,
+          "movement": "L",
+          "exit_delta": 67,
+          "pre_stopline_delta": 96,
+          "post_stopline_delta": -29
+        },
+        {
+          "id": 28,
+          "movement": "L",
+          "exit_delta": 67,
+          "pre_stopline_delta": 96,
+          "post_stopline_delta": -29
+        },
+        {
+          "id": 31,
+          "movement": "S",
+          "exit_delta": 43,
+          "pre_stopline_delta": 47,
+          "post_stopline_delta": -4
+        },
+        {
+          "id": 33,
+          "movement": "S",
+          "exit_delta": 39,
+          "pre_stopline_delta": 25,
+          "post_stopline_delta": 14
+        },
+        {
+          "id": 34,
+          "movement": "S",
+          "exit_delta": 35,
+          "pre_stopline_delta": 21,
+          "post_stopline_delta": 14
+        }
+      ],
+      "top_negative": [
+        {
+          "id": 37,
+          "movement": "S",
+          "exit_delta": -33,
+          "pre_stopline_delta": -17,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 38,
+          "movement": "S",
+          "exit_delta": -33,
+          "pre_stopline_delta": -17,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 40,
+          "movement": "S",
+          "exit_delta": -19,
+          "pre_stopline_delta": -3,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 41,
+          "movement": "S",
+          "exit_delta": -19,
+          "pre_stopline_delta": -3,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 42,
+          "movement": "S",
+          "exit_delta": -19,
+          "pre_stopline_delta": -3,
+          "post_stopline_delta": -16
+        }
+      ]
+    },
+    {
+      "share": 0.75,
+      "family": "stochastic_platoon4",
+      "delta_cost": -66,
+      "delta_denied": -14,
+      "totals": {
+        "total": -66,
+        "pre": 17,
+        "post": -83
+      },
+      "bymovement": {
+        "L": {
+          "total": -14,
+          "pre": 228,
+          "post": -242
+        },
+        "S": {
+          "total": -52,
+          "pre": -211,
+          "post": 159
+        }
+      },
+      "top_positive": [
+        {
+          "id": 23,
+          "movement": "L",
+          "exit_delta": 61,
+          "pre_stopline_delta": 90,
+          "post_stopline_delta": -29
+        },
+        {
+          "id": 49,
+          "movement": "L",
+          "exit_delta": 61,
+          "pre_stopline_delta": 90,
+          "post_stopline_delta": -29
+        },
+        {
+          "id": 14,
+          "movement": "L",
+          "exit_delta": 17,
+          "pre_stopline_delta": 1,
+          "post_stopline_delta": 16
+        },
+        {
+          "id": 35,
+          "movement": "L",
+          "exit_delta": 17,
+          "pre_stopline_delta": 2,
+          "post_stopline_delta": 15
+        },
+        {
+          "id": 19,
+          "movement": "S",
+          "exit_delta": 9,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": 9
+        }
+      ],
+      "top_negative": [
+        {
+          "id": 41,
+          "movement": "S",
+          "exit_delta": -31,
+          "pre_stopline_delta": -15,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 37,
+          "movement": "S",
+          "exit_delta": -17,
+          "pre_stopline_delta": -1,
+          "post_stopline_delta": -16
+        },
+        {
+          "id": 3,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 4,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        },
+        {
+          "id": 5,
+          "movement": "L",
+          "exit_delta": -15,
+          "pre_stopline_delta": 0,
+          "post_stopline_delta": -15
+        }
+      ]
+    }
+  ],
+  "limits": "Postselection from P127; same T2 engine; no independent predictive evidence."
+}
