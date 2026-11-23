@@ -24,6 +24,10 @@ POSITION_FIELDS = ("approach_A_positions", "approach_B_positions",
 
 def corrupt(row, amplitude, dropout, trial):
     r = copy.deepcopy(row)
+    # Zero-jitter, zero-dropout must preserve the exact observation, including
+    # tuple/list container types. Otherwise the control is not an identity.
+    if amplitude == 0 and dropout == 0:
+        return r
     observed = r["decision_observation"]
     seed = (r["seed"] * 1000003 + r["capacity"] * 1009 +
             int(r["pocket_m"]) * 13 + int(r["b_share"] * 100) * 17 +
