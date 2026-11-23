@@ -1,0 +1,432 @@
+{
+  "status": "P130_SHARED_DOWNSTREAM_HEADWAY_32_ARMS_COMPLETE",
+  "prereg": "P130_SPLIT_SHARED_OUTFLOW_PREREG.md",
+  "fork_source_sha256": "c4f692e812f126514bad3179b882a7674325cac3c8631fcb3748a427fda38838",
+  "simulator_arms": 32,
+  "matched_signal_pairs": 16,
+  "all_cleared": true,
+  "unit_test_shared_exit_pass": true,
+  "summary": {
+    "0.5": {
+      "n": 8,
+      "paradox": 2,
+      "short_cost_worse": 8,
+      "mean_delta_cost": 721.875,
+      "mean_delta_denied": 3.5,
+      "min_cost_delta": 538,
+      "max_cost_delta": 838
+    },
+    "0.75": {
+      "n": 8,
+      "paradox": 1,
+      "short_cost_worse": 8,
+      "mean_delta_cost": 2415.375,
+      "mean_delta_denied": 9.125,
+      "min_cost_delta": 2205,
+      "max_cost_delta": 2831
+    }
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 545,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 5053,
+        "denied": 70,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4508,
+        "denied": 68,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "shared4_delta": -1177,
+      "separate2plus2_delta": 422
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 825,
+      "delta_denied": 13,
+      "paradox": false,
+      "short": {
+        "cost": 5368,
+        "denied": 73,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 4543,
+        "denied": 60,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "shared4_delta": 114,
+      "separate2plus2_delta": 637
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 538,
+      "delta_denied": 0,
+      "paradox": false,
+      "short": {
+        "cost": 4849,
+        "denied": 73,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4311,
+        "denied": 73,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "shared4_delta": -470,
+      "separate2plus2_delta": 589
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 716,
+      "delta_denied": 12,
+      "paradox": false,
+      "short": {
+        "cost": 5281,
+        "denied": 70,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 4565,
+        "denied": 58,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "shared4_delta": 2,
+      "separate2plus2_delta": 544
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 755,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 4438,
+        "denied": 48,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 3683,
+        "denied": 46,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "shared4_delta": -17,
+      "separate2plus2_delta": 746
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 774,
+      "delta_denied": -2,
+      "paradox": true,
+      "short": {
+        "cost": 6047,
+        "denied": 61,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 5273,
+        "denied": 63,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "shared4_delta": 640,
+      "separate2plus2_delta": 808
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 784,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 4713,
+        "denied": 54,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 3929,
+        "denied": 52,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "shared4_delta": -16,
+      "separate2plus2_delta": 763
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 838,
+      "delta_denied": -1,
+      "paradox": true,
+      "short": {
+        "cost": 6057,
+        "denied": 62,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 5219,
+        "denied": 63,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "shared4_delta": 276,
+      "separate2plus2_delta": 865
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 2244,
+      "delta_denied": 10,
+      "paradox": false,
+      "short": {
+        "cost": 9066,
+        "denied": 75,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6822,
+        "denied": 65,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "shared4_delta": 847,
+      "separate2plus2_delta": 2267
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2229,
+      "delta_denied": 9,
+      "paradox": false,
+      "short": {
+        "cost": 9082,
+        "denied": 73,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6853,
+        "denied": 64,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "shared4_delta": 849,
+      "separate2plus2_delta": 2259
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 2205,
+      "delta_denied": 8,
+      "paradox": false,
+      "short": {
+        "cost": 8829,
+        "denied": 73,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6624,
+        "denied": 65,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "shared4_delta": 845,
+      "separate2plus2_delta": 2230
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2208,
+      "delta_denied": 9,
+      "paradox": false,
+      "short": {
+        "cost": 9083,
+        "denied": 70,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6875,
+        "denied": 61,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "shared4_delta": 848,
+      "separate2plus2_delta": 2219
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 2327,
+      "delta_denied": -1,
+      "paradox": true,
+      "short": {
+        "cost": 9045,
+        "denied": 52,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6718,
+        "denied": 53,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "shared4_delta": 935,
+      "separate2plus2_delta": 2335
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2827,
+      "delta_denied": 15,
+      "paradox": false,
+      "short": {
+        "cost": 11976,
+        "denied": 73,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 9149,
+        "denied": 58,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "shared4_delta": 1401,
+      "separate2plus2_delta": 2841
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 2452,
+      "delta_denied": 9,
+      "paradox": false,
+      "short": {
+        "cost": 9832,
+        "denied": 63,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 7380,
+        "denied": 54,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "shared4_delta": 920,
+      "separate2plus2_delta": 2460
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2831,
+      "delta_denied": 14,
+      "paradox": false,
+      "short": {
+        "cost": 11926,
+        "denied": 72,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 9095,
+        "denied": 58,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "shared4_delta": 1405,
+      "separate2plus2_delta": 2844
+    }
+  ],
+  "limits": "Same T2 fork; separate two-cell movement links + shared downstream headway; entry link per movement and lane length still different from original shared4. Fixed S-before-L simultaneous-exit precedence is a new assumption. No independent engine or field evidence."
+}
