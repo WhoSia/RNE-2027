@@ -15,6 +15,12 @@ class RF10Tests(unittest.TestCase):
             with self.assertRaises(ValueError):parse_iq(bad,'8','0')
         with self.assertRaises(ValueError):parse_iq('[3,4,0,5,-3,-4,0,0]','8','1')
         with self.assertRaises(ValueError):parse_iq('[3,4,0,5,-3,-4,0,0]','7','0')
+        repaired=parse_iq('[12,99,11,98,3,4,0,5,-3,-4,0,0]','12','1',
+                          invalid_policy='esp32_drop_first_four')
+        self.assertEqual(repaired,(5.0,5.0,5.0,0.0))
+        with self.assertRaises(ValueError):
+            parse_iq('[3,4,0,5,-3,-4,0,0]','8','1',
+                     invalid_policy='esp32_drop_first_four')
 
     def test_auth_and_timestamp_order(self):
         with tempfile.TemporaryDirectory() as d:
