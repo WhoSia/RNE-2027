@@ -1,0 +1,1838 @@
+{
+  "offsets": [
+    0,
+    15,
+    30,
+    45
+  ],
+  "reversals": {
+    "left_first": 35,
+    "through_first": 17
+  },
+  "rows": [
+    {
+      "seed": 85001,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          224,
+          -13,
+          -51,
+          42
+        ],
+        "through_first": [
+          0,
+          -29,
+          -98,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85001,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          780,
+          95,
+          -63,
+          -56
+        ],
+        "through_first": [
+          966,
+          360,
+          510,
+          690
+        ]
+      }
+    },
+    {
+      "seed": 85001,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          96,
+          -260,
+          -1062,
+          -108
+        ],
+        "through_first": [
+          0,
+          -387,
+          -1044,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85001,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -184,
+          -1211,
+          -576
+        ],
+        "through_first": [
+          0,
+          -400,
+          -983,
+          -60
+        ]
+      }
+    },
+    {
+      "seed": 85001,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -182,
+          -609,
+          -1563,
+          -800
+        ],
+        "through_first": [
+          0,
+          -1033,
+          -1541,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85001,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -499,
+          -1960,
+          -624
+        ],
+        "through_first": [
+          0,
+          -1000,
+          -1884,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          526,
+          232,
+          -98,
+          -6
+        ],
+        "through_first": [
+          0,
+          -13,
+          323,
+          288
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          290,
+          -385,
+          -1014,
+          -276
+        ],
+        "through_first": [
+          740,
+          490,
+          538,
+          608
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -367,
+          -1269,
+          -287
+        ],
+        "through_first": [
+          -122,
+          -592,
+          -1188,
+          -406
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -122,
+          -369,
+          -1780,
+          -592
+        ],
+        "through_first": [
+          -122,
+          -834,
+          -1646,
+          -184
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -188,
+          -493,
+          -1918,
+          -1016
+        ],
+        "through_first": [
+          0,
+          -996,
+          -1896,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85002,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -807,
+          -1897,
+          -167
+        ],
+        "through_first": [
+          0,
+          -1244,
+          -1772,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          198,
+          0,
+          -40,
+          -1
+        ],
+        "through_first": [
+          614,
+          -5,
+          251,
+          296
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          396,
+          382,
+          909,
+          600
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          66,
+          0,
+          -112,
+          883
+        ],
+        "through_first": [
+          0,
+          -33,
+          -100,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          62,
+          0,
+          -1088,
+          -120
+        ],
+        "through_first": [
+          58,
+          -83,
+          -958,
+          162
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -182,
+          0,
+          -1663,
+          -914
+        ],
+        "through_first": [
+          0,
+          -1028,
+          -1647,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85003,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -302,
+          -491,
+          -1804,
+          -909
+        ],
+        "through_first": [
+          -302,
+          -922,
+          -1709,
+          -310
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          26,
+          1174
+        ],
+        "through_first": [
+          0,
+          0,
+          296,
+          302
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          438,
+          789,
+          608,
+          1176
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          346,
+          -177,
+          -830,
+          -6
+        ],
+        "through_first": [
+          0,
+          -366,
+          -820,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          500,
+          0,
+          -954,
+          -120
+        ],
+        "through_first": [
+          192,
+          6,
+          -482,
+          124
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -170,
+          -412,
+          -1664,
+          -512
+        ],
+        "through_first": [
+          0,
+          -833,
+          -1650,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85004,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -174,
+          -426,
+          -1674,
+          -812
+        ],
+        "through_first": [
+          -464,
+          -871,
+          -1520,
+          -604
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          16,
+          206
+        ],
+        "through_first": [
+          0,
+          -7,
+          -84,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          1176,
+          963,
+          1274,
+          1354
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          186,
+          0,
+          -286,
+          48
+        ],
+        "through_first": [
+          0,
+          -11,
+          -580,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          198,
+          -1140,
+          -718,
+          -1377
+        ],
+        "through_first": [
+          392,
+          296,
+          510,
+          580
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          -1554,
+          -592
+        ],
+        "through_first": [
+          0,
+          -989,
+          -1534,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85005,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -178,
+          -416,
+          -1797,
+          -885
+        ],
+        "through_first": [
+          -178,
+          -766,
+          -1714,
+          -428
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          776,
+          0,
+          84,
+          340
+        ],
+        "through_first": [
+          0,
+          -9,
+          335,
+          530
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          418,
+          301,
+          -414,
+          0
+        ],
+        "through_first": [
+          672,
+          548,
+          704,
+          773
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          168,
+          -222,
+          -1065,
+          -6
+        ],
+        "through_first": [
+          -50,
+          -508,
+          -988,
+          -70
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -263,
+          -1626,
+          -592
+        ],
+        "through_first": [
+          0,
+          -436,
+          -1154,
+          -144
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -196,
+          -499,
+          -1810,
+          -816
+        ],
+        "through_first": [
+          0,
+          -1122,
+          -1788,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85006,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -354,
+          -536,
+          -1914,
+          -832
+        ],
+        "through_first": [
+          0,
+          -1078,
+          -1892,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          222,
+          0,
+          -112,
+          -54
+        ],
+        "through_first": [
+          184,
+          160,
+          675,
+          290
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          226,
+          112,
+          -540,
+          23
+        ],
+        "through_first": [
+          226,
+          163,
+          90,
+          422
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          610,
+          0,
+          -704,
+          -58
+        ],
+        "through_first": [
+          170,
+          -192,
+          -397,
+          276
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          518,
+          -51,
+          -830,
+          -1084
+        ],
+        "through_first": [
+          176,
+          -201,
+          202,
+          -572
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -124,
+          -373,
+          -1418,
+          -294
+        ],
+        "through_first": [
+          0,
+          -755,
+          -1403,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85007,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -130,
+          -408,
+          -1877,
+          -698
+        ],
+        "through_first": [
+          0,
+          -913,
+          -1735,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          230,
+          236,
+          -97,
+          286
+        ],
+        "through_first": [
+          546,
+          172,
+          336,
+          406
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          336,
+          219,
+          -122,
+          -108
+        ],
+        "through_first": [
+          568,
+          598,
+          628,
+          588
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          166,
+          -147,
+          -1169,
+          -282
+        ],
+        "through_first": [
+          0,
+          -401,
+          -963,
+          -54
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -180,
+          -1192,
+          -572
+        ],
+        "through_first": [
+          0,
+          -395,
+          -970,
+          -54
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -170,
+          -410,
+          -1547,
+          -400
+        ],
+        "through_first": [
+          -178,
+          -756,
+          -1466,
+          -296
+        ]
+      }
+    },
+    {
+      "seed": 85008,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -178,
+          -625,
+          -1891,
+          -208
+        ],
+        "through_first": [
+          0,
+          -996,
+          -1763,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          10,
+          47
+        ],
+        "through_first": [
+          822,
+          242,
+          777,
+          898
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          584,
+          569,
+          605,
+          683
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          298,
+          0,
+          -358,
+          -108
+        ],
+        "through_first": [
+          172,
+          -20,
+          -111,
+          246
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          174,
+          0,
+          -715,
+          -461
+        ],
+        "through_first": [
+          556,
+          6,
+          730,
+          92
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -369,
+          -1302,
+          -576
+        ],
+        "through_first": [
+          -156,
+          -668,
+          -1214,
+          -180
+        ]
+      }
+    },
+    {
+      "seed": 85009,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -128,
+          -373,
+          -1523,
+          -600
+        ],
+        "through_first": [
+          0,
+          -764,
+          -1467,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          382,
+          0,
+          -288,
+          50
+        ],
+        "through_first": [
+          0,
+          -74,
+          -340,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          270,
+          0,
+          314,
+          649
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -257,
+          -1055,
+          -6
+        ],
+        "through_first": [
+          0,
+          -513,
+          -1045,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -286,
+          -1076,
+          -568
+        ],
+        "through_first": [
+          0,
+          -315,
+          -679,
+          -120
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -416,
+          -1555,
+          -596
+        ],
+        "through_first": [
+          0,
+          -834,
+          -1533,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85010,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -420,
+          -1685,
+          -698
+        ],
+        "through_first": [
+          0,
+          -1314,
+          -1663,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          20,
+          357
+        ],
+        "through_first": [
+          0,
+          0,
+          221,
+          599
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          948,
+          843,
+          2250,
+          1246
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          -1055,
+          -277
+        ],
+        "through_first": [
+          -64,
+          -446,
+          -983,
+          -171
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -290,
+          -1288,
+          -576
+        ],
+        "through_first": [
+          -112,
+          -392,
+          -1054,
+          -352
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -303,
+          0,
+          -1668,
+          -804
+        ],
+        "through_first": [
+          -196,
+          -927,
+          -1596,
+          -347
+        ]
+      }
+    },
+    {
+      "seed": 85011,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -228,
+          -528,
+          -1907,
+          -828
+        ],
+        "through_first": [
+          -232,
+          -971,
+          -1827,
+          -353
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          288,
+          0,
+          -220,
+          284
+        ],
+        "through_first": [
+          274,
+          10,
+          332,
+          292
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          294,
+          103,
+          -839,
+          -453
+        ],
+        "through_first": [
+          584,
+          507,
+          605,
+          750
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          180,
+          -80,
+          -698,
+          125
+        ],
+        "through_first": [
+          180,
+          -192,
+          -397,
+          162
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -116,
+          -823,
+          -352
+        ],
+        "through_first": [
+          0,
+          -220,
+          -502,
+          168
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -174,
+          -410,
+          -1652,
+          -6
+        ],
+        "through_first": [
+          0,
+          -819,
+          -1642,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85012,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -182,
+          -597,
+          -1791,
+          -812
+        ],
+        "through_first": [
+          -368,
+          -952,
+          -1647,
+          -620
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          354,
+          0,
+          84,
+          1024
+        ],
+        "through_first": [
+          0,
+          -7,
+          570,
+          984
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          234,
+          181,
+          -179,
+          -48
+        ],
+        "through_first": [
+          230,
+          420,
+          602,
+          -38
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          -1066,
+          -285
+        ],
+        "through_first": [
+          0,
+          -508,
+          -986,
+          -68
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -186,
+          -1082,
+          -580
+        ],
+        "through_first": [
+          0,
+          -358,
+          -692,
+          -136
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -182,
+          0,
+          -1781,
+          -871
+        ],
+        "through_first": [
+          -182,
+          -878,
+          -1699,
+          -305
+        ]
+      }
+    },
+    {
+      "seed": 85013,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -180,
+          -489,
+          -1678,
+          -887
+        ],
+        "through_first": [
+          0,
+          -1029,
+          -1656,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          228,
+          0,
+          -48,
+          42
+        ],
+        "through_first": [
+          0,
+          -9,
+          270,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          562,
+          444,
+          642,
+          600
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          172,
+          -251,
+          -830,
+          -6
+        ],
+        "through_first": [
+          0,
+          -505,
+          -820,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          60,
+          0,
+          -842,
+          -340
+        ],
+        "through_first": [
+          116,
+          4,
+          -486,
+          -92
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -176,
+          -416,
+          -1592,
+          -698
+        ],
+        "through_first": [
+          0,
+          -838,
+          -1568,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85014,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -176,
+          -414,
+          -1643,
+          -465
+        ],
+        "through_first": [
+          0,
+          -838,
+          -1568,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          464,
+          0,
+          196,
+          421
+        ],
+        "through_first": [
+          464,
+          -5,
+          376,
+          306
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "through_first": [
+          290,
+          221,
+          264,
+          308
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -253,
+          -830,
+          -332
+        ],
+        "through_first": [
+          0,
+          -406,
+          -808,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          0,
+          -192,
+          -830,
+          -38
+        ],
+        "through_first": [
+          0,
+          -402,
+          -808,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          0,
+          -373,
+          -1425,
+          -568
+        ],
+        "through_first": [
+          0,
+          -677,
+          -1403,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85015,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -160,
+          -376,
+          -1314,
+          -714
+        ],
+        "through_first": [
+          0,
+          -878,
+          -1292,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.25,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          184,
+          -13,
+          -108,
+          -49
+        ],
+        "through_first": [
+          102,
+          41,
+          134,
+          725
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.25,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          106,
+          55,
+          -63,
+          -56
+        ],
+        "through_first": [
+          336,
+          430,
+          848,
+          690
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.5,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          58,
+          -75,
+          -1074,
+          344
+        ],
+        "through_first": [
+          0,
+          358,
+          -1056,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.5,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          58,
+          0,
+          -541,
+          -62
+        ],
+        "through_first": [
+          58,
+          -80,
+          -949,
+          54
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.75,
+      "clock": "uniform",
+      "deltas": {
+        "left_first": [
+          -180,
+          -491,
+          -1558,
+          -800
+        ],
+        "through_first": [
+          0,
+          -992,
+          -1540,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 85016,
+      "share": 0.75,
+      "clock": "platoon4",
+      "deltas": {
+        "left_first": [
+          -182,
+          -605,
+          -1681,
+          -899
+        ],
+        "through_first": [
+          -182,
+          -1027,
+          -1597,
+          -306
+        ]
+      }
+    }
+  ]
+}
