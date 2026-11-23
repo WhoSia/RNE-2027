@@ -1,0 +1,70 @@
+{
+  "evidence_grade": "independent archived JSON reaggregation; no new simulation",
+  "interpretation": "51/55 paradox pairs have both denial and full-red seconds lower, yet total vehicle-seconds higher; locate added occupancy via P88",
+  "by_onset": {
+    "green": {
+      "paradox": {
+        "n": 12,
+        "cost_sum": 6047,
+        "denied_sum": -304,
+        "full_red_sum": -281,
+        "full_red_signs": {
+          "lower": 11,
+          "equal": 1,
+          "higher": 0
+        },
+        "clock_counts": {
+          "uniform": 3,
+          "platoon4": 9
+        }
+      },
+      "both_down": {
+        "n": 75,
+        "cost_sum": -143466,
+        "denied_sum": -2044,
+        "full_red_sum": -2139,
+        "full_red_signs": {
+          "lower": 74,
+          "equal": 0,
+          "higher": 1
+        },
+        "clock_counts": {
+          "uniform": 40,
+          "platoon4": 35
+        }
+      }
+    },
+    "red": {
+      "paradox": {
+        "n": 43,
+        "cost_sum": 37605,
+        "denied_sum": -672,
+        "full_red_sum": -869,
+        "full_red_signs": {
+          "lower": 40,
+          "equal": 0,
+          "higher": 3
+        },
+        "clock_counts": {
+          "uniform": 21,
+          "platoon4": 22
+        }
+      },
+      "both_down": {
+        "n": 39,
+        "cost_sum": -36061,
+        "denied_sum": -601,
+        "full_red_sum": -965,
+        "full_red_signs": {
+          "lower": 36,
+          "equal": 0,
+          "higher": 3
+        },
+        "clock_counts": {
+          "uniform": 23,
+          "platoon4": 16
+        }
+      }
+    }
+  }
+}
