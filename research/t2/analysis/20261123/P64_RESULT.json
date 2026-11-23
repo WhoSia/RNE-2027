@@ -1,0 +1,8 @@
+{
+  "source_sha256": "0df7079720916706f2de64c8b0cb3d671c69bd39df901b0516a56de5b21ed412",
+  "rows": 10000,
+  "zero": 1,
+  "positive_at_most_four": 461,
+  "over_four": 9538,
+  "site_labels": 74
+}
