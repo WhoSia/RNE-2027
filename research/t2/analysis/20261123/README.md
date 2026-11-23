@@ -126,3 +126,9 @@ Historical status before the later full replay: P88 and P89 full simulations wer
 - Google Docs [running diary](https://docs.google.com/document/d/1ySC3KhATJ2VyGt4w7Jq77gvatKKcpuVZv7aPskRHUxw/edit) and [dated reproducibility folder](https://drive.google.com/drive/folders/1HGigW9JfBuIuG-mx6gK3GjTHAA5XhDZC).
 
 **Next non-negotiable boundary**: synthetic seed repetition cannot validate field operations. Independent engine with matched storage geometry, measured simultaneous two-stopline signal/vehicle events, and pedestrian/conflicting user cost are the top scientific gaps. Do not claim real corridor performance from P101.
+
+## P102 external validity veto (historical SUMO evidence)
+
+[Python source-only audit](p102_historical_engine_disagreement.py) · [exact source reaggregation JSON](P102_RESULT.json) · [Drive copy](https://drive.google.com/file/d/1MS74R0AbKs43nIrGraOQRdYLDGvpMOQp/view).
+
+P71 had 64 pre-existing seed cohorts comparing **6s/10s upstream left-green allocations** (not P87/P100 downstream cycle-length intervention) with downstream offset 0s and 15s. On the exact historical P71 signed costs, T2/SUMO ranks agreed in **13/64** at offset 0s and **2/64** at offset 15s; strict opposite ranks were **16/64** and **40/64**, respectively. P71 included unmatched lane/link geometry, and P102 was only a new *audit of archived results*, not a fresh SUMO run. This warning reinforces the external validity stop gate: P100/P101 synthetic seed replication **cannot** substitute for independent-engine geometry-matched tests and actual field outlet observations.
