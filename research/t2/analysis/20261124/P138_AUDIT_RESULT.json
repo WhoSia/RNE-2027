@@ -1,0 +1,219 @@
+{
+  "status": "P138_POSTHOC_OFFSET_MIXTURE_AUDIT",
+  "simulator_arms": 0,
+  "inputs": [
+    "P136_RESULT.json",
+    "P137_RESULT.json"
+  ],
+  "P136": {
+    "n": 64,
+    "distinct_tapes": 16,
+    "short_wins": 35,
+    "long_wins": 29,
+    "by_offset": {
+      "0,30": {
+        "n": 16,
+        "short_cheaper": 1,
+        "long_cheaper": 15
+      },
+      "15,0": {
+        "n": 16,
+        "short_cheaper": 16,
+        "long_cheaper": 0
+      },
+      "7,15": {
+        "n": 16,
+        "short_cheaper": 2,
+        "long_cheaper": 14
+      },
+      "23,45": {
+        "n": 16,
+        "short_cheaper": 16,
+        "long_cheaper": 0
+      }
+    }
+  },
+  "P137": {
+    "n": 64,
+    "distinct_tapes": 16,
+    "short_wins": 35,
+    "long_wins": 29,
+    "by_offset": {
+      "0,30": {
+        "n": 16,
+        "short_cheaper": 1,
+        "long_cheaper": 15
+      },
+      "15,0": {
+        "n": 16,
+        "short_cheaper": 16,
+        "long_cheaper": 0
+      },
+      "7,15": {
+        "n": 16,
+        "short_cheaper": 2,
+        "long_cheaper": 14
+      },
+      "23,45": {
+        "n": 16,
+        "short_cheaper": 16,
+        "long_cheaper": 0
+      }
+    }
+  },
+  "P137_within_tape_calendar_vs_proxy": {
+    "calendar_better": 11,
+    "proxy_better": 2,
+    "equal": 3
+  },
+  "P137_total_calendar_regret": 1646,
+  "P137_total_denied_seconds_proxy_regret": 19280,
+  "P137_proxy_minus_calendar_regret": 17634,
+  "P137_by_tape": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88701,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 960,
+      "denied_seconds_proxy_regret": 0,
+      "excess_proxy_regret": -960
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88701,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 58,
+      "excess_proxy_regret": 58
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88702,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 46,
+      "excess_proxy_regret": 46
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88702,
+      "family": "stochastic_uniform",
+      "calendar_regret": 675,
+      "denied_seconds_proxy_regret": 0,
+      "excess_proxy_regret": -675
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88701,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 1056,
+      "excess_proxy_regret": 1056
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88701,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 990,
+      "excess_proxy_regret": 990
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88702,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 892,
+      "excess_proxy_regret": 892
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88702,
+      "family": "stochastic_uniform",
+      "calendar_regret": 11,
+      "denied_seconds_proxy_regret": 509,
+      "excess_proxy_regret": 498
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88701,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 2806,
+      "excess_proxy_regret": 2806
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88701,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 2844,
+      "excess_proxy_regret": 2844
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88702,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 2807,
+      "excess_proxy_regret": 2807
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88702,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 0,
+      "excess_proxy_regret": 0
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88701,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 0,
+      "excess_proxy_regret": 0
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88701,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 4194,
+      "excess_proxy_regret": 4194
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88702,
+      "family": "stochastic_platoon4",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 0,
+      "excess_proxy_regret": 0
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88702,
+      "family": "stochastic_uniform",
+      "calendar_regret": 0,
+      "denied_seconds_proxy_regret": 3078,
+      "excess_proxy_regret": 3078
+    }
+  ],
+  "method_warning": "P136/P137 overall class balance is offset mixture; each within-offset stratum strongly one-sided, and four pairs share each demand tape. Calendar-only mapping fit to P136, frozen P137. Post-treatment local proxy uses outcomes from both policies and is NOT available to real-time controller. P138 posthoc only, not independent simulation or field generality."
+}
