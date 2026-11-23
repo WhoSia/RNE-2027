@@ -1,0 +1,433 @@
+{
+  "status": "P131_LEFT_FIRST_EXIT_ARBITRATION_32_ARMS_COMPLETE",
+  "prereg": "P131_EXIT_TIE_PRECEDENCE_PREREG.md",
+  "fork_source_sha256": "641543b1631e7376c80aa0ce68e0a2def7954a25ba12425db35fd45c26e061f7",
+  "simulator_arms": 32,
+  "matched_signal_pairs": 16,
+  "all_cleared": true,
+  "unit_test_shared_exit_pass": true,
+  "paradox_status_changed_vs_s_first": 3,
+  "summary": {
+    "0.5": {
+      "n": 8,
+      "paradox": 5,
+      "short_cost_worse": 8,
+      "mean_delta_cost": 596.625,
+      "mean_delta_denied": -2.25,
+      "min_cost_delta": 309,
+      "max_cost_delta": 838
+    },
+    "0.75": {
+      "n": 8,
+      "paradox": 1,
+      "short_cost_worse": 8,
+      "mean_delta_cost": 2415.375,
+      "mean_delta_denied": 2.875,
+      "min_cost_delta": 2205,
+      "max_cost_delta": 2831
+    }
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 309,
+      "delta_denied": 0,
+      "paradox": false,
+      "short": {
+        "cost": 4965,
+        "denied": 78,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4656,
+        "denied": 78,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "s_first_delta": 545,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 517,
+      "delta_denied": 4,
+      "paradox": false,
+      "short": {
+        "cost": 5208,
+        "denied": 76,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4691,
+        "denied": 72,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "s_first_delta": 825,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 390,
+      "delta_denied": -7,
+      "paradox": true,
+      "short": {
+        "cost": 4849,
+        "denied": 78,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4459,
+        "denied": 85,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "s_first_delta": 538,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 406,
+      "delta_denied": 3,
+      "paradox": false,
+      "short": {
+        "cost": 5119,
+        "denied": 73,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 4713,
+        "denied": 70,
+        "exit_L": 28,
+        "exit_S": 32,
+        "max_receiver": 4
+      },
+      "s_first_delta": 716,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 755,
+      "delta_denied": -2,
+      "paradox": true,
+      "short": {
+        "cost": 4438,
+        "denied": 52,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 3683,
+        "denied": 54,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "s_first_delta": 755,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 774,
+      "delta_denied": -8,
+      "paradox": true,
+      "short": {
+        "cost": 6047,
+        "denied": 63,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 5273,
+        "denied": 71,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "s_first_delta": 774,
+      "s_first_paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 784,
+      "delta_denied": -2,
+      "paradox": true,
+      "short": {
+        "cost": 4713,
+        "denied": 60,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "long": {
+        "cost": 3929,
+        "denied": 62,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "s_first_delta": 784,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 838,
+      "delta_denied": -6,
+      "paradox": true,
+      "short": {
+        "cost": 6057,
+        "denied": 65,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 5219,
+        "denied": 71,
+        "exit_L": 31,
+        "exit_S": 29,
+        "max_receiver": 4
+      },
+      "s_first_delta": 838,
+      "s_first_paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 2244,
+      "delta_denied": 3,
+      "paradox": false,
+      "short": {
+        "cost": 9066,
+        "denied": 76,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6822,
+        "denied": 73,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2244,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2229,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 9082,
+        "denied": 74,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6853,
+        "denied": 72,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2229,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 2205,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 8829,
+        "denied": 75,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6624,
+        "denied": 73,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2205,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2208,
+      "delta_denied": 2,
+      "paradox": false,
+      "short": {
+        "cost": 9083,
+        "denied": 71,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6875,
+        "denied": 69,
+        "exit_L": 40,
+        "exit_S": 20,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2208,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "delta_cost": 2327,
+      "delta_denied": -7,
+      "paradox": true,
+      "short": {
+        "cost": 9045,
+        "denied": 54,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 6718,
+        "denied": 61,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2327,
+      "s_first_paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2827,
+      "delta_denied": 9,
+      "paradox": false,
+      "short": {
+        "cost": 11976,
+        "denied": 75,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 9149,
+        "denied": 66,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2827,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "delta_cost": 2452,
+      "delta_denied": 3,
+      "paradox": false,
+      "short": {
+        "cost": 9832,
+        "denied": 65,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 7380,
+        "denied": 62,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2452,
+      "s_first_paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "delta_cost": 2831,
+      "delta_denied": 9,
+      "paradox": false,
+      "short": {
+        "cost": 11926,
+        "denied": 75,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 3
+      },
+      "long": {
+        "cost": 9095,
+        "denied": 66,
+        "exit_L": 47,
+        "exit_S": 13,
+        "max_receiver": 4
+      },
+      "s_first_delta": 2831,
+      "s_first_paradox": false
+    }
+  ],
+  "limits": "P130 fork with L-before-S exit tie precedence; same two 2-cell separate movement links and single 2-second exit clock; no geometry or engine independence."
+}
