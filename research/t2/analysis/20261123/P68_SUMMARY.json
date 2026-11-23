@@ -1,0 +1,26 @@
+{
+  "rows": 1152,
+  "improved": 246,
+  "worse": 0,
+  "opposite_within_tape": 0,
+  "pocket": {
+    "pairs": 384,
+    "changed": 56,
+    "opposite": 0
+  },
+  "share": {
+    "pairs": 384,
+    "changed": 92,
+    "opposite": 0
+  },
+  "changes": {
+    "pairs": 576,
+    "changed": 111,
+    "opposite": 0
+  },
+  "headway": {
+    "pairs": 576,
+    "changed": 174,
+    "opposite": 0
+  }
+}
