@@ -1,0 +1,21 @@
+{
+  "status": "RF10_RF11_LOCAL_STDLIB_UNIT_TESTS_PASS_NOT_PHYSICAL_MEASUREMENT",
+  "date_kst": "2026-11-24",
+  "python": "3.13.5",
+  "command": "PYTHONPATH=/mnt/data/rf10 python -m unittest discover -s /mnt/data/rf10 -p 'test_*.py' -q",
+  "exit_code": 0,
+  "unit_tests_run": 8,
+  "unit_tests_failures": 0,
+  "unit_tests_errors": 0,
+  "scope": "RF10 3 synthetic parser/validation tests; RF11 5 synthetic design/separation/blinding tests; no full T2/RF05 integration replay",
+  "source_sha256": {
+    "rf10_esp_csi_trial_bridge.py": "24ec21bc0d983e1932cd936f31aea216c0e7f70963f76d6f9e410d2773264d65",
+    "test_rf10_esp_csi_trial_bridge.py": "0d67963348f619e0d05dae90f5a5befca0a25af4a53dbfea1aa422fc8478e1dc",
+    "rf11_blind_trial_schedule.py": "dc3dbab0c4fbd56fa8fd87b164931f0918bb5e66756b382bd3141e244fbd3ef5",
+    "test_rf11_blind_trial_schedule.py": "b8c104657aab5035421ce5a6aa250e987813838b34f93bc179034e3cb6572647"
+  },
+  "measured_csi_packets": 0,
+  "physical_trials_executed": 0,
+  "planned_trial_schedule_count": 300,
+  "notes": "Earlier demo schedule generated with PUBLIC seed is NOT blind and should not be used for real trials. Actual scheduler defaults private crypto randomness, separates operator truth from analyst manifest. RF10's ESP32 first4 invalid-word mode is opt-in and does not cover every chip/format. External WiTraffic full replication, whole-repo tests, hardware ESP32 build, SUMO parity and field measurements were not run."
+}
