@@ -1,0 +1,2426 @@
+{
+  "status": "P136_OFFSET_DIVERSIFIED_128_ARMS_COMPLETE",
+  "prereg": "P136_OFFSET_DIVERSIFIED_PROXY_REGRET_PREREG.md",
+  "simulator_arms": 128,
+  "matched_policy_pairs": 64,
+  "distinct_demand_tapes": 16,
+  "time_vectors_per_share": 8,
+  "all_cleared": true,
+  "all_refusals_cross_checked": true,
+  "offset_pairs": [
+    [
+      0,
+      30
+    ],
+    [
+      15,
+      0
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      23,
+      45
+    ]
+  ],
+  "overall": {
+    "n": 64,
+    "thirty_cheaper": 35,
+    "sixty_cheaper": 29,
+    "tied": 0,
+    "fixed": {
+      "30": {
+        "correct": 35,
+        "total_regret": 36866
+      },
+      "60": {
+        "correct": 29,
+        "total_regret": 125011
+      }
+    },
+    "metrics": {
+      "receiver_denied_seconds": {
+        "coverage_n": 64,
+        "correct_covered": 52,
+        "accuracy_covered": 0.8125,
+        "deployed_regret_ties60": 19372,
+        "regret_over_best_fixed": -17494
+      },
+      "receiver_denied_attempts": {
+        "coverage_n": 64,
+        "correct_covered": 52,
+        "accuracy_covered": 0.8125,
+        "deployed_regret_ties60": 19372,
+        "regret_over_best_fixed": -17494
+      },
+      "ever_denied_unique_ids": {
+        "coverage_n": 53,
+        "correct_covered": 30,
+        "accuracy_covered": 0.5660377358490566,
+        "deployed_regret_ties60": 48405,
+        "regret_over_best_fixed": 11539
+      }
+    }
+  },
+  "by_offset": {
+    "0,30": {
+      "n": 16,
+      "thirty_cheaper": 1,
+      "sixty_cheaper": 15,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 1,
+          "total_regret": 6637
+        },
+        "60": {
+          "correct": 15,
+          "total_regret": 197
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 16,
+          "correct_covered": 15,
+          "accuracy_covered": 0.9375,
+          "deployed_regret_ties60": 197,
+          "regret_over_best_fixed": 0
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 16,
+          "correct_covered": 15,
+          "accuracy_covered": 0.9375,
+          "deployed_regret_ties60": 197,
+          "regret_over_best_fixed": 0
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 7,
+          "correct_covered": 5,
+          "accuracy_covered": 0.7142857142857143,
+          "deployed_regret_ties60": 792,
+          "regret_over_best_fixed": 595
+        }
+      }
+    },
+    "15,0": {
+      "n": 16,
+      "thirty_cheaper": 16,
+      "sixty_cheaper": 0,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 16,
+          "total_regret": 0
+        },
+        "60": {
+          "correct": 0,
+          "total_regret": 28677
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 16,
+          "correct_covered": 16,
+          "accuracy_covered": 1.0,
+          "deployed_regret_ties60": 0,
+          "regret_over_best_fixed": 0
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 16,
+          "correct_covered": 16,
+          "accuracy_covered": 1.0,
+          "deployed_regret_ties60": 0,
+          "regret_over_best_fixed": 0
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 16,
+          "correct_covered": 0,
+          "accuracy_covered": 0.0,
+          "deployed_regret_ties60": 28677,
+          "regret_over_best_fixed": 28677
+        }
+      }
+    },
+    "7,15": {
+      "n": 16,
+      "thirty_cheaper": 2,
+      "sixty_cheaper": 14,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 2,
+          "total_regret": 30229
+        },
+        "60": {
+          "correct": 14,
+          "total_regret": 2104
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 16,
+          "correct_covered": 5,
+          "accuracy_covered": 0.3125,
+          "deployed_regret_ties60": 19175,
+          "regret_over_best_fixed": 17071
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 16,
+          "correct_covered": 5,
+          "accuracy_covered": 0.3125,
+          "deployed_regret_ties60": 19175,
+          "regret_over_best_fixed": 17071
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 15,
+          "correct_covered": 15,
+          "accuracy_covered": 1.0,
+          "deployed_regret_ties60": 1052,
+          "regret_over_best_fixed": -1052
+        }
+      }
+    },
+    "23,45": {
+      "n": 16,
+      "thirty_cheaper": 16,
+      "sixty_cheaper": 0,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 16,
+          "total_regret": 0
+        },
+        "60": {
+          "correct": 0,
+          "total_regret": 94033
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 16,
+          "correct_covered": 16,
+          "accuracy_covered": 1.0,
+          "deployed_regret_ties60": 0,
+          "regret_over_best_fixed": 0
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 16,
+          "correct_covered": 16,
+          "accuracy_covered": 1.0,
+          "deployed_regret_ties60": 0,
+          "regret_over_best_fixed": 0
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 15,
+          "correct_covered": 10,
+          "accuracy_covered": 0.6666666666666666,
+          "deployed_regret_ties60": 17884,
+          "regret_over_best_fixed": 17884
+        }
+      }
+    }
+  },
+  "by_share": {
+    "0.5": {
+      "n": 32,
+      "thirty_cheaper": 19,
+      "sixty_cheaper": 13,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 19,
+          "total_regret": 8412
+        },
+        "60": {
+          "correct": 13,
+          "total_regret": 36437
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 32,
+          "correct_covered": 25,
+          "accuracy_covered": 0.78125,
+          "deployed_regret_ties60": 4587,
+          "regret_over_best_fixed": -3825
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 32,
+          "correct_covered": 25,
+          "accuracy_covered": 0.78125,
+          "deployed_regret_ties60": 4587,
+          "regret_over_best_fixed": -3825
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 28,
+          "correct_covered": 14,
+          "accuracy_covered": 0.5,
+          "deployed_regret_ties60": 28467,
+          "regret_over_best_fixed": 20055
+        }
+      }
+    },
+    "0.75": {
+      "n": 32,
+      "thirty_cheaper": 16,
+      "sixty_cheaper": 16,
+      "tied": 0,
+      "fixed": {
+        "30": {
+          "correct": 16,
+          "total_regret": 28454
+        },
+        "60": {
+          "correct": 16,
+          "total_regret": 88574
+        }
+      },
+      "metrics": {
+        "receiver_denied_seconds": {
+          "coverage_n": 32,
+          "correct_covered": 27,
+          "accuracy_covered": 0.84375,
+          "deployed_regret_ties60": 14785,
+          "regret_over_best_fixed": -13669
+        },
+        "receiver_denied_attempts": {
+          "coverage_n": 32,
+          "correct_covered": 27,
+          "accuracy_covered": 0.84375,
+          "deployed_regret_ties60": 14785,
+          "regret_over_best_fixed": -13669
+        },
+        "ever_denied_unique_ids": {
+          "coverage_n": 25,
+          "correct_covered": 16,
+          "accuracy_covered": 0.64,
+          "deployed_regret_ties60": 19938,
+          "regret_over_best_fixed": -8516
+        }
+      }
+    }
+  },
+  "balance_gate_pass": true,
+  "proxy_predeclared_pass": {
+    "receiver_denied_seconds": true,
+    "receiver_denied_attempts": true,
+    "ever_denied_unique_ids": false
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 295,
+      "metric_delta": {
+        "receiver_denied_seconds": 37,
+        "receiver_denied_attempts": 50,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 4239,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 124,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 3944,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1247,
+      "metric_delta": {
+        "receiver_denied_seconds": -62,
+        "receiver_denied_attempts": -62,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4590,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 62,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 5837,
+          "receiver_denied_seconds": 122,
+          "receiver_denied_attempts": 124,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 481,
+      "metric_delta": {
+        "receiver_denied_seconds": -20,
+        "receiver_denied_attempts": -22,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4642,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4161,
+          "receiver_denied_seconds": 105,
+          "receiver_denied_attempts": 109,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -3559,
+      "metric_delta": {
+        "receiver_denied_seconds": -52,
+        "receiver_denied_attempts": -52,
+        "ever_denied_unique_ids": -1
+      },
+      "arms": {
+        "30": {
+          "cost": 4109,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 82,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7668,
+          "receiver_denied_seconds": 132,
+          "receiver_denied_attempts": 134,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 1701,
+      "metric_delta": {
+        "receiver_denied_seconds": 46,
+        "receiver_denied_attempts": 59,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 6291,
+          "receiver_denied_seconds": 109,
+          "receiver_denied_attempts": 134,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4590,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1178,
+      "metric_delta": {
+        "receiver_denied_seconds": -38,
+        "receiver_denied_attempts": -38,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5208,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6386,
+          "receiver_denied_seconds": 111,
+          "receiver_denied_attempts": 123,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": -1052,
+      "metric_delta": {
+        "receiver_denied_seconds": -24,
+        "receiver_denied_attempts": -78,
+        "ever_denied_unique_ids": -1
+      },
+      "arms": {
+        "30": {
+          "cost": 5034,
+          "receiver_denied_seconds": 88,
+          "receiver_denied_attempts": 100,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6086,
+          "receiver_denied_seconds": 112,
+          "receiver_denied_attempts": 178,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -2239,
+      "metric_delta": {
+        "receiver_denied_seconds": -24,
+        "receiver_denied_attempts": -24,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5137,
+          "receiver_denied_seconds": 91,
+          "receiver_denied_attempts": 103,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7376,
+          "receiver_denied_seconds": 115,
+          "receiver_denied_attempts": 127,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 155,
+      "metric_delta": {
+        "receiver_denied_seconds": 30,
+        "receiver_denied_attempts": 30,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4437,
+          "receiver_denied_seconds": 101,
+          "receiver_denied_attempts": 108,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4282,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1270,
+      "metric_delta": {
+        "receiver_denied_seconds": -66,
+        "receiver_denied_attempts": -66,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4968,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6238,
+          "receiver_denied_seconds": 139,
+          "receiver_denied_attempts": 146,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 577,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -28,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5078,
+          "receiver_denied_seconds": 96,
+          "receiver_denied_attempts": 103,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4501,
+          "receiver_denied_seconds": 97,
+          "receiver_denied_attempts": 131,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -3009,
+      "metric_delta": {
+        "receiver_denied_seconds": -31,
+        "receiver_denied_attempts": -31,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 4381,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 93,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7390,
+          "receiver_denied_seconds": 117,
+          "receiver_denied_attempts": 124,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 1701,
+      "metric_delta": {
+        "receiver_denied_seconds": 46,
+        "receiver_denied_attempts": 59,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 6258,
+          "receiver_denied_seconds": 105,
+          "receiver_denied_attempts": 125,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 4557,
+          "receiver_denied_seconds": 59,
+          "receiver_denied_attempts": 66,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1178,
+      "metric_delta": {
+        "receiver_denied_seconds": -38,
+        "receiver_denied_attempts": -38,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 5170,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6348,
+          "receiver_denied_seconds": 106,
+          "receiver_denied_attempts": 113,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": -1052,
+      "metric_delta": {
+        "receiver_denied_seconds": -24,
+        "receiver_denied_attempts": -79,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 5001,
+          "receiver_denied_seconds": 84,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 6053,
+          "receiver_denied_seconds": 108,
+          "receiver_denied_attempts": 170,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -2234,
+      "metric_delta": {
+        "receiver_denied_seconds": -21,
+        "receiver_denied_attempts": -21,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5103,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 28,
+          "network_out_S": 32
+        },
+        "60": {
+          "cost": 7337,
+          "receiver_denied_seconds": 110,
+          "receiver_denied_attempts": 117,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 28,
+          "network_out_S": 32
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": -197,
+      "metric_delta": {
+        "receiver_denied_seconds": 20,
+        "receiver_denied_attempts": 7,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 3548,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 3745,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -803,
+      "metric_delta": {
+        "receiver_denied_seconds": -31,
+        "receiver_denied_attempts": -31,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 4411,
+          "receiver_denied_seconds": 66,
+          "receiver_denied_attempts": 82,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5214,
+          "receiver_denied_seconds": 97,
+          "receiver_denied_attempts": 113,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 375,
+      "metric_delta": {
+        "receiver_denied_seconds": -20,
+        "receiver_denied_attempts": -48,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4146,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 96,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 3771,
+          "receiver_denied_seconds": 100,
+          "receiver_denied_attempts": 144,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -2648,
+      "metric_delta": {
+        "receiver_denied_seconds": -22,
+        "receiver_denied_attempts": -22,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 3787,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 6435,
+          "receiver_denied_seconds": 98,
+          "receiver_denied_attempts": 114,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 71,
+      "metric_delta": {
+        "receiver_denied_seconds": 18,
+        "receiver_denied_attempts": 18,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 5303,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5232,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1519,
+      "metric_delta": {
+        "receiver_denied_seconds": -58,
+        "receiver_denied_attempts": -58,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 6296,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7815,
+          "receiver_denied_seconds": 119,
+          "receiver_denied_attempts": 119,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 972,
+      "metric_delta": {
+        "receiver_denied_seconds": -8,
+        "receiver_denied_attempts": -8,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 6063,
+          "receiver_denied_seconds": 77,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5091,
+          "receiver_denied_seconds": 85,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -3877,
+      "metric_delta": {
+        "receiver_denied_seconds": -38,
+        "receiver_denied_attempts": -38,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 5598,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9475,
+          "receiver_denied_seconds": 103,
+          "receiver_denied_attempts": 103,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 28,
+      "metric_delta": {
+        "receiver_denied_seconds": 20,
+        "receiver_denied_attempts": 20,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 4420,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4392,
+          "receiver_denied_seconds": 58,
+          "receiver_denied_attempts": 58,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -921,
+      "metric_delta": {
+        "receiver_denied_seconds": -33,
+        "receiver_denied_attempts": -33,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 5248,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 60,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 6169,
+          "receiver_denied_seconds": 93,
+          "receiver_denied_attempts": 93,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 1013,
+      "metric_delta": {
+        "receiver_denied_seconds": -10,
+        "receiver_denied_attempts": -10,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 5278,
+          "receiver_denied_seconds": 79,
+          "receiver_denied_attempts": 79,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 4265,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -3359,
+      "metric_delta": {
+        "receiver_denied_seconds": -53,
+        "receiver_denied_attempts": -53,
+        "ever_denied_unique_ids": -1
+      },
+      "arms": {
+        "30": {
+          "cost": 4648,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 64,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 8007,
+          "receiver_denied_seconds": 117,
+          "receiver_denied_attempts": 117,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 71,
+      "metric_delta": {
+        "receiver_denied_seconds": 18,
+        "receiver_denied_attempts": 18,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 5303,
+          "receiver_denied_seconds": 81,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5232,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1218,
+      "metric_delta": {
+        "receiver_denied_seconds": -58,
+        "receiver_denied_attempts": -58,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 6008,
+          "receiver_denied_seconds": 61,
+          "receiver_denied_attempts": 61,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 7226,
+          "receiver_denied_seconds": 119,
+          "receiver_denied_attempts": 119,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 972,
+      "metric_delta": {
+        "receiver_denied_seconds": -9,
+        "receiver_denied_attempts": -9,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 6063,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 78,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 5091,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -3877,
+      "metric_delta": {
+        "receiver_denied_seconds": -37,
+        "receiver_denied_attempts": -37,
+        "ever_denied_unique_ids": 1
+      },
+      "arms": {
+        "30": {
+          "cost": 5598,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 68,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 31,
+          "network_out_S": 29
+        },
+        "60": {
+          "cost": 9475,
+          "receiver_denied_seconds": 105,
+          "receiver_denied_attempts": 105,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 31,
+          "network_out_S": 29
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 217,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 6554,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 80,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6337,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -1999,
+      "metric_delta": {
+        "receiver_denied_seconds": -48,
+        "receiver_denied_attempts": -48,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 8526,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 10525,
+          "receiver_denied_seconds": 121,
+          "receiver_denied_attempts": 121,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 2739,
+      "metric_delta": {
+        "receiver_denied_seconds": -5,
+        "receiver_denied_attempts": -5,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 8500,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 87,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5761,
+          "receiver_denied_seconds": 92,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "92707a86b3f42bed82864c162910f0262b56a72c973c87ff018efbbcfb6a17d0",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -7977,
+      "metric_delta": {
+        "receiver_denied_seconds": -92,
+        "receiver_denied_attempts": -92,
+        "ever_denied_unique_ids": -4
+      },
+      "arms": {
+        "30": {
+          "cost": 7101,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15078,
+          "receiver_denied_seconds": 165,
+          "receiver_denied_attempts": 165,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 235,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 7135,
+          "receiver_denied_seconds": 78,
+          "receiver_denied_attempts": 86,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6900,
+          "receiver_denied_seconds": 64,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -2093,
+      "metric_delta": {
+        "receiver_denied_seconds": -75,
+        "receiver_denied_attempts": -75,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 9106,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11199,
+          "receiver_denied_seconds": 148,
+          "receiver_denied_attempts": 156,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 2806,
+      "metric_delta": {
+        "receiver_denied_seconds": -5,
+        "receiver_denied_attempts": -5,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9108,
+          "receiver_denied_seconds": 86,
+          "receiver_denied_attempts": 94,
+          "ever_denied_unique_ids": 12,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6302,
+          "receiver_denied_seconds": 91,
+          "receiver_denied_attempts": 99,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "a21c3bbf088e51c1774bad63f8064ccf3831168e0363b9e7e5d6ab0340b3fe1f",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -7821,
+      "metric_delta": {
+        "receiver_denied_seconds": -78,
+        "receiver_denied_attempts": -78,
+        "ever_denied_unique_ids": -2
+      },
+      "arms": {
+        "30": {
+          "cost": 7711,
+          "receiver_denied_seconds": 83,
+          "receiver_denied_attempts": 91,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15532,
+          "receiver_denied_seconds": 161,
+          "receiver_denied_attempts": 169,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 235,
+      "metric_delta": {
+        "receiver_denied_seconds": 16,
+        "receiver_denied_attempts": 16,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 6800,
+          "receiver_denied_seconds": 81,
+          "receiver_denied_attempts": 81,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6565,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -2050,
+      "metric_delta": {
+        "receiver_denied_seconds": -69,
+        "receiver_denied_attempts": -69,
+        "ever_denied_unique_ids": 2
+      },
+      "arms": {
+        "30": {
+          "cost": 8806,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 10856,
+          "receiver_denied_seconds": 142,
+          "receiver_denied_attempts": 142,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 2826,
+      "metric_delta": {
+        "receiver_denied_seconds": -3,
+        "receiver_denied_attempts": -3,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 8789,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 5963,
+          "receiver_denied_seconds": 92,
+          "receiver_denied_attempts": 92,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "9edb70066f5417ddb9edb80d25b44bf7ff139e92fd6a66d509c3182a58fcc77a",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -7830,
+      "metric_delta": {
+        "receiver_denied_seconds": -88,
+        "receiver_denied_attempts": -88,
+        "ever_denied_unique_ids": -3
+      },
+      "arms": {
+        "30": {
+          "cost": 7379,
+          "receiver_denied_seconds": 73,
+          "receiver_denied_attempts": 73,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15209,
+          "receiver_denied_seconds": 161,
+          "receiver_denied_attempts": 161,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 235,
+      "metric_delta": {
+        "receiver_denied_seconds": 14,
+        "receiver_denied_attempts": 14,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 7102,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 77,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6867,
+          "receiver_denied_seconds": 60,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -2053,
+      "metric_delta": {
+        "receiver_denied_seconds": -48,
+        "receiver_denied_attempts": -48,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 9073,
+          "receiver_denied_seconds": 68,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 11126,
+          "receiver_denied_seconds": 116,
+          "receiver_denied_attempts": 119,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 2806,
+      "metric_delta": {
+        "receiver_denied_seconds": -5,
+        "receiver_denied_attempts": -5,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 9075,
+          "receiver_denied_seconds": 82,
+          "receiver_denied_attempts": 85,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 6269,
+          "receiver_denied_seconds": 87,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "4ce96e5ad46b1688bdc0728977ee2acdcb75644bcdcf661eba13a03ecdcb4a00",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -7816,
+      "metric_delta": {
+        "receiver_denied_seconds": -76,
+        "receiver_denied_attempts": -76,
+        "ever_denied_unique_ids": -2
+      },
+      "arms": {
+        "30": {
+          "cost": 7677,
+          "receiver_denied_seconds": 80,
+          "receiver_denied_attempts": 83,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 40,
+          "network_out_S": 20
+        },
+        "60": {
+          "cost": 15493,
+          "receiver_denied_seconds": 156,
+          "receiver_denied_attempts": 159,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 40,
+          "network_out_S": 20
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 284,
+      "metric_delta": {
+        "receiver_denied_seconds": 16,
+        "receiver_denied_attempts": 16,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 6535,
+          "receiver_denied_seconds": 50,
+          "receiver_denied_attempts": 50,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 6251,
+          "receiver_denied_seconds": 34,
+          "receiver_denied_attempts": 34,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -2337,
+      "metric_delta": {
+        "receiver_denied_seconds": -48,
+        "receiver_denied_attempts": -48,
+        "ever_denied_unique_ids": 3
+      },
+      "arms": {
+        "30": {
+          "cost": 8940,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 11277,
+          "receiver_denied_seconds": 104,
+          "receiver_denied_attempts": 104,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 2854,
+      "metric_delta": {
+        "receiver_denied_seconds": 19,
+        "receiver_denied_attempts": 19,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 8453,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 5599,
+          "receiver_denied_seconds": 46,
+          "receiver_denied_attempts": 46,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_uniform",
+      "time_sha256": "80212043ab6925dc147b9a80c18c87b26f7481d2309ddfba4c5467c7a7773805",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -7821,
+      "metric_delta": {
+        "receiver_denied_seconds": -101,
+        "receiver_denied_attempts": -101,
+        "ever_denied_unique_ids": -4
+      },
+      "arms": {
+        "30": {
+          "cost": 7009,
+          "receiver_denied_seconds": 41,
+          "receiver_denied_attempts": 41,
+          "ever_denied_unique_ids": 4,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14830,
+          "receiver_denied_seconds": 142,
+          "receiver_denied_attempts": 142,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 407,
+      "metric_delta": {
+        "receiver_denied_seconds": 19,
+        "receiver_denied_attempts": 19,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 9515,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 9108,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -3032,
+      "metric_delta": {
+        "receiver_denied_seconds": -53,
+        "receiver_denied_attempts": -53,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11936,
+          "receiver_denied_seconds": 70,
+          "receiver_denied_attempts": 70,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14968,
+          "receiver_denied_seconds": 123,
+          "receiver_denied_attempts": 123,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 4100,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 7
+      },
+      "arms": {
+        "30": {
+          "cost": 11835,
+          "receiver_denied_seconds": 89,
+          "receiver_denied_attempts": 89,
+          "ever_denied_unique_ids": 13,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7735,
+          "receiver_denied_seconds": 74,
+          "receiver_denied_attempts": 74,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88601,
+      "family": "stochastic_platoon4",
+      "time_sha256": "0b67c06bae33f2429d159d623a62628dbed75dbfeea63b9baacd2eea1cde7eba",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -10431,
+      "metric_delta": {
+        "receiver_denied_seconds": -111,
+        "receiver_denied_attempts": -111,
+        "ever_denied_unique_ids": -4
+      },
+      "arms": {
+        "30": {
+          "cost": 9956,
+          "receiver_denied_seconds": 55,
+          "receiver_denied_attempts": 55,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 20387,
+          "receiver_denied_seconds": 166,
+          "receiver_denied_attempts": 166,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 595,
+      "metric_delta": {
+        "receiver_denied_seconds": 7,
+        "receiver_denied_attempts": 7,
+        "ever_denied_unique_ids": -1
+      },
+      "arms": {
+        "30": {
+          "cost": 8863,
+          "receiver_denied_seconds": 63,
+          "receiver_denied_attempts": 63,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 8268,
+          "receiver_denied_seconds": 56,
+          "receiver_denied_attempts": 56,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -2744,
+      "metric_delta": {
+        "receiver_denied_seconds": -38,
+        "receiver_denied_attempts": -38,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 10860,
+          "receiver_denied_seconds": 65,
+          "receiver_denied_attempts": 65,
+          "ever_denied_unique_ids": 10,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 13604,
+          "receiver_denied_seconds": 103,
+          "receiver_denied_attempts": 103,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 3608,
+      "metric_delta": {
+        "receiver_denied_seconds": -1,
+        "receiver_denied_attempts": -1,
+        "ever_denied_unique_ids": 5
+      },
+      "arms": {
+        "30": {
+          "cost": 10728,
+          "receiver_denied_seconds": 71,
+          "receiver_denied_attempts": 71,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7120,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_uniform",
+      "time_sha256": "b9a6fbd683647b83dccd537cf460777b13327c0de2eaab6dc9b3654e948de231",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -9106,
+      "metric_delta": {
+        "receiver_denied_seconds": -101,
+        "receiver_denied_attempts": -101,
+        "ever_denied_unique_ids": -4
+      },
+      "arms": {
+        "30": {
+          "cost": 9299,
+          "receiver_denied_seconds": 42,
+          "receiver_denied_attempts": 42,
+          "ever_denied_unique_ids": 4,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 18405,
+          "receiver_denied_seconds": 143,
+          "receiver_denied_attempts": 143,
+          "ever_denied_unique_ids": 8,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 0,
+      "phi60": 30,
+      "delta_cost": 407,
+      "metric_delta": {
+        "receiver_denied_seconds": 19,
+        "receiver_denied_attempts": 19,
+        "ever_denied_unique_ids": 0
+      },
+      "arms": {
+        "30": {
+          "cost": 9515,
+          "receiver_denied_seconds": 76,
+          "receiver_denied_attempts": 76,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 9108,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 15,
+      "phi60": 0,
+      "delta_cost": -3035,
+      "metric_delta": {
+        "receiver_denied_seconds": -53,
+        "receiver_denied_attempts": -53,
+        "ever_denied_unique_ids": 4
+      },
+      "arms": {
+        "30": {
+          "cost": 11936,
+          "receiver_denied_seconds": 72,
+          "receiver_denied_attempts": 72,
+          "ever_denied_unique_ids": 11,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 14971,
+          "receiver_denied_seconds": 125,
+          "receiver_denied_attempts": 125,
+          "ever_denied_unique_ids": 7,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 7,
+      "phi60": 15,
+      "delta_cost": 4100,
+      "metric_delta": {
+        "receiver_denied_seconds": 15,
+        "receiver_denied_attempts": 15,
+        "ever_denied_unique_ids": 7
+      },
+      "arms": {
+        "30": {
+          "cost": 11835,
+          "receiver_denied_seconds": 90,
+          "receiver_denied_attempts": 90,
+          "ever_denied_unique_ids": 13,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 7735,
+          "receiver_denied_seconds": 75,
+          "receiver_denied_attempts": 75,
+          "ever_denied_unique_ids": 6,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88602,
+      "family": "stochastic_platoon4",
+      "time_sha256": "9f74e0585c33b87a8ffa1a5f4bfd691daa6c3e1e76c4c0d9d1a6bb7099cab593",
+      "phi30": 23,
+      "phi60": 45,
+      "delta_cost": -10429,
+      "metric_delta": {
+        "receiver_denied_seconds": -111,
+        "receiver_denied_attempts": -111,
+        "ever_denied_unique_ids": -4
+      },
+      "arms": {
+        "30": {
+          "cost": 9958,
+          "receiver_denied_seconds": 57,
+          "receiver_denied_attempts": 57,
+          "ever_denied_unique_ids": 5,
+          "network_out_L": 47,
+          "network_out_S": 13
+        },
+        "60": {
+          "cost": 20387,
+          "receiver_denied_seconds": 168,
+          "receiver_denied_attempts": 168,
+          "ever_denied_unique_ids": 9,
+          "network_out_L": 47,
+          "network_out_S": 13
+        }
+      }
+    }
+  ],
+  "limitations": "Same T2 P130 fork; 16 distinct demand tapes repeated across 4 offsets. Offsets are part of policy, so period-only attribution invalid. Time-vector seeds new vs P135/XR1, but route seeds unchanged; no independent SUMO/field."
+}
