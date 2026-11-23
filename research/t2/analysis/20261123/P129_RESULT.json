@@ -1,0 +1,1418 @@
+{
+  "status": "P129_MOVEMENT_SEGREGATED_RECEIVER_96_ARMS_COMPLETE",
+  "prereg": "P129_SPLIT_RECEIVER_TOPOLOGY_PREREG.md",
+  "source_dual_lane_sha256": "5f93f4074ecee2f2249243c95fa12fdf578586481cd63049d9b341564feaf242",
+  "fork_sha256": "130ea35122cc08fd190c578a61ed9d93de462609e3ef72cb62845bd3276e32cd",
+  "simulator_arms": 96,
+  "matched_signal_pairs": 48,
+  "original_engine_regression_arms": 32,
+  "all_cleared": true,
+  "legacy_regression_exact": true,
+  "summary": {
+    "0.5": {
+      "shared4": {
+        "n": 8,
+        "paradox": 3,
+        "short_cost_worse": 4,
+        "mean_delta_cost": -81.0,
+        "mean_delta_denied": -13.875,
+        "min_cost_delta": -1177,
+        "max_cost_delta": 640
+      },
+      "separate2+2": {
+        "n": 8,
+        "paradox": 2,
+        "short_cost_worse": 8,
+        "mean_delta_cost": 671.75,
+        "mean_delta_denied": 2.75,
+        "min_cost_delta": 422,
+        "max_cost_delta": 865
+      },
+      "separate4+4": {
+        "n": 8,
+        "paradox": 1,
+        "short_cost_worse": 7,
+        "mean_delta_cost": 236.375,
+        "mean_delta_denied": 0.625,
+        "min_cost_delta": -8,
+        "max_cost_delta": 454
+      }
+    },
+    "0.75": {
+      "shared4": {
+        "n": 8,
+        "paradox": 8,
+        "short_cost_worse": 8,
+        "mean_delta_cost": 1006.25,
+        "mean_delta_denied": -11.25,
+        "min_cost_delta": 845,
+        "max_cost_delta": 1405
+      },
+      "separate2+2": {
+        "n": 8,
+        "paradox": 1,
+        "short_cost_worse": 8,
+        "mean_delta_cost": 2431.875,
+        "mean_delta_denied": 9.125,
+        "min_cost_delta": 2219,
+        "max_cost_delta": 2844
+      },
+      "separate4+4": {
+        "n": 8,
+        "paradox": 1,
+        "short_cost_worse": 8,
+        "mean_delta_cost": 1025.75,
+        "mean_delta_denied": 5.0,
+        "min_cost_delta": 843,
+        "max_cost_delta": 1438
+      }
+    }
+  },
+  "rows": [
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4587,
+        "denied": 59,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 59
+      },
+      "long": {
+        "cost": 5764,
+        "denied": 73,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 91
+      },
+      "delta_cost": -1177,
+      "delta_denied": -14,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4766,
+        "denied": 68,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 87
+      },
+      "long": {
+        "cost": 4344,
+        "denied": 68,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 87
+      },
+      "delta_cost": 422,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 3983,
+        "denied": 44,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 44
+      },
+      "long": {
+        "cost": 3788,
+        "denied": 42,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 52
+      },
+      "delta_cost": 195,
+      "delta_denied": 2,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4919,
+        "denied": 59,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 59
+      },
+      "long": {
+        "cost": 4805,
+        "denied": 59,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 75
+      },
+      "delta_cost": 114,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 5016,
+        "denied": 71,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 83
+      },
+      "long": {
+        "cost": 4379,
+        "denied": 60,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 72
+      },
+      "delta_cost": 637,
+      "delta_denied": 11,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 4251,
+        "denied": 48,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 48
+      },
+      "long": {
+        "cost": 3963,
+        "denied": 39,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 50
+      },
+      "delta_cost": 288,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4155,
+        "denied": 47,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 47
+      },
+      "long": {
+        "cost": 4625,
+        "denied": 59,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 77
+      },
+      "delta_cost": -470,
+      "delta_denied": -12,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4736,
+        "denied": 73,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 84
+      },
+      "long": {
+        "cost": 4147,
+        "denied": 73,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 84
+      },
+      "delta_cost": 589,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 3956,
+        "denied": 37,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 37
+      },
+      "long": {
+        "cost": 3733,
+        "denied": 31,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 31
+      },
+      "delta_cost": 223,
+      "delta_denied": 6,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4829,
+        "denied": 56,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 56
+      },
+      "long": {
+        "cost": 4827,
+        "denied": 57,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 72
+      },
+      "delta_cost": 2,
+      "delta_denied": -1,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4945,
+        "denied": 68,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 79
+      },
+      "long": {
+        "cost": 4401,
+        "denied": 58,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 69
+      },
+      "delta_cost": 544,
+      "delta_denied": 10,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 4165,
+        "denied": 45,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 45
+      },
+      "long": {
+        "cost": 3985,
+        "denied": 37,
+        "network_out_L": 28,
+        "network_out_S": 32,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 48
+      },
+      "delta_cost": 180,
+      "delta_denied": 8,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 3747,
+        "denied": 33,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 36
+      },
+      "long": {
+        "cost": 3764,
+        "denied": 58,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 74
+      },
+      "delta_cost": -17,
+      "delta_denied": -25,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4366,
+        "denied": 48,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 48
+      },
+      "long": {
+        "cost": 3620,
+        "denied": 46,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 59
+      },
+      "delta_cost": 746,
+      "delta_denied": 2,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 3593,
+        "denied": 16,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 16
+      },
+      "long": {
+        "cost": 3601,
+        "denied": 27,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 7,
+        "entrance_denied_attempts": 27
+      },
+      "delta_cost": -8,
+      "delta_denied": -11,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 5693,
+        "denied": 55,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 55
+      },
+      "long": {
+        "cost": 5053,
+        "denied": 68,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 83
+      },
+      "delta_cost": 640,
+      "delta_denied": -13,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 5993,
+        "denied": 61,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 61
+      },
+      "long": {
+        "cost": 5185,
+        "denied": 63,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 63
+      },
+      "delta_cost": 808,
+      "delta_denied": -2,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 5111,
+        "denied": 44,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 44
+      },
+      "long": {
+        "cost": 4663,
+        "denied": 39,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 39
+      },
+      "delta_cost": 448,
+      "delta_denied": 5,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4071,
+        "denied": 48,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 48
+      },
+      "long": {
+        "cost": 4087,
+        "denied": 78,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 96
+      },
+      "delta_cost": -16,
+      "delta_denied": -30,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 4613,
+        "denied": 54,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 54
+      },
+      "long": {
+        "cost": 3850,
+        "denied": 52,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 52
+      },
+      "delta_cost": 763,
+      "delta_denied": 2,
+      "paradox": false
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 3893,
+        "denied": 14,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 6,
+        "entrance_denied_attempts": 14
+      },
+      "long": {
+        "cost": 3782,
+        "denied": 29,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 29
+      },
+      "delta_cost": 111,
+      "delta_denied": -15,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 5275,
+        "denied": 52,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 52
+      },
+      "long": {
+        "cost": 4999,
+        "denied": 68,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 100
+      },
+      "delta_cost": 276,
+      "delta_denied": -16,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 5996,
+        "denied": 62,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 62
+      },
+      "long": {
+        "cost": 5131,
+        "denied": 63,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 63
+      },
+      "delta_cost": 865,
+      "delta_denied": -1,
+      "paradox": true
+    },
+    {
+      "share": 0.5,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 5131,
+        "denied": 45,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 45
+      },
+      "long": {
+        "cost": 4677,
+        "denied": 44,
+        "network_out_L": 31,
+        "network_out_S": 29,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 53
+      },
+      "delta_cost": 454,
+      "delta_denied": 1,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 7163,
+        "denied": 41,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 41
+      },
+      "long": {
+        "cost": 6316,
+        "denied": 52,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 52
+      },
+      "delta_cost": 847,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9035,
+        "denied": 75,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 78
+      },
+      "long": {
+        "cost": 6768,
+        "denied": 65,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 68
+      },
+      "delta_cost": 2267,
+      "delta_denied": 10,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 7087,
+        "denied": 35,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 35
+      },
+      "long": {
+        "cost": 6220,
+        "denied": 26,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 26
+      },
+      "delta_cost": 867,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 7200,
+        "denied": 41,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 41
+      },
+      "long": {
+        "cost": 6351,
+        "denied": 52,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 52
+      },
+      "delta_cost": 849,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9048,
+        "denied": 73,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 81
+      },
+      "long": {
+        "cost": 6789,
+        "denied": 64,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 72
+      },
+      "delta_cost": 2259,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 7120,
+        "denied": 35,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 35
+      },
+      "long": {
+        "cost": 6225,
+        "denied": 31,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 31
+      },
+      "delta_cost": 895,
+      "delta_denied": 4,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 6969,
+        "denied": 41,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 41
+      },
+      "long": {
+        "cost": 6124,
+        "denied": 52,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 52
+      },
+      "delta_cost": 845,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 8790,
+        "denied": 73,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 73
+      },
+      "long": {
+        "cost": 6560,
+        "denied": 65,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 65
+      },
+      "delta_cost": 2230,
+      "delta_denied": 8,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 6841,
+        "denied": 35,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 35
+      },
+      "long": {
+        "cost": 5998,
+        "denied": 36,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 36
+      },
+      "delta_cost": 843,
+      "delta_denied": -1,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 7221,
+        "denied": 39,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 39
+      },
+      "long": {
+        "cost": 6373,
+        "denied": 50,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 50
+      },
+      "delta_cost": 848,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9030,
+        "denied": 70,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 77
+      },
+      "long": {
+        "cost": 6811,
+        "denied": 61,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 68
+      },
+      "delta_cost": 2219,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86001,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 7098,
+        "denied": 33,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 33
+      },
+      "long": {
+        "cost": 6247,
+        "denied": 33,
+        "network_out_L": 40,
+        "network_out_S": 20,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 33
+      },
+      "delta_cost": 851,
+      "delta_denied": 0,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 7184,
+        "denied": 39,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 39
+      },
+      "long": {
+        "cost": 6249,
+        "denied": 50,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 50
+      },
+      "delta_cost": 935,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9013,
+        "denied": 52,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 52
+      },
+      "long": {
+        "cost": 6678,
+        "denied": 53,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 53
+      },
+      "delta_cost": 2335,
+      "delta_denied": -1,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 7119,
+        "denied": 33,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 33
+      },
+      "long": {
+        "cost": 6173,
+        "denied": 24,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 24
+      },
+      "delta_cost": 946,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9598,
+        "denied": 45,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 45
+      },
+      "long": {
+        "cost": 8197,
+        "denied": 57,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 57
+      },
+      "delta_cost": 1401,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 11950,
+        "denied": 73,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 73
+      },
+      "long": {
+        "cost": 9109,
+        "denied": 58,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 58
+      },
+      "delta_cost": 2841,
+      "delta_denied": 15,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88301,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 9554,
+        "denied": 36,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 36
+      },
+      "long": {
+        "cost": 8119,
+        "denied": 31,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 31
+      },
+      "delta_cost": 1435,
+      "delta_denied": 5,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 7444,
+        "denied": 40,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 40
+      },
+      "long": {
+        "cost": 6524,
+        "denied": 51,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 51
+      },
+      "delta_cost": 920,
+      "delta_denied": -11,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9803,
+        "denied": 63,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 63
+      },
+      "long": {
+        "cost": 7343,
+        "denied": 54,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 54
+      },
+      "delta_cost": 2460,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_uniform",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 7381,
+        "denied": 33,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 33
+      },
+      "long": {
+        "cost": 6450,
+        "denied": 24,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 24
+      },
+      "delta_cost": 931,
+      "delta_denied": 9,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "shared4",
+      "cells_per_link": 4,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 9548,
+        "denied": 45,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 45
+      },
+      "long": {
+        "cost": 8143,
+        "denied": 57,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 57
+      },
+      "delta_cost": 1405,
+      "delta_denied": -12,
+      "paradox": true
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate2+2",
+      "cells_per_link": 2,
+      "total_cell_storage": 4,
+      "short": {
+        "cost": 11899,
+        "denied": 72,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 3,
+        "entrance_denied_attempts": 72
+      },
+      "long": {
+        "cost": 9055,
+        "denied": 58,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 4,
+        "entrance_denied_attempts": 58
+      },
+      "delta_cost": 2844,
+      "delta_denied": 14,
+      "paradox": false
+    },
+    {
+      "share": 0.75,
+      "label_seed": 86002,
+      "time_seed": 88302,
+      "family": "stochastic_platoon4",
+      "topology": "separate4+4",
+      "cells_per_link": 4,
+      "total_cell_storage": 8,
+      "short": {
+        "cost": 9503,
+        "denied": 36,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 5,
+        "entrance_denied_attempts": 36
+      },
+      "long": {
+        "cost": 8065,
+        "denied": 31,
+        "network_out_L": 47,
+        "network_out_S": 13,
+        "receiver_occupancy": 8,
+        "entrance_denied_attempts": 31
+      },
+      "delta_cost": 1438,
+      "delta_denied": 5,
+      "paradox": false
+    }
+  ],
+  "interpretation_limit": "Three models are structurally different. separate2+2 preserves aggregate cell count but halves per-movement link length and doubles exit service opportunity. separate4+4 doubles total storage and downstream exit opportunities. Cannot isolate receiver sharing from geometry/service. No SUMO or field validation."
+}
