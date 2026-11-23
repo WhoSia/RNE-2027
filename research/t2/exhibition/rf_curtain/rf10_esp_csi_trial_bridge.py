@@ -51,7 +51,8 @@ FEATURE_KEYS = ('rssi_1_dbm','rssi_2_dbm','csi_1_amp_dispersion',
                 'csi_2_amp_dispersion')
 
 
-def parse_iq(raw: str, announced_len: str, invalid_word: str) -> tuple[float, ...]:
+def parse_iq(raw: str, announced_len: str, invalid_word: str, *,
+             invalid_policy: str='reject') -> tuple[float, ...]:
     """Reject ambiguous CSI framing instead of silently shifting I/Q bins."""
     try:
         length = int(announced_len)
@@ -60,8 +61,10 @@ def parse_iq(raw: str, announced_len: str, invalid_word: str) -> tuple[float, ..
         raise ValueError('bad CSI length/first_word') from exc
     if invalid not in (0, 1) or length < 8 or length % 2 or length > 8192:
         raise ValueError('unsupported CSI frame descriptor')
-    if invalid:
-        raise ValueError('first_word_invalid requires documented chip-specific handling')
+    if invalid_policy not in ('reject','esp32_drop_first_four'):
+        raise ValueError('unsupported invalid-word policy')
+    if invalid and invalid_policy=='reject':
+        raise ValueError('first_word_invalid requires chip-specific handling')
     try:
         data = ast.literal_eval(raw)
     except (ValueError, SyntaxError, TypeError, MemoryError) as exc:
@@ -70,7 +73,14 @@ def parse_iq(raw: str, announced_len: str, invalid_word: str) -> tuple[float, ..
         raise ValueError('CSI list length mismatch')
     if any(type(v) is not int or v < -128 or v > 127 for v in data):
         raise ValueError('not signed 8-bit I/Q data (chip-specific format unsupported)')
-    return tuple(math.hypot(data[i], data[i+1]) for i in range(0,length,2))
+    if invalid:
+        # ESP-IDF WiFi driver documented first four invalid bytes on ESP32.
+        # This is a specific, explicitly selected legacy device profile;
+        # do not use for C5/C61 packed/compensated format without audit.
+        if length < 12:
+            raise ValueError('not enough CSI bytes after invalid four-byte prefix')
+        data=data[4:]
+    return tuple(math.hypot(data[i], data[i+1]) for i in range(0,len(data),2))
 
 
 def _safe_int(value: str, field: str) -> int:
@@ -81,7 +91,8 @@ def _safe_int(value: str, field: str) -> int:
     return result
 
 
-def load_owned_csv(path: str | Path, *, lab_authorized: bool) -> list[dict]:
+def load_owned_csv(path: str | Path, *, lab_authorized: bool,
+                   invalid_policy: str='reject') -> list[dict]:
     """Only offline exports from operator-owned experimental transmitters.
 
     MAC/ID fields are never returned, including on malformed-record errors.
@@ -102,7 +113,8 @@ def load_owned_csv(path: str | Path, *, lab_authorized: bool) -> list[dict]:
             rssi = _safe_int(row['rssi'], 'rssi')
             if timestamp < 0 or not -128 <= rssi <= 20:
                 raise ValueError('bad timestamp or RSSI')
-            amp = parse_iq(row['data'], row['len'], row['first_word'])
+            amp = parse_iq(row['data'], row['len'], row['first_word'],
+                           invalid_policy=invalid_policy)
             packets.append({'timestamp_us':timestamp, 'rssi':rssi,
                             'mean_amplitude':statistics.fmean(amp),
                             'subcarrier_dispersion':statistics.pstdev(amp)})
@@ -204,11 +216,15 @@ def main(argv=None):
     parser.add_argument('--link-2', required=True)
     parser.add_argument('--manifest',required=True)
     parser.add_argument('--out',required=True)
+    parser.add_argument('--invalid-word-policy', choices=('reject','esp32_drop_first_four'),
+                        default='reject',help='select only after confirming exact ESP32 format')
     parser.add_argument('--authorized-lab',action='store_true',
                         help='operator declaration; not a substitute for school approval')
     args=parser.parse_args(argv)
-    a=load_owned_csv(args.link_1,lab_authorized=args.authorized_lab)
-    b=load_owned_csv(args.link_2,lab_authorized=args.authorized_lab)
+    a=load_owned_csv(args.link_1,lab_authorized=args.authorized_lab,
+                     invalid_policy=args.invalid_word_policy)
+    b=load_owned_csv(args.link_2,lab_authorized=args.authorized_lab,
+                     invalid_policy=args.invalid_word_policy)
     rows=aggregate_trials(read_manifest(args.manifest),{'1':a,'2':b})
     export_trials(rows,args.out)
     print(json.dumps({'status':'OFFLINE_TRIAL_BRIDGE_NOT_SENSOR_VALIDATION',
