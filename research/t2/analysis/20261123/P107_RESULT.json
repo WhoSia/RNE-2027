@@ -1,0 +1,1391 @@
+{
+  "source": "P106_RESULT.json",
+  "method": "exploratory post-hoc actual run, trace=True",
+  "n_tapes": 16,
+  "n_pairs": 64,
+  "n_arms": 128,
+  "by_capacity": {
+    "1": {
+      "n_arms": 32,
+      "pocket_max_sum": 32,
+      "pocket_block_seconds_sum": 10808,
+      "pocket_max_gt_1": 0
+    },
+    "2": {
+      "n_arms": 32,
+      "pocket_max_sum": 64,
+      "pocket_block_seconds_sum": 10522,
+      "pocket_max_gt_1": 32,
+      "short_absolute_same_as_k1": 16,
+      "long_absolute_same_as_k1": 16,
+      "both_absolute_same_as_k1": 16
+    },
+    "4": {
+      "n_arms": 32,
+      "pocket_max_sum": 128,
+      "pocket_block_seconds_sum": 9895,
+      "pocket_max_gt_1": 32,
+      "short_absolute_same_as_k1": 16,
+      "long_absolute_same_as_k1": 16,
+      "both_absolute_same_as_k1": 16
+    },
+    "8": {
+      "n_arms": 32,
+      "pocket_max_sum": 256,
+      "pocket_block_seconds_sum": 8013,
+      "pocket_max_gt_1": 32,
+      "short_absolute_same_as_k1": 14,
+      "long_absolute_same_as_k1": 15,
+      "both_absolute_same_as_k1": 14
+    },
+    "overall": {
+      "all_four_both_absolute_identical": 14
+    }
+  },
+  "rows": [
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 7592,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 407,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 6386,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 300,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1206
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 7592,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 392,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 6386,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 288,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1206
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 7592,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 384,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 6386,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 280,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1206
+    },
+    {
+      "seed": 87001,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 7592,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 266,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 6386,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 246,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1206
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 9857,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 412,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 8458,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 397,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1399
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 9857,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 411,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 8458,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 396,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1399
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 9857,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 409,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 8458,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 302,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1399
+    },
+    {
+      "seed": 87001,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 9857,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 400,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "long": {
+        "cost": 8458,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 290,
+        "network_out_S": 11,
+        "network_out_L": 49
+      },
+      "cost_delta": 1399
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 6570,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 379,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5338,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 271,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1232
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 6570,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 382,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5338,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 266,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1232
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 6570,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 277,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5338,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 246,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1232
+    },
+    {
+      "seed": 87002,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 6570,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 229,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5338,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 200,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1232
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8061,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 408,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6606,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 299,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1455
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8061,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 404,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6606,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 298,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1455
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8061,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 398,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6606,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 280,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1455
+    },
+    {
+      "seed": 87002,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8060,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 283,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6606,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 265,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1454
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 5430,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 299,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 4866,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 288,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 564
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 5430,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 295,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 4866,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 284,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 564
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 5430,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 283,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 4866,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 264,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 564
+    },
+    {
+      "seed": 87003,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 5430,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 211,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 4866,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 101,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 564
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 7021,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 401,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 6002,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 295,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 1019
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 7021,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 307,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 6002,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 294,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 1019
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 7021,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 304,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 6002,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 291,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 1019
+    },
+    {
+      "seed": 87003,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 7021,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 288,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "long": {
+        "cost": 6002,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 265,
+        "network_out_S": 20,
+        "network_out_L": 40
+      },
+      "cost_delta": 1019
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 5952,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 293,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 5332,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 282,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 620
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 5952,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 289,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 5332,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 278,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 620
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 5952,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 281,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 5332,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 266,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 620
+    },
+    {
+      "seed": 87004,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 5952,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 241,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 5332,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 116,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 620
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8425,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 405,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 6862,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 299,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 1563
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8425,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 404,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 6862,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 298,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 1563
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8425,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 399,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 6862,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 293,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 1563
+    },
+    {
+      "seed": 87004,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8425,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 302,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "long": {
+        "cost": 6862,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 279,
+        "network_out_S": 17,
+        "network_out_L": 43
+      },
+      "cost_delta": 1563
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 6148,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 293,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5461,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 282,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 687
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 6148,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 289,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5461,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 278,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 687
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 6148,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 281,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5461,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 270,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 687
+    },
+    {
+      "seed": 87005,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 6148,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 243,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5461,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 124,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 687
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8270,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 403,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6754,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 297,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1516
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8270,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 402,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6754,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 296,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1516
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8270,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 304,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6754,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 291,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1516
+    },
+    {
+      "seed": 87005,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8270,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 291,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6754,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 273,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1516
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 7753,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 402,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6530,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 298,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1223
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 7753,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 398,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6530,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 294,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1223
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 7753,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 297,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6530,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 286,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1223
+    },
+    {
+      "seed": 87006,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 7753,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 277,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 6530,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 252,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1223
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8576,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 406,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7086,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 297,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1490
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8576,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 402,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7086,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 296,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1490
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8576,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 400,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7086,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 294,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1490
+    },
+    {
+      "seed": 87006,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8576,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 297,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7086,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 277,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1490
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 6736,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 396,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5884,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 292,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 852
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 6736,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 299,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5884,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 288,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 852
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 6736,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 291,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5884,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 280,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 852
+    },
+    {
+      "seed": 87007,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 6736,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 270,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 5884,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 246,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 852
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8303,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 404,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7214,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 300,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1089
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8303,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 403,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7214,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 299,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1089
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8303,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 399,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7214,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 295,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1089
+    },
+    {
+      "seed": 87007,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8303,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 302,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "long": {
+        "cost": 7214,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 282,
+        "network_out_S": 16,
+        "network_out_L": 44
+      },
+      "cost_delta": 1089
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 5907,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 305,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5283,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 294,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 624
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 5907,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 301,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5283,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 289,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 624
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 5907,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 293,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5283,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 272,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 624
+    },
+    {
+      "seed": 87008,
+      "clock": "uniform",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 5904,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 225,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 5280,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 110,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 624
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "pocket_m": 7,
+      "pocket_slots": 1,
+      "short": {
+        "cost": 8260,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 406,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6510,
+        "pocket_max_occupied": 1,
+        "pocket_block_seconds": 298,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1750
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "pocket_m": 14,
+      "pocket_slots": 2,
+      "short": {
+        "cost": 8260,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 405,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6510,
+        "pocket_max_occupied": 2,
+        "pocket_block_seconds": 297,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1750
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "pocket_m": 28,
+      "pocket_slots": 4,
+      "short": {
+        "cost": 8260,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 402,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6510,
+        "pocket_max_occupied": 4,
+        "pocket_block_seconds": 283,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1750
+    },
+    {
+      "seed": 87008,
+      "clock": "platoon4",
+      "pocket_m": 56,
+      "pocket_slots": 8,
+      "short": {
+        "cost": 8260,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 292,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "long": {
+        "cost": 6510,
+        "pocket_max_occupied": 8,
+        "pocket_block_seconds": 270,
+        "network_out_S": 18,
+        "network_out_L": 42
+      },
+      "cost_delta": 1750
+    }
+  ]
+}
