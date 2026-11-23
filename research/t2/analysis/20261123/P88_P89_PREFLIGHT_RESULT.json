@@ -1,0 +1,144 @@
+{
+  "evidence_grade": "P87 reference-data reaggregation and deterministic calendar arithmetic; NO P88/P89 simulator replay",
+  "reference": "P87_RESULT.json",
+  "baseline_rows": 192,
+  "cohorts": {
+    "green": {
+      "total": 96,
+      "paradox": 12,
+      "both_down": 75,
+      "paradox_cost_sum": 6047,
+      "both_down_cost_sum": -143466,
+      "paradox_by_share": {
+        "0.25": 11,
+        "0.5": 1,
+        "0.75": 0
+      },
+      "paradox_by_clock": {
+        "uniform": 3,
+        "platoon4": 9
+      }
+    },
+    "red": {
+      "total": 96,
+      "paradox": 43,
+      "both_down": 39,
+      "paradox_cost_sum": 37605,
+      "both_down_cost_sum": -36061,
+      "paradox_by_share": {
+        "0.25": 0,
+        "0.5": 11,
+        "0.75": 32
+      },
+      "paradox_by_clock": {
+        "uniform": 21,
+        "platoon4": 22
+      }
+    }
+  },
+  "calendar_window": "[84,1440) seconds",
+  "startup_losses_seconds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "exposures": {
+    "30/green/0": {
+      "displayed_green_seconds": 681,
+      "effective_green_seconds": 681,
+      "removed_green_seconds": 0,
+      "green_onsets": 46
+    },
+    "30/green/1": {
+      "displayed_green_seconds": 681,
+      "effective_green_seconds": 635,
+      "removed_green_seconds": 46,
+      "green_onsets": 46
+    },
+    "30/green/2": {
+      "displayed_green_seconds": 681,
+      "effective_green_seconds": 589,
+      "removed_green_seconds": 92,
+      "green_onsets": 46
+    },
+    "30/green/3": {
+      "displayed_green_seconds": 681,
+      "effective_green_seconds": 543,
+      "removed_green_seconds": 138,
+      "green_onsets": 46
+    },
+    "30/red/0": {
+      "displayed_green_seconds": 675,
+      "effective_green_seconds": 675,
+      "removed_green_seconds": 0,
+      "green_onsets": 45
+    },
+    "30/red/1": {
+      "displayed_green_seconds": 675,
+      "effective_green_seconds": 630,
+      "removed_green_seconds": 45,
+      "green_onsets": 45
+    },
+    "30/red/2": {
+      "displayed_green_seconds": 675,
+      "effective_green_seconds": 585,
+      "removed_green_seconds": 90,
+      "green_onsets": 45
+    },
+    "30/red/3": {
+      "displayed_green_seconds": 675,
+      "effective_green_seconds": 540,
+      "removed_green_seconds": 135,
+      "green_onsets": 45
+    },
+    "60/green/0": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 690,
+      "removed_green_seconds": 0,
+      "green_onsets": 23
+    },
+    "60/green/1": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 667,
+      "removed_green_seconds": 23,
+      "green_onsets": 23
+    },
+    "60/green/2": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 644,
+      "removed_green_seconds": 46,
+      "green_onsets": 23
+    },
+    "60/green/3": {
+      "displayed_green_seconds": 690,
+      "effective_green_seconds": 621,
+      "removed_green_seconds": 69,
+      "green_onsets": 23
+    },
+    "60/red/0": {
+      "displayed_green_seconds": 666,
+      "effective_green_seconds": 666,
+      "removed_green_seconds": 0,
+      "green_onsets": 23
+    },
+    "60/red/1": {
+      "displayed_green_seconds": 666,
+      "effective_green_seconds": 643,
+      "removed_green_seconds": 23,
+      "green_onsets": 23
+    },
+    "60/red/2": {
+      "displayed_green_seconds": 666,
+      "effective_green_seconds": 620,
+      "removed_green_seconds": 46,
+      "green_onsets": 23
+    },
+    "60/red/3": {
+      "displayed_green_seconds": 666,
+      "effective_green_seconds": 597,
+      "removed_green_seconds": 69,
+      "green_onsets": 23
+    }
+  }
+}
