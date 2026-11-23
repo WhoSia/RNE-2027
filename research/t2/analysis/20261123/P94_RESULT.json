@@ -1,0 +1,145 @@
+{
+  "evidence_grade": "algebraic single-tick controller feasibility test; not T2 engine and not a comparative delay result",
+  "definition": "pressure = upstream_queue - downstream_occupancy, capacity=4",
+  "warning": "capacity-gated proxy is not published normalized-pressure controller; no theorem or field performance transfers",
+  "rows": [
+    {
+      "case": "blocked_dominant",
+      "queue": {
+        "A": 12,
+        "B": 6
+      },
+      "receiver_occupancy": {
+        "A": 4,
+        "B": 0
+      },
+      "pressure_proxy": {
+        "A": 8,
+        "B": 6
+      },
+      "feasible_to_admit": {
+        "A": false,
+        "B": true
+      },
+      "naive_choice": "A",
+      "capacity_gated_choice": "B",
+      "naive_one_tick_admissions": 0,
+      "gated_one_tick_admissions": 1
+    },
+    {
+      "case": "both_available",
+      "queue": {
+        "A": 8,
+        "B": 5
+      },
+      "receiver_occupancy": {
+        "A": 2,
+        "B": 1
+      },
+      "pressure_proxy": {
+        "A": 6,
+        "B": 4
+      },
+      "feasible_to_admit": {
+        "A": true,
+        "B": true
+      },
+      "naive_choice": "A",
+      "capacity_gated_choice": "A",
+      "naive_one_tick_admissions": 1,
+      "gated_one_tick_admissions": 1
+    },
+    {
+      "case": "both_full",
+      "queue": {
+        "A": 10,
+        "B": 10
+      },
+      "receiver_occupancy": {
+        "A": 4,
+        "B": 4
+      },
+      "pressure_proxy": {
+        "A": 6,
+        "B": 6
+      },
+      "feasible_to_admit": {
+        "A": false,
+        "B": false
+      },
+      "naive_choice": "A",
+      "capacity_gated_choice": null,
+      "naive_one_tick_admissions": 0,
+      "gated_one_tick_admissions": 0
+    },
+    {
+      "case": "blocked_B_dominant",
+      "queue": {
+        "A": 1,
+        "B": 9
+      },
+      "receiver_occupancy": {
+        "A": 0,
+        "B": 4
+      },
+      "pressure_proxy": {
+        "A": 1,
+        "B": 5
+      },
+      "feasible_to_admit": {
+        "A": true,
+        "B": false
+      },
+      "naive_choice": "B",
+      "capacity_gated_choice": "A",
+      "naive_one_tick_admissions": 0,
+      "gated_one_tick_admissions": 1
+    },
+    {
+      "case": "no_demand",
+      "queue": {
+        "A": 0,
+        "B": 0
+      },
+      "receiver_occupancy": {
+        "A": 0,
+        "B": 0
+      },
+      "pressure_proxy": {
+        "A": 0,
+        "B": 0
+      },
+      "feasible_to_admit": {
+        "A": false,
+        "B": false
+      },
+      "naive_choice": "A",
+      "capacity_gated_choice": null,
+      "naive_one_tick_admissions": 0,
+      "gated_one_tick_admissions": 0
+    },
+    {
+      "case": "available_B_preferred",
+      "queue": {
+        "A": 5,
+        "B": 4
+      },
+      "receiver_occupancy": {
+        "A": 3,
+        "B": 0
+      },
+      "pressure_proxy": {
+        "A": 2,
+        "B": 4
+      },
+      "feasible_to_admit": {
+        "A": true,
+        "B": true
+      },
+      "naive_choice": "B",
+      "capacity_gated_choice": "B",
+      "naive_one_tick_admissions": 1,
+      "gated_one_tick_admissions": 1
+    }
+  ]
+}
