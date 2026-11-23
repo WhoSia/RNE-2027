@@ -1,0 +1,23 @@
+{
+  "cutoff": {
+    "t": 239,
+    "occupancy": [
+      20,
+      19
+    ],
+    "cumulative": -112,
+    "penalized": -172
+  },
+  "sign_changes": [
+    {
+      "t": 128,
+      "delta": -1
+    },
+    {
+      "t": 308,
+      "delta": 2
+    }
+  ],
+  "final": 346,
+  "first_empty_after_last_occupancy": 405
+}
