@@ -19,14 +19,14 @@ def calendar(base, duration):
     return [(len(list(group)), state) for state, group in groupby(states)]
 
 
-def compare():
+def compare(seeds=(401,)):
     archived = json.loads(Path(__file__).with_name("P62_RESULT.json").read_text())["rows"]
     rows = []
     with TemporaryDirectory() as root:
         for row in archived:
-            if row["seed"] != 401 or row["capacity"] != 4 or row["offset"] != 15:
+            if row["seed"] not in seeds or row["capacity"] != 4 or row["offset"] != 15:
                 continue
-            base = build_config(401, row["demand"], row["turn"], 14., 4, .5).base
+            base = build_config(row["seed"], row["demand"], row["turn"], 14., 4, .5).base
             tape = p31.clock(base, row["family"])
             assert tape_hash(tape) == row["tape"]
             trips = tuple(network.Arrival(f"v{i:03}", t, "T" if m == "S" else "L")
