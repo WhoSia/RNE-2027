@@ -1,0 +1,29 @@
+FINISHED 0.5 86101 89101 stochastic_uniform
+FINISHED 0.5 86101 89101 stochastic_platoon4
+FINISHED 0.5 86101 89102 stochastic_uniform
+FINISHED 0.5 86101 89102 stochastic_platoon4
+FINISHED 0.5 86102 89101 stochastic_uniform
+FINISHED 0.5 86102 89101 stochastic_platoon4
+FINISHED 0.5 86102 89102 stochastic_uniform
+FINISHED 0.5 86102 89102 stochastic_platoon4
+FINISHED 0.75 86101 89101 stochastic_uniform
+FINISHED 0.75 86101 89101 stochastic_platoon4
+FINISHED 0.75 86101 89102 stochastic_uniform
+FINISHED 0.75 86101 89102 stochastic_platoon4
+FINISHED 0.75 86102 89101 stochastic_uniform
+FINISHED 0.75 86102 89101 stochastic_platoon4
+FINISHED 0.75 86102 89102 stochastic_uniform
+FINISHED 0.75 86102 89102 stochastic_platoon4
+RESULT {"status": "P142_UNINFORMATIVE_NO_TRIGGERS", "pooled": {"n": 64, "calendar": {"correct": 62, "total_regret": 120}, "guard": {"correct": 62, "total_regret": 120}, "fixed30": {"correct": 34, "total_regret": 29679}, "fixed60": {"correct": 30, "total_regret": 117416}, "triggered": 0, "helpful": 0, "harmful": 0}, "by_offset": {"0,30": {"n": 16, "calendar": {"correct": 14, "total_regret": 120}, "guard": {"correct": 14, "total_regret": 120}, "fixed30": {"correct": 2, "total_regret": 2803}, "fixed60": {"correct": 14, "total_regret": 120}, "triggered": 0, "helpful": 0, "harmful": 0}, "15,0": {"n": 16, "calendar": {"correct": 16, "total_regret": 0}, "guard": {"correct": 16, "total_regret": 0}, "fixed30": {"correct": 16, "total_regret": 0}, "fixed60": {"correct": 0, "total_regret": 27031}, "triggered": 0, "helpful": 0, "harmful": 0}, "7,15": {"n": 16, "calendar": {"correct": 16, "total_regret": 0}, "guard": {"correct": 16, "total_regret": 0}, "fixed30": {"correct": 0, "total_regret": 26876}, "fixed60": {"correct": 16, "total_regret": 0}, "triggered": 0, "helpful": 0, "harmful": 0}, "23,45": {"n": 16, "calendar": {"correct": 16, "total_regret": 0}, "guard": {"correct": 16, "total_regret": 0}, "fixed30": {"correct": 16, "total_regret": 0}, "fixed60": {"correct": 0, "total_regret": 90265}, "triggered": 0, "helpful": 0, "harmful": 0}}, "within_tape_paired_regret": {"calendar_better": 0, "guard_better": 0, "equal": 16}}
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
