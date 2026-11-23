@@ -1,0 +1,66 @@
+{
+  "0": {
+    "fixed6": {
+      "mean_delta_vs_6": 0,
+      "mean_regret": 14.48046875,
+      "ten_count": 0,
+      "optimal_fraction": 0.46875
+    },
+    "fixed10": {
+      "mean_delta_vs_6": 25.8984375,
+      "mean_regret": 40.37890625,
+      "ten_count": 64,
+      "optimal_fraction": 0.5625
+    },
+    "transfer": {
+      "mean_delta_vs_6": 7.96875,
+      "mean_regret": 22.44921875,
+      "ten_count": 6,
+      "optimal_fraction": 0.4375
+    },
+    "offset_holdout": {
+      "mean_delta_vs_6": 0,
+      "mean_regret": 14.48046875,
+      "ten_count": 0,
+      "optimal_fraction": 0.46875
+    },
+    "oracle": {
+      "mean_delta_vs_6": -14.48046875,
+      "mean_regret": 0.0,
+      "ten_count": 34,
+      "optimal_fraction": 1.0
+    }
+  },
+  "15": {
+    "fixed6": {
+      "mean_delta_vs_6": 0,
+      "mean_regret": 0,
+      "ten_count": 0,
+      "optimal_fraction": 1.0
+    },
+    "fixed10": {
+      "mean_delta_vs_6": 262.578125,
+      "mean_regret": 262.578125,
+      "ten_count": 64,
+      "optimal_fraction": 0.03125
+    },
+    "transfer": {
+      "mean_delta_vs_6": 168.5390625,
+      "mean_regret": 168.5390625,
+      "ten_count": 42,
+      "optimal_fraction": 0.375
+    },
+    "offset_holdout": {
+      "mean_delta_vs_6": 0,
+      "mean_regret": 0,
+      "ten_count": 0,
+      "optimal_fraction": 1.0
+    },
+    "oracle": {
+      "mean_delta_vs_6": 0,
+      "mean_regret": 0,
+      "ten_count": 0,
+      "optimal_fraction": 1.0
+    }
+  }
+}
