@@ -12,6 +12,7 @@ from math import floor
 import random
 from spatial_v10 import Config,validate,phase,arrivals
 from receiving_cells_v15 import ReceivingCells,LinkConfig
+from split_receiver_v1 import SplitReceivingCells
 
 @dataclass(frozen=True)
 class DualConfig:
@@ -30,6 +31,8 @@ class DualConfig:
     lane_change_windows:tuple[tuple[int,int],...]=() # when nonempty, absolute half-open windows gating A->B opportunity
     lane_change_target_gap_cells:int=1 # symmetric target-lane clearance, not calibrated gap acceptance
     lane_change_gap_confirmation_s:int=1 # consecutive eligible one-second ticks; 1 retains legacy behavior
+    receiver_split:bool=False # P129: separate L and S downstream links (cells mode only); False = legacy shared link
+    receiver_split_left_free:bool=False # P129: left link always green (uncontrolled destination) when split
 
 def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,resume_from=None,phase_overrides=()):
     """Run unchanged by default; optionally stop before a tick or resume exact state.
@@ -51,6 +54,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         raise ValueError("invalid downstream receiver")
     if c.receiver_mode not in ("fifo","cells") or (c.receiver_mode=="cells" and c.receiver_slots<1):
         raise ValueError("cellular downstream requires positive receiver storage")
+    if (c.receiver_split or c.receiver_split_left_free) and (c.receiver_mode!="cells" or not c.receiver_split):
+        raise ValueError("split receivers require cells mode; left_free requires receiver_split")
     if any(not isinstance(a,int) or not isinstance(b,int) or a<0 or a>=b or b>c.base.duration_s
            for a,b in c.lane_change_windows):
         raise ValueError("invalid lane-change windows")
@@ -82,6 +87,11 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
     admission={"A":-999999,"B":-999999};cycles=[];frames=[];service_events=[];access_events=[];lane_change_events=[]
     last_common_exit=-999999
     receiver=(ReceivingCells(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)) if c.receiver_mode=="cells" else deque())
+    if c.receiver_split:
+        through_link=LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_green_s,c.downstream_offset_s,c.receiver_headway_s,c.receiver_closures)
+        left_link=(LinkConfig(c.receiver_slots,c.downstream_cycle_s,c.downstream_cycle_s,0,c.receiver_headway_s,())
+                   if c.receiver_split_left_free else through_link)
+        receiver=SplitReceivingCells(through_link,left_link)
     last_receiver_service=-999999
     gap_confirmation={}
     first_tick=0
@@ -131,6 +141,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                 if effective!=last_active:
                     last_active=effective
                 clearance_count=0
+    rx=(receiver.part if c.receiver_split else (lambda movement:receiver))
     for t in range(first_tick,c.base.duration_s):
         if checkpoint_at==t:
             state=dict(rng=rng,outside=outside,A=A,B=B,pocket=pocket,index=index,
@@ -147,7 +158,9 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
             route=events[index][1]
             lane="A" if route=="L" or rng.random()>=c.through_B_share else "B"
             outside[lane].append((index,route,t));index+=1
-        if c.receiver_mode=="cells":
+        if c.receiver_split:
+            for vehicle in receiver.tick_all(t):count["network_out_"+vehicle[1]]+=1
+        elif c.receiver_mode=="cells":
             vehicle=receiver.tick(t)
             if vehicle is not None:count["network_out_"+vehicle[1]]+=1
         elif receiver and t-last_receiver_service>=c.receiver_headway_s:
@@ -160,30 +173,30 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                 if -1 in occ and occ[-1][1]=="S" and t-last[lane]>=c.base.departure_headway_s:
                     if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
                         count["common_exit_denied_s"]+=1
-                    elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
+                    elif c.receiver_slots and (len(rx("S"))>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in rx("S").occupied)):
                         count["receiver_full_denied_s"]+=1
                         receiver_denial_this_tick=True
-                        if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
+                        if trace:service_events.append({"t":t,"vehicle_id":occ[-1][0],"lane":lane,"movement":"S","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in rx("S").occupied else "receiver_capacity_full")})
                     else:
                         v=occ.pop(-1);count["exit_S"]+=1
                         if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":lane,"movement":"S","reason":"stopline_cross"})
                         if c.receiver_slots:
-                            if c.receiver_mode=="cells":assert receiver.accept(v)
+                            if c.receiver_mode=="cells":assert rx("S").accept(v)
                             else:receiver.append(v)
                         else:count["network_out_S"]+=1
                         count["time_S_s"]+=t-v[2];last[lane]=t;last_common_exit=t
         elif light=="L" and -1 in pocket and t-last["L"]>=c.base.departure_headway_s:
             if c.downstream_conflict_gap_s and t-last_common_exit<c.downstream_conflict_gap_s:
                 count["common_exit_denied_s"]+=1
-            elif c.receiver_slots and (len(receiver)>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in receiver.occupied)):
+            elif c.receiver_slots and (len(rx("L"))>=c.receiver_slots or (c.receiver_mode=="cells" and 0 in rx("L").occupied)):
                 count["receiver_full_denied_s"]+=1
                 receiver_denial_this_tick=True
-                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in receiver.occupied else "receiver_capacity_full")})
+                if trace:service_events.append({"t":t,"vehicle_id":pocket[-1][0],"lane":"pocket","movement":"L","reason":("receiver_entry_cell_busy" if c.receiver_mode=="cells" and 0 in rx("L").occupied else "receiver_capacity_full")})
             else:
                 v=pocket.pop(-1);count["exit_L"]+=1
                 if trace:service_events.append({"t":t,"vehicle_id":v[0],"lane":"pocket","movement":"L","reason":"stopline_cross"})
                 if c.receiver_slots:
-                    if c.receiver_mode=="cells":assert receiver.accept(v)
+                    if c.receiver_mode=="cells":assert rx("L").accept(v)
                     else:receiver.append(v)
                 else:count["network_out_L"]+=1
                 count["time_L_s"]+=t-v[2];last["L"]=t;last_common_exit=t
@@ -238,7 +251,7 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
         count["max_receiver"]=max(count["max_receiver"],len(receiver))
         if index!=count["network_out_S"]+count["network_out_L"]+out+len(A)+len(B)+len(pocket)+len(receiver):
             raise AssertionError(("conservation",t))
-        if any(len(occ)>n or any(x< -n or x>-1 for x in occ) for occ in (A,B)) or len(pocket)>k or (c.receiver_slots and len(receiver)>c.receiver_slots):
+        if any(len(occ)>n or any(x< -n or x>-1 for x in occ) for occ in (A,B)) or len(pocket)>k or (c.receiver_slots and (any(len(p)>c.receiver_slots for p in receiver.parts.values()) if c.receiver_split else len(receiver)>c.receiver_slots)):
             raise AssertionError(("road geometry",t))
         receiving_vehicles=(receiver.occupied.values() if c.receiver_mode=="cells" else receiver)
         ids=[v[0] for occ in (A,B,pocket) for v in occ.values()]+[v[0] for v in receiving_vehicles]
@@ -264,7 +277,8 @@ def run(c:DualConfig=DualConfig(),events=None,*,trace=False,checkpoint_at=None,r
                   "downstream_green_s":c.downstream_green_s,"downstream_offset_s":c.downstream_offset_s,
                   "receiver_closures":c.receiver_closures,"lane_change_windows":c.lane_change_windows,
                   "lane_change_target_gap_cells":c.lane_change_target_gap_cells,
-                  "lane_change_gap_confirmation_s":c.lane_change_gap_confirmation_s},
+                  "lane_change_gap_confirmation_s":c.lane_change_gap_confirmation_s,
+                  **({"receiver_split":True,"receiver_split_left_free":c.receiver_split_left_free} if c.receiver_split else {})},
         "generated":len(events),"admitted":count["admitted"],
         "exit_S":count["exit_S"],"exit_L":count["exit_L"],
         "remaining":outside_total+len(A)+len(B)+len(pocket)+len(receiver),

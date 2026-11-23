@@ -1,0 +1,112 @@
+{
+ "world": {
+  "label_seed": 86001,
+  "time_seed": 88501,
+  "family": "stochastic_uniform",
+  "share": 0.75,
+  "capacity": 4
+ },
+ "arms": {
+  "30/phi15": {
+   "gates": {
+    "E0a_identity": true,
+    "E0b_inflow": true,
+    "E0c_signals": true,
+    "E0d_storage": true,
+    "E0e_exits": false
+   },
+   "all_pass": false,
+   "exited": 60,
+   "max_receiver": 4,
+   "signal_mismatch_samples": 0,
+   "insertion_delay_max": 58.75,
+   "admission_error_median_abs": 0.25,
+   "admission_error_max_abs": 66.75,
+   "stopline_cross_error_median_abs": 5.0,
+   "stopline_cross_error_p90_abs": 96.25,
+   "insertion_delay_median": 0.25,
+   "exit_error_median_abs": 5.5,
+   "exit_error_p90_abs": 87.5,
+   "exit_error_signed_mean": -24.220833333333335,
+   "t2_cost": 7482,
+   "sumo_cost": 6028.75
+  },
+  "60/phi30": {
+   "gates": {
+    "E0a_identity": true,
+    "E0b_inflow": true,
+    "E0c_signals": true,
+    "E0d_storage": true,
+    "E0e_exits": false
+   },
+   "all_pass": false,
+   "exited": 60,
+   "max_receiver": 4,
+   "signal_mismatch_samples": 0,
+   "insertion_delay_max": 28.5,
+   "admission_error_median_abs": 0.25,
+   "admission_error_max_abs": 42.75,
+   "stopline_cross_error_median_abs": 3.25,
+   "stopline_cross_error_p90_abs": 59.25,
+   "insertion_delay_median": 0.25,
+   "exit_error_median_abs": 3.0,
+   "exit_error_p90_abs": 53.5,
+   "exit_error_signed_mean": -11.4125,
+   "t2_cost": 6134,
+   "sumo_cost": 5449.25
+  }
+ },
+ "policy_sign_comparison_allowed": false,
+ "status": "E0_PARITY_FAILED_E0e_EXITS",
+ "attempts": [
+  {
+   "variant": "default SUMO LC model",
+   "E0e": "fail",
+   "by_movement_exit_abs_err": {
+    "30/L": {
+     "median": 19.0,
+     "p90": 87.5
+    },
+    "30/S": {
+     "median": 3.625,
+     "p90": 101.5
+    },
+    "60/L": {
+     "median": 3.0,
+     "p90": 53.5
+    },
+    "60/S": {
+     "median": 2.625,
+     "p90": 5.5
+    }
+   }
+  },
+  {
+   "variant": "lcSpeedGain=0, lcKeepRight=0, lcCooperative=0",
+   "E0e": "fail",
+   "sumo_cost": {
+    "30": 10057.75,
+    "60": 10134.75
+   },
+   "by_movement_exit_abs_err": {
+    "30/L": {
+     "median": 1.5,
+     "p90": 114.5
+    },
+    "30/S": {
+     "median": 4.5,
+     "p90": 211.75
+    },
+    "60/L": {
+     "median": 5.25,
+     "p90": 186.5
+    },
+    "60/S": {
+     "median": 6.125,
+     "p90": 226.5
+    }
+   }
+  }
+ ],
+ "interpretation": "SUMO 1.28.0 installed and run; identity, admission, signal and storage gates pass, but per-vehicle exit parity fails in both attempts. Upstream lane-change/pocket-entry dynamics differ between engines. Policy-sign comparison is NOT allowed; the default-run cost direction (both engines 30s worse) is not evidence."
+}
