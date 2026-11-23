@@ -1,0 +1,79 @@
+{
+  "status": "XR6_POSTHOC_CROSS_REVIEW_AUDIT",
+  "new_simulator_arms": 0,
+  "by_cell": {
+    "0.25/C4": {
+      "matched_tapes": 32,
+      "shared_paradox": 0,
+      "split_same_clock_paradox": 0,
+      "split_left_free_paradox": 0,
+      "shared_true_to_split_false": 0,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 0,
+      "split_short_cost_worse": 0
+    },
+    "0.25/C8": {
+      "matched_tapes": 32,
+      "shared_paradox": 0,
+      "split_same_clock_paradox": 0,
+      "split_left_free_paradox": 0,
+      "shared_true_to_split_false": 0,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 0,
+      "split_short_cost_worse": 23
+    },
+    "0.5/C4": {
+      "matched_tapes": 32,
+      "shared_paradox": 13,
+      "split_same_clock_paradox": 2,
+      "split_left_free_paradox": 0,
+      "shared_true_to_split_false": 11,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 2,
+      "split_short_cost_worse": 21
+    },
+    "0.5/C8": {
+      "matched_tapes": 32,
+      "shared_paradox": 8,
+      "split_same_clock_paradox": 0,
+      "split_left_free_paradox": 8,
+      "shared_true_to_split_false": 8,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 0,
+      "split_short_cost_worse": 0
+    },
+    "0.75/C4": {
+      "matched_tapes": 32,
+      "shared_paradox": 32,
+      "split_same_clock_paradox": 7,
+      "split_left_free_paradox": 0,
+      "shared_true_to_split_false": 25,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 7,
+      "split_short_cost_worse": 32
+    },
+    "0.75/C8": {
+      "matched_tapes": 32,
+      "shared_paradox": 0,
+      "split_same_clock_paradox": 0,
+      "split_left_free_paradox": 6,
+      "shared_true_to_split_false": 0,
+      "shared_false_to_split_true": 0,
+      "shared_true_and_split_true": 0,
+      "split_short_cost_worse": 0
+    }
+  },
+  "p135_unique_tapes": 32,
+  "p135_tapes_reused_in_xr1": 32,
+  "xr1_unique_tapes": 96,
+  "xr1_prereg_necessity_gate_not_logically_sufficient": true,
+  "xr1_75_C4_split_residual": "7/32",
+  "xr2_pooled_M1_accuracy": 0.894571825603613,
+  "xr2_strict_comparisons_not_independent": 115140,
+  "xr2_distinct_configurations": 64,
+  "xr2_75_C8_red_onset_M1_agrees": 1,
+  "xr2_75_C8_red_onset_n": 16,
+  "xr3_all_parity_gates_pass": false,
+  "xr5_threshold_rule_falsified": true,
+  "limitations": "Reaggregation only; no new simulator. All 32 distinct P135 share/route/time/family tapes reused in XR1. XR2 pairwise comparison count has only 64 configs and repeated offset arms; 16 timing roots across share/cap strata. XR1 strong attenuation does NOT entail shared receiver necessity; XR3 SUMO exit parity failed."
+}
