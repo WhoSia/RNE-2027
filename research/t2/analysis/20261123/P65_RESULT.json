@@ -1,0 +1,130 @@
+[
+  {
+    "seed": 401,
+    "demand": 900,
+    "turn": 0.2,
+    "family": "uniform",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "604396040d4b88da05c97a9484937f0c33a723165071c13bf4d62f9bc7de8b1d",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      3987.75,
+      3987.75
+    ],
+    "sumo_delta": 0.0
+  },
+  {
+    "seed": 401,
+    "demand": 900,
+    "turn": 0.2,
+    "family": "platoon4",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "804b125dad403924978c7a3bacd18915d21ec1b911670ac57ed5427c21b502cf",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      6171.5,
+      6465.75
+    ],
+    "sumo_delta": 294.25
+  },
+  {
+    "seed": 401,
+    "demand": 900,
+    "turn": 0.5,
+    "family": "uniform",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "ea16a1222fd0f86243ea54713510da8977027fbe654b3097d66cfc1aa6e7277d",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      3881.0,
+      3881.0
+    ],
+    "sumo_delta": 0.0
+  },
+  {
+    "seed": 401,
+    "demand": 900,
+    "turn": 0.5,
+    "family": "platoon4",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "9cd39bafc4cb6b794c145296408eaa5cd8be4d2649d537dfdce5ecdfec12fc6f",
+    "delta0": 94,
+    "delta60": 214,
+    "sumo_costs": [
+      6788.25,
+      6897.5
+    ],
+    "sumo_delta": 109.25
+  },
+  {
+    "seed": 401,
+    "demand": 1800,
+    "turn": 0.2,
+    "family": "uniform",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "7b4a5033a1148f88e0c4d5e072e2bfbc005cdec7c4814da0a3c37adfc2e1c5ba",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      12906.0,
+      12512.25
+    ],
+    "sumo_delta": -393.75
+  },
+  {
+    "seed": 401,
+    "demand": 1800,
+    "turn": 0.2,
+    "family": "platoon4",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "44457ddcfdee82ec7333cbae063cfec1cc0fa7be0627394cf0b6aaad88925166",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      16691.75,
+      16691.75
+    ],
+    "sumo_delta": 0.0
+  },
+  {
+    "seed": 401,
+    "demand": 1800,
+    "turn": 0.5,
+    "family": "uniform",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "cca2b62141617e91a2acc1739cfe695f3d8cdba491fa3965c29921e7e1a7f3fc",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      12512.25,
+      13014.0
+    ],
+    "sumo_delta": 501.75
+  },
+  {
+    "seed": 401,
+    "demand": 1800,
+    "turn": 0.5,
+    "family": "platoon4",
+    "capacity": 4,
+    "offset": 15,
+    "tape": "9c64ac7d05bd259df4edbf571bfdb4da83a9c54514579d69d260aaf55c72f66d",
+    "delta0": 0,
+    "delta60": 0,
+    "sumo_costs": [
+      16691.75,
+      16691.75
+    ],
+    "sumo_delta": 0.0
+  }
+]
