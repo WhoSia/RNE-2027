@@ -1,0 +1,15 @@
+# P136 PREREG — preselected-offset, unseen-timestamp proxy decision-regret audit
+Date: 2026-11-24 KST. Written before any P136 execution. This is the first NEW-DATE experiment. Prior P135 found a 62/64 60s-favoring cohort. External XR1 found fixed-cycle ranking flips on offset grids; its timing seeds 88401..88408 OVERLAP P135 88401..88404. The new P136 timing seeds 88601/88602 are absent from both.
+
+## Frozen protocol
+- Route-label seeds: 86001/86002; timestamp seeds: **88601/88602**; timestamp families: stochastic_uniform/stochastic_platoon4; left-turn shares: 0.50 and 0.75. Exactly **16 demand tapes**, not independent across share when timestamp root is shared.
+- Four distinct *pre-chosen* downstream offset packages (phi30,phi60): **(0,30), (15,0), (7,15), (23,45)**. For each 30s/60s policy, downstream green(t)=((t-84+phi)%period)<period/2 for t>=84. Contrast changes BOTH period and phase; do not call it cycle-length-only effect.
+- Topology fixed: T2 P130 **split receiver, 2 L+2 S cells**, one global 2-second downstream exit headway, **S-first** tie arbitration; 60 matched vehicles; upstream left-first 6s override after t84; identical checkpoint within each demand tape; horizon 4800s; all 60 IDs must exit every arm.
+- Exactly 16 demand tapes × 4 offset packages × 2 policies = **128 new full trace arms**, **64 matched policy choices**. Trace refusal events counted independently; exact receiver_denied_seconds equals unique refused event ticks.
+- Three frozen local policy rules: choose period with fewer receiver_denied_seconds, fewer receiver_denied_attempts, or fewer ever_denied_unique_ids; abstain if tie. Deployment tie-break **always 60s**. Cost J is complete vehicle-seconds and regret J_selected−min(J30,J60).
+- Report by each 4 offset pair and by share; pooling across all 64 allowed only with explicit within-tape dependence; report fixed30/fixed60 baseline accuracy and regret, policy-selection coverage, covered-case accuracy and deployed total regret. Separate distributions by offset to expose balancing attempts; do **not** select only balanced subgroups after seeing outcomes.
+- Primary gate: first assess proportion of 30-win/60-win outcomes by cohort; overall near-balanced criterion 30-winning >=20/64 and 60-winning >=20/64. If this fails, mark **BALANCE_GATE_FAILED** and still report proxy regret (descriptive), but disallow claim of a well-balanced external predictive benchmark. Only if gate passes test rule outperforming best fixed policy by >=10% total regret with at least 80% coverage. This research design is preregistered, not guaranteed to balance.
+- Analytical audit: repeat original P135 counts untouched; do not confuse 64 offsets with 64 independent sampled arrival tapes. Outputs are same synthetic T2 engine, not independent SUMO, not real-road claims.
+
+## Fail closed
+Any mismatch of per-arm 60-ID clearance, refusal count vs service_events, refused distinct ticks vs receiver_denied_seconds, improper checkpoint trace mode, unobserved policy, or missing result rejects the entire run. Do not massage output after seeing the result.
