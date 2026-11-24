@@ -1,0 +1,104 @@
+{
+  "status": "SYNTHETIC_PROSPECTIVE_NOT_FIELD",
+  "scenarios": 2048,
+  "arms": 16384,
+  "worlds": 8192,
+  "clearanceFailures": 0,
+  "competition": {
+    "ticks": 7726,
+    "arms": 5520,
+    "scenarios": 1376
+  },
+  "storage": {
+    "decrease": 4499,
+    "tie": 3693,
+    "increase": 0,
+    "firstIncrease": null
+  },
+  "rank": {
+    "strict": 0,
+    "tieCreated": 624,
+    "tieResolved": 288,
+    "unchanged": 3184,
+    "firstStrict": null
+  },
+  "priorityChange": {
+    "different": 791,
+    "tie": 7401
+  },
+  "priorityRank": {
+    "strict": 0,
+    "tieCreated": 242,
+    "tieResolved": 78,
+    "unchanged": 3776,
+    "firstStrict": null
+  },
+  "observations": [
+    {
+      "name": "ordered",
+      "cells": 270,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    },
+    {
+      "name": "plus_convention",
+      "cells": 540,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    },
+    {
+      "name": "plus_priority",
+      "cells": 540,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    },
+    {
+      "name": "plus_both_rules",
+      "cells": 1080,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    },
+    {
+      "name": "plus_future",
+      "cells": 540,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    },
+    {
+      "name": "oracle",
+      "cells": 2160,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    }
+  ]
+}
