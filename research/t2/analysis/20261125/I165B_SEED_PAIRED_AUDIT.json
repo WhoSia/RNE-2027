@@ -1,0 +1,105 @@
+{
+  "status": "DESCRIPTIVE_CORRELATED_SYNTHETIC_SEED_GROUPS",
+  "paired": {
+    "same": {
+      "presence_mean": {
+        "better": 17,
+        "tie": 0,
+        "worse": 3,
+        "sum": -3363,
+        "min": -493,
+        "max": 209
+      },
+      "presence_minimax": {
+        "better": 10,
+        "tie": 0,
+        "worse": 10,
+        "sum": -40,
+        "min": -168,
+        "max": 244
+      },
+      "presence_guard": {
+        "better": 16,
+        "tie": 0,
+        "worse": 4,
+        "sum": -1895,
+        "min": -271,
+        "max": 152
+      },
+      "counts_mean": {
+        "better": 19,
+        "tie": 0,
+        "worse": 1,
+        "sum": -3230,
+        "min": -470,
+        "max": 161
+      },
+      "counts_minimax": {
+        "better": 9,
+        "tie": 0,
+        "worse": 11,
+        "sum": -64,
+        "min": -304,
+        "max": 451
+      },
+      "counts_guard": {
+        "better": 17,
+        "tie": 0,
+        "worse": 3,
+        "sum": -2405,
+        "min": -410,
+        "max": 195
+      }
+    },
+    "shifted": {
+      "presence_mean": {
+        "better": 8,
+        "tie": 0,
+        "worse": 12,
+        "sum": 602,
+        "min": -78,
+        "max": 207
+      },
+      "presence_minimax": {
+        "better": 10,
+        "tie": 0,
+        "worse": 10,
+        "sum": 102,
+        "min": -111,
+        "max": 180
+      },
+      "presence_guard": {
+        "better": 13,
+        "tie": 1,
+        "worse": 6,
+        "sum": -190,
+        "min": -67,
+        "max": 47
+      },
+      "counts_mean": {
+        "better": 8,
+        "tie": 0,
+        "worse": 12,
+        "sum": 606,
+        "min": -81,
+        "max": 207
+      },
+      "counts_minimax": {
+        "better": 12,
+        "tie": 1,
+        "worse": 7,
+        "sum": -37,
+        "min": -135,
+        "max": 410
+      },
+      "counts_guard": {
+        "better": 17,
+        "tie": 0,
+        "worse": 3,
+        "sum": -479,
+        "min": -77,
+        "max": 36
+      }
+    }
+  }
+}
