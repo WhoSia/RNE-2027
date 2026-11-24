@@ -1,0 +1,112 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "basis": "P150D weights retained; new ratings reflect current evidence",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "RF17 actual file integration with RF10 and RF16",
+      "decision": "NEXT_M",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.95,
+        "C": 0.94
+      },
+      "priority": 0.981,
+      "evidence": "Test parser-to-feature-to-seal on frozen 300-row synthetic plan; no radio"
+    },
+    {
+      "unit": "P153 distinguish unknown rule vs future demand on prospective richer topology",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.93,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.96,
+        "C": 0.9
+      },
+      "priority": 0.971,
+      "evidence": "P152 oracle ablation is same-cohort and reverses previous 16-world value ranking"
+    },
+    {
+      "unit": "P151 successor: competing movement service, capacity allocation and event-order proof/counterexample",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.97,
+        "V": 0.96,
+        "C": 0.9
+      },
+      "priority": 0.968,
+      "evidence": "Exclusive phases make priority negative control only; no universal dominance proof"
+    },
+    {
+      "unit": "Teacher-approved physical stationary-object experiment",
+      "decision": "GATED_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Permission and equipment prerequisite"
+    },
+    {
+      "unit": "SUMO E0e XR7 event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "No runtime or independent parity executed this round"
+    },
+    {
+      "unit": "Unbounded threshold retuning",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "Previously falsified, no new mechanism"
+    }
+  ]
+}
