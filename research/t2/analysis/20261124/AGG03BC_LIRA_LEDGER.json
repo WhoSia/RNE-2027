@@ -1,0 +1,159 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A — conservative spatial CTM and literature-faithful reference",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.97
+      },
+      "priority": 0.991,
+      "evidence": "Knoop, Noaeen and MP review now held; abstract FIFO benchmark not physically dimensioned"
+    },
+    {
+      "unit": "AGG04 — representation and computational cost under matched information",
+      "decision": "NEXT_MACRO_CS",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.988,
+      "evidence": "AGG03B/C exact micro wins against mixed fluid; no runtime advantage measured"
+    },
+    {
+      "unit": "I165 — shifted arrival families and scenario representativeness",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.986,
+      "evidence": "Four correlated scenario tapes; no distribution shift test"
+    },
+    {
+      "unit": "MACRO05B — full feedback observation error",
+      "decision": "NEXT_I_RF",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Prior selector-only noise; actual RF zero"
+    },
+    {
+      "unit": "OPT02 — higher-load DP with switching cost",
+      "decision": "NEXT_T_CS",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.978,
+      "evidence": "OPT01 near-null; Tan highlights switching-loss assumption"
+    },
+    {
+      "unit": "BE02 — same-OD endogenous demand bridge",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Prior toy game separate"
+    },
+    {
+      "unit": "RF20B — offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Exact dependency chain unresolved"
+    },
+    {
+      "unit": "RF physical teacher-approved tabletop measurement",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Actual observations absent"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "External parity unresolved"
+    }
+  ]
+}
