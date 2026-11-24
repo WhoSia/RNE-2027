@@ -1,0 +1,655 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_SYNTHETIC_NOT_FIELD",
+  "worlds": 2160,
+  "staticArms": 25920,
+  "reuseArms": 25920,
+  "train": 1728,
+  "test": 432,
+  "policies": [
+    {
+      "g": 3,
+      "o": 0
+    },
+    {
+      "g": 3,
+      "o": 2
+    },
+    {
+      "g": 3,
+      "o": 4
+    },
+    {
+      "g": 3,
+      "o": 6
+    },
+    {
+      "g": 4,
+      "o": 0
+    },
+    {
+      "g": 4,
+      "o": 2
+    },
+    {
+      "g": 4,
+      "o": 4
+    },
+    {
+      "g": 4,
+      "o": 6
+    },
+    {
+      "g": 5,
+      "o": 0
+    },
+    {
+      "g": 5,
+      "o": 2
+    },
+    {
+      "g": 5,
+      "o": 4
+    },
+    {
+      "g": 5,
+      "o": 6
+    }
+  ],
+  "selections": {
+    "1:1": {
+      "mean": 0,
+      "minimax": 0,
+      "local": 0
+    },
+    "1:3": {
+      "mean": 0,
+      "minimax": 0,
+      "local": 0
+    },
+    "3:1": {
+      "mean": 4,
+      "minimax": 4,
+      "local": 0
+    },
+    "3:3": {
+      "mean": 4,
+      "minimax": 4,
+      "local": 0
+    }
+  },
+  "groups": {
+    "all": {
+      "stats": {
+        "fixed": {
+          "n": 432,
+          "J": 104989,
+          "S": 55844,
+          "L": 49145,
+          "denial": 1214,
+          "headBlock": 2122,
+          "emptyPocket": 3951,
+          "regret": 11750,
+          "worst": 215,
+          "miss": 390,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "demand": {
+          "n": 432,
+          "J": 97821,
+          "S": 53922,
+          "L": 43899,
+          "denial": 1289,
+          "headBlock": 1642,
+          "emptyPocket": 3850,
+          "regret": 4582,
+          "worst": 215,
+          "miss": 244,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "mean": {
+          "n": 432,
+          "J": 98937,
+          "S": 55178,
+          "L": 43759,
+          "denial": 1026,
+          "headBlock": 1444,
+          "emptyPocket": 4374,
+          "regret": 5698,
+          "worst": 122,
+          "miss": 259,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "minimax": {
+          "n": 432,
+          "J": 98937,
+          "S": 55178,
+          "L": 43759,
+          "denial": 1026,
+          "headBlock": 1444,
+          "emptyPocket": 4374,
+          "regret": 5698,
+          "worst": 122,
+          "miss": 259,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "local": {
+          "n": 432,
+          "J": 100471,
+          "S": 57001,
+          "L": 43470,
+          "denial": 814,
+          "headBlock": 1387,
+          "emptyPocket": 4993,
+          "regret": 7232,
+          "worst": 122,
+          "miss": 177,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "counts": {
+          "n": 432,
+          "J": 96669,
+          "S": 53906,
+          "L": 42763,
+          "denial": 1137,
+          "headBlock": 1450,
+          "emptyPocket": 4116,
+          "regret": 3430,
+          "worst": 114,
+          "miss": 174,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "head": {
+          "n": 432,
+          "J": 96719,
+          "S": 53883,
+          "L": 42836,
+          "denial": 1171,
+          "headBlock": 1470,
+          "emptyPocket": 4076,
+          "regret": 3480,
+          "worst": 114,
+          "miss": 176,
+          "throughput": 10368,
+          "terminal": 0
+        },
+        "oracle": {
+          "n": 432,
+          "J": 93239,
+          "S": 51475,
+          "L": 41764,
+          "denial": 1342,
+          "headBlock": 1436,
+          "emptyPocket": 3579,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "throughput": 10368,
+          "terminal": 0
+        }
+      },
+      "coverage": {
+        "counts": 397,
+        "head": 383
+      },
+      "paired": {
+        "counts": [
+          139,
+          250,
+          43
+        ],
+        "head": [
+          138,
+          249,
+          45
+        ]
+      },
+      "localConflict": 90,
+      "worldsWithDenial": 291,
+      "armsWithDenial": 2663
+    },
+    "dense": {
+      "stats": {
+        "fixed": {
+          "n": 144,
+          "J": 61373,
+          "S": 32757,
+          "L": 28616,
+          "denial": 509,
+          "headBlock": 1348,
+          "emptyPocket": 1882,
+          "regret": 5845,
+          "worst": 215,
+          "miss": 121,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "demand": {
+          "n": 144,
+          "J": 57228,
+          "S": 31481,
+          "L": 25747,
+          "denial": 571,
+          "headBlock": 1072,
+          "emptyPocket": 1767,
+          "regret": 1700,
+          "worst": 99,
+          "miss": 67,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "mean": {
+          "n": 144,
+          "J": 58660,
+          "S": 32500,
+          "L": 26160,
+          "denial": 414,
+          "headBlock": 984,
+          "emptyPocket": 2116,
+          "regret": 3132,
+          "worst": 122,
+          "miss": 92,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "minimax": {
+          "n": 144,
+          "J": 58660,
+          "S": 32500,
+          "L": 26160,
+          "denial": 414,
+          "headBlock": 984,
+          "emptyPocket": 2116,
+          "regret": 3132,
+          "worst": 122,
+          "miss": 92,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "local": {
+          "n": 144,
+          "J": 59713,
+          "S": 33504,
+          "L": 26209,
+          "denial": 306,
+          "headBlock": 910,
+          "emptyPocket": 2439,
+          "regret": 4185,
+          "worst": 122,
+          "miss": 86,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "counts": {
+          "n": 144,
+          "J": 57271,
+          "S": 31566,
+          "L": 25705,
+          "denial": 499,
+          "headBlock": 988,
+          "emptyPocket": 1898,
+          "regret": 1743,
+          "worst": 114,
+          "miss": 70,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "head": {
+          "n": 144,
+          "J": 57316,
+          "S": 31554,
+          "L": 25762,
+          "denial": 518,
+          "headBlock": 1000,
+          "emptyPocket": 1872,
+          "regret": 1788,
+          "worst": 114,
+          "miss": 72,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "oracle": {
+          "n": 144,
+          "J": 55528,
+          "S": 30528,
+          "L": 25000,
+          "denial": 583,
+          "headBlock": 975,
+          "emptyPocket": 1642,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "throughput": 3456,
+          "terminal": 0
+        }
+      },
+      "coverage": {
+        "counts": 116,
+        "head": 106
+      },
+      "paired": {
+        "counts": [
+          42,
+          91,
+          11
+        ],
+        "head": [
+          40,
+          92,
+          12
+        ]
+      },
+      "localConflict": 48,
+      "worldsWithDenial": 117,
+      "armsWithDenial": 976
+    },
+    "platoon": {
+      "stats": {
+        "fixed": {
+          "n": 144,
+          "J": 31710,
+          "S": 16549,
+          "L": 15161,
+          "denial": 491,
+          "headBlock": 774,
+          "emptyPocket": 1297,
+          "regret": 5109,
+          "worst": 215,
+          "miss": 125,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "demand": {
+          "n": 144,
+          "J": 28899,
+          "S": 15903,
+          "L": 12996,
+          "denial": 504,
+          "headBlock": 570,
+          "emptyPocket": 1339,
+          "regret": 2298,
+          "worst": 215,
+          "miss": 97,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "mean": {
+          "n": 144,
+          "J": 28769,
+          "S": 16140,
+          "L": 12629,
+          "denial": 398,
+          "headBlock": 460,
+          "emptyPocket": 1486,
+          "regret": 2168,
+          "worst": 114,
+          "miss": 95,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "minimax": {
+          "n": 144,
+          "J": 28769,
+          "S": 16140,
+          "L": 12629,
+          "denial": 398,
+          "headBlock": 460,
+          "emptyPocket": 1486,
+          "regret": 2168,
+          "worst": 114,
+          "miss": 95,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "local": {
+          "n": 144,
+          "J": 29648,
+          "S": 16959,
+          "L": 12689,
+          "denial": 294,
+          "headBlock": 477,
+          "emptyPocket": 1782,
+          "regret": 3047,
+          "worst": 114,
+          "miss": 91,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "counts": {
+          "n": 144,
+          "J": 28192,
+          "S": 15802,
+          "L": 12390,
+          "denial": 424,
+          "headBlock": 462,
+          "emptyPocket": 1446,
+          "regret": 1591,
+          "worst": 114,
+          "miss": 80,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "head": {
+          "n": 144,
+          "J": 28197,
+          "S": 15791,
+          "L": 12406,
+          "denial": 439,
+          "headBlock": 470,
+          "emptyPocket": 1432,
+          "regret": 1596,
+          "worst": 114,
+          "miss": 80,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "oracle": {
+          "n": 144,
+          "J": 26601,
+          "S": 14409,
+          "L": 12192,
+          "denial": 545,
+          "headBlock": 461,
+          "emptyPocket": 1165,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "throughput": 3456,
+          "terminal": 0
+        }
+      },
+      "coverage": {
+        "counts": 137,
+        "head": 133
+      },
+      "paired": {
+        "counts": [
+          37,
+          87,
+          20
+        ],
+        "head": [
+          38,
+          85,
+          21
+        ]
+      },
+      "localConflict": 42,
+      "worldsWithDenial": 112,
+      "armsWithDenial": 943
+    },
+    "sparse": {
+      "stats": {
+        "fixed": {
+          "n": 144,
+          "J": 11906,
+          "S": 6538,
+          "L": 5368,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 796,
+          "worst": 10,
+          "miss": 144,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "demand": {
+          "n": 144,
+          "J": 11694,
+          "S": 6538,
+          "L": 5156,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 744,
+          "regret": 584,
+          "worst": 23,
+          "miss": 80,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "mean": {
+          "n": 144,
+          "J": 11508,
+          "S": 6538,
+          "L": 4970,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 398,
+          "worst": 10,
+          "miss": 72,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "minimax": {
+          "n": 144,
+          "J": 11508,
+          "S": 6538,
+          "L": 4970,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 398,
+          "worst": 10,
+          "miss": 72,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "local": {
+          "n": 144,
+          "J": 11110,
+          "S": 6538,
+          "L": 4572,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "counts": {
+          "n": 144,
+          "J": 11206,
+          "S": 6538,
+          "L": 4668,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 96,
+          "worst": 9,
+          "miss": 24,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "head": {
+          "n": 144,
+          "J": 11206,
+          "S": 6538,
+          "L": 4668,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 96,
+          "worst": 9,
+          "miss": 24,
+          "throughput": 3456,
+          "terminal": 0
+        },
+        "oracle": {
+          "n": 144,
+          "J": 11110,
+          "S": 6538,
+          "L": 4572,
+          "denial": 214,
+          "headBlock": 0,
+          "emptyPocket": 772,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "throughput": 3456,
+          "terminal": 0
+        }
+      },
+      "coverage": {
+        "counts": 144,
+        "head": 144
+      },
+      "paired": {
+        "counts": [
+          60,
+          72,
+          12
+        ],
+        "head": [
+          60,
+          72,
+          12
+        ]
+      },
+      "localConflict": 0,
+      "worldsWithDenial": 62,
+      "armsWithDenial": 744
+    }
+  },
+  "transfer": {
+    "decrease": 8376,
+    "tie": 17544,
+    "increase": 0,
+    "strictRankFlips": 10112,
+    "rankPairs": 142560,
+    "firstIncrease": null,
+    "firstFlip": {
+      "seed": 0,
+      "left": 6,
+      "clock": "dense",
+      "P": 1,
+      "R": 1,
+      "policies": [
+        {
+          "g": 3,
+          "o": 0
+        },
+        {
+          "g": 4,
+          "o": 0
+        }
+      ],
+      "old": [
+        537,
+        539
+      ],
+      "reuse": [
+        370,
+        332
+      ]
+    }
+  }
+}
