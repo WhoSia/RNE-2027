@@ -1,0 +1,300 @@
+{
+  "status": "RETROSPECTIVE_FINITE_COHORT_BOUND_NOT_PREDICTOR",
+  "arms": 17280,
+  "results": {
+    "known": {
+      "stats": {
+        "geometry": {
+          "worlds": 720,
+          "groups": 4,
+          "singletons": 0,
+          "ambiguousGroups": 4,
+          "ambiguousWorlds": 720,
+          "regretLowerBound": 10040,
+          "maximumGroupRegret": 3948
+        },
+        "presence": {
+          "worlds": 720,
+          "groups": 24,
+          "singletons": 4,
+          "ambiguousGroups": 18,
+          "ambiguousWorlds": 642,
+          "regretLowerBound": 5382,
+          "maximumGroupRegret": 1280
+        },
+        "counts": {
+          "worlds": 720,
+          "groups": 105,
+          "singletons": 28,
+          "ambiguousGroups": 59,
+          "ambiguousWorlds": 555,
+          "regretLowerBound": 4102,
+          "maximumGroupRegret": 277
+        },
+        "ordered": {
+          "worlds": 720,
+          "groups": 308,
+          "singletons": 263,
+          "ambiguousGroups": 26,
+          "ambiguousWorlds": 338,
+          "regretLowerBound": 1681,
+          "maximumGroupRegret": 277
+        }
+      },
+      "witness": {
+        "key": "1:1:12:0:0",
+        "first": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:12:0:0",
+            "1:1:SSSSSSSSSSSS:0:0"
+          ],
+          "c": [
+            804,
+            831,
+            1606,
+            1570,
+            804,
+            831,
+            1608,
+            824,
+            790,
+            833,
+            1610,
+            824
+          ],
+          "seed": 320,
+          "clock": "dense",
+          "left": 6,
+          "P": 1,
+          "R": 1
+        },
+        "second": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:12:0:0",
+            "1:1:SLLLLLLLLSLS:0:0"
+          ],
+          "c": [
+            554,
+            560,
+            646,
+            634,
+            702,
+            705,
+            788,
+            708,
+            717,
+            724,
+            802,
+            722
+          ],
+          "seed": 323,
+          "clock": "dense",
+          "left": 18,
+          "P": 1,
+          "R": 1
+        },
+        "pairMinimumRegret": 14
+      }
+    },
+    "shifted": {
+      "stats": {
+        "geometry": {
+          "worlds": 720,
+          "groups": 4,
+          "singletons": 0,
+          "ambiguousGroups": 4,
+          "ambiguousWorlds": 720,
+          "regretLowerBound": 8391,
+          "maximumGroupRegret": 2421
+        },
+        "presence": {
+          "worlds": 720,
+          "groups": 28,
+          "singletons": 3,
+          "ambiguousGroups": 23,
+          "ambiguousWorlds": 712,
+          "regretLowerBound": 6167,
+          "maximumGroupRegret": 1053
+        },
+        "counts": {
+          "worlds": 720,
+          "groups": 50,
+          "singletons": 7,
+          "ambiguousGroups": 37,
+          "ambiguousWorlds": 687,
+          "regretLowerBound": 5983,
+          "maximumGroupRegret": 1053
+        },
+        "ordered": {
+          "worlds": 720,
+          "groups": 89,
+          "singletons": 32,
+          "ambiguousGroups": 47,
+          "ambiguousWorlds": 657,
+          "regretLowerBound": 5229,
+          "maximumGroupRegret": 1053
+        }
+      },
+      "witness": {
+        "key": "1:1:4:0:0",
+        "first": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:4:0:0",
+            "1:1:SSSS:0:0"
+          ],
+          "c": [
+            420,
+            447,
+            1222,
+            1186,
+            420,
+            447,
+            1224,
+            440,
+            406,
+            449,
+            1226,
+            440
+          ],
+          "seed": 320,
+          "clock": "burst",
+          "left": 6,
+          "P": 1,
+          "R": 1
+        },
+        "second": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:4:0:0",
+            "1:1:SSLL:0:0"
+          ],
+          "c": [
+            203,
+            224,
+            574,
+            550,
+            208,
+            229,
+            588,
+            221,
+            205,
+            237,
+            596,
+            226
+          ],
+          "seed": 320,
+          "clock": "burst",
+          "left": 12,
+          "P": 1,
+          "R": 1
+        },
+        "pairMinimumRegret": 2
+      }
+    },
+    "pooled": {
+      "stats": {
+        "geometry": {
+          "worlds": 1440,
+          "groups": 4,
+          "singletons": 0,
+          "ambiguousGroups": 4,
+          "ambiguousWorlds": 1440,
+          "regretLowerBound": 19243,
+          "maximumGroupRegret": 6287
+        },
+        "presence": {
+          "worlds": 1440,
+          "groups": 30,
+          "singletons": 1,
+          "ambiguousGroups": 28,
+          "ambiguousWorlds": 1436,
+          "regretLowerBound": 13110,
+          "maximumGroupRegret": 1943
+        },
+        "counts": {
+          "worlds": 1440,
+          "groups": 115,
+          "singletons": 24,
+          "ambiguousGroups": 73,
+          "ambiguousWorlds": 1329,
+          "regretLowerBound": 12044,
+          "maximumGroupRegret": 1571
+        },
+        "ordered": {
+          "worlds": 1440,
+          "groups": 326,
+          "singletons": 242,
+          "ambiguousGroups": 55,
+          "ambiguousWorlds": 1110,
+          "regretLowerBound": 9027,
+          "maximumGroupRegret": 1571
+        }
+      },
+      "witness": {
+        "key": "1:1:12:0:0",
+        "first": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:12:0:0",
+            "1:1:SSSSSSSSSSSS:0:0"
+          ],
+          "c": [
+            804,
+            831,
+            1606,
+            1570,
+            804,
+            831,
+            1608,
+            824,
+            790,
+            833,
+            1610,
+            824
+          ],
+          "seed": 320,
+          "clock": "dense",
+          "left": 6,
+          "P": 1,
+          "R": 1
+        },
+        "second": {
+          "keys": [
+            "1:1",
+            "1:1:1",
+            "1:1:12:0:0",
+            "1:1:SLLLLLLLLSLS:0:0"
+          ],
+          "c": [
+            554,
+            560,
+            646,
+            634,
+            702,
+            705,
+            788,
+            708,
+            717,
+            724,
+            802,
+            722
+          ],
+          "seed": 323,
+          "clock": "dense",
+          "left": 18,
+          "P": 1,
+          "R": 1
+        },
+        "pairMinimumRegret": 14
+      }
+    }
+  }
+}
