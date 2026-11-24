@@ -1,0 +1,101 @@
+{
+  "status": "IDEAL_SYNTHETIC_OBSERVATION_NOT_RF_MEASUREMENT",
+  "train": 1728,
+  "test": 720,
+  "arms": 29376,
+  "stats": {
+    "geometry": {
+      "n": 720,
+      "covered": 720,
+      "J": 167620,
+      "regret": 9564,
+      "worst": 132,
+      "better": 0,
+      "tie": 720,
+      "worse": 0,
+      "miss": 432
+    },
+    "presence": {
+      "n": 720,
+      "covered": 708,
+      "J": 164008,
+      "regret": 5952,
+      "worst": 127,
+      "better": 215,
+      "tie": 360,
+      "worse": 145,
+      "miss": 333
+    },
+    "fullness": {
+      "n": 720,
+      "covered": 718,
+      "J": 165234,
+      "regret": 7178,
+      "worst": 131,
+      "better": 170,
+      "tie": 476,
+      "worse": 74,
+      "miss": 373
+    },
+    "both": {
+      "n": 720,
+      "covered": 708,
+      "J": 164008,
+      "regret": 5952,
+      "worst": 127,
+      "better": 215,
+      "tie": 360,
+      "worse": 145,
+      "miss": 333
+    },
+    "counts": {
+      "n": 720,
+      "covered": 668,
+      "J": 163606,
+      "regret": 5550,
+      "worst": 129,
+      "better": 234,
+      "tie": 405,
+      "worse": 81,
+      "miss": 285
+    },
+    "demand": {
+      "n": 720,
+      "covered": 720,
+      "J": 166299,
+      "regret": 8243,
+      "worst": 160,
+      "better": 207,
+      "tie": 297,
+      "worse": 216,
+      "miss": 406
+    }
+  },
+  "collisions": {
+    "geometry": {
+      "cells": 4,
+      "incompatible": 4,
+      "worlds": 720
+    },
+    "presence": {
+      "cells": 26,
+      "incompatible": 19,
+      "worlds": 658
+    },
+    "fullness": {
+      "cells": 16,
+      "incompatible": 12,
+      "worlds": 689
+    },
+    "both": {
+      "cells": 26,
+      "incompatible": 19,
+      "worlds": 658
+    },
+    "counts": {
+      "cells": 104,
+      "incompatible": 62,
+      "worlds": 548
+    }
+  }
+}
