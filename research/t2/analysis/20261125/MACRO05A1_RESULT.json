@@ -1,0 +1,2304 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_DIMENSIONLESS_NETWORK",
+  "worlds": 81,
+  "arms": 162,
+  "stats": {
+    "n": 81,
+    "fifo": 20860.47815954347,
+    "relaxed": 20852.844324698395,
+    "fifoA": 10254.076043037001,
+    "relaxedA": 10267.495336923583,
+    "fifoB": 10606.402116506464,
+    "relaxedB": 10585.348987774812,
+    "better": 3,
+    "tie": 77,
+    "worse": 1,
+    "blockedFifo": 41.66834702641226,
+    "blockedRelaxed": 41.2832391545947,
+    "maxGain": 4.142009493670798,
+    "maxHarm": 0.08598520197756443,
+    "harmWitness": {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 1
+    },
+    "gainWitness": {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 2
+    },
+    "maxRoundoff": 5.551115123125783e-17
+  },
+  "rows": [
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 374,
+        "JA": 80.13096876905227,
+        "JB": 293.8690312309477,
+        "blocked": 0,
+        "peak": 23.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 374,
+        "JA": 80.13096876905227,
+        "JB": 293.8690312309477,
+        "blocked": 0,
+        "peak": 23.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 319.5,
+        "JA": 65.38834198165063,
+        "JB": 254.11165801834935,
+        "blocked": 0,
+        "peak": 19,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 319.5,
+        "JA": 65.38834198165063,
+        "JB": 254.11165801834935,
+        "blocked": 0,
+        "peak": 19,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 227.25,
+        "JA": 62.10878489326765,
+        "JB": 165.14121510673235,
+        "blocked": 0,
+        "peak": 16.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 227.25,
+        "JA": 62.10878489326765,
+        "JB": 165.14121510673235,
+        "blocked": 0,
+        "peak": 16.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 378.99999999999994,
+        "JA": 93.29035497628577,
+        "JB": 285.7096450237142,
+        "blocked": 0,
+        "peak": 23.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 378.99999999999994,
+        "JA": 93.29035497628577,
+        "JB": 285.7096450237142,
+        "blocked": 0,
+        "peak": 23.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 329.75,
+        "JA": 88.27737583498148,
+        "JB": 241.4726241650185,
+        "blocked": 0,
+        "peak": 19.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 329.75,
+        "JA": 88.27737583498148,
+        "JB": 241.4726241650185,
+        "blocked": 0,
+        "peak": 19.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 374,
+        "JA": 84.69170066002943,
+        "JB": 289.3082993399706,
+        "blocked": 0,
+        "peak": 23.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 374,
+        "JA": 84.69170066002943,
+        "JB": 289.3082993399706,
+        "blocked": 0,
+        "peak": 23.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 319.50000000000006,
+        "JA": 67.6826709233215,
+        "JB": 251.81732907667856,
+        "blocked": 0,
+        "peak": 19,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 319.50000000000006,
+        "JA": 67.6826709233215,
+        "JB": 251.81732907667856,
+        "blocked": 0,
+        "peak": 19,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 14,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 14,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 364,
+        "JA": 167.90713022963794,
+        "JB": 196.09286977036206,
+        "blocked": 0,
+        "peak": 23,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 364,
+        "JA": 167.90713022963794,
+        "JB": 196.09286977036206,
+        "blocked": 0,
+        "peak": 23,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 300,
+        "JA": 132.37168158711023,
+        "JB": 167.62831841288977,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 300,
+        "JA": 132.37168158711023,
+        "JB": 167.62831841288977,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 270,
+        "JA": 160.28898793750312,
+        "JB": 109.71101206249688,
+        "blocked": 0,
+        "peak": 18.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 270,
+        "JA": 160.28898793750312,
+        "JB": 109.71101206249688,
+        "blocked": 0,
+        "peak": 18.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 379,
+        "JA": 209.29653214826078,
+        "JB": 169.70346785173922,
+        "blocked": 0,
+        "peak": 23.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 379,
+        "JA": 209.29653214826078,
+        "JB": 169.70346785173922,
+        "blocked": 0,
+        "peak": 23.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 329.75000000000006,
+        "JA": 195.8418277329598,
+        "JB": 133.90817226704024,
+        "blocked": 0,
+        "peak": 19.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 329.75000000000006,
+        "JA": 195.8418277329598,
+        "JB": 133.90817226704024,
+        "blocked": 0,
+        "peak": 19.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 232,
+        "JA": 124,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 232,
+        "JA": 124,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 366.6892586871872,
+        "JA": 187.10031809092368,
+        "JB": 179.5889405962635,
+        "blocked": 0,
+        "peak": 23,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 366.6892586871872,
+        "JA": 187.10031809092368,
+        "JB": 179.5889405962635,
+        "blocked": 0,
+        "peak": 23,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 300,
+        "JA": 151.1206535362204,
+        "JB": 148.87934646377957,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 300,
+        "JA": 151.1206535362204,
+        "JB": 148.87934646377957,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 13,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 13,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 353.99999999999994,
+        "JA": 260.37576927937556,
+        "JB": 93.6242307206244,
+        "blocked": 0,
+        "peak": 22.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 353.99999999999994,
+        "JA": 260.37576927937556,
+        "JB": 93.6242307206244,
+        "blocked": 0,
+        "peak": 22.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 300,
+        "JA": 214.7942794278763,
+        "JB": 85.2057205721237,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 300,
+        "JA": 214.7942794278763,
+        "JB": 85.2057205721237,
+        "blocked": 0,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 327.2278194907106,
+        "JA": 263.1213436405662,
+        "JB": 64.1064758501444,
+        "blocked": 12.911277962842481,
+        "peak": 20.343750000000004,
+        "peakExternal": 2,
+        "divergence": 24.000000000000007,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 323.85678754429966,
+        "JA": 267.13339051912715,
+        "JB": 56.72339702517252,
+        "blocked": 12.903110741895748,
+        "peak": 20.3828125,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 379.00000000000006,
+        "JA": 294.866342983023,
+        "JB": 84.13365701697704,
+        "blocked": 13.345791100727313,
+        "peak": 23.750000000000004,
+        "peakExternal": 2,
+        "divergence": 24.000000000000007,
+        "terminal": 0,
+        "roundoff": 5.551115123125783e-17
+      },
+      "relaxed": {
+        "J": 379,
+        "JA": 300.7074937177116,
+        "JB": 78.29250628228841,
+        "blocked": 13.534853491698728,
+        "peak": 23.75,
+        "peakExternal": 2,
+        "divergence": 24.000000000000004,
+        "terminal": 0,
+        "roundoff": 4.336808689942018e-19
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 369.5312499999999,
+        "JA": 301.5423812221521,
+        "JB": 67.98886877784783,
+        "blocked": 12.911277962842481,
+        "peak": 20.343750000000004,
+        "peakExternal": 2,
+        "divergence": 24.000000000000007,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 365.3892405063291,
+        "JA": 304.89693626852295,
+        "JB": 60.49230423780613,
+        "blocked": 12.903110741895748,
+        "peak": 20.3828125,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 279.2291666666667,
+        "JA": 225,
+        "JB": 54.229166666666664,
+        "blocked": 0.7916666666666667,
+        "peak": 16,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 5.551115123125783e-17
+      },
+      "relaxed": {
+        "J": 279.0223880597015,
+        "JA": 225,
+        "JB": 54.02238805970149,
+        "blocked": 0.6161380597014925,
+        "peak": 16,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 3.469446951953614e-18
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 370.5246968733376,
+        "JA": 286.6636156796953,
+        "JB": 83.86108119364226,
+        "blocked": 0.7916666666666667,
+        "peak": 22.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 370.61068207531514,
+        "JA": 286.77733211773943,
+        "JB": 83.8333499575757,
+        "blocked": 0.6161380597014925,
+        "peak": 22.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 3.469446951953614e-18
+      }
+    },
+    {
+      "input": 0,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 307.49999999999994,
+        "JA": 242.4089443154995,
+        "JB": 65.09105568450046,
+        "blocked": 0.7916666666666667,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 2.7755575615628914e-17
+      },
+      "relaxed": {
+        "J": 307.5,
+        "JA": 242.48471590640358,
+        "JB": 65.01528409359639,
+        "blocked": 0.6161380597014925,
+        "peak": 18,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 3.469446951953614e-18
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 284,
+        "JA": 61.6040324263465,
+        "JB": 222.3959675736535,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 284,
+        "JA": 61.6040324263465,
+        "JB": 222.3959675736535,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 228.00000000000003,
+        "JA": 45.65343915343916,
+        "JB": 182.34656084656086,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 228.00000000000003,
+        "JA": 45.65343915343916,
+        "JB": 182.34656084656086,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 210.5,
+        "JA": 47.87878787878788,
+        "JB": 162.62121212121212,
+        "blocked": 0,
+        "peak": 8.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 210.5,
+        "JA": 47.87878787878788,
+        "JB": 162.62121212121212,
+        "blocked": 0,
+        "peak": 8.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 288.25,
+        "JA": 66.5984962561592,
+        "JB": 221.65150374384083,
+        "blocked": 0,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 288.25,
+        "JA": 66.5984962561592,
+        "JB": 221.65150374384083,
+        "blocked": 0,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 236.25,
+        "JA": 53.098356161917636,
+        "JB": 183.15164383808235,
+        "blocked": 0,
+        "peak": 11.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 236.25,
+        "JA": 53.098356161917636,
+        "JB": 183.15164383808235,
+        "blocked": 0,
+        "peak": 11.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 284.1301447264064,
+        "JA": 61.74262840116914,
+        "JB": 222.38751632523727,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 284.1301447264064,
+        "JA": 61.74262840116914,
+        "JB": 222.38751632523727,
+        "blocked": 0,
+        "peak": 15.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 228.00000000000003,
+        "JA": 45.65343915343916,
+        "JB": 182.34656084656086,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 228.00000000000003,
+        "JA": 45.65343915343916,
+        "JB": 182.34656084656086,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 272,
+        "JA": 123.79855942665533,
+        "JB": 148.20144057334466,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 272,
+        "JA": 123.79855942665533,
+        "JB": 148.20144057334466,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 208,
+        "JA": 89.66666666666667,
+        "JB": 118.33333333333334,
+        "blocked": 0,
+        "peak": 10,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 208,
+        "JA": 89.66666666666667,
+        "JB": 118.33333333333334,
+        "blocked": 0,
+        "peak": 10,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 229.5,
+        "JA": 119.89399021663174,
+        "JB": 109.60600978336826,
+        "blocked": 0,
+        "peak": 10.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 229.5,
+        "JA": 119.89399021663174,
+        "JB": 109.60600978336826,
+        "blocked": 0,
+        "peak": 10.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 284.75,
+        "JA": 141.46172642595383,
+        "JB": 143.28827357404617,
+        "blocked": 0,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 284.75,
+        "JA": 141.46172642595383,
+        "JB": 143.28827357404617,
+        "blocked": 0,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 260,
+        "JA": 137.6960041880135,
+        "JB": 122.30399581198654,
+        "blocked": 0,
+        "peak": 13.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 260,
+        "JA": 137.6960041880135,
+        "JB": 122.30399581198654,
+        "blocked": 0,
+        "peak": 13.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 205.5,
+        "JA": 96.9,
+        "JB": 108.6,
+        "blocked": 0,
+        "peak": 9,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 205.5,
+        "JA": 96.9,
+        "JB": 108.6,
+        "blocked": 0,
+        "peak": 9,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 281.6403060244159,
+        "JA": 135.35749620429075,
+        "JB": 146.28280982012515,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 281.6403060244159,
+        "JA": 135.35749620429075,
+        "JB": 146.28280982012515,
+        "blocked": 0,
+        "peak": 15,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 221,
+        "JA": 102.8,
+        "JB": 118.2,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 221,
+        "JA": 102.8,
+        "JB": 118.2,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 8,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 260,
+        "JA": 186.18672993596064,
+        "JB": 73.81327006403936,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 260,
+        "JA": 186.18672993596064,
+        "JB": 73.81327006403936,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 204.5,
+        "JA": 144.34013605442178,
+        "JB": 60.15986394557824,
+        "blocked": 0,
+        "peak": 10,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204.5,
+        "JA": 144.34013605442178,
+        "JB": 60.15986394557824,
+        "blocked": 0,
+        "peak": 10,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 251.99999999999997,
+        "JA": 197.58903814517447,
+        "JB": 54.410961854825494,
+        "blocked": 0.04166666666666674,
+        "peak": 12.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 252,
+        "JA": 197.5959021322137,
+        "JB": 54.4040978677863,
+        "blocked": 0.03125,
+        "peak": 12.750000000000002,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 283.5,
+        "JA": 215.37846402492477,
+        "JB": 68.1215359750752,
+        "blocked": 0.04166666666666674,
+        "peak": 15.750000000000002,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 283.5,
+        "JA": 215.3846918315366,
+        "JB": 68.11530816846341,
+        "blocked": 0.03125,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 297.99999999999994,
+        "JA": 236.91130395192133,
+        "JB": 61.08869604807862,
+        "blocked": 0.04166666666666674,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 5.551115123125783e-17
+      },
+      "relaxed": {
+        "J": 298,
+        "JA": 236.9202653562853,
+        "JB": 61.07973464371467,
+        "blocked": 0.03125,
+        "peak": 15.75,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 225,
+        "JA": 170.60704193765417,
+        "JB": 54.39295806234582,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 225,
+        "JA": 170.60704193765417,
+        "JB": 54.39295806234582,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 284,
+        "JA": 212.97506961283463,
+        "JB": 71.02493038716536,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 284,
+        "JA": 212.97506961283463,
+        "JB": 71.02493038716536,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 1,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 235.5,
+        "JA": 178.31074564135787,
+        "JB": 57.18925435864212,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 235.5,
+        "JA": 178.31074564135787,
+        "JB": 57.18925435864212,
+        "blocked": 0,
+        "peak": 11,
+        "peakExternal": 2,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 256.74999999999994,
+        "JA": 56.8967369792067,
+        "JB": 199.85326302079326,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.25,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 204,
+        "JA": 42,
+        "JB": 162,
+        "blocked": 0,
+        "peak": 7.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 248.5,
+        "JA": 114.529702719127,
+        "JB": 133.970297280873,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 248.5,
+        "JA": 114.529702719127,
+        "JB": 133.970297280873,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 211,
+        "JA": 102.76153846153846,
+        "JB": 108.23846153846154,
+        "blocked": 0,
+        "peak": 9.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 211,
+        "JA": 102.76153846153846,
+        "JB": 108.23846153846154,
+        "blocked": 0,
+        "peak": 9.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 252.5,
+        "JA": 121.49299700873917,
+        "JB": 131.00700299126083,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 252.5,
+        "JA": 121.49299700873917,
+        "JB": 131.00700299126083,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 227.5,
+        "JA": 113.54619372030675,
+        "JB": 113.95380627969325,
+        "blocked": 0,
+        "peak": 9.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 227.5,
+        "JA": 113.54619372030675,
+        "JB": 113.95380627969325,
+        "blocked": 0,
+        "peak": 9.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 249.25551707474227,
+        "JA": 115.51402370267924,
+        "JB": 133.74149337206302,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 249.25551707474227,
+        "JA": 115.51402370267924,
+        "JB": 133.74149337206302,
+        "blocked": 0,
+        "peak": 14.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.5,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 192,
+        "JA": 84,
+        "JB": 108,
+        "blocked": 0,
+        "peak": 7,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 0,
+      "fifo": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 6.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 6.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 1,
+      "fifo": {
+        "J": 240.25,
+        "JA": 172.8978158328594,
+        "JB": 67.35218416714059,
+        "blocked": 0,
+        "peak": 14.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 240.25,
+        "JA": 172.8978158328594,
+        "JB": 67.35218416714059,
+        "blocked": 0,
+        "peak": 14.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 0,
+      "sink": 2,
+      "fifo": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 6.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 180,
+        "JA": 126,
+        "JB": 54,
+        "blocked": 0,
+        "peak": 6.5,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 0,
+      "fifo": {
+        "J": 225.5,
+        "JA": 171.33175818015891,
+        "JB": 54.168241819841086,
+        "blocked": 0,
+        "peak": 12,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 225.5,
+        "JA": 171.33175818015891,
+        "JB": 54.168241819841086,
+        "blocked": 0,
+        "peak": 12,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 1,
+      "fifo": {
+        "J": 248.50000000000006,
+        "JA": 185.42602375558747,
+        "JB": 63.073976244412584,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 248.50000000000006,
+        "JA": 185.42602375558747,
+        "JB": 63.073976244412584,
+        "blocked": 0,
+        "peak": 14.75,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 1,
+      "sink": 2,
+      "fifo": {
+        "J": 258.5,
+        "JA": 199.35278388551373,
+        "JB": 59.14721611448624,
+        "blocked": 0,
+        "peak": 12,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 258.5,
+        "JA": 199.35278388551373,
+        "JB": 59.14721611448624,
+        "blocked": 0,
+        "peak": 12,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 0,
+      "fifo": {
+        "J": 220.00000000000003,
+        "JA": 165.90306246729037,
+        "JB": 54.09693753270965,
+        "blocked": 0,
+        "peak": 10.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 220.00000000000003,
+        "JA": 165.90306246729037,
+        "JB": 54.09693753270965,
+        "blocked": 0,
+        "peak": 10.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 1,
+      "fifo": {
+        "J": 261.25,
+        "JA": 196.35471218517603,
+        "JB": 64.895287814824,
+        "blocked": 0,
+        "peak": 14.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 261.25,
+        "JA": 196.35471218517603,
+        "JB": 64.895287814824,
+        "blocked": 0,
+        "peak": 14.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    },
+    {
+      "input": 2,
+      "share": 0.75,
+      "bottleneck": 2,
+      "sink": 2,
+      "fifo": {
+        "J": 220.00000000000003,
+        "JA": 165.90306246729037,
+        "JB": 54.09693753270965,
+        "blocked": 0,
+        "peak": 10.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      },
+      "relaxed": {
+        "J": 220.00000000000003,
+        "JA": 165.90306246729037,
+        "JB": 54.09693753270965,
+        "blocked": 0,
+        "peak": 10.25,
+        "peakExternal": 1,
+        "divergence": 24,
+        "terminal": 0,
+        "roundoff": 0
+      }
+    }
+  ]
+}
