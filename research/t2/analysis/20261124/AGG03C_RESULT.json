@@ -1,0 +1,524 @@
+{
+  "status": "JS_ISOLATE_ABSTRACT_SYNTHETIC",
+  "arms": {
+    "truth": 8640,
+    "forecast": 69120
+  },
+  "distance": {
+    "0": 712,
+    "2": 8
+  },
+  "distinct": {
+    "1": 4,
+    "3": 44,
+    "4": 672
+  },
+  "groups": {
+    "all": {
+      "policies": {
+        "trained": {
+          "n": 720,
+          "J": 169844,
+          "regret": 10676,
+          "worst": 122,
+          "miss": 454,
+          "vsTrained": [
+            0,
+            720,
+            0
+          ]
+        },
+        "micro_mean": {
+          "n": 720,
+          "J": 162167,
+          "regret": 2999,
+          "worst": 158,
+          "miss": 170,
+          "vsTrained": [
+            356,
+            318,
+            46
+          ]
+        },
+        "micro_minimax": {
+          "n": 720,
+          "J": 162197,
+          "regret": 3029,
+          "worst": 105,
+          "miss": 177,
+          "vsTrained": [
+            341,
+            338,
+            41
+          ]
+        },
+        "mixed_mean": {
+          "n": 720,
+          "J": 164226,
+          "regret": 5058,
+          "worst": 109,
+          "miss": 217,
+          "vsTrained": [
+            307,
+            339,
+            74
+          ]
+        },
+        "mixed_minimax": {
+          "n": 720,
+          "J": 164219,
+          "regret": 5051,
+          "worst": 109,
+          "miss": 215,
+          "vsTrained": [
+            308,
+            348,
+            64
+          ]
+        },
+        "oracle": {
+          "n": 720,
+          "J": 159168,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            454,
+            266,
+            0
+          ]
+        }
+      },
+      "microRisk": [
+        13,
+        685,
+        22
+      ],
+      "mixedRisk": [
+        17,
+        689,
+        14
+      ]
+    },
+    "dense": {
+      "policies": {
+        "trained": {
+          "n": 240,
+          "J": 100760,
+          "regret": 5834,
+          "worst": 122,
+          "miss": 166,
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "micro_mean": {
+          "n": 240,
+          "J": 95306,
+          "regret": 380,
+          "worst": 41,
+          "miss": 50,
+          "vsTrained": [
+            151,
+            73,
+            16
+          ]
+        },
+        "micro_minimax": {
+          "n": 240,
+          "J": 95373,
+          "regret": 447,
+          "worst": 41,
+          "miss": 54,
+          "vsTrained": [
+            149,
+            76,
+            15
+          ]
+        },
+        "mixed_mean": {
+          "n": 240,
+          "J": 97111,
+          "regret": 2185,
+          "worst": 109,
+          "miss": 88,
+          "vsTrained": [
+            118,
+            82,
+            40
+          ]
+        },
+        "mixed_minimax": {
+          "n": 240,
+          "J": 97133,
+          "regret": 2207,
+          "worst": 109,
+          "miss": 89,
+          "vsTrained": [
+            117,
+            82,
+            41
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 94926,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            166,
+            74,
+            0
+          ]
+        }
+      },
+      "microRisk": [
+        2,
+        230,
+        8
+      ],
+      "mixedRisk": [
+        0,
+        238,
+        2
+      ]
+    },
+    "platoon": {
+      "policies": {
+        "trained": {
+          "n": 240,
+          "J": 49800,
+          "regret": 4204,
+          "worst": 105,
+          "miss": 168,
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "micro_mean": {
+          "n": 240,
+          "J": 48215,
+          "regret": 2619,
+          "worst": 158,
+          "miss": 120,
+          "vsTrained": [
+            85,
+            125,
+            30
+          ]
+        },
+        "micro_minimax": {
+          "n": 240,
+          "J": 48178,
+          "regret": 2582,
+          "worst": 105,
+          "miss": 123,
+          "vsTrained": [
+            72,
+            142,
+            26
+          ]
+        },
+        "mixed_mean": {
+          "n": 240,
+          "J": 48469,
+          "regret": 2873,
+          "worst": 105,
+          "miss": 129,
+          "vsTrained": [
+            69,
+            137,
+            34
+          ]
+        },
+        "mixed_minimax": {
+          "n": 240,
+          "J": 48440,
+          "regret": 2844,
+          "worst": 105,
+          "miss": 126,
+          "vsTrained": [
+            71,
+            146,
+            23
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 45596,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            168,
+            72,
+            0
+          ]
+        }
+      },
+      "microRisk": [
+        11,
+        215,
+        14
+      ],
+      "mixedRisk": [
+        17,
+        211,
+        12
+      ]
+    },
+    "sparse": {
+      "policies": {
+        "trained": {
+          "n": 240,
+          "J": 19284,
+          "regret": 638,
+          "worst": 10,
+          "miss": 120,
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "micro_mean": {
+          "n": 240,
+          "J": 18646,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "micro_minimax": {
+          "n": 240,
+          "J": 18646,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "mixed_mean": {
+          "n": 240,
+          "J": 18646,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "mixed_minimax": {
+          "n": 240,
+          "J": 18646,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 18646,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        }
+      },
+      "microRisk": [
+        0,
+        240,
+        0
+      ],
+      "mixedRisk": [
+        0,
+        240,
+        0
+      ]
+    }
+  },
+  "seeds": {
+    "220": {
+      "trained": 8800,
+      "micro_mean": 8609,
+      "micro_minimax": 8622,
+      "mixed_mean": 8670,
+      "mixed_minimax": 8649,
+      "oracle": 8372
+    },
+    "221": {
+      "trained": 8902,
+      "micro_mean": 8484,
+      "micro_minimax": 8484,
+      "mixed_mean": 8608,
+      "mixed_minimax": 8596,
+      "oracle": 8437
+    },
+    "222": {
+      "trained": 8083,
+      "micro_mean": 7616,
+      "micro_minimax": 7616,
+      "mixed_mean": 7659,
+      "mixed_minimax": 7638,
+      "oracle": 7475
+    },
+    "223": {
+      "trained": 8502,
+      "micro_mean": 8491,
+      "micro_minimax": 8347,
+      "mixed_mean": 8388,
+      "mixed_minimax": 8395,
+      "oracle": 8223
+    },
+    "224": {
+      "trained": 8330,
+      "micro_mean": 7961,
+      "micro_minimax": 7951,
+      "mixed_mean": 8033,
+      "mixed_minimax": 8032,
+      "oracle": 7693
+    },
+    "225": {
+      "trained": 7724,
+      "micro_mean": 7277,
+      "micro_minimax": 7343,
+      "mixed_mean": 7354,
+      "mixed_minimax": 7355,
+      "oracle": 7211
+    },
+    "226": {
+      "trained": 8028,
+      "micro_mean": 7587,
+      "micro_minimax": 7605,
+      "mixed_mean": 7662,
+      "mixed_minimax": 7677,
+      "oracle": 7516
+    },
+    "227": {
+      "trained": 7737,
+      "micro_mean": 7313,
+      "micro_minimax": 7313,
+      "mixed_mean": 7473,
+      "mixed_minimax": 7466,
+      "oracle": 7158
+    },
+    "228": {
+      "trained": 8713,
+      "micro_mean": 8150,
+      "micro_minimax": 8201,
+      "mixed_mean": 8285,
+      "mixed_minimax": 8272,
+      "oracle": 8093
+    },
+    "229": {
+      "trained": 7527,
+      "micro_mean": 7039,
+      "micro_minimax": 7148,
+      "mixed_mean": 7291,
+      "mixed_minimax": 7287,
+      "oracle": 6926
+    },
+    "230": {
+      "trained": 9127,
+      "micro_mean": 8667,
+      "micro_minimax": 8648,
+      "mixed_mean": 9059,
+      "mixed_minimax": 9035,
+      "oracle": 8535
+    },
+    "231": {
+      "trained": 9718,
+      "micro_mean": 9038,
+      "micro_minimax": 9177,
+      "mixed_mean": 9291,
+      "mixed_minimax": 9326,
+      "oracle": 8962
+    },
+    "232": {
+      "trained": 8720,
+      "micro_mean": 8386,
+      "micro_minimax": 8392,
+      "mixed_mean": 8479,
+      "mixed_minimax": 8508,
+      "oracle": 8005
+    },
+    "233": {
+      "trained": 9265,
+      "micro_mean": 9008,
+      "micro_minimax": 8987,
+      "mixed_mean": 9061,
+      "mixed_minimax": 9051,
+      "oracle": 8868
+    },
+    "234": {
+      "trained": 8256,
+      "micro_mean": 7949,
+      "micro_minimax": 7882,
+      "mixed_mean": 8001,
+      "mixed_minimax": 8005,
+      "oracle": 7789
+    },
+    "235": {
+      "trained": 7982,
+      "micro_mean": 7759,
+      "micro_minimax": 7766,
+      "mixed_mean": 7859,
+      "mixed_minimax": 7851,
+      "oracle": 7650
+    },
+    "236": {
+      "trained": 8348,
+      "micro_mean": 8042,
+      "micro_minimax": 8006,
+      "mixed_mean": 8079,
+      "mixed_minimax": 8064,
+      "oracle": 7898
+    },
+    "237": {
+      "trained": 8092,
+      "micro_mean": 7734,
+      "micro_minimax": 7696,
+      "mixed_mean": 7814,
+      "mixed_minimax": 7810,
+      "oracle": 7637
+    },
+    "238": {
+      "trained": 9340,
+      "micro_mean": 8778,
+      "micro_minimax": 8779,
+      "mixed_mean": 8868,
+      "mixed_minimax": 8906,
+      "oracle": 8642
+    },
+    "239": {
+      "trained": 8650,
+      "micro_mean": 8279,
+      "micro_minimax": 8234,
+      "mixed_mean": 8292,
+      "mixed_minimax": 8296,
+      "oracle": 8078
+    }
+  }
+}
