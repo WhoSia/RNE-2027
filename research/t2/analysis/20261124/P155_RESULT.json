@@ -1,0 +1,431 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_SYNTHETIC",
+  "arms": 2652,
+  "A": [
+    {
+      "top": {
+        "shared": true,
+        "staged": true,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 0,
+      "increase": 6,
+      "min": {
+        "id": "82:1",
+        "n": 7,
+        "tape": {
+          "0": "S",
+          "2": "L",
+          "4": "S",
+          "6": "S",
+          "8": "L",
+          "10": "S",
+          "12": "L"
+        },
+        "P": 1,
+        "D": 2,
+        "old": 37,
+        "reuse": 40
+      },
+      "witnesses": [
+        {
+          "id": "82:1",
+          "n": 7,
+          "tape": {
+            "0": "S",
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 1,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        },
+        {
+          "id": "82:2",
+          "n": 7,
+          "tape": {
+            "0": "S",
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 2,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        },
+        {
+          "id": "83:1",
+          "n": 7,
+          "tape": {
+            "0": "L",
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 1,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        },
+        {
+          "id": "83:2",
+          "n": 7,
+          "tape": {
+            "0": "L",
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 2,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        },
+        {
+          "id": "86:2",
+          "n": 7,
+          "tape": {
+            "0": "S",
+            "2": "L",
+            "4": "L",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 2,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        },
+        {
+          "id": "87:2",
+          "n": 7,
+          "tape": {
+            "0": "L",
+            "2": "L",
+            "4": "L",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 2,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        }
+      ]
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": true,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": false,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": false,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": true,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": true,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": false,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": false,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 6,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    }
+  ],
+  "B": [
+    {
+      "top": {
+        "shared": true,
+        "staged": true,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 126,
+      "increase": 2,
+      "min": {
+        "id": 126,
+        "n": 6,
+        "tape": {
+          "2": "L",
+          "4": "S",
+          "6": "S",
+          "8": "L",
+          "10": "S",
+          "12": "L"
+        },
+        "P": 1,
+        "D": 2,
+        "old": 33,
+        "reuse": 36
+      },
+      "witnesses": [
+        {
+          "id": 126,
+          "n": 6,
+          "tape": {
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 1,
+          "D": 2,
+          "old": 33,
+          "reuse": 36
+        },
+        {
+          "id": 127,
+          "n": 7,
+          "tape": {
+            "0": "S",
+            "2": "L",
+            "4": "S",
+            "6": "S",
+            "8": "L",
+            "10": "S",
+            "12": "L"
+          },
+          "P": 1,
+          "D": 2,
+          "old": 37,
+          "reuse": 40
+        }
+      ]
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": true,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": false,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": true,
+        "staged": false,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": true,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": true,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": false,
+        "common": true
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    },
+    {
+      "top": {
+        "shared": false,
+        "staged": false,
+        "common": false
+      },
+      "decrease": 0,
+      "tie": 128,
+      "increase": 0,
+      "min": null,
+      "witnesses": []
+    }
+  ],
+  "C": {
+    "top": {
+      "shared": true,
+      "staged": true,
+      "common": true
+    },
+    "decrease": 0,
+    "tie": 252,
+    "increase": 2,
+    "min": {
+      "id": "7:82",
+      "n": 7,
+      "tape": {
+        "0": "S",
+        "2": "L",
+        "4": "S",
+        "6": "S",
+        "8": "L",
+        "10": "S",
+        "12": "L"
+      },
+      "P": 1,
+      "D": 2,
+      "old": 37,
+      "reuse": 40
+    },
+    "witnesses": [
+      {
+        "id": "7:82",
+        "n": 7,
+        "tape": {
+          "0": "S",
+          "2": "L",
+          "4": "S",
+          "6": "S",
+          "8": "L",
+          "10": "S",
+          "12": "L"
+        },
+        "P": 1,
+        "D": 2,
+        "old": 37,
+        "reuse": 40
+      },
+      {
+        "id": "7:83",
+        "n": 7,
+        "tape": {
+          "0": "L",
+          "2": "L",
+          "4": "S",
+          "6": "S",
+          "8": "L",
+          "10": "S",
+          "12": "L"
+        },
+        "P": 1,
+        "D": 2,
+        "old": 37,
+        "reuse": 40
+      }
+    ]
+  }
+}
