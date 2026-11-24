@@ -6,20 +6,20 @@ from rf_pilot_evaluator import LABELS
 
 def fixture():
     plan, train, test, truth = [], [], [], []
-    for s in ('S1','S2','S3'):
-        for p in ('P1','P2'):
-            for i,label in enumerate(LABELS):
-                for reset in range(10):
-                    base = dict(trial_id=f'{s}-{p}-{i}-{reset}',session_id=s,placement_id=p)
-                    plan.append(base)
-                    row = dict(base,trial_origin='synthetic_test_fixture',quality='ok',
-                               rssi_1_dbm=str(-90+10*i),rssi_2_dbm=str(-85+10*i),
-                               csi_1_amp_dispersion=str(i),csi_2_amp_dispersion=str(i))
-                    if (s,p) in (('S1','P1'),('S2','P1')):
-                        train.append(dict(row,label=label,ground_truth_source='fixture'))
-                    elif (s,p) != ('S1','P2'):
-                        test.append(row)
-                        truth.append(dict(trial_id=row['trial_id'],label=label))
+    from rf11_blind_trial_schedule import schedule
+    for r in schedule(seed=16001):
+        label=r['label']
+        i=LABELS.index(label)
+        base={k:r[k] for k in ('trial_id','session_id','placement_id')}
+        plan.append(dict(base,reset_index=r['reset_index'],partition=r['partition']))
+        row = dict(base,trial_origin='synthetic_test_fixture',quality='ok',
+                   rssi_1_dbm=str(-90+10*i),rssi_2_dbm=str(-85+10*i),
+                   csi_1_amp_dispersion=str(i),csi_2_amp_dispersion=str(i))
+        if r['partition']=='train':
+            train.append(dict(row,label=label,ground_truth_source='fixture'))
+        elif r['partition']!='sealed_unused_reserve':
+            test.append(row)
+            truth.append(dict(trial_id=row['trial_id'],label=label))
     return plan,train,test,truth
 
 
@@ -38,8 +38,12 @@ class BlindPredictTests(unittest.TestCase):
             rows=[dict(self.test[0],**extra)]+self.test[1:]
             with self.assertRaises(ValueError):predict_blind(self.plan,self.train,rows)
 
+    def test_plan_truth_rejected(self):
+        plan=[dict(self.plan[0],label='free')]+self.plan[1:]
+        with self.assertRaises(ValueError):predict_blind(plan,self.train,self.test)
+
     def test_missing_duplicate_or_reserve(self):
-        reserve=dict(self.test[0],**next(r for r in self.plan if (r['session_id'],r['placement_id'])==('S1','P2')))
+        reserve=dict(self.test[0],**{k:v for k,v in next(r for r in self.plan if (r['session_id'],r['placement_id'])==('S1','P2')).items() if k in ('trial_id','session_id','placement_id')})
         for rows in (self.test[:-1],self.test+[self.test[0]],self.test+[reserve]):
             with self.assertRaises(ValueError):predict_blind(self.plan,self.train,rows)
 
