@@ -50,7 +50,7 @@ def score_sealed(plan,payload,digest,truth):
     n=len(pred)
     if not n: raise ValueError("empty holdout")
     return {"n":n,"correct":sum(pred[k]["prediction"]==actual[k]["label"] for k in pred),
-            "abstain":sum(r["prediction"]=="abstain" for r in pred),
+            "abstain":sum(r["prediction"]=="abstain" for r in pred.values()),
             "status":"CONTRACT_ONLY_NOT_PHYSICAL_EVIDENCE"}
 
 def availability(row):
