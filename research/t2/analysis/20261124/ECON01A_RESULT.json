@@ -1,0 +1,67 @@
+{
+  "status": "DESCRIPTIVE_PAIRED_SYNTHETIC_SEEDS_NOT_IID",
+  "seedCount": 20,
+  "contextsPerSeed": 36,
+  "comparisons": {
+    "forecast_mixed_minus_trained": {
+      "total": -5583,
+      "mean": -279.15,
+      "median": -236.5,
+      "min": -595,
+      "max": -113,
+      "better": 20,
+      "tie": 0,
+      "worse": 0,
+      "leaveOneOutMin": -5470,
+      "leaveOneOutMax": -4988
+    },
+    "forecast_mixed_minus_forecast_separate": {
+      "total": -2505,
+      "mean": -125.25,
+      "median": -102,
+      "min": -288,
+      "max": 78,
+      "better": 19,
+      "tie": 0,
+      "worse": 1,
+      "leaveOneOutMin": -2583,
+      "leaveOneOutMax": -2217
+    },
+    "forecast_mixed_minus_forecast_micro": {
+      "total": 1849,
+      "mean": 92.45,
+      "median": 71,
+      "min": -93,
+      "max": 356,
+      "better": 4,
+      "tie": 0,
+      "worse": 16,
+      "leaveOneOutMin": 1493,
+      "leaveOneOutMax": 1942
+    },
+    "forecast_mixed_minus_feedback": {
+      "total": -1320,
+      "mean": -66,
+      "median": -101,
+      "min": -315,
+      "max": 143,
+      "better": 13,
+      "tie": 0,
+      "worse": 7,
+      "leaveOneOutMin": -1463,
+      "leaveOneOutMax": -1005
+    },
+    "forecast_micro_minus_trained": {
+      "total": -7432,
+      "mean": -371.6,
+      "median": -352,
+      "min": -596,
+      "max": -86,
+      "better": 20,
+      "tie": 0,
+      "worse": 0,
+      "leaveOneOutMin": -7346,
+      "leaveOneOutMax": -6836
+    }
+  }
+}
