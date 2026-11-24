@@ -1,0 +1,31 @@
+{
+  "status": "RF12_CONSTRUCTIVE_NON_IDENTIFIABILITY_COUNTEREXAMPLE",
+  "radio_measurements": 0,
+  "worlds": {
+    "empty": {
+      "signed_mean_shift": 0,
+      "absolute_mean_shift": 0,
+      "temporal_dispersion": 0,
+      "evidence_status": "SYNTHETIC_SCALAR_FEATURE_ANALOGUE_NOT_MEASURED_CSI"
+    },
+    "static_object": {
+      "signed_mean_shift": 5,
+      "absolute_mean_shift": 5,
+      "temporal_dispersion": 0,
+      "evidence_status": "SYNTHETIC_SCALAR_FEATURE_ANALOGUE_NOT_MEASURED_CSI"
+    },
+    "environment_drift": {
+      "signed_mean_shift": 5,
+      "absolute_mean_shift": 5,
+      "temporal_dispersion": 0,
+      "evidence_status": "SYNTHETIC_SCALAR_FEATURE_ANALOGUE_NOT_MEASURED_CSI"
+    },
+    "moving_object": {
+      "signed_mean_shift": 3,
+      "absolute_mean_shift": 3,
+      "temporal_dispersion": 2.23606797749979,
+      "evidence_status": "SYNTHETIC_SCALAR_FEATURE_ANALOGUE_NOT_MEASURED_CSI"
+    }
+  },
+  "verdict": "Temporal dispersion is insufficient for static occupancy. Frozen empty contrast separates an imposed static shift from empty in this artificial example, but not from identical drift. Therefore class identification requires controls, multiple paths or additional independently verified observations."
+}
