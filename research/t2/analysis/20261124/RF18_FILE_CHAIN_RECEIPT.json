@@ -1,0 +1,56 @@
+{
+  "status": "SYNTHETIC_OFFLINE_FILE_CHAIN_NOT_SENSOR_VALIDATION",
+  "python": "3.13.5",
+  "rf17_unit_tests": {
+    "passed": 8,
+    "total": 8
+  },
+  "rf18_file_tests": {
+    "passed": 6,
+    "total": 6
+  },
+  "fixture": {
+    "plan": 300,
+    "train": 100,
+    "holdout": 150,
+    "reserve": 50,
+    "raw_packets": 598,
+    "missing_holdout": 1,
+    "feature_model_correct_each": 149,
+    "majority_correct": 30,
+    "abstain_each": 1,
+    "missing_entire_link_abstain_each": 150
+  },
+  "checks": [
+    "original RF10 parser to RF17 feature CSV to RF16 prediction JSON to RF14 scoring",
+    "malformed IQ rejected before output",
+    "unauthorized input rejected before output",
+    "truth column rejected before prediction",
+    "mutated plan rejected",
+    "prediction digest tampering rejected",
+    "output overwrite rejected"
+  ],
+  "source_verification": {
+    "rf17_full_blob": "7ada0898e9205d58b5ace5d223e592b557c4e686",
+    "rf17_test_full_blob": "a6d5280757fb6302ab89d7bb0b027986175c33bd",
+    "rf18_test_full_blob": "5828653d758a1fca17a9c3d7b07b1ffe2a9d80d8",
+    "rf16_full_blob": "e51a91e7ac039d4e0129581a6372fc1a70a688a4",
+    "rf14_full_blob": "f7071a3f778b09c3cac75fc140d87280d62b454a",
+    "rf10_executed_prefix": {
+      "remote_full_blob": "4d5bf2e6b99e9ee0e5d128df2ea120a0678a590c",
+      "bytes": 5946,
+      "fnv64": "b542ae65a98154dd"
+    },
+    "rf05_executed_prefix": {
+      "remote_full_blob": "3ed96b70c8b8569424480c0ba12940d07ee8266f",
+      "bytes": 4593,
+      "fnv64": "f96083f265ae1160"
+    }
+  },
+  "limitations": [
+    "RF10 and RF05 executed relevant prefixes only; FNV match is noncryptographic, not full-file parity",
+    "training fixture features generated directly, not RF10 CSV",
+    "labels deterministically encoded in synthetic data; not real custody or sensing performance",
+    "no physical measurements; no full repository regression"
+  ]
+}
