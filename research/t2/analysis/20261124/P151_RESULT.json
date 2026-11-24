@@ -1,0 +1,111 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_NOT_FIELD",
+  "scenarioCells": 1024,
+  "arms": 4096,
+  "worlds": 2048,
+  "clearanceFailures": 0,
+  "negativeControlPairs": 512,
+  "priorityMismatches": 0,
+  "dominance": {
+    "decreased": 908,
+    "tied": 1140,
+    "increased": 0,
+    "witness": null
+  },
+  "ranking": {
+    "reversal": 28,
+    "tieCreated": 0,
+    "tieResolved": 104,
+    "unchanged": 892,
+    "witness": {
+      "mask": 42,
+      "interval": 2,
+      "P": 2,
+      "D": 1,
+      "priority": "S",
+      "pre": {
+        "q": [],
+        "p": [
+          "L",
+          "L"
+        ],
+        "d": [
+          "S"
+        ],
+        "a": 4,
+        "z": 1,
+        "cost": 16
+      },
+      "costs": {
+        "0:4": 54,
+        "0:8": 55,
+        "1:4": 54,
+        "1:8": 44
+      },
+      "future": [
+        [
+          "8",
+          "S"
+        ],
+        [
+          "10",
+          "L"
+        ]
+      ],
+      "deltaOld": -1,
+      "deltaReuse": 10
+    }
+  },
+  "observations": [
+    {
+      "name": "context",
+      "cells": 8,
+      "conflictCells": 6,
+      "conflictWorlds": 1536,
+      "sumWorst": 36,
+      "maxWorst": 9,
+      "totalRegret": 836,
+      "meanRegret": 0.408203125
+    },
+    {
+      "name": "aggregate",
+      "cells": 11,
+      "conflictCells": 6,
+      "conflictWorlds": 1280,
+      "sumWorst": 36,
+      "maxWorst": 9,
+      "totalRegret": 836,
+      "meanRegret": 0.408203125
+    },
+    {
+      "name": "separate_counts",
+      "cells": 28,
+      "conflictCells": 12,
+      "conflictWorlds": 1152,
+      "sumWorst": 58,
+      "maxWorst": 7,
+      "totalRegret": 1356,
+      "meanRegret": 0.662109375
+    },
+    {
+      "name": "ordered_fifo",
+      "cells": 81,
+      "conflictCells": 9,
+      "conflictWorlds": 496,
+      "sumWorst": 33,
+      "maxWorst": 7,
+      "totalRegret": 428,
+      "meanRegret": 0.208984375
+    },
+    {
+      "name": "oracle",
+      "cells": 270,
+      "conflictCells": 0,
+      "conflictWorlds": 0,
+      "sumWorst": 0,
+      "maxWorst": 0,
+      "totalRegret": 0,
+      "meanRegret": 0
+    }
+  ]
+}
