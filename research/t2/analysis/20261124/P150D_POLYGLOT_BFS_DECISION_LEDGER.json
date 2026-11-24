@@ -1,0 +1,241 @@
+{
+  "status": "EDITORIAL_NOT_EMPIRICAL_PROBABILITIES_OR_BENCHMARK",
+  "research_weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "research": [
+    {
+      "unit": "P150A event-order sensitivity",
+      "L": 1,
+      "I": 0.99,
+      "R": 0.98,
+      "A": 1,
+      "J": 0.98,
+      "E": 0.97,
+      "V": 0.91,
+      "C": 0.97,
+      "priority": 0.979,
+      "decision": "DONE",
+      "evidence": "432 unique arms; native Node/Go byte match"
+    },
+    {
+      "unit": "Robust observation under unknown model order",
+      "L": 1,
+      "I": 0.98,
+      "R": 0.97,
+      "A": 0.96,
+      "J": 0.96,
+      "E": 0.98,
+      "V": 0.95,
+      "C": 0.94,
+      "priority": 0.973,
+      "decision": "NEXT_I",
+      "evidence": "partial identification; distinguish model uncertainty and sensor uncertainty"
+    },
+    {
+      "unit": "P151 explicit left-pocket movement queue",
+      "L": 1,
+      "I": 0.98,
+      "R": 0.98,
+      "A": 0.92,
+      "J": 0.97,
+      "E": 0.98,
+      "V": 0.96,
+      "C": 0.9,
+      "priority": 0.971,
+      "decision": "NEXT_T",
+      "evidence": "independent model, no arbitrary tuning"
+    },
+    {
+      "unit": "RF10 feature-only export and RF16 file-level integration",
+      "L": 0.98,
+      "I": 0.98,
+      "R": 0.99,
+      "A": 0.96,
+      "J": 0.98,
+      "E": 0.96,
+      "V": 0.95,
+      "C": 0.92,
+      "priority": 0.971,
+      "decision": "NEXT_M",
+      "evidence": "current RF10 exports truth; RF16 wrapper is not acquisition chain"
+    },
+    {
+      "unit": "P150B cumulative-flow theorem",
+      "L": 0.98,
+      "I": 0.98,
+      "R": 0.98,
+      "A": 0.99,
+      "J": 0.96,
+      "E": 0.98,
+      "V": 0.85,
+      "C": 0.98,
+      "priority": 0.966,
+      "decision": "DONE",
+      "evidence": "manual proof restricted to scalar tandem"
+    },
+    {
+      "unit": "RF16 label-free prediction",
+      "L": 0.96,
+      "I": 0.96,
+      "R": 0.99,
+      "A": 1,
+      "J": 0.98,
+      "E": 0.94,
+      "V": 0.93,
+      "C": 0.98,
+      "priority": 0.966,
+      "decision": "DONE",
+      "evidence": "27 local unit tests; no physical data"
+    },
+    {
+      "unit": "P150C robust pairwise regret",
+      "L": 0.98,
+      "I": 0.98,
+      "R": 0.96,
+      "A": 1,
+      "J": 0.95,
+      "E": 0.96,
+      "V": 0.85,
+      "C": 0.98,
+      "priority": 0.961,
+      "decision": "DONE",
+      "evidence": "posthoc; no new runs"
+    },
+    {
+      "unit": "Teacher-approved student physical experiment and notes",
+      "L": 1,
+      "I": 1,
+      "R": 0.99,
+      "A": 0.62,
+      "J": 0.99,
+      "E": 0.99,
+      "V": 1,
+      "C": 0.9,
+      "priority": 0.954,
+      "decision": "GATED_E",
+      "evidence": "teacher/inventory and actual independent student observations"
+    },
+    {
+      "unit": "RF physical stationary occupancy comparison",
+      "L": 1,
+      "I": 0.99,
+      "R": 0.98,
+      "A": 0.35,
+      "J": 0.98,
+      "E": 0.99,
+      "V": 1,
+      "C": 0.8,
+      "priority": 0.917,
+      "decision": "GATED_E",
+      "evidence": "approved equipment and independent truth"
+    },
+    {
+      "unit": "SUMO XR7 exact-runtime event parity",
+      "L": 0.99,
+      "I": 1,
+      "R": 0.99,
+      "A": 0.36,
+      "J": 0.99,
+      "E": 0.99,
+      "V": 0.98,
+      "C": 0.7,
+      "priority": 0.913,
+      "decision": "GATED_T",
+      "evidence": "runtime unavailable here"
+    },
+    {
+      "unit": "Unbounded policy retuning",
+      "L": 0.3,
+      "I": 0.2,
+      "R": 0.4,
+      "A": 0.95,
+      "J": 0.3,
+      "E": 0.25,
+      "V": 0.3,
+      "C": 0.7,
+      "priority": 0.375,
+      "decision": "STOP",
+      "evidence": "no new mechanism"
+    }
+  ],
+  "language_weights": {
+    "runtime": 0.25,
+    "fit": 0.25,
+    "maintainability": 0.2,
+    "validation": 0.2,
+    "performance_potential": 0.1
+  },
+  "languages": [
+    {
+      "language": "Node.js",
+      "runtime": 1,
+      "fit": 0.98,
+      "maintainability": 0.95,
+      "validation": 0.95,
+      "performance_potential": 0.8,
+      "priority": 0.955,
+      "decision": "PRIMARY: analysis, experiments, visualization"
+    },
+    {
+      "language": "Go",
+      "runtime": 1,
+      "fit": 0.93,
+      "maintainability": 0.88,
+      "validation": 0.98,
+      "performance_potential": 0.9,
+      "priority": 0.945,
+      "decision": "ORACLE: independent cumulative-flow / concurrency if justified"
+    },
+    {
+      "language": "C++",
+      "runtime": 1,
+      "fit": 0.93,
+      "maintainability": 0.75,
+      "validation": 0.97,
+      "performance_potential": 0.99,
+      "priority": 0.925,
+      "decision": "SPECIALIZED: profiled hot kernels or SUMO integration"
+    },
+    {
+      "language": "Python",
+      "runtime": 1,
+      "fit": 0.98,
+      "maintainability": 0.95,
+      "validation": 0.9,
+      "performance_potential": 0.65,
+      "priority": 0.93,
+      "decision": "KEEP: existing T2/RF/statistics"
+    },
+    {
+      "language": "Rust",
+      "runtime": 0.2,
+      "fit": 0.85,
+      "maintainability": 0.65,
+      "validation": 0.87,
+      "performance_potential": 0.98,
+      "priority": 0.664,
+      "decision": "HOLD: runtime not found; no migration absent actual benefit"
+    }
+  ],
+  "doctrine": "Node by default for new small experiments; Python existing RF/T2; Go or C++ independent oracle only if new evidence role; Rust optional after actual runtime and need. No migration solely for language diversity. No speed claims without workload-matched profiling.",
+  "archive": {
+    "drive_id": "1cgbaoGUU-ZQ4MsE_Nvbz0oi6YvSdNzWO",
+    "sha256": "ba153ca95780c6c33c2af03efd4e19375061b52247209d4c2cceff9dd05e337f",
+    "bytes": 32938,
+    "files": 19
+  },
+  "tests": {
+    "rf_local": 27,
+    "rf_passed": 27,
+    "radio_measurements": 0
+  },
+  "report_id": "1PSIWxMKZ6kw4SFc9IyFC17Rk8iASy4iMCF4q-B6vbLo"
+}
