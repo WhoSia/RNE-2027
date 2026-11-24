@@ -1,0 +1,68 @@
+{
+  "status": "NATIVE_AGGREGATE_PARITY_CORRECTED_TIES",
+  "rawOutputBlob": "fb6f3056bee72cbc1062e4ddc946ac1255c8c0f0",
+  "sourceBlob": "4edb108b7d00c5c7fc33513e4ecd0adbe3d819bd",
+  "audit": {
+    "fifo": [
+      20860.47815954347,
+      10254.076043037,
+      10606.402116506464
+    ],
+    "relaxed": [
+      20852.844324698395,
+      10267.495336923583,
+      10585.348987774812
+    ],
+    "counts": [
+      3,
+      77,
+      1
+    ],
+    "maxCorrection": 5.551115123125783e-17,
+    "adverse": {
+      "context": [
+        0,
+        0.75,
+        2,
+        1
+      ],
+      "fifo": 370.5246968733376,
+      "relaxed": 370.6106820753151,
+      "delta": 0.08598520197750759,
+      "blockedFifo": 0.7916666666666667,
+      "blockedRelaxed": 0.6161380597014925
+    }
+  },
+  "landscape": {
+    "worlds": 27,
+    "arms": 513,
+    "optJ": 6530.721174526591,
+    "nearJ": 6858.9,
+    "strict": 19,
+    "nearContexts": 10,
+    "nearStrict": 9,
+    "exploratoryNearCutoff": 0.1,
+    "maxGap": 43.19999999999999,
+    "nearExample": {
+      "context": [
+        2,
+        1,
+        2
+      ],
+      "opt": {
+        "share": 0.25,
+        "J": 204,
+        "ca": 7,
+        "cb": 9
+      },
+      "near": {
+        "share": 0.5,
+        "J": 227.5,
+        "ca": 9.462182810025562,
+        "cb": 9.49615052330777
+      },
+      "delta": 23.5
+    },
+    "note": "Maximum gap overall comes from no-near-cost context; not an equilibrium comparison. Compact receipt, full raw output local."
+  }
+}
