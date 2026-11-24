@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-24",
+  "scope": "T2 and RF-CURTAIN research leadership decisions; NOT empirical probabilities",
+  "weights": {
+    "I": 0.3,
+    "V": 0.25,
+    "F": 0.2,
+    "R": 0.15,
+    "C": 0.1
+  },
+  "dimension_meanings": {
+    "I": "core research question relevance",
+    "V": "falsifiability and discriminative evidence",
+    "F": "practical implementation feasibility",
+    "R": "methodological risk reduction",
+    "C": "cost/time efficiency"
+  },
+  "formula": "score = 20*(.30 I + .25 V + .20 F + .15 R + .10 C), dimensions 0..5",
+  "gates": [
+    "Never call a toy model RF evidence",
+    "Do not accept first party device merely from CLI authorization flag",
+    "Never claim field/signal efficacy without measured data and physical source audit",
+    "SUMO exit-time mismatch remains open",
+    "Pre-register frozen holdout and missingness reporting",
+    "Never collect unrelated WiFi frames or interact with real traffic controllers"
+  ],
+  "scores": [
+    {
+      "name": "Retain missing trials as abstentions",
+      "I": 5,
+      "V": 5,
+      "F": 5,
+      "R": 5,
+      "C": 4,
+      "score": 98,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "Operator-only private randomized labels",
+      "I": 5,
+      "V": 5,
+      "F": 5,
+      "R": 5,
+      "C": 4,
+      "score": 98,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "RF10 official-format audit",
+      "I": 5,
+      "V": 5,
+      "F": 4.5,
+      "R": 5,
+      "C": 4,
+      "score": 96,
+      "decision": "DO_NOW"
+    },
+    {
+      "name": "Prior-art reproduction before novelty claim",
+      "I": 5,
+      "V": 4.5,
+      "F": 5,
+      "R": 5,
+      "C": 4,
+      "score": 95.5,
+      "decision": "ADOPT"
+    },
+    {
+      "name": "RF12 stationary-object null counterexamples",
+      "I": 5,
+      "V": 5,
+      "F": 4,
+      "R": 5,
+      "C": 4,
+      "score": 94,
+      "decision": "DO_NOW"
+    },
+    {
+      "name": "One-link RSSI baseline",
+      "I": 4.5,
+      "V": 4.5,
+      "F": 5,
+      "R": 5,
+      "C": 4.5,
+      "score": 93.5,
+      "decision": "DO_WITH_CSI"
+    },
+    {
+      "name": "Unseen session and placement holdout",
+      "I": 5,
+      "V": 5,
+      "F": 4,
+      "R": 5,
+      "C": 3.5,
+      "score": 93,
+      "decision": "FREEZE"
+    },
+    {
+      "name": "RF10-to-RF05 strict interface replay",
+      "I": 5,
+      "V": 5,
+      "F": 4,
+      "R": 4,
+      "C": 4.5,
+      "score": 92,
+      "decision": "NEXT"
+    },
+    {
+      "name": "School-owned CSI hardware inventory and permission",
+      "I": 5,
+      "V": 5,
+      "F": 3.5,
+      "R": 5,
+      "C": 3,
+      "score": 90,
+      "decision": "BLOCKED_ON_OWNER"
+    },
+    {
+      "name": "RF11 blinding and leakage audit",
+      "I": 4.5,
+      "V": 5,
+      "F": 4.5,
+      "R": 4,
+      "C": 3.5,
+      "score": 89,
+      "decision": "IN_PROGRESS"
+    },
+    {
+      "name": "CSI versus RSSI paired held-out comparison",
+      "I": 5,
+      "V": 5,
+      "F": 3,
+      "R": 5,
+      "C": 3,
+      "score": 88,
+      "decision": "AFTER_MEASUREMENT"
+    },
+    {
+      "name": "Two longitudinal owned Wi-Fi observation links",
+      "I": 5,
+      "V": 4.5,
+      "F": 3.5,
+      "R": 5,
+      "C": 3,
+      "score": 87.5,
+      "decision": "PILOT_ONLY"
+    },
+    {
+      "name": "SUMO vehicle-event parity mismatch",
+      "I": 5,
+      "V": 5,
+      "F": 3,
+      "R": 4,
+      "C": 4,
+      "score": 87,
+      "decision": "NEXT_T_TRACK"
+    },
+    {
+      "name": "Policy regret evaluated only after actual sensor error",
+      "I": 5,
+      "V": 5,
+      "F": 2.5,
+      "R": 5,
+      "C": 3,
+      "score": 86,
+      "decision": "LATER_GATED"
+    },
+    {
+      "name": "Single main branch and frequent meaningful commits",
+      "I": 4,
+      "V": 4,
+      "F": 5,
+      "R": 4.5,
+      "C": 4,
+      "score": 85.5,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "MaxPressure and CTM independent baselines",
+      "I": 4.5,
+      "V": 4.5,
+      "F": 4,
+      "R": 4.5,
+      "C": 3,
+      "score": 85,
+      "decision": "NEXT_T_TRACK"
+    },
+    {
+      "name": "Independent junior team audit with correct attribution",
+      "I": 4,
+      "V": 4.5,
+      "F": 4,
+      "R": 4.5,
+      "C": 4,
+      "score": 84,
+      "decision": "PILOT"
+    },
+    {
+      "name": "Motion-only feature as complete obstruction diagnosis",
+      "I": 2,
+      "V": 1,
+      "F": 5,
+      "R": 1,
+      "C": 3,
+      "score": 46,
+      "decision": "REJECT"
+    },
+    {
+      "name": "Procuring new devices before inventory",
+      "I": 2,
+      "V": 2,
+      "F": 3,
+      "R": 2,
+      "C": 1,
+      "score": 42,
+      "decision": "REJECT"
+    },
+    {
+      "name": "P140-like arbitrary queue-threshold tuning",
+      "I": 1.5,
+      "V": 1,
+      "F": 4,
+      "R": 1,
+      "C": 2.5,
+      "score": 38,
+      "decision": "STOP"
+    },
+    {
+      "name": "Use real road signals as experimental controller",
+      "I": 2,
+      "V": 1,
+      "F": 1,
+      "R": 0,
+      "C": 0,
+      "score": 21,
+      "decision": "PROHIBITED"
+    }
+  ]
+}
