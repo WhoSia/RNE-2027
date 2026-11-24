@@ -1,0 +1,29 @@
+{
+  "status": "P146_CODE_BYTE_RECONCILIATION_AND_RUN_RECEIPT",
+  "date_kst": "2026-11-24",
+  "environment": "local Python stdlib",
+  "command": "python -m unittest discover -s . -p 'test_*.py' -q",
+  "tests": {
+    "rf10": 3,
+    "rf11": 5,
+    "rf12": 5,
+    "total": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "new_physical_wifi_measurements": 0,
+  "new_t2_simulations": 0,
+  "source_code_and_result_blob_match_verified": true,
+  "source_blobs": {
+    "rf10_esp_csi_trial_bridge.py": "4d5bf2e6b99e9ee0e5d128df2ea120a0678a590c",
+    "test_rf10_esp_csi_trial_bridge.py": "9fbed3a948401984bfec5788d71d77bd3fae7078",
+    "rf11_blind_trial_schedule.py": "82875f754ed6bcd2ce8a062aeb4bbc9f771f2193",
+    "test_rf11_blind_trial_schedule.py": "9a674feba2134c3a277404eb0afa67a9f5902297",
+    "rf12_static_occupancy_audit.py": "bcbd627608f1173a8e2c152262585040fd6dd8bb",
+    "test_rf12_static_occupancy_audit.py": "3f1276d59c3982b183fbe99065a4b874d1d2c134",
+    "RF12_COUNTEREXAMPLE_RESULT.json": "df5cdbdabca752835e46920f6ede9e15bf3edeb7"
+  },
+  "reference_shared_drive_zip": "https://drive.google.com/file/d/18MwyXhI0nLX2FValWdplBcntbmcE-g18/view",
+  "reference_zip_sha256": "9a277215e4aa86a33a08ef2b001d866f04493b16e8d71cddf45583b75c7d4959",
+  "note": "Repaired UTF-8 mojibake in prior RF10 GitHub transfer and JSON float formatting; all seven GitHub blobs match exact locally executed bytes; only synthetic scalar tests, not actual CSI or road traffic."
+}
