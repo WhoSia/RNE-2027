@@ -1,0 +1,68 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_OFFLINE_FINITE_FAMILY",
+  "groups": {
+    "all": {
+      "n": 512,
+      "fixed": 11806,
+      "dynamic": 11800,
+      "gain": 6,
+      "strict": 6,
+      "tie": 506,
+      "maxGain": 1,
+      "peakWidth": 3,
+      "transitions": 70809,
+      "witness": {
+        "mask": 32,
+        "clock": 0,
+        "P": 1,
+        "R": 1,
+        "fixed": 47,
+        "dynamic": 46,
+        "path": "43333333333",
+        "o": 0
+      }
+    },
+    "A": {
+      "n": 256,
+      "fixed": 6227,
+      "dynamic": 6225,
+      "gain": 2,
+      "strict": 2,
+      "tie": 254,
+      "maxGain": 1,
+      "peakWidth": 3,
+      "transitions": 35622,
+      "witness": {
+        "mask": 32,
+        "clock": 0,
+        "P": 1,
+        "R": 1,
+        "fixed": 47,
+        "dynamic": 46,
+        "path": "43333333333",
+        "o": 0
+      }
+    },
+    "B": {
+      "n": 256,
+      "fixed": 5579,
+      "dynamic": 5575,
+      "gain": 4,
+      "strict": 4,
+      "tie": 252,
+      "maxGain": 1,
+      "peakWidth": 3,
+      "transitions": 35187,
+      "witness": {
+        "mask": 32,
+        "clock": 1,
+        "P": 1,
+        "R": 1,
+        "fixed": 39,
+        "dynamic": 38,
+        "path": "43333333333",
+        "o": 0
+      }
+    }
+  }
+}
