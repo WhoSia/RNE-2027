@@ -1,0 +1,112 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "basis": "P156 eight-axis weights retained; evidence from RF20/P157/P158",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "RF20B default raw training/holdout file adapter to sealed predictions",
+      "decision": "NEXT_M",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.987,
+      "evidence": "RF20 manifest tests pass; actual default dependency chain remains unexecuted"
+    },
+    {
+      "unit": "P159 prospective new-cohort observation error and abstention evaluation",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.982,
+      "evidence": "P157 finds four covered harms at unchanged aggregate cost; same-cohort stress only"
+    },
+    {
+      "unit": "P160 coupled-resource sufficient conditions and formal counterexample scope",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.91
+      },
+      "priority": 0.978,
+      "evidence": "P158 fixes nominal capacity; partition eliminates witness but can increase cost, no general theorem"
+    },
+    {
+      "unit": "Teacher-approved physical empty/static/drift controls",
+      "decision": "GATED_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Permission, equipment and independent custody not available"
+    },
+    {
+      "unit": "SUMO E0e XR7 event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Prior external parity failure unresolved"
+    },
+    {
+      "unit": "Arbitrary threshold or phase search",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "No new hypothesis"
+    }
+  ]
+}
