@@ -1,0 +1,779 @@
+{
+  "status": "JS_ISOLATE_SYNTHETIC_OFFLINE",
+  "library": 432,
+  "arms": {
+    "truth": 8640,
+    "forecast": 103680,
+    "feedback": 720
+  },
+  "distance": {
+    "0": 716,
+    "2": 4
+  },
+  "distinct": {
+    "1": 12,
+    "3": 64,
+    "4": 644
+  },
+  "terminal": {
+    "micro": 0,
+    "mixed": 0,
+    "separate": 0
+  },
+  "stats": {
+    "all": {
+      "fixed": {
+        "n": 720,
+        "J": 178529,
+        "staticGap": 19484,
+        "worstGap": 183,
+        "aboveStatic": 651,
+        "vsTrained": [
+          75,
+          362,
+          283
+        ],
+        "vsMicroForecast": [
+          59,
+          105,
+          556
+        ]
+      },
+      "trained": {
+        "n": 720,
+        "J": 169291,
+        "staticGap": 10246,
+        "worstGap": 144,
+        "aboveStatic": 446,
+        "vsTrained": [
+          0,
+          720,
+          0
+        ],
+        "vsMicroForecast": [
+          52,
+          318,
+          350
+        ]
+      },
+      "demand": {
+        "n": 720,
+        "J": 168669,
+        "staticGap": 9624,
+        "worstGap": 145,
+        "aboveStatic": 421,
+        "vsTrained": [
+          205,
+          290,
+          225
+        ],
+        "vsMicroForecast": [
+          62,
+          310,
+          348
+        ]
+      },
+      "forecast_micro": {
+        "n": 720,
+        "J": 161859,
+        "staticGap": 2814,
+        "worstGap": 137,
+        "aboveStatic": 147,
+        "vsTrained": [
+          350,
+          318,
+          52
+        ],
+        "vsMicroForecast": [
+          0,
+          720,
+          0
+        ]
+      },
+      "forecast_mixed": {
+        "n": 720,
+        "J": 163708,
+        "staticGap": 4663,
+        "worstGap": 139,
+        "aboveStatic": 199,
+        "vsTrained": [
+          308,
+          335,
+          77
+        ],
+        "vsMicroForecast": [
+          21,
+          610,
+          89
+        ]
+      },
+      "forecast_separate": {
+        "n": 720,
+        "J": 166213,
+        "staticGap": 7168,
+        "worstGap": 139,
+        "aboveStatic": 249,
+        "vsTrained": [
+          270,
+          370,
+          80
+        ],
+        "vsMicroForecast": [
+          35,
+          529,
+          156
+        ]
+      },
+      "feedback": {
+        "n": 720,
+        "J": 165028,
+        "staticGap": 5983,
+        "worstGap": 101,
+        "aboveStatic": 526,
+        "vsTrained": [
+          254,
+          61,
+          405
+        ],
+        "vsMicroForecast": [
+          144,
+          121,
+          455
+        ]
+      },
+      "oracle": {
+        "n": 720,
+        "J": 159045,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          446,
+          274,
+          0
+        ],
+        "vsMicroForecast": [
+          147,
+          573,
+          0
+        ]
+      }
+    },
+    "dense": {
+      "fixed": {
+        "n": 240,
+        "J": 104154,
+        "staticGap": 9726,
+        "worstGap": 183,
+        "aboveStatic": 209,
+        "vsTrained": [
+          37,
+          121,
+          82
+        ],
+        "vsMicroForecast": [
+          15,
+          37,
+          188
+        ]
+      },
+      "trained": {
+        "n": 240,
+        "J": 99847,
+        "staticGap": 5419,
+        "worstGap": 144,
+        "aboveStatic": 163,
+        "vsTrained": [
+          0,
+          240,
+          0
+        ],
+        "vsMicroForecast": [
+          11,
+          88,
+          141
+        ]
+      },
+      "demand": {
+        "n": 240,
+        "J": 99019,
+        "staticGap": 4591,
+        "worstGap": 141,
+        "aboveStatic": 139,
+        "vsTrained": [
+          81,
+          99,
+          60
+        ],
+        "vsMicroForecast": [
+          16,
+          99,
+          125
+        ]
+      },
+      "forecast_micro": {
+        "n": 240,
+        "J": 94740,
+        "staticGap": 312,
+        "worstGap": 40,
+        "aboveStatic": 37,
+        "vsTrained": [
+          141,
+          88,
+          11
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      },
+      "forecast_mixed": {
+        "n": 240,
+        "J": 96607,
+        "staticGap": 2179,
+        "worstGap": 105,
+        "aboveStatic": 82,
+        "vsTrained": [
+          114,
+          90,
+          36
+        ],
+        "vsMicroForecast": [
+          11,
+          164,
+          65
+        ]
+      },
+      "forecast_separate": {
+        "n": 240,
+        "J": 98515,
+        "staticGap": 4087,
+        "worstGap": 128,
+        "aboveStatic": 120,
+        "vsTrained": [
+          79,
+          130,
+          31
+        ],
+        "vsMicroForecast": [
+          9,
+          127,
+          104
+        ]
+      },
+      "feedback": {
+        "n": 240,
+        "J": 96126,
+        "staticGap": 1698,
+        "worstGap": 101,
+        "aboveStatic": 120,
+        "vsTrained": [
+          150,
+          29,
+          61
+        ],
+        "vsMicroForecast": [
+          49,
+          84,
+          107
+        ]
+      },
+      "oracle": {
+        "n": 240,
+        "J": 94428,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          163,
+          77,
+          0
+        ],
+        "vsMicroForecast": [
+          37,
+          203,
+          0
+        ]
+      }
+    },
+    "platoon": {
+      "fixed": {
+        "n": 240,
+        "J": 53963,
+        "staticGap": 8398,
+        "worstGap": 183,
+        "aboveStatic": 202,
+        "vsTrained": [
+          38,
+          121,
+          81
+        ],
+        "vsMicroForecast": [
+          44,
+          68,
+          128
+        ]
+      },
+      "trained": {
+        "n": 240,
+        "J": 49712,
+        "staticGap": 4147,
+        "worstGap": 139,
+        "aboveStatic": 163,
+        "vsTrained": [
+          0,
+          240,
+          0
+        ],
+        "vsMicroForecast": [
+          41,
+          110,
+          89
+        ]
+      },
+      "demand": {
+        "n": 240,
+        "J": 49634,
+        "staticGap": 4069,
+        "worstGap": 145,
+        "aboveStatic": 162,
+        "vsTrained": [
+          64,
+          103,
+          73
+        ],
+        "vsMicroForecast": [
+          46,
+          91,
+          103
+        ]
+      },
+      "forecast_micro": {
+        "n": 240,
+        "J": 48067,
+        "staticGap": 2502,
+        "worstGap": 137,
+        "aboveStatic": 110,
+        "vsTrained": [
+          89,
+          110,
+          41
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      },
+      "forecast_mixed": {
+        "n": 240,
+        "J": 48049,
+        "staticGap": 2484,
+        "worstGap": 139,
+        "aboveStatic": 117,
+        "vsTrained": [
+          74,
+          125,
+          41
+        ],
+        "vsMicroForecast": [
+          10,
+          206,
+          24
+        ]
+      },
+      "forecast_separate": {
+        "n": 240,
+        "J": 48646,
+        "staticGap": 3081,
+        "worstGap": 139,
+        "aboveStatic": 129,
+        "vsTrained": [
+          71,
+          120,
+          49
+        ],
+        "vsMicroForecast": [
+          26,
+          162,
+          52
+        ]
+      },
+      "feedback": {
+        "n": 240,
+        "J": 47574,
+        "staticGap": 2009,
+        "worstGap": 97,
+        "aboveStatic": 166,
+        "vsTrained": [
+          104,
+          30,
+          106
+        ],
+        "vsMicroForecast": [
+          95,
+          37,
+          108
+        ]
+      },
+      "oracle": {
+        "n": 240,
+        "J": 45565,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          163,
+          77,
+          0
+        ],
+        "vsMicroForecast": [
+          110,
+          130,
+          0
+        ]
+      }
+    },
+    "sparse": {
+      "fixed": {
+        "n": 240,
+        "J": 20412,
+        "staticGap": 1360,
+        "worstGap": 10,
+        "aboveStatic": 240,
+        "vsTrained": [
+          0,
+          120,
+          120
+        ],
+        "vsMicroForecast": [
+          0,
+          0,
+          240
+        ]
+      },
+      "trained": {
+        "n": 240,
+        "J": 19732,
+        "staticGap": 680,
+        "worstGap": 10,
+        "aboveStatic": 120,
+        "vsTrained": [
+          0,
+          240,
+          0
+        ],
+        "vsMicroForecast": [
+          0,
+          120,
+          120
+        ]
+      },
+      "demand": {
+        "n": 240,
+        "J": 20016,
+        "staticGap": 964,
+        "worstGap": 27,
+        "aboveStatic": 120,
+        "vsTrained": [
+          60,
+          88,
+          92
+        ],
+        "vsMicroForecast": [
+          0,
+          120,
+          120
+        ]
+      },
+      "forecast_micro": {
+        "n": 240,
+        "J": 19052,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          120,
+          120,
+          0
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      },
+      "forecast_mixed": {
+        "n": 240,
+        "J": 19052,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          120,
+          120,
+          0
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      },
+      "forecast_separate": {
+        "n": 240,
+        "J": 19052,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          120,
+          120,
+          0
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      },
+      "feedback": {
+        "n": 240,
+        "J": 21328,
+        "staticGap": 2276,
+        "worstGap": 19,
+        "aboveStatic": 240,
+        "vsTrained": [
+          0,
+          2,
+          238
+        ],
+        "vsMicroForecast": [
+          0,
+          0,
+          240
+        ]
+      },
+      "oracle": {
+        "n": 240,
+        "J": 19052,
+        "staticGap": 0,
+        "worstGap": 0,
+        "aboveStatic": 0,
+        "vsTrained": [
+          120,
+          120,
+          0
+        ],
+        "vsMicroForecast": [
+          0,
+          240,
+          0
+        ]
+      }
+    }
+  },
+  "seeds": {
+    "200": {
+      "fixed": 9728,
+      "trained": 9428,
+      "demand": 9143,
+      "forecast_micro": 9049,
+      "forecast_mixed": 9214,
+      "forecast_separate": 9240,
+      "feedback": 9085,
+      "oracle": 8938
+    },
+    "201": {
+      "fixed": 9071,
+      "trained": 8472,
+      "demand": 8375,
+      "forecast_micro": 8102,
+      "forecast_mixed": 8359,
+      "forecast_separate": 8575,
+      "feedback": 8476,
+      "oracle": 7986
+    },
+    "202": {
+      "fixed": 9110,
+      "trained": 8702,
+      "demand": 8660,
+      "forecast_micro": 8106,
+      "forecast_mixed": 8362,
+      "forecast_separate": 8615,
+      "feedback": 8447,
+      "oracle": 8051
+    },
+    "203": {
+      "fixed": 8241,
+      "trained": 7866,
+      "demand": 8068,
+      "forecast_micro": 7619,
+      "forecast_mixed": 7593,
+      "forecast_separate": 7750,
+      "feedback": 7741,
+      "oracle": 7417
+    },
+    "204": {
+      "fixed": 8699,
+      "trained": 7980,
+      "demand": 7949,
+      "forecast_micro": 7739,
+      "forecast_mixed": 7784,
+      "forecast_separate": 7888,
+      "feedback": 7970,
+      "oracle": 7631
+    },
+    "205": {
+      "fixed": 9078,
+      "trained": 8878,
+      "demand": 8947,
+      "forecast_micro": 8290,
+      "forecast_mixed": 8283,
+      "forecast_separate": 8376,
+      "feedback": 8246,
+      "oracle": 8162
+    },
+    "206": {
+      "fixed": 9236,
+      "trained": 8791,
+      "demand": 8583,
+      "forecast_micro": 8220,
+      "forecast_mixed": 8421,
+      "forecast_separate": 8428,
+      "feedback": 8278,
+      "oracle": 8096
+    },
+    "207": {
+      "fixed": 8253,
+      "trained": 7935,
+      "demand": 7711,
+      "forecast_micro": 7493,
+      "forecast_mixed": 7553,
+      "forecast_separate": 7785,
+      "feedback": 7589,
+      "oracle": 7351
+    },
+    "208": {
+      "fixed": 8616,
+      "trained": 7869,
+      "demand": 7777,
+      "forecast_micro": 7682,
+      "forecast_mixed": 7697,
+      "forecast_separate": 7763,
+      "feedback": 7909,
+      "oracle": 7579
+    },
+    "209": {
+      "fixed": 8294,
+      "trained": 7644,
+      "demand": 7683,
+      "forecast_micro": 7052,
+      "forecast_mixed": 7154,
+      "forecast_separate": 7254,
+      "feedback": 7469,
+      "oracle": 7028
+    },
+    "210": {
+      "fixed": 9592,
+      "trained": 9170,
+      "demand": 9033,
+      "forecast_micro": 9084,
+      "forecast_mixed": 8991,
+      "forecast_separate": 9040,
+      "feedback": 8953,
+      "oracle": 8740
+    },
+    "211": {
+      "fixed": 8498,
+      "trained": 8153,
+      "demand": 7763,
+      "forecast_micro": 7906,
+      "forecast_mixed": 7909,
+      "forecast_separate": 8164,
+      "feedback": 7807,
+      "oracle": 7613
+    },
+    "212": {
+      "fixed": 9108,
+      "trained": 8710,
+      "demand": 8633,
+      "forecast_micro": 8376,
+      "forecast_mixed": 8481,
+      "forecast_separate": 8706,
+      "feedback": 8374,
+      "oracle": 8167
+    },
+    "213": {
+      "fixed": 8768,
+      "trained": 8180,
+      "demand": 8353,
+      "forecast_micro": 7920,
+      "forecast_mixed": 7971,
+      "forecast_separate": 7893,
+      "feedback": 8219,
+      "oracle": 7705
+    },
+    "214": {
+      "fixed": 8556,
+      "trained": 8106,
+      "demand": 8608,
+      "forecast_micro": 7619,
+      "forecast_mixed": 7701,
+      "forecast_separate": 7770,
+      "feedback": 7822,
+      "oracle": 7532
+    },
+    "215": {
+      "fixed": 9901,
+      "trained": 9561,
+      "demand": 9671,
+      "forecast_micro": 9060,
+      "forecast_mixed": 9416,
+      "forecast_separate": 9470,
+      "feedback": 9288,
+      "oracle": 9028
+    },
+    "216": {
+      "fixed": 9599,
+      "trained": 8977,
+      "demand": 9054,
+      "forecast_micro": 8685,
+      "forecast_mixed": 8859,
+      "forecast_separate": 9147,
+      "feedback": 9076,
+      "oracle": 8646
+    },
+    "217": {
+      "fixed": 8442,
+      "trained": 8280,
+      "demand": 8298,
+      "forecast_micro": 8033,
+      "forecast_mixed": 8068,
+      "forecast_separate": 8124,
+      "feedback": 8089,
+      "oracle": 7771
+    },
+    "218": {
+      "fixed": 8228,
+      "trained": 7638,
+      "demand": 7479,
+      "forecast_micro": 7184,
+      "forecast_mixed": 7281,
+      "forecast_separate": 7497,
+      "feedback": 7455,
+      "oracle": 7151
+    },
+    "219": {
+      "fixed": 9511,
+      "trained": 8951,
+      "demand": 8881,
+      "forecast_micro": 8640,
+      "forecast_mixed": 8611,
+      "forecast_separate": 8728,
+      "feedback": 8735,
+      "oracle": 8453
+    }
+  }
+}
