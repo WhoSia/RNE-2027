@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A2 — independent network audit and stronger heterogeneity conditions",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.99,
+      "evidence": "MACRO05A1 near-null and one strict adverse case; native parity needed"
+    },
+    {
+      "unit": "AGG04C — adaptive exact computation across unseen workloads",
+      "decision": "NEXT_AGG_CS",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.99,
+      "evidence": "AGG04B exact with regime-dependent measured speed; choose method prospectively"
+    },
+    {
+      "unit": "I165 — distribution shift in forecast scenarios",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.986,
+      "evidence": "Known family and perfect initial state limitations"
+    },
+    {
+      "unit": "MACRO05B — full feedback observation error",
+      "decision": "NEXT_I_RF",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Previous selector-only noise; He2024 held"
+    },
+    {
+      "unit": "BE02 — same-OD endogenous choice in spatial network",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.979,
+      "evidence": "Treiber ch24 and now actual two-route model, still fixed shares"
+    },
+    {
+      "unit": "OPT02 — higher-load DP and switching costs",
+      "decision": "NEXT_T_CS",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.978,
+      "evidence": "Prior near-null under small load"
+    },
+    {
+      "unit": "RF20B — default offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Dependency recovery incomplete"
+    },
+    {
+      "unit": "Approved tabletop RF observation",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No actual CSI; teacher approval required"
+    },
+    {
+      "unit": "SUMO external parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Previous external failure"
+    }
+  ]
+}
