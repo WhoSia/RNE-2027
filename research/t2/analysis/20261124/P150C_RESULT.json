@@ -1,0 +1,313 @@
+{
+  "status": "POSTHOC_MODEL_UNCERTAINTY_NOT_FIELD_EVIDENCE",
+  "new_simulations": 0,
+  "pairs": 576,
+  "strict_reversals": 15,
+  "pure_zero_regret": 561,
+  "pure_minimax_total": 289,
+  "old_only_total": 3936,
+  "reuse_only_total": 768,
+  "max_pure_regret": 36,
+  "witnesses": [
+    {
+      "tape": "uniform",
+      "D": 2,
+      "h4": 0,
+      "h8": 6,
+      "old": 36,
+      "reuse": -140,
+      "worst_choose4": 36,
+      "worst_choose8": 140,
+      "pure_choice": 4,
+      "pure_regret": 36,
+      "randomized_choose4_fraction": [
+        140,
+        176
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        5040,
+        176
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 2,
+      "h4": 2,
+      "h8": 2,
+      "old": -36,
+      "reuse": 140,
+      "worst_choose4": 140,
+      "worst_choose8": 36,
+      "pure_choice": 8,
+      "pure_regret": 36,
+      "randomized_choose4_fraction": [
+        36,
+        176
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        5040,
+        176
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 2,
+      "h4": 3,
+      "h8": 0,
+      "old": -11,
+      "reuse": 65,
+      "worst_choose4": 65,
+      "worst_choose8": 11,
+      "pure_choice": 8,
+      "pure_regret": 11,
+      "randomized_choose4_fraction": [
+        11,
+        76
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        715,
+        76
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 3,
+      "h4": 0,
+      "h8": 6,
+      "old": 29,
+      "reuse": -85,
+      "worst_choose4": 29,
+      "worst_choose8": 85,
+      "pure_choice": 4,
+      "pure_regret": 29,
+      "randomized_choose4_fraction": [
+        85,
+        114
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        2465,
+        114
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 3,
+      "h4": 2,
+      "h8": 2,
+      "old": -29,
+      "reuse": 85,
+      "worst_choose4": 85,
+      "worst_choose8": 29,
+      "pure_choice": 8,
+      "pure_regret": 29,
+      "randomized_choose4_fraction": [
+        29,
+        114
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        2465,
+        114
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 3,
+      "h4": 3,
+      "h8": 0,
+      "old": -7,
+      "reuse": 16,
+      "worst_choose4": 16,
+      "worst_choose8": 7,
+      "pure_choice": 8,
+      "pure_regret": 7,
+      "randomized_choose4_fraction": [
+        7,
+        23
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        112,
+        23
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 4,
+      "h4": 0,
+      "h8": 7,
+      "old": 65,
+      "reuse": -12,
+      "worst_choose4": 65,
+      "worst_choose8": 12,
+      "pure_choice": 8,
+      "pure_regret": 12,
+      "randomized_choose4_fraction": [
+        12,
+        77
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        780,
+        77
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 4,
+      "h4": 2,
+      "h8": 2,
+      "old": -24,
+      "reuse": 53,
+      "worst_choose4": 53,
+      "worst_choose8": 24,
+      "pure_choice": 8,
+      "pure_regret": 24,
+      "randomized_choose4_fraction": [
+        24,
+        77
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        1272,
+        77
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 5,
+      "h4": 0,
+      "h8": 7,
+      "old": 22,
+      "reuse": -12,
+      "worst_choose4": 22,
+      "worst_choose8": 12,
+      "pure_choice": 8,
+      "pure_regret": 12,
+      "randomized_choose4_fraction": [
+        12,
+        34
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        264,
+        34
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 5,
+      "h4": 2,
+      "h8": 2,
+      "old": -25,
+      "reuse": 9,
+      "worst_choose4": 9,
+      "worst_choose8": 25,
+      "pure_choice": 4,
+      "pure_regret": 9,
+      "randomized_choose4_fraction": [
+        25,
+        34
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        225,
+        34
+      ]
+    },
+    {
+      "tape": "uniform",
+      "D": 6,
+      "h4": 1,
+      "h8": 6,
+      "old": 75,
+      "reuse": -9,
+      "worst_choose4": 75,
+      "worst_choose8": 9,
+      "pure_choice": 8,
+      "pure_regret": 9,
+      "randomized_choose4_fraction": [
+        9,
+        84
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        675,
+        84
+      ]
+    },
+    {
+      "tape": "pairs",
+      "D": 3,
+      "h4": 0,
+      "h8": 7,
+      "old": 32,
+      "reuse": -29,
+      "worst_choose4": 32,
+      "worst_choose8": 29,
+      "pure_choice": 8,
+      "pure_regret": 29,
+      "randomized_choose4_fraction": [
+        29,
+        61
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        928,
+        61
+      ]
+    },
+    {
+      "tape": "pairs",
+      "D": 3,
+      "h4": 3,
+      "h8": 2,
+      "old": -57,
+      "reuse": 6,
+      "worst_choose4": 6,
+      "worst_choose8": 57,
+      "pure_choice": 4,
+      "pure_regret": 6,
+      "randomized_choose4_fraction": [
+        57,
+        63
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        342,
+        63
+      ]
+    },
+    {
+      "tape": "pairs",
+      "D": 4,
+      "h4": 0,
+      "h8": 7,
+      "old": 34,
+      "reuse": -36,
+      "worst_choose4": 34,
+      "worst_choose8": 36,
+      "pure_choice": 4,
+      "pure_regret": 34,
+      "randomized_choose4_fraction": [
+        36,
+        70
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        1224,
+        70
+      ]
+    },
+    {
+      "tape": "clustered",
+      "D": 6,
+      "h4": 1,
+      "h8": 6,
+      "old": 18,
+      "reuse": -6,
+      "worst_choose4": 18,
+      "worst_choose8": 6,
+      "pure_choice": 8,
+      "pure_regret": 6,
+      "randomized_choose4_fraction": [
+        6,
+        24
+      ],
+      "randomized_worst_expected_regret_fraction": [
+        108,
+        24
+      ]
+    }
+  ]
+}
