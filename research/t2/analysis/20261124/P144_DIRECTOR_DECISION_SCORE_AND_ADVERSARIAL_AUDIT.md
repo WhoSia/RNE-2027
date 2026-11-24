@@ -28,7 +28,7 @@
 | 일반화 | 미사용 세션×위치 93 | 동일 환경 내 packet-level 랜덤 분할은 데이터 누출 | 주요 홀드아웃 P2/S3 고정, 시각/위치 공동 이동 |
 | 통합 | RF10→RF05 실제 schema & missingness 92 | CSV 파싱과 evaluator가 일치해야 의미 있는 보고서 | 현재 RF10/11 국소8 + RF12 5 통과와 end-to-end는 다름 |
 | 물리 실험 | 실제 기관 장비 재고·허가 90 | 호환 CSI 보드 유무를 추측해서 장비 구매/측정을 시작하면 안 됨 | 감독자·기관 장비 담당자 확인시 재평가 |
-| 임상적 비유 금지 | RF11 blind leak audit 89 | 공개 고정 seed 발견 후 수정, 기타 파일/권한 누출 감사 필요 | 실제 파일 접근권한·holdout 불변성 검증 |
+| 연구 무결성 | RF11 blind leak audit 89 | 공개 고정 seed 발견 후 수정, 기타 파일/권한 누출 감사 필요 | 실제 파일 접근권한·holdout 불변성 검증 |
 | 교통 모델 | SUMO 개별 퇴장 parity 87 | 독립 물리엔진 불일치 중 정책 일반화 주장 불가 | 차량별 도착·정지선·받는 링크·퇴장 순서가 맞으면 실측 연계 우선도 상승 |
 | 선행 정책 | MP/CTM 독립 모형 85 | 기존 V31의 heuristic 실패를 정통 MP 이론 반례라고 할 수 없음 | 운동·공급·이동류별 압력을 독립 구현해 정확한 조건 비교 |
 | 임계값 튜닝 | P140형 임의 q≥14 재튜닝 38 | P140/P141 실패, P142 미발동; 다시 13,15 탐색은 overfit 위험 | 더 좋은 관측변수·외부 모형 검증 후에만 탐색 재개 |
@@ -43,7 +43,7 @@
 
 ## 이번 구현: P145 RF12 정지 점유 반례
 
-[rf12_static_occupancy_audit.py](../exhibition/rf_curtain/rf12_static_occupancy_audit.py)와 [test_rf12_static_occupancy_audit.py](../exhibition/rf_curtain/test_rf12_static_occupancy_audit.py)는 사람이 만든 4개 **스칼라 채널 세계**를 계산한다: empty 10/10/10/10, static 15/15/15/15, environmental drift 15/15/15/15, moving 10/12/14/16. 시간분산 empty/static/drift=0, moving=√5. 고정 empty와의 평균차 empty=0, static=5, drift=5. 따라서 static/drift가 단일 값에서는 완전히 식별 불가라는 **반증**을 제공한다. 이 스칼라 예시는 채널전파 법칙, 다중안테나 CSI, 측정 오차 등은 재현하지 않으며 수학적 존재반례만 말한다.
+[rf12_static_occupancy_audit.py](../../exhibition/rf_curtain/rf12_static_occupancy_audit.py)와 [test_rf12_static_occupancy_audit.py](../../exhibition/rf_curtain/test_rf12_static_occupancy_audit.py)는 사람이 만든 4개 **스칼라 채널 세계**를 계산한다: empty 10/10/10/10, static 15/15/15/15, environmental drift 15/15/15/15, moving 10/12/14/16. 시간분산 empty/static/drift=0, moving=√5. 고정 empty와의 평균차 empty=0, static=5, drift=5. 따라서 static/drift가 단일 값에서는 완전히 식별 불가라는 **반증**을 제공한다. 이 스칼라 예시는 채널전파 법칙, 다중안테나 CSI, 측정 오차 등은 재현하지 않으며 수학적 존재반례만 말한다.
 
 로컬 Python stdlib RF10 3 + RF11 5 + RF12 5 = **13/13 unit tests PASS**, 0개 새 실제 RF 측정, 0개 실제 T2/SUMO 시뮬레이터 실행. 엄밀하게 구분한다.
 
