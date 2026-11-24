@@ -1,0 +1,64 @@
+{
+  "status": "SAME_COHORT_EXPLORATORY_PYTHON_REPLAY",
+  "unique_scenarios": 512,
+  "arms": 2048,
+  "worlds": 1024,
+  "dominance": [
+    454,
+    570,
+    0
+  ],
+  "strict_reversals": 14,
+  "ties_resolved": 52,
+  "observations": {
+    "context": {
+      "cells": 8,
+      "ambiguous_worlds": 768,
+      "max_minimax_regret": 9,
+      "uniform_mean_minimax": 0.408203125,
+      "uniform_mean_optimal": 0.3828125
+    },
+    "aggregate": {
+      "cells": 11,
+      "ambiguous_worlds": 640,
+      "max_minimax_regret": 9,
+      "uniform_mean_minimax": 0.408203125,
+      "uniform_mean_optimal": 0.3828125
+    },
+    "separate_counts": {
+      "cells": 28,
+      "ambiguous_worlds": 576,
+      "max_minimax_regret": 7,
+      "uniform_mean_minimax": 0.662109375,
+      "uniform_mean_optimal": 0.326171875
+    },
+    "ordered_fifo": {
+      "cells": 81,
+      "ambiguous_worlds": 248,
+      "max_minimax_regret": 7,
+      "uniform_mean_minimax": 0.208984375,
+      "uniform_mean_optimal": 0.19140625
+    },
+    "ordered_plus_rule": {
+      "cells": 162,
+      "ambiguous_worlds": 152,
+      "max_minimax_regret": 7,
+      "uniform_mean_minimax": 0.154296875,
+      "uniform_mean_optimal": 0.1484375
+    },
+    "ordered_plus_future": {
+      "cells": 135,
+      "ambiguous_worlds": 28,
+      "max_minimax_regret": 2,
+      "uniform_mean_minimax": 0.021484375,
+      "uniform_mean_optimal": 0.021484375
+    },
+    "oracle_both": {
+      "cells": 270,
+      "ambiguous_worlds": 0,
+      "max_minimax_regret": 0,
+      "uniform_mean_minimax": 0.0,
+      "uniform_mean_optimal": 0.0
+    }
+  }
+}
