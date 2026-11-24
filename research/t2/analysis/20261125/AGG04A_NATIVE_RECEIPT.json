@@ -1,0 +1,83 @@
+{
+  "status": "NATIVE_PYTHON_SINGLE_ENVIRONMENT_NEGATIVE_SPEED_RESULT",
+  "sourceBlob": "2cfebf360c9fd05143bdb5365f7da717c2f31820",
+  "localFullResultBlob": "e99eac83c40cdaefcea32daa9bd6ed83d5c883dd",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "rows": [
+    {
+      "N": 24,
+      "armsPerModel": 96,
+      "ticksPerPass": 19968,
+      "microJ": 17441,
+      "mixedJ": 15378.907218100758,
+      "microPeakQueue": 16,
+      "mixedUpstreamScalars": 2,
+      "microSeconds": [
+        0.005421673999990162,
+        0.005372862000058376,
+        0.005819253000026947,
+        0.005564876000107688,
+        0.005337178999980097
+      ],
+      "mixedSeconds": [
+        0.007731065999905695,
+        0.007453615000031277,
+        0.008158739999998943,
+        0.007672429999956876,
+        0.011861097000064547
+      ],
+      "ratio": 1.4259555258984078
+    },
+    {
+      "N": 96,
+      "armsPerModel": 96,
+      "ticksPerPass": 75264,
+      "microJ": 196916,
+      "mixedJ": 149578.6838801847,
+      "microPeakQueue": 50,
+      "mixedUpstreamScalars": 2,
+      "microSeconds": [
+        0.021462454999891634,
+        0.020965079999996306,
+        0.0214137440000286,
+        0.020570076000012705,
+        0.02055398199991032
+      ],
+      "mixedSeconds": [
+        0.0413628209998933,
+        0.031021140000120795,
+        0.030716297000026316,
+        0.030677400000058697,
+        0.032523858000104156
+      ],
+      "ratio": 1.47965760207575
+    },
+    {
+      "N": 384,
+      "armsPerModel": 96,
+      "ticksPerPass": 296448,
+      "microJ": 2878301,
+      "mixedJ": 2057505.1865094737,
+      "microPeakQueue": 207,
+      "mixedUpstreamScalars": 2,
+      "microSeconds": [
+        0.080400015999885,
+        0.0865447609999137,
+        0.08204570099997,
+        0.08549968900001659,
+        0.08248901600018144
+      ],
+      "mixedSeconds": [
+        0.12348157799988257,
+        0.11898266699995474,
+        0.11828843599982974,
+        0.11915664100001777,
+        0.11389169599988236
+      ],
+      "ratio": 1.4424061865363147
+    }
+  ],
+  "terminalAll": 0,
+  "note": "Compact transcription of actual native output; full local JSON not uploaded. 576 checked arms, 576 warmup arms, 2880 timed arms. State dimensions not bytes; timings not universal."
+}
