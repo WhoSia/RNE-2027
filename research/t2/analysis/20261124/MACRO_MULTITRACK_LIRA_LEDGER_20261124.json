@@ -1,0 +1,166 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "basis": "Integrated macro charter; prior eight-axis weights; scores conditional on executable gates",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "allocation": {
+    "MACRO": 0.5,
+    "T": 0.2,
+    "I": 0.15,
+    "RF": 0.15
+  },
+  "choices": [
+    {
+      "unit": "MACRO03C strong cycle-block feedback baseline, independent cohort",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.989,
+      "evidence": "Counts beat demand by only1.18%; no feedback reference"
+    },
+    {
+      "unit": "MACRO04B objective-aware robust policy with explicit support and error loss",
+      "decision": "NEXT_MACRO_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.95,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.983,
+      "evidence": "P159M hard coverage gate failed; compare frozen rule with strong reference"
+    },
+    {
+      "unit": "T160M proof audit and shared-exit boundary",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.98,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.96,
+        "C": 0.93
+      },
+      "priority": 0.973,
+      "evidence": "Prefix theorem explains fixed-policy sign; rank reversal survives"
+    },
+    {
+      "unit": "ECON01 paired policy effects and mediator/selection-bias audit",
+      "decision": "NEXT_ECON",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.97,
+        "R": 0.97,
+        "A": 0.95,
+        "J": 0.97,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.94
+      },
+      "priority": 0.965,
+      "evidence": "Design-based inference before causal regression"
+    },
+    {
+      "unit": "RF20B actual default raw file chain and exact dependency restoration",
+      "decision": "GATED_RF_M",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.963,
+      "evidence": "No local exact dependency bundle; DNS unavailable"
+    },
+    {
+      "unit": "BE01 same-OD route alternative and bounded switching externality",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.96,
+        "I": 0.97,
+        "R": 0.95,
+        "A": 0.91,
+        "J": 0.97,
+        "E": 0.94,
+        "V": 0.96,
+        "C": 0.9
+      },
+      "priority": 0.951,
+      "evidence": "Do not confuse different movement destinations with route choice"
+    },
+    {
+      "unit": "RF21 physical presence/empty/static/drift under teacher authorization",
+      "decision": "GATED_RF_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Ideal presence value quantified, actual CSI zero"
+    },
+    {
+      "unit": "SUMO E0e independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Prior external parity failure unresolved"
+    },
+    {
+      "unit": "Arbitrary phase/threshold retuning",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "No new hypothesis"
+    }
+  ]
+}
