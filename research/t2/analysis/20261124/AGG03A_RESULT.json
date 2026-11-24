@@ -1,0 +1,647 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_ABSTRACT_OFFLINE",
+  "worlds": 720,
+  "arms": 25920,
+  "policies": [
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "groups": {
+    "all": {
+      "policy": {
+        "fixed": {
+          "n": 720,
+          "J": 179461,
+          "regret": 20072,
+          "worst": 201,
+          "miss": 640,
+          "vsFixed": [
+            0,
+            720,
+            0
+          ],
+          "vsTrained": [
+            75,
+            364,
+            281
+          ]
+        },
+        "trained": {
+          "n": 720,
+          "J": 168565,
+          "regret": 9176,
+          "worst": 130,
+          "miss": 425,
+          "vsFixed": [
+            281,
+            364,
+            75
+          ],
+          "vsTrained": [
+            0,
+            720,
+            0
+          ]
+        },
+        "mixed": {
+          "n": 720,
+          "J": 161723,
+          "regret": 2334,
+          "worst": 66,
+          "miss": 139,
+          "vsFixed": [
+            571,
+            85,
+            64
+          ],
+          "vsTrained": [
+            371,
+            281,
+            68
+          ]
+        },
+        "separate": {
+          "n": 720,
+          "J": 164875,
+          "regret": 5486,
+          "worst": 121,
+          "miss": 171,
+          "vsFixed": [
+            539,
+            103,
+            78
+          ],
+          "vsTrained": [
+            312,
+            356,
+            52
+          ]
+        },
+        "oracle": {
+          "n": 720,
+          "J": 159389,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            640,
+            80,
+            0
+          ],
+          "vsTrained": [
+            425,
+            295,
+            0
+          ]
+        }
+      },
+      "model": {
+        "mixed": {
+          "arms": 8640,
+          "signed": -294940.307626334,
+          "absolute": 314306.7973732586,
+          "squared": 39896215.964191504,
+          "maxAbsolute": 370.35332598713956,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 47520,
+          "strictFlips": 3324,
+          "oracleSetMiss": 139
+        },
+        "separate": {
+          "arms": 8640,
+          "signed": -521875,
+          "absolute": 521875,
+          "squared": 78610483,
+          "maxAbsolute": 422,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 47520,
+          "strictFlips": 3492,
+          "oracleSetMiss": 171
+        }
+      }
+    },
+    "dense": {
+      "policy": {
+        "fixed": {
+          "n": 240,
+          "J": 104967,
+          "regret": 10190,
+          "worst": 201,
+          "miss": 200,
+          "vsFixed": [
+            0,
+            240,
+            0
+          ],
+          "vsTrained": [
+            37,
+            122,
+            81
+          ]
+        },
+        "trained": {
+          "n": 240,
+          "J": 99808,
+          "regret": 5031,
+          "worst": 130,
+          "miss": 150,
+          "vsFixed": [
+            81,
+            122,
+            37
+          ],
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "mixed": {
+          "n": 240,
+          "J": 96187,
+          "regret": 1410,
+          "worst": 66,
+          "miss": 80,
+          "vsFixed": [
+            158,
+            47,
+            35
+          ],
+          "vsTrained": [
+            122,
+            79,
+            39
+          ]
+        },
+        "separate": {
+          "n": 240,
+          "J": 98591,
+          "regret": 3814,
+          "worst": 120,
+          "miss": 107,
+          "vsFixed": [
+            131,
+            67,
+            42
+          ],
+          "vsTrained": [
+            76,
+            136,
+            28
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 94777,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            200,
+            40,
+            0
+          ],
+          "vsTrained": [
+            150,
+            90,
+            0
+          ]
+        }
+      },
+      "model": {
+        "mixed": {
+          "arms": 2880,
+          "signed": -157966.3617240696,
+          "absolute": 168677.10284680699,
+          "squared": 22458404.95213703,
+          "maxAbsolute": 370.35332598713956,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 1769,
+          "oracleSetMiss": 80
+        },
+        "separate": {
+          "arms": 2880,
+          "signed": -303546,
+          "absolute": 303546,
+          "squared": 47725674,
+          "maxAbsolute": 422,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 1903,
+          "oracleSetMiss": 107
+        }
+      }
+    },
+    "platoon": {
+      "policy": {
+        "fixed": {
+          "n": 240,
+          "J": 54556,
+          "regret": 8606,
+          "worst": 201,
+          "miss": 200,
+          "vsFixed": [
+            0,
+            240,
+            0
+          ],
+          "vsTrained": [
+            38,
+            122,
+            80
+          ]
+        },
+        "trained": {
+          "n": 240,
+          "J": 49457,
+          "regret": 3507,
+          "worst": 130,
+          "miss": 155,
+          "vsFixed": [
+            80,
+            122,
+            38
+          ],
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "mixed": {
+          "n": 240,
+          "J": 46874,
+          "regret": 924,
+          "worst": 64,
+          "miss": 59,
+          "vsFixed": [
+            173,
+            38,
+            29
+          ],
+          "vsTrained": [
+            129,
+            82,
+            29
+          ]
+        },
+        "separate": {
+          "n": 240,
+          "J": 47622,
+          "regret": 1672,
+          "worst": 121,
+          "miss": 64,
+          "vsFixed": [
+            168,
+            36,
+            36
+          ],
+          "vsTrained": [
+            116,
+            100,
+            24
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 45950,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            200,
+            40,
+            0
+          ],
+          "vsTrained": [
+            155,
+            85,
+            0
+          ]
+        }
+      },
+      "model": {
+        "mixed": {
+          "arms": 2880,
+          "signed": -110703.58800683671,
+          "absolute": 119359.33663102452,
+          "squared": 14886684.87347954,
+          "maxAbsolute": 345.60242898646106,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 1489,
+          "oracleSetMiss": 59
+        },
+        "separate": {
+          "arms": 2880,
+          "signed": -188178,
+          "absolute": 188178,
+          "squared": 27553548,
+          "maxAbsolute": 392,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 1505,
+          "oracleSetMiss": 64
+        }
+      }
+    },
+    "sparse": {
+      "policy": {
+        "fixed": {
+          "n": 240,
+          "J": 19938,
+          "regret": 1276,
+          "worst": 9,
+          "miss": 240,
+          "vsFixed": [
+            0,
+            240,
+            0
+          ],
+          "vsTrained": [
+            0,
+            120,
+            120
+          ]
+        },
+        "trained": {
+          "n": 240,
+          "J": 19300,
+          "regret": 638,
+          "worst": 9,
+          "miss": 120,
+          "vsFixed": [
+            120,
+            120,
+            0
+          ],
+          "vsTrained": [
+            0,
+            240,
+            0
+          ]
+        },
+        "mixed": {
+          "n": 240,
+          "J": 18662,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            240,
+            0,
+            0
+          ],
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "separate": {
+          "n": 240,
+          "J": 18662,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            240,
+            0,
+            0
+          ],
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        },
+        "oracle": {
+          "n": 240,
+          "J": 18662,
+          "regret": 0,
+          "worst": 0,
+          "miss": 0,
+          "vsFixed": [
+            240,
+            0,
+            0
+          ],
+          "vsTrained": [
+            120,
+            120,
+            0
+          ]
+        }
+      },
+      "model": {
+        "mixed": {
+          "arms": 2880,
+          "signed": -26270.357895427893,
+          "absolute": 26270.357895427893,
+          "squared": 2551126.13857489,
+          "maxAbsolute": 175.72166109268107,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 66,
+          "oracleSetMiss": 0
+        },
+        "separate": {
+          "arms": 2880,
+          "signed": -30151,
+          "absolute": 30151,
+          "squared": 3331261,
+          "maxAbsolute": 200,
+          "terminal": 0,
+          "maxTerminal": 0,
+          "nonclear": 0,
+          "rankPairs": 15840,
+          "strictFlips": 84,
+          "oracleSetMiss": 0
+        }
+      }
+    }
+  },
+  "seeds": {
+    "180": {
+      "n": 36,
+      "mixedRegret": 183,
+      "separateRegret": 297,
+      "trainedRegret": 512
+    },
+    "181": {
+      "n": 36,
+      "mixedRegret": 307,
+      "separateRegret": 504,
+      "trainedRegret": 674
+    },
+    "182": {
+      "n": 36,
+      "mixedRegret": 65,
+      "separateRegret": 407,
+      "trainedRegret": 427
+    },
+    "183": {
+      "n": 36,
+      "mixedRegret": 57,
+      "separateRegret": 239,
+      "trainedRegret": 347
+    },
+    "184": {
+      "n": 36,
+      "mixedRegret": 112,
+      "separateRegret": 355,
+      "trainedRegret": 403
+    },
+    "185": {
+      "n": 36,
+      "mixedRegret": 39,
+      "separateRegret": 219,
+      "trainedRegret": 268
+    },
+    "186": {
+      "n": 36,
+      "mixedRegret": 165,
+      "separateRegret": 181,
+      "trainedRegret": 373
+    },
+    "187": {
+      "n": 36,
+      "mixedRegret": 80,
+      "separateRegret": 312,
+      "trainedRegret": 526
+    },
+    "188": {
+      "n": 36,
+      "mixedRegret": 88,
+      "separateRegret": 556,
+      "trainedRegret": 533
+    },
+    "189": {
+      "n": 36,
+      "mixedRegret": 114,
+      "separateRegret": 162,
+      "trainedRegret": 584
+    },
+    "190": {
+      "n": 36,
+      "mixedRegret": 161,
+      "separateRegret": 362,
+      "trainedRegret": 555
+    },
+    "191": {
+      "n": 36,
+      "mixedRegret": 201,
+      "separateRegret": 321,
+      "trainedRegret": 477
+    },
+    "192": {
+      "n": 36,
+      "mixedRegret": 111,
+      "separateRegret": 132,
+      "trainedRegret": 329
+    },
+    "193": {
+      "n": 36,
+      "mixedRegret": 64,
+      "separateRegret": 345,
+      "trainedRegret": 622
+    },
+    "194": {
+      "n": 36,
+      "mixedRegret": 104,
+      "separateRegret": 121,
+      "trainedRegret": 526
+    },
+    "195": {
+      "n": 36,
+      "mixedRegret": 45,
+      "separateRegret": 288,
+      "trainedRegret": 365
+    },
+    "196": {
+      "n": 36,
+      "mixedRegret": 41,
+      "separateRegret": 172,
+      "trainedRegret": 423
+    },
+    "197": {
+      "n": 36,
+      "mixedRegret": 87,
+      "separateRegret": 175,
+      "trainedRegret": 506
+    },
+    "198": {
+      "n": 36,
+      "mixedRegret": 130,
+      "separateRegret": 37,
+      "trainedRegret": 188
+    },
+    "199": {
+      "n": 36,
+      "mixedRegret": 180,
+      "separateRegret": 301,
+      "trainedRegret": 538
+    }
+  }
+}
