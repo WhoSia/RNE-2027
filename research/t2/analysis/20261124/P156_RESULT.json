@@ -1,0 +1,383 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_PROSPECTIVE_SYNTHETIC",
+  "scenarios": 4096,
+  "arms": 131072,
+  "trainWorlds": 52224,
+  "testWorlds": 13312,
+  "trainMasks": 204,
+  "testMasks": 52,
+  "primary": {
+    "includeClock": false,
+    "baselines": {
+      "context": 4928,
+      "always4": 13812,
+      "always8": 19937,
+      "contextWorst": 15,
+      "contextHarm": 1248
+    },
+    "stats": [
+      {
+        "name": "context",
+        "all": {
+          "n": 13312,
+          "covered": 5824,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4928,
+          "allWorst": 15,
+          "fallbackHarm": 1248
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 2912,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2292,
+            "allWorst": 15,
+            "fallbackHarm": 573
+          },
+          {
+            "n": 6656,
+            "covered": 2912,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "total",
+        "all": {
+          "n": 13312,
+          "covered": 6740,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4928,
+          "allWorst": 15,
+          "fallbackHarm": 1248
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3204,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2292,
+            "allWorst": 15,
+            "fallbackHarm": 573
+          },
+          {
+            "n": 6656,
+            "covered": 3536,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "counts",
+        "all": {
+          "n": 13312,
+          "covered": 7472,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4868,
+          "allWorst": 15,
+          "fallbackHarm": 1236
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3728,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2232,
+            "allWorst": 15,
+            "fallbackHarm": 561
+          },
+          {
+            "n": 6656,
+            "covered": 3744,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "head",
+        "all": {
+          "n": 13312,
+          "covered": 8060,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4664,
+          "allWorst": 15,
+          "fallbackHarm": 1196
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3884,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2180,
+            "allWorst": 15,
+            "fallbackHarm": 553
+          },
+          {
+            "n": 6656,
+            "covered": 4176,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2484,
+            "allWorst": 12,
+            "fallbackHarm": 643
+          }
+        ]
+      },
+      {
+        "name": "ordered",
+        "all": {
+          "n": 13312,
+          "covered": 8240,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4664,
+          "allWorst": 15,
+          "fallbackHarm": 1196
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3980,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2180,
+            "allWorst": 15,
+            "fallbackHarm": 553
+          },
+          {
+            "n": 6656,
+            "covered": 4260,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2484,
+            "allWorst": 12,
+            "fallbackHarm": 643
+          }
+        ]
+      }
+    ]
+  },
+  "clockFamilySensitivity": {
+    "includeClock": true,
+    "baselines": {
+      "context": 4784,
+      "always4": 13812,
+      "always8": 19937,
+      "contextWorst": 15,
+      "contextHarm": 1284
+    },
+    "stats": [
+      {
+        "name": "context",
+        "all": {
+          "n": 13312,
+          "covered": 6448,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4784,
+          "allWorst": 15,
+          "fallbackHarm": 1284
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3328,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2148,
+            "allWorst": 15,
+            "fallbackHarm": 609
+          },
+          {
+            "n": 6656,
+            "covered": 3120,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "total",
+        "all": {
+          "n": 13312,
+          "covered": 7232,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4688,
+          "allWorst": 15,
+          "fallbackHarm": 1256
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 3592,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2052,
+            "allWorst": 15,
+            "fallbackHarm": 581
+          },
+          {
+            "n": 6656,
+            "covered": 3640,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "counts",
+        "all": {
+          "n": 13312,
+          "covered": 8148,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4664,
+          "allWorst": 15,
+          "fallbackHarm": 1250
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 4300,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2028,
+            "allWorst": 15,
+            "fallbackHarm": 575
+          },
+          {
+            "n": 6656,
+            "covered": 3848,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2636,
+            "allWorst": 12,
+            "fallbackHarm": 675
+          }
+        ]
+      },
+      {
+        "name": "head",
+        "all": {
+          "n": 13312,
+          "covered": 8764,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4460,
+          "allWorst": 15,
+          "fallbackHarm": 1210
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 4532,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 1976,
+            "allWorst": 15,
+            "fallbackHarm": 567
+          },
+          {
+            "n": 6656,
+            "covered": 4232,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2484,
+            "allWorst": 12,
+            "fallbackHarm": 643
+          }
+        ]
+      },
+      {
+        "name": "ordered",
+        "all": {
+          "n": 13312,
+          "covered": 8944,
+          "strictHarm": 0,
+          "coveredRegret": 0,
+          "coveredWorst": 0,
+          "allRegret": 4460,
+          "allWorst": 15,
+          "fallbackHarm": 1210
+        },
+        "clock": [
+          {
+            "n": 6656,
+            "covered": 4628,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 1976,
+            "allWorst": 15,
+            "fallbackHarm": 567
+          },
+          {
+            "n": 6656,
+            "covered": 4316,
+            "strictHarm": 0,
+            "coveredRegret": 0,
+            "coveredWorst": 0,
+            "allRegret": 2484,
+            "allWorst": 12,
+            "fallbackHarm": 643
+          }
+        ]
+      }
+    ]
+  }
+}
