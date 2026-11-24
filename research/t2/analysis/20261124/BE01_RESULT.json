@@ -1,0 +1,147 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_TOY_CONGESTION_GAME_NOT_EMPIRICAL",
+  "worlds": 96,
+  "strictImprovementEdges": 1388,
+  "externalityEdges": 16,
+  "witness": {
+    "N": 8,
+    "a": 1,
+    "b": 1,
+    "c": 5,
+    "d": 0,
+    "n": 2,
+    "next": 3,
+    "gain": 1,
+    "costBefore": 36,
+    "costAfter": 37
+  },
+  "epsilon": {
+    "0": {
+      "worlds": 96,
+      "equilibria": 116,
+      "maxRatio": 1.1111111111111112,
+      "maxWitness": {
+        "N": 8,
+        "a": 1,
+        "b": 1,
+        "c": 5,
+        "d": 0,
+        "epsilon": 0,
+        "equilibria": [
+          3,
+          4
+        ],
+        "opt": 36,
+        "worst": 40
+      },
+      "asyncRuns": 1504,
+      "asyncMaxSteps": 24,
+      "syncRuns": 1504,
+      "syncFixed": 644,
+      "syncCycles": 860,
+      "maxCycleRatio": 5.491525423728813,
+      "cycleWitness": {
+        "N": 24,
+        "a": 1,
+        "b": 2,
+        "c": 5,
+        "d": 0,
+        "epsilon": 0,
+        "start": 0,
+        "cycle": [
+          0,
+          24
+        ],
+        "cost": 648,
+        "opt": 118
+      },
+      "worseWorstEq": 0
+    },
+    "1": {
+      "worlds": 96,
+      "equilibria": 180,
+      "maxRatio": 1.25,
+      "maxWitness": {
+        "N": 8,
+        "a": 1,
+        "b": 1,
+        "c": 5,
+        "d": 0,
+        "epsilon": 1,
+        "equilibria": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "opt": 36,
+        "worst": 45
+      },
+      "asyncRuns": 1504,
+      "asyncMaxSteps": 24,
+      "syncRuns": 1504,
+      "syncFixed": 696,
+      "syncCycles": 808,
+      "maxCycleRatio": 5.491525423728813,
+      "cycleWitness": {
+        "N": 24,
+        "a": 1,
+        "b": 2,
+        "c": 5,
+        "d": 0,
+        "epsilon": 1,
+        "start": 0,
+        "cycle": [
+          0,
+          24
+        ],
+        "cost": 648,
+        "opt": 118
+      },
+      "worseWorstEq": 42
+    },
+    "3": {
+      "worlds": 96,
+      "equilibria": 332,
+      "maxRatio": 2.125,
+      "maxWitness": {
+        "N": 8,
+        "a": 1,
+        "b": 0,
+        "c": 1,
+        "d": 1,
+        "epsilon": 3,
+        "equilibria": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "opt": 8,
+        "worst": 17
+      },
+      "asyncRuns": 1504,
+      "asyncMaxSteps": 24,
+      "syncRuns": 1504,
+      "syncFixed": 948,
+      "syncCycles": 556,
+      "maxCycleRatio": 2.176470588235294,
+      "cycleWitness": {
+        "N": 24,
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 2,
+        "epsilon": 3,
+        "start": 0,
+        "cycle": [
+          0,
+          24
+        ],
+        "cost": 888,
+        "opt": 408
+      },
+      "worseWorstEq": 72
+    }
+  }
+}
