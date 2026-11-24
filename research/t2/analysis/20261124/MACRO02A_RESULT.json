@@ -1,0 +1,156 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_SYNTHETIC_NOT_FIELD",
+  "worlds": 2048,
+  "arms": 24576,
+  "train": 1632,
+  "test": 416,
+  "policies": [
+    {
+      "g": 3,
+      "o": 0
+    },
+    {
+      "g": 3,
+      "o": 2
+    },
+    {
+      "g": 3,
+      "o": 4
+    },
+    {
+      "g": 3,
+      "o": 6
+    },
+    {
+      "g": 4,
+      "o": 0
+    },
+    {
+      "g": 4,
+      "o": 2
+    },
+    {
+      "g": 4,
+      "o": 4
+    },
+    {
+      "g": 4,
+      "o": 6
+    },
+    {
+      "g": 5,
+      "o": 0
+    },
+    {
+      "g": 5,
+      "o": 2
+    },
+    {
+      "g": 5,
+      "o": 4
+    },
+    {
+      "g": 5,
+      "o": 6
+    }
+  ],
+  "selections": {
+    "1:2": {
+      "mean": 0,
+      "minimax": 0
+    },
+    "1:4": {
+      "mean": 0,
+      "minimax": 0
+    },
+    "2:2": {
+      "mean": 0,
+      "minimax": 0
+    },
+    "2:4": {
+      "mean": 0,
+      "minimax": 0
+    }
+  },
+  "stats": {
+    "fixed": {
+      "n": 416,
+      "J": 13638,
+      "S": 6444,
+      "L": 7194,
+      "regret": 1556,
+      "worst": 24,
+      "strictMiss": 378,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    },
+    "demand": {
+      "n": 416,
+      "J": 13188,
+      "S": 6348,
+      "L": 6840,
+      "regret": 1106,
+      "worst": 21,
+      "strictMiss": 254,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    },
+    "train_mean": {
+      "n": 416,
+      "J": 12562,
+      "S": 6472,
+      "L": 6090,
+      "regret": 480,
+      "worst": 9,
+      "strictMiss": 110,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    },
+    "train_minimax": {
+      "n": 416,
+      "J": 12562,
+      "S": 6472,
+      "L": 6090,
+      "regret": 480,
+      "worst": 9,
+      "strictMiss": 110,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    },
+    "observed": {
+      "n": 416,
+      "J": 12562,
+      "S": 6472,
+      "L": 6090,
+      "regret": 480,
+      "worst": 9,
+      "strictMiss": 110,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    },
+    "oracle": {
+      "n": 416,
+      "J": 12082,
+      "S": 6146,
+      "L": 5936,
+      "regret": 0,
+      "worst": 0,
+      "strictMiss": 0,
+      "denial": 0,
+      "terminal": 0,
+      "throughput": 3328
+    }
+  },
+  "covered": 416,
+  "paired": {
+    "better": 0,
+    "tie": 416,
+    "worse": 0
+  },
+  "localConflict": 0
+}
