@@ -1,0 +1,309 @@
+{
+  "status": "P145_WEIGHTS_SENSITIVITY_NOT_EMPIRICAL_VALIDATION",
+  "scenarios": [
+    {
+      "name": "base",
+      "weights": {
+        "I": 0.3,
+        "V": 0.25,
+        "F": 0.2,
+        "R": 0.15,
+        "C": 0.1
+      }
+    },
+    {
+      "name": "I_more",
+      "weights": {
+        "I": 0.3488372093023256,
+        "V": 0.23255813953488372,
+        "F": 0.186046511627907,
+        "R": 0.13953488372093023,
+        "C": 0.0930232558139535
+      }
+    },
+    {
+      "name": "I_less",
+      "weights": {
+        "I": 0.2432432432432432,
+        "V": 0.27027027027027023,
+        "F": 0.21621621621621623,
+        "R": 0.16216216216216214,
+        "C": 0.10810810810810811
+      }
+    },
+    {
+      "name": "V_more",
+      "weights": {
+        "I": 0.2823529411764706,
+        "V": 0.29411764705882354,
+        "F": 0.18823529411764706,
+        "R": 0.1411764705882353,
+        "C": 0.09411764705882353
+      }
+    },
+    {
+      "name": "V_less",
+      "weights": {
+        "I": 0.32,
+        "V": 0.2,
+        "F": 0.21333333333333335,
+        "R": 0.16,
+        "C": 0.10666666666666667
+      }
+    },
+    {
+      "name": "F_more",
+      "weights": {
+        "I": 0.2857142857142857,
+        "V": 0.23809523809523808,
+        "F": 0.23809523809523808,
+        "R": 0.14285714285714285,
+        "C": 0.09523809523809523
+      }
+    },
+    {
+      "name": "F_less",
+      "weights": {
+        "I": 0.3157894736842105,
+        "V": 0.2631578947368421,
+        "F": 0.15789473684210528,
+        "R": 0.15789473684210525,
+        "C": 0.10526315789473684
+      }
+    },
+    {
+      "name": "R_more",
+      "weights": {
+        "I": 0.2891566265060241,
+        "V": 0.24096385542168672,
+        "F": 0.19277108433734938,
+        "R": 0.18072289156626503,
+        "C": 0.09638554216867469
+      }
+    },
+    {
+      "name": "R_less",
+      "weights": {
+        "I": 0.3116883116883117,
+        "V": 0.2597402597402597,
+        "F": 0.2077922077922078,
+        "R": 0.11688311688311687,
+        "C": 0.1038961038961039
+      }
+    },
+    {
+      "name": "C_more",
+      "weights": {
+        "I": 0.29268292682926833,
+        "V": 0.24390243902439027,
+        "F": 0.19512195121951223,
+        "R": 0.14634146341463417,
+        "C": 0.12195121951219513
+      }
+    },
+    {
+      "name": "C_less",
+      "weights": {
+        "I": 0.30769230769230765,
+        "V": 0.2564102564102564,
+        "F": 0.20512820512820512,
+        "R": 0.15384615384615383,
+        "C": 0.07692307692307693
+      }
+    }
+  ],
+  "total_choices": 21,
+  "method": "For each of 5 weighting axes multiply base weight by 0.75 or 1.25, normalize remaining weights, add original baseline; no fitting to outcomes.",
+  "results": [
+    {
+      "name": "Retain missing trials as abstentions",
+      "base": 98,
+      "min": 97.56,
+      "max": 98.46,
+      "rank_min": 1,
+      "rank_max": 1,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "Operator-only private randomized labels",
+      "base": 98,
+      "min": 97.56,
+      "max": 98.46,
+      "rank_min": 1,
+      "rank_max": 1,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "RF10 official-format audit",
+      "base": 96,
+      "min": 95.61,
+      "max": 96.41,
+      "rank_min": 3,
+      "rank_max": 4,
+      "decision": "DO_NOW"
+    },
+    {
+      "name": "Prior-art reproduction before novelty claim",
+      "base": 95.5,
+      "min": 95.12,
+      "max": 95.9,
+      "rank_min": 3,
+      "rank_max": 4,
+      "decision": "ADOPT"
+    },
+    {
+      "name": "RF12 stationary-object null counterexamples",
+      "base": 94,
+      "min": 93.33,
+      "max": 94.74,
+      "rank_min": 5,
+      "rank_max": 6,
+      "decision": "DO_NOW"
+    },
+    {
+      "name": "One-link RSSI baseline",
+      "base": 93.5,
+      "min": 93.16,
+      "max": 93.81,
+      "rank_min": 5,
+      "rank_max": 7,
+      "decision": "DO_WITH_CSI"
+    },
+    {
+      "name": "Unseen session and placement holdout",
+      "base": 93,
+      "min": 92.38,
+      "max": 93.68,
+      "rank_min": 6,
+      "rank_max": 7,
+      "decision": "FREEZE"
+    },
+    {
+      "name": "RF10-to-RF05 strict interface replay",
+      "base": 92,
+      "min": 91.35,
+      "max": 92.63,
+      "rank_min": 8,
+      "rank_max": 8,
+      "decision": "NEXT"
+    },
+    {
+      "name": "School-owned CSI hardware inventory and permission",
+      "base": 90,
+      "min": 89.05,
+      "max": 91.05,
+      "rank_min": 9,
+      "rank_max": 9,
+      "decision": "BLOCKED_ON_OWNER"
+    },
+    {
+      "name": "RF11 blinding and leakage audit",
+      "base": 89,
+      "min": 88.27,
+      "max": 89.65,
+      "rank_min": 9,
+      "rank_max": 11,
+      "decision": "IN_PROGRESS"
+    },
+    {
+      "name": "CSI versus RSSI paired held-out comparison",
+      "base": 88,
+      "min": 86.67,
+      "max": 89.47,
+      "rank_min": 10,
+      "rank_max": 12,
+      "decision": "AFTER_MEASUREMENT"
+    },
+    {
+      "name": "Two longitudinal owned Wi-Fi observation links",
+      "base": 87.5,
+      "min": 86.49,
+      "max": 88.42,
+      "rank_min": 11,
+      "rank_max": 13,
+      "decision": "PILOT_ONLY"
+    },
+    {
+      "name": "SUMO vehicle-event parity mismatch",
+      "base": 87,
+      "min": 85.71,
+      "max": 88.42,
+      "rank_min": 12,
+      "rank_max": 14,
+      "decision": "NEXT_T_TRACK"
+    },
+    {
+      "name": "Policy regret evaluated only after actual sensor error",
+      "base": 86,
+      "min": 84.29,
+      "max": 87.89,
+      "rank_min": 14,
+      "rank_max": 16,
+      "decision": "LATER_GATED"
+    },
+    {
+      "name": "Single main branch and frequent meaningful commits",
+      "base": 85.5,
+      "min": 84.74,
+      "max": 86.19,
+      "rank_min": 13,
+      "rank_max": 16,
+      "decision": "RETAIN"
+    },
+    {
+      "name": "MaxPressure and CTM independent baselines",
+      "base": 85,
+      "min": 84.39,
+      "max": 85.64,
+      "rank_min": 15,
+      "rank_max": 16,
+      "decision": "NEXT_T_TRACK"
+    },
+    {
+      "name": "Independent junior team audit with correct attribution",
+      "base": 84,
+      "min": 83.6,
+      "max": 84.35,
+      "rank_min": 17,
+      "rank_max": 17,
+      "decision": "PILOT"
+    },
+    {
+      "name": "Motion-only feature as complete obstruction diagnosis",
+      "base": 46,
+      "min": 43.16,
+      "max": 48.57,
+      "rank_min": 18,
+      "rank_max": 18,
+      "decision": "REJECT"
+    },
+    {
+      "name": "Procuring new devices before inventory",
+      "base": 42,
+      "min": 41.05,
+      "max": 42.86,
+      "rank_min": 19,
+      "rank_max": 19,
+      "decision": "REJECT"
+    },
+    {
+      "name": "P140-like arbitrary queue-threshold tuning",
+      "base": 38,
+      "min": 35.79,
+      "max": 40,
+      "rank_min": 20,
+      "rank_max": 20,
+      "decision": "STOP"
+    },
+    {
+      "name": "Use real road signals as experimental controller",
+      "base": 21,
+      "min": 19.46,
+      "max": 22.33,
+      "rank_min": 21,
+      "rank_max": 21,
+      "decision": "PROHIBITED"
+    }
+  ],
+  "caution": "This is local judgement sensitivity, not statistical uncertainty and not independent evidence of control or RF sensor performance."
+}
