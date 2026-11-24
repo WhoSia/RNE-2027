@@ -1,0 +1,56 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_EXACT_SHARED_KERNEL_PARITY",
+  "all": {
+    "arms": 864,
+    "ticks": 894547,
+    "events": 354998,
+    "skipped": 539549,
+    "J": 12517490
+  },
+  "bySize": {
+    "24": {
+      "arms": 288,
+      "ticks": 42011,
+      "events": 17075,
+      "skipped": 24936,
+      "J": 66232
+    },
+    "96": {
+      "arms": 288,
+      "ticks": 170410,
+      "events": 67553,
+      "skipped": 102857,
+      "J": 794768
+    },
+    "384": {
+      "arms": 288,
+      "ticks": 682126,
+      "events": 270370,
+      "skipped": 411756,
+      "J": 11656490
+    }
+  },
+  "byStride": {
+    "1": {
+      "arms": 288,
+      "ticks": 120127,
+      "events": 94080,
+      "skipped": 26047,
+      "J": 11621964
+    },
+    "4": {
+      "arms": 288,
+      "ticks": 195828,
+      "events": 115766,
+      "skipped": 80062,
+      "J": 715058
+    },
+    "12": {
+      "arms": 288,
+      "ticks": 578592,
+      "events": 145152,
+      "skipped": 433440,
+      "J": 180468
+    }
+  }
+}
