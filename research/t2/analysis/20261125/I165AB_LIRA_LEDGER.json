@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "EX01B — student-reproducible decisive observation-transfer experiment",
+      "decision": "NEXT_EXHIBITION",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.98,
+        "J": 1,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.98
+      },
+      "priority": 0.994,
+      "evidence": "Prior minimal-info gate failed; demonstrate both positive and negative with same criteria"
+    },
+    {
+      "unit": "I165C — pointwise empirical guard and abstention under unseen regimes",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.99,
+      "evidence": "Mean guard small shifted improvement but per-case harm remains; distinguish no-regret samples from max regret"
+    },
+    {
+      "unit": "MACRO05B — observation error throughout feedback",
+      "decision": "NEXT_I_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Perfect observed bits assumption; no RF calibration"
+    },
+    {
+      "unit": "BE02B — departure cohort cost and boundary audit",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.96,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.95,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.971,
+      "evidence": "Route cost near-equality is not equilibrium"
+    },
+    {
+      "unit": "OPT02 — high-load switching-loss comparison",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.968,
+      "evidence": "Prior low-load null, reference family limited"
+    },
+    {
+      "unit": "RF20B — offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Dependencies unresolved"
+    },
+    {
+      "unit": "AGG04D — prospective exact computation selector",
+      "decision": "SUPPORT_CS",
+      "ratings": {
+        "L": 0.89,
+        "I": 0.92,
+        "R": 0.98,
+        "A": 0.97,
+        "J": 0.94,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.944,
+      "evidence": "Exact hybrid evidence but not core decision quality"
+    },
+    {
+      "unit": "Approved tabletop aggregate observation",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No actual data, teacher approval"
+    },
+    {
+      "unit": "SUMO external parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Previous failure"
+    },
+    {
+      "unit": "Universal minimal-info sufficiency claim",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.2,
+        "I": 0.15,
+        "R": 0.2,
+        "A": 0.95,
+        "J": 0.2,
+        "E": 0.15,
+        "V": 0.2,
+        "C": 0.9
+      },
+      "priority": 0.295,
+      "evidence": "I165A prospective criterion failed, shift worsens"
+    }
+  ],
+  "claimEvidenceRatings": [
+    {
+      "claim": "Universal minimal observation sufficiency",
+      "score": 0.18,
+      "status": "REJECT_AS_CURRENT_GENERAL_CLAIM"
+    },
+    {
+      "claim": "In-distribution observation value in fixed model",
+      "score": 0.8,
+      "status": "SUPPORTED_SYNTHETIC_ONLY"
+    },
+    {
+      "claim": "Guarded observation transfer",
+      "score": 0.64,
+      "status": "PROMISING_SMALL_EFFECT_FRESH_COHORT"
+    },
+    {
+      "claim": "Real-world performance",
+      "score": 0.1,
+      "status": "UNVALIDATED"
+    }
+  ]
+}
