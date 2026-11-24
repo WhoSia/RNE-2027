@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A1 — spatial network junctions and equal-information baseline",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.99,
+      "evidence": "CTM core verified; no network junction or literature-faithful comparator yet"
+    },
+    {
+      "unit": "AGG04B — temporal block/event aggregation with conservation and error audit",
+      "decision": "NEXT_AGG_CS",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.95,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.987,
+      "evidence": "AGG04A negative speed result; reduce step count rather than only state dimension"
+    },
+    {
+      "unit": "I165 — distribution-shift and scenario support test",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.986,
+      "evidence": "Known-family forecast limitation"
+    },
+    {
+      "unit": "MACRO05B — full observation error",
+      "decision": "NEXT_I_RF",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "No measured RF; selector-only noise limitation"
+    },
+    {
+      "unit": "OPT02 — higher-load dynamic programming with explicit switching loss",
+      "decision": "NEXT_T_CS",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.978,
+      "evidence": "OPT01 tiny gains without switching loss"
+    },
+    {
+      "unit": "BE02 — same-OD endogenous demand bridge",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Spatial CTM creates route assignment foundation"
+    },
+    {
+      "unit": "RF20B — exact offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Dependencies unresolved"
+    },
+    {
+      "unit": "RF physical authorized tabletop measurements",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No physical data"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Previous external failure"
+    },
+    {
+      "unit": "Assume macro always faster or arbitrary micro tuning",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.25,
+        "I": 0.2,
+        "R": 0.3,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.35,
+      "evidence": "Contradicted by native measurement"
+    }
+  ]
+}
