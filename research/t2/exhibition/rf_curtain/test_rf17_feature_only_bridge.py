@@ -1,8 +1,9 @@
 import csv
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
-from rf17_feature_only_bridge import PLAN,WINDOW,WIRE,aggregate_holdout,export_features,read_exact,testing_plan
+from rf17_feature_only_bridge import PLAN,WINDOW,WIRE,aggregate_holdout,export_features,read_exact,testing_plan,read_frozen_plan
 
 
 def fixture():
@@ -50,5 +51,30 @@ class RF17Tests(unittest.TestCase):
         with self.assertRaises(ValueError):aggregate_holdout(p,w,s)
         p,w,s=fixture();w[1]['trial_origin']='measured_authorized_lab'
         with self.assertRaises(ValueError):aggregate_holdout(p,w,s)
+
+    def test_frozen_full_plan(self):
+        with tempfile.TemporaryDirectory() as d:
+            path=Path(d)/'plan.csv'; rows=[]
+            for session in ('S1','S2','S3'):
+                for placement in ('P1','P2'):
+                    cell=session,placement
+                    partition=('train' if cell in {('S1','P1'),('S2','P1')} else
+                               'sealed_unused_reserve' if cell==('S1','P2') else
+                               'primary_blind_holdout' if cell==('S3','P2') else 'secondary_holdout')
+                    for i in range(1,51):
+                        rows.append(dict(trial_id=f'{session}_{placement}_{i:03d}',session_id=session,
+                                         placement_id=placement,reset_index=i,partition=partition))
+            def write(data):
+                with path.open('w',newline='') as out:
+                    w=csv.DictWriter(out,fieldnames=PLAN);w.writeheader();w.writerows(data)
+                return hashlib.sha256(path.read_bytes()).hexdigest()
+            digest=write(rows)
+            self.assertEqual(len(read_frozen_plan(path,digest)),300)
+            self.assertEqual(len(testing_plan(read_frozen_plan(path,digest))),150)
+            with self.assertRaises(ValueError):read_frozen_plan(path,'0'*64)
+            truncated=write(rows[:-1])
+            with self.assertRaises(ValueError):read_frozen_plan(path,truncated)
+            broken=list(rows);broken[-1]=dict(broken[-1],reset_index=49)
+            with self.assertRaises(ValueError):read_frozen_plan(path,write(broken))
 
 if __name__=='__main__':unittest.main()
