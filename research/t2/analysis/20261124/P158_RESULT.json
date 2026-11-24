@@ -1,0 +1,413 @@
+{
+  "status": "EXECUTED_JS_ISOLATE_SYNTHETIC_RESOURCE_CAPS",
+  "arms": 2096,
+  "A": {
+    "results": [
+      {
+        "top": {
+          "shared": true,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 0,
+        "increase": 6,
+        "min": {
+          "id": "82:1",
+          "n": 7,
+          "P": 1,
+          "old": 37,
+          "reuse": 40
+        },
+        "witnesses": [
+          {
+            "id": "82:1",
+            "n": 7,
+            "P": 1,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": "82:2",
+            "n": 7,
+            "P": 2,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": "83:1",
+            "n": 7,
+            "P": 1,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": "83:2",
+            "n": 7,
+            "P": 2,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": "86:2",
+            "n": 7,
+            "P": 2,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": "87:2",
+            "n": 7,
+            "P": 2,
+            "old": 37,
+            "reuse": 40
+          }
+        ],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "decrease": 0,
+        "tie": 6,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 6,
+        "strandedReuse": 6
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 6,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "decrease": 0,
+        "tie": 6,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 6,
+        "strandedReuse": 6
+      }
+    ],
+    "contrasts": [
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "old": [
+          0,
+          0,
+          6
+        ],
+        "reuse": [
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "old": [
+          0,
+          6,
+          0
+        ],
+        "reuse": [
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "old": [
+          0,
+          4,
+          2
+        ],
+        "reuse": [
+          4,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "B": {
+    "results": [
+      {
+        "top": {
+          "shared": true,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 126,
+        "increase": 2,
+        "min": {
+          "id": 126,
+          "n": 6,
+          "P": 1,
+          "old": 33,
+          "reuse": 36
+        },
+        "witnesses": [
+          {
+            "id": 126,
+            "n": 6,
+            "P": 1,
+            "old": 33,
+            "reuse": 36
+          },
+          {
+            "id": 127,
+            "n": 7,
+            "P": 1,
+            "old": 37,
+            "reuse": 40
+          }
+        ],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "decrease": 16,
+        "tie": 112,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 24,
+        "strandedReuse": 4
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 128,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "decrease": 16,
+        "tie": 112,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 24,
+        "strandedReuse": 4
+      }
+    ],
+    "contrasts": [
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "old": [
+          0,
+          106,
+          22
+        ],
+        "reuse": [
+          0,
+          124,
+          4
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "old": [
+          0,
+          128,
+          0
+        ],
+        "reuse": [
+          2,
+          126,
+          0
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "old": [
+          0,
+          108,
+          20
+        ],
+        "reuse": [
+          2,
+          122,
+          4
+        ]
+      }
+    ]
+  },
+  "C": {
+    "results": [
+      {
+        "top": {
+          "shared": true,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 126,
+        "increase": 2,
+        "min": {
+          "id": 82,
+          "n": 7,
+          "P": 1,
+          "old": 37,
+          "reuse": 40
+        },
+        "witnesses": [
+          {
+            "id": 82,
+            "n": 7,
+            "P": 1,
+            "old": 37,
+            "reuse": 40
+          },
+          {
+            "id": 83,
+            "n": 7,
+            "P": 1,
+            "old": 37,
+            "reuse": 40
+          }
+        ],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "decrease": 90,
+        "tie": 38,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 332,
+        "strandedReuse": 169
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "decrease": 0,
+        "tie": 128,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 0,
+        "strandedReuse": 0
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "decrease": 60,
+        "tie": 68,
+        "increase": 0,
+        "min": null,
+        "witnesses": [],
+        "strandedOld": 289,
+        "strandedReuse": 197
+      }
+    ],
+    "contrasts": [
+      {
+        "top": {
+          "shared": true,
+          "partition": true
+        },
+        "old": [
+          0,
+          16,
+          112
+        ],
+        "reuse": [
+          0,
+          63,
+          65
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": false
+        },
+        "old": [
+          20,
+          108,
+          0
+        ],
+        "reuse": [
+          22,
+          106,
+          0
+        ]
+      },
+      {
+        "top": {
+          "shared": false,
+          "partition": true
+        },
+        "old": [
+          6,
+          33,
+          89
+        ],
+        "reuse": [
+          8,
+          58,
+          62
+        ]
+      }
+    ]
+  }
+}
