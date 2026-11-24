@@ -1,0 +1,89 @@
+{
+  "status": "NATIVE_P156_AGGREGATE_REPLAY_AND_SYNTHETIC_STRESS",
+  "trainWorlds": 52224,
+  "testWorlds": 13312,
+  "arms": 131072,
+  "baseline": 4928,
+  "results": {
+    "context": {
+      "n": 13312,
+      "covered": 5824,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4928,
+      "allWorst": 15,
+      "changed": 0
+    },
+    "total": {
+      "n": 13312,
+      "covered": 6740,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4928,
+      "allWorst": 15,
+      "changed": 0
+    },
+    "counts": {
+      "n": 13312,
+      "covered": 7472,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4868,
+      "allWorst": 15,
+      "changed": 0
+    },
+    "head": {
+      "n": 13312,
+      "covered": 8060,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4664,
+      "allWorst": 15,
+      "changed": 0
+    },
+    "ordered": {
+      "n": 13312,
+      "covered": 8240,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4664,
+      "allWorst": 15,
+      "changed": 0
+    },
+    "flip": {
+      "n": 13312,
+      "covered": 7340,
+      "strictHarm": 244,
+      "coveredRegret": 1099,
+      "coveredWorst": 12,
+      "allRegret": 4868,
+      "allWorst": 15,
+      "changed": 11200
+    },
+    "missing": {
+      "n": 13312,
+      "covered": 1360,
+      "strictHarm": 0,
+      "coveredRegret": 0,
+      "coveredWorst": 0,
+      "allRegret": 4868,
+      "allWorst": 15,
+      "changed": 11200
+    },
+    "mixed10": {
+      "n": 13312,
+      "covered": 7996,
+      "strictHarm": 4,
+      "coveredRegret": 18,
+      "coveredWorst": 8,
+      "allRegret": 4664,
+      "allWorst": 15,
+      "changed": 1068
+    }
+  }
+}
