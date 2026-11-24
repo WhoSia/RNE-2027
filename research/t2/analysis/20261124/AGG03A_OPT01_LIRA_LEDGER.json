@@ -1,0 +1,175 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "AGG03B — forecast-only recursive planning vs matched-information baselines",
+      "decision": "NEXT_MACRO_I",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.991,
+      "evidence": "AGG03A is promising but future tape known"
+    },
+    {
+      "unit": "MACRO05A — finite capacity CTM and published-method comparator",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.987,
+      "evidence": "Need physically dimensioned network and fair reference; public sources suffice"
+    },
+    {
+      "unit": "ECON01 — paired seed-level policy effect and uncertainty",
+      "decision": "NEXT_ECON",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.984,
+      "evidence": "New cohorts and paired costs, no empirical inference yet"
+    },
+    {
+      "unit": "MACRO05B — full feedback observation error",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Selector-only prior error"
+    },
+    {
+      "unit": "OPT02 — larger load DP or state decomposition with frozen hypothesis",
+      "decision": "NEXT_T_CS",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.974,
+      "evidence": "OPT01 almost null; only escalate under meaningful load"
+    },
+    {
+      "unit": "BE02 — same-OD demand bridge",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Separate behavioral model"
+    },
+    {
+      "unit": "RF20B — default offline file chain",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Exact dependency restoration"
+    },
+    {
+      "unit": "RF physical first-party approved model-object measurement",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No CSI"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Previous parity failure"
+    },
+    {
+      "unit": "Paid-version acquisition as a research prerequisite",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.1,
+        "I": 0.1,
+        "R": 0.3,
+        "A": 0.3,
+        "J": 0.1,
+        "E": 0.1,
+        "V": 0.1,
+        "C": 0.1
+      },
+      "priority": 0.15,
+      "evidence": "Read legitimate open texts; independently validate claims"
+    }
+  ]
+}
