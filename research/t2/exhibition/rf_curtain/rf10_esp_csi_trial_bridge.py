@@ -3,7 +3,7 @@
 No radio capture, MAC export, device fingerprinting, or measured-signal claims.
 Requires authorized lab inventory and *independently assigned* trial labels.
 This is an interface to rf_pilot_evaluator (not a claimed original WiTraffic
-replication). Pass output to the existing RF05 sessionÃplacement evaluator.
+replication). Pass output to the existing RF05 session×placement evaluator.
 """
 from __future__ import annotations
 
