@@ -9,7 +9,7 @@ function run(){
  const stats=Object.fromEntries(["all","active_at_start",...clocks].map(k=>[k,Object.fromEntries(names.map(n=>[n,blank()]))]));
  const seedStats={},coverage={count:0,movement:0,total:0},trainCoverage={blocks:0,active:0};let trainArms=0,testArms=0;
  function add(map,k,seed,d,b,x){let a=map.get(k);if(!a){a={n:0,d:0,b:0,x:0,seeds:new Set()};map.set(k,a)}a.n++;a.d+=d;a.b+=b;a.x+=x;a.seeds.add(seed)}
- const supported=a=>a&&a.seeds.size>=4;
+ const supported=a=>!!a&&a.seeds.size>=4;
  function score(seed,clock,keys,active,d,b,x){
   const a=maps[0].get(keys[0]),b0=maps[1].get(keys[1]),c0=maps[2].get(keys[2]);assert(supported(a),"context support");const b1=supported(b0)?b0:a,c=supported(c0)?c0:b1;
   coverage.total++;coverage.count+=+supported(b0);coverage.movement+=+supported(c0);
