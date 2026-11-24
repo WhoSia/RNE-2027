@@ -1,0 +1,96 @@
+{
+  "status": "INITIAL_EDITORIAL_DECISION_NOT_JUDGING_PREDICTION",
+  "basis": "2026 72nd national exhibition guide pp7-8; 2027 rules not verified. Student participation feasibility is not evidence of actual effort.",
+  "source": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=48777",
+  "rubric": {
+    "creativity": 0.45,
+    "theory": 0.25,
+    "effort": 0.15,
+    "practicality": 0.15
+  },
+  "options": [
+    {
+      "option": "Decision-preserving aggregation under finite capacity and partial observation",
+      "ratings": {
+        "creativity": 0.85,
+        "theory": 0.86,
+        "studentParticipationFeasibility": 0.75,
+        "practicality": 0.72
+      },
+      "score": 0.818,
+      "note": "Primary conditional candidate; missing physical/external validation"
+    },
+    {
+      "option": "Exact adaptive simulator as independent project",
+      "ratings": {
+        "creativity": 0.65,
+        "theory": 0.9,
+        "studentParticipationFeasibility": 0.8,
+        "practicality": 0.7
+      },
+      "score": 0.743,
+      "note": "Strong correctness; standard event simulation limits novelty"
+    },
+    {
+      "option": "Same-OD behavioral economics alone",
+      "ratings": {
+        "creativity": 0.68,
+        "theory": 0.72,
+        "studentParticipationFeasibility": 0.75,
+        "practicality": 0.6
+      },
+      "score": 0.689,
+      "note": "Grid cost landscape not dynamic equilibrium"
+    },
+    {
+      "option": "RF sensing as primary novelty",
+      "ratings": {
+        "creativity": 0.75,
+        "theory": 0.48,
+        "studentParticipationFeasibility": 0.65,
+        "practicality": 0.55
+      },
+      "score": 0.638,
+      "note": "No measured CSI; gated"
+    },
+    {
+      "option": "All tracks as equal central claims",
+      "ratings": {
+        "creativity": 0.55,
+        "theory": 0.55,
+        "studentParticipationFeasibility": 0.45,
+        "practicality": 0.48
+      },
+      "score": 0.525,
+      "note": "Scope and student explanation risk"
+    }
+  ],
+  "actions": [
+    {
+      "priority": 0.99,
+      "action": "Student individually reconstruct a small model and derive conservation/one counterexample; record actual contributions and AI use."
+    },
+    {
+      "priority": 0.98,
+      "action": "Pre-register one decision-value hypothesis and compare identical-information baselines on untouched synthetic cases."
+    },
+    {
+      "priority": 0.96,
+      "action": "Teacher-approved physical tabletop validation with independently recorded aggregate ground truth; no public-road operation."
+    },
+    {
+      "priority": 0.94,
+      "action": "Prepare three-minute explanation and ten-minute adversarial Q&A using actual claims, one failure, one visual, and one reproducible experiment; verify current 2027 guide."
+    },
+    {
+      "priority": 0.9,
+      "action": "Use exact simulation speed as supporting evidence rather than unverified core novelty."
+    }
+  ],
+  "gates": [
+    "No actual RF claim without physical truth and authorized experiment",
+    "No award likelihood or publication authority inference",
+    "No student effort claim based on AI-generated commits; log roles accurately",
+    "No actual road control or external sensing"
+  ]
+}
