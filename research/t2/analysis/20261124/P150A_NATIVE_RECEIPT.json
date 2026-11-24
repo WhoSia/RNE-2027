@@ -1,0 +1,18 @@
+{
+  "status": "P150A_NODE_GO_NATIVE_BYTE_MATCH",
+  "node": "v22.16.0",
+  "go": "go1.23.2 linux/amd64",
+  "unique_scenarios": 432,
+  "native_simulations": 864,
+  "checks": "old-stock bounds, capacity, conservation, complete 24-car clearing in both implementations",
+  "csv_bytes": 10904,
+  "csv_sha256": "1df3af45bc5080d116cd04e21907fa797fafcc8ead404f84deb6126507e368bb",
+  "csv_fnv1a64": "6239160048618624920",
+  "cmp_exit_code": 0,
+  "source_blobs": {
+    "node": "2bf2ccaf6be00f0fd606c09b2f7056c29672e652",
+    "go": "2d553492daff2b4be8ff82e6945945ef43bca457",
+    "result": "221e733f6f406d30fd0065a341daa147f86f395f"
+  },
+  "limits": "The two implementations share the same abstract model and deterministic tapes; not independent physical evidence. Earlier V8 execution is a redundant development check, excluded from native counts."
+}
