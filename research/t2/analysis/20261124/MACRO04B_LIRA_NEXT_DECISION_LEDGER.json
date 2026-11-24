@@ -1,0 +1,166 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "basis": "MACRO03C/04B and BE01, 8-axis weights retained",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "allocation": {
+    "MACRO": 0.5,
+    "T": 0.2,
+    "I": 0.15,
+    "RF": 0.15
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A exact finite-capacity/cycle-based published reference transfer",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.95,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.988,
+      "evidence": "Current pressure is simplified; held Gregoire, Varaiya, Aboudolas, missing Kouvelas"
+    },
+    {
+      "unit": "ECON01 seed-cluster paired effect and demand-regime audit",
+      "decision": "NEXT_ECON",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.984,
+      "evidence": "Counts lower mean but higher worst; correlated contexts, no per-seed inference yet"
+    },
+    {
+      "unit": "MACRO05B measurement boundary and noise-robust full feedback",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "04B only selector error; feedback has ideal exact observations"
+    },
+    {
+      "unit": "T161 prefix theorem scope and finite-capacity dynamics transfer",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.97,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.972,
+      "evidence": "Shared independent exits restriction; external engine gate remains"
+    },
+    {
+      "unit": "BE02 same-OD endogenous demand feedback bridge",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Toy externality and cycles not transport dynamics"
+    },
+    {
+      "unit": "RF20B dependency restoration and actual default offline chain",
+      "decision": "GATED_RF_M",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Local dependencies not restored; no integration run"
+    },
+    {
+      "unit": "RF physical authorized measurement of presence and static drift",
+      "decision": "GATED_RF_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No CSI; need approval/equipment/independent truth"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "External parity unresolved"
+    },
+    {
+      "unit": "Unprincipled phase/threshold retuning",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "No hypothesis"
+    }
+  ]
+}
