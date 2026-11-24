@@ -1,0 +1,159 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A textbook-consistent CTM and published comparator",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.99,
+      "evidence": "Seven newly held works directly support model/comparator"
+    },
+    {
+      "unit": "AGG02 predictive coarse-graining with disjoint seeds and preblock information",
+      "decision": "NEXT_T_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.985,
+      "evidence": "AGG01 mean error 3851 and absolute block error21330; realized moments cannot forecast"
+    },
+    {
+      "unit": "ECON01 paired seed-level uncertainty and demand strata",
+      "decision": "NEXT_ECON",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.984,
+      "evidence": "Do not treat repeated schedules/blocks as IID"
+    },
+    {
+      "unit": "MACRO05B full feedback observation-error boundary",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Prior selector-only corruption"
+    },
+    {
+      "unit": "BE02 same-OD route choice coupling",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Smith/Mounce held; BE01 separate toy model"
+    },
+    {
+      "unit": "RF20B exact offline parser dependency restoration",
+      "decision": "GATED_RF_M",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Default chain unverified"
+    },
+    {
+      "unit": "RF physical first-party model object presence and static drift",
+      "decision": "GATED_RF_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Teacher approval and actual data missing"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Prior failure"
+    },
+    {
+      "unit": "Arbitrary tuning or unverified viral capability adoption",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "No evidence-based hypothesis"
+    }
+  ]
+}
