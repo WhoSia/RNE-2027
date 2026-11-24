@@ -1,0 +1,839 @@
+{
+  "status": "P149_EXACT_FINITE_CODE_BENCHMARK_NOT_SENSOR_DATA",
+  "worlds": 8,
+  "subsets": [
+    {
+      "fields": [],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 1,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 1,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 1,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 1,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 4,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 5,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 7,
+      "unique_label_readings": 4,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 1,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 7,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 4,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 3,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 5,
+      "unique_label_readings": 4,
+      "guaranteed_worlds": 6,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 15,
+      "unique_label_readings": 9,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 2,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 3,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 1,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 7,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 4,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 3,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 5,
+      "unique_label_readings": 4,
+      "guaranteed_worlds": 6,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 1,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 15,
+      "unique_label_readings": 9,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 4,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 5,
+      "unique_label_readings": 2,
+      "guaranteed_worlds": 2,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 0,
+      "reachable_readings": 15,
+      "unique_label_readings": 4,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 8,
+      "unique_label_readings": 8,
+      "guaranteed_worlds": 8,
+      "robust": true
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 20,
+      "unique_label_readings": 12,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 0,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 8,
+      "unique_label_readings": 8,
+      "guaranteed_worlds": 8,
+      "robust": true
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 16,
+      "unique_label_readings": 6,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 31,
+      "unique_label_readings": 26,
+      "guaranteed_worlds": 2,
+      "robust": false
+    }
+  ],
+  "replicas": [
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 20,
+      "unique_label_readings": 12,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": true,
+      "min_cross_label_distance": 1,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 2,
+      "reachable_readings": 32,
+      "unique_label_readings": 16,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 2,
+      "reachable_readings": 56,
+      "unique_label_readings": 56,
+      "guaranteed_worlds": 8,
+      "robust": true
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": true,
+      "min_cross_label_distance": 2,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 3,
+      "reachable_readings": 80,
+      "unique_label_readings": 80,
+      "guaranteed_worlds": 8,
+      "robust": true
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "erasure",
+      "r": 1,
+      "common_mode": false,
+      "min_cross_label_distance": 3,
+      "reachable_readings": 80,
+      "unique_label_readings": 80,
+      "guaranteed_worlds": 8,
+      "robust": true
+    },
+    {
+      "fields": [
+        "demand",
+        "demand",
+        "demand",
+        "pocket_block",
+        "pocket_block",
+        "pocket_block",
+        "downstream_block",
+        "downstream_block",
+        "downstream_block"
+      ],
+      "mode": "flip",
+      "r": 1,
+      "common_mode": true,
+      "min_cross_label_distance": 3,
+      "reachable_readings": 8,
+      "unique_label_readings": 0,
+      "guaranteed_worlds": 0,
+      "robust": false
+    }
+  ]
+}
