@@ -1,0 +1,137 @@
+{
+  "status": "DESCRIPTIVE_NOT_IID_INFERENCE",
+  "paired": {
+    "same": {
+      "presence_mean": {
+        "better": 17,
+        "tie": 0,
+        "worse": 3,
+        "sum": -3067,
+        "min": -425,
+        "max": 348
+      },
+      "presence_max": {
+        "better": 17,
+        "tie": 0,
+        "worse": 3,
+        "sum": -1980,
+        "min": -324,
+        "max": 41
+      },
+      "presence_0": {
+        "better": 10,
+        "tie": 9,
+        "worse": 1,
+        "sum": -643,
+        "min": -140,
+        "max": 16
+      },
+      "presence_4": {
+        "better": 11,
+        "tie": 7,
+        "worse": 2,
+        "sum": -636,
+        "min": -140,
+        "max": 16
+      },
+      "counts_mean": {
+        "better": 20,
+        "tie": 0,
+        "worse": 0,
+        "sum": -4114,
+        "min": -419,
+        "max": -58
+      },
+      "counts_max": {
+        "better": 19,
+        "tie": 0,
+        "worse": 1,
+        "sum": -3427,
+        "min": -333,
+        "max": 55
+      },
+      "counts_0": {
+        "better": 14,
+        "tie": 5,
+        "worse": 1,
+        "sum": -1136,
+        "min": -182,
+        "max": 16
+      },
+      "counts_4": {
+        "better": 18,
+        "tie": 1,
+        "worse": 1,
+        "sum": -1213,
+        "min": -182,
+        "max": 64
+      }
+    },
+    "shifted": {
+      "presence_mean": {
+        "better": 10,
+        "tie": 0,
+        "worse": 10,
+        "sum": 320,
+        "min": -147,
+        "max": 247
+      },
+      "presence_max": {
+        "better": 14,
+        "tie": 2,
+        "worse": 4,
+        "sum": -150,
+        "min": -125,
+        "max": 108
+      },
+      "presence_0": {
+        "better": 9,
+        "tie": 10,
+        "worse": 1,
+        "sum": -269,
+        "min": -115,
+        "max": 1
+      },
+      "presence_4": {
+        "better": 13,
+        "tie": 5,
+        "worse": 2,
+        "sum": -273,
+        "min": -115,
+        "max": 13
+      },
+      "counts_mean": {
+        "better": 10,
+        "tie": 1,
+        "worse": 9,
+        "sum": 11,
+        "min": -173,
+        "max": 154
+      },
+      "counts_max": {
+        "better": 15,
+        "tie": 0,
+        "worse": 5,
+        "sum": -611,
+        "min": -169,
+        "max": 50
+      },
+      "counts_0": {
+        "better": 11,
+        "tie": 7,
+        "worse": 2,
+        "sum": -431,
+        "min": -156,
+        "max": 16
+      },
+      "counts_4": {
+        "better": 15,
+        "tie": 2,
+        "worse": 3,
+        "sum": -431,
+        "min": -155,
+        "max": 16
+      }
+    }
+  }
+}
