@@ -1,0 +1,820 @@
+{
+  "status": "EXACT_LOGICAL_BENCHMARK_NOT_MEASUREMENT",
+  "latent_worlds": 8,
+  "subsets": [
+    {
+      "fields": [],
+      "cells": 1,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 5,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [],
+          "labels": [
+            "both",
+            "downstream",
+            "free",
+            "no_demand",
+            "pocket"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge"
+      ],
+      "cells": 2,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 4,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0
+          ],
+          "labels": [
+            "both",
+            "downstream",
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "demand"
+      ],
+      "cells": 2,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 4,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream",
+            "free",
+            "pocket"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "pocket_block"
+      ],
+      "cells": 2,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 3,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0
+          ],
+          "labels": [
+            "downstream",
+            "free",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1
+          ],
+          "labels": [
+            "both",
+            "no_demand",
+            "pocket"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "downstream_block"
+      ],
+      "cells": 2,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 3,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0
+          ],
+          "labels": [
+            "free",
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream",
+            "no_demand"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand"
+      ],
+      "cells": 3,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 3,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block"
+      ],
+      "cells": 3,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 3,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "downstream",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "both",
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "downstream_block"
+      ],
+      "cells": 3,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 3,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block"
+      ],
+      "cells": 4,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0
+          ],
+          "labels": [
+            "downstream",
+            "free"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "pocket"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "demand",
+        "downstream_block"
+      ],
+      "cells": 4,
+      "ambiguous_cells": 2,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0
+          ],
+          "labels": [
+            "free",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "pocket_block",
+        "downstream_block"
+      ],
+      "cells": 4,
+      "ambiguous_cells": 4,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0
+          ],
+          "labels": [
+            "free",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1
+          ],
+          "labels": [
+            "downstream",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0
+          ],
+          "labels": [
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "no_demand"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block"
+      ],
+      "cells": 5,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "downstream"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "downstream_block"
+      ],
+      "cells": 5,
+      "ambiguous_cells": 1,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "downstream"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "cells": 5,
+      "ambiguous_cells": 3,
+      "max_candidate_labels": 2,
+      "identifies_label": false,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1
+          ],
+          "labels": [
+            "downstream",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "no_demand",
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1
+          ],
+          "labels": [
+            "both",
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "cells": 8,
+      "ambiguous_cells": 0,
+      "max_candidate_labels": 1,
+      "identifies_label": true,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            0,
+            1
+          ],
+          "labels": [
+            "downstream"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1,
+            1
+          ],
+          "labels": [
+            "both"
+          ]
+        }
+      ]
+    },
+    {
+      "fields": [
+        "discharge",
+        "demand",
+        "pocket_block",
+        "downstream_block"
+      ],
+      "cells": 8,
+      "ambiguous_cells": 0,
+      "max_candidate_labels": 1,
+      "identifies_label": true,
+      "groups": [
+        {
+          "observation": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "labels": [
+            "no_demand"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "labels": [
+            "downstream"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "pocket"
+          ]
+        },
+        {
+          "observation": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "labels": [
+            "both"
+          ]
+        },
+        {
+          "observation": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "free"
+          ]
+        }
+      ]
+    }
+  ],
+  "minimal_identifying_sets": [
+    [
+      "demand",
+      "pocket_block",
+      "downstream_block"
+    ]
+  ]
+}
