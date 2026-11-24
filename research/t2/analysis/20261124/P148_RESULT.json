@@ -1,0 +1,84 @@
+{
+  "status": "P148_EXACT_CROSS_LANGUAGE_INTEGER_MODEL_NOT_PHYSICAL_VALIDATION",
+  "cpp_compiler": "g++ 14.2.0",
+  "node": "22.16.0",
+  "state_transitions": 52488,
+  "fnv1a64_decimal": "18038635588259548583",
+  "runs_per_implementation": 72,
+  "complete_departures_per_run": 24,
+  "csv_sha256": "366db18c5e716add3ad0e7ca905e8563511173e950b3d9398a51c800ee4f95fc",
+  "identical_stdout": true,
+  "source_blobs": {
+    "cpp": "d9dc7116858b6c3efd56adfecc308c4b3f9cd872",
+    "js": "16c1fe21f20e5ac1252e5c1be9f78b8d5ffd5b48"
+  },
+  "by_capacity": [
+    {
+      "capacity": 1,
+      "p4_wins": 11,
+      "p8_wins": 9,
+      "ties": 12,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 0,
+      "min_cost": 900,
+      "max_cost": 2124
+    },
+    {
+      "capacity": 2,
+      "p4_wins": 13,
+      "p8_wins": 11,
+      "ties": 8,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 1,
+      "min_cost": 325,
+      "max_cost": 972
+    },
+    {
+      "capacity": 3,
+      "p4_wins": 14,
+      "p8_wins": 12,
+      "ties": 6,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 0,
+      "min_cost": 172,
+      "max_cost": 596
+    },
+    {
+      "capacity": 4,
+      "p4_wins": 16,
+      "p8_wins": 11,
+      "ties": 5,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 1,
+      "min_cost": 95,
+      "max_cost": 408
+    },
+    {
+      "capacity": 5,
+      "p4_wins": 17,
+      "p8_wins": 10,
+      "ties": 5,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 0,
+      "min_cost": 95,
+      "max_cost": 302
+    },
+    {
+      "capacity": 6,
+      "p4_wins": 19,
+      "p8_wins": 8,
+      "ties": 5,
+      "p4_fewer_denials_worse_cost": 0,
+      "p8_fewer_denials_worse_cost": 0,
+      "min_cost": 95,
+      "max_cost": 228
+    }
+  ],
+  "limitations": [
+    "same math in two independent implementations, not independent physical engines",
+    "one deterministic demand tape",
+    "cross-offset pair outcomes share arms",
+    "tick is not a calibrated second",
+    "SUMO parity unresolved"
+  ]
+}
