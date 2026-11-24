@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "EX01C — independent student explanation and physical-token validation",
+      "decision": "NEXT_EXHIBITION",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.98,
+        "J": 1,
+        "E": 1,
+        "V": 1,
+        "C": 0.98
+      },
+      "priority": 0.995,
+      "evidence": "Finite partition bound now verified; student reproduction and physical validation are missing"
+    },
+    {
+      "unit": "I166B — incremental information value of past demand observations",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.991,
+      "evidence": "Ordered snapshot has nonzero retrospective ceiling; assess historical information without future leakage"
+    },
+    {
+      "unit": "MACRO05B — measurement error throughout feedback",
+      "decision": "NEXT_I_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Current exact observations are idealized; no measured RF"
+    },
+    {
+      "unit": "I165D — independent calibration and selective coverage-risk curve",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.982,
+      "evidence": "Guard0 reduces observed harms but abstains heavily and does not guarantee unseen performance"
+    },
+    {
+      "unit": "BE02B — departure cohort and boundary audit",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.96,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.95,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.971,
+      "evidence": "Route cost near-equality is not equilibrium"
+    },
+    {
+      "unit": "OPT02 — high-load switching-loss comparison",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.98,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.968,
+      "evidence": "Low-load null and restricted candidate class"
+    },
+    {
+      "unit": "RF20B — offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Dependencies unresolved"
+    },
+    {
+      "unit": "AGG04D — prospective exact computation selector",
+      "decision": "SUPPORT_CS",
+      "ratings": {
+        "L": 0.89,
+        "I": 0.92,
+        "R": 0.98,
+        "A": 0.97,
+        "J": 0.94,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.944,
+      "evidence": "Supporting correctness and measured cost evidence"
+    },
+    {
+      "unit": "Approved tabletop aggregate observation",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No physical observations; teacher authorization"
+    },
+    {
+      "unit": "SUMO external parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "External comparison unresolved"
+    },
+    {
+      "unit": "Universal no-harm guarantee from empirical guard",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.2,
+        "I": 0.15,
+        "R": 0.2,
+        "A": 0.95,
+        "J": 0.2,
+        "E": 0.15,
+        "V": 0.2,
+        "C": 0.9
+      },
+      "priority": 0.295,
+      "evidence": "Fresh test contains harms despite zero training excess budget"
+    }
+  ],
+  "claimEvidenceRatings": [
+    {
+      "claim": "Finite observation-partition bound",
+      "score": 0.98,
+      "status": "PROOF_AND_CROSS_LANGUAGE_SYNTHETIC_AGGREGATE_PARITY"
+    },
+    {
+      "claim": "Observation representation limits in tested model",
+      "score": 0.88,
+      "status": "FRESH_SYNTHETIC_COHORT"
+    },
+    {
+      "claim": "Selective guard reduces observed adverse cases",
+      "score": 0.76,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "claim": "Universal zero harm",
+      "score": 0.08,
+      "status": "COUNTEREXAMPLES"
+    },
+    {
+      "claim": "Real-world performance",
+      "score": 0.1,
+      "status": "UNVALIDATED"
+    }
+  ]
+}
