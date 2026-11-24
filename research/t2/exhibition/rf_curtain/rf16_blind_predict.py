@@ -4,10 +4,13 @@ from rf14_blind_contract import active_plan, exact, seal_predictions
 from rf_pilot_evaluator import REQUIRED, MODELS, validate, fit_predict
 
 FEATURE_KEYS = set(REQUIRED) - {'label', 'ground_truth_source'}
+PLAN_KEYS = {'trial_id', 'session_id', 'placement_id', 'reset_index', 'partition'}
 TRAIN_CELLS = {('S1', 'P1'), ('S2', 'P1')}
 
 
 def predict_blind(plan, train, holdout):
+    if any(set(r) - PLAN_KEYS for r in plan):
+        raise ValueError('plan schema must not contain truth or unknown fields')
     active = active_plan(plan)
     training = {k:r for k,r in active.items() if (r['session_id'],r['placement_id']) in TRAIN_CELLS}
     testing = {k:r for k,r in active.items() if k not in training}
