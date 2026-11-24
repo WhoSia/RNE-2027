@@ -1,0 +1,272 @@
+{
+  "status": "PROSPECTIVE_EQUAL_DUTY_SYNTHETIC_NOT_FIELD",
+  "scenarios": 2048,
+  "arms": 98304,
+  "worlds": 262144,
+  "clearanceFailures": 0,
+  "competition": {
+    "arms": 34634,
+    "ticks": 44970
+  },
+  "storage": {
+    "decrease": 24736,
+    "tie": 24410,
+    "increase": 6,
+    "firstIncrease": {
+      "mask": 82,
+      "interval": 2,
+      "P": 1,
+      "D": 2,
+      "sink": 0,
+      "pre": {
+        "q": [
+          "S"
+        ],
+        "p": [],
+        "d": [
+          "S",
+          "L"
+        ],
+        "a": 4,
+        "z": 1,
+        "j": 16,
+        "competition": 0
+      },
+      "future": [
+        [
+          "8",
+          "L"
+        ],
+        [
+          "10",
+          "S"
+        ],
+        [
+          "12",
+          "L"
+        ]
+      ],
+      "costs": [
+        [
+          37,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37,
+          40,
+          37,
+          44,
+          37,
+          37
+        ],
+        [
+          37,
+          37,
+          37,
+          37,
+          37,
+          40,
+          40,
+          40,
+          37,
+          44,
+          37,
+          37
+        ],
+        [
+          37,
+          37,
+          37,
+          37,
+          37,
+          37,
+          40,
+          40,
+          37,
+          37,
+          37,
+          37
+        ],
+        [
+          37,
+          37,
+          37,
+          37,
+          37,
+          40,
+          40,
+          40,
+          37,
+          37,
+          37,
+          37
+        ]
+      ],
+      "arm": 6,
+      "priority": 0,
+      "delta": 3
+    }
+  },
+  "priority": {
+    "different": 2686,
+    "tie": 46466
+  },
+  "storageRank": {
+    "strict": 270,
+    "tieCreated": 1451,
+    "tieResolved": 37960,
+    "unchanged": 91391,
+    "firstStrict": {
+      "mask": 14,
+      "interval": 2,
+      "P": 1,
+      "D": 1,
+      "sink": 2,
+      "o4": 1,
+      "o8": 2,
+      "priority": 0,
+      "deltaOld": -1,
+      "deltaReuse": 2,
+      "costs": [
+        [
+          57,
+          58
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          46,
+          44
+        ],
+        [
+          57,
+          44
+        ]
+      ]
+    }
+  },
+  "priorityRank": {
+    "strict": 817,
+    "tieCreated": 2458,
+    "tieResolved": 4919,
+    "unchanged": 122878,
+    "firstStrict": {
+      "mask": 22,
+      "interval": 2,
+      "P": 2,
+      "D": 1,
+      "sink": 2,
+      "o4": 1,
+      "o8": 0,
+      "reuse": 1,
+      "deltaS": -8,
+      "deltaL": 3,
+      "costs": [
+        [
+          57,
+          57
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          35,
+          43
+        ],
+        [
+          42,
+          39
+        ]
+      ]
+    }
+  },
+  "delta": {
+    "negative": 56182,
+    "zero": 173881,
+    "positive": 32081
+  },
+  "observations": [
+    {
+      "name": "context",
+      "cells": 512,
+      "conflictCells": 219,
+      "ambiguousWorlds": 112128,
+      "maxWorst": 19,
+      "minimaxTotal": 87969,
+      "meanOptimalTotal": 80655,
+      "meanMinimax": 0.3355751037597656,
+      "meanOptimal": 0.3076744079589844
+    },
+    {
+      "name": "ordered",
+      "cells": 9856,
+      "conflictCells": 342,
+      "ambiguousWorlds": 28832,
+      "maxWorst": 11,
+      "minimaxTotal": 17124,
+      "meanOptimalTotal": 16400,
+      "meanMinimax": 0.0653228759765625,
+      "meanOptimal": 0.06256103515625
+    },
+    {
+      "name": "plus_convention",
+      "cells": 19712,
+      "conflictCells": 379,
+      "ambiguousWorlds": 19190,
+      "maxWorst": 11,
+      "minimaxTotal": 16748,
+      "meanOptimalTotal": 16088,
+      "meanMinimax": 0.0638885498046875,
+      "meanOptimal": 0.061370849609375
+    },
+    {
+      "name": "plus_priority",
+      "cells": 19712,
+      "conflictCells": 433,
+      "ambiguousWorlds": 21824,
+      "maxWorst": 11,
+      "minimaxTotal": 14906,
+      "meanOptimalTotal": 14176,
+      "meanMinimax": 0.05686187744140625,
+      "meanOptimal": 0.0540771484375
+    },
+    {
+      "name": "plus_both_rules",
+      "cells": 39424,
+      "conflictCells": 467,
+      "ambiguousWorlds": 14448,
+      "maxWorst": 11,
+      "minimaxTotal": 14610,
+      "meanOptimalTotal": 13876,
+      "meanMinimax": 0.05573272705078125,
+      "meanOptimal": 0.0529327392578125
+    },
+    {
+      "name": "plus_future",
+      "cells": 18368,
+      "conflictCells": 250,
+      "ambiguousWorlds": 3424,
+      "maxWorst": 8,
+      "minimaxTotal": 2892,
+      "meanOptimalTotal": 2862,
+      "meanMinimax": 0.0110321044921875,
+      "meanOptimal": 0.01091766357421875
+    },
+    {
+      "name": "oracle",
+      "cells": 73472,
+      "conflictCells": 0,
+      "ambiguousWorlds": 0,
+      "maxWorst": 0,
+      "minimaxTotal": 0,
+      "meanOptimalTotal": 0,
+      "meanMinimax": 0,
+      "meanOptimal": 0
+    }
+  ]
+}
