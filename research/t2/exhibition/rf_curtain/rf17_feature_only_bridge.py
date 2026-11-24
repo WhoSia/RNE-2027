@@ -5,6 +5,8 @@ or physical validation. Shared RF10 parser and RF16 prediction are reused.
 """
 from __future__ import annotations
 import csv
+import hashlib
+import io
 import json
 import math
 import statistics
@@ -49,6 +51,33 @@ def testing_plan(plan):
     if not expected:
         raise ValueError('empty holdout')
     return expected
+
+
+def read_frozen_plan(path, expected_sha256):
+    """Verify a separately frozen PUBLIC plan before interpreting its rows."""
+    raw=Path(path).read_bytes()
+    if not isinstance(expected_sha256,str) or hashlib.sha256(raw).hexdigest()!=expected_sha256:
+        raise ValueError('public plan digest mismatch')
+    reader=csv.DictReader(io.StringIO(raw.decode('utf-8-sig'),newline=''))
+    if len(reader.fieldnames or [])!=len(PLAN) or set(reader.fieldnames or [])!=set(PLAN):
+        raise ValueError('unexpected plan schema')
+    plan=list(reader)
+    if any(set(r)!=set(PLAN) or any(v is None for v in r.values()) for r in plan):
+        raise ValueError('malformed plan row')
+    testing_plan(plan)
+    indices={cell:[] for cell in CELLS}
+    for r in plan:
+        index=int(r['reset_index'])
+        cell=r['session_id'],r['placement_id']
+        if index<=0 or r['trial_id']!=f'{cell[0]}_{cell[1]}_{index:03d}':
+            raise ValueError('invalid reset identity')
+        indices[cell].append(index)
+    sizes={len(v) for v in indices.values()}
+    if len(sizes)!=1 or min(sizes)<50 or min(sizes)%5:
+        raise ValueError('incomplete or unbalanced RF11 cells')
+    if any(sorted(v)!=list(range(1,len(v)+1)) for v in indices.values()):
+        raise ValueError('missing or duplicate reset index')
+    return plan
 
 
 def aggregate_holdout(plan, windows, packets, *, min_packets=2):
@@ -109,11 +138,10 @@ def export_features(rows,path):
         writer.writeheader(); writer.writerows(rows)
 
 
-def predict_files(plan_path,train_path,features_path,prediction_path):
+def predict_files(plan_path,train_path,features_path,prediction_path,*,expected_plan_sha256):
     from rf16_blind_predict import predict_blind
     from rf_pilot_evaluator import REQUIRED
-    plan=read_exact(plan_path,PLAN)
-    testing_plan(plan)
+    plan=read_frozen_plan(plan_path,expected_plan_sha256)
     train=read_exact(train_path,REQUIRED)
     features=read_exact(features_path,WIRE)
     result=predict_blind(plan,train,features)
@@ -122,9 +150,9 @@ def predict_files(plan_path,train_path,features_path,prediction_path):
     return result
 
 
-def bridge_files(plan_path,windows_path,link1,link2,output_path,*,authorized_lab=False,invalid_policy='reject'):
+def bridge_files(plan_path,windows_path,link1,link2,output_path,*,expected_plan_sha256,authorized_lab=False,invalid_policy='reject'):
     from rf10_esp_csi_trial_bridge import load_owned_csv
-    plan=read_exact(plan_path,PLAN)
+    plan=read_frozen_plan(plan_path,expected_plan_sha256)
     windows=read_exact(windows_path,WINDOW)
     streams={}
     for lid,path in [('1',link1),('2',link2)]:
