@@ -1,0 +1,112 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "basis": "P154 eight-axis weights retained; evidence updated",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "RF20 full training/holdout raw-file chain and cross-partition manifest",
+      "decision": "NEXT_M",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.97,
+        "C": 0.95
+      },
+      "priority": 0.985,
+      "evidence": "RF19 local packet contracts pass; raw adapter and cross-partition file custody unverified"
+    },
+    {
+      "unit": "P157 independent P156 replay and selective decision robustness",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.95,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.982,
+      "evidence": "Held-out head information promising but worst regret unchanged; no native P156 parity"
+    },
+    {
+      "unit": "P158 resource-preserving mechanism intervention / generalized sufficient conditions",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.98,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.97,
+        "V": 0.98,
+        "C": 0.91
+      },
+      "priority": 0.975,
+      "evidence": "P155 changes resource totals; need clean separation and formal theorem scope"
+    },
+    {
+      "unit": "Teacher-approved physical empty/static/drift experiment",
+      "decision": "GATED_E",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Permission and equipment not available"
+    },
+    {
+      "unit": "SUMO E0e XR7 parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Prior parity failure unresolved"
+    },
+    {
+      "unit": "Arbitrary phase or threshold retuning",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.4,
+        "A": 0.95,
+        "J": 0.3,
+        "E": 0.25,
+        "V": 0.3,
+        "C": 0.7
+      },
+      "priority": 0.375,
+      "evidence": "No new mechanism"
+    }
+  ]
+}
