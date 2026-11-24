@@ -1,0 +1,90 @@
+{
+  "status": "NATIVE_SYNTHETIC_FRESH_SEED_NOT_FIELD",
+  "train": 1728,
+  "test": 720,
+  "arms": 29376,
+  "supported_cells": 78,
+  "total_cells": 112,
+  "stats": {
+    "mean": {
+      "n": 720,
+      "covered": 720,
+      "J": 168640,
+      "regret": 9532,
+      "worst": 154,
+      "harm_vs_mean": 0,
+      "better_vs_mean": 0,
+      "miss": 442
+    },
+    "minimax": {
+      "n": 720,
+      "covered": 720,
+      "J": 168640,
+      "regret": 9532,
+      "worst": 154,
+      "harm_vs_mean": 0,
+      "better_vs_mean": 0,
+      "miss": 442
+    },
+    "demand": {
+      "n": 720,
+      "covered": 720,
+      "J": 166397,
+      "regret": 7289,
+      "worst": 153,
+      "harm_vs_mean": 191,
+      "better_vs_mean": 228,
+      "miss": 374
+    },
+    "nominal_exact": {
+      "n": 720,
+      "covered": 661,
+      "J": 165406,
+      "regret": 6298,
+      "worst": 154,
+      "harm_vs_mean": 82,
+      "better_vs_mean": 231,
+      "miss": 294
+    },
+    "robust_exact": {
+      "n": 720,
+      "covered": 83,
+      "J": 168640,
+      "regret": 9532,
+      "worst": 154,
+      "harm_vs_mean": 1,
+      "better_vs_mean": 1,
+      "miss": 442
+    },
+    "nominal_corrupt": {
+      "n": 720,
+      "covered": 406,
+      "J": 167366,
+      "regret": 8258,
+      "worst": 154,
+      "harm_vs_mean": 110,
+      "better_vs_mean": 86,
+      "miss": 436
+    },
+    "robust_corrupt": {
+      "n": 720,
+      "covered": 76,
+      "J": 168644,
+      "regret": 9536,
+      "worst": 154,
+      "harm_vs_mean": 1,
+      "better_vs_mean": 0,
+      "miss": 443
+    },
+    "missing": {
+      "n": 720,
+      "covered": 0,
+      "J": 168640,
+      "regret": 9532,
+      "worst": 154,
+      "harm_vs_mean": 0,
+      "better_vs_mean": 0,
+      "miss": 442
+    }
+  }
+}
