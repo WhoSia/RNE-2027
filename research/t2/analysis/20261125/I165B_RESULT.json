@@ -1,0 +1,1074 @@
+{
+  "status": "EXECUTED_JS_SYNTHETIC_OFFLINE",
+  "arms": 38016,
+  "same": {
+    "stats": {
+      "geometry_mean": {
+        "n": 720,
+        "J": 167178,
+        "regret": 10152,
+        "worst": 125,
+        "support": 720,
+        "better": 0,
+        "tie": 720,
+        "worse": 0
+      },
+      "geometry_minimax": {
+        "n": 720,
+        "J": 167178,
+        "regret": 10152,
+        "worst": 125,
+        "support": 720,
+        "better": 0,
+        "tie": 720,
+        "worse": 0
+      },
+      "presence_mean": {
+        "n": 720,
+        "J": 163815,
+        "regret": 6789,
+        "worst": 163,
+        "support": 711,
+        "better": 227,
+        "tie": 351,
+        "worse": 142
+      },
+      "presence_minimax": {
+        "n": 720,
+        "J": 167138,
+        "regret": 10112,
+        "worst": 167,
+        "support": 711,
+        "better": 152,
+        "tie": 371,
+        "worse": 197
+      },
+      "presence_guard": {
+        "n": 720,
+        "J": 165283,
+        "regret": 8257,
+        "worst": 108,
+        "support": 711,
+        "better": 123,
+        "tie": 557,
+        "worse": 40
+      },
+      "counts_mean": {
+        "n": 720,
+        "J": 163948,
+        "regret": 6922,
+        "worst": 163,
+        "support": 674,
+        "better": 230,
+        "tie": 410,
+        "worse": 80
+      },
+      "counts_minimax": {
+        "n": 720,
+        "J": 167114,
+        "regret": 10088,
+        "worst": 167,
+        "support": 674,
+        "better": 128,
+        "tie": 319,
+        "worse": 273
+      },
+      "counts_guard": {
+        "n": 720,
+        "J": 164773,
+        "regret": 7747,
+        "worst": 163,
+        "support": 674,
+        "better": 122,
+        "tie": 536,
+        "worse": 62
+      }
+    },
+    "byClock": {
+      "dense": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 98909,
+          "regret": 5594,
+          "worst": 125,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 98909,
+          "regret": 5594,
+          "worst": 125,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 96648,
+          "regret": 3333,
+          "worst": 163,
+          "support": 236,
+          "better": 89,
+          "tie": 115,
+          "worse": 36
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 97941,
+          "regret": 4626,
+          "worst": 108,
+          "support": 236,
+          "better": 64,
+          "tie": 146,
+          "worse": 30
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 97585,
+          "regret": 4270,
+          "worst": 108,
+          "support": 236,
+          "better": 59,
+          "tie": 160,
+          "worse": 21
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 97110,
+          "regret": 3795,
+          "worst": 163,
+          "support": 202,
+          "better": 69,
+          "tie": 147,
+          "worse": 24
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 97888,
+          "regret": 4573,
+          "worst": 163,
+          "support": 202,
+          "better": 52,
+          "tie": 159,
+          "worse": 29
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 97687,
+          "regret": 4372,
+          "worst": 163,
+          "support": 202,
+          "better": 48,
+          "tie": 174,
+          "worse": 18
+        }
+      },
+      "platoon": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 49045,
+          "regret": 3916,
+          "worst": 108,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 49045,
+          "regret": 3916,
+          "worst": 108,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 48185,
+          "regret": 3056,
+          "worst": 138,
+          "support": 235,
+          "better": 64,
+          "tie": 116,
+          "worse": 60
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 48488,
+          "regret": 3359,
+          "worst": 167,
+          "support": 235,
+          "better": 65,
+          "tie": 142,
+          "worse": 33
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 48574,
+          "regret": 3445,
+          "worst": 108,
+          "support": 235,
+          "better": 41,
+          "tie": 180,
+          "worse": 19
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 48056,
+          "regret": 2927,
+          "worst": 129,
+          "support": 232,
+          "better": 64,
+          "tie": 143,
+          "worse": 33
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 47982,
+          "regret": 2853,
+          "worst": 167,
+          "support": 232,
+          "better": 76,
+          "tie": 123,
+          "worse": 41
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 47862,
+          "regret": 2733,
+          "worst": 129,
+          "support": 232,
+          "better": 51,
+          "tie": 168,
+          "worse": 21
+        }
+      },
+      "sparse": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 19224,
+          "regret": 642,
+          "worst": 9,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 19224,
+          "regret": 642,
+          "worst": 9,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 18982,
+          "regret": 400,
+          "worst": 18,
+          "support": 240,
+          "better": 74,
+          "tie": 120,
+          "worse": 46
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 20709,
+          "regret": 2127,
+          "worst": 25,
+          "support": 240,
+          "better": 23,
+          "tie": 83,
+          "worse": 134
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 19124,
+          "regret": 542,
+          "worst": 9,
+          "support": 240,
+          "better": 23,
+          "tie": 217,
+          "worse": 0
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 18782,
+          "regret": 200,
+          "worst": 9,
+          "support": 240,
+          "better": 97,
+          "tie": 120,
+          "worse": 23
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 21244,
+          "regret": 2662,
+          "worst": 25,
+          "support": 240,
+          "better": 0,
+          "tie": 37,
+          "worse": 203
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 19224,
+          "regret": 642,
+          "worst": 9,
+          "support": 240,
+          "better": 23,
+          "tie": 194,
+          "worse": 23
+        }
+      }
+    },
+    "seeds": {
+      "280": {
+        "geometry_mean": 8729,
+        "geometry_minimax": 8729,
+        "presence_mean": 8611,
+        "presence_minimax": 8772,
+        "presence_guard": 8663,
+        "counts_mean": 8552,
+        "counts_minimax": 8773,
+        "counts_guard": 8653
+      },
+      "281": {
+        "geometry_mean": 7897,
+        "geometry_minimax": 7897,
+        "presence_mean": 7984,
+        "presence_minimax": 8141,
+        "presence_guard": 8033,
+        "counts_mean": 7861,
+        "counts_minimax": 8073,
+        "counts_guard": 7948
+      },
+      "282": {
+        "geometry_mean": 8956,
+        "geometry_minimax": 8956,
+        "presence_mean": 8583,
+        "presence_minimax": 8893,
+        "presence_guard": 8808,
+        "counts_mean": 8706,
+        "counts_minimax": 8784,
+        "counts_guard": 8745
+      },
+      "283": {
+        "geometry_mean": 7995,
+        "geometry_minimax": 7995,
+        "presence_mean": 7851,
+        "presence_minimax": 7863,
+        "presence_guard": 7784,
+        "counts_mean": 7889,
+        "counts_minimax": 8015,
+        "counts_guard": 7917
+      },
+      "284": {
+        "geometry_mean": 8338,
+        "geometry_minimax": 8338,
+        "presence_mean": 8547,
+        "presence_minimax": 8387,
+        "presence_guard": 8237,
+        "counts_mean": 8499,
+        "counts_minimax": 8789,
+        "counts_guard": 8533
+      },
+      "285": {
+        "geometry_mean": 8239,
+        "geometry_minimax": 8239,
+        "presence_mean": 7961,
+        "presence_minimax": 8282,
+        "presence_guard": 8124,
+        "counts_mean": 8115,
+        "counts_minimax": 8246,
+        "counts_guard": 8166
+      },
+      "286": {
+        "geometry_mean": 7832,
+        "geometry_minimax": 7832,
+        "presence_mean": 7495,
+        "presence_minimax": 7773,
+        "presence_guard": 7683,
+        "counts_mean": 7506,
+        "counts_minimax": 7859,
+        "counts_guard": 7584
+      },
+      "287": {
+        "geometry_mean": 8664,
+        "geometry_minimax": 8664,
+        "presence_mean": 8171,
+        "presence_minimax": 8496,
+        "presence_guard": 8393,
+        "counts_mean": 8194,
+        "counts_minimax": 8360,
+        "counts_guard": 8254
+      },
+      "288": {
+        "geometry_mean": 8929,
+        "geometry_minimax": 8929,
+        "presence_mean": 8855,
+        "presence_minimax": 8957,
+        "presence_guard": 8951,
+        "counts_mean": 8737,
+        "counts_minimax": 8910,
+        "counts_guard": 8822
+      },
+      "289": {
+        "geometry_mean": 7860,
+        "geometry_minimax": 7860,
+        "presence_mean": 7728,
+        "presence_minimax": 8058,
+        "presence_guard": 8012,
+        "counts_mean": 7823,
+        "counts_minimax": 7895,
+        "counts_guard": 7902
+      },
+      "290": {
+        "geometry_mean": 8154,
+        "geometry_minimax": 8154,
+        "presence_mean": 8329,
+        "presence_minimax": 8167,
+        "presence_guard": 8092,
+        "counts_mean": 8091,
+        "counts_minimax": 8238,
+        "counts_guard": 8140
+      },
+      "291": {
+        "geometry_mean": 8883,
+        "geometry_minimax": 8883,
+        "presence_mean": 8823,
+        "presence_minimax": 8854,
+        "presence_guard": 8793,
+        "counts_mean": 8815,
+        "counts_minimax": 8760,
+        "counts_guard": 8735
+      },
+      "292": {
+        "geometry_mean": 8494,
+        "geometry_minimax": 8494,
+        "presence_mean": 8488,
+        "presence_minimax": 8522,
+        "presence_guard": 8348,
+        "counts_mean": 8358,
+        "counts_minimax": 8617,
+        "counts_guard": 8377
+      },
+      "293": {
+        "geometry_mean": 8416,
+        "geometry_minimax": 8416,
+        "presence_mean": 7940,
+        "presence_minimax": 8302,
+        "presence_guard": 8230,
+        "counts_mean": 7968,
+        "counts_minimax": 8165,
+        "counts_guard": 8040
+      },
+      "294": {
+        "geometry_mean": 8173,
+        "geometry_minimax": 8173,
+        "presence_mean": 7785,
+        "presence_minimax": 8065,
+        "presence_guard": 7925,
+        "counts_mean": 7936,
+        "counts_minimax": 8045,
+        "counts_guard": 7953
+      },
+      "295": {
+        "geometry_mean": 8818,
+        "geometry_minimax": 8818,
+        "presence_mean": 8496,
+        "presence_minimax": 8910,
+        "presence_guard": 8828,
+        "counts_mean": 8675,
+        "counts_minimax": 8834,
+        "counts_guard": 8706
+      },
+      "296": {
+        "geometry_mean": 7938,
+        "geometry_minimax": 7938,
+        "presence_mean": 7760,
+        "presence_minimax": 7878,
+        "presence_guard": 7804,
+        "counts_mean": 7786,
+        "counts_minimax": 7883,
+        "counts_guard": 7804
+      },
+      "297": {
+        "geometry_mean": 8210,
+        "geometry_minimax": 8210,
+        "presence_mean": 8113,
+        "presence_minimax": 8152,
+        "presence_guard": 8124,
+        "counts_mean": 8166,
+        "counts_minimax": 8192,
+        "counts_guard": 8142
+      },
+      "298": {
+        "geometry_mean": 8445,
+        "geometry_minimax": 8445,
+        "presence_mean": 8237,
+        "presence_minimax": 8409,
+        "presence_guard": 8276,
+        "counts_mean": 8250,
+        "counts_minimax": 8475,
+        "counts_guard": 8254
+      },
+      "299": {
+        "geometry_mean": 8208,
+        "geometry_minimax": 8208,
+        "presence_mean": 8058,
+        "presence_minimax": 8257,
+        "presence_guard": 8175,
+        "counts_mean": 8021,
+        "counts_minimax": 8201,
+        "counts_guard": 8098
+      }
+    },
+    "oracle": 157026
+  },
+  "shifted": {
+    "stats": {
+      "geometry_mean": {
+        "n": 720,
+        "J": 107617,
+        "regret": 8611,
+        "worst": 75,
+        "support": 720,
+        "better": 0,
+        "tie": 720,
+        "worse": 0
+      },
+      "geometry_minimax": {
+        "n": 720,
+        "J": 107617,
+        "regret": 8611,
+        "worst": 75,
+        "support": 720,
+        "better": 0,
+        "tie": 720,
+        "worse": 0
+      },
+      "presence_mean": {
+        "n": 720,
+        "J": 108219,
+        "regret": 9213,
+        "worst": 97,
+        "support": 653,
+        "better": 171,
+        "tie": 377,
+        "worse": 172
+      },
+      "presence_minimax": {
+        "n": 720,
+        "J": 107719,
+        "regret": 8713,
+        "worst": 122,
+        "support": 653,
+        "better": 172,
+        "tie": 379,
+        "worse": 169
+      },
+      "presence_guard": {
+        "n": 720,
+        "J": 107427,
+        "regret": 8421,
+        "worst": 67,
+        "support": 653,
+        "better": 65,
+        "tie": 606,
+        "worse": 49
+      },
+      "counts_mean": {
+        "n": 720,
+        "J": 108223,
+        "regret": 9217,
+        "worst": 78,
+        "support": 629,
+        "better": 156,
+        "tie": 408,
+        "worse": 156
+      },
+      "counts_minimax": {
+        "n": 720,
+        "J": 107580,
+        "regret": 8574,
+        "worst": 122,
+        "support": 629,
+        "better": 209,
+        "tie": 315,
+        "worse": 196
+      },
+      "counts_guard": {
+        "n": 720,
+        "J": 107138,
+        "regret": 8132,
+        "worst": 65,
+        "support": 629,
+        "better": 84,
+        "tie": 575,
+        "worse": 61
+      }
+    },
+    "byClock": {
+      "burst": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 42110,
+          "regret": 3626,
+          "worst": 75,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 42110,
+          "regret": 3626,
+          "worst": 75,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 41971,
+          "regret": 3487,
+          "worst": 97,
+          "support": 228,
+          "better": 75,
+          "tie": 110,
+          "worse": 55
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 41891,
+          "regret": 3407,
+          "worst": 122,
+          "support": 228,
+          "better": 65,
+          "tie": 134,
+          "worse": 41
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 41888,
+          "regret": 3404,
+          "worst": 67,
+          "support": 228,
+          "better": 30,
+          "tie": 189,
+          "worse": 21
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 41954,
+          "regret": 3470,
+          "worst": 65,
+          "support": 225,
+          "better": 65,
+          "tie": 126,
+          "worse": 49
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 41632,
+          "regret": 3148,
+          "worst": 122,
+          "support": 225,
+          "better": 75,
+          "tie": 119,
+          "worse": 46
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 41556,
+          "regret": 3072,
+          "worst": 65,
+          "support": 225,
+          "better": 40,
+          "tie": 180,
+          "worse": 20
+        }
+      },
+      "irregular": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 25248,
+          "regret": 1711,
+          "worst": 59,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 25248,
+          "regret": 1711,
+          "worst": 59,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 25323,
+          "regret": 1786,
+          "worst": 57,
+          "support": 203,
+          "better": 50,
+          "tie": 141,
+          "worse": 49
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 25424,
+          "regret": 1887,
+          "worst": 57,
+          "support": 203,
+          "better": 39,
+          "tie": 142,
+          "worse": 59
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 25288,
+          "regret": 1751,
+          "worst": 59,
+          "support": 203,
+          "better": 26,
+          "tie": 191,
+          "worse": 23
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 25313,
+          "regret": 1776,
+          "worst": 57,
+          "support": 182,
+          "better": 44,
+          "tie": 157,
+          "worse": 39
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 25472,
+          "regret": 1935,
+          "worst": 57,
+          "support": 182,
+          "better": 54,
+          "tie": 115,
+          "worse": 71
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 25307,
+          "regret": 1770,
+          "worst": 59,
+          "support": 182,
+          "better": 33,
+          "tie": 175,
+          "worse": 32
+        }
+      },
+      "blocks6": {
+        "geometry_mean": {
+          "n": 240,
+          "J": 40259,
+          "regret": 3274,
+          "worst": 75,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "geometry_minimax": {
+          "n": 240,
+          "J": 40259,
+          "regret": 3274,
+          "worst": 75,
+          "support": 240,
+          "better": 0,
+          "tie": 240,
+          "worse": 0
+        },
+        "presence_mean": {
+          "n": 240,
+          "J": 40925,
+          "regret": 3940,
+          "worst": 78,
+          "support": 222,
+          "better": 46,
+          "tie": 126,
+          "worse": 68
+        },
+        "presence_minimax": {
+          "n": 240,
+          "J": 40404,
+          "regret": 3419,
+          "worst": 86,
+          "support": 222,
+          "better": 68,
+          "tie": 103,
+          "worse": 69
+        },
+        "presence_guard": {
+          "n": 240,
+          "J": 40251,
+          "regret": 3266,
+          "worst": 53,
+          "support": 222,
+          "better": 9,
+          "tie": 226,
+          "worse": 5
+        },
+        "counts_mean": {
+          "n": 240,
+          "J": 40956,
+          "regret": 3971,
+          "worst": 78,
+          "support": 222,
+          "better": 47,
+          "tie": 125,
+          "worse": 68
+        },
+        "counts_minimax": {
+          "n": 240,
+          "J": 40476,
+          "regret": 3491,
+          "worst": 86,
+          "support": 222,
+          "better": 80,
+          "tie": 81,
+          "worse": 79
+        },
+        "counts_guard": {
+          "n": 240,
+          "J": 40275,
+          "regret": 3290,
+          "worst": 53,
+          "support": 222,
+          "better": 11,
+          "tie": 220,
+          "worse": 9
+        }
+      }
+    },
+    "seeds": {
+      "280": {
+        "geometry_mean": 5629,
+        "geometry_minimax": 5629,
+        "presence_mean": 5553,
+        "presence_minimax": 5632,
+        "presence_guard": 5599,
+        "counts_mean": 5582,
+        "counts_minimax": 5599,
+        "counts_guard": 5603
+      },
+      "281": {
+        "geometry_mean": 5439,
+        "geometry_minimax": 5439,
+        "presence_mean": 5400,
+        "presence_minimax": 5403,
+        "presence_guard": 5417,
+        "counts_mean": 5420,
+        "counts_minimax": 5418,
+        "counts_guard": 5430
+      },
+      "282": {
+        "geometry_mean": 5800,
+        "geometry_minimax": 5800,
+        "presence_mean": 5803,
+        "presence_minimax": 5794,
+        "presence_guard": 5795,
+        "counts_mean": 5823,
+        "counts_minimax": 5693,
+        "counts_guard": 5762
+      },
+      "283": {
+        "geometry_mean": 5357,
+        "geometry_minimax": 5357,
+        "presence_mean": 5435,
+        "presence_minimax": 5260,
+        "presence_guard": 5309,
+        "counts_mean": 5446,
+        "counts_minimax": 5261,
+        "counts_guard": 5332
+      },
+      "284": {
+        "geometry_mean": 5200,
+        "geometry_minimax": 5200,
+        "presence_mean": 5238,
+        "presence_minimax": 5380,
+        "presence_guard": 5133,
+        "counts_mean": 5143,
+        "counts_minimax": 5610,
+        "counts_guard": 5169
+      },
+      "285": {
+        "geometry_mean": 5069,
+        "geometry_minimax": 5069,
+        "presence_mean": 4998,
+        "presence_minimax": 5145,
+        "presence_guard": 5096,
+        "counts_mean": 5027,
+        "counts_minimax": 5062,
+        "counts_guard": 5068
+      },
+      "286": {
+        "geometry_mean": 5311,
+        "geometry_minimax": 5311,
+        "presence_mean": 5388,
+        "presence_minimax": 5325,
+        "presence_guard": 5313,
+        "counts_mean": 5423,
+        "counts_minimax": 5311,
+        "counts_guard": 5296
+      },
+      "287": {
+        "geometry_mean": 5443,
+        "geometry_minimax": 5443,
+        "presence_mean": 5365,
+        "presence_minimax": 5498,
+        "presence_guard": 5431,
+        "counts_mean": 5362,
+        "counts_minimax": 5455,
+        "counts_guard": 5366
+      },
+      "288": {
+        "geometry_mean": 5385,
+        "geometry_minimax": 5385,
+        "presence_mean": 5377,
+        "presence_minimax": 5371,
+        "presence_guard": 5397,
+        "counts_mean": 5399,
+        "counts_minimax": 5281,
+        "counts_guard": 5312
+      },
+      "289": {
+        "geometry_mean": 5237,
+        "geometry_minimax": 5237,
+        "presence_mean": 5172,
+        "presence_minimax": 5290,
+        "presence_guard": 5274,
+        "counts_mean": 5181,
+        "counts_minimax": 5212,
+        "counts_guard": 5206
+      },
+      "290": {
+        "geometry_mean": 5047,
+        "geometry_minimax": 5047,
+        "presence_mean": 5157,
+        "presence_minimax": 5116,
+        "presence_guard": 5094,
+        "counts_mean": 5127,
+        "counts_minimax": 5067,
+        "counts_guard": 5083
+      },
+      "291": {
+        "geometry_mean": 5989,
+        "geometry_minimax": 5989,
+        "presence_mean": 6057,
+        "presence_minimax": 5956,
+        "presence_guard": 5986,
+        "counts_mean": 6057,
+        "counts_minimax": 5947,
+        "counts_guard": 5980
+      },
+      "292": {
+        "geometry_mean": 5219,
+        "geometry_minimax": 5219,
+        "presence_mean": 5406,
+        "presence_minimax": 5198,
+        "presence_guard": 5219,
+        "counts_mean": 5295,
+        "counts_minimax": 5280,
+        "counts_guard": 5240
+      },
+      "293": {
+        "geometry_mean": 5535,
+        "geometry_minimax": 5535,
+        "presence_mean": 5489,
+        "presence_minimax": 5593,
+        "presence_guard": 5502,
+        "counts_mean": 5504,
+        "counts_minimax": 5601,
+        "counts_guard": 5480
+      },
+      "294": {
+        "geometry_mean": 5677,
+        "geometry_minimax": 5677,
+        "presence_mean": 5884,
+        "presence_minimax": 5566,
+        "presence_guard": 5646,
+        "counts_mean": 5884,
+        "counts_minimax": 5542,
+        "counts_guard": 5622
+      },
+      "295": {
+        "geometry_mean": 5586,
+        "geometry_minimax": 5586,
+        "presence_mean": 5631,
+        "presence_minimax": 5535,
+        "presence_guard": 5583,
+        "counts_mean": 5640,
+        "counts_minimax": 5568,
+        "counts_guard": 5575
+      },
+      "296": {
+        "geometry_mean": 4990,
+        "geometry_minimax": 4990,
+        "presence_mean": 4981,
+        "presence_minimax": 5040,
+        "presence_guard": 4975,
+        "counts_mean": 5015,
+        "counts_minimax": 5046,
+        "counts_guard": 4999
+      },
+      "297": {
+        "geometry_mean": 5013,
+        "geometry_minimax": 5013,
+        "presence_mean": 5022,
+        "presence_minimax": 4949,
+        "presence_guard": 4998,
+        "counts_mean": 5022,
+        "counts_minimax": 4924,
+        "counts_guard": 4964
+      },
+      "298": {
+        "geometry_mean": 5497,
+        "geometry_minimax": 5497,
+        "presence_mean": 5523,
+        "presence_minimax": 5548,
+        "presence_guard": 5504,
+        "counts_mean": 5490,
+        "counts_minimax": 5569,
+        "counts_guard": 5478
+      },
+      "299": {
+        "geometry_mean": 5194,
+        "geometry_minimax": 5194,
+        "presence_mean": 5340,
+        "presence_minimax": 5120,
+        "presence_guard": 5156,
+        "counts_mean": 5383,
+        "counts_minimax": 5134,
+        "counts_guard": 5173
+      }
+    },
+    "oracle": 99006
+  }
+}
