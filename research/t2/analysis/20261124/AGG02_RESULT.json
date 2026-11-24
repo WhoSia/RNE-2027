@@ -9,8 +9,8 @@
     "active": 130675
   },
   "coverage": {
-    "count": null,
-    "movement": null,
+    "count": 239530,
+    "movement": 226525,
     "total": 241920
   },
   "cells": [
@@ -566,5 +566,6 @@
         930.303772162186
       ]
     }
-  }
+  },
+  "coverageCorrection": "Original JS coverage counters serialized null because +undefined propagated NaN; corrected counts independently computed in native Python. All forecast errors and support-cell counts unchanged. Original commit retained in history; corrected JS source not independently executed in this receipt."
 }
