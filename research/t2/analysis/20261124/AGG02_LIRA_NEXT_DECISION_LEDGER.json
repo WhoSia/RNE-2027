@@ -1,0 +1,143 @@
+{
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05A: conservative network CTM and published comparator",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.96
+      },
+      "priority": 0.99,
+      "evidence": "AGG02 one-step result cannot substitute for conservative rollout"
+    },
+    {
+      "unit": "AGG03: conservation-constrained recursive coarse model, held-out rollout",
+      "decision": "NEXT_T_I",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.989,
+      "evidence": "AGG02 preblock prediction improved; next test accumulated state error"
+    },
+    {
+      "unit": "ECON01: seed-cluster paired effect of controller families",
+      "decision": "NEXT_ECON",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.98,
+        "J": 0.99,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.984,
+      "evidence": "AGG02 seed-pair descriptive check done, controller inference remains"
+    },
+    {
+      "unit": "MACRO05B: full feedback observation-error evaluation",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 1,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.94,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.983,
+      "evidence": "Only selector corruption previously"
+    },
+    {
+      "unit": "BE02: endogenous same-OD demand bridge",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.98,
+        "R": 0.97,
+        "A": 0.91,
+        "J": 0.98,
+        "E": 0.96,
+        "V": 0.97,
+        "C": 0.92
+      },
+      "priority": 0.963,
+      "evidence": "Separate toy game requires transport connection"
+    },
+    {
+      "unit": "RF20B: exact offline file chain",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.958,
+      "evidence": "Dependency restoration pending"
+    },
+    {
+      "unit": "Physical approved model-object measurements",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "No measured CSI"
+    },
+    {
+      "unit": "SUMO independent event parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.914,
+      "evidence": "Unresolved external parity"
+    }
+  ]
+}
