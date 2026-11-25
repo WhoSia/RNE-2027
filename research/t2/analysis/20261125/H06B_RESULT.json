@@ -1,0 +1,2243 @@
+{
+  "status": "EXHAUSTIVE_SYNTHETIC_RING",
+  "results": [
+    {
+      "N": 6,
+      "states": 729,
+      "entries": [
+        {
+          "k": 1,
+          "groups": 28,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0.01655555555555556,
+              "ambiguousGroups": 16,
+              "ambiguousStates": 640,
+              "maxRange": 0.6,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.3,
+                "fluxHi": 0.9
+              }
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.016382458847736623,
+              "ambiguousGroups": 16,
+              "ambiguousStates": 640,
+              "maxRange": 0.675,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0
+                ],
+                "fluxLo": 0.675,
+                "fluxHi": 1.35
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.009292577589163234,
+              "ambiguousGroups": 15,
+              "ambiguousStates": 625,
+              "maxRange": 0.525,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.975,
+                "fluxHi": 1.5
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0.006138888888888888,
+              "ambiguousGroups": 16,
+              "ambiguousStates": 640,
+              "maxRange": 0.4,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.2,
+                "fluxHi": 0.6
+              }
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.007041473765432099,
+              "ambiguousGroups": 12,
+              "ambiguousStates": 460,
+              "maxRange": 0.45625,
+              "witness": {
+                "lo": [
+                  3,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  3,
+                  0,
+                  3,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.66875,
+                "fluxHi": 1.125
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.002184650688014403,
+              "ambiguousGroups": 7,
+              "ambiguousStates": 220,
+              "maxRange": 0.3125,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.6875,
+                "fluxHi": 1
+              }
+            }
+          ]
+        },
+        {
+          "k": 2,
+          "groups": 95,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.0015663580246913578,
+              "ambiguousGroups": 17,
+              "ambiguousStates": 216,
+              "maxRange": 0.3,
+              "witness": {
+                "lo": [
+                  6,
+                  3,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "hi": [
+                  3,
+                  6,
+                  0,
+                  6,
+                  3,
+                  0
+                ],
+                "fluxLo": 1.075,
+                "fluxHi": 1.375
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.0013517821930727023,
+              "ambiguousGroups": 18,
+              "ambiguousStates": 228,
+              "maxRange": 0.25,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.25,
+                "fluxHi": 1.5
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.0004819315843621399,
+              "ambiguousGroups": 13,
+              "ambiguousStates": 156,
+              "maxRange": 0.175,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.65,
+                "fluxHi": 0.825
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.0004738337512860083,
+              "ambiguousGroups": 7,
+              "ambiguousStates": 84,
+              "maxRange": 0.2125,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.7875,
+                "fluxHi": 1
+              }
+            }
+          ]
+        },
+        {
+          "k": 3,
+          "groups": 127,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.00009259259259259259,
+              "ambiguousGroups": 1,
+              "ambiguousStates": 12,
+              "maxRange": 0.15,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.975,
+                "fluxHi": 1.125
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.00007089120370370371,
+              "ambiguousGroups": 1,
+              "ambiguousStates": 12,
+              "maxRange": 0.13125,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.25,
+                "fluxHi": 1.38125
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.000011734825102880659,
+              "ambiguousGroups": 2,
+              "ambiguousStates": 24,
+              "maxRange": 0.05,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.65,
+                "fluxHi": 0.7
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.000053540139531893004,
+              "ambiguousGroups": 1,
+              "ambiguousStates": 12,
+              "maxRange": 0.1140625,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  3,
+                  3,
+                  0,
+                  0
+                ],
+                "hi": [
+                  3,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.0109375,
+                "fluxHi": 1.125
+              }
+            }
+          ]
+        },
+        {
+          "k": 4,
+          "groups": 130,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        },
+        {
+          "k": 5,
+          "groups": 130,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        },
+        {
+          "k": 6,
+          "groups": 130,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "states": 6561,
+      "entries": [
+        {
+          "k": 1,
+          "groups": 45,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0.013789682539682534,
+              "ambiguousGroups": 31,
+              "ambiguousStates": 6272,
+              "maxRange": 0.675,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.225,
+                "fluxHi": 0.9
+              }
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.018164906060160694,
+              "ambiguousGroups": 31,
+              "ambiguousStates": 6272,
+              "maxRange": 0.84375,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0
+                ],
+                "fluxLo": 0.50625,
+                "fluxHi": 1.35
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.016338560165792996,
+              "ambiguousGroups": 30,
+              "ambiguousStates": 6244,
+              "maxRange": 0.740625,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  3,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.7875,
+                "fluxHi": 1.528125
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0.00523313492063492,
+              "ambiguousGroups": 31,
+              "ambiguousStates": 6272,
+              "maxRange": 0.45,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.15,
+                "fluxHi": 0.6
+              }
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.0072171845911718595,
+              "ambiguousGroups": 25,
+              "ambiguousStates": 5264,
+              "maxRange": 0.54375,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.3375,
+                "fluxHi": 0.88125
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.003713092552532415,
+              "ambiguousGroups": 18,
+              "ambiguousStates": 3472,
+              "maxRange": 0.50625,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.525,
+                "fluxHi": 1.03125
+              }
+            }
+          ]
+        },
+        {
+          "k": 2,
+          "groups": 306,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.0027213089182289273,
+              "ambiguousGroups": 121,
+              "ambiguousStates": 3932,
+              "maxRange": 0.39375,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  6,
+                  3,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  3,
+                  6,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.80625,
+                "fluxHi": 1.2
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.004314173894509223,
+              "ambiguousGroups": 143,
+              "ambiguousStates": 4372,
+              "maxRange": 0.553125,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  3,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  3,
+                  6,
+                  0,
+                  0,
+                  6,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.95625,
+                "fluxHi": 1.509375
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.0007102489497599455,
+              "ambiguousGroups": 95,
+              "ambiguousStates": 2864,
+              "maxRange": 0.20625,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.675,
+                "fluxHi": 0.88125
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.001075226225443792,
+              "ambiguousGroups": 65,
+              "ambiguousStates": 2064,
+              "maxRange": 0.290625,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.6,
+                "fluxHi": 0.890625
+              }
+            }
+          ]
+        },
+        {
+          "k": 3,
+          "groups": 726,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.00007716049382716048,
+              "ambiguousGroups": 21,
+              "ambiguousStates": 348,
+              "maxRange": 0.1125,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.73125,
+                "fluxHi": 0.84375
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.00025442422553726573,
+              "ambiguousGroups": 46,
+              "ambiguousStates": 748,
+              "maxRange": 0.225,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.9375,
+                "fluxHi": 1.1625
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.000013400384373571106,
+              "ambiguousGroups": 28,
+              "ambiguousStates": 464,
+              "maxRange": 0.0375,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.4875,
+                "fluxHi": 0.525
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.00009732832906450045,
+              "ambiguousGroups": 27,
+              "ambiguousStates": 444,
+              "maxRange": 0.140625,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.75,
+                "fluxHi": 0.890625
+              }
+            }
+          ]
+        },
+        {
+          "k": 4,
+          "groups": 828,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.0000030140817901234566,
+              "ambiguousGroups": 1,
+              "ambiguousStates": 16,
+              "maxRange": 0.0703125,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.2234375,
+                "fluxHi": 1.29375
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.0000026465312607167354,
+              "ambiguousGroups": 2,
+              "ambiguousStates": 32,
+              "maxRange": 0.065625,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.825,
+                "fluxHi": 0.890625
+              }
+            }
+          ]
+        },
+        {
+          "k": 5,
+          "groups": 834,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        },
+        {
+          "k": 6,
+          "groups": 834,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "N": 10,
+      "states": 59049,
+      "entries": [
+        {
+          "k": 1,
+          "groups": 66,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0.011641975308641968,
+              "ambiguousGroups": 50,
+              "ambiguousStates": 57984,
+              "maxRange": 0.72,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.18,
+                "fluxHi": 0.9
+              }
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.017143512394669796,
+              "ambiguousGroups": 50,
+              "ambiguousStates": 57984,
+              "maxRange": 0.945,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0
+                ],
+                "fluxLo": 0.405,
+                "fluxHi": 1.35
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.017935047116022614,
+              "ambiguousGroups": 49,
+              "ambiguousStates": 57939,
+              "maxRange": 0.8925,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  6,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.63,
+                "fluxHi": 1.5225
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0.004466049382716049,
+              "ambiguousGroups": 50,
+              "ambiguousStates": 57984,
+              "maxRange": 0.48,
+              "witness": {
+                "lo": [
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0
+                ],
+                "fluxLo": 0.12,
+                "fluxHi": 0.6
+              }
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.006621221585341956,
+              "ambiguousGroups": 42,
+              "ambiguousStates": 52884,
+              "maxRange": 0.60375,
+              "witness": {
+                "lo": [
+                  3,
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.32625,
+                "fluxHi": 0.93
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.003947803876335755,
+              "ambiguousGroups": 33,
+              "ambiguousStates": 41364,
+              "maxRange": 0.5878125,
+              "witness": {
+                "lo": [
+                  3,
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.4621875,
+                "fluxHi": 1.05
+              }
+            }
+          ]
+        },
+        {
+          "k": 2,
+          "groups": 819,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.0029296175583393615,
+              "ambiguousGroups": 462,
+              "ambiguousStates": 46170,
+              "maxRange": 0.36,
+              "witness": {
+                "lo": [
+                  6,
+                  3,
+                  6,
+                  3,
+                  6,
+                  0,
+                  3,
+                  0,
+                  3,
+                  0
+                ],
+                "hi": [
+                  3,
+                  6,
+                  0,
+                  3,
+                  6,
+                  3,
+                  0,
+                  6,
+                  3,
+                  0
+                ],
+                "fluxLo": 1.02,
+                "fluxHi": 1.38
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.005597705047765645,
+              "ambiguousGroups": 532,
+              "ambiguousStates": 49135,
+              "maxRange": 0.5625,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  3,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  3,
+                  6,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.765,
+                "fluxHi": 1.3275
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.0007578121235597113,
+              "ambiguousGroups": 367,
+              "ambiguousStates": 34020,
+              "maxRange": 0.225,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.54,
+                "fluxHi": 0.765
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.0013269754249131981,
+              "ambiguousGroups": 289,
+              "ambiguousStates": 27590,
+              "maxRange": 0.3375,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.6225,
+                "fluxHi": 0.96
+              }
+            }
+          ]
+        },
+        {
+          "k": 3,
+          "groups": 3945,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0.00010924465274602468,
+              "ambiguousGroups": 290,
+              "ambiguousStates": 7515,
+              "maxRange": 0.09,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.585,
+                "fluxHi": 0.675
+              }
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.0005053503598441537,
+              "ambiguousGroups": 726,
+              "ambiguousStates": 17570,
+              "maxRange": 0.26625,
+              "witness": {
+                "lo": [
+                  3,
+                  3,
+                  0,
+                  3,
+                  6,
+                  3,
+                  3,
+                  6,
+                  0,
+                  0
+                ],
+                "hi": [
+                  3,
+                  6,
+                  3,
+                  3,
+                  0,
+                  3,
+                  3,
+                  6,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.1925,
+                "fluxHi": 1.45875
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0.00001815613410049278,
+              "ambiguousGroups": 362,
+              "ambiguousStates": 9160,
+              "maxRange": 0.03,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.39,
+                "fluxHi": 0.42
+              }
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.0001427562510319817,
+              "ambiguousGroups": 410,
+              "ambiguousStates": 9920,
+              "maxRange": 0.135,
+              "witness": {
+                "lo": [
+                  3,
+                  0,
+                  0,
+                  6,
+                  0,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  0,
+                  3,
+                  0,
+                  0,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.9,
+                "fluxHi": 1.035
+              }
+            }
+          ]
+        },
+        {
+          "k": 4,
+          "groups": 5709,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0.000008339703837067519,
+              "ambiguousGroups": 47,
+              "ambiguousStates": 945,
+              "maxRange": 0.10125,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.97875,
+                "fluxHi": 1.08
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0.0000030881810683711837,
+              "ambiguousGroups": 46,
+              "ambiguousStates": 915,
+              "maxRange": 0.06,
+              "witness": {
+                "lo": [
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.66,
+                "fluxHi": 0.72
+              }
+            }
+          ]
+        },
+        {
+          "k": 5,
+          "groups": 5916,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 1.7146776406035666e-7,
+              "ambiguousGroups": 1,
+              "ambiguousStates": 20,
+              "maxRange": 0.045,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 1.11375,
+                "fluxHi": 1.15875
+              }
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 6.102585352842555e-9,
+              "ambiguousGroups": 3,
+              "ambiguousStates": 60,
+              "maxRange": 0.0075,
+              "witness": {
+                "lo": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "hi": [
+                  6,
+                  6,
+                  6,
+                  0,
+                  0,
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "fluxLo": 0.7125,
+                "fluxHi": 0.72
+              }
+            }
+          ]
+        },
+        {
+          "k": 6,
+          "groups": 5934,
+          "singletons": 3,
+          "targets": [
+            {
+              "fd": 0,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 0,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 0,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 1,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            },
+            {
+              "fd": 1,
+              "t": 2,
+              "floor": 0,
+              "ambiguousGroups": 0,
+              "ambiguousStates": 0,
+              "maxRange": 0,
+              "witness": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "states": 66339,
+  "fdStateTrajectories": 132678
+}
