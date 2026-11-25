@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "MACRO05B — synthetic measurement uncertainty and model-structure sensitivity",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.96,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.989,
+      "evidence": "Perfect-prefix and hypothetical channel experiments exhausted narrow lookup gains; test different model structure and observation assumptions"
+    },
+    {
+      "unit": "EX01C — independent student reproduction of core results",
+      "decision": "NEXT_EXHIBITION",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.91,
+        "J": 1,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.98
+      },
+      "priority": 0.987,
+      "evidence": "Student-owned verification remains mandatory and pending"
+    },
+    {
+      "unit": "I169A — compare empirical cost learning to a simple statistical baseline on fresh groups",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.96,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.977,
+      "evidence": "I168B all alternatives fail; avoid tuning same cohort, improve estimator comparison"
+    },
+    {
+      "unit": "BE02B — departure-cohort cost and boundary audit",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.94,
+        "I": 0.97,
+        "R": 0.98,
+        "A": 0.95,
+        "J": 0.97,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.964,
+      "evidence": "Independent research axis; previous route cost equality not equilibrium"
+    },
+    {
+      "unit": "OPT02 — high-load switching-loss benchmark",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.92,
+        "I": 0.96,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.97,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.957,
+      "evidence": "Restricted candidate family and low-load null"
+    },
+    {
+      "unit": "RF20B — offline synthetic parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.98,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.954,
+      "evidence": "Actual sensing absent; integration incomplete"
+    },
+    {
+      "unit": "AGG04D — prospective exact computation selector",
+      "decision": "SUPPORT_CS",
+      "ratings": {
+        "L": 0.87,
+        "I": 0.9,
+        "R": 0.98,
+        "A": 0.97,
+        "J": 0.93,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.935,
+      "evidence": "Supporting computational contribution"
+    },
+    {
+      "unit": "Teacher-approved tabletop model and student execution",
+      "decision": "GATED_EX",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Physical validation requires actual student/teacher action"
+    },
+    {
+      "unit": "SUMO independent parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.909,
+      "evidence": "External parity unresolved"
+    },
+    {
+      "unit": "Retune thresholds on I168B final outcomes",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.1,
+        "I": 0.15,
+        "R": 0.1,
+        "A": 0.95,
+        "J": 0.1,
+        "E": 0.1,
+        "V": 0.1,
+        "C": 0.9
+      },
+      "priority": 0.235,
+      "evidence": "Would leak final labels, no new evidence"
+    }
+  ],
+  "claimEvidenceRatings": [
+    {
+      "claim": "Finite hypothetical signal value ordering",
+      "score": 0.98
+    },
+    {
+      "claim": "Future uncertainty and imperfect signal limit ideal decisions in tested model",
+      "score": 0.93
+    },
+    {
+      "claim": "Fitted hint policy adds robust decision value",
+      "score": 0.35
+    },
+    {
+      "claim": "Empirical guard gives nontrivial risk-limited improvement in I168B",
+      "score": 0.08
+    },
+    {
+      "claim": "Real-world performance",
+      "score": 0.1
+    }
+  ]
+}
