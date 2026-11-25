@@ -1,0 +1,6412 @@
+{
+  "transitions": 95184,
+  "results": [
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 12,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 2,
+      "badWorlds": 7,
+      "bayesNumerator": 12,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 36,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 96,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 170,
+      "worstNumerator": 24
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 1,
+      "badWorlds": 4,
+      "bayesNumerator": 10,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 1,
+      "badWorlds": 3,
+      "bayesNumerator": 8,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 278,
+      "worstNumerator": 58
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 2,
+      "badWorlds": 7,
+      "bayesNumerator": 4,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 2,
+      "badWorlds": 5,
+      "bayesNumerator": 4,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 1,
+      "badWorlds": 2,
+      "bayesNumerator": 2,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 36,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 3,
+      "badWorlds": 93,
+      "bayesNumerator": 112,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 1,
+      "badWorlds": 4,
+      "bayesNumerator": 4,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 1,
+      "badWorlds": 3,
+      "bayesNumerator": 2,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 192,
+      "worstNumerator": 24
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 342,
+      "worstNumerator": 58
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 36,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 108,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 192,
+      "worstNumerator": 24
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 186,
+      "groups": 6,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 338,
+      "worstNumerator": 58
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 186,
+      "groups": 90,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 186,
+      "groups": 126,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 186,
+      "groups": 162,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 186,
+      "groups": 174,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 186,
+      "groups": 186,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 4,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 88,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 7,
+      "badWorlds": 28,
+      "bayesNumerator": 64,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 392,
+      "worstNumerator": 32
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 9,
+      "badWorlds": 36,
+      "bayesNumerator": 272,
+      "worstNumerator": 32
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 2,
+      "badWorlds": 6,
+      "bayesNumerator": 16,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 86,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 198,
+      "worstNumerator": 16
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 1,
+      "badWorlds": 6,
+      "bayesNumerator": 2,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 348,
+      "worstNumerator": 42
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 7,
+      "badWorlds": 28,
+      "bayesNumerator": 24,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 4,
+      "badWorlds": 10,
+      "bayesNumerator": 12,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 2,
+      "badWorlds": 4,
+      "bayesNumerator": 8,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 702,
+      "worstNumerator": 88
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 8,
+      "badWorlds": 28,
+      "bayesNumerator": 124,
+      "worstNumerator": 20
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 4,
+      "badWorlds": 10,
+      "bayesNumerator": 24,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 4,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 8,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 32,
+      "worstNumerator": 16
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 86,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 204,
+      "worstNumerator": 16
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 1,
+      "badWorlds": 6,
+      "bayesNumerator": 2,
+      "worstNumerator": 2
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 336,
+      "worstNumerator": 42
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 1,
+      "badWorlds": 6,
+      "bayesNumerator": 6,
+      "worstNumerator": 6
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 618,
+      "worstNumerator": 88
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 3,
+      "badWorlds": 14,
+      "bayesNumerator": 30,
+      "worstNumerator": 14
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 2,
+      "badWorlds": 6,
+      "bayesNumerator": 8,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 4,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 1,
+      "badWorlds": 31,
+      "bayesNumerator": 8,
+      "worstNumerator": 8
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 2,
+      "badWorlds": 62,
+      "bayesNumerator": 40,
+      "worstNumerator": 16
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "total",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 86,
+      "worstNumerator": 4
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 1,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 206,
+      "worstNumerator": 16
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 2,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 358,
+      "worstNumerator": 42
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 3,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "q",
+      "worlds": 279,
+      "groups": 9,
+      "badGroups": 4,
+      "badWorlds": 124,
+      "bayesNumerator": 612,
+      "worstNumerator": 88
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "worlds": 279,
+      "groups": 135,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "worlds": 279,
+      "groups": 189,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "worlds": 279,
+      "groups": 243,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H3",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "RUN",
+      "worlds": 279,
+      "groups": 261,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIXED",
+      "obj": "fair",
+      "h": 4,
+      "rep": "FULL",
+      "worlds": 279,
+      "groups": 279,
+      "badGroups": 0,
+      "badWorlds": 0,
+      "bayesNumerator": 0,
+      "worstNumerator": 0
+    }
+  ],
+  "witnesses": [
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "key": "[2,1,2,1]",
+      "pair": [
+        {
+          "w": [
+            2,
+            1,
+            "001"
+          ],
+          "v": [
+            208,
+            240
+          ],
+          "r": [
+            0,
+            32
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            2,
+            1,
+            "100"
+          ],
+          "v": [
+            240,
+            236
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "key": "[1,1,3,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            58,
+            60
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            68,
+            60
+          ],
+          "r": [
+            8,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "key": "[1,1,3,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            58,
+            60
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            68,
+            60
+          ],
+          "r": [
+            8,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "key": "[1,1,3,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0010"
+          ],
+          "v": [
+            154,
+            156
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            148,
+            144
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "key": "[1,1,3,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0010"
+          ],
+          "v": [
+            154,
+            156
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            148,
+            144
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H2",
+      "key": "[1,1,3,1,\"00\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0010"
+          ],
+          "v": [
+            154,
+            156
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            148,
+            144
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "key": "[0,1,3,1]",
+      "pair": [
+        {
+          "w": [
+            0,
+            1,
+            "0100"
+          ],
+          "v": [
+            20,
+            22
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            0,
+            1,
+            "0001"
+          ],
+          "v": [
+            20,
+            18
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        1
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "H1",
+      "key": "[0,1,3,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            0,
+            1,
+            "0100"
+          ],
+          "v": [
+            20,
+            22
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            0,
+            1,
+            "0001"
+          ],
+          "v": [
+            20,
+            18
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 3,
+      "rep": "C",
+      "key": "[1,1,2,2]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0011"
+          ],
+          "v": [
+            96,
+            104
+          ],
+          "r": [
+            0,
+            8
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "1100"
+          ],
+          "v": [
+            104,
+            96
+          ],
+          "r": [
+            8,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "C",
+      "key": "[1,1,3,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            224,
+            232
+          ],
+          "r": [
+            0,
+            8
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            232,
+            224
+          ],
+          "r": [
+            8,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "total",
+      "h": 4,
+      "rep": "H1",
+      "key": "[1,1,3,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            224,
+            232
+          ],
+          "r": [
+            0,
+            8
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            232,
+            224
+          ],
+          "r": [
+            8,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "key": "[1,1,2,2]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "1100"
+          ],
+          "v": [
+            20,
+            22
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0011"
+          ],
+          "v": [
+            22,
+            20
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "key": "[1,1,2,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "001"
+          ],
+          "v": [
+            44,
+            46
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "010"
+          ],
+          "v": [
+            44,
+            42
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H1",
+      "key": "[1,1,2,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "001"
+          ],
+          "v": [
+            44,
+            46
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "010"
+          ],
+          "v": [
+            44,
+            42
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 3,
+      "rep": "H2",
+      "key": "[1,2,3,1,\"00\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            2,
+            "0010"
+          ],
+          "v": [
+            64,
+            68
+          ],
+          "r": [
+            0,
+            4
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            2,
+            "0001"
+          ],
+          "v": [
+            64,
+            60
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "key": "[1,1,2,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "001"
+          ],
+          "v": [
+            102,
+            110
+          ],
+          "r": [
+            0,
+            8
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "010"
+          ],
+          "v": [
+            102,
+            98
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "FIFO",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "key": "[1,1,2,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "001"
+          ],
+          "v": [
+            102,
+            110
+          ],
+          "r": [
+            0,
+            8
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "010"
+          ],
+          "v": [
+            102,
+            98
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 2,
+      "rep": "C",
+      "key": "[1,1,2,2]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "1100"
+          ],
+          "v": [
+            20,
+            22
+          ],
+          "r": [
+            0,
+            2
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0011"
+          ],
+          "v": [
+            22,
+            20
+          ],
+          "r": [
+            2,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 3,
+      "rep": "C",
+      "key": "[1,1,2,2]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "1100"
+          ],
+          "v": [
+            54,
+            60
+          ],
+          "r": [
+            0,
+            6
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0011"
+          ],
+          "v": [
+            60,
+            54
+          ],
+          "r": [
+            6,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "C",
+      "key": "[1,1,3,1]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            124,
+            134
+          ],
+          "r": [
+            0,
+            10
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            138,
+            134
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "mode": "SKIP",
+      "obj": "fair",
+      "h": 4,
+      "rep": "H1",
+      "key": "[1,1,3,1,\"0\"]",
+      "pair": [
+        {
+          "w": [
+            1,
+            1,
+            "0001"
+          ],
+          "v": [
+            124,
+            134
+          ],
+          "r": [
+            0,
+            10
+          ],
+          "opt": [
+            0
+          ]
+        },
+        {
+          "w": [
+            1,
+            1,
+            "0100"
+          ],
+          "v": [
+            138,
+            134
+          ],
+          "r": [
+            4,
+            0
+          ],
+          "opt": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
