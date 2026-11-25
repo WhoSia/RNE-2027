@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-25",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "choices": [
+    {
+      "unit": "I167A — compact historical features and independently calibrated support-risk curve",
+      "decision": "NEXT_I",
+      "ratings": {
+        "L": 0.99,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.97,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 0.99,
+        "C": 0.95
+      },
+      "priority": 0.988,
+      "evidence": "Fine keys lose support; novel 5% risk gate failed; prioritize compact summaries, test fresh"
+    },
+    {
+      "unit": "EX01C — student independent replication (actual student work pending)",
+      "decision": "NEXT_EXHIBITION",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.91,
+        "J": 1,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.98
+      },
+      "priority": 0.987,
+      "evidence": "Worksheet available; only student and teacher can supply independent performance/approval"
+    },
+    {
+      "unit": "MACRO05B — noisy observation across decision epochs in abstract simulation",
+      "decision": "NEXT_MACRO",
+      "ratings": {
+        "L": 0.99,
+        "I": 0.99,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.98,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.93
+      },
+      "priority": 0.977,
+      "evidence": "All history exact; evaluate assumed uncertainty, no physical sensor calibration"
+    },
+    {
+      "unit": "BE02B — departure-cohort and boundary audit",
+      "decision": "NEXT_BE",
+      "ratings": {
+        "L": 0.94,
+        "I": 0.97,
+        "R": 0.98,
+        "A": 0.95,
+        "J": 0.97,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.95
+      },
+      "priority": 0.964,
+      "evidence": "Prior grid near-equality not equilibrium"
+    },
+    {
+      "unit": "OPT02 — high-load switching-loss benchmark",
+      "decision": "NEXT_T",
+      "ratings": {
+        "L": 0.92,
+        "I": 0.96,
+        "R": 0.98,
+        "A": 0.94,
+        "J": 0.97,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.957,
+      "evidence": "Candidate family remains restricted"
+    },
+    {
+      "unit": "RF20B — synthetic offline parser integration",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.98,
+        "R": 0.99,
+        "A": 0.72,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.94
+      },
+      "priority": 0.954,
+      "evidence": "Dependency chain unresolved; no actual measurement"
+    },
+    {
+      "unit": "AGG04D — prospective exact computation selector",
+      "decision": "SUPPORT_CS",
+      "ratings": {
+        "L": 0.87,
+        "I": 0.9,
+        "R": 0.98,
+        "A": 0.97,
+        "J": 0.93,
+        "E": 0.98,
+        "V": 0.98,
+        "C": 0.96
+      },
+      "priority": 0.935,
+      "evidence": "Supporting not primary"
+    },
+    {
+      "unit": "Approved tabletop aggregate object observation",
+      "decision": "GATED_RF",
+      "ratings": {
+        "L": 1,
+        "I": 1,
+        "R": 0.99,
+        "A": 0.4,
+        "J": 0.99,
+        "E": 0.99,
+        "V": 1,
+        "C": 0.85
+      },
+      "priority": 0.929,
+      "evidence": "Teacher approval, actual observations and student execution required"
+    },
+    {
+      "unit": "SUMO external parity",
+      "decision": "GATED_T",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.99,
+        "R": 0.99,
+        "A": 0.36,
+        "J": 0.98,
+        "E": 0.99,
+        "V": 0.98,
+        "C": 0.7
+      },
+      "priority": 0.909,
+      "evidence": "External parity pending"
+    },
+    {
+      "unit": "Claim calibrated 5% guarantee for unseen distributions",
+      "decision": "STOP",
+      "ratings": {
+        "L": 0.12,
+        "I": 0.1,
+        "R": 0.1,
+        "A": 0.95,
+        "J": 0.1,
+        "E": 0.1,
+        "V": 0.1,
+        "C": 0.9
+      },
+      "priority": 0.229,
+      "evidence": "Novel regime 19/240 harms despite successful calibration"
+    }
+  ],
+  "claimEvidenceRatings": [
+    {
+      "claim": "Finite empirical partition floor and decomposition",
+      "score": 0.98
+    },
+    {
+      "claim": "Past demand summaries improve fitted decisions in tested cohorts",
+      "score": 0.84
+    },
+    {
+      "claim": "Calibration plus fallback improves aggregate synthetic cost",
+      "score": 0.78
+    },
+    {
+      "claim": "5% harm bound transfers to arbitrary new regimes",
+      "score": 0.07
+    },
+    {
+      "claim": "Real-world performance",
+      "score": 0.1
+    }
+  ]
+}
