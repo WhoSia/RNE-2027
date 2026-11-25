@@ -1,0 +1,349 @@
+{
+  "title": "교통류 관측 정보의 해상도가 최적화 성능에 미치는 영향과 적응적 정보 집계에 관한 연구",
+  "stage": "HARVEST_NOT_NOVELTY_LOCK",
+  "status": "EDITORIAL_NOT_PROBABILITY",
+  "candidateWeights": {
+    "novelty": 0.25,
+    "evidence": 0.25,
+    "fit": 0.2,
+    "expansion": 0.15,
+    "exhibit": 0.15
+  },
+  "candidates": [
+    {
+      "name": "H01 — 관측 오차와 목적함수 오차의 불일치",
+      "ratings": {
+        "novelty": 0.6,
+        "evidence": 0.96,
+        "fit": 0.99,
+        "expansion": 0.95,
+        "exhibit": 0.93
+      },
+      "score": 0.87,
+      "note": "T174 standard conditional Jensen gap explains objective-aligned flux improvement; exact synthetic support, independent rational audit; novel transport-specific application unconfirmed."
+    },
+    {
+      "name": "H04 — 총량 관측으로 공통 편향 제거",
+      "ratings": {
+        "novelty": 0.55,
+        "evidence": 0.91,
+        "fit": 0.96,
+        "expansion": 0.92,
+        "exhibit": 0.92
+      },
+      "score": 0.833,
+      "note": "B3 ideal anchor, substantial synthetic gains; cost/identifiability unresolved"
+    },
+    {
+      "name": "H02 — 관측 표현의 후회 하한과 학습 초과 후회",
+      "ratings": {
+        "novelty": 0.45,
+        "evidence": 0.98,
+        "fit": 0.99,
+        "expansion": 0.91,
+        "exhibit": 0.88
+      },
+      "score": 0.824,
+      "note": "T168/169 standard finite decision principle; distinguish new domain-specific discovery"
+    },
+    {
+      "name": "H03 — 미래 조건만 바뀌는 관측 충돌",
+      "ratings": {
+        "novelty": 0.52,
+        "evidence": 0.93,
+        "fit": 0.97,
+        "expansion": 0.88,
+        "exhibit": 0.9
+      },
+      "score": 0.824,
+      "note": "I167B/I168A matched prefix; no measured predictor"
+    },
+    {
+      "name": "H06 — 공간 집계와 국소/전체 비용 충돌",
+      "ratings": {
+        "novelty": 0.4,
+        "evidence": 0.95,
+        "fit": 0.98,
+        "expansion": 0.75,
+        "exhibit": 0.92
+      },
+      "score": 0.784,
+      "note": "H06B native audit and locality proof support finite result; direct prior-art overlap in block probabilities and spatial correlations; long words essentially full rotation class, no verified compression advantage or novelty."
+    },
+    {
+      "name": "H09 — 사건시각 및 관측 시간 해상도",
+      "ratings": {
+        "novelty": 0.55,
+        "evidence": 0.7,
+        "fit": 0.96,
+        "expansion": 0.85,
+        "exhibit": 0.88
+      },
+      "score": 0.764,
+      "note": "P35 forward-only and interval uncertainty documented in archive, external independent verification incomplete."
+    },
+    {
+      "name": "H05 — 시간 해상도와 정확한 계산 압축",
+      "ratings": {
+        "novelty": 0.39,
+        "evidence": 0.94,
+        "fit": 0.8,
+        "expansion": 0.78,
+        "exhibit": 0.8
+      },
+      "score": 0.73,
+      "note": "AGG04B/C existing DES; supporting"
+    },
+    {
+      "name": "H08 — 원인별 관측과 다목적 결정 충분성",
+      "ratings": {
+        "novelty": 0.45,
+        "evidence": 0.45,
+        "fit": 0.99,
+        "expansion": 0.91,
+        "exhibit": 0.85
+      },
+      "score": 0.687,
+      "note": "Historical T1/common-optimizer set-system idea, PHYS counterexamples; theory known, specific multiobjective representation study not yet done."
+    },
+    {
+      "name": "H07 — 실제 관측 정보의 가치 검증",
+      "ratings": {
+        "novelty": 0.66,
+        "evidence": 0.12,
+        "fit": 0.99,
+        "expansion": 0.95,
+        "exhibit": 0.96
+      },
+      "score": 0.68,
+      "note": "No measurement; teacher-approved aggregate model only"
+    },
+    {
+      "name": "H10 — 정보 취득·전환 비용과 집단 반응",
+      "ratings": {
+        "novelty": 0.45,
+        "evidence": 0.35,
+        "fit": 0.8,
+        "expansion": 0.85,
+        "exhibit": 0.7
+      },
+      "score": 0.593,
+      "note": "10/27 information-cost/behavior idea; informational Braess and related work preexist, no current specific validated claim."
+    }
+  ],
+  "nextWeights": {
+    "core": 0.25,
+    "discrimination": 0.3,
+    "feasibility": 0.2,
+    "independentEvidence": 0.15,
+    "noveltyHeadroom": 0.1
+  },
+  "anchor": "0 absent; .25 weak/blocked; .5 partial/indirect; .75 strong but limited; 1 direct/complete for the specific axis. These are ordinal judgment anchors, not calibrated probabilities. Separate hard gates from scores. New next-action score not directly comparable to Harvest02.",
+  "tasks": [
+    {
+      "name": "EX01C — 학생 독립 재현",
+      "gate": "STUDENT_GATE",
+      "ratings": {
+        "core": 1,
+        "discrimination": 1,
+        "feasibility": 0.5,
+        "independentEvidence": 1,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "Essential evidence; cannot count AI work as student execution; provide independently checkable task.",
+      "score": 0.825,
+      "sensitivity": {
+        "min": 0.81,
+        "max": 0.842
+      }
+    },
+    {
+      "name": "H09A — 기존 자료의 시간 불확실성 독립 감사",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "core": 1,
+        "discrimination": 1,
+        "feasibility": 0.5,
+        "independentEvidence": 0.75,
+        "noveltyHeadroom": 0.5
+      },
+      "reason": "High discrimination and potential external evidence; first verify permitted aggregate input, provenance and non-holdout availability.",
+      "score": 0.813,
+      "sensitivity": {
+        "min": 0.797,
+        "max": 0.829
+      }
+    },
+    {
+      "name": "H04A — 불완전한 총량 관측과 목표별 보정",
+      "gate": "READY",
+      "ratings": {
+        "core": 1,
+        "discrimination": 0.75,
+        "feasibility": 1,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.5
+      },
+      "reason": "Directly tests whether ideal anchor benefit survives uncertain totals; existing finite data, distinct target losses; still synthetic.",
+      "score": 0.8,
+      "sensitivity": {
+        "min": 0.787,
+        "max": 0.812,
+        "rankMin": 1,
+        "rankMax": 2
+      }
+    },
+    {
+      "name": "H08A — 다목적 정보 동치류와 공통 최적해",
+      "gate": "READY",
+      "ratings": {
+        "core": 1,
+        "discrimination": 1,
+        "feasibility": 0.75,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "Restores initial 10/27 common-action intersection and 11/24 cause distinction; separate cost/label sufficiency and exact common-optimizer failure, not another threshold lookup; theory established.",
+      "score": 0.8,
+      "sensitivity": {
+        "min": 0.784,
+        "max": 0.814,
+        "rankMin": 1,
+        "rankMax": 2
+      }
+    },
+    {
+      "name": "H07 — 교사 승인 탁상 모형 실험",
+      "gate": "TEACHER_GATE",
+      "ratings": {
+        "core": 1,
+        "discrimination": 1,
+        "feasibility": 0.25,
+        "independentEvidence": 1,
+        "noveltyHeadroom": 0.5
+      },
+      "reason": "High potential external evidence; hardware/approval/independent truth missing; not executable by assistant.",
+      "score": 0.8,
+      "sensitivity": {
+        "min": 0.774,
+        "max": 0.829
+      }
+    },
+    {
+      "name": "I169A — 단순 통계 추정 기준선",
+      "gate": "READY",
+      "ratings": {
+        "core": 1,
+        "discrimination": 0.75,
+        "feasibility": 0.75,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "Repeated lookup failures motivate a distinct estimator; fresh synthetic validation but not field evidence.",
+      "score": 0.725,
+      "sensitivity": {
+        "min": 0.707,
+        "max": 0.741,
+        "rankMin": 3,
+        "rankMax": 3
+      }
+    },
+    {
+      "name": "H06C — 공간 조합의 장기 압축",
+      "gate": "READY",
+      "ratings": {
+        "core": 0.75,
+        "discrimination": 0.5,
+        "feasibility": 1,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "High-k near-full rotation quotient and established locality reduce marginal value; only revisit with real encoding/forecast gain hypothesis.",
+      "score": 0.638,
+      "sensitivity": {
+        "min": 0.618,
+        "max": 0.655,
+        "rankMin": 4,
+        "rankMax": 5
+      }
+    },
+    {
+      "name": "H01B — 비선형 분기점과 손실 불일치",
+      "gate": "READY",
+      "ratings": {
+        "core": 0.75,
+        "discrimination": 0.5,
+        "feasibility": 1,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "T174 already explains Jensen mechanism; additional case studies less discriminating unless a new objective is introduced.",
+      "score": 0.638,
+      "sensitivity": {
+        "min": 0.618,
+        "max": 0.655,
+        "rankMin": 4,
+        "rankMax": 5
+      }
+    },
+    {
+      "name": "H10A — 추상적 정보 취득 비용과 집단 선택",
+      "gate": "READY",
+      "ratings": {
+        "core": 0.5,
+        "discrimination": 0.75,
+        "feasibility": 0.75,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.5
+      },
+      "reason": "Original cross-domain question, but less directly tied to present physical reconstruction and strong prior art.",
+      "score": 0.625,
+      "sensitivity": {
+        "min": 0.615,
+        "max": 0.634,
+        "rankMin": 4,
+        "rankMax": 6
+      }
+    },
+    {
+      "name": "AGG04D — 계산 모드 선택",
+      "gate": "READY",
+      "ratings": {
+        "core": 0.5,
+        "discrimination": 0.5,
+        "feasibility": 0.75,
+        "independentEvidence": 0.5,
+        "noveltyHeadroom": 0.25
+      },
+      "reason": "Supports reproducibility and efficiency rather than central information claim.",
+      "score": 0.525,
+      "sensitivity": {
+        "min": 0.513,
+        "max": 0.536,
+        "rankMin": 7,
+        "rankMax": 7
+      }
+    },
+    {
+      "name": "기존 평가자료에 맞춘 임계값 조정",
+      "gate": "STOP",
+      "ratings": {
+        "core": 0.5,
+        "discrimination": 0,
+        "feasibility": 1,
+        "independentEvidence": 0,
+        "noveltyHeadroom": 0
+      },
+      "reason": "Repeated failures and test leakage; excluded rather than rescued by weighted score.",
+      "score": 0.325,
+      "sensitivity": {
+        "min": 0.289,
+        "max": 0.357
+      }
+    }
+  ],
+  "scenarioCount": 11,
+  "selection": "H04A and H08A co-priority; execute both distinct low-cost lines before narrowing. No claim rank difference is robust; H09A conditional and student/teacher tasks separate from AI-ready list. Reconsider H06C only with a new discriminating question.",
+  "priorArt": "Fuks 2013 local structure maps and 1999 CA traffic exact results, Geroliminis/Sun adjacent density correlation; abstracts/introduction only, novelty not established.",
+  "notes": "Previous candidate weights retained for comparison; execution score changed to penalize repetitive experiments and prioritize discrimination and independent evidence. Sensitivity varies one weight +/-25%, not uncertainty intervals."
+}
