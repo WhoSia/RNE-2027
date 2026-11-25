@@ -1,0 +1,7 @@
+# EX01C — independent student replication checkpoint (AI-proposed; not completed)
+Purpose: explain the distinction between more descriptive information and useful decisions. Use only paper cards or a spreadsheet, no real road control, RF or human sensing.
+1. Make four context cards with abstract observation X or Y and costs for abstract decisions A/B: X1=(4,1), X2=(2,5), Y1=(3,2), Y2=(6,1). Compute each individual optimum; aggregate by X/Y; derive T168 floor, then check a fully distinguished representation. Record calculations in student's own words.
+2. Train a rule on X1 and Y2, then predict X2/Y1 without seeing their costs. Compare with a fixed A baseline and identify an adverse case. Explain why a finer representation cannot repair missing training support automatically.
+3. Reproduce T169 numerical decomposition using the archived I166B result, and explain why singleton cells are a caveat. Cross-check sums independently rather than copying answers.
+4. Record date, student author, raw notes, independently executed calculation, AI contributions, discrepancies and unresolved questions. Teacher approval before any physical extension. No evidence of student completion until supplied.
+Scoring rubric initial editorial decision: conceptual explanation .95 priority; blind hand calculation .98; independent code reproduction .96; approved paper-token classroom model .90. No prize prediction or novelty claim.
