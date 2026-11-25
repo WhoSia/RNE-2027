@@ -1,0 +1,118 @@
+{
+  "status": "NATIVE_EXECUTED_AGGREGATE_PARITY",
+  "truth": 512,
+  "forecasts": 9216,
+  "alternate": 512,
+  "bounds": 82944,
+  "sourceBlob": "8727cb0d57de9414600986f960ae817ddfab6554",
+  "rawBlob": "91b6ff6ff0422b1c3adec07ebbd521d2d0a073c5",
+  "rawSHA256": "88a451c220599a0e66c514ffa180a9ed628b80ba00d542dd8ee8f43512bbed52",
+  "columns": [
+    "key",
+    "n",
+    "signed",
+    "abs",
+    "sq",
+    "max"
+  ],
+  "native": [
+    [
+      "exact/local",
+      4608,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "exact/mean",
+      4608,
+      259,
+      259,
+      188.875,
+      1.5
+    ],
+    [
+      "exact/hist",
+      4608,
+      -11,
+      59,
+      11.263888888888916,
+      0.33333333333333337
+    ],
+    [
+      "exact/alternate",
+      4608,
+      0,
+      2312,
+      1683.5,
+      1
+    ],
+    [
+      "independent/local",
+      73728,
+      -8854.5,
+      18350.5,
+      7534.9501953125,
+      1
+    ],
+    [
+      "independent/mean",
+      73728,
+      3491,
+      18348,
+      8662.0703125,
+      1.5
+    ],
+    [
+      "independent/hist",
+      73728,
+      -8771.87499999993,
+      18459.312500000302,
+      7525.2040201813015,
+      1
+    ],
+    [
+      "independent/forecast",
+      73728,
+      2274,
+      14061,
+      4630.875,
+      1
+    ],
+    [
+      "common/local",
+      9216,
+      -1493.8125,
+      4033.9375,
+      2175.12158203125,
+      1
+    ],
+    [
+      "common/mean",
+      9216,
+      -708.875,
+      4668.875,
+      2769.560546875,
+      1.5
+    ],
+    [
+      "common/hist",
+      9216,
+      -1483.7395833333283,
+      4072.677083333332,
+      2193.22315809461,
+      1
+    ],
+    [
+      "common/forecast",
+      9216,
+      -384,
+      3392,
+      1574,
+      1
+    ]
+  ],
+  "parity": true,
+  "scope": "12 pooled all-epoch combinations; repeated identical B0 native run in balanced script. No per-trajectory comparison."
+}
