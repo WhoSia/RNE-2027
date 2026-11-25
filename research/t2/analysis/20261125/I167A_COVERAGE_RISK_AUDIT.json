@@ -1,0 +1,71 @@
+{
+  "status": "POSTHOC_DESCRIPTIVE_NOT_SELECTOR",
+  "selected": {
+    "i": 6,
+    "mode": "guard",
+    "k": 4,
+    "id": "compact_trend:guard:4"
+  },
+  "risk": {
+    "calibration": {
+      "known": {
+        "overallHarm": 0.008333333333333333,
+        "conditionalHarm": 0.03571428571428571,
+        "changeRate": 0.23333333333333334,
+        "support": 0.8833333333333333,
+        "relativeCost": 0.013117691090032272
+      },
+      "shifted": {
+        "overallHarm": 0.01875,
+        "conditionalHarm": 0.17307692307692307,
+        "changeRate": 0.10833333333333334,
+        "support": 0.22291666666666668,
+        "relativeCost": 0.004056667557666001
+      },
+      "pooled": {
+        "overallHarm": 0.014285714285714285,
+        "conditionalHarm": 0.08823529411764706,
+        "changeRate": 0.1619047619047619,
+        "support": 0.5059523809523809,
+        "relativeCost": 0.009145921208612467
+      }
+    },
+    "final": {
+      "known": {
+        "overallHarm": 0.008333333333333333,
+        "conditionalHarm": 0.04,
+        "changeRate": 0.20833333333333334,
+        "support": 0.9194444444444444,
+        "relativeCost": 0.00978710945668995
+      },
+      "shifted": {
+        "overallHarm": 0.022916666666666665,
+        "conditionalHarm": 0.3142857142857143,
+        "changeRate": 0.07291666666666667,
+        "support": 0.15,
+        "relativeCost": 0.0015126958400864397
+      },
+      "pooled": {
+        "overallHarm": 0.04479166666666667,
+        "conditionalHarm": 0.2606060606060606,
+        "changeRate": 0.171875,
+        "support": 0.534375,
+        "relativeCost": 0.00033561150976828583
+      },
+      "lateburst": {
+        "overallHarm": 0.24166666666666667,
+        "conditionalHarm": 0.5272727272727272,
+        "changeRate": 0.4583333333333333,
+        "support": 0.9166666666666666,
+        "relativeCost": -0.03139177520854676
+      },
+      "alternating": {
+        "overallHarm": 0.0875,
+        "conditionalHarm": 0.375,
+        "changeRate": 0.23333333333333334,
+        "support": 0.4666666666666667,
+        "relativeCost": 0.004829026363873662
+      }
+    }
+  }
+}
