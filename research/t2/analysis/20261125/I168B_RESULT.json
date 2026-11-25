@@ -1,0 +1,2197 @@
+{
+  "status": "EXECUTED_SYNTHETIC_TRAIN_ONLY_HINT",
+  "arms": 33696,
+  "train": 576,
+  "calibration": 120,
+  "final": 240,
+  "denominator": 24,
+  "trainingKeys": 64,
+  "supportedKeys": 48,
+  "selected": "geometry",
+  "rank": [],
+  "ca": [
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 120,
+          "support": 120,
+          "J": 663136,
+          "regret": 75000,
+          "worst": 3224,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 660696,
+          "regret": 72560,
+          "worst": 4168,
+          "changed": 936,
+          "harm": 480,
+          "benefit": 456,
+          "delta": -2440,
+          "maxHarm": 246
+        },
+        "prefix_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 659856,
+          "regret": 71720,
+          "worst": 4168,
+          "changed": 1224,
+          "harm": 600,
+          "benefit": 616,
+          "delta": -3280,
+          "maxHarm": 246
+        },
+        "hint_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 657982,
+          "regret": 69846,
+          "worst": 4138,
+          "changed": 1120,
+          "harm": 482,
+          "benefit": 636,
+          "delta": -5154,
+          "maxHarm": 246
+        },
+        "hint_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 660834,
+          "regret": 72698,
+          "worst": 4138,
+          "changed": 1190,
+          "harm": 590,
+          "benefit": 594,
+          "delta": -2302,
+          "maxHarm": 246
+        },
+        "hint_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 663136,
+          "regret": 75000,
+          "worst": 3224,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 663136,
+          "regret": 75000,
+          "worst": 3224,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      }
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 120,
+          "support": 120,
+          "J": 449996,
+          "regret": 44688,
+          "worst": 1864,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 451680,
+          "regret": 46372,
+          "worst": 2432,
+          "changed": 936,
+          "harm": 588,
+          "benefit": 348,
+          "delta": 1684,
+          "maxHarm": 246
+        },
+        "prefix_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 450744,
+          "regret": 45436,
+          "worst": 2432,
+          "changed": 1224,
+          "harm": 720,
+          "benefit": 500,
+          "delta": 748,
+          "maxHarm": 246
+        },
+        "hint_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 447746,
+          "regret": 42438,
+          "worst": 2390,
+          "changed": 1136,
+          "harm": 553,
+          "benefit": 582,
+          "delta": -2250,
+          "maxHarm": 246
+        },
+        "hint_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 450978,
+          "regret": 45670,
+          "worst": 2390,
+          "changed": 1186,
+          "harm": 649,
+          "benefit": 534,
+          "delta": 982,
+          "maxHarm": 246
+        },
+        "hint_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 449996,
+          "regret": 44688,
+          "worst": 1864,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 449996,
+          "regret": 44688,
+          "worst": 1864,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      }
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 120,
+          "support": 120,
+          "J": 770672,
+          "regret": 87036,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 766272,
+          "regret": 82636,
+          "worst": 5036,
+          "changed": 936,
+          "harm": 432,
+          "benefit": 504,
+          "delta": -4400,
+          "maxHarm": 246
+        },
+        "prefix_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 765456,
+          "regret": 81820,
+          "worst": 5036,
+          "changed": 1224,
+          "harm": 540,
+          "benefit": 668,
+          "delta": -5216,
+          "maxHarm": 246
+        },
+        "hint_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 764315,
+          "regret": 80679,
+          "worst": 5012,
+          "changed": 1112,
+          "harm": 448,
+          "benefit": 660,
+          "delta": -6357,
+          "maxHarm": 246
+        },
+        "hint_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 767880,
+          "regret": 84244,
+          "worst": 5012,
+          "changed": 1192,
+          "harm": 574,
+          "benefit": 609,
+          "delta": -2792,
+          "maxHarm": 246
+        },
+        "hint_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 770672,
+          "regret": 87036,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 770672,
+          "regret": 87036,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      }
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 120,
+          "support": 120,
+          "J": 768740,
+          "regret": 93276,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 764136,
+          "regret": 88672,
+          "worst": 5036,
+          "changed": 936,
+          "harm": 420,
+          "benefit": 516,
+          "delta": -4604,
+          "maxHarm": 246
+        },
+        "prefix_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 763368,
+          "regret": 87904,
+          "worst": 5036,
+          "changed": 1224,
+          "harm": 540,
+          "benefit": 680,
+          "delta": -5372,
+          "maxHarm": 246
+        },
+        "hint_mean": {
+          "groups": 120,
+          "support": 104,
+          "J": 761885,
+          "regret": 86421,
+          "worst": 5012,
+          "changed": 1112,
+          "harm": 445,
+          "benefit": 666,
+          "delta": -6855,
+          "maxHarm": 246
+        },
+        "hint_robust": {
+          "groups": 120,
+          "support": 104,
+          "J": 763644,
+          "regret": 88180,
+          "worst": 5012,
+          "changed": 1192,
+          "harm": 547,
+          "benefit": 639,
+          "delta": -5096,
+          "maxHarm": 246
+        },
+        "hint_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 768740,
+          "regret": 93276,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 120,
+          "support": 104,
+          "J": 768740,
+          "regret": 93276,
+          "worst": 3904,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "err": 0,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1261672,
+          "regret": 135080,
+          "worst": 3960,
+          "changed": 1656,
+          "harm": 760,
+          "benefit": 896,
+          "delta": -21824,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260768,
+          "regret": 134176,
+          "worst": 3960,
+          "changed": 2136,
+          "harm": 1000,
+          "benefit": 1128,
+          "delta": -22728,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1256504,
+          "regret": 129912,
+          "worst": 3960,
+          "changed": 1840,
+          "harm": 712,
+          "benefit": 1128,
+          "delta": -26992,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260200,
+          "regret": 133608,
+          "worst": 3960,
+          "changed": 2008,
+          "harm": 896,
+          "benefit": 1112,
+          "delta": -23296,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1261672,
+          "regret": 135080,
+          "worst": 3960,
+          "changed": 1656,
+          "harm": 760,
+          "benefit": 896,
+          "delta": -21824,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260768,
+          "regret": 134176,
+          "worst": 3960,
+          "changed": 2136,
+          "harm": 1000,
+          "benefit": 1128,
+          "delta": -22728,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1258398,
+          "regret": 131806,
+          "worst": 3960,
+          "changed": 1838,
+          "harm": 764,
+          "benefit": 1070,
+          "delta": -25098,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1262332,
+          "regret": 135740,
+          "worst": 3960,
+          "changed": 2000,
+          "harm": 948,
+          "benefit": 1050,
+          "delta": -21164,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "err": 2,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1261672,
+          "regret": 135080,
+          "worst": 3960,
+          "changed": 1656,
+          "harm": 760,
+          "benefit": 896,
+          "delta": -21824,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260768,
+          "regret": 134176,
+          "worst": 3960,
+          "changed": 2136,
+          "harm": 1000,
+          "benefit": 1128,
+          "delta": -22728,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260292,
+          "regret": 133700,
+          "worst": 3960,
+          "changed": 1836,
+          "harm": 816,
+          "benefit": 1012,
+          "delta": -23204,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1264464,
+          "regret": 137872,
+          "worst": 3960,
+          "changed": 1992,
+          "harm": 1000,
+          "benefit": 988,
+          "delta": -19032,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "err": 3,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1261672,
+          "regret": 135080,
+          "worst": 3960,
+          "changed": 1656,
+          "harm": 760,
+          "benefit": 896,
+          "delta": -21824,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1260768,
+          "regret": 134176,
+          "worst": 3960,
+          "changed": 2136,
+          "harm": 1000,
+          "benefit": 1128,
+          "delta": -22728,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1262186,
+          "regret": 135594,
+          "worst": 3960,
+          "changed": 1834,
+          "harm": 868,
+          "benefit": 954,
+          "delta": -21310,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1266596,
+          "regret": 140004,
+          "worst": 3960,
+          "changed": 1984,
+          "harm": 1052,
+          "benefit": 926,
+          "delta": -16900,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1283496,
+          "regret": 156904,
+          "worst": 3960,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "err": 0,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 867644,
+          "regret": 84028,
+          "worst": 1984,
+          "changed": 1656,
+          "harm": 884,
+          "benefit": 772,
+          "delta": -8800,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 866112,
+          "regret": 82496,
+          "worst": 1984,
+          "changed": 2136,
+          "harm": 1100,
+          "benefit": 1032,
+          "delta": -10332,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 859984,
+          "regret": 76368,
+          "worst": 2008,
+          "changed": 1832,
+          "harm": 740,
+          "benefit": 1092,
+          "delta": -16460,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 866104,
+          "regret": 82488,
+          "worst": 1984,
+          "changed": 1976,
+          "harm": 940,
+          "benefit": 1036,
+          "delta": -10340,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 867644,
+          "regret": 84028,
+          "worst": 1984,
+          "changed": 1656,
+          "harm": 884,
+          "benefit": 772,
+          "delta": -8800,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 866112,
+          "regret": 82496,
+          "worst": 1984,
+          "changed": 2136,
+          "harm": 1100,
+          "benefit": 1032,
+          "delta": -10332,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 862605,
+          "regret": 78989,
+          "worst": 2022,
+          "changed": 1834,
+          "harm": 820,
+          "benefit": 1012,
+          "delta": -13839,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 868055,
+          "regret": 84439,
+          "worst": 1984,
+          "changed": 1984,
+          "harm": 1017,
+          "benefit": 966,
+          "delta": -8389,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "err": 2,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 867644,
+          "regret": 84028,
+          "worst": 1984,
+          "changed": 1656,
+          "harm": 884,
+          "benefit": 772,
+          "delta": -8800,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 866112,
+          "regret": 82496,
+          "worst": 1984,
+          "changed": 2136,
+          "harm": 1100,
+          "benefit": 1032,
+          "delta": -10332,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 865226,
+          "regret": 81610,
+          "worst": 2036,
+          "changed": 1836,
+          "harm": 900,
+          "benefit": 932,
+          "delta": -11218,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 870006,
+          "regret": 86390,
+          "worst": 1984,
+          "changed": 1992,
+          "harm": 1094,
+          "benefit": 896,
+          "delta": -6438,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "err": 3,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 867644,
+          "regret": 84028,
+          "worst": 1984,
+          "changed": 1656,
+          "harm": 884,
+          "benefit": 772,
+          "delta": -8800,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 866112,
+          "regret": 82496,
+          "worst": 1984,
+          "changed": 2136,
+          "harm": 1100,
+          "benefit": 1032,
+          "delta": -10332,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 867847,
+          "regret": 84231,
+          "worst": 2050,
+          "changed": 1838,
+          "harm": 980,
+          "benefit": 852,
+          "delta": -8597,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 871957,
+          "regret": 88341,
+          "worst": 1984,
+          "changed": 2000,
+          "harm": 1171,
+          "benefit": 826,
+          "delta": -4487,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 876444,
+          "regret": 92828,
+          "worst": 1980,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "err": 0,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459064,
+          "regret": 155836,
+          "worst": 4944,
+          "changed": 1656,
+          "harm": 692,
+          "benefit": 964,
+          "delta": -29092,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458408,
+          "regret": 155180,
+          "worst": 4944,
+          "changed": 2136,
+          "harm": 932,
+          "benefit": 1188,
+          "delta": -29748,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1455172,
+          "regret": 151944,
+          "worst": 4944,
+          "changed": 1844,
+          "harm": 692,
+          "benefit": 1152,
+          "delta": -32984,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457656,
+          "regret": 154428,
+          "worst": 4944,
+          "changed": 2024,
+          "harm": 868,
+          "benefit": 1156,
+          "delta": -30500,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459064,
+          "regret": 155836,
+          "worst": 4944,
+          "changed": 1656,
+          "harm": 692,
+          "benefit": 964,
+          "delta": -29092,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458408,
+          "regret": 155180,
+          "worst": 4944,
+          "changed": 2136,
+          "harm": 932,
+          "benefit": 1188,
+          "delta": -29748,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1456671,
+          "regret": 153443,
+          "worst": 4944,
+          "changed": 1840,
+          "harm": 727,
+          "benefit": 1108,
+          "delta": -31485,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1460819,
+          "regret": 157591,
+          "worst": 4944,
+          "changed": 2008,
+          "harm": 912,
+          "benefit": 1092,
+          "delta": -27337,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "err": 2,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459064,
+          "regret": 155836,
+          "worst": 4944,
+          "changed": 1656,
+          "harm": 692,
+          "benefit": 964,
+          "delta": -29092,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458408,
+          "regret": 155180,
+          "worst": 4944,
+          "changed": 2136,
+          "harm": 932,
+          "benefit": 1188,
+          "delta": -29748,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458170,
+          "regret": 154942,
+          "worst": 4944,
+          "changed": 1836,
+          "harm": 762,
+          "benefit": 1064,
+          "delta": -29986,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1463982,
+          "regret": 160754,
+          "worst": 4944,
+          "changed": 1992,
+          "harm": 956,
+          "benefit": 1028,
+          "delta": -24174,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "err": 3,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459064,
+          "regret": 155836,
+          "worst": 4944,
+          "changed": 1656,
+          "harm": 692,
+          "benefit": 964,
+          "delta": -29092,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458408,
+          "regret": 155180,
+          "worst": 4944,
+          "changed": 2136,
+          "harm": 932,
+          "benefit": 1188,
+          "delta": -29748,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459669,
+          "regret": 156441,
+          "worst": 4944,
+          "changed": 1832,
+          "harm": 797,
+          "benefit": 1020,
+          "delta": -28487,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1467145,
+          "regret": 163917,
+          "worst": 4944,
+          "changed": 1976,
+          "harm": 1000,
+          "benefit": 964,
+          "delta": -21011,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1488156,
+          "regret": 184928,
+          "worst": 4944,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "err": 0,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458308,
+          "regret": 165376,
+          "worst": 4956,
+          "changed": 1656,
+          "harm": 704,
+          "benefit": 952,
+          "delta": -27580,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457784,
+          "regret": 164852,
+          "worst": 4956,
+          "changed": 2136,
+          "harm": 968,
+          "benefit": 1164,
+          "delta": -28104,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1454356,
+          "regret": 161424,
+          "worst": 4956,
+          "changed": 1844,
+          "harm": 704,
+          "benefit": 1140,
+          "delta": -31532,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1456840,
+          "regret": 163908,
+          "worst": 4956,
+          "changed": 2024,
+          "harm": 880,
+          "benefit": 1144,
+          "delta": -29048,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458308,
+          "regret": 165376,
+          "worst": 4956,
+          "changed": 1656,
+          "harm": 704,
+          "benefit": 952,
+          "delta": -27580,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457784,
+          "regret": 164852,
+          "worst": 4956,
+          "changed": 2136,
+          "harm": 968,
+          "benefit": 1164,
+          "delta": -28104,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1455918,
+          "regret": 162986,
+          "worst": 4956,
+          "changed": 1840,
+          "harm": 745,
+          "benefit": 1090,
+          "delta": -29970,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458122,
+          "regret": 165190,
+          "worst": 4956,
+          "changed": 2008,
+          "harm": 915,
+          "benefit": 1092,
+          "delta": -27766,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "err": 2,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458308,
+          "regret": 165376,
+          "worst": 4956,
+          "changed": 1656,
+          "harm": 704,
+          "benefit": 952,
+          "delta": -27580,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457784,
+          "regret": 164852,
+          "worst": 4956,
+          "changed": 2136,
+          "harm": 968,
+          "benefit": 1164,
+          "delta": -28104,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457480,
+          "regret": 164548,
+          "worst": 4956,
+          "changed": 1836,
+          "harm": 786,
+          "benefit": 1040,
+          "delta": -28408,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459404,
+          "regret": 166472,
+          "worst": 4956,
+          "changed": 1992,
+          "harm": 950,
+          "benefit": 1040,
+          "delta": -26484,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "err": 3,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1458308,
+          "regret": 165376,
+          "worst": 4956,
+          "changed": 1656,
+          "harm": 704,
+          "benefit": 952,
+          "delta": -27580,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1457784,
+          "regret": 164852,
+          "worst": 4956,
+          "changed": 2136,
+          "harm": 968,
+          "benefit": 1164,
+          "delta": -28104,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1459042,
+          "regret": 166110,
+          "worst": 4956,
+          "changed": 1832,
+          "harm": 827,
+          "benefit": 990,
+          "delta": -26846,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1460686,
+          "regret": 167754,
+          "worst": 4956,
+          "changed": 1976,
+          "harm": 985,
+          "benefit": 988,
+          "delta": -25202,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1485888,
+          "regret": 192956,
+          "worst": 4956,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        6,
+        0,
+        0
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 469392,
+          "regret": 28752,
+          "worst": 672,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 473616,
+          "regret": 32976,
+          "worst": 672,
+          "changed": 1656,
+          "harm": 1008,
+          "benefit": 648,
+          "delta": 4224,
+          "maxHarm": 26
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 471456,
+          "regret": 30816,
+          "worst": 672,
+          "changed": 2136,
+          "harm": 1200,
+          "benefit": 936,
+          "delta": 2064,
+          "maxHarm": 26
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 466812,
+          "regret": 26172,
+          "worst": 672,
+          "changed": 1830,
+          "harm": 876,
+          "benefit": 954,
+          "delta": -2580,
+          "maxHarm": 31
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 473778,
+          "regret": 33138,
+          "worst": 672,
+          "changed": 1968,
+          "harm": 1086,
+          "benefit": 882,
+          "delta": 4386,
+          "maxHarm": 26
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 469392,
+          "regret": 28752,
+          "worst": 672,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 469392,
+          "regret": 28752,
+          "worst": 672,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        0,
+        6,
+        0
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1692816,
+          "regret": 212952,
+          "worst": 5928,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1656456,
+          "regret": 176592,
+          "worst": 5928,
+          "changed": 1656,
+          "harm": 624,
+          "benefit": 1032,
+          "delta": -36360,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1656048,
+          "regret": 176184,
+          "worst": 5928,
+          "changed": 2136,
+          "harm": 864,
+          "benefit": 1248,
+          "delta": -36768,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1654944,
+          "regret": 175080,
+          "worst": 5928,
+          "changed": 1842,
+          "harm": 690,
+          "benefit": 1146,
+          "delta": -37872,
+          "maxHarm": 201
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1659306,
+          "regret": 179442,
+          "worst": 5928,
+          "changed": 2016,
+          "harm": 876,
+          "benefit": 1134,
+          "delta": -33510,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1692816,
+          "regret": 212952,
+          "worst": 5928,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1692816,
+          "regret": 212952,
+          "worst": 5928,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "w": [
+        0,
+        0,
+        6
+      ],
+      "err": 1,
+      "stats": {
+        "geometry": {
+          "groups": 240,
+          "support": 240,
+          "J": 1688280,
+          "regret": 229008,
+          "worst": 5952,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1654944,
+          "regret": 195672,
+          "worst": 5952,
+          "changed": 1656,
+          "harm": 648,
+          "benefit": 1008,
+          "delta": -33336,
+          "maxHarm": 198
+        },
+        "prefix_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1654800,
+          "regret": 195528,
+          "worst": 5952,
+          "changed": 2136,
+          "harm": 936,
+          "benefit": 1200,
+          "delta": -33480,
+          "maxHarm": 198
+        },
+        "hint_mean": {
+          "groups": 240,
+          "support": 176,
+          "J": 1653438,
+          "regret": 194166,
+          "worst": 5952,
+          "changed": 1842,
+          "harm": 726,
+          "benefit": 1110,
+          "delta": -34842,
+          "maxHarm": 200
+        },
+        "hint_robust": {
+          "groups": 240,
+          "support": 176,
+          "J": 1653912,
+          "regret": 194640,
+          "worst": 5952,
+          "changed": 2016,
+          "harm": 882,
+          "benefit": 1134,
+          "delta": -34368,
+          "maxHarm": 198
+        },
+        "hint_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1688280,
+          "regret": 229008,
+          "worst": 5952,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        },
+        "prefix_guard": {
+          "groups": 240,
+          "support": 176,
+          "J": 1688280,
+          "regret": 229008,
+          "worst": 5952,
+          "changed": 0,
+          "harm": 0,
+          "benefit": 0,
+          "delta": 0,
+          "maxHarm": 0
+        }
+      },
+      "pass": true
+    }
+  ]
+}
