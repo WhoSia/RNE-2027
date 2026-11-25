@@ -1,0 +1,324 @@
+{
+  "status": "NATIVE_EXECUTED_AGGREGATE_PARITY",
+  "arms": 8640,
+  "groups": 240,
+  "ambiguous": 137,
+  "groupOracle": 144421,
+  "denominator": 24,
+  "sourceBlob": "bbbe88dc66f5c9d2ca15aa5842189029da846b18",
+  "sourceExact": true,
+  "localRawResultBlob": "11fcc45ce9d7e5829ee41115f2a3da0ae9c4f91c",
+  "localRawResultSHA256": "945ec7b925a97244847b4d511bfe832977e6388b0cb08e2fbc4fafd01633cfc1",
+  "gridParity": true,
+  "grid": [
+    {
+      "w": [
+        0,
+        0,
+        6
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        1,
+        5
+      ],
+      "none": 5328,
+      "binary": 5328,
+      "noisy": 5328,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        2,
+        4
+      ],
+      "none": 9768,
+      "binary": 9768,
+      "noisy": 9768,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        3,
+        3
+      ],
+      "none": 9624,
+      "binary": 9624,
+      "noisy": 9624,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        4,
+        2
+      ],
+      "none": 6872,
+      "binary": 6872,
+      "noisy": 6872,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        5,
+        1
+      ],
+      "none": 3600,
+      "binary": 3600,
+      "noisy": 3600,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        6,
+        0
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        0,
+        5
+      ],
+      "none": 9624,
+      "binary": 0,
+      "noisy": 9412,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "none": 14928,
+      "binary": 5292,
+      "noisy": 14611,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        2,
+        3
+      ],
+      "none": 17312,
+      "binary": 8792,
+      "noisy": 17030,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        3,
+        2
+      ],
+      "none": 14816,
+      "binary": 6696,
+      "noisy": 14531,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "none": 11412,
+      "binary": 3596,
+      "noisy": 11200,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        5,
+        0
+      ],
+      "none": 7752,
+      "binary": 0,
+      "noisy": 7548,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        0,
+        4
+      ],
+      "none": 18736,
+      "binary": 0,
+      "noisy": 17648,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        1,
+        3
+      ],
+      "none": 23476,
+      "binary": 5192,
+      "noisy": 21642,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "none": 22248,
+      "binary": 6416,
+      "noisy": 21048,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        3,
+        1
+      ],
+      "none": 18728,
+      "binary": 3556,
+      "noisy": 17738,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        4,
+        0
+      ],
+      "none": 14984,
+      "binary": 0,
+      "noisy": 14056,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        0,
+        3
+      ],
+      "none": 26928,
+      "binary": 0,
+      "noisy": 21627,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        1,
+        2
+      ],
+      "none": 28976,
+      "binary": 4884,
+      "noisy": 24547,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        2,
+        1
+      ],
+      "none": 25272,
+      "binary": 3436,
+      "noisy": 21737,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        3,
+        0
+      ],
+      "none": 21456,
+      "binary": 0,
+      "noisy": 18042,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        0,
+        2
+      ],
+      "none": 31768,
+      "binary": 0,
+      "noisy": 22852,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "none": 29352,
+      "binary": 3208,
+      "noisy": 23212,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        2,
+        0
+      ],
+      "none": 25536,
+      "binary": 0,
+      "noisy": 19466,
+      "perfect": 0
+    },
+    {
+      "w": [
+        5,
+        0,
+        1
+      ],
+      "none": 24784,
+      "binary": 0,
+      "noisy": 20650,
+      "perfect": 0
+    },
+    {
+      "w": [
+        5,
+        1,
+        0
+      ],
+      "none": 21840,
+      "binary": 0,
+      "noisy": 17614,
+      "perfect": 0
+    },
+    {
+      "w": [
+        6,
+        0,
+        0
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    }
+  ],
+  "scope": "All known-prior aggregate values independently recalculated; frozen robust decisions and I168B not independently replayed."
+}
