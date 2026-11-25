@@ -1,0 +1,197 @@
+{
+  "title": "교통류 관측 정보의 해상도가 최적화 성능에 미치는 영향과 적응적 정보 집계에 관한 연구",
+  "stage": "HARVEST_NOT_NOVELTY_LOCK",
+  "status": "EDITORIAL_SCORES_NOT_PROBABILITIES",
+  "weights": {
+    "novelty": 0.25,
+    "evidence": 0.25,
+    "fit": 0.2,
+    "expansion": 0.15,
+    "exhibit": 0.15
+  },
+  "candidates": [
+    {
+      "name": "H01 — 관측 오차와 목적함수 오차의 불일치",
+      "ratings": {
+        "novelty": 0.6,
+        "evidence": 0.96,
+        "fit": 0.99,
+        "expansion": 0.95,
+        "exhibit": 0.93
+      },
+      "score": 0.87,
+      "note": "T174 standard conditional Jensen gap explains objective-aligned flux improvement; exact synthetic support, independent rational audit; novel transport-specific application unconfirmed."
+    },
+    {
+      "name": "H06 — 공간 집계와 국소/전체 비용 충돌",
+      "ratings": {
+        "novelty": 0.64,
+        "evidence": 0.88,
+        "fit": 0.98,
+        "expansion": 0.94,
+        "exhibit": 0.91
+      },
+      "score": 0.854,
+      "note": "H06A explicit histogram/endpoint aliasing and exact finite MSE floor; larger chains and prior-art comparison pending."
+    },
+    {
+      "name": "H04 — 총량 관측으로 공통 편향 제거",
+      "ratings": {
+        "novelty": 0.55,
+        "evidence": 0.91,
+        "fit": 0.96,
+        "expansion": 0.92,
+        "exhibit": 0.92
+      },
+      "score": 0.833,
+      "note": "B3 ideal anchor, substantial synthetic gains; cost/identifiability unresolved"
+    },
+    {
+      "name": "H02 — 관측 표현의 후회 하한과 학습 초과 후회",
+      "ratings": {
+        "novelty": 0.45,
+        "evidence": 0.98,
+        "fit": 0.99,
+        "expansion": 0.91,
+        "exhibit": 0.88
+      },
+      "score": 0.824,
+      "note": "T168/169 standard finite decision principle; distinguish new domain-specific discovery"
+    },
+    {
+      "name": "H03 — 미래 조건만 바뀌는 관측 충돌",
+      "ratings": {
+        "novelty": 0.52,
+        "evidence": 0.93,
+        "fit": 0.97,
+        "expansion": 0.88,
+        "exhibit": 0.9
+      },
+      "score": 0.824,
+      "note": "I167B/I168A matched prefix; no measured predictor"
+    },
+    {
+      "name": "H05 — 시간 해상도와 정확한 계산 압축",
+      "ratings": {
+        "novelty": 0.39,
+        "evidence": 0.94,
+        "fit": 0.8,
+        "expansion": 0.78,
+        "exhibit": 0.8
+      },
+      "score": 0.73,
+      "note": "AGG04B/C existing DES; supporting"
+    },
+    {
+      "name": "H07 — 실제 관측 정보의 가치 검증",
+      "ratings": {
+        "novelty": 0.66,
+        "evidence": 0.12,
+        "fit": 0.99,
+        "expansion": 0.95,
+        "exhibit": 0.96
+      },
+      "score": 0.68,
+      "note": "No measurement; teacher-approved aggregate model only"
+    }
+  ],
+  "nextWeights": {
+    "fit": 0.3,
+    "informationGain": 0.25,
+    "evidenceFeasibility": 0.2,
+    "noveltyPotential": 0.15,
+    "exhibit": 0.1
+  },
+  "next": [
+    {
+      "name": "H06B — larger abstract spatial chains and adjacency summaries",
+      "ratings": {
+        "fit": 0.99,
+        "informationGain": 0.98,
+        "evidenceFeasibility": 0.96,
+        "noveltyPotential": 0.83,
+        "exhibit": 0.92
+      },
+      "score": 0.95
+    },
+    {
+      "name": "H01B — active affine branch ambiguity and loss mismatch",
+      "ratings": {
+        "fit": 0.99,
+        "informationGain": 0.96,
+        "evidenceFeasibility": 0.95,
+        "noveltyPotential": 0.78,
+        "exhibit": 0.91
+      },
+      "score": 0.935
+    },
+    {
+      "name": "H04A — imperfect total measurement and uncertainty-aware estimation",
+      "ratings": {
+        "fit": 0.98,
+        "informationGain": 0.95,
+        "evidenceFeasibility": 0.95,
+        "noveltyPotential": 0.8,
+        "exhibit": 0.91
+      },
+      "score": 0.933
+    },
+    {
+      "name": "I169A — statistical baseline on disjoint synthetic cohorts",
+      "ratings": {
+        "fit": 0.97,
+        "informationGain": 0.91,
+        "evidenceFeasibility": 0.96,
+        "noveltyPotential": 0.73,
+        "exhibit": 0.86
+      },
+      "score": 0.906
+    },
+    {
+      "name": "EX01C — student independent reconstruction",
+      "ratings": {
+        "fit": 0.98,
+        "informationGain": 0.93,
+        "evidenceFeasibility": 0.7,
+        "noveltyPotential": 0.65,
+        "exhibit": 1
+      },
+      "score": 0.864
+    },
+    {
+      "name": "교사 승인 모형 관측 실험",
+      "ratings": {
+        "fit": 0.99,
+        "informationGain": 0.98,
+        "evidenceFeasibility": 0.3,
+        "noveltyPotential": 0.8,
+        "exhibit": 0.99
+      },
+      "score": 0.821
+    },
+    {
+      "name": "BE02B — abstract departure cohort cost audit",
+      "ratings": {
+        "fit": 0.83,
+        "informationGain": 0.82,
+        "evidenceFeasibility": 0.91,
+        "noveltyPotential": 0.74,
+        "exhibit": 0.72
+      },
+      "score": 0.819
+    },
+    {
+      "name": "AGG04D — exact computation mode",
+      "ratings": {
+        "fit": 0.8,
+        "informationGain": 0.72,
+        "evidenceFeasibility": 0.95,
+        "noveltyPotential": 0.55,
+        "exhibit": 0.74
+      },
+      "score": 0.767
+    }
+  ],
+  "gate": "Require specific original claim, prior-art comparison, independent/fresh validation, student-owned reproduction; no fixed score establishes novelty.",
+  "note": "Same candidate/next weights as previous Harvest ledger; editorial scores not novelty probabilities. H01 novelty rating lowered as standard Jensen argument explains it, while H06 evidence increased. No novelty lock."
+}
