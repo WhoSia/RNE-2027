@@ -1,0 +1,452 @@
+{
+  "status": "POSTHOC_DIAGNOSTIC",
+  "I168A": {
+    "nominal": {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "none": 22248,
+      "binary": 6416,
+      "noisy": 21048,
+      "perfect": 0
+    },
+    "ambiguity": 0.5708333333333333,
+    "robust": {
+      "none": {
+        "nominalRisk": 927,
+        "robustNominalRisk": 1015.3333333333334,
+        "maxAggregateNominal": 1402.5,
+        "maxAggregateRobust": 1328.1666666666667,
+        "groupsStrictlyImproved": 29
+      },
+      "binary": {
+        "nominalRisk": 267.3333333333333,
+        "robustNominalRisk": 267.3333333333333,
+        "maxAggregateNominal": 468.6666666666667,
+        "maxAggregateRobust": 468.6666666666667,
+        "groupsStrictlyImproved": 0
+      },
+      "noisy": {
+        "nominalRisk": 877,
+        "robustNominalRisk": 1043.5,
+        "maxAggregateNominal": 1211.75,
+        "maxAggregateRobust": 1162.375,
+        "groupsStrictlyImproved": 83
+      }
+    }
+  },
+  "I168B": {
+    "selected": "geometry",
+    "nominalAssumedError": [
+      {
+        "n": "geometry",
+        "J": 53479,
+        "regret": 6537.666666666667,
+        "worst": 165,
+        "overallHarm": 0,
+        "coverage": 0,
+        "conditionalHarm": null,
+        "supported": 240
+      },
+      {
+        "n": "prefix_mean",
+        "J": 52569.666666666664,
+        "regret": 5628.333333333333,
+        "worst": 165,
+        "overallHarm": 0.13194444444444445,
+        "coverage": 0.2875,
+        "conditionalHarm": 0.45893719806763283,
+        "supported": 176
+      },
+      {
+        "n": "prefix_robust",
+        "J": 52532,
+        "regret": 5590.666666666667,
+        "worst": 165,
+        "overallHarm": 0.1736111111111111,
+        "coverage": 0.37083333333333335,
+        "conditionalHarm": 0.4681647940074906,
+        "supported": 176
+      },
+      {
+        "n": "hint_mean",
+        "J": 52433.25,
+        "regret": 5491.916666666667,
+        "worst": 165,
+        "overallHarm": 0.1326388888888889,
+        "coverage": 0.3190972222222222,
+        "conditionalHarm": 0.41566920565832427,
+        "supported": 176
+      },
+      {
+        "n": "hint_robust",
+        "J": 52597.166666666664,
+        "regret": 5655.833333333333,
+        "worst": 165,
+        "overallHarm": 0.16458333333333333,
+        "coverage": 0.3472222222222222,
+        "conditionalHarm": 0.474,
+        "supported": 176
+      },
+      {
+        "n": "hint_guard",
+        "J": 53479,
+        "regret": 6537.666666666667,
+        "worst": 165,
+        "overallHarm": 0,
+        "coverage": 0,
+        "conditionalHarm": null,
+        "supported": 176
+      },
+      {
+        "n": "prefix_guard",
+        "J": 53479,
+        "regret": 6537.666666666667,
+        "worst": 165,
+        "overallHarm": 0,
+        "coverage": 0,
+        "conditionalHarm": null,
+        "supported": 176
+      }
+    ],
+    "calibrationFailures": [
+      {
+        "n": "prefix_mean",
+        "positiveGain": 406.6666666666667,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": true,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          }
+        ]
+      },
+      {
+        "n": "prefix_robust",
+        "positiveGain": 546.6666666666666,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": true,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          }
+        ]
+      },
+      {
+        "n": "hint_mean",
+        "positiveGain": 859,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          }
+        ]
+      },
+      {
+        "n": "hint_robust",
+        "positiveGain": 383.6666666666667,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": true,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": true,
+            "overallHarm": true,
+            "conditionalHarm": true
+          }
+        ]
+      },
+      {
+        "n": "hint_guard",
+        "positiveGain": 0,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          }
+        ]
+      },
+      {
+        "n": "prefix_guard",
+        "positiveGain": 0,
+        "failures": [
+          {
+            "w": [
+              2,
+              2,
+              2
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              4,
+              1,
+              1
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              1,
+              4,
+              1
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          },
+          {
+            "w": [
+              1,
+              1,
+              4
+            ],
+            "cost": false,
+            "worst": false,
+            "overallHarm": false,
+            "conditionalHarm": false
+          }
+        ]
+      }
+    ],
+    "nominalHintErrorSweep": [
+      {
+        "error": 0,
+        "meanJ": 52354.333333333336,
+        "meanDelta": -1124.6666666666667,
+        "meanHarm": 0.12361111111111112,
+        "meanConditionalHarm": 0.3869565217391304,
+        "prefixJ": 52569.666666666664
+      },
+      {
+        "error": 0.25,
+        "meanJ": 52433.25,
+        "meanDelta": -1045.75,
+        "meanHarm": 0.1326388888888889,
+        "meanConditionalHarm": 0.41566920565832427,
+        "prefixJ": 52569.666666666664
+      },
+      {
+        "error": 0.5,
+        "meanJ": 52512.166666666664,
+        "meanDelta": -966.8333333333334,
+        "meanHarm": 0.14166666666666666,
+        "meanConditionalHarm": 0.4444444444444444,
+        "prefixJ": 52569.666666666664
+      },
+      {
+        "error": 0.75,
+        "meanJ": 52591.083333333336,
+        "meanDelta": -887.9166666666666,
+        "meanHarm": 0.15069444444444444,
+        "meanConditionalHarm": 0.4732824427480916,
+        "prefixJ": 52569.666666666664
+      }
+    ],
+    "pureSparse": 182.75
+  }
+}
