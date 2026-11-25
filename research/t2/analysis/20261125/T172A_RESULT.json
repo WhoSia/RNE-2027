@@ -1,0 +1,54 @@
+{
+  "status": "FINITE_SYNTHETIC_CONTRACTION_CHECK",
+  "states": 256,
+  "result": [
+    {
+      "v": 1,
+      "w": 0.5,
+      "C": 2,
+      "pairs": 65536,
+      "strict": 42622,
+      "equal": 22914,
+      "violations": 0,
+      "comparable": 10000,
+      "monotonicityViolations": 0,
+      "maxRatio": 1
+    },
+    {
+      "v": 0.5,
+      "w": 1,
+      "C": 2,
+      "pairs": 65536,
+      "strict": 42622,
+      "equal": 22914,
+      "violations": 0,
+      "comparable": 10000,
+      "monotonicityViolations": 0,
+      "maxRatio": 1
+    },
+    {
+      "v": 0.75,
+      "w": 0.5,
+      "C": 1.8,
+      "pairs": 65536,
+      "strict": 44252,
+      "equal": 21284,
+      "violations": 0,
+      "comparable": 10000,
+      "monotonicityViolations": 0,
+      "maxRatio": 1.0000000000000002
+    },
+    {
+      "v": 0.5,
+      "w": 0.75,
+      "C": 1.8,
+      "pairs": 65536,
+      "strict": 44252,
+      "equal": 21284,
+      "violations": 0,
+      "comparable": 10000,
+      "monotonicityViolations": 0,
+      "maxRatio": 1.0000000000000002
+    }
+  ]
+}
