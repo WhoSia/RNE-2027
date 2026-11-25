@@ -1,0 +1,18 @@
+{
+  "status": "NATIVE_EXECUTED_AGGREGATE_PARITY",
+  "sourceBlob": "c820687b89030923608e2ae76a5d4db3bae315fe",
+  "sourceExact": true,
+  "localRawResultBlob": "204c74e6a331c1382c9ecd6b65d782dd18a78cd0",
+  "localRawResultSHA256": "8b5f9d9cc87be36a013e1b1756fa17f5642f522e41039103e45c1550be664a6d",
+  "arms": 8640,
+  "groups": 240,
+  "ambiguous": 172,
+  "maxGroup": 48,
+  "oracle": 147418,
+  "meanJ": 150666,
+  "minimaxJ": 151238,
+  "meanRegret": 3248,
+  "minimaxRegret": 3820,
+  "maxMean": 35,
+  "maxMinimax": 34
+}
