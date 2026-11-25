@@ -1,0 +1,99 @@
+{
+  "status": "SYNTHETIC_MATCHED_PREFIX_RETROSPECTIVE",
+  "arms": 8640,
+  "groups": 240,
+  "ambiguous": 172,
+  "maxGroup": 48,
+  "oracle": 147418,
+  "meanJ": 150666,
+  "minimaxJ": 151238,
+  "meanRegret": 3248,
+  "minimaxRegret": 3820,
+  "maxMean": 35,
+  "maxMinimax": 34,
+  "byVariant": {
+    "sparse": {
+      "oracle": 19016,
+      "mean": 20923,
+      "minimax": 20656,
+      "meanRegret": 1907,
+      "minimaxRegret": 1640
+    },
+    "early": {
+      "oracle": 64982,
+      "mean": 65056,
+      "minimax": 65656,
+      "meanRegret": 74,
+      "minimaxRegret": 674
+    },
+    "late": {
+      "oracle": 63420,
+      "mean": 64687,
+      "minimax": 64926,
+      "meanRegret": 1267,
+      "minimaxRegret": 1506
+    }
+  },
+  "witness": {
+    "seed": 440,
+    "left": 6,
+    "P": 1,
+    "R": 1,
+    "prefix": "SSLS",
+    "state": {
+      "q": "S",
+      "p": 0,
+      "r": 0
+    },
+    "costs": [
+      [
+        93,
+        111,
+        686,
+        654,
+        97,
+        115,
+        691,
+        113,
+        101,
+        119,
+        696,
+        117
+      ],
+      [
+        507,
+        531,
+        1256,
+        1224,
+        509,
+        533,
+        1261,
+        528,
+        487,
+        538,
+        1266,
+        530
+      ],
+      [
+        506,
+        531,
+        1096,
+        1064,
+        481,
+        533,
+        1101,
+        454,
+        485,
+        538,
+        1106,
+        458
+      ]
+    ],
+    "mins": [
+      93,
+      487,
+      454
+    ],
+    "minimumGroupRegret": 39
+  }
+}
