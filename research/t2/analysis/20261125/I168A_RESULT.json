@@ -1,0 +1,634 @@
+{
+  "status": "RETROSPECTIVE_SYNTHETIC_SIGNAL_VALUE",
+  "arms": 8640,
+  "groups": 240,
+  "ambiguous": 137,
+  "groupOracle": 144421,
+  "denominator": 24,
+  "grid": [
+    {
+      "w": [
+        0,
+        0,
+        6
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        1,
+        5
+      ],
+      "none": 5328,
+      "binary": 5328,
+      "noisy": 5328,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        2,
+        4
+      ],
+      "none": 9768,
+      "binary": 9768,
+      "noisy": 9768,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        3,
+        3
+      ],
+      "none": 9624,
+      "binary": 9624,
+      "noisy": 9624,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        4,
+        2
+      ],
+      "none": 6872,
+      "binary": 6872,
+      "noisy": 6872,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        5,
+        1
+      ],
+      "none": 3600,
+      "binary": 3600,
+      "noisy": 3600,
+      "perfect": 0
+    },
+    {
+      "w": [
+        0,
+        6,
+        0
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        0,
+        5
+      ],
+      "none": 9624,
+      "binary": 0,
+      "noisy": 9412,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        1,
+        4
+      ],
+      "none": 14928,
+      "binary": 5292,
+      "noisy": 14611,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        2,
+        3
+      ],
+      "none": 17312,
+      "binary": 8792,
+      "noisy": 17030,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        3,
+        2
+      ],
+      "none": 14816,
+      "binary": 6696,
+      "noisy": 14531,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        4,
+        1
+      ],
+      "none": 11412,
+      "binary": 3596,
+      "noisy": 11200,
+      "perfect": 0
+    },
+    {
+      "w": [
+        1,
+        5,
+        0
+      ],
+      "none": 7752,
+      "binary": 0,
+      "noisy": 7548,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        0,
+        4
+      ],
+      "none": 18736,
+      "binary": 0,
+      "noisy": 17648,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        1,
+        3
+      ],
+      "none": 23476,
+      "binary": 5192,
+      "noisy": 21642,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        2,
+        2
+      ],
+      "none": 22248,
+      "binary": 6416,
+      "noisy": 21048,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        3,
+        1
+      ],
+      "none": 18728,
+      "binary": 3556,
+      "noisy": 17738,
+      "perfect": 0
+    },
+    {
+      "w": [
+        2,
+        4,
+        0
+      ],
+      "none": 14984,
+      "binary": 0,
+      "noisy": 14056,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        0,
+        3
+      ],
+      "none": 26928,
+      "binary": 0,
+      "noisy": 21627,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        1,
+        2
+      ],
+      "none": 28976,
+      "binary": 4884,
+      "noisy": 24547,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        2,
+        1
+      ],
+      "none": 25272,
+      "binary": 3436,
+      "noisy": 21737,
+      "perfect": 0
+    },
+    {
+      "w": [
+        3,
+        3,
+        0
+      ],
+      "none": 21456,
+      "binary": 0,
+      "noisy": 18042,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        0,
+        2
+      ],
+      "none": 31768,
+      "binary": 0,
+      "noisy": 22852,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        1,
+        1
+      ],
+      "none": 29352,
+      "binary": 3208,
+      "noisy": 23212,
+      "perfect": 0
+    },
+    {
+      "w": [
+        4,
+        2,
+        0
+      ],
+      "none": 25536,
+      "binary": 0,
+      "noisy": 19466,
+      "perfect": 0
+    },
+    {
+      "w": [
+        5,
+        0,
+        1
+      ],
+      "none": 24784,
+      "binary": 0,
+      "noisy": 20650,
+      "perfect": 0
+    },
+    {
+      "w": [
+        5,
+        1,
+        0
+      ],
+      "none": 21840,
+      "binary": 0,
+      "noisy": 17614,
+      "perfect": 0
+    },
+    {
+      "w": [
+        6,
+        0,
+        0
+      ],
+      "none": 0,
+      "binary": 0,
+      "noisy": 0,
+      "perfect": 0
+    }
+  ],
+  "test": [
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      4,
+      1,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      1,
+      1,
+      4
+    ]
+  ],
+  "audit": {
+    "none": {
+      "nominal": [
+        {
+          "sum": 22248,
+          "max": 320
+        },
+        {
+          "sum": 33660,
+          "max": 448
+        },
+        {
+          "sum": 11832,
+          "max": 252
+        },
+        {
+          "sum": 21252,
+          "max": 576
+        }
+      ],
+      "robust": [
+        {
+          "sum": 24368,
+          "max": 376
+        },
+        {
+          "sum": 31876,
+          "max": 464
+        },
+        {
+          "sum": 16588,
+          "max": 476
+        },
+        {
+          "sum": 24640,
+          "max": 568
+        }
+      ],
+      "knownPrior": [
+        {
+          "sum": 22248,
+          "max": 320
+        },
+        {
+          "sum": 29352,
+          "max": 384
+        },
+        {
+          "sum": 11412,
+          "max": 160
+        },
+        {
+          "sum": 14928,
+          "max": 512
+        }
+      ]
+    },
+    "binary": {
+      "nominal": [
+        {
+          "sum": 6416,
+          "max": 272
+        },
+        {
+          "sum": 3208,
+          "max": 136
+        },
+        {
+          "sum": 4792,
+          "max": 512
+        },
+        {
+          "sum": 11248,
+          "max": 544
+        }
+      ],
+      "robust": [
+        {
+          "sum": 6416,
+          "max": 272
+        },
+        {
+          "sum": 3208,
+          "max": 136
+        },
+        {
+          "sum": 4792,
+          "max": 512
+        },
+        {
+          "sum": 11248,
+          "max": 544
+        }
+      ],
+      "knownPrior": [
+        {
+          "sum": 6416,
+          "max": 272
+        },
+        {
+          "sum": 3208,
+          "max": 136
+        },
+        {
+          "sum": 3596,
+          "max": 140
+        },
+        {
+          "sum": 5292,
+          "max": 436
+        }
+      ]
+    },
+    "noisy": {
+      "nominal": [
+        {
+          "sum": 21048,
+          "max": 320
+        },
+        {
+          "sum": 29082,
+          "max": 384
+        },
+        {
+          "sum": 12573,
+          "max": 360
+        },
+        {
+          "sum": 21489,
+          "max": 576
+        }
+      ],
+      "robust": [
+        {
+          "sum": 25044,
+          "max": 434
+        },
+        {
+          "sum": 27897,
+          "max": 432
+        },
+        {
+          "sum": 22059,
+          "max": 456
+        },
+        {
+          "sum": 25176,
+          "max": 540
+        }
+      ],
+      "knownPrior": [
+        {
+          "sum": 21048,
+          "max": 320
+        },
+        {
+          "sum": 23212,
+          "max": 304
+        },
+        {
+          "sum": 11200,
+          "max": 160
+        },
+        {
+          "sum": 14611,
+          "max": 495
+        }
+      ]
+    }
+  },
+  "choices": {
+    "none": {
+      "different": 29,
+      "robustBetter": 29,
+      "robustTie": 211,
+      "robustWorse": 0
+    },
+    "binary": {
+      "different": 0,
+      "robustBetter": 0,
+      "robustTie": 240,
+      "robustWorse": 0
+    },
+    "noisy": {
+      "different": 83,
+      "robustBetter": 83,
+      "robustTie": 157,
+      "robustWorse": 0
+    }
+  },
+  "witness": {
+    "group": {
+      "seed": 460,
+      "left": 6,
+      "P": 1,
+      "R": 1
+    },
+    "regretMatrix": [
+      [
+        0,
+        22,
+        451,
+        417,
+        3,
+        25,
+        455,
+        19,
+        6,
+        28,
+        459,
+        22
+      ],
+      [
+        20,
+        44,
+        693,
+        659,
+        24,
+        48,
+        697,
+        41,
+        0,
+        52,
+        701,
+        45
+      ],
+      [
+        20,
+        44,
+        543,
+        510,
+        24,
+        48,
+        547,
+        40,
+        0,
+        52,
+        551,
+        44
+      ]
+    ],
+    "nominal": [
+      {
+        "mode": "none",
+        "a": [
+          8,
+          8
+        ],
+        "v": 48
+      },
+      {
+        "mode": "binary",
+        "a": [
+          0,
+          8
+        ],
+        "v": 0
+      },
+      {
+        "mode": "noisy",
+        "a": [
+          8,
+          8
+        ],
+        "v": 48
+      }
+    ],
+    "robust": [
+      {
+        "mode": "none",
+        "a": [
+          8,
+          8
+        ],
+        "v": 96
+      },
+      {
+        "mode": "binary",
+        "a": [
+          0,
+          8
+        ],
+        "v": 0
+      },
+      {
+        "mode": "noisy",
+        "a": [
+          8,
+          8
+        ],
+        "v": 96
+      }
+    ]
+  }
+}
