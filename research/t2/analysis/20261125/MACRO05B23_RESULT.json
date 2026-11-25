@@ -1,0 +1,228 @@
+{
+  "status": "DIMENSIONLESS_OFFLINE_OPEN_CTM",
+  "b2": [
+    {
+      "v": 0.75,
+      "w": 0.5,
+      "C": 1.8,
+      "statePairs": 589824,
+      "strict": 475532,
+      "tie": 114292,
+      "violations": 0,
+      "comparable": 90000,
+      "monotonicityViolations": 0,
+      "boundaryPairs": 20736,
+      "boundaryViolations": 0,
+      "maxRatio": 1.0000000000000004
+    },
+    {
+      "v": 1,
+      "w": 0.25,
+      "C": 1.2,
+      "statePairs": 589824,
+      "strict": 484272,
+      "tie": 105552,
+      "violations": 0,
+      "comparable": 90000,
+      "monotonicityViolations": 0,
+      "boundaryPairs": 20736,
+      "boundaryViolations": 0,
+      "maxRatio": 1.0000000000000002
+    }
+  ],
+  "b3": {
+    "truth": 486,
+    "snapshots": 113724,
+    "projections": 341172,
+    "stats": {
+      "cellwise/raw": {
+        "n": 101088,
+        "densitySE": 98743.41245464192,
+        "fluxSE": 7540.872405147105,
+        "densityBetter": 0,
+        "densityTie": 101088,
+        "densityWorse": 0,
+        "fluxBetter": 0,
+        "fluxTie": 101088,
+        "fluxWorse": 0,
+        "maxMassResidual": 0,
+        "densityRMSE": 0.988335201311364,
+        "fluxRMSE": 0.27312471056577003
+      },
+      "cellwise/negative": {
+        "n": 101088,
+        "densitySE": 76693.80123989527,
+        "fluxSE": 4774.011537344493,
+        "densityBetter": 64625,
+        "densityTie": 3056,
+        "densityWorse": 33407,
+        "fluxBetter": 63583,
+        "fluxTie": 3456,
+        "fluxWorse": 34049,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.8710244172997452,
+        "fluxRMSE": 0.21731611376590493
+      },
+      "cellwise/exact": {
+        "n": 101088,
+        "densitySE": 72092.08573616917,
+        "fluxSE": 4016.451550246285,
+        "densityBetter": 67316,
+        "densityTie": 33772,
+        "densityWorse": 0,
+        "fluxBetter": 54515,
+        "fluxTie": 34035,
+        "fluxWorse": 12538,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.8444889925375146,
+        "fluxRMSE": 0.19932944803151173
+      },
+      "cellwise/positive": {
+        "n": 101088,
+        "densitySE": 77088.3752999034,
+        "fluxSE": 4430.465598503214,
+        "densityBetter": 64581,
+        "densityTie": 2973,
+        "densityWorse": 33534,
+        "fluxBetter": 66831,
+        "fluxTie": 3188,
+        "fluxWorse": 31069,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.8732621648292747,
+        "fluxRMSE": 0.20935092409291683
+      },
+      "common/raw": {
+        "n": 12636,
+        "densitySE": 12342.926556830207,
+        "fluxSE": 1663.6791860018866,
+        "densityBetter": 0,
+        "densityTie": 12636,
+        "densityWorse": 0,
+        "fluxBetter": 0,
+        "fluxTie": 12636,
+        "fluxWorse": 0,
+        "maxMassResidual": 0,
+        "densityRMSE": 0.9883352013113627,
+        "fluxRMSE": 0.36285238583977136
+      },
+      "common/negative": {
+        "n": 12636,
+        "densitySE": 756.892245266854,
+        "fluxSE": 93.1150567912101,
+        "densityBetter": 12615,
+        "densityTie": 8,
+        "densityWorse": 13,
+        "fluxBetter": 11791,
+        "fluxTie": 74,
+        "fluxWorse": 771,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.244744093286654,
+        "fluxRMSE": 0.08584305156686624
+      },
+      "common/exact": {
+        "n": 12636,
+        "densitySE": 117.72258120225354,
+        "fluxSE": 25.72401926292491,
+        "densityBetter": 12636,
+        "densityTie": 0,
+        "densityWorse": 0,
+        "fluxBetter": 12235,
+        "fluxTie": 53,
+        "fluxWorse": 348,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.09652172599949678,
+        "fluxRMSE": 0.045119533884965944
+      },
+      "common/positive": {
+        "n": 12636,
+        "densitySE": 734.7499249522508,
+        "fluxSE": 140.7866254094249,
+        "densityBetter": 12615,
+        "densityTie": 0,
+        "densityWorse": 21,
+        "fluxBetter": 11538,
+        "fluxTie": 52,
+        "fluxWorse": 1046,
+        "maxMassResidual": 8.526512829121202e-14,
+        "densityRMSE": 0.24113761800943967,
+        "fluxRMSE": 0.10555429051926948
+      }
+    },
+    "witness": {
+      "cellwise": {
+        "v": 0.75,
+        "w": 0.5,
+        "x0": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "h": 0,
+        "t": 2,
+        "x": [
+          2.3125,
+          1.7874999999999996,
+          1,
+          1
+        ],
+        "y": [
+          3.3125,
+          2.7874999999999996,
+          0,
+          2
+        ],
+        "z": [
+          2.6458333333333357,
+          2.1208333333333353,
+          0,
+          1.3333333333333357
+        ],
+        "D": 1,
+        "d": 0.33333333333333454,
+        "F": 0.0194835069444444,
+        "f": 0.020964626736110915,
+        "rawFlux": 1.1354166666666667,
+        "projectedFlux": 1.130208333333334,
+        "trueFlux": 1.275
+      },
+      "common": {
+        "v": 0.75,
+        "w": 0.5,
+        "x0": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "h": 2,
+        "t": 11,
+        "x": [
+          0.002343416213989258,
+          0.03881216049194336,
+          0.27641601562500007,
+          1.0280152320861824
+        ],
+        "y": [
+          0,
+          0,
+          0,
+          0.028015232086182396
+        ],
+        "z": [
+          0.3293928980827374,
+          0.3293928980827374,
+          0.3293928980827374,
+          0.3574081301689198
+        ],
+        "D": 0.26947942227390115,
+        "d": 0.16097974096655931,
+        "F": 0.006303232265975256,
+        "f": 0.028107117821368287,
+        "rawFlux": 0,
+        "projectedFlux": 0.24704467356205306,
+        "trueFlux": 0.07939289808273317
+      }
+    }
+  }
+}
