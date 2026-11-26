@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-27",
+  "rubric": [
+    "core",
+    "discrimination",
+    "feasibility",
+    "independentEvidence",
+    "noveltyHeadroom"
+  ],
+  "weights": [
+    0.25,
+    0.3,
+    0.2,
+    0.15,
+    0.1
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "H09A",
+      "gate": "DATA_PROVENANCE",
+      "rating": [
+        1,
+        0.75,
+        0.5,
+        1,
+        0.5
+      ],
+      "reason": "External time uncertainty audit; verify open aggregate data and no K047 holdout before execution.",
+      "score": 0.775,
+      "min": 0.76,
+      "max": 0.7894736842105263
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        0.75,
+        0.75,
+        1,
+        0.25
+      ],
+      "reason": "Independent student replication of finite witness and measurement protocol, not AI-generated completion.",
+      "score": 0.8,
+      "min": 0.7865853658536587,
+      "max": 0.8141025641025641
+    },
+    {
+      "id": "H08E",
+      "gate": "READY",
+      "rating": [
+        1,
+        0.75,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "reason": "Adaptive sensing benefit over strong baseline is small; test prior/model mismatch or concentrated benefit, not more cost sweeps.",
+      "score": 0.725,
+      "min": 0.7066666666666666,
+      "max": 0.7411764705882352
+    },
+    {
+      "id": "H07",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        0.75,
+        0.5,
+        1,
+        0.5
+      ],
+      "reason": "Independent supervised card/tabletop observation experiment; apparatus and label protocol, no live road.",
+      "score": 0.775,
+      "min": 0.76,
+      "max": 0.7894736842105263
+    },
+    {
+      "id": "I169A",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        0.75,
+        1,
+        0.5,
+        0.25
+      ],
+      "reason": "Simple empirical baseline; needs independent split, not exact-population fit.",
+      "score": 0.7125,
+      "min": 0.6973684210526316,
+      "max": 0.7261904761904762
+    },
+    {
+      "id": "H04B",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        0.75,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "reason": "Anchor distribution mismatch; distinct mechanism but lower immediate exhibit value.",
+      "score": 0.6625,
+      "min": 0.652439024390244,
+      "max": 0.673076923076923
+    },
+    {
+      "id": "H06C",
+      "gate": "DEFER",
+      "rating": [
+        0.75,
+        0.5,
+        0.75,
+        0.25,
+        0.25
+      ],
+      "reason": "Near-full encoding previously limits compression; revisit only with new representation.",
+      "score": 0.55,
+      "min": 0.5366666666666667,
+      "max": 0.5617647058823529
+    }
+  ],
+  "exhibition": "Existing internal Dec 18 target, not newly verified official deadline. Prepare student-verifiable matched example and teacher-approved tabletop protocol. No real traffic actuation.",
+  "note": "Scores editorial anchors, not probabilities. Execution gate takes precedence. No loop numbering."
+}
