@@ -1,0 +1,2238 @@
+{
+  "results": [
+    {
+      "law": "nominal",
+      "policy": "free",
+      "v": [
+        10.863799283154123,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "3031/279",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 10.863799283154123
+    },
+    {
+      "law": "nominal",
+      "policy": "head",
+      "v": [
+        10.799283154121865,
+        0.014672939068100358,
+        0.9390681003584229,
+        0.0
+      ],
+      "exact": [
+        "3013/279",
+        "131/8928",
+        "262/279",
+        "0"
+      ],
+      "objective": 10.813956093189963
+    },
+    {
+      "law": "nominal",
+      "policy": "full",
+      "v": [
+        10.795698924731182,
+        0.04435483870967742,
+        0.0,
+        0.7096774193548387
+      ],
+      "exact": [
+        "1004/93",
+        "11/248",
+        "0",
+        "22/31"
+      ],
+      "objective": 10.84005376344086
+    },
+    {
+      "law": "nominal",
+      "policy": "gate",
+      "v": [
+        10.795698924731182,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "1004/93",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.799283154121865
+    },
+    {
+      "law": "nominal",
+      "policy": "adaptive",
+      "v": [
+        10.795698924731182,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "1004/93",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.799283154121865
+    },
+    {
+      "law": "nominal",
+      "policy": "reoptimized",
+      "v": [
+        10.795698924731182,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "1004/93",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.799283154121865
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "free",
+      "v": [
+        10.844014336917562,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "75637/6975",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 10.844014336917562
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "head",
+      "v": [
+        10.782508960573477,
+        0.014672939068100358,
+        0.9390681003584229,
+        0.0
+      ],
+      "exact": [
+        "75208/6975",
+        "131/8928",
+        "262/279",
+        "0"
+      ],
+      "objective": 10.797181899641577
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "full",
+      "v": [
+        10.78021505376344,
+        0.04435483870967742,
+        0.0,
+        0.7096774193548387
+      ],
+      "exact": [
+        "25064/2325",
+        "11/248",
+        "0",
+        "22/31"
+      ],
+      "objective": 10.824569892473118
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "gate",
+      "v": [
+        10.77763440860215,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "25058/2325",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.781218637992831
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "adaptive",
+      "v": [
+        10.77763440860215,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "25058/2325",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.781218637992831
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "reoptimized",
+      "v": [
+        10.750537634408602,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "4999/465",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.754121863799282
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "free",
+      "v": [
+        10.846164874551972,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "75652/6975",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 10.846164874551972
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "head",
+      "v": [
+        10.782508960573477,
+        0.014672939068100358,
+        0.9390681003584229,
+        0.0
+      ],
+      "exact": [
+        "75208/6975",
+        "131/8928",
+        "262/279",
+        "0"
+      ],
+      "objective": 10.797181899641577
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "full",
+      "v": [
+        10.78021505376344,
+        0.04435483870967742,
+        0.0,
+        0.7096774193548387
+      ],
+      "exact": [
+        "25064/2325",
+        "11/248",
+        "0",
+        "22/31"
+      ],
+      "objective": 10.824569892473118
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "gate",
+      "v": [
+        10.77763440860215,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "25058/2325",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.781218637992831
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "adaptive",
+      "v": [
+        10.77763440860215,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "25058/2325",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.781218637992831
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "reoptimized",
+      "v": [
+        10.750537634408602,
+        0.0035842293906810036,
+        0.11469534050179211,
+        0.02867383512544803
+      ],
+      "exact": [
+        "4999/465",
+        "1/279",
+        "32/279",
+        "8/279"
+      ],
+      "objective": 10.754121863799282
+    },
+    {
+      "law": "clustered",
+      "policy": "free",
+      "v": [
+        11.696159122085048,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "17053/1458",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 11.696159122085048
+    },
+    {
+      "law": "clustered",
+      "policy": "head",
+      "v": [
+        11.631001371742112,
+        0.01273148148148148,
+        0.8148148148148148,
+        0.0
+      ],
+      "exact": [
+        "8479/729",
+        "11/864",
+        "22/27",
+        "0"
+      ],
+      "objective": 11.643732853223593
+    },
+    {
+      "law": "clustered",
+      "policy": "full",
+      "v": [
+        11.628257887517147,
+        0.038580246913580245,
+        0.0,
+        0.6172839506172839
+      ],
+      "exact": [
+        "8477/729",
+        "25/648",
+        "0",
+        "50/81"
+      ],
+      "objective": 11.666838134430726
+    },
+    {
+      "law": "clustered",
+      "policy": "gate",
+      "v": [
+        11.628257887517147,
+        0.003686556927297668,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8477/729",
+        "43/11664",
+        "76/729",
+        "8/243"
+      ],
+      "objective": 11.631944444444445
+    },
+    {
+      "law": "clustered",
+      "policy": "adaptive",
+      "v": [
+        11.628257887517147,
+        0.003686556927297668,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8477/729",
+        "43/11664",
+        "76/729",
+        "8/243"
+      ],
+      "objective": 11.631944444444445
+    },
+    {
+      "law": "clustered",
+      "policy": "reoptimized",
+      "v": [
+        11.628257887517147,
+        0.003686556927297668,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8477/729",
+        "43/11664",
+        "76/729",
+        "8/243"
+      ],
+      "objective": 11.631944444444445
+    },
+    {
+      "law": "alternating",
+      "policy": "free",
+      "v": [
+        12.094650205761317,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "2939/243",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 12.094650205761317
+    },
+    {
+      "law": "alternating",
+      "policy": "head",
+      "v": [
+        12.020576131687243,
+        0.020061728395061727,
+        1.2839506172839505,
+        0.0
+      ],
+      "exact": [
+        "2921/243",
+        "13/648",
+        "104/81",
+        "0"
+      ],
+      "objective": 12.040637860082304
+    },
+    {
+      "law": "alternating",
+      "policy": "full",
+      "v": [
+        12.015089163237311,
+        0.05555555555555555,
+        0.0,
+        0.8888888888888888
+      ],
+      "exact": [
+        "8759/729",
+        "1/18",
+        "0",
+        "8/9"
+      ],
+      "objective": 12.070644718792867
+    },
+    {
+      "law": "alternating",
+      "policy": "gate",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8759/729",
+        "13/2916",
+        "112/729",
+        "8/243"
+      ],
+      "objective": 12.01954732510288
+    },
+    {
+      "law": "alternating",
+      "policy": "adaptive",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8759/729",
+        "13/2916",
+        "112/729",
+        "8/243"
+      ],
+      "objective": 12.01954732510288
+    },
+    {
+      "law": "alternating",
+      "policy": "reoptimized",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "exact": [
+        "8759/729",
+        "13/2916",
+        "112/729",
+        "8/243"
+      ],
+      "objective": 12.01954732510288
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "free",
+      "v": [
+        11.66480109739369,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact": [
+        "212591/18225",
+        "0",
+        "0",
+        "0"
+      ],
+      "objective": 11.66480109739369
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "head",
+      "v": [
+        11.599231824417009,
+        0.01273148148148148,
+        0.8148148148148148,
+        0.0
+      ],
+      "exact": [
+        "211396/18225",
+        "11/864",
+        "22/27",
+        "0"
+      ],
+      "objective": 11.611963305898492
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "full",
+      "v": [
+        11.596982167352538,
+        0.038580246913580245,
+        0.0,
+        0.6172839506172839
+      ],
+      "exact": [
+        "42271/3645",
+        "25/648",
+        "0",
+        "50/81"
+      ],
+      "objective": 11.635562414266118
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "gate",
+      "v": [
+        11.595500685871055,
+        0.003686556927297668,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "exact": [
+        "211328/18225",
+        "43/11664",
+        "76/729",
+        "8/243"
+      ],
+      "objective": 11.599187242798354
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "adaptive",
+      "v": [
+        11.595500685871055,
+        0.003686556927297668,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "exact": [
+        "211328/18225",
+        "43/11664",
+        "76/729",
+        "8/243"
+      ],
+      "objective": 11.599187242798354
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "reoptimized",
+      "v": [
+        11.57843621399177,
+        0.002914951989026063,
+        0.12071330589849108,
+        0.01646090534979424
+      ],
+      "exact": [
+        "70339/6075",
+        "17/5832",
+        "88/729",
+        "4/243"
+      ],
+      "objective": 11.581351165980795
+    }
+  ],
+  "conditional": [
+    {
+      "k": "0,0,0,0",
+      "n": 1,
+      "free": 3.0,
+      "adaptive": 3.0,
+      "gate": 3.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,1,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,0,1",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,2,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,1,1",
+      "n": 2,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,0,2",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,2,1",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,1,2",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,0,0",
+      "n": 1,
+      "free": 3.0,
+      "adaptive": 3.0,
+      "gate": 3.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,1,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,0,1",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,2,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,1,1",
+      "n": 2,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,0,2",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,2,1",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,1,2",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,1,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,0,0",
+      "n": 1,
+      "free": 3.0,
+      "adaptive": 3.0,
+      "gate": 3.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,1,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,0,1",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,2,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,1,1",
+      "n": 2,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,0,2",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,2,1",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,1,2",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "0,2,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,0,0",
+      "n": 1,
+      "free": 3.0,
+      "adaptive": 3.0,
+      "gate": 3.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,1,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,0,1",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,2,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,1,1",
+      "n": 2,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,0,2",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,2,1",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,1,2",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,0,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,1,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,0,1",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,2,1",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,1,2",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,4,0",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,1,3,1",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.0625,
+      "gate": 14.0625,
+      "gain": 0.1875,
+      "adaptiveFirst": 2,
+      "gateFirst": 2,
+      "adaptiveAcq": 1.0,
+      "exactGain": "3/16"
+    },
+    {
+      "k": "1,1,2,2",
+      "n": 6,
+      "free": 14.416666666666666,
+      "adaptive": 14.182291666666666,
+      "gate": 14.182291666666666,
+      "gain": 0.234375,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.0,
+      "exactGain": "15/64"
+    },
+    {
+      "k": "1,1,1,3",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.0625,
+      "gate": 14.0625,
+      "gain": 0.1875,
+      "adaptiveFirst": 2,
+      "gateFirst": 2,
+      "adaptiveAcq": 1.0,
+      "exactGain": "3/16"
+    },
+    {
+      "k": "1,1,0,4",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,0,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,1,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,0,1",
+      "n": 1,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,2,1",
+      "n": 3,
+      "free": 11.0,
+      "adaptive": 11.0,
+      "gate": 11.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,1,2",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,4,0",
+      "n": 1,
+      "free": 14.5,
+      "adaptive": 14.5,
+      "gate": 14.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,3,1",
+      "n": 4,
+      "free": 14.625,
+      "adaptive": 14.625,
+      "gate": 14.625,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,2,2",
+      "n": 6,
+      "free": 14.416666666666666,
+      "adaptive": 14.416666666666666,
+      "gate": 14.416666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,1,3",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.25,
+      "gate": 14.25,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "1,2,0,4",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,0,0",
+      "n": 1,
+      "free": 3.0,
+      "adaptive": 3.0,
+      "gate": 3.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,1,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,0,1",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,2,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,1,1",
+      "n": 2,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,0,2",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,2,1",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,1,2",
+      "n": 3,
+      "free": 8.833333333333334,
+      "adaptive": 8.833333333333334,
+      "gate": 8.833333333333334,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,0,0",
+      "n": 1,
+      "free": 4.0,
+      "adaptive": 4.0,
+      "gate": 4.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,1,0",
+      "n": 1,
+      "free": 6.0,
+      "adaptive": 6.0,
+      "gate": 6.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,0,1",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,2,1",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,1,2",
+      "n": 3,
+      "free": 11.0,
+      "adaptive": 11.0,
+      "gate": 11.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,4,0",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,3,1",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.25,
+      "gate": 14.25,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,2,2",
+      "n": 6,
+      "free": 14.416666666666666,
+      "adaptive": 14.416666666666666,
+      "gate": 14.416666666666666,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,1,3",
+      "n": 4,
+      "free": 14.625,
+      "adaptive": 14.625,
+      "gate": 14.625,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,1,0,4",
+      "n": 1,
+      "free": 14.5,
+      "adaptive": 14.5,
+      "gate": 14.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,0,0",
+      "n": 1,
+      "free": 5.0,
+      "adaptive": 5.0,
+      "gate": 5.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,1,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,0,1",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,2,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,1,1",
+      "n": 2,
+      "free": 11.25,
+      "adaptive": 10.515625,
+      "gate": 10.515625,
+      "gain": 0.734375,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.0,
+      "exactGain": "47/64"
+    },
+    {
+      "k": "2,2,0,2",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,3,0",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,2,1",
+      "n": 3,
+      "free": 14.666666666666666,
+      "adaptive": 14.015625,
+      "gate": 14.015625,
+      "gain": 0.6510416666666666,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.0,
+      "exactGain": "125/192"
+    },
+    {
+      "k": "2,2,1,2",
+      "n": 3,
+      "free": 14.666666666666666,
+      "adaptive": 14.015625,
+      "gate": 14.015625,
+      "gain": 0.6510416666666666,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.0,
+      "exactGain": "125/192"
+    },
+    {
+      "k": "2,2,0,3",
+      "n": 1,
+      "free": 14.0,
+      "adaptive": 14.0,
+      "gate": 14.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,4,0",
+      "n": 1,
+      "free": 18.0,
+      "adaptive": 18.0,
+      "gate": 18.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    },
+    {
+      "k": "2,2,3,1",
+      "n": 4,
+      "free": 18.75,
+      "adaptive": 18.0234375,
+      "gate": 18.0234375,
+      "gain": 0.7265625,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.5,
+      "exactGain": "93/128"
+    },
+    {
+      "k": "2,2,2,2",
+      "n": 6,
+      "free": 18.666666666666668,
+      "adaptive": 18.015625,
+      "gate": 18.015625,
+      "gain": 0.6510416666666666,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.0,
+      "exactGain": "125/192"
+    },
+    {
+      "k": "2,2,1,3",
+      "n": 4,
+      "free": 18.75,
+      "adaptive": 18.0234375,
+      "gate": 18.0234375,
+      "gain": 0.7265625,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.5,
+      "exactGain": "93/128"
+    },
+    {
+      "k": "2,2,0,4",
+      "n": 1,
+      "free": 18.0,
+      "adaptive": 18.0,
+      "gate": 18.0,
+      "gain": 0.0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0.0,
+      "exactGain": "0"
+    }
+  ]
+}
