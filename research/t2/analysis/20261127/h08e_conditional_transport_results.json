@@ -1,0 +1,1952 @@
+{
+  "results": [
+    {
+      "law": "nominal",
+      "policy": "free",
+      "v": [
+        10.863799283154128,
+        0,
+        0,
+        0
+      ],
+      "objective": 10.863799283154128,
+      "evalStates": 435
+    },
+    {
+      "law": "nominal",
+      "policy": "head",
+      "v": [
+        10.79928315412187,
+        0.014672939068100351,
+        0.9390681003584225,
+        0
+      ],
+      "objective": 10.81395609318997,
+      "evalStates": 379
+    },
+    {
+      "law": "nominal",
+      "policy": "full",
+      "v": [
+        10.79569892473119,
+        0.04435483870967742,
+        0,
+        0.7096774193548387
+      ],
+      "objective": 10.840053763440867,
+      "evalStates": 401
+    },
+    {
+      "law": "nominal",
+      "policy": "gate",
+      "v": [
+        10.79569892473119,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.79928315412187,
+      "evalStates": 383
+    },
+    {
+      "law": "nominal",
+      "policy": "adaptive",
+      "v": [
+        10.79569892473119,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.79928315412187,
+      "evalStates": 383
+    },
+    {
+      "law": "nominal",
+      "policy": "reoptimized",
+      "v": [
+        10.79569892473119,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.79928315412187,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "free",
+      "v": [
+        10.844014336917564,
+        0,
+        0,
+        0
+      ],
+      "objective": 10.844014336917564,
+      "evalStates": 435
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "head",
+      "v": [
+        10.782508960573475,
+        0.014672939068100351,
+        0.9390681003584225,
+        0
+      ],
+      "objective": 10.797181899641576,
+      "evalStates": 379
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "full",
+      "v": [
+        10.780215053763438,
+        0.04435483870967742,
+        0,
+        0.7096774193548387
+      ],
+      "objective": 10.824569892473116,
+      "evalStates": 401
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "gate",
+      "v": [
+        10.777634408602148,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.78121863799283,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "adaptive",
+      "v": [
+        10.777634408602148,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.78121863799283,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S20",
+      "policy": "reoptimized",
+      "v": [
+        10.750537634408602,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.754121863799282,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "free",
+      "v": [
+        10.846164874551974,
+        0,
+        0,
+        0
+      ],
+      "objective": 10.846164874551974,
+      "evalStates": 435
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "head",
+      "v": [
+        10.782508960573477,
+        0.014672939068100351,
+        0.9390681003584225,
+        0
+      ],
+      "objective": 10.797181899641577,
+      "evalStates": 379
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "full",
+      "v": [
+        10.780215053763442,
+        0.04435483870967742,
+        0,
+        0.7096774193548387
+      ],
+      "objective": 10.82456989247312,
+      "evalStates": 401
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "gate",
+      "v": [
+        10.77763440860215,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.781218637992831,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "adaptive",
+      "v": [
+        10.77763440860215,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.781218637992831,
+      "evalStates": 383
+    },
+    {
+      "law": "arrivals_S80",
+      "policy": "reoptimized",
+      "v": [
+        10.750537634408602,
+        0.003584229390681004,
+        0.11469534050179214,
+        0.02867383512544803
+      ],
+      "objective": 10.754121863799282,
+      "evalStates": 383
+    },
+    {
+      "law": "clustered",
+      "policy": "free",
+      "v": [
+        11.696159122085046,
+        0,
+        0,
+        0
+      ],
+      "objective": 11.696159122085046,
+      "evalStates": 441
+    },
+    {
+      "law": "clustered",
+      "policy": "head",
+      "v": [
+        11.631001371742105,
+        0.012731481481481486,
+        0.8148148148148151,
+        0
+      ],
+      "objective": 11.643732853223586,
+      "evalStates": 387
+    },
+    {
+      "law": "clustered",
+      "policy": "full",
+      "v": [
+        11.62825788751714,
+        0.03858024691358026,
+        0,
+        0.6172839506172841
+      ],
+      "objective": 11.666838134430721,
+      "evalStates": 401
+    },
+    {
+      "law": "clustered",
+      "policy": "gate",
+      "v": [
+        11.62825788751714,
+        0.0036865569272976685,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "objective": 11.631944444444438,
+      "evalStates": 389
+    },
+    {
+      "law": "clustered",
+      "policy": "adaptive",
+      "v": [
+        11.62825788751714,
+        0.0036865569272976685,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "objective": 11.631944444444438,
+      "evalStates": 389
+    },
+    {
+      "law": "clustered",
+      "policy": "reoptimized",
+      "v": [
+        11.62825788751714,
+        0.0036865569272976685,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "objective": 11.631944444444438,
+      "evalStates": 389
+    },
+    {
+      "law": "alternating",
+      "policy": "free",
+      "v": [
+        12.094650205761317,
+        0,
+        0,
+        0
+      ],
+      "objective": 12.094650205761317,
+      "evalStates": 441
+    },
+    {
+      "law": "alternating",
+      "policy": "head",
+      "v": [
+        12.020576131687243,
+        0.02006172839506174,
+        1.2839506172839514,
+        0
+      ],
+      "objective": 12.040637860082304,
+      "evalStates": 387
+    },
+    {
+      "law": "alternating",
+      "policy": "full",
+      "v": [
+        12.015089163237311,
+        0.05555555555555557,
+        0,
+        0.8888888888888892
+      ],
+      "objective": 12.070644718792867,
+      "evalStates": 401
+    },
+    {
+      "law": "alternating",
+      "policy": "gate",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "objective": 12.01954732510288,
+      "evalStates": 389
+    },
+    {
+      "law": "alternating",
+      "policy": "adaptive",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "objective": 12.01954732510288,
+      "evalStates": 389
+    },
+    {
+      "law": "alternating",
+      "policy": "reoptimized",
+      "v": [
+        12.015089163237311,
+        0.004458161865569273,
+        0.15363511659807957,
+        0.03292181069958848
+      ],
+      "objective": 12.01954732510288,
+      "evalStates": 389
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "free",
+      "v": [
+        11.664801097393685,
+        0,
+        0,
+        0
+      ],
+      "objective": 11.664801097393685,
+      "evalStates": 441
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "head",
+      "v": [
+        11.599231824417004,
+        0.012731481481481486,
+        0.8148148148148151,
+        0
+      ],
+      "objective": 11.611963305898485,
+      "evalStates": 387
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "full",
+      "v": [
+        11.596982167352532,
+        0.03858024691358026,
+        0,
+        0.6172839506172841
+      ],
+      "objective": 11.635562414266113,
+      "evalStates": 401
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "gate",
+      "v": [
+        11.595500685871052,
+        0.0036865569272976685,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "objective": 11.59918724279835,
+      "evalStates": 389
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "adaptive",
+      "v": [
+        11.595500685871052,
+        0.0036865569272976685,
+        0.10425240054869685,
+        0.03292181069958848
+      ],
+      "objective": 11.59918724279835,
+      "evalStates": 389
+    },
+    {
+      "law": "clustered_S80",
+      "policy": "reoptimized",
+      "v": [
+        11.578436213991765,
+        0.0029149519890260636,
+        0.12071330589849108,
+        0.01646090534979424
+      ],
+      "objective": 11.581351165980792,
+      "evalStates": 387
+    }
+  ],
+  "conditional": [
+    {
+      "k": "0,0,0,0",
+      "n": 1,
+      "free": 3,
+      "adaptive": 3,
+      "gate": 3,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,1,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,0,1",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,2,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,1,1",
+      "n": 2,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,0,2",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,2,1",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,1,2",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,0,0",
+      "n": 1,
+      "free": 3,
+      "adaptive": 3,
+      "gate": 3,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,1,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,0,1",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,2,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,1,1",
+      "n": 2,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,0,2",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,2,1",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,1,2",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,1,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,0,0",
+      "n": 1,
+      "free": 3,
+      "adaptive": 3,
+      "gate": 3,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,1,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,0,1",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,2,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,1,1",
+      "n": 2,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,0,2",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,2,1",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,1,2",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "0,2,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,0,0",
+      "n": 1,
+      "free": 3,
+      "adaptive": 3,
+      "gate": 3,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,1,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,0,1",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,2,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,1,1",
+      "n": 2,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,0,2",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,2,1",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,1,2",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,0,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,1,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,0,1",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,2,1",
+      "n": 3,
+      "free": 10.499999999999998,
+      "adaptive": 10.499999999999998,
+      "gate": 10.499999999999998,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,1,2",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,4,0",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,1,3,1",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.0625,
+      "gate": 14.0625,
+      "gain": 0.1875,
+      "adaptiveFirst": 2,
+      "gateFirst": 2,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "1,1,2,2",
+      "n": 6,
+      "free": 14.416666666666664,
+      "adaptive": 14.182291666666666,
+      "gate": 14.182291666666666,
+      "gain": 0.23437499999999822,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "1,1,1,3",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.0625,
+      "gate": 14.0625,
+      "gain": 0.1875,
+      "adaptiveFirst": 2,
+      "gateFirst": 2,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "1,1,0,4",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,0,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,1,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,0,1",
+      "n": 1,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,2,1",
+      "n": 3,
+      "free": 10.999999999999998,
+      "adaptive": 10.999999999999998,
+      "gate": 10.999999999999998,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,1,2",
+      "n": 3,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,4,0",
+      "n": 1,
+      "free": 14.5,
+      "adaptive": 14.5,
+      "gate": 14.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,3,1",
+      "n": 4,
+      "free": 14.625,
+      "adaptive": 14.625,
+      "gate": 14.625,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,2,2",
+      "n": 6,
+      "free": 14.416666666666668,
+      "adaptive": 14.416666666666668,
+      "gate": 14.416666666666668,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,1,3",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.25,
+      "gate": 14.25,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "1,2,0,4",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,0,0",
+      "n": 1,
+      "free": 3,
+      "adaptive": 3,
+      "gate": 3,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,1,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,0,1",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,2,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,1,1",
+      "n": 2,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,0,2",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,3,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,2,1",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,1,2",
+      "n": 3,
+      "free": 8.833333333333332,
+      "adaptive": 8.833333333333332,
+      "gate": 8.833333333333332,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,0,3",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,4,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,3,1",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,2,2",
+      "n": 6,
+      "free": 12.166666666666666,
+      "adaptive": 12.166666666666666,
+      "gate": 12.166666666666666,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,1,3",
+      "n": 4,
+      "free": 12.5,
+      "adaptive": 12.5,
+      "gate": 12.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,0,0,4",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,0,0",
+      "n": 1,
+      "free": 4,
+      "adaptive": 4,
+      "gate": 4,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,1,0",
+      "n": 1,
+      "free": 6,
+      "adaptive": 6,
+      "gate": 6,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,0,1",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,2,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,1,1",
+      "n": 2,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,0,2",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,3,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,2,1",
+      "n": 3,
+      "free": 10.499999999999998,
+      "adaptive": 10.499999999999998,
+      "gate": 10.499999999999998,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,1,2",
+      "n": 3,
+      "free": 11,
+      "adaptive": 11,
+      "gate": 11,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,0,3",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,4,0",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,3,1",
+      "n": 4,
+      "free": 14.25,
+      "adaptive": 14.25,
+      "gate": 14.25,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,2,2",
+      "n": 6,
+      "free": 14.416666666666664,
+      "adaptive": 14.416666666666664,
+      "gate": 14.416666666666664,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,1,3",
+      "n": 4,
+      "free": 14.625,
+      "adaptive": 14.625,
+      "gate": 14.625,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,1,0,4",
+      "n": 1,
+      "free": 14.5,
+      "adaptive": 14.5,
+      "gate": 14.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,0,0",
+      "n": 1,
+      "free": 5,
+      "adaptive": 5,
+      "gate": 5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,1,0",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,0,1",
+      "n": 1,
+      "free": 7.5,
+      "adaptive": 7.5,
+      "gate": 7.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,2,0",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,1,1",
+      "n": 2,
+      "free": 11.25,
+      "adaptive": 10.515625,
+      "gate": 10.515625,
+      "gain": 0.734375,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "2,2,0,2",
+      "n": 1,
+      "free": 10.5,
+      "adaptive": 10.5,
+      "gate": 10.5,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,3,0",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,2,1",
+      "n": 3,
+      "free": 14.666666666666668,
+      "adaptive": 14.015624999999998,
+      "gate": 14.015624999999998,
+      "gain": 0.6510416666666696,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "2,2,1,2",
+      "n": 3,
+      "free": 14.666666666666666,
+      "adaptive": 14.015624999999998,
+      "gate": 14.015624999999998,
+      "gain": 0.6510416666666679,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "2,2,0,3",
+      "n": 1,
+      "free": 14,
+      "adaptive": 14,
+      "gate": 14,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,4,0",
+      "n": 1,
+      "free": 18,
+      "adaptive": 18,
+      "gate": 18,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    },
+    {
+      "k": "2,2,3,1",
+      "n": 4,
+      "free": 18.75,
+      "adaptive": 18.0234375,
+      "gate": 18.0234375,
+      "gain": 0.7265625,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.5
+    },
+    {
+      "k": "2,2,2,2",
+      "n": 6,
+      "free": 18.666666666666664,
+      "adaptive": 18.015625,
+      "gate": 18.015625,
+      "gain": 0.6510416666666643,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1
+    },
+    {
+      "k": "2,2,1,3",
+      "n": 4,
+      "free": 18.75,
+      "adaptive": 18.0234375,
+      "gate": 18.0234375,
+      "gain": 0.7265625,
+      "adaptiveFirst": 1,
+      "gateFirst": 1,
+      "adaptiveAcq": 1.5
+    },
+    {
+      "k": "2,2,0,4",
+      "n": 1,
+      "free": 18,
+      "adaptive": 18,
+      "gate": 18,
+      "gain": 0,
+      "adaptiveFirst": 0,
+      "gateFirst": 0,
+      "adaptiveAcq": 0
+    }
+  ],
+  "states": 983,
+  "transitions": 1134,
+  "nominalStats": {
+    "free": [
+      793,
+      793,
+      0
+    ],
+    "head": [
+      793,
+      863,
+      0
+    ],
+    "full": [
+      953,
+      1097,
+      0
+    ],
+    "gate": [
+      853,
+      868,
+      818
+    ],
+    "adaptive": [
+      1089,
+      1341,
+      0
+    ]
+  }
+}
