@@ -1,0 +1,650 @@
+{
+  "status": "SYNTHETIC_FEATURE_CORRUPTION_NOT_SENSOR_CALIBRATION",
+  "fixed30": 43945,
+  "baseline": {
+    "onsetError": 0,
+    "shareError": 0,
+    "totalRegret": 8723,
+    "meanRegret": 45.432291666666664,
+    "expectedAccuracy": 0.8645833333333334
+  },
+  "choices": [
+    {
+      "seed": 85001,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85002,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85003,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85004,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85005,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85006,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85007,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85008,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85009,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85010,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85011,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85012,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85013,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85014,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85015,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    },
+    {
+      "seed": 85016,
+      "table": {
+        "green/0.25": 30,
+        "green/0.5": 30,
+        "green/0.75": 30,
+        "red/0.25": 30,
+        "red/0.5": 30,
+        "red/0.75": 60
+      }
+    }
+  ],
+  "grid": [
+    {
+      "onsetError": 0,
+      "shareError": 0,
+      "totalRegret": 8723,
+      "meanRegret": 45.432291666666664,
+      "expectedAccuracy": 0.8645833333333334
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.05,
+      "totalRegret": 11701.775000000003,
+      "meanRegret": 60.94674479166668,
+      "expectedAccuracy": 0.8513020833333362
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.1,
+      "totalRegret": 14680.550000000014,
+      "meanRegret": 76.46119791666673,
+      "expectedAccuracy": 0.8380208333333368
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.2,
+      "totalRegret": 20638.10000000002,
+      "meanRegret": 107.49010416666677,
+      "expectedAccuracy": 0.8114583333333302
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.3,
+      "totalRegret": 26595.649999999976,
+      "meanRegret": 138.51901041666653,
+      "expectedAccuracy": 0.7848958333333367
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.4,
+      "totalRegret": 32553.200000000008,
+      "meanRegret": 169.5479166666667,
+      "expectedAccuracy": 0.7583333333333314
+    },
+    {
+      "onsetError": 0,
+      "shareError": 0.5,
+      "totalRegret": 38510.75,
+      "meanRegret": 200.57682291666666,
+      "expectedAccuracy": 0.7317708333333334
+    },
+    {
+      "onsetError": 0,
+      "shareError": 1,
+      "totalRegret": 68298.5,
+      "meanRegret": 355.7213541666667,
+      "expectedAccuracy": 0.5989583333333334
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0,
+      "totalRegret": 15597.150000000009,
+      "meanRegret": 81.23515625000005,
+      "expectedAccuracy": 0.8479166666666663
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.05,
+      "totalRegret": 18224.76124999998,
+      "meanRegret": 94.92063151041657,
+      "expectedAccuracy": 0.8354687500000071
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.1,
+      "totalRegret": 20852.372499999983,
+      "meanRegret": 108.60610677083325,
+      "expectedAccuracy": 0.8230208333333325
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.2,
+      "totalRegret": 26107.595000000016,
+      "meanRegret": 135.97705729166674,
+      "expectedAccuracy": 0.7981249999999972
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.3,
+      "totalRegret": 31362.817500000005,
+      "meanRegret": 163.34800781250001,
+      "expectedAccuracy": 0.7732291666666625
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.4,
+      "totalRegret": 36618.040000000015,
+      "meanRegret": 190.7189583333334,
+      "expectedAccuracy": 0.7483333333333301
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 0.5,
+      "totalRegret": 41873.26250000001,
+      "meanRegret": 218.08990885416674,
+      "expectedAccuracy": 0.7234374999999993
+    },
+    {
+      "onsetError": 0.05,
+      "shareError": 1,
+      "totalRegret": 68149.37500000003,
+      "meanRegret": 354.9446614583335,
+      "expectedAccuracy": 0.5989583333333333
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0,
+      "totalRegret": 22471.300000000017,
+      "meanRegret": 117.03802083333342,
+      "expectedAccuracy": 0.831250000000001
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.05,
+      "totalRegret": 24747.74750000003,
+      "meanRegret": 128.89451822916683,
+      "expectedAccuracy": 0.8196354166666624
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.1,
+      "totalRegret": 27024.194999999996,
+      "meanRegret": 140.75101562499998,
+      "expectedAccuracy": 0.8080208333333324
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.2,
+      "totalRegret": 31577.08999999997,
+      "meanRegret": 164.46401041666653,
+      "expectedAccuracy": 0.78479166666667
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.3,
+      "totalRegret": 36129.985,
+      "meanRegret": 188.17700520833333,
+      "expectedAccuracy": 0.7615624999999958
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.4,
+      "totalRegret": 40682.87999999997,
+      "meanRegret": 211.88999999999984,
+      "expectedAccuracy": 0.7383333333333396
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 0.5,
+      "totalRegret": 45235.774999999965,
+      "meanRegret": 235.60299479166648,
+      "expectedAccuracy": 0.7151041666666669
+    },
+    {
+      "onsetError": 0.1,
+      "shareError": 1,
+      "totalRegret": 68000.25000000001,
+      "meanRegret": 354.16796875000006,
+      "expectedAccuracy": 0.5989583333333333
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0,
+      "totalRegret": 36219.60000000001,
+      "meanRegret": 188.64375000000007,
+      "expectedAccuracy": 0.7979166666666669
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.05,
+      "totalRegret": 37793.72000000001,
+      "meanRegret": 196.8422916666667,
+      "expectedAccuracy": 0.7879687499999976
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.1,
+      "totalRegret": 39367.83999999999,
+      "meanRegret": 205.04083333333327,
+      "expectedAccuracy": 0.7780208333333368
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.2,
+      "totalRegret": 42516.07999999993,
+      "meanRegret": 221.4379166666663,
+      "expectedAccuracy": 0.758124999999998
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.3,
+      "totalRegret": 45664.32,
+      "meanRegret": 237.835,
+      "expectedAccuracy": 0.7382291666666715
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.4,
+      "totalRegret": 48812.55999999998,
+      "meanRegret": 254.23208333333324,
+      "expectedAccuracy": 0.718333333333334
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 0.5,
+      "totalRegret": 51960.799999999996,
+      "meanRegret": 270.62916666666666,
+      "expectedAccuracy": 0.6984375000000007
+    },
+    {
+      "onsetError": 0.2,
+      "shareError": 1,
+      "totalRegret": 67701.99999999997,
+      "meanRegret": 352.6145833333332,
+      "expectedAccuracy": 0.5989583333333334
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0,
+      "totalRegret": 49967.899999999965,
+      "meanRegret": 260.2494791666665,
+      "expectedAccuracy": 0.7645833333333334
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.05,
+      "totalRegret": 50839.69249999994,
+      "meanRegret": 264.79006510416633,
+      "expectedAccuracy": 0.7563020833333293
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.1,
+      "totalRegret": 51711.48499999998,
+      "meanRegret": 269.33065104166656,
+      "expectedAccuracy": 0.7480208333333275
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.2,
+      "totalRegret": 53455.07000000005,
+      "meanRegret": 278.41182291666695,
+      "expectedAccuracy": 0.7314583333333308
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.3,
+      "totalRegret": 55198.655000000035,
+      "meanRegret": 287.49299479166683,
+      "expectedAccuracy": 0.7148958333333325
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.4,
+      "totalRegret": 56942.23999999999,
+      "meanRegret": 296.5741666666666,
+      "expectedAccuracy": 0.6983333333333374
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 0.5,
+      "totalRegret": 58685.82499999999,
+      "meanRegret": 305.6553385416666,
+      "expectedAccuracy": 0.6817708333333324
+    },
+    {
+      "onsetError": 0.3,
+      "shareError": 1,
+      "totalRegret": 67403.75000000001,
+      "meanRegret": 351.06119791666674,
+      "expectedAccuracy": 0.5989583333333333
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0,
+      "totalRegret": 63716.200000000004,
+      "meanRegret": 331.85520833333334,
+      "expectedAccuracy": 0.7312499999999992
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.05,
+      "totalRegret": 63885.66500000006,
+      "meanRegret": 332.737838541667,
+      "expectedAccuracy": 0.7246354166666635
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.1,
+      "totalRegret": 64055.129999999976,
+      "meanRegret": 333.6204687499999,
+      "expectedAccuracy": 0.7180208333333359
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.2,
+      "totalRegret": 64394.06000000002,
+      "meanRegret": 335.38572916666675,
+      "expectedAccuracy": 0.70479166666667
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.3,
+      "totalRegret": 64732.98999999997,
+      "meanRegret": 337.15098958333317,
+      "expectedAccuracy": 0.6915625000000062
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.4,
+      "totalRegret": 65071.91999999993,
+      "meanRegret": 338.91624999999965,
+      "expectedAccuracy": 0.6783333333333325
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 0.5,
+      "totalRegret": 65410.85000000001,
+      "meanRegret": 340.68151041666675,
+      "expectedAccuracy": 0.665104166666666
+    },
+    {
+      "onsetError": 0.4,
+      "shareError": 1,
+      "totalRegret": 67105.5,
+      "meanRegret": 349.5078125,
+      "expectedAccuracy": 0.5989583333333334
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0,
+      "totalRegret": 77464.5,
+      "meanRegret": 403.4609375,
+      "expectedAccuracy": 0.6979166666666666
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.05,
+      "totalRegret": 76931.6375000001,
+      "meanRegret": 400.68561197916716,
+      "expectedAccuracy": 0.69296875
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.1,
+      "totalRegret": 76398.77500000017,
+      "meanRegret": 397.9102864583342,
+      "expectedAccuracy": 0.6880208333333414
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.2,
+      "totalRegret": 75333.04999999989,
+      "meanRegret": 392.3596354166661,
+      "expectedAccuracy": 0.6781249999999991
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.3,
+      "totalRegret": 74267.32500000011,
+      "meanRegret": 386.8089843750006,
+      "expectedAccuracy": 0.6682291666666682
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.4,
+      "totalRegret": 73201.59999999985,
+      "meanRegret": 381.25833333333253,
+      "expectedAccuracy": 0.658333333333325
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 0.5,
+      "totalRegret": 72135.875,
+      "meanRegret": 375.7076822916667,
+      "expectedAccuracy": 0.6484375
+    },
+    {
+      "onsetError": 0.5,
+      "shareError": 1,
+      "totalRegret": 66807.25,
+      "meanRegret": 347.9544270833333,
+      "expectedAccuracy": 0.5989583333333334
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0,
+      "totalRegret": 146206,
+      "meanRegret": 761.4895833333334,
+      "expectedAccuracy": 0.53125
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.05,
+      "totalRegret": 142161.50000000003,
+      "meanRegret": 740.4244791666669,
+      "expectedAccuracy": 0.5346354166666697
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.1,
+      "totalRegret": 138117.00000000015,
+      "meanRegret": 719.3593750000008,
+      "expectedAccuracy": 0.538020833333332
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.2,
+      "totalRegret": 130027.99999999991,
+      "meanRegret": 677.2291666666662,
+      "expectedAccuracy": 0.5447916666666636
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.3,
+      "totalRegret": 121939.00000000009,
+      "meanRegret": 635.0989583333338,
+      "expectedAccuracy": 0.5515625000000031
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.4,
+      "totalRegret": 113849.99999999994,
+      "meanRegret": 592.9687499999997,
+      "expectedAccuracy": 0.5583333333333347
+    },
+    {
+      "onsetError": 1,
+      "shareError": 0.5,
+      "totalRegret": 105761,
+      "meanRegret": 550.8385416666666,
+      "expectedAccuracy": 0.5651041666666666
+    },
+    {
+      "onsetError": 1,
+      "shareError": 1,
+      "totalRegret": 65316,
+      "meanRegret": 340.1875,
+      "expectedAccuracy": 0.5989583333333334
+    }
+  ],
+  "adversarial": {
+    "minCorruptedRowsToEqualOrExceedFixed30": 9,
+    "totalRegret": 43963,
+    "share": 0.046875,
+    "scope": "arbitrary adversarial row-specific changes, no claim of real sensor likelihood"
+  },
+  "checks": [
+    "source baseline verified",
+    "error probabilities sum by construction",
+    "fixed comparator verified"
+  ]
+}
