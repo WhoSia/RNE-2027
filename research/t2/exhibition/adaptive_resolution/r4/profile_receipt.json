@@ -1,0 +1,112 @@
+[
+  {
+    "model": "ChannelModel",
+    "total_profile_s": 0.48180054099999997,
+    "total_calls": 1006560,
+    "selected": [
+      {
+        "file": "receiving_channel.py",
+        "line": 9,
+        "name": "_partition",
+        "calls": 2211,
+        "self_s": 0.005751953000000001,
+        "cum_s": 0.208639975
+      },
+      {
+        "file": "receiving.py",
+        "line": 60,
+        "name": "_predict",
+        "calls": 1532,
+        "self_s": 0.038929791000000005,
+        "cum_s": 0.35410383700000003
+      },
+      {
+        "file": "receiving.py",
+        "line": 36,
+        "name": "transition",
+        "calls": 6656,
+        "self_s": 0.039795218,
+        "cum_s": 0.07677257400000001
+      },
+      {
+        "file": "receiving.py",
+        "line": 103,
+        "name": "report",
+        "calls": 1,
+        "self_s": 1.6845000000000002e-05,
+        "cum_s": 0.49661568300000003
+      },
+      {
+        "file": "receiving.py",
+        "line": 12,
+        "name": "norm",
+        "calls": 9013,
+        "self_s": 0.034741777,
+        "cum_s": 0.143663896
+      },
+      {
+        "file": "receiving.py",
+        "line": 56,
+        "name": "_partition",
+        "calls": 1906,
+        "self_s": 0.020543211000000002,
+        "cum_s": 0.19072287300000001
+      }
+    ]
+  },
+  {
+    "model": "FastChannelModel",
+    "total_profile_s": 0.32340300299999986,
+    "total_calls": 840280,
+    "selected": [
+      {
+        "file": "receiving_channel.py",
+        "line": 9,
+        "name": "_partition",
+        "calls": 813,
+        "self_s": 0.0037086190000000002,
+        "cum_s": 0.024555409
+      },
+      {
+        "file": "fast_predict.py",
+        "line": 9,
+        "name": "_predict",
+        "calls": 1532,
+        "self_s": 0.049921611000000005,
+        "cum_s": 0.195085894
+      },
+      {
+        "file": "receiving.py",
+        "line": 36,
+        "name": "transition",
+        "calls": 6656,
+        "self_s": 0.032584682000000004,
+        "cum_s": 0.07361630300000001
+      },
+      {
+        "file": "receiving.py",
+        "line": 103,
+        "name": "report",
+        "calls": 1,
+        "self_s": 1.5954e-05,
+        "cum_s": 0.32608707600000003
+      },
+      {
+        "file": "receiving.py",
+        "line": 12,
+        "name": "norm",
+        "calls": 1701,
+        "self_s": 0.004397161,
+        "cum_s": 0.008765581
+      },
+      {
+        "file": "receiving.py",
+        "line": 56,
+        "name": "_partition",
+        "calls": 508,
+        "self_s": 0.0017968390000000002,
+        "cum_s": 0.010151191
+      }
+    ]
+  }
+]
