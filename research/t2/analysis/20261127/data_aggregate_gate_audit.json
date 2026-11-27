@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checks": 3192,
+  "method": "Independent explicit 900-second enumeration, regex timestamp parsing, direct offset stride; same connector CSV readable texts, separate algorithm but same runtime and same source lineage",
+  "rows": [
+    {
+      "window": "23:00",
+      "bytesOfReadableText": 39715,
+      "rows": 900,
+      "observed": 16
+    },
+    {
+      "window": "23:15",
+      "bytesOfReadableText": 25744,
+      "rows": 857,
+      "observed": 2
+    },
+    {
+      "window": "23:30",
+      "bytesOfReadableText": 44800,
+      "rows": 893,
+      "observed": 17
+    },
+    {
+      "window": "23:45",
+      "bytesOfReadableText": 40056,
+      "rows": 868,
+      "observed": 17
+    },
+    {
+      "window": "12:15",
+      "bytesOfReadableText": 72335,
+      "rows": 900,
+      "observed": 475
+    },
+    {
+      "window": "12:30",
+      "bytesOfReadableText": 70519,
+      "rows": 900,
+      "observed": 498
+    }
+  ],
+  "totals": {
+    "observed": 1025,
+    "seconds": 5318,
+    "expected": 5400,
+    "missing": 82
+  }
+}
