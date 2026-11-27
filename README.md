@@ -19,6 +19,8 @@ Strong class-informed fixed-policy comparisons show only 0–0.015655% mean cost
 
 **R2 (2026-11-27):** [objective-aware engine acceptance](research/t2/exhibition/adaptive_resolution/RND_OBJECTIVE_ACCEPTANCE.md), [teacher/student tabletop protocol](research/t2/exhibition/adaptive_resolution/TABLETOP_PROTOCOL_R2.md), [revised priorities](research/t2/exhibition/adaptive_resolution/RND_R2_PRIORITIES.json), [R2 reproducible package](https://drive.google.com/file/d/196oe4j4jL6vE-fJJjj-HZmeHfWzZJUxe/view). 64 objective contexts; two-step exactness fails in one, and eight lack a depth-two certificate. The stronger fixed-calendar comparator leaves only three positive gains in sixteen tested cap/objective/class/law contexts (maximum 0.626%). No field improvement claim. R1 remains intact.
 
+**R3 (2026-11-27):** [finite receiving-storage and noisy observation acceptance](research/t2/exhibition/adaptive_resolution/r3/R3_ACCEPTANCE.md), [R3 priorities](research/t2/exhibition/adaptive_resolution/RND_R3_PRIORITIES.json), [R3 reproducible package](https://drive.google.com/file/d/1zSntDXchqkw1jDizVPI8FtypA6uDQuqS/view). Finite synthetic receiving constraints change which information is useful. All 80 tested physical/channel contexts tie their best enumerated class-informed fixed calendar. Sensor likelihood mismatch can cause abstention or excess cost; calibration ledger is prospective and synthetic fixture only. No field claim; R1/R2 preserved.
+
 ### Parallel exhibition prototype: RF-CURTAIN (2026-11-21)
 
 A **separate**, teacher-supervised, indoor/tabletop, camera-free RF sensing
