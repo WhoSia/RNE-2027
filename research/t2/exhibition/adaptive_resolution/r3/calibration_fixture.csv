@@ -1,0 +1,11 @@
+block_id,stage,split,source_kind,truth_s,truth_l,status,obs_s,obs_l
+B1,1,calibration,synthetic,0,2,observed,0,2
+B1,2,calibration,synthetic,2,0,observed,0,2
+B2,1,calibration,synthetic,0,2,observed,0,2
+B2,2,calibration,synthetic,1,1,observed,1,1
+B3,1,calibration,synthetic,2,1,observed,2,1
+B4,1,validation,synthetic,0,2,observed,0,2
+B4,2,validation,synthetic,2,0,observed,0,2
+B5,1,validation,synthetic,2,1,missing,,
+B5,2,validation,synthetic,1,0,observed,2,1
+B6,1,validation,synthetic,1,1,invalid,,
