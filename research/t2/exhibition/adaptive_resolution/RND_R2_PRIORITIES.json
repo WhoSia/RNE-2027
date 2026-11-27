@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-27",
+  "parent": "4bba2ebccfceec9242b7b96ed5a414d6966d33ec",
+  "basis": "Same R1 R&D rubric; editorial priorities not probabilities.",
+  "weights": [
+    0.25,
+    0.25,
+    0.2,
+    0.15,
+    0.15
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "RND-MEASURE",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        1
+      ],
+      "score": 0.9249999999999999,
+      "range": [
+        0.9096385542168676,
+        0.9415584415584415
+      ],
+      "why": "Independent paired tabletop observations; protocol prepared, not executed."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.75,
+        1
+      ],
+      "score": 0.9125,
+      "range": [
+        0.9047619047619047,
+        0.9210526315789473
+      ],
+      "why": "Independent student derivation and replay before viewing key."
+    },
+    {
+      "id": "RND-CHANNEL",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        0.75
+      ],
+      "score": 0.8875,
+      "range": [
+        0.8734939759036146,
+        0.9025974025974026
+      ],
+      "why": "Measurement reliability and availability from independently labeled data; no invented calibration."
+    },
+    {
+      "id": "RND-PHYSICS",
+      "gate": "READY",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.5,
+        0.75
+      ],
+      "score": 0.8374999999999999,
+      "range": [
+        0.8253012048192772,
+        0.8506493506493507
+      ],
+      "why": "Test distinct physical abstraction and finite receiving storage; freeze strong calendar and objectives."
+    },
+    {
+      "id": "RND-COMPUTE",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        0.75,
+        1,
+        0.75,
+        0.5
+      ],
+      "score": 0.7625,
+      "range": [
+        0.7500000000000001,
+        0.7738095238095236
+      ],
+      "why": "Profile R2 objective-aware certificate; do not reuse R1 runtime conclusions."
+    },
+    {
+      "id": "RND-OBJECTIVE-more",
+      "gate": "DEFER",
+      "rating": [
+        0.5,
+        0.25,
+        0.5,
+        1,
+        0.25
+      ],
+      "score": 0.475,
+      "range": [
+        0.45454545454545453,
+        0.4939759036144579
+      ],
+      "why": "64 objective contexts and 16 cap curves done; no more weight sweeps absent independent objective justification."
+    }
+  ],
+  "selection": "RND-PHYSICS next executable discriminating development; RND-MEASURE and EX01C independent evidence gates. Do not inflate traffic improvement, do not claim general depth2 sufficiency, no routine weight sweep."
+}
