@@ -1,0 +1,15 @@
+test_budget_and_calendar (test_receiving.TestReceiving.test_budget_and_calendar) ... /mnt/data/rne_adaptive_resolution/r3/test_receiving.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='finite.json' mode='r' encoding='utf-8'>
+  for c in json.load(open(name+'.json')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/rne_adaptive_resolution/r3/test_receiving.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='infinite.json' mode='r' encoding='utf-8'>
+  for c in json.load(open(name+'.json')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_infinite_r2_parity (test_receiving.TestReceiving.test_infinite_r2_parity) ... ok
+test_oracle (test_receiving.TestReceiving.test_oracle) ... ok
+test_path (test_receiving.TestReceiving.test_path) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.923s
+
+OK
