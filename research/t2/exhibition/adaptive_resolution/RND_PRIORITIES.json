@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-27",
+  "basis": "New R&D engineering rubric, not numerically comparable with earlier research-priority scores. Ratings are editorial anchors 0,.25,.5,.75,1, not measured probabilities.",
+  "axes": [
+    "exhibition_fit",
+    "discriminating_evidence",
+    "practical_utility",
+    "feasibility",
+    "independence"
+  ],
+  "weights": [
+    0.25,
+    0.25,
+    0.2,
+    0.15,
+    0.15
+  ],
+  "sensitivity_scenarios": 11,
+  "tasks": [
+    {
+      "id": "RND-MEASURE",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        1
+      ],
+      "score": 0.925,
+      "range": [
+        0.9096385542168673,
+        0.9415584415584415
+      ],
+      "why": "Paired supervised tabletop observations with known arrival cards; compare independently labeled observations and decisions. Mandatory empirical evidence gate."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.75,
+        1
+      ],
+      "score": 0.9125,
+      "range": [
+        0.9047619047619047,
+        0.9210526315789473
+      ],
+      "why": "Independent student derivation and replay; assess comprehension and record disagreements before releasing key."
+    },
+    {
+      "id": "RND-OBJECTIVE",
+      "gate": "READY",
+      "rating": [
+        1,
+        1,
+        1,
+        0.75,
+        0.5
+      ],
+      "score": 0.8875,
+      "range": [
+        0.8734939759036143,
+        0.9025974025974025
+      ],
+      "why": "Replace single residual-stock score with queue equity, terminal residual and service targets; characterize Pareto tradeoff with same actions and priors, rather than tuning for a large gain."
+    },
+    {
+      "id": "RND-CHANNEL",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        0.75
+      ],
+      "score": 0.8875,
+      "range": [
+        0.8734939759036143,
+        0.9025974025974025
+      ],
+      "why": "Fit and validate measurement likelihood and timestamp availability on independent approved tabletop labels or documented aggregate data. No invented sensor-error rates."
+    },
+    {
+      "id": "RND-PHYSICS",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        1,
+        0.75,
+        0.5,
+        0.75
+      ],
+      "score": 0.775,
+      "range": [
+        0.76,
+        0.788235294117647
+      ],
+      "why": "Cross-check independent small discrete-event model with finite receiving storage, different arrivals and service; matched constraints and classwise comparator."
+    },
+    {
+      "id": "RND-COMPUTE",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        0.75,
+        1,
+        0.75,
+        0.5
+      ],
+      "score": 0.7625,
+      "range": [
+        0.75,
+        0.7738095238095237
+      ],
+      "why": "Improve belief-state caching/branch bound; benchmark cold/warm runtime and memory including certificate overhead; retain slower cases."
+    },
+    {
+      "id": "RND-UI",
+      "gate": "DEFER",
+      "rating": [
+        0.5,
+        0.25,
+        0.75,
+        1,
+        0.25
+      ],
+      "score": 0.525,
+      "range": [
+        0.5064935064935064,
+        0.5433333333333333
+      ],
+      "why": "Presentation polish after research/measurement gates; current offline viewer already usable."
+    },
+    {
+      "id": "H08J-more",
+      "gate": "STOP",
+      "rating": [
+        0.25,
+        0.25,
+        0.25,
+        1,
+        0.25
+      ],
+      "score": 0.3625,
+      "range": [
+        0.33766233766233766,
+        0.38554216867469876
+      ],
+      "why": "More horizon-only sweeps have low marginal information after exact certification and weak strong-baseline gains."
+    }
+  ],
+  "selection": "RND-OBJECTIVE next executable discriminating implementation; teacher/student evidence gates remain independent and higher priority. RND-CHANNEL requires measured labels. Stop large-improvement headline and horizon-only sweeps. Keep original research title provisional."
+}
