@@ -1,0 +1,1216 @@
+{
+  "checks": 66717,
+  "maxViolation": 7.105427357601002e-15,
+  "contexts": [
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.00022401433691756272,
+          "maxGap": 0.0078125,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.007168458781362007,
+          "maxGap": 0.25,
+          "meanRegret": 0.005824372759856631
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        3
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.007168458781362007,
+          "maxGap": 0.25,
+          "meanRegret": 0.005824372759856631
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 1143,
+      "groups": 252,
+      "summary": {
+        "qmdp": {
+          "classes": 236,
+          "worlds": 943,
+          "meanGap": 0.0014216972878386966,
+          "maxGap": 0.010416666666667851,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 8.081413442590816e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 8.081413442590816e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 8.081413442590816e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1
+      ],
+      "N": 1143,
+      "groups": 252,
+      "summary": {
+        "qmdp": {
+          "classes": 236,
+          "worlds": 943,
+          "meanGap": 0.02099737532808391,
+          "maxGap": 0.25,
+          "meanRegret": 0.011428258967628816
+        },
+        "depth2": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        2,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1,
+        3
+      ],
+      "N": 1143,
+      "groups": 252,
+      "summary": {
+        "qmdp": {
+          "classes": 236,
+          "worlds": 943,
+          "meanGap": 0.02099737532808391,
+          "maxGap": 0.25,
+          "meanRegret": 0.011428258967628816
+        },
+        "depth2": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 252,
+          "worlds": 1143,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        3
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 1524,
+      "groups": 336,
+      "summary": {
+        "qmdp": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 3.4967654318902555e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1
+      ],
+      "N": 1524,
+      "groups": 336,
+      "summary": {
+        "qmdp": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 3.4967654318902555e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "i",
+      "K": [
+        3,
+        2
+      ],
+      "L": 6,
+      "schedule": [
+        1,
+        3
+      ],
+      "N": 1524,
+      "groups": 336,
+      "summary": {
+        "qmdp": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 3.4967654318902555e-17,
+          "maxGap": 7.105427357601002e-15,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 336,
+          "worlds": 1524,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.01792114695340507,
+          "maxGap": 0.6250000000000036,
+          "meanRegret": 0.01657706093189954
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        3,
+        5
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.01792114695340507,
+          "maxGap": 0.6250000000000036,
+          "meanRegret": 0.01657706093189954
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.00022401433691756272,
+          "maxGap": 0.0078125,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": -1.5280488941077425e-16,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": -1.5280488941077425e-16,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": -1.5280488941077425e-16,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": -1.5280488941077425e-16,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 178,
+          "worlds": 364,
+          "meanGap": 0.0006720430107527646,
+          "maxGap": 0.03125000000000355,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        3,
+        5
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 178,
+          "worlds": 364,
+          "meanGap": 0.0006720430107527646,
+          "maxGap": 0.03125000000000355,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "j",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 178,
+          "worlds": 364,
+          "meanGap": 0.00008400537634408603,
+          "maxGap": 0.00390625,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": -3.820122235269356e-17,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": -3.820122235269356e-17,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth4": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": -3.820122235269356e-17,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": -3.820122235269356e-17,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "SORTED",
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.00022401433691756272,
+          "maxGap": 0.0078125,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "RANDOM",
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 131,
+          "worlds": 269,
+          "meanGap": 0.00028001792114695345,
+          "maxGap": 0.0078125,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "SORTED",
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 133,
+          "worlds": 271,
+          "meanGap": 0.007168458781362007,
+          "maxGap": 0.25,
+          "meanRegret": 0.005824372759856631
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        2,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "RANDOM",
+      "N": 279,
+      "groups": 135,
+      "summary": {
+        "qmdp": {
+          "classes": 131,
+          "worlds": 269,
+          "meanGap": 0.00896057347670251,
+          "maxGap": 0.25,
+          "meanRegret": 0.005824372759856631
+        },
+        "depth2": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 135,
+          "worlds": 279,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "SORTED",
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "RANDOM",
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "SORTED",
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    },
+    {
+      "letter": "k",
+      "K": [
+        3,
+        2
+      ],
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "RANDOM",
+      "N": 372,
+      "groups": 180,
+      "summary": {
+        "qmdp": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth2": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "depth3": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        },
+        "adaptive": {
+          "classes": 180,
+          "worlds": 372,
+          "meanGap": 0,
+          "maxGap": 0,
+          "meanRegret": 0
+        }
+      }
+    }
+  ]
+}
