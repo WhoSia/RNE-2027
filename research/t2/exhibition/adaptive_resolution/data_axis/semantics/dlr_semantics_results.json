@@ -1,0 +1,74 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.20919480",
+  "document_page": 20,
+  "document_sha256": "94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3",
+  "checks": 652136,
+  "windows": [
+    {
+      "start": "2023-09-24T23:00:00+00:00",
+      "sha256": "3a463900ed82afcb3caa4cf7ffad5b8fc13d08de5250a86e0eb67f1eb76fb583",
+      "known_routes": 31,
+      "supplied_routes": 9,
+      "explicit_cells": 8100,
+      "implicit_recorded_zero_cells": 19800,
+      "unknown_time_cells": 0,
+      "recorded_count": 16
+    },
+    {
+      "start": "2023-09-24T23:15:00+00:00",
+      "sha256": "426f5133ce333dffa518ea46572eecf9fbe2377201356de4cfab3f93e9c39813",
+      "known_routes": 31,
+      "supplied_routes": 2,
+      "explicit_cells": 1714,
+      "implicit_recorded_zero_cells": 24853,
+      "unknown_time_cells": 1333,
+      "recorded_count": 2
+    },
+    {
+      "start": "2023-09-24T23:30:00+00:00",
+      "sha256": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798",
+      "known_routes": 31,
+      "supplied_routes": 12,
+      "explicit_cells": 10716,
+      "implicit_recorded_zero_cells": 16967,
+      "unknown_time_cells": 217,
+      "recorded_count": 17
+    },
+    {
+      "start": "2023-09-24T23:45:00+00:00",
+      "sha256": "1a284356118ceb88db2a3dcee9d224e64f670d2ee2f39b425f57e400c7337827",
+      "known_routes": 31,
+      "supplied_routes": 10,
+      "explicit_cells": 8680,
+      "implicit_recorded_zero_cells": 18228,
+      "unknown_time_cells": 992,
+      "recorded_count": 17
+    },
+    {
+      "start": "2023-09-24T12:15:00+00:00",
+      "sha256": "ec4469245af40e5ac938f60d54face45448cde6644ddcd35f67e819b5d2cd426",
+      "known_routes": 31,
+      "supplied_routes": 27,
+      "explicit_cells": 24300,
+      "implicit_recorded_zero_cells": 3600,
+      "unknown_time_cells": 0,
+      "recorded_count": 475
+    },
+    {
+      "start": "2023-09-24T12:30:00+00:00",
+      "sha256": "4a30e5767f33288d1fe3026ca796ea7c9e1a6447d84117f3eaa510ad6516e1c7",
+      "known_routes": 31,
+      "supplied_routes": 26,
+      "explicit_cells": 23400,
+      "implicit_recorded_zero_cells": 4500,
+      "unknown_time_cells": 0,
+      "recorded_count": 498
+    }
+  ],
+  "totals": {
+    "explicit_cells": 76910,
+    "implicit_recorded_zero_cells": 87948,
+    "unknown_time_cells": 2542,
+    "recorded_count": 1025
+  }
+}
