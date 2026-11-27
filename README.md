@@ -11,6 +11,12 @@ Collaborative R&E 2027 research repository.
 Start with the [repository and Drive map](docs/REPOSITORY_MAP.md) for active T2 code, data receipts, and verification records.
 
 
+### Exhibition R&D prototype: Adaptive Resolution Lab (2026-11-27)
+
+An [offline executable laboratory prototype](research/t2/exhibition/adaptive_resolution/README.md) connects uncertain observation, causal belief updates, hard pathwise acquisition budgets, exact/limited-depth planning, and model-based optimality certificates. See [acceptance and negative findings](research/t2/exhibition/adaptive_resolution/RND_ACCEPTANCE.md), [R&D priorities](research/t2/exhibition/adaptive_resolution/RND_PRIORITIES.json), and the [Drive release R1](https://drive.google.com/file/d/1SOIABscETeUKg9i0aFg9op9AiPfgeARl/view).
+
+Strong class-informed fixed-policy comparisons show only 0–0.015655% mean cost gains on the conditional synthetic population; large real-world improvement claims remain unsupported. The prior traffic-model and RF tracks are preserved. No field calibration, road actuation, real RF collection, K047 holdout use or student-independent acceptance. The next engineering priorities are measured observation reliability, multiple objective tradeoffs, and independent paired tabletop/model verification.
+
 ### Parallel exhibition prototype: RF-CURTAIN (2026-11-21)
 
 A **separate**, teacher-supervised, indoor/tabletop, camera-free RF sensing
