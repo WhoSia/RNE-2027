@@ -21,6 +21,8 @@ Strong class-informed fixed-policy comparisons show only 0–0.015655% mean cost
 
 **R3 (2026-11-27):** [finite receiving-storage and noisy observation acceptance](research/t2/exhibition/adaptive_resolution/r3/R3_ACCEPTANCE.md), [R3 priorities](research/t2/exhibition/adaptive_resolution/RND_R3_PRIORITIES.json), [R3 reproducible package](https://drive.google.com/file/d/1zSntDXchqkw1jDizVPI8FtypA6uDQuqS/view). Finite synthetic receiving constraints change which information is useful. All 80 tested physical/channel contexts tie their best enumerated class-informed fixed calendar. Sensor likelihood mismatch can cause abstention or excess cost; calibration ledger is prospective and synthetic fixture only. No field claim; R1/R2 preserved.
 
+**R4 (2026-11-27):** [data contract and measured predictor acceleration](research/t2/exhibition/adaptive_resolution/r4/R4_ACCEPTANCE.md), [reproducible R4 package](https://drive.google.com/file/d/1sf5MF-MEU3fuqO9EqYSmhNKg6OejtZt3/view). Python primary; Rust preferred for measured pure kernels after toolchain and exact parity gates. Optional fused integer-weight predictor reproduces 192 policy reports and 4480 predictions; cold median 1.229–1.450x on three cases, not a native benchmark. Six aggregate source hashes and explicit missingness/causal availability gate; no inferred arrival or queue truth. Original engines unchanged.
+
 ### Parallel exhibition prototype: RF-CURTAIN (2026-11-21)
 
 A **separate**, teacher-supervised, indoor/tabletop, camera-free RF sensing
