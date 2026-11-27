@@ -1,0 +1,62 @@
+{
+  "fast_predict.py": {
+    "sha256": "3f5313920699c1a53ceb7a765366ff304122fdbc310db2a4934a810828cc9302",
+    "git_blob": "e249fb6eb7b2be6f83d8b41e50b7799a3426b5b8",
+    "bytes": 1121
+  },
+  "benchmark_predict.py": {
+    "sha256": "e3e9f0cc84a82aa5742dc76b4f36ef8afc9a83a3d0e296e1ed03560f0dca3c31",
+    "git_blob": "d422a153566ec5e4d1c6a78b4189e55caec42120",
+    "bytes": 2680
+  },
+  "benchmark_predict_results.json": {
+    "sha256": "b3b6b327bb7c4664429988cca17401d065b621ae2795a1e158b4b0dd70ae59ac",
+    "git_blob": "40bfc09711f8a34d5de1182e5c58139d30c5c453",
+    "bytes": 2454
+  },
+  "profile_receipt.json": {
+    "sha256": "363144ab123173aa8ef87158d7168d301e17e51fb1c2e546588f8cdaf47a17ba",
+    "git_blob": "4239b3ae838f79c26a62d6ac7a6556719696000d",
+    "bytes": 2565
+  },
+  "data_contract.py": {
+    "sha256": "bbd1e192ef63ea00b03bc1974e92907570a46dc1dadd2d63f15c8a817f399edf",
+    "git_blob": "fc59171ca73f26824733e61e668a148e37f095e1",
+    "bytes": 3834
+  },
+  "audit_data.py": {
+    "sha256": "26e4c1a3e380177ce1a3bc66da40340b00a98e03f8b284c9fe5addac5aea1e3d",
+    "git_blob": "4f3c68e0f073d8620a67be82647fbc3bb27962ce",
+    "bytes": 1936
+  },
+  "data_audit_results.json": {
+    "sha256": "553e10b3fb951c90daac2062c0dfc45d094f0c9afdfc3e2d4342a2245f5222c2",
+    "git_blob": "52e6b909cd80e936324cc97cc0371acca748fd48",
+    "bytes": 5368
+  },
+  "test_data_contract.py": {
+    "sha256": "42bbc407b63c3d5e4bd23a36d8933aeb5b38ae16d5b1d12e564e37685c08f905",
+    "git_blob": "064b8c25225a0b8f8aeecb6e778eeb36c166ae71",
+    "bytes": 2050
+  },
+  "test_fast_predict.py": {
+    "sha256": "6a4bfa21344d3f8f829b3613f31e297fceb1e5887d75fb23fb8656f9e0bf5fea",
+    "git_blob": "bb10dd25f876bbcc18cce970fc751eddf36a157c",
+    "bytes": 1062
+  },
+  "r4_tests.txt": {
+    "sha256": "94d7dd11d4f9a0d9f1d72854c18ef2ecb8ff5c36b60259608efc01b427c57e28",
+    "git_blob": "99b4911f43f7530d1e55ea119d00a0d9b589b004",
+    "bytes": 625
+  },
+  "r4_tests_initial_failure.txt": {
+    "sha256": "c8d581edde72406236b5784655b16388cf3ff32eccbd29e83c1827f20566c339",
+    "git_blob": "ae5baefdd14dc4766e8715b59116833b0270a233",
+    "bytes": 1693
+  },
+  "R4_ACCEPTANCE.md": {
+    "sha256": "30cc36c2d0b7c355b704e5eb3c8a02f1a98bfb8eb8aedec2a4e299c3d56234c2",
+    "git_blob": "5de42fc0af47896f89255619b3afe88569886d8e",
+    "bytes": 5116
+  }
+}
