@@ -1,0 +1,12 @@
+test_availability (test_data_contract.TestContract.test_availability) ... ok
+test_distinguish (test_data_contract.TestContract.test_distinguish) ... ok
+test_empty_window (test_data_contract.TestContract.test_empty_window) ... ok
+test_incomplete_decision (test_data_contract.TestContract.test_incomplete_decision) ... ok
+test_invalid (test_data_contract.TestContract.test_invalid) ... ok
+test_malformed (test_fast_predict.TestFastPredict.test_malformed) ... ok
+test_models (test_fast_predict.TestFastPredict.test_models) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.009s
+
+OK
