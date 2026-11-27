@@ -1,0 +1,65 @@
+{
+  "model": "synthetic finite FIFO",
+  "q": [
+    2,
+    2
+  ],
+  "word_counts": [
+    3,
+    1
+  ],
+  "law": "broad",
+  "budget": 4,
+  "weights": [
+    "1",
+    "1",
+    "4",
+    "0",
+    "1"
+  ],
+  "schedule": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "result": {
+    "selected_depth": 2,
+    "explored_depth": 2,
+    "lower": "315177/4096",
+    "upper": "10096823/131072",
+    "gap": "11159/131072",
+    "certified": false,
+    "exact": false,
+    "epsilon": "0",
+    "history": [
+      {
+        "depth": 1,
+        "lower": "39391/512",
+        "upper": "10096859/131072",
+        "evaluated": true
+      },
+      {
+        "depth": 2,
+        "lower": "315177/4096",
+        "upper": "10096823/131072",
+        "evaluated": true
+      }
+    ],
+    "policy": {
+      "vector": {
+        "straight": "404735/32768",
+        "left": "178311/16384",
+        "stage_max": "220265/16384",
+        "terminal": "168781/32768",
+        "credits": "2915/2048"
+      },
+      "objective": "10096823/131072",
+      "lower": "315177/4096",
+      "gap": "11159/131072",
+      "worst_credits": 4,
+      "acquisitions": "245/512",
+      "mode": 0
+    }
+  }
+}
