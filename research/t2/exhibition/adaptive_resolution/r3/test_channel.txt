@@ -1,0 +1,12 @@
+test_calibration_fixture (test_channel.TestChannel.test_calibration_fixture) ... ok
+test_initial_partition (test_channel.TestChannel.test_initial_partition) ... ok
+test_mismatch_receipt (test_channel.TestChannel.test_mismatch_receipt) ... ok
+test_reject_duplicate (test_channel.TestChannel.test_reject_duplicate) ... ok
+test_reject_personal_id (test_channel.TestChannel.test_reject_personal_id) ... ok
+test_reject_split_leak (test_channel.TestChannel.test_reject_split_leak) ... ok
+test_zero_error_parity (test_channel.TestChannel.test_zero_error_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.397s
+
+OK
