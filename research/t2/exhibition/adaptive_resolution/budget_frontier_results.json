@@ -1,0 +1,5842 @@
+[
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "19/2",
+              "left": "35/4",
+              "stage_max": "95/8",
+              "terminal": "13/4",
+              "credits": "1"
+            },
+            "objective": "73/4",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "19/2",
+              "left": "35/4",
+              "stage_max": "95/8",
+              "terminal": "13/4",
+              "credits": "1"
+            },
+            "objective": "73/4",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "4"
+            },
+            "objective": "18",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "37/4",
+              "left": "19/2",
+              "stage_max": "187/16",
+              "terminal": "7/2",
+              "credits": "0"
+            },
+            "objective": "75/4",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "3/2"
+            },
+            "objective": "18",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "10",
+              "left": "8",
+              "stage_max": "47/4",
+              "terminal": "3",
+              "credits": "4"
+            },
+            "objective": "18",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "1"
+            },
+            "objective": "73/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "4"
+            },
+            "objective": "73/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "4"
+            },
+            "objective": "73/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "1"
+            },
+            "objective": "73/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "4"
+            },
+            "objective": "73/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "0"
+            },
+            "objective": "73/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "5/3"
+            },
+            "objective": "73/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "6",
+              "left": "37/6",
+              "stage_max": "95/12",
+              "terminal": "11/6",
+              "credits": "4"
+            },
+            "objective": "73/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "5/3"
+            },
+            "objective": "85/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "5/3"
+            },
+            "objective": "85/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "5/3"
+            },
+            "objective": "85/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "20/3",
+              "left": "15/2",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "4"
+            },
+            "objective": "85/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "1"
+            },
+            "objective": "85/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "77/12",
+              "left": "8",
+              "stage_max": "463/48",
+              "terminal": "9/4",
+              "credits": "0"
+            },
+            "objective": "173/12",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "7",
+              "left": "43/6",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "5/3"
+            },
+            "objective": "85/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "20/3",
+              "left": "15/2",
+              "stage_max": "233/24",
+              "terminal": "13/6",
+              "credits": "4"
+            },
+            "objective": "85/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "1"
+            },
+            "objective": "507/8",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "3/2"
+            },
+            "objective": "507/8",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "3/2"
+            },
+            "objective": "507/8",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "3/2"
+            },
+            "objective": "507/8",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "4"
+            },
+            "objective": "507/8",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "0"
+            },
+            "objective": "507/8",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "3/2"
+            },
+            "objective": "507/8",
+            "worst_credits": 2,
+            "acquisitions": "3/2",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "161/16",
+              "left": "141/16",
+              "stage_max": "89/8",
+              "terminal": "29/8",
+              "credits": "4"
+            },
+            "objective": "507/8",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "1"
+            },
+            "objective": "257/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "4"
+            },
+            "objective": "257/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "4"
+            },
+            "objective": "257/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "1"
+            },
+            "objective": "257/6",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "4"
+            },
+            "objective": "257/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "0"
+            },
+            "objective": "257/6",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "5/3"
+            },
+            "objective": "257/6",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "71/12",
+              "left": "79/12",
+              "stage_max": "91/12",
+              "terminal": "2",
+              "credits": "4"
+            },
+            "objective": "257/6",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "5/3"
+            },
+            "objective": "1259/24",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "5/3"
+            },
+            "objective": "1259/24",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "5/3"
+            },
+            "objective": "1259/24",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "113/16",
+              "left": "371/48",
+              "stage_max": "113/12",
+              "terminal": "59/24",
+              "credits": "4"
+            },
+            "objective": "1259/24",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "1"
+            },
+            "objective": "1259/24",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "13/2",
+              "left": "383/48",
+              "stage_max": "229/24",
+              "terminal": "37/16",
+              "credits": "0"
+            },
+            "objective": "2527/48",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "117/16",
+              "left": "367/48",
+              "stage_max": "75/8",
+              "terminal": "61/24",
+              "credits": "5/3"
+            },
+            "objective": "1259/24",
+            "worst_credits": 2,
+            "acquisitions": "5/3",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "113/16",
+              "left": "371/48",
+              "stage_max": "113/12",
+              "terminal": "59/24",
+              "credits": "4"
+            },
+            "objective": "1259/24",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "377/32",
+              "left": "45/4",
+              "stage_max": "7387/512",
+              "terminal": "161/32",
+              "credits": "1"
+            },
+            "objective": "737/32",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "377/32",
+              "left": "45/4",
+              "stage_max": "7387/512",
+              "terminal": "161/32",
+              "credits": "1"
+            },
+            "objective": "737/32",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "13/8"
+            },
+            "objective": "23",
+            "worst_credits": 2,
+            "acquisitions": "13/8",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "27801/16384"
+            },
+            "objective": "23",
+            "worst_credits": 2,
+            "acquisitions": "27801/16384",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "13/8"
+            },
+            "objective": "23",
+            "worst_credits": 2,
+            "acquisitions": "13/8",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "15633/8192"
+            },
+            "objective": "23",
+            "worst_credits": 3,
+            "acquisitions": "15633/8192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "13/8"
+            },
+            "objective": "23",
+            "worst_credits": 2,
+            "acquisitions": "13/8",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "15633/8192"
+            },
+            "objective": "23",
+            "worst_credits": 3,
+            "acquisitions": "15633/8192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "3081/256",
+              "left": "351/32",
+              "stage_max": "14853/1024",
+              "terminal": "1281/256",
+              "credits": "4"
+            },
+            "objective": "5889/256",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "13/8"
+            },
+            "objective": "23",
+            "worst_credits": 2,
+            "acquisitions": "13/8",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "743/64",
+              "left": "735/64",
+              "stage_max": "7237/512",
+              "terminal": "81/16",
+              "credits": "0"
+            },
+            "objective": "739/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "15633/8192"
+            },
+            "objective": "23",
+            "worst_credits": 3,
+            "acquisitions": "15633/8192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "773/64",
+              "left": "699/64",
+              "stage_max": "7425/512",
+              "terminal": "5",
+              "credits": "101/16"
+            },
+            "objective": "23",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "1"
+            },
+            "objective": "2987/192",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "1813/1024"
+            },
+            "objective": "2987/192",
+            "worst_credits": 2,
+            "acquisitions": "1813/1024",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "24415/12288"
+            },
+            "objective": "2987/192",
+            "worst_credits": 3,
+            "acquisitions": "24415/12288",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "12353/6144"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "12353/6144",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "4"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "12353/6144"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "12353/6144",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "1463/192",
+              "left": "127/16",
+              "stage_max": "2553/256",
+              "terminal": "205/64",
+              "credits": "101/16"
+            },
+            "objective": "2987/192",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "1"
+            },
+            "objective": "2987/192",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "3631/2048"
+            },
+            "objective": "2987/192",
+            "worst_credits": 2,
+            "acquisitions": "3631/2048",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "24455/12288"
+            },
+            "objective": "2987/192",
+            "worst_credits": 3,
+            "acquisitions": "24455/12288",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "12373/6144"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "12373/6144",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "4"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "0"
+            },
+            "objective": "2987/192",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "12373/6144"
+            },
+            "objective": "2987/192",
+            "worst_credits": 4,
+            "acquisitions": "12373/6144",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "169/24",
+              "left": "545/64",
+              "stage_max": "7639/768",
+              "terminal": "205/64",
+              "credits": "101/16"
+            },
+            "objective": "2987/192",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "221/128"
+            },
+            "objective": "817/48",
+            "worst_credits": 2,
+            "acquisitions": "221/128",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "2935/1536"
+            },
+            "objective": "817/48",
+            "worst_credits": 3,
+            "acquisitions": "2935/1536",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "185/96"
+            },
+            "objective": "817/48",
+            "worst_credits": 4,
+            "acquisitions": "185/96",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "123/16",
+              "left": "28/3",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "4"
+            },
+            "objective": "817/48",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "1"
+            },
+            "objective": "817/48",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "59/8",
+              "left": "311/32",
+              "stage_max": "4259/384",
+              "terminal": "341/96",
+              "credits": "0"
+            },
+            "objective": "547/32",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "191/24",
+              "left": "145/16",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "185/96"
+            },
+            "objective": "817/48",
+            "worst_credits": 4,
+            "acquisitions": "185/96",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "123/16",
+              "left": "28/3",
+              "stage_max": "2149/192",
+              "terminal": "169/48",
+              "credits": "101/16"
+            },
+            "objective": "817/48",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "100457/8192",
+              "left": "358933/32768",
+              "stage_max": "221737/16384",
+              "terminal": "168457/32768",
+              "credits": "95/512"
+            },
+            "objective": "2534657/32768",
+            "worst_credits": 1,
+            "acquisitions": "95/512",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "1"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "391/16384"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "401423/32768",
+              "left": "179651/16384",
+              "stage_max": "6929/512",
+              "terminal": "168421/32768",
+              "credits": "457/2048"
+            },
+            "objective": "2534549/32768",
+            "worst_credits": 2,
+            "acquisitions": "457/2048",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "100395/8192",
+              "left": "359211/32768",
+              "stage_max": "443525/32768",
+              "terminal": "168487/32768",
+              "credits": "6919/4096"
+            },
+            "objective": "2534891/32768",
+            "worst_credits": 2,
+            "acquisitions": "6919/4096",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "171/16384"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "401423/32768",
+              "left": "179651/16384",
+              "stage_max": "6929/512",
+              "terminal": "168421/32768",
+              "credits": "457/2048"
+            },
+            "objective": "2534549/32768",
+            "worst_credits": 2,
+            "acquisitions": "457/2048",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "401297/32768",
+              "left": "89857/8192",
+              "stage_max": "443481/32768",
+              "terminal": "168421/32768",
+              "credits": "15511/8192"
+            },
+            "objective": "2534649/32768",
+            "worst_credits": 3,
+            "acquisitions": "15511/8192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "25/8192"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "201343/16384",
+              "left": "358869/32768",
+              "stage_max": "220211/16384",
+              "terminal": "168979/32768",
+              "credits": "85/64"
+            },
+            "objective": "2523243/32768",
+            "worst_credits": 4,
+            "acquisitions": "1363/4096",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "401279/32768",
+              "left": "179723/16384",
+              "stage_max": "6929/512",
+              "terminal": "168421/32768",
+              "credits": "7789/4096"
+            },
+            "objective": "2534549/32768",
+            "worst_credits": 4,
+            "acquisitions": "7789/4096",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "100401/8192",
+              "left": "359163/32768",
+              "stage_max": "443569/32768",
+              "terminal": "168463/32768",
+              "credits": "4"
+            },
+            "objective": "2535043/32768",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "5653/16384"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "50627/4096",
+              "left": "89129/8192",
+              "stage_max": "109973/8192",
+              "terminal": "42223/8192",
+              "credits": "209/128"
+            },
+            "objective": "630275/8192",
+            "worst_credits": 8,
+            "acquisitions": "4217/8192",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "199785/16384",
+              "left": "361401/32768",
+              "stage_max": "443617/32768",
+              "terminal": "168667/32768",
+              "credits": "0"
+            },
+            "objective": "2535439/32768",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "401279/32768",
+              "left": "179723/16384",
+              "stage_max": "6929/512",
+              "terminal": "168421/32768",
+              "credits": "7789/4096"
+            },
+            "objective": "2534549/32768",
+            "worst_credits": 4,
+            "acquisitions": "7789/4096",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "101035/8192",
+              "left": "89299/8192",
+              "stage_max": "440647/32768",
+              "terminal": "21097/4096",
+              "credits": "101/16"
+            },
+            "objective": "630981/8192",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "353/4096"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "97201/12288",
+              "left": "32357/4096",
+              "stage_max": "38485/4096",
+              "terminal": "5099/1536",
+              "credits": "779/6144"
+            },
+            "objective": "164023/3072",
+            "worst_credits": 1,
+            "acquisitions": "779/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "1"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "2693/12288"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "24307/3072",
+              "left": "8087/1024",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "797/6144"
+            },
+            "objective": "20501/384",
+            "worst_credits": 2,
+            "acquisitions": "797/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "96395/12288",
+              "left": "97877/12288",
+              "stage_max": "464095/49152",
+              "terminal": "5099/1536",
+              "credits": "3665/2048"
+            },
+            "objective": "658367/12288",
+            "worst_credits": 2,
+            "acquisitions": "3665/2048",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "2335/12288"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "24307/3072",
+              "left": "8087/1024",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "797/6144"
+            },
+            "objective": "20501/384",
+            "worst_credits": 2,
+            "acquisitions": "797/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "4047/512",
+              "left": "12143/1536",
+              "stage_max": "19251/2048",
+              "terminal": "5099/1536",
+              "credits": "25121/12288"
+            },
+            "objective": "82037/1536",
+            "worst_credits": 3,
+            "acquisitions": "25121/12288",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "11/512"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "195433/24576",
+              "left": "388691/49152",
+              "stage_max": "457037/49152",
+              "terminal": "164645/49152",
+              "credits": "2095/2048"
+            },
+            "objective": "869235/16384",
+            "worst_credits": 4,
+            "acquisitions": "685/2048",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "24307/3072",
+              "left": "8087/1024",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "6359/3072"
+            },
+            "objective": "20501/384",
+            "worst_credits": 4,
+            "acquisitions": "6359/3072",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "4"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "16423/49152"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "24511/3072",
+              "left": "24245/3072",
+              "stage_max": "4747/512",
+              "terminal": "859/256",
+              "credits": "7049/6144"
+            },
+            "objective": "13557/256",
+            "worst_credits": 8,
+            "acquisitions": "4783/12288",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32221/4096",
+              "left": "48625/6144",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "24307/3072",
+              "left": "8087/1024",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "6359/3072"
+            },
+            "objective": "20501/384",
+            "worst_credits": 4,
+            "acquisitions": "6359/3072",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "389665/49152",
+              "left": "194845/24576",
+              "stage_max": "228869/24576",
+              "terminal": "54841/16384",
+              "credits": "101/16"
+            },
+            "objective": "2610307/49152",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "7363/49152"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "62269/8192",
+              "left": "201737/24576",
+              "stage_max": "38485/4096",
+              "terminal": "5099/1536",
+              "credits": "779/6144"
+            },
+            "objective": "164023/3072",
+            "worst_credits": 1,
+            "acquisitions": "779/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "1"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "2693/12288"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "62287/8192",
+              "left": "201683/24576",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "797/6144"
+            },
+            "objective": "20501/384",
+            "worst_credits": 2,
+            "acquisitions": "797/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "185195/24576",
+              "left": "67783/8192",
+              "stage_max": "464095/49152",
+              "terminal": "5099/1536",
+              "credits": "3665/2048"
+            },
+            "objective": "658367/12288",
+            "worst_credits": 2,
+            "acquisitions": "3665/2048",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "2335/12288"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "62287/8192",
+              "left": "201683/24576",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "797/6144"
+            },
+            "objective": "20501/384",
+            "worst_credits": 2,
+            "acquisitions": "797/6144",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "186661/24576",
+              "left": "201883/24576",
+              "stage_max": "19251/2048",
+              "terminal": "5099/1536",
+              "credits": "25121/12288"
+            },
+            "objective": "82037/1536",
+            "worst_credits": 3,
+            "acquisitions": "25121/12288",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "11/512"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "125549/16384",
+              "left": "201455/24576",
+              "stage_max": "457037/49152",
+              "terminal": "164645/49152",
+              "credits": "2095/2048"
+            },
+            "objective": "869235/16384",
+            "worst_credits": 4,
+            "acquisitions": "685/2048",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "62287/8192",
+              "left": "201683/24576",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "6359/3072"
+            },
+            "objective": "20501/384",
+            "worst_credits": 4,
+            "acquisitions": "6359/3072",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "4"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "16423/49152"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "23621/3072",
+              "left": "25135/3072",
+              "stage_max": "4747/512",
+              "terminal": "859/256",
+              "credits": "7049/6144"
+            },
+            "objective": "13557/256",
+            "worst_credits": 8,
+            "acquisitions": "4783/12288",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "183835/24576",
+              "left": "67997/8192",
+              "stage_max": "58109/6144",
+              "terminal": "13563/4096",
+              "credits": "0"
+            },
+            "objective": "219595/4096",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "62287/8192",
+              "left": "201683/24576",
+              "stage_max": "2405/256",
+              "terminal": "5099/1536",
+              "credits": "6359/3072"
+            },
+            "objective": "20501/384",
+            "worst_credits": 4,
+            "acquisitions": "6359/3072",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "31219/4096",
+              "left": "134909/16384",
+              "stage_max": "228869/24576",
+              "terminal": "54841/16384",
+              "credits": "101/16"
+            },
+            "objective": "2610307/49152",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "7363/49152"
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "budget": 0,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "full": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 1,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "103405/12288",
+              "left": "109195/12288",
+              "stage_max": "32431/3072",
+              "terminal": "5627/1536",
+              "credits": "1"
+            },
+            "objective": "30479/512",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "103405/12288",
+              "left": "109195/12288",
+              "stage_max": "32431/3072",
+              "terminal": "5627/1536",
+              "credits": "1"
+            },
+            "objective": "30479/512",
+            "worst_credits": 1,
+            "acquisitions": "1",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 2,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "104137/12288",
+              "left": "108463/12288",
+              "stage_max": "32297/3072",
+              "terminal": "5627/1536",
+              "credits": "425/384"
+            },
+            "objective": "91169/1536",
+            "worst_credits": 2,
+            "acquisitions": "425/384",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "103465/12288",
+              "left": "109135/12288",
+              "stage_max": "64847/6144",
+              "terminal": "5627/1536",
+              "credits": "659/384"
+            },
+            "objective": "15237/256",
+            "worst_credits": 2,
+            "acquisitions": "659/384",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "253/1536"
+      },
+      {
+        "budget": 3,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "104173/12288",
+              "left": "108427/12288",
+              "stage_max": "2691/256",
+              "terminal": "5627/1536",
+              "credits": "853/768"
+            },
+            "objective": "91159/1536",
+            "worst_credits": 3,
+            "acquisitions": "853/768",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "104089/12288",
+              "left": "108511/12288",
+              "stage_max": "32305/3072",
+              "terminal": "5627/1536",
+              "credits": "995/512"
+            },
+            "objective": "30395/512",
+            "worst_credits": 3,
+            "acquisitions": "995/512",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          }
+        },
+        "gain_vs_fixed": "13/768"
+      },
+      {
+        "budget": 4,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "104173/12288",
+              "left": "108427/12288",
+              "stage_max": "2691/256",
+              "terminal": "5627/1536",
+              "credits": "853/768"
+            },
+            "objective": "91159/1536",
+            "worst_credits": 3,
+            "acquisitions": "853/768",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "104173/12288",
+              "left": "108427/12288",
+              "stage_max": "2691/256",
+              "terminal": "5627/1536",
+              "credits": "377/192"
+            },
+            "objective": "91159/1536",
+            "worst_credits": 4,
+            "acquisitions": "377/192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "33807/4096",
+              "left": "111179/12288",
+              "stage_max": "32431/3072",
+              "terminal": "5627/1536",
+              "credits": "4"
+            },
+            "objective": "30479/512",
+            "worst_credits": 4,
+            "acquisitions": "1",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "0"
+      },
+      {
+        "budget": 8,
+        "policy": {
+          "adaptive": {
+            "vector": {
+              "straight": "208877/24576",
+              "left": "216941/24576",
+              "stage_max": "64243/6144",
+              "terminal": "45229/12288",
+              "credits": "2551/1536"
+            },
+            "objective": "726853/12288",
+            "worst_credits": 6,
+            "acquisitions": "959/768",
+            "mode": 1
+          },
+          "free": {
+            "vector": {
+              "straight": "32777/4096",
+              "left": "38045/4096",
+              "stage_max": "32653/3072",
+              "terminal": "22385/6144",
+              "credits": "0"
+            },
+            "objective": "367457/6144",
+            "worst_credits": 0,
+            "acquisitions": "0",
+            "mode": 0
+          },
+          "head": {
+            "vector": {
+              "straight": "104173/12288",
+              "left": "108427/12288",
+              "stage_max": "2691/256",
+              "terminal": "5627/1536",
+              "credits": "377/192"
+            },
+            "objective": "91159/1536",
+            "worst_credits": 4,
+            "acquisitions": "377/192",
+            "mode": 1
+          },
+          "full": {
+            "vector": {
+              "straight": "204113/24576",
+              "left": "221569/24576",
+              "stage_max": "128843/12288",
+              "terminal": "15059/4096",
+              "credits": "101/16"
+            },
+            "objective": "728213/12288",
+            "worst_credits": 8,
+            "acquisitions": "101/64",
+            "mode": 2
+          }
+        },
+        "gain_vs_fixed": "85/768"
+      }
+    ]
+  }
+]
