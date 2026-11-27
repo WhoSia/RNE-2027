@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-27",
+  "parent": "cfb362f231830d342086f9aa2c66a9853834fb07",
+  "externalReview": {
+    "commit": "19daa0a37414a17ec768c30d20b22b421efdd079",
+    "status": "review artifacts confirmed, model authorship not verified",
+    "parity": 440,
+    "maxAbsoluteError": 1.0658141036401503e-14
+  },
+  "weights": [
+    0.25,
+    0.3,
+    0.2,
+    0.15,
+    0.1
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "H08I",
+      "gate": "READY",
+      "ratings": [
+        1,
+        1,
+        0.75,
+        0.75,
+        0.25
+      ],
+      "why": "Bounded-lookahead observation/control under restricted opportunities; isolate anticipation and measure computational trade-off, compare QMDP and exact.",
+      "score": 0.8375,
+      "range": [
+        0.8231707317073171,
+        0.8525641025641025
+      ]
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": [
+        1,
+        1,
+        0.5,
+        1,
+        0.25
+      ],
+      "why": "Student independently reproduce H08H finite witness and paired schedules, blind outcome sheets.",
+      "score": 0.8250000000000001,
+      "range": [
+        0.8095238095238094,
+        0.8421052631578948
+      ]
+    },
+    {
+      "id": "H07",
+      "gate": "TEACHER",
+      "ratings": [
+        1,
+        0.75,
+        0.5,
+        1,
+        0.5
+      ],
+      "why": "Approved tabletop physical storage/occlusion model; independently label events, no actual road operation.",
+      "score": 0.775,
+      "range": [
+        0.76,
+        0.7894736842105263
+      ]
+    },
+    {
+      "id": "H09B",
+      "gate": "CONDITIONAL",
+      "ratings": [
+        1,
+        0.75,
+        0.5,
+        0.75,
+        0.5
+      ],
+      "why": "Test observation availability schedule on independently documented non-holdout data; no fictitious DLR calibration.",
+      "score": 0.7375,
+      "range": [
+        0.72,
+        0.7529411764705882
+      ]
+    },
+    {
+      "id": "I169A",
+      "gate": "READY",
+      "ratings": [
+        0.75,
+        0.75,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "why": "Statistical baseline on fresh synthetic split or approved aggregates; do not endlessly fit thresholds.",
+      "score": 0.6625,
+      "range": [
+        0.652439024390244,
+        0.673076923076923
+      ]
+    },
+    {
+      "id": "H08G-more",
+      "gate": "DEFER",
+      "ratings": [
+        0.5,
+        0.25,
+        1,
+        0.25,
+        0
+      ],
+      "why": "Switching-cost sweep already yielded nulls. Reopen only with new physical mechanism.",
+      "score": 0.4375,
+      "range": [
+        0.4078947368421053,
+        0.46428571428571425
+      ]
+    },
+    {
+      "id": "saturation-trigger",
+      "gate": "STOP",
+      "ratings": [
+        0.5,
+        0,
+        1,
+        0.5,
+        0
+      ],
+      "why": "Falsified in (3,2), cannot be primary general trigger.",
+      "score": 0.4,
+      "range": [
+        0.368421052631579,
+        0.4324324324324324
+      ]
+    }
+  ],
+  "selection": "H08I is next AI-ready discriminating experiment. EX01C and H07 remain higher-priority evidence gates, cannot substitute AI-only work. No generic POMDP novelty, no saturated-only rule. Preserve H08H failure, define success before testing. No loop numbering."
+}
