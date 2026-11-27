@@ -1,0 +1,1206 @@
+{
+  "status": "NEW_OFFLINE_SIMPLIFIED_MODEL_NOT_T2_PARITY",
+  "pairs": 1152,
+  "arms": 2304,
+  "tapes": 96,
+  "seedBlocks": 16,
+  "overall": {
+    "n": 1152,
+    "win30": 1031,
+    "win60": 121,
+    "ties": 0,
+    "metrics": {
+      "fixed30": {
+        "regret": 29762,
+        "correct": 1031,
+        "worst": 1688
+      },
+      "fixed60": {
+        "regret": 698920,
+        "correct": 121,
+        "worst": 5178
+      },
+      "frozen": {
+        "regret": 121292,
+        "correct": 905,
+        "worst": 3606
+      }
+    },
+    "beatsBoth": false,
+    "blocks": [
+      {
+        "seed": 92801,
+        "delta": 3624
+      },
+      {
+        "seed": 92802,
+        "delta": 6440
+      },
+      {
+        "seed": 92803,
+        "delta": 6306
+      },
+      {
+        "seed": 92804,
+        "delta": 8008
+      },
+      {
+        "seed": 92805,
+        "delta": 8624
+      },
+      {
+        "seed": 92806,
+        "delta": 7270
+      },
+      {
+        "seed": 92807,
+        "delta": 4796
+      },
+      {
+        "seed": 92808,
+        "delta": 6060
+      },
+      {
+        "seed": 92809,
+        "delta": 5254
+      },
+      {
+        "seed": 92810,
+        "delta": 3484
+      },
+      {
+        "seed": 92811,
+        "delta": 1560
+      },
+      {
+        "seed": 92812,
+        "delta": 8472
+      },
+      {
+        "seed": 92813,
+        "delta": 1538
+      },
+      {
+        "seed": 92814,
+        "delta": 6106
+      },
+      {
+        "seed": 92815,
+        "delta": 8990
+      },
+      {
+        "seed": 92816,
+        "delta": 4998
+      }
+    ]
+  },
+  "byLayoutCapacity": [
+    {
+      "layout": "shared",
+      "cap": 2,
+      "n": 192,
+      "win30": 170,
+      "win60": 22,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 12916,
+          "correct": 170,
+          "worst": 1688
+        },
+        "fixed60": {
+          "regret": 309418,
+          "correct": 22,
+          "worst": 5178
+        },
+        "frozen": {
+          "regret": 50124,
+          "correct": 152,
+          "worst": 3606
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 2250
+        },
+        {
+          "seed": 92802,
+          "delta": 1130
+        },
+        {
+          "seed": 92803,
+          "delta": 4162
+        },
+        {
+          "seed": 92804,
+          "delta": 4050
+        },
+        {
+          "seed": 92805,
+          "delta": 3806
+        },
+        {
+          "seed": 92806,
+          "delta": 2384
+        },
+        {
+          "seed": 92807,
+          "delta": 180
+        },
+        {
+          "seed": 92808,
+          "delta": 672
+        },
+        {
+          "seed": 92809,
+          "delta": 3848
+        },
+        {
+          "seed": 92810,
+          "delta": 1474
+        },
+        {
+          "seed": 92811,
+          "delta": -448
+        },
+        {
+          "seed": 92812,
+          "delta": 4206
+        },
+        {
+          "seed": 92813,
+          "delta": 1348
+        },
+        {
+          "seed": 92814,
+          "delta": 3800
+        },
+        {
+          "seed": 92815,
+          "delta": 3124
+        },
+        {
+          "seed": 92816,
+          "delta": 1222
+        }
+      ]
+    },
+    {
+      "layout": "shared",
+      "cap": 4,
+      "n": 192,
+      "win30": 172,
+      "win60": 20,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 7868,
+          "correct": 172,
+          "worst": 1392
+        },
+        "fixed60": {
+          "regret": 194188,
+          "correct": 20,
+          "worst": 3634
+        },
+        "frozen": {
+          "regret": 41308,
+          "correct": 146,
+          "worst": 2950
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 764
+        },
+        {
+          "seed": 92802,
+          "delta": 4184
+        },
+        {
+          "seed": 92803,
+          "delta": 1480
+        },
+        {
+          "seed": 92804,
+          "delta": 2704
+        },
+        {
+          "seed": 92805,
+          "delta": 3168
+        },
+        {
+          "seed": 92806,
+          "delta": 3670
+        },
+        {
+          "seed": 92807,
+          "delta": 2754
+        },
+        {
+          "seed": 92808,
+          "delta": 3470
+        },
+        {
+          "seed": 92809,
+          "delta": 430
+        },
+        {
+          "seed": 92810,
+          "delta": 762
+        },
+        {
+          "seed": 92811,
+          "delta": -94
+        },
+        {
+          "seed": 92812,
+          "delta": 2318
+        },
+        {
+          "seed": 92813,
+          "delta": -492
+        },
+        {
+          "seed": 92814,
+          "delta": 1928
+        },
+        {
+          "seed": 92815,
+          "delta": 3978
+        },
+        {
+          "seed": 92816,
+          "delta": 2416
+        }
+      ]
+    },
+    {
+      "layout": "shared",
+      "cap": 8,
+      "n": 192,
+      "win30": 184,
+      "win60": 8,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 1012,
+          "correct": 184,
+          "worst": 458
+        },
+        "fixed60": {
+          "regret": 65304,
+          "correct": 8,
+          "worst": 1634
+        },
+        "frozen": {
+          "regret": 10280,
+          "correct": 156,
+          "worst": 1060
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 462
+        },
+        {
+          "seed": 92802,
+          "delta": 612
+        },
+        {
+          "seed": 92803,
+          "delta": 762
+        },
+        {
+          "seed": 92804,
+          "delta": 584
+        },
+        {
+          "seed": 92805,
+          "delta": 604
+        },
+        {
+          "seed": 92806,
+          "delta": 508
+        },
+        {
+          "seed": 92807,
+          "delta": 570
+        },
+        {
+          "seed": 92808,
+          "delta": 660
+        },
+        {
+          "seed": 92809,
+          "delta": 114
+        },
+        {
+          "seed": 92810,
+          "delta": 1060
+        },
+        {
+          "seed": 92811,
+          "delta": 1218
+        },
+        {
+          "seed": 92812,
+          "delta": 1212
+        },
+        {
+          "seed": 92813,
+          "delta": 10
+        },
+        {
+          "seed": 92814,
+          "delta": 328
+        },
+        {
+          "seed": 92815,
+          "delta": 228
+        },
+        {
+          "seed": 92816,
+          "delta": 336
+        }
+      ]
+    },
+    {
+      "layout": "separate",
+      "cap": 2,
+      "n": 192,
+      "win30": 144,
+      "win60": 48,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 6144,
+          "correct": 144,
+          "worst": 474
+        },
+        "fixed60": {
+          "regret": 33446,
+          "correct": 48,
+          "worst": 922
+        },
+        "frozen": {
+          "regret": 9532,
+          "correct": 128,
+          "worst": 474
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 34
+        },
+        {
+          "seed": 92802,
+          "delta": 228
+        },
+        {
+          "seed": 92803,
+          "delta": 48
+        },
+        {
+          "seed": 92804,
+          "delta": 164
+        },
+        {
+          "seed": 92805,
+          "delta": 674
+        },
+        {
+          "seed": 92806,
+          "delta": 234
+        },
+        {
+          "seed": 92807,
+          "delta": 610
+        },
+        {
+          "seed": 92808,
+          "delta": 282
+        },
+        {
+          "seed": 92809,
+          "delta": 44
+        },
+        {
+          "seed": 92810,
+          "delta": -304
+        },
+        {
+          "seed": 92811,
+          "delta": 290
+        },
+        {
+          "seed": 92812,
+          "delta": 144
+        },
+        {
+          "seed": 92813,
+          "delta": -74
+        },
+        {
+          "seed": 92814,
+          "delta": 152
+        },
+        {
+          "seed": 92815,
+          "delta": 536
+        },
+        {
+          "seed": 92816,
+          "delta": 326
+        }
+      ]
+    },
+    {
+      "layout": "separate",
+      "cap": 4,
+      "n": 192,
+      "win30": 181,
+      "win60": 11,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 1018,
+          "correct": 181,
+          "worst": 298
+        },
+        "fixed60": {
+          "regret": 50726,
+          "correct": 11,
+          "worst": 752
+        },
+        "frozen": {
+          "regret": 5710,
+          "correct": 159,
+          "worst": 388
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": -132
+        },
+        {
+          "seed": 92802,
+          "delta": 244
+        },
+        {
+          "seed": 92803,
+          "delta": -60
+        },
+        {
+          "seed": 92804,
+          "delta": 342
+        },
+        {
+          "seed": 92805,
+          "delta": 532
+        },
+        {
+          "seed": 92806,
+          "delta": 364
+        },
+        {
+          "seed": 92807,
+          "delta": 450
+        },
+        {
+          "seed": 92808,
+          "delta": 404
+        },
+        {
+          "seed": 92809,
+          "delta": 322
+        },
+        {
+          "seed": 92810,
+          "delta": 246
+        },
+        {
+          "seed": 92811,
+          "delta": 348
+        },
+        {
+          "seed": 92812,
+          "delta": 368
+        },
+        {
+          "seed": 92813,
+          "delta": 372
+        },
+        {
+          "seed": 92814,
+          "delta": -46
+        },
+        {
+          "seed": 92815,
+          "delta": 584
+        },
+        {
+          "seed": 92816,
+          "delta": 354
+        }
+      ]
+    },
+    {
+      "layout": "separate",
+      "cap": 8,
+      "n": 192,
+      "win30": 180,
+      "win60": 12,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 804,
+          "correct": 180,
+          "worst": 148
+        },
+        "fixed60": {
+          "regret": 45838,
+          "correct": 12,
+          "worst": 688
+        },
+        "frozen": {
+          "regret": 4338,
+          "correct": 164,
+          "worst": 304
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 246
+        },
+        {
+          "seed": 92802,
+          "delta": 42
+        },
+        {
+          "seed": 92803,
+          "delta": -86
+        },
+        {
+          "seed": 92804,
+          "delta": 164
+        },
+        {
+          "seed": 92805,
+          "delta": -160
+        },
+        {
+          "seed": 92806,
+          "delta": 110
+        },
+        {
+          "seed": 92807,
+          "delta": 232
+        },
+        {
+          "seed": 92808,
+          "delta": 572
+        },
+        {
+          "seed": 92809,
+          "delta": 496
+        },
+        {
+          "seed": 92810,
+          "delta": 246
+        },
+        {
+          "seed": 92811,
+          "delta": 246
+        },
+        {
+          "seed": 92812,
+          "delta": 224
+        },
+        {
+          "seed": 92813,
+          "delta": 374
+        },
+        {
+          "seed": 92814,
+          "delta": -56
+        },
+        {
+          "seed": 92815,
+          "delta": 540
+        },
+        {
+          "seed": 92816,
+          "delta": 344
+        }
+      ]
+    }
+  ],
+  "byOnsetShare": [
+    {
+      "onset": "green",
+      "share": 0.25,
+      "n": 192,
+      "win30": 177,
+      "win60": 15,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 3082,
+          "correct": 177,
+          "worst": 806
+        },
+        "fixed60": {
+          "regret": 134202,
+          "correct": 15,
+          "worst": 4018
+        },
+        "frozen": {
+          "regret": 3082,
+          "correct": 177,
+          "worst": 806
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 0
+        },
+        {
+          "seed": 92802,
+          "delta": 0
+        },
+        {
+          "seed": 92803,
+          "delta": 0
+        },
+        {
+          "seed": 92804,
+          "delta": 0
+        },
+        {
+          "seed": 92805,
+          "delta": 0
+        },
+        {
+          "seed": 92806,
+          "delta": 0
+        },
+        {
+          "seed": 92807,
+          "delta": 0
+        },
+        {
+          "seed": 92808,
+          "delta": 0
+        },
+        {
+          "seed": 92809,
+          "delta": 0
+        },
+        {
+          "seed": 92810,
+          "delta": 0
+        },
+        {
+          "seed": 92811,
+          "delta": 0
+        },
+        {
+          "seed": 92812,
+          "delta": 0
+        },
+        {
+          "seed": 92813,
+          "delta": 0
+        },
+        {
+          "seed": 92814,
+          "delta": 0
+        },
+        {
+          "seed": 92815,
+          "delta": 0
+        },
+        {
+          "seed": 92816,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "onset": "green",
+      "share": 0.5,
+      "n": 192,
+      "win30": 186,
+      "win60": 6,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 610,
+          "correct": 186,
+          "worst": 190
+        },
+        "fixed60": {
+          "regret": 129464,
+          "correct": 6,
+          "worst": 5178
+        },
+        "frozen": {
+          "regret": 610,
+          "correct": 186,
+          "worst": 190
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 0
+        },
+        {
+          "seed": 92802,
+          "delta": 0
+        },
+        {
+          "seed": 92803,
+          "delta": 0
+        },
+        {
+          "seed": 92804,
+          "delta": 0
+        },
+        {
+          "seed": 92805,
+          "delta": 0
+        },
+        {
+          "seed": 92806,
+          "delta": 0
+        },
+        {
+          "seed": 92807,
+          "delta": 0
+        },
+        {
+          "seed": 92808,
+          "delta": 0
+        },
+        {
+          "seed": 92809,
+          "delta": 0
+        },
+        {
+          "seed": 92810,
+          "delta": 0
+        },
+        {
+          "seed": 92811,
+          "delta": 0
+        },
+        {
+          "seed": 92812,
+          "delta": 0
+        },
+        {
+          "seed": 92813,
+          "delta": 0
+        },
+        {
+          "seed": 92814,
+          "delta": 0
+        },
+        {
+          "seed": 92815,
+          "delta": 0
+        },
+        {
+          "seed": 92816,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "onset": "green",
+      "share": 0.75,
+      "n": 192,
+      "win30": 186,
+      "win60": 6,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 1744,
+          "correct": 186,
+          "worst": 598
+        },
+        "fixed60": {
+          "regret": 151400,
+          "correct": 6,
+          "worst": 3566
+        },
+        "frozen": {
+          "regret": 1744,
+          "correct": 186,
+          "worst": 598
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 0
+        },
+        {
+          "seed": 92802,
+          "delta": 0
+        },
+        {
+          "seed": 92803,
+          "delta": 0
+        },
+        {
+          "seed": 92804,
+          "delta": 0
+        },
+        {
+          "seed": 92805,
+          "delta": 0
+        },
+        {
+          "seed": 92806,
+          "delta": 0
+        },
+        {
+          "seed": 92807,
+          "delta": 0
+        },
+        {
+          "seed": 92808,
+          "delta": 0
+        },
+        {
+          "seed": 92809,
+          "delta": 0
+        },
+        {
+          "seed": 92810,
+          "delta": 0
+        },
+        {
+          "seed": 92811,
+          "delta": 0
+        },
+        {
+          "seed": 92812,
+          "delta": 0
+        },
+        {
+          "seed": 92813,
+          "delta": 0
+        },
+        {
+          "seed": 92814,
+          "delta": 0
+        },
+        {
+          "seed": 92815,
+          "delta": 0
+        },
+        {
+          "seed": 92816,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "onset": "red",
+      "share": 0.25,
+      "n": 192,
+      "win30": 159,
+      "win60": 33,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 14538,
+          "correct": 159,
+          "worst": 1688
+        },
+        "fixed60": {
+          "regret": 81526,
+          "correct": 33,
+          "worst": 4284
+        },
+        "frozen": {
+          "regret": 14538,
+          "correct": 159,
+          "worst": 1688
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 0
+        },
+        {
+          "seed": 92802,
+          "delta": 0
+        },
+        {
+          "seed": 92803,
+          "delta": 0
+        },
+        {
+          "seed": 92804,
+          "delta": 0
+        },
+        {
+          "seed": 92805,
+          "delta": 0
+        },
+        {
+          "seed": 92806,
+          "delta": 0
+        },
+        {
+          "seed": 92807,
+          "delta": 0
+        },
+        {
+          "seed": 92808,
+          "delta": 0
+        },
+        {
+          "seed": 92809,
+          "delta": 0
+        },
+        {
+          "seed": 92810,
+          "delta": 0
+        },
+        {
+          "seed": 92811,
+          "delta": 0
+        },
+        {
+          "seed": 92812,
+          "delta": 0
+        },
+        {
+          "seed": 92813,
+          "delta": 0
+        },
+        {
+          "seed": 92814,
+          "delta": 0
+        },
+        {
+          "seed": 92815,
+          "delta": 0
+        },
+        {
+          "seed": 92816,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "onset": "red",
+      "share": 0.5,
+      "n": 192,
+      "win30": 164,
+      "win60": 28,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 4878,
+          "correct": 164,
+          "worst": 694
+        },
+        "fixed60": {
+          "regret": 105888,
+          "correct": 28,
+          "worst": 4580
+        },
+        "frozen": {
+          "regret": 4878,
+          "correct": 164,
+          "worst": 694
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 0
+        },
+        {
+          "seed": 92802,
+          "delta": 0
+        },
+        {
+          "seed": 92803,
+          "delta": 0
+        },
+        {
+          "seed": 92804,
+          "delta": 0
+        },
+        {
+          "seed": 92805,
+          "delta": 0
+        },
+        {
+          "seed": 92806,
+          "delta": 0
+        },
+        {
+          "seed": 92807,
+          "delta": 0
+        },
+        {
+          "seed": 92808,
+          "delta": 0
+        },
+        {
+          "seed": 92809,
+          "delta": 0
+        },
+        {
+          "seed": 92810,
+          "delta": 0
+        },
+        {
+          "seed": 92811,
+          "delta": 0
+        },
+        {
+          "seed": 92812,
+          "delta": 0
+        },
+        {
+          "seed": 92813,
+          "delta": 0
+        },
+        {
+          "seed": 92814,
+          "delta": 0
+        },
+        {
+          "seed": 92815,
+          "delta": 0
+        },
+        {
+          "seed": 92816,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "onset": "red",
+      "share": 0.75,
+      "n": 192,
+      "win30": 159,
+      "win60": 33,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 4910,
+          "correct": 159,
+          "worst": 700
+        },
+        "fixed60": {
+          "regret": 96440,
+          "correct": 33,
+          "worst": 3606
+        },
+        "frozen": {
+          "regret": 96440,
+          "correct": 33,
+          "worst": 3606
+        }
+      },
+      "beatsBoth": false,
+      "blocks": [
+        {
+          "seed": 92801,
+          "delta": 3624
+        },
+        {
+          "seed": 92802,
+          "delta": 6440
+        },
+        {
+          "seed": 92803,
+          "delta": 6306
+        },
+        {
+          "seed": 92804,
+          "delta": 8008
+        },
+        {
+          "seed": 92805,
+          "delta": 8624
+        },
+        {
+          "seed": 92806,
+          "delta": 7270
+        },
+        {
+          "seed": 92807,
+          "delta": 4796
+        },
+        {
+          "seed": 92808,
+          "delta": 6060
+        },
+        {
+          "seed": 92809,
+          "delta": 5254
+        },
+        {
+          "seed": 92810,
+          "delta": 3484
+        },
+        {
+          "seed": 92811,
+          "delta": 1560
+        },
+        {
+          "seed": 92812,
+          "delta": 8472
+        },
+        {
+          "seed": 92813,
+          "delta": 1538
+        },
+        {
+          "seed": 92814,
+          "delta": 6106
+        },
+        {
+          "seed": 92815,
+          "delta": 8990
+        },
+        {
+          "seed": 92816,
+          "delta": 4998
+        }
+      ]
+    }
+  ],
+  "scope": "All runs cleared; per-tick stock balance, receiver cap, and per-ID sum identity checked. New implementation, not isomorphic T2/SUMO/field evidence."
+}
