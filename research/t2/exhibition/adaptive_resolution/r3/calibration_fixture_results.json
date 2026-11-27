@@ -1,0 +1,57 @@
+{
+  "source_kind": "synthetic",
+  "source_is_declared_not_independently_verified": true,
+  "splits": {
+    "calibration": {
+      "counts": {
+        "total": 5,
+        "correct_unequal": 3,
+        "swap_unequal": 1,
+        "symmetric": 1,
+        "nonswap": 0
+      },
+      "blocks": 3,
+      "informative_valid_unequal": 4,
+      "conditional_swap_fraction": "1/4",
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "swap_only_fit_candidate": "1/4",
+      "swap_only_compatible_observed": true,
+      "confusion": {
+        "(0, 2)->(0, 2)": 2,
+        "(2, 0)->(0, 2)": 1,
+        "(1, 1)->(1, 1)": 1,
+        "(2, 1)->(2, 1)": 1
+      }
+    },
+    "validation": {
+      "counts": {
+        "total": 5,
+        "correct_unequal": 1,
+        "swap_unequal": 1,
+        "missing": 1,
+        "nonswap": 1,
+        "invalid": 1
+      },
+      "blocks": 3,
+      "informative_valid_unequal": 2,
+      "conditional_swap_fraction": "1/2",
+      "wilson_95_descriptive": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "swap_only_fit_candidate": null,
+      "swap_only_compatible_observed": false,
+      "confusion": {
+        "(0, 2)->(0, 2)": 1,
+        "(2, 0)->(0, 2)": 1,
+        "(2, 1)->missing": 1,
+        "(1, 0)->(2, 1)": 1,
+        "(1, 1)->invalid": 1
+      }
+    }
+  },
+  "warning": "Wilson intervals assume independent Bernoulli trials; repeated stages within blocks can be dependent. Conditional swap fractions exclude missing/invalid/non-swap outcomes. No sensor calibration or validation claim from synthetic fixture; validation split never fits."
+}
