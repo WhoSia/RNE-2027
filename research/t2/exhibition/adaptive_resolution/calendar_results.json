@@ -1,0 +1,8066 @@
+[
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "18",
+    "previous_fixed": "18",
+    "best_calendar": {
+      "calendar": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "10",
+          "left": "8",
+          "stage_max": "47/4",
+          "terminal": "3",
+          "credits": "3/2"
+        },
+        "objective": "18",
+        "lower": "18",
+        "gap": "0",
+        "worst_credits": 2,
+        "acquisitions": "3/2",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "18",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "37/4",
+            "left": "19/2",
+            "stage_max": "187/16",
+            "terminal": "7/2",
+            "credits": "0"
+          },
+          "objective": "75/4",
+          "lower": "75/4",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "39/4",
+            "left": "35/4",
+            "stage_max": "185/16",
+            "terminal": "13/4",
+            "credits": "1/2"
+          },
+          "objective": "37/2",
+          "lower": "37/2",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "39/4",
+            "left": "35/4",
+            "stage_max": "185/16",
+            "terminal": "13/4",
+            "credits": "1/2"
+          },
+          "objective": "37/2",
+          "lower": "37/2",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "39/4",
+            "left": "35/4",
+            "stage_max": "185/16",
+            "terminal": "13/4",
+            "credits": "1/2"
+          },
+          "objective": "37/2",
+          "lower": "37/2",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "39/4",
+            "left": "35/4",
+            "stage_max": "185/16",
+            "terminal": "13/4",
+            "credits": "1/2"
+          },
+          "objective": "37/2",
+          "lower": "37/2",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "39/4",
+            "left": "35/4",
+            "stage_max": "185/16",
+            "terminal": "13/4",
+            "credits": "2"
+          },
+          "objective": "37/2",
+          "lower": "37/2",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "19/2",
+            "left": "35/4",
+            "stage_max": "95/8",
+            "terminal": "13/4",
+            "credits": "1"
+          },
+          "objective": "73/4",
+          "lower": "73/4",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "19/2",
+            "left": "35/4",
+            "stage_max": "95/8",
+            "terminal": "13/4",
+            "credits": "1"
+          },
+          "objective": "73/4",
+          "lower": "73/4",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "19/2",
+            "left": "35/4",
+            "stage_max": "95/8",
+            "terminal": "13/4",
+            "credits": "1"
+          },
+          "objective": "73/4",
+          "lower": "73/4",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "19/2",
+            "left": "35/4",
+            "stage_max": "95/8",
+            "terminal": "13/4",
+            "credits": "1"
+          },
+          "objective": "73/4",
+          "lower": "73/4",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "10",
+            "left": "8",
+            "stage_max": "47/4",
+            "terminal": "3",
+            "credits": "3/2"
+          },
+          "objective": "18",
+          "lower": "18",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "10",
+            "left": "8",
+            "stage_max": "47/4",
+            "terminal": "3",
+            "credits": "3/2"
+          },
+          "objective": "18",
+          "lower": "18",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "10",
+            "left": "8",
+            "stage_max": "47/4",
+            "terminal": "3",
+            "credits": "3/2"
+          },
+          "objective": "18",
+          "lower": "18",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "10",
+            "left": "8",
+            "stage_max": "47/4",
+            "terminal": "3",
+            "credits": "3/2"
+          },
+          "objective": "18",
+          "lower": "18",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "10",
+            "left": "8",
+            "stage_max": "47/4",
+            "terminal": "3",
+            "credits": "4"
+          },
+          "objective": "18",
+          "lower": "18",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "73/6",
+    "previous_fixed": "73/6",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "6",
+          "left": "37/6",
+          "stage_max": "95/12",
+          "terminal": "11/6",
+          "credits": "0"
+        },
+        "objective": "73/6",
+        "lower": "73/6",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "73/6",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "8/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "4"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "73/6",
+    "previous_fixed": "73/6",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "6",
+          "left": "37/6",
+          "stage_max": "95/12",
+          "terminal": "11/6",
+          "credits": "0"
+        },
+        "objective": "73/6",
+        "lower": "73/6",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "73/6",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "0"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "2/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "8/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "1"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "5/3"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6",
+            "left": "37/6",
+            "stage_max": "95/12",
+            "terminal": "11/6",
+            "credits": "4"
+          },
+          "objective": "73/6",
+          "lower": "73/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "85/6",
+    "previous_fixed": "85/6",
+    "best_calendar": {
+      "calendar": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "7",
+          "left": "43/6",
+          "stage_max": "233/24",
+          "terminal": "13/6",
+          "credits": "1"
+        },
+        "objective": "85/6",
+        "lower": "85/6",
+        "gap": "0",
+        "worst_credits": 1,
+        "acquisitions": "1",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "85/6",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "0"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "2/3"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "2/3"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "2/3"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "2/3"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "77/12",
+            "left": "8",
+            "stage_max": "463/48",
+            "terminal": "9/4",
+            "credits": "8/3"
+          },
+          "objective": "173/12",
+          "lower": "173/12",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "1"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "1"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "1"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "1"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "5/3"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "5/3"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "5/3"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "7",
+            "left": "43/6",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "5/3"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "20/3",
+            "left": "15/2",
+            "stage_max": "233/24",
+            "terminal": "13/6",
+            "credits": "4"
+          },
+          "objective": "85/6",
+          "lower": "85/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "507/8",
+    "previous_fixed": "507/8",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "161/16",
+          "left": "141/16",
+          "stage_max": "89/8",
+          "terminal": "29/8",
+          "credits": "0"
+        },
+        "objective": "507/8",
+        "lower": "507/8",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "507/8",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "0"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1/2",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "1"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "3/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "3/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "3/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "3/2"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "3/2",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "161/16",
+            "left": "141/16",
+            "stage_max": "89/8",
+            "terminal": "29/8",
+            "credits": "4"
+          },
+          "objective": "507/8",
+          "lower": "507/8",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "257/6",
+    "previous_fixed": "257/6",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "71/12",
+          "left": "79/12",
+          "stage_max": "91/12",
+          "terminal": "2",
+          "credits": "0"
+        },
+        "objective": "257/6",
+        "lower": "257/6",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "257/6",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "8/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "4"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "257/6",
+    "previous_fixed": "257/6",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "71/12",
+          "left": "79/12",
+          "stage_max": "91/12",
+          "terminal": "2",
+          "credits": "0"
+        },
+        "objective": "257/6",
+        "lower": "257/6",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "257/6",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "0"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "2/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "8/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "1"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "5/3"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "71/12",
+            "left": "79/12",
+            "stage_max": "91/12",
+            "terminal": "2",
+            "credits": "4"
+          },
+          "objective": "257/6",
+          "lower": "257/6",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "ideal",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "1259/24",
+    "previous_fixed": "1259/24",
+    "best_calendar": {
+      "calendar": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "117/16",
+          "left": "367/48",
+          "stage_max": "75/8",
+          "terminal": "61/24",
+          "credits": "1"
+        },
+        "objective": "1259/24",
+        "lower": "1259/24",
+        "gap": "0",
+        "worst_credits": 1,
+        "acquisitions": "1",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "1259/24",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "0"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "2/3"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "2/3"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "2/3"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "2/3"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "13/2",
+            "left": "383/48",
+            "stage_max": "229/24",
+            "terminal": "37/16",
+            "credits": "8/3"
+          },
+          "objective": "2527/48",
+          "lower": "2527/48",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "1"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "1"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "1"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "1"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "5/3"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "5/3"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "5/3"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "117/16",
+            "left": "367/48",
+            "stage_max": "75/8",
+            "terminal": "61/24",
+            "credits": "5/3"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "113/16",
+            "left": "371/48",
+            "stage_max": "113/12",
+            "terminal": "59/24",
+            "credits": "4"
+          },
+          "objective": "1259/24",
+          "lower": "1259/24",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "23",
+    "previous_fixed": "23",
+    "best_calendar": {
+      "calendar": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "773/64",
+          "left": "699/64",
+          "stage_max": "7425/512",
+          "terminal": "5",
+          "credits": "13/8"
+        },
+        "objective": "23",
+        "lower": "23",
+        "gap": "0",
+        "worst_credits": 2,
+        "acquisitions": "13/8",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "23",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "0"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "1645/16384"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1645/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "6769/4096"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "6769/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "37/256"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "37/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "4013/16384"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "4013/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "743/64",
+            "left": "735/64",
+            "stage_max": "7237/512",
+            "terminal": "81/16",
+            "credits": "109/64"
+          },
+          "objective": "739/32",
+          "lower": "739/32",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "109/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "381/32",
+            "left": "357/32",
+            "stage_max": "7275/512",
+            "terminal": "161/32",
+            "credits": "5/8"
+          },
+          "objective": "369/16",
+          "lower": "369/16",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "5/8",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "381/32",
+            "left": "357/32",
+            "stage_max": "7275/512",
+            "terminal": "161/32",
+            "credits": "6125/8192"
+          },
+          "objective": "369/16",
+          "lower": "369/16",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "6125/8192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "381/32",
+            "left": "357/32",
+            "stage_max": "7275/512",
+            "terminal": "161/32",
+            "credits": "197/256"
+          },
+          "objective": "369/16",
+          "lower": "369/16",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "197/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "381/32",
+            "left": "357/32",
+            "stage_max": "7275/512",
+            "terminal": "161/32",
+            "credits": "7309/8192"
+          },
+          "objective": "369/16",
+          "lower": "369/16",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "7309/8192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "381/32",
+            "left": "357/32",
+            "stage_max": "7275/512",
+            "terminal": "161/32",
+            "credits": "23/8"
+          },
+          "objective": "369/16",
+          "lower": "369/16",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "23/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "377/32",
+            "left": "45/4",
+            "stage_max": "7387/512",
+            "terminal": "161/32",
+            "credits": "1"
+          },
+          "objective": "737/32",
+          "lower": "737/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "377/32",
+            "left": "45/4",
+            "stage_max": "7387/512",
+            "terminal": "161/32",
+            "credits": "18293/16384"
+          },
+          "objective": "737/32",
+          "lower": "737/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "18293/16384",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "377/32",
+            "left": "45/4",
+            "stage_max": "7387/512",
+            "terminal": "161/32",
+            "credits": "293/256"
+          },
+          "objective": "737/32",
+          "lower": "737/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "293/256",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "377/32",
+            "left": "45/4",
+            "stage_max": "7387/512",
+            "terminal": "161/32",
+            "credits": "20661/16384"
+          },
+          "objective": "737/32",
+          "lower": "737/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "20661/16384",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "773/64",
+            "left": "699/64",
+            "stage_max": "7425/512",
+            "terminal": "5",
+            "credits": "13/8"
+          },
+          "objective": "23",
+          "lower": "23",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "13/8",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "773/64",
+            "left": "699/64",
+            "stage_max": "7425/512",
+            "terminal": "5",
+            "credits": "14449/8192"
+          },
+          "objective": "23",
+          "lower": "23",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "14449/8192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "773/64",
+            "left": "699/64",
+            "stage_max": "7425/512",
+            "terminal": "5",
+            "credits": "453/256"
+          },
+          "objective": "23",
+          "lower": "23",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "453/256",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "773/64",
+            "left": "699/64",
+            "stage_max": "7425/512",
+            "terminal": "5",
+            "credits": "15633/8192"
+          },
+          "objective": "23",
+          "lower": "23",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "15633/8192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "3081/256",
+            "left": "351/32",
+            "stage_max": "14853/1024",
+            "terminal": "1281/256",
+            "credits": "4"
+          },
+          "objective": "5889/256",
+          "lower": "5889/256",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "2987/192",
+    "previous_fixed": "2987/192",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "1463/192",
+          "left": "127/16",
+          "stage_max": "2553/256",
+          "terminal": "205/64",
+          "credits": "0"
+        },
+        "objective": "2987/192",
+        "lower": "2987/192",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "2987/192",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "0"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "1057/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1057/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "71/64"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "71/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "25/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "25/192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "619/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "619/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "11/8"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "17/24"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "17/24",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "1803/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "1803/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "161/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "161/192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "6209/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "6209/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "3"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "1"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "7201/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "7201/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "217/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "217/192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "2667/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "2667/2048",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "41/24"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "41/24",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "3851/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "3851/2048",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "353/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "353/192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "12353/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "12353/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1463/192",
+            "left": "127/16",
+            "stage_max": "2553/256",
+            "terminal": "205/64",
+            "credits": "4"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "2987/192",
+    "previous_fixed": "2987/192",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "169/24",
+          "left": "545/64",
+          "stage_max": "7639/768",
+          "terminal": "205/64",
+          "credits": "0"
+        },
+        "objective": "2987/192",
+        "lower": "2987/192",
+        "gap": "0",
+        "worst_credits": 0,
+        "acquisitions": "0",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "2987/192",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "0"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "359/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "359/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "71/64"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "71/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "25/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "25/192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "1877/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "1877/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "11/8"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "17/24"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "17/24",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "5429/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5429/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "161/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "161/192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "6229/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "6229/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "3"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "1"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "2407/2048"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "2407/2048",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "217/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "217/192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "8021/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "8021/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "41/24"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "41/24",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "11573/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "11573/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "353/192"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "353/192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "12373/6144"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "12373/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "169/24",
+            "left": "545/64",
+            "stage_max": "7639/768",
+            "terminal": "205/64",
+            "credits": "4"
+          },
+          "objective": "2987/192",
+          "lower": "2987/192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact": "817/48",
+    "previous_fixed": "817/48",
+    "best_calendar": {
+      "calendar": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "191/24",
+          "left": "145/16",
+          "stage_max": "2149/192",
+          "terminal": "169/48",
+          "credits": "1"
+        },
+        "objective": "817/48",
+        "lower": "817/48",
+        "gap": "0",
+        "worst_credits": 1,
+        "acquisitions": "1",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "817/48",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "0"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "449/3072"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "449/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "39/32"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "39/128",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "5/48"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "5/48",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "769/3072"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "769/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "11/8"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "2/3"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "2497/3072"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "2497/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "37/48"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "37/48",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "939/1024"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "939/1024",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "59/8",
+            "left": "311/32",
+            "stage_max": "4259/384",
+            "terminal": "341/96",
+            "credits": "3"
+          },
+          "objective": "547/32",
+          "lower": "547/32",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "1"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "37/32"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "37/32",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "53/48"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "53/48",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "121/96"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "121/96",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "5/3"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "175/96"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "175/96",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "85/48"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "85/48",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "191/24",
+            "left": "145/16",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "185/96"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "185/96",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "123/16",
+            "left": "28/3",
+            "stage_max": "2149/192",
+            "terminal": "169/48",
+            "credits": "4"
+          },
+          "objective": "817/48",
+          "lower": "817/48",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      2
+    ],
+    "word": "0001",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "2523243/32768",
+    "previous_fixed": "2534549/32768",
+    "best_calendar": {
+      "calendar": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "report": {
+        "vector": {
+          "straight": "25249/2048",
+          "left": "89197/8192",
+          "stage_max": "110545/8192",
+          "terminal": "42113/8192",
+          "credits": "23/8"
+        },
+        "objective": "632373/8192",
+        "lower": "632373/8192",
+        "gap": "0",
+        "worst_credits": 4,
+        "acquisitions": "23/32",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "632373/8192",
+    "residual_gain": "6249/32768",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "199785/16384",
+            "left": "361401/32768",
+            "stage_max": "443617/32768",
+            "terminal": "168667/32768",
+            "credits": "0"
+          },
+          "objective": "2535439/32768",
+          "lower": "2535439/32768",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "199735/16384",
+            "left": "361477/32768",
+            "stage_max": "443513/32768",
+            "terminal": "168643/32768",
+            "credits": "2077/16384"
+          },
+          "objective": "2534999/32768",
+          "lower": "2534999/32768",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2077/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "12493/1024",
+            "left": "90325/8192",
+            "stage_max": "55299/4096",
+            "terminal": "42193/8192",
+            "credits": "6685/4096"
+          },
+          "objective": "632661/8192",
+          "lower": "632661/8192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "6685/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "399303/32768",
+            "left": "90405/8192",
+            "stage_max": "55451/4096",
+            "terminal": "168619/32768",
+            "credits": "37/256"
+          },
+          "objective": "2535355/32768",
+          "lower": "2535355/32768",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "37/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "399203/32768",
+            "left": "11303/1024",
+            "stage_max": "27719/2048",
+            "terminal": "168595/32768",
+            "credits": "4445/16384"
+          },
+          "objective": "2534915/32768",
+          "lower": "2534915/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "4445/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "99823/8192",
+            "left": "45281/4096",
+            "stage_max": "55281/4096",
+            "terminal": "42241/8192",
+            "credits": "109/64"
+          },
+          "objective": "632633/8192",
+          "lower": "632633/8192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "109/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1569/128",
+            "left": "359151/32768",
+            "stage_max": "443569/32768",
+            "terminal": "168511/32768",
+            "credits": "5/8"
+          },
+          "objective": "2535091/32768",
+          "lower": "2535091/32768",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "5/8",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "200773/16384",
+            "left": "359227/32768",
+            "stage_max": "443465/32768",
+            "terminal": "168469/32768",
+            "credits": "12413/16384"
+          },
+          "objective": "2534633/32768",
+          "lower": "2534633/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "12413/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "401397/32768",
+            "left": "179685/16384",
+            "stage_max": "55445/4096",
+            "terminal": "168463/32768",
+            "credits": "197/256"
+          },
+          "objective": "2535007/32768",
+          "lower": "2535007/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "197/256",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "401279/32768",
+            "left": "179723/16384",
+            "stage_max": "6929/512",
+            "terminal": "168421/32768",
+            "credits": "14781/16384"
+          },
+          "objective": "2534549/32768",
+          "lower": "2534549/32768",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "14781/16384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "25249/2048",
+            "left": "89197/8192",
+            "stage_max": "110545/8192",
+            "terminal": "42113/8192",
+            "credits": "23/8"
+          },
+          "objective": "632373/8192",
+          "lower": "632373/8192",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "23/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "199785/16384",
+            "left": "361401/32768",
+            "stage_max": "443617/32768",
+            "terminal": "168667/32768",
+            "credits": "1"
+          },
+          "objective": "2535439/32768",
+          "lower": "2535439/32768",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "199735/16384",
+            "left": "361477/32768",
+            "stage_max": "443513/32768",
+            "terminal": "168643/32768",
+            "credits": "4613/4096"
+          },
+          "objective": "2534999/32768",
+          "lower": "2534999/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "4613/4096",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "399303/32768",
+            "left": "90405/8192",
+            "stage_max": "55451/4096",
+            "terminal": "168619/32768",
+            "credits": "293/256"
+          },
+          "objective": "2535355/32768",
+          "lower": "2535355/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "293/256",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "399203/32768",
+            "left": "11303/1024",
+            "stage_max": "27719/2048",
+            "terminal": "168595/32768",
+            "credits": "5205/4096"
+          },
+          "objective": "2534915/32768",
+          "lower": "2534915/32768",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "5205/4096",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "1569/128",
+            "left": "359151/32768",
+            "stage_max": "443569/32768",
+            "terminal": "168511/32768",
+            "credits": "13/8"
+          },
+          "objective": "2535091/32768",
+          "lower": "2535091/32768",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "13/8",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "200773/16384",
+            "left": "359227/32768",
+            "stage_max": "443465/32768",
+            "terminal": "168469/32768",
+            "credits": "7197/4096"
+          },
+          "objective": "2534633/32768",
+          "lower": "2534633/32768",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "7197/4096",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "401397/32768",
+            "left": "179685/16384",
+            "stage_max": "55445/4096",
+            "terminal": "168463/32768",
+            "credits": "453/256"
+          },
+          "objective": "2535007/32768",
+          "lower": "2535007/32768",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "453/256",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "401279/32768",
+            "left": "179723/16384",
+            "stage_max": "6929/512",
+            "terminal": "168421/32768",
+            "credits": "7789/4096"
+          },
+          "objective": "2534549/32768",
+          "lower": "2534549/32768",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "7789/4096",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "100401/8192",
+            "left": "359163/32768",
+            "stage_max": "443569/32768",
+            "terminal": "168463/32768",
+            "credits": "4"
+          },
+          "objective": "2535043/32768",
+          "lower": "2535043/32768",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      2,
+      0
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "869235/16384",
+    "previous_fixed": "20501/384",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "report": {
+        "vector": {
+          "straight": "24307/3072",
+          "left": "8087/1024",
+          "stage_max": "2405/256",
+          "terminal": "5099/1536",
+          "credits": "1111/3072"
+        },
+        "objective": "20501/384",
+        "lower": "20501/384",
+        "gap": "0",
+        "worst_credits": 2,
+        "acquisitions": "1111/3072",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "20501/384",
+    "residual_gain": "16423/49152",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32221/4096",
+            "left": "48625/6144",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "0"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "16251/2048",
+            "left": "96407/12288",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "443/2048"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "443/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "6083/768",
+            "left": "24155/3072",
+            "stage_max": "28885/3072",
+            "terminal": "10181/3072",
+            "credits": "559/512"
+          },
+          "objective": "164027/3072",
+          "lower": "164027/3072",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "559/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "192739/24576",
+            "left": "195805/24576",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "55/384"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "55/384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "24307/3072",
+            "left": "8087/1024",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "1111/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "1111/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "8011/1024",
+            "left": "49385/6144",
+            "stage_max": "901/96",
+            "terminal": "20555/6144",
+            "credits": "11/8"
+          },
+          "objective": "109369/2048",
+          "lower": "109369/2048",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32221/4096",
+            "left": "48625/6144",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "17/24"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "17/24",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "16251/2048",
+            "left": "96407/12288",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "5681/6144"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5681/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "192739/24576",
+            "left": "195805/24576",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "109/128"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "109/128",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "24307/3072",
+            "left": "8087/1024",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "3287/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "3287/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "48539/6144",
+            "left": "6077/768",
+            "stage_max": "451/48",
+            "terminal": "6809/2048",
+            "credits": "3"
+          },
+          "objective": "328067/6144",
+          "lower": "328067/6144",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32221/4096",
+            "left": "48625/6144",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "1"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "16251/2048",
+            "left": "96407/12288",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "2491/2048"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "2491/2048",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "192739/24576",
+            "left": "195805/24576",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "439/384"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "439/384",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "24307/3072",
+            "left": "8087/1024",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "4183/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "4183/3072",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32221/4096",
+            "left": "48625/6144",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "41/24"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "41/24",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "16251/2048",
+            "left": "96407/12288",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "11825/6144"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "11825/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "192739/24576",
+            "left": "195805/24576",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "237/128"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "237/128",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "24307/3072",
+            "left": "8087/1024",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "6359/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "6359/3072",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32221/4096",
+            "left": "48625/6144",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "4"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      0,
+      2
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "869235/16384",
+    "previous_fixed": "20501/384",
+    "best_calendar": {
+      "calendar": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "report": {
+        "vector": {
+          "straight": "62287/8192",
+          "left": "201683/24576",
+          "stage_max": "2405/256",
+          "terminal": "5099/1536",
+          "credits": "1111/3072"
+        },
+        "objective": "20501/384",
+        "lower": "20501/384",
+        "gap": "0",
+        "worst_credits": 2,
+        "acquisitions": "1111/3072",
+        "mode": 0
+      }
+    },
+    "combined_baseline": "20501/384",
+    "residual_gain": "16423/49152",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "183835/24576",
+            "left": "67997/8192",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "0"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "185467/24576",
+            "left": "67453/8192",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "443/2048"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "443/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "46313/6144",
+            "left": "16887/2048",
+            "stage_max": "28885/3072",
+            "terminal": "10181/3072",
+            "credits": "559/512"
+          },
+          "objective": "164027/3072",
+          "lower": "164027/3072",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "559/2048",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "92599/12288",
+            "left": "33891/4096",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "55/384"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "55/384",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "62287/8192",
+            "left": "201683/24576",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "1111/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "1111/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "23197/3072",
+            "left": "17019/2048",
+            "stage_max": "901/96",
+            "terminal": "20555/6144",
+            "credits": "11/8"
+          },
+          "objective": "109369/2048",
+          "lower": "109369/2048",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "183835/24576",
+            "left": "67997/8192",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "17/24"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "17/24",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "185467/24576",
+            "left": "67453/8192",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "5681/6144"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5681/6144",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "92599/12288",
+            "left": "33891/4096",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "109/128"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "109/128",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "62287/8192",
+            "left": "201683/24576",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "3287/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "3287/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "7747/1024",
+            "left": "16891/2048",
+            "stage_max": "451/48",
+            "terminal": "6809/2048",
+            "credits": "3"
+          },
+          "objective": "328067/6144",
+          "lower": "328067/6144",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "183835/24576",
+            "left": "67997/8192",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "1"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "185467/24576",
+            "left": "67453/8192",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "2491/2048"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "2491/2048",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "92599/12288",
+            "left": "33891/4096",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "439/384"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "439/384",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "62287/8192",
+            "left": "201683/24576",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "4183/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "4183/3072",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "183835/24576",
+            "left": "67997/8192",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "41/24"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "41/24",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "185467/24576",
+            "left": "67453/8192",
+            "stage_max": "57805/6144",
+            "terminal": "13563/4096",
+            "credits": "11825/6144"
+          },
+          "objective": "656353/12288",
+          "lower": "656353/12288",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "11825/6144",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "92599/12288",
+            "left": "33891/4096",
+            "stage_max": "464251/49152",
+            "terminal": "5099/1536",
+            "credits": "237/128"
+          },
+          "objective": "658523/12288",
+          "lower": "658523/12288",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "237/128",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "62287/8192",
+            "left": "201683/24576",
+            "stage_max": "2405/256",
+            "terminal": "5099/1536",
+            "credits": "6359/3072"
+          },
+          "objective": "20501/384",
+          "lower": "20501/384",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "6359/3072",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "183835/24576",
+            "left": "67997/8192",
+            "stage_max": "58109/6144",
+            "terminal": "13563/4096",
+            "credits": "4"
+          },
+          "objective": "219595/4096",
+          "lower": "219595/4096",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  },
+  {
+    "law": "broad",
+    "q": [
+      1,
+      1
+    ],
+    "word": "0011",
+    "weights": [
+      1,
+      1,
+      4,
+      0,
+      0
+    ],
+    "exact": "91159/1536",
+    "previous_fixed": "91159/1536",
+    "best_calendar": {
+      "calendar": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "report": {
+        "vector": {
+          "straight": "104173/12288",
+          "left": "108427/12288",
+          "stage_max": "2691/256",
+          "terminal": "5627/1536",
+          "credits": "83/64"
+        },
+        "objective": "91159/1536",
+        "lower": "91159/1536",
+        "gap": "0",
+        "worst_credits": 3,
+        "acquisitions": "83/64",
+        "mode": 1
+      }
+    },
+    "combined_baseline": "91159/1536",
+    "residual_gain": "0",
+    "rows": [
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32777/4096",
+            "left": "38045/4096",
+            "stage_max": "32653/3072",
+            "terminal": "22385/6144",
+            "credits": "0"
+          },
+          "objective": "367457/6144",
+          "lower": "367457/6144",
+          "gap": "0",
+          "worst_credits": 0,
+          "acquisitions": "0",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "98843/12288",
+            "left": "113623/12288",
+            "stage_max": "10847/1024",
+            "terminal": "22385/6144",
+            "credits": "593/3072"
+          },
+          "objective": "122187/2048",
+          "lower": "122187/2048",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "593/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "report": {
+          "vector": {
+            "straight": "8219/1024",
+            "left": "28477/3072",
+            "stage_max": "16253/1536",
+            "terminal": "5605/1536",
+            "credits": "303/256"
+          },
+          "objective": "91579/1536",
+          "lower": "91579/1536",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "303/1024",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "49847/6144",
+            "left": "18915/2048",
+            "stage_max": "260603/24576",
+            "terminal": "937/256",
+            "credits": "25/192"
+          },
+          "objective": "367195/6144",
+          "lower": "367195/6144",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "25/192",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "100237/12288",
+            "left": "37649/4096",
+            "stage_max": "4057/384",
+            "terminal": "937/256",
+            "credits": "503/1536"
+          },
+          "objective": "3815/64",
+          "lower": "3815/64",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "503/1536",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "12497/1536",
+            "left": "28361/3072",
+            "stage_max": "2029/192",
+            "terminal": "11275/3072",
+            "credits": "11/8"
+          },
+          "objective": "183211/3072",
+          "lower": "183211/3072",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "11/32",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "32777/4096",
+            "left": "38045/4096",
+            "stage_max": "32653/3072",
+            "terminal": "22385/6144",
+            "credits": "2/3"
+          },
+          "objective": "367457/6144",
+          "lower": "367457/6144",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "2/3",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "98843/12288",
+            "left": "113623/12288",
+            "stage_max": "10847/1024",
+            "terminal": "22385/6144",
+            "credits": "2641/3072"
+          },
+          "objective": "122187/2048",
+          "lower": "122187/2048",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "2641/3072",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "49847/6144",
+            "left": "18915/2048",
+            "stage_max": "260603/24576",
+            "terminal": "937/256",
+            "credits": "51/64"
+          },
+          "objective": "367195/6144",
+          "lower": "367195/6144",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "51/64",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "100237/12288",
+            "left": "37649/4096",
+            "stage_max": "4057/384",
+            "terminal": "937/256",
+            "credits": "509/512"
+          },
+          "objective": "3815/64",
+          "lower": "3815/64",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "509/512",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "6203/768",
+            "left": "9469/1024",
+            "stage_max": "339/32",
+            "terminal": "11227/3072",
+            "credits": "3"
+          },
+          "objective": "183395/3072",
+          "lower": "183395/3072",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "3/4",
+          "mode": 0
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "103405/12288",
+            "left": "109195/12288",
+            "stage_max": "32431/3072",
+            "terminal": "5627/1536",
+            "credits": "1"
+          },
+          "objective": "30479/512",
+          "lower": "30479/512",
+          "gap": "0",
+          "worst_credits": 1,
+          "acquisitions": "1",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "103927/12288",
+            "left": "108673/12288",
+            "stage_max": "16163/1536",
+            "terminal": "5627/1536",
+            "credits": "913/768"
+          },
+          "objective": "30409/512",
+          "lower": "30409/512",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "913/768",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "103633/12288",
+            "left": "108967/12288",
+            "stage_max": "64799/6144",
+            "terminal": "5627/1536",
+            "credits": "53/48"
+          },
+          "objective": "15229/256",
+          "lower": "15229/256",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "53/48",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "104173/12288",
+            "left": "108427/12288",
+            "stage_max": "2691/256",
+            "terminal": "5627/1536",
+            "credits": "83/64"
+          },
+          "objective": "91159/1536",
+          "lower": "91159/1536",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "83/64",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "103405/12288",
+            "left": "109195/12288",
+            "stage_max": "32431/3072",
+            "terminal": "5627/1536",
+            "credits": "5/3"
+          },
+          "objective": "30479/512",
+          "lower": "30479/512",
+          "gap": "0",
+          "worst_credits": 2,
+          "acquisitions": "5/3",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "103927/12288",
+            "left": "108673/12288",
+            "stage_max": "16163/1536",
+            "terminal": "5627/1536",
+            "credits": "475/256"
+          },
+          "objective": "30409/512",
+          "lower": "30409/512",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "475/256",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "103633/12288",
+            "left": "108967/12288",
+            "stage_max": "64799/6144",
+            "terminal": "5627/1536",
+            "credits": "85/48"
+          },
+          "objective": "15229/256",
+          "lower": "15229/256",
+          "gap": "0",
+          "worst_credits": 3,
+          "acquisitions": "85/48",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "report": {
+          "vector": {
+            "straight": "104173/12288",
+            "left": "108427/12288",
+            "stage_max": "2691/256",
+            "terminal": "5627/1536",
+            "credits": "377/192"
+          },
+          "objective": "91159/1536",
+          "lower": "91159/1536",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "377/192",
+          "mode": 1
+        }
+      },
+      {
+        "calendar": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "report": {
+          "vector": {
+            "straight": "33807/4096",
+            "left": "111179/12288",
+            "stage_max": "32431/3072",
+            "terminal": "5627/1536",
+            "credits": "4"
+          },
+          "objective": "30479/512",
+          "lower": "30479/512",
+          "gap": "0",
+          "worst_credits": 4,
+          "acquisitions": "1",
+          "mode": 2
+        }
+      }
+    ]
+  }
+]
