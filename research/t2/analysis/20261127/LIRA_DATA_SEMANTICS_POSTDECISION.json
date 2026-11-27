@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-27",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "axes": {
+    "L": "core research leverage",
+    "I": "discriminating information gain",
+    "R": "rigor/reproducibility",
+    "A": "actionability now",
+    "J": "exhibition relevance",
+    "E": "independent evidence potential",
+    "V": "validity/ability to falsify",
+    "C": "cost efficiency"
+  },
+  "scenarios": 17,
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "completed": [
+    {
+      "id": "DATA-JINJU-SEMANTICS",
+      "decision": "BLOCKED_EXTERNAL",
+      "outcome": "Public fields insufficient; draft provider questions."
+    },
+    {
+      "id": "DLR-SCHEMA-REFINE",
+      "priorPriority": 0.92,
+      "decision": "COMPLETE",
+      "outcome": "Publisher p20 interpretation and 652136 checks; 4 new tests, 7 existing."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SATHORN-INTAKE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.85,
+        "A": 0.8,
+        "J": 0.95,
+        "E": 0.95,
+        "V": 0.9,
+        "C": 0.8
+      },
+      "priority": 0.9075000000000001,
+      "range": [
+        0.9048780487804879,
+        0.9102564102564102
+      ],
+      "why": "Check publisher repository, legal aggregate file subset and co-located overlapping 2016 loop/thermal data. 2014 manual labels separate."
+    },
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent teacher-approved token measurement remains necessary."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195123,
+        0.8756410256410256
+      ],
+      "why": "Independent student reproduction."
+    },
+    {
+      "id": "JINJU-PROVIDER",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.9,
+        "V": 0.95,
+        "C": 0.75
+      },
+      "priority": 0.8399999999999999,
+      "range": [
+        0.8256097560975612,
+        0.8551282051282051
+      ],
+      "why": "Questions drafted; actual provider response needed, no sending."
+    },
+    {
+      "id": "ZURICH-INTAKE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.75,
+        "J": 0.8,
+        "E": 0.85,
+        "V": 0.85,
+        "C": 0.8
+      },
+      "priority": 0.8325,
+      "range": [
+        0.8304878048780491,
+        0.8346153846153848
+      ],
+      "why": "Archived signal and loop occupancy, independent site but no queue truth."
+    },
+    {
+      "id": "RND-ROBUST",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.8,
+        "I": 0.8,
+        "R": 0.85,
+        "A": 0.85,
+        "J": 0.75,
+        "E": 0.45,
+        "V": 0.85,
+        "C": 0.65
+      },
+      "priority": 0.7700000000000001,
+      "range": [
+        0.7621951219512197,
+        0.7782051282051282
+      ],
+      "why": "Still no calibrated channel."
+    },
+    {
+      "id": "RUST-PORT",
+      "gate": "TOOLCHAIN",
+      "ratings": {
+        "L": 0.55,
+        "I": 0.5,
+        "R": 0.85,
+        "A": 0.2,
+        "J": 0.5,
+        "E": 0.3,
+        "V": 0.8,
+        "C": 0.5
+      },
+      "priority": 0.5425000000000001,
+      "range": [
+        0.5305194805194806,
+        0.5536144578313253
+      ],
+      "why": "No verified toolchain, optional Python optimization."
+    },
+    {
+      "id": "DLR-SCHEMA-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.35,
+        "I": 0.25,
+        "R": 0.7,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.55,
+        "C": 0.6
+      },
+      "priority": 0.46499999999999997,
+      "range": [
+        0.4525641025641026,
+        0.47682926829268296
+      ],
+      "why": "Semantics resolved and adapter tested; no more same-window checks without new question."
+    }
+  ],
+  "claimWarrant": [
+    {
+      "claim": "Publisher-defined sparse route interpretation for exact v1.3.1 files",
+      "score": 0.97
+    },
+    {
+      "claim": "Recorded crossing totals preserved in six audited windows",
+      "score": 0.99
+    },
+    {
+      "claim": "True absence of traffic for omitted route or time",
+      "score": 0.05
+    },
+    {
+      "claim": "Jinju time-series and snapshot meaning",
+      "score": 0.12
+    },
+    {
+      "claim": "Real-world optimization benefit",
+      "score": 0.1
+    },
+    {
+      "claim": "Sathorn actual usable simultaneous aggregate files in local custody",
+      "score": 0
+    }
+  ],
+  "selection": "SATHORN-INTAKE highest READY; stop repetitive DLR checks, no bulk download without source/license/overlap gate. Preserve teacher/student gates."
+}
