@@ -1,0 +1,29 @@
+test_availability (test_data_contract.TestContract.test_availability) ... ok
+test_distinguish (test_data_contract.TestContract.test_distinguish) ... ok
+test_empty_window (test_data_contract.TestContract.test_empty_window) ... ok
+test_incomplete_decision (test_data_contract.TestContract.test_incomplete_decision) ... ok
+test_invalid (test_data_contract.TestContract.test_invalid) ... ok
+test_malformed (test_fast_predict.TestFastPredict.test_malformed) ... ERROR
+test_models (test_fast_predict.TestFastPredict.test_models) ... ok
+
+======================================================================
+ERROR: test_malformed (test_fast_predict.TestFastPredict.test_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/rne_adaptive_resolution/r4/test_fast_predict.py", line 18, in test_malformed
+    with self.assertRaises(ValueError):model.predict(bad,0)
+                                       ~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/data/rne_adaptive_resolution/r3/receiving.py", line 67, in _predict
+    return tuple(F(z,den) for z in v),tuple((p,bb) for _,p,bb in self.partition(norm(c.items()),0))
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/rne_adaptive_resolution/r3/receiving.py", line 67, in <genexpr>
+    return tuple(F(z,den) for z in v),tuple((p,bb) for _,p,bb in self.partition(norm(c.items()),0))
+                 ~^^^^^^^
+  File "/usr/lib/python3.13/fractions.py", line 298, in __new__
+    raise ZeroDivisionError('Fraction(%s, 0)' % numerator)
+ZeroDivisionError: Fraction(0, 0)
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+FAILED (errors=1)
