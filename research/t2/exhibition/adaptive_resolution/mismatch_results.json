@@ -1,0 +1,450 @@
+[
+  {
+    "nominal": "ideal",
+    "actual": "ideal",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "ideal",
+    "actual": "ideal",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "ideal",
+    "actual": "service",
+    "depth": 2,
+    "complete_probability": "1/8",
+    "abort_probability": "7/8",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/2"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/8"
+      }
+    ],
+    "conditional_complete_cost": "2371/128",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 128
+  },
+  {
+    "nominal": "ideal",
+    "actual": "service",
+    "depth": 4,
+    "complete_probability": "1/8",
+    "abort_probability": "7/8",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/2"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/8"
+      }
+    ],
+    "conditional_complete_cost": "2371/128",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 128
+  },
+  {
+    "nominal": "ideal",
+    "actual": "broad",
+    "depth": 2,
+    "complete_probability": "27/512",
+    "abort_probability": "485/512",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "5/8"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "15/64"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "45/512"
+      }
+    ],
+    "conditional_complete_cost": "2371/128",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 128
+  },
+  {
+    "nominal": "ideal",
+    "actual": "broad",
+    "depth": 4,
+    "complete_probability": "27/512",
+    "abort_probability": "485/512",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "5/8"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "15/64"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "45/512"
+      }
+    ],
+    "conditional_complete_cost": "2371/128",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 128
+  },
+  {
+    "nominal": "ideal",
+    "actual": "erasure",
+    "depth": 2,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": null,
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "ideal",
+    "actual": "erasure",
+    "depth": 4,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": null,
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "service",
+    "actual": "ideal",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "service",
+    "actual": "ideal",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "service",
+    "actual": "service",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "service",
+    "actual": "service",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "service",
+    "actual": "broad",
+    "depth": 2,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "service",
+    "actual": "broad",
+    "depth": 4,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": null,
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "service",
+    "actual": "erasure",
+    "depth": 2,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": null,
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "service",
+    "actual": "erasure",
+    "depth": 4,
+    "complete_probability": "27/64",
+    "abort_probability": "37/64",
+    "abort_by_stage": [
+      {
+        "stage": 1,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "1/4"
+      },
+      {
+        "stage": 2,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "3/16"
+      },
+      {
+        "stage": 3,
+        "reason": "OUT_OF_SUPPORT: free observation",
+        "mass": "9/64"
+      }
+    ],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": null,
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "broad",
+    "actual": "ideal",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "broad",
+    "actual": "ideal",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 64
+  },
+  {
+    "nominal": "broad",
+    "actual": "service",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "broad",
+    "actual": "service",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 1024
+  },
+  {
+    "nominal": "broad",
+    "actual": "broad",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 8192
+  },
+  {
+    "nominal": "broad",
+    "actual": "broad",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "11789/512",
+    "true_exact": "11789/512",
+    "unconditional_regret": "0",
+    "completed_leaves": 8192
+  },
+  {
+    "nominal": "broad",
+    "actual": "erasure",
+    "depth": 2,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 512
+  },
+  {
+    "nominal": "broad",
+    "actual": "erasure",
+    "depth": 4,
+    "complete_probability": "1",
+    "abort_probability": "0",
+    "abort_by_stage": [],
+    "conditional_complete_cost": "2307/128",
+    "true_exact": "2307/128",
+    "unconditional_regret": "0",
+    "completed_leaves": 512
+  }
+]
