@@ -1,0 +1,23 @@
+{
+  "method": "independent pandas vectorized aggregate, same publisher and raw file, no independent sensor",
+  "pandas": "2.2.3",
+  "checks": {
+    "raw_digest": true,
+    "rows": true,
+    "site_count": true,
+    "duplicate_rows": true,
+    "duplicate_key": true,
+    "declared_slots": true,
+    "unused_slots": true,
+    "vectors": true,
+    "unused_empty": true,
+    "diff_hist": true,
+    "all_sums": true,
+    "duration_bounds": true,
+    "zero_duration": true,
+    "date_count": true,
+    "lane_count_variation": true
+  },
+  "passed": 15,
+  "total": 15
+}
