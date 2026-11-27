@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-27",
+  "parent": "b0aecc6da5f59ade4758c9aa2a9618993a21e1f2",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "axes": {
+    "L": "core research leverage",
+    "I": "discriminating information gain",
+    "R": "rigor/reproducibility",
+    "A": "actionability now",
+    "J": "exhibition relevance",
+    "E": "independent evidence potential",
+    "V": "validity/ability to falsify",
+    "C": "cost efficiency"
+  },
+  "scenarios": 17,
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "evidence": "Jinju official page and provincial mirror confirm field order only; alternate catalog 15152872 direct fetch fails. DLR v1.3.1 exact original PDF retrieved from held Drive; p20 rendered and inspected; SHA256 94fd9ebd32d04a9c35b02be526fbd11a8d5a613933d7961fde800386853b34f3. Publisher omits undetected routes, rows only for seconds with trajectory data. Zenodo PDF fetch 429; local original available.",
+  "tasks": [
+    {
+      "id": "DLR-SCHEMA-REFINE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.95,
+        "J": 0.9,
+        "E": 0.7,
+        "V": 0.95,
+        "C": 0.95
+      },
+      "priority": 0.9199999999999998,
+      "range": [
+        0.9146341463414633,
+        0.9256410256410257
+      ],
+      "why": "Exact v1.3.1 documentation p20 confirms route omission and timestamp condition; implement source-specific recorded-count semantics."
+    },
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent reference still missing."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195123,
+        0.8756410256410256
+      ],
+      "why": "Student replay."
+    },
+    {
+      "id": "JINJU-PROVIDER",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.9,
+        "V": 0.95,
+        "C": 0.75
+      },
+      "priority": 0.8399999999999999,
+      "range": [
+        0.8256097560975612,
+        0.8551282051282051
+      ],
+      "why": "Official schema has no remaining/waiting timing or uniqueness definitions; draft questions; no actual outreach."
+    },
+    {
+      "id": "DATA-EXTERNAL",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.5,
+        "J": 0.9,
+        "E": 0.9,
+        "V": 0.85,
+        "C": 0.6
+      },
+      "priority": 0.8125,
+      "range": [
+        0.8048780487804881,
+        0.8205128205128206
+      ],
+      "why": "Independent aggregate comparison source needed."
+    },
+    {
+      "id": "RND-ROBUST",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.8,
+        "I": 0.8,
+        "R": 0.85,
+        "A": 0.85,
+        "J": 0.75,
+        "E": 0.45,
+        "V": 0.85,
+        "C": 0.65
+      },
+      "priority": 0.7700000000000001,
+      "range": [
+        0.7621951219512197,
+        0.7782051282051282
+      ],
+      "why": "No independent channel evidence."
+    },
+    {
+      "id": "RUST-PORT",
+      "gate": "TOOLCHAIN",
+      "ratings": {
+        "L": 0.55,
+        "I": 0.5,
+        "R": 0.85,
+        "A": 0.2,
+        "J": 0.5,
+        "E": 0.3,
+        "V": 0.8,
+        "C": 0.5
+      },
+      "priority": 0.5425000000000001,
+      "range": [
+        0.5305194805194806,
+        0.5536144578313253
+      ],
+      "why": "Unverified Rust toolchain."
+    },
+    {
+      "id": "JINJU-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.7,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.5,
+        "C": 0.5
+      },
+      "priority": 0.4350000000000001,
+      "range": [
+        0.42179487179487185,
+        0.4475609756097561
+      ],
+      "why": "Repeated counting cannot establish semantics."
+    }
+  ],
+  "selection": "DLR-SCHEMA-REFINE now; retain Jinju unknowns, draft provider questions without sending."
+}
