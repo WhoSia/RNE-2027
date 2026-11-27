@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-27",
+  "parent": "c549c24ed26455ec6306907111cb41278e3bc7f7",
+  "basis": "R&D rubric, editorial not award probability",
+  "weights": [
+    0.25,
+    0.25,
+    0.2,
+    0.15,
+    0.15
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        1
+      ],
+      "score": 0.9249999999999999,
+      "range": [
+        0.9096385542168676,
+        0.9415584415584415
+      ],
+      "why": "Teacher-approved independent tabletop measurement; preserve truth vs observations and blind blocks."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.75,
+        1
+      ],
+      "score": 0.9125,
+      "range": [
+        0.9047619047619047,
+        0.9210526315789473
+      ],
+      "why": "Student independently explain and reproduce measured/abstract contrast."
+    },
+    {
+      "id": "DATA-CONTRACT",
+      "gate": "READY",
+      "rating": [
+        1,
+        1,
+        1,
+        0.75,
+        0.75
+      ],
+      "score": 0.925,
+      "range": [
+        0.9186746987951806,
+        0.931818181818182
+      ],
+      "why": "Convert published aggregate counts into explicitly missingness-aware and causal feature input; refuse unsupported inference."
+    },
+    {
+      "id": "DATA-SEMANTICS",
+      "gate": "READY",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "score": 0.875,
+      "range": [
+        0.8666666666666667,
+        0.8823529411764706
+      ],
+      "why": "Verify publisher movement and interval semantics, signal mapping and availability time; classify unknowns."
+    },
+    {
+      "id": "DATA-EXTERNAL",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.5,
+        0.75
+      ],
+      "score": 0.8374999999999999,
+      "range": [
+        0.8253012048192772,
+        0.8506493506493507
+      ],
+      "why": "Confirm authorized independent aggregate comparator, license and source clock; no full raw download before evidence gate."
+    },
+    {
+      "id": "DATA-CALIBRATION",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        0.75,
+        1,
+        0.5,
+        0.75
+      ],
+      "score": 0.825,
+      "range": [
+        0.8132530120481929,
+        0.8376623376623376
+      ],
+      "why": "Fit observation likelihood only after independent labels and block-disjoint validation."
+    },
+    {
+      "id": "RND-PORT",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.5
+      ],
+      "score": 0.7124999999999999,
+      "range": [
+        0.7048192771084337,
+        0.7207792207792209
+      ],
+      "why": "Integrate R3 after data contract; synthetic certificate is secondary."
+    },
+    {
+      "id": "RND-SWEEP",
+      "gate": "DEFER",
+      "rating": [
+        0.5,
+        0.25,
+        0.5,
+        1,
+        0.25
+      ],
+      "score": 0.475,
+      "range": [
+        0.45454545454545453,
+        0.4939759036144579
+      ],
+      "why": "No further arbitrary synthetic geometry or horizon sweeps."
+    }
+  ],
+  "selection": "DATA-CONTRACT and DATA-SEMANTICS are immediate engineering; DATA-LABEL and EX01C cannot be replaced by more AI runs. No direct field policy inference from counts."
+}
