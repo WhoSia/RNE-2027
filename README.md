@@ -17,6 +17,8 @@ An [offline executable laboratory prototype](research/t2/exhibition/adaptive_res
 
 Strong class-informed fixed-policy comparisons show only 0–0.015655% mean cost gains on the conditional synthetic population; large real-world improvement claims remain unsupported. The prior traffic-model and RF tracks are preserved. No field calibration, road actuation, real RF collection, K047 holdout use or student-independent acceptance. The next engineering priorities are measured observation reliability, multiple objective tradeoffs, and independent paired tabletop/model verification.
 
+**R2 (2026-11-27):** [objective-aware engine acceptance](research/t2/exhibition/adaptive_resolution/RND_OBJECTIVE_ACCEPTANCE.md), [teacher/student tabletop protocol](research/t2/exhibition/adaptive_resolution/TABLETOP_PROTOCOL_R2.md), [revised priorities](research/t2/exhibition/adaptive_resolution/RND_R2_PRIORITIES.json), [R2 reproducible package](https://drive.google.com/file/d/196oe4j4jL6vE-fJJjj-HZmeHfWzZJUxe/view). 64 objective contexts; two-step exactness fails in one, and eight lack a depth-two certificate. The stronger fixed-calendar comparator leaves only three positive gains in sixteen tested cap/objective/class/law contexts (maximum 0.626%). No field improvement claim. R1 remains intact.
+
 ### Parallel exhibition prototype: RF-CURTAIN (2026-11-21)
 
 A **separate**, teacher-supervised, indoor/tabletop, camera-free RF sensing
