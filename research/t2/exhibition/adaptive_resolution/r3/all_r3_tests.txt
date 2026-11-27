@@ -1,0 +1,22 @@
+test_budget_and_calendar (test_receiving.TestReceiving.test_budget_and_calendar) ... /mnt/data/rne_adaptive_resolution/r3/test_receiving.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='finite.json' mode='r' encoding='utf-8'>
+  for c in json.load(open(name+'.json')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/rne_adaptive_resolution/r3/test_receiving.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='infinite.json' mode='r' encoding='utf-8'>
+  for c in json.load(open(name+'.json')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_infinite_r2_parity (test_receiving.TestReceiving.test_infinite_r2_parity) ... ok
+test_oracle (test_receiving.TestReceiving.test_oracle) ... ok
+test_path (test_receiving.TestReceiving.test_path) ... ok
+test_calibration_fixture (test_channel.TestChannel.test_calibration_fixture) ... ok
+test_initial_partition (test_channel.TestChannel.test_initial_partition) ... ok
+test_mismatch_receipt (test_channel.TestChannel.test_mismatch_receipt) ... ok
+test_reject_duplicate (test_channel.TestChannel.test_reject_duplicate) ... ok
+test_reject_personal_id (test_channel.TestChannel.test_reject_personal_id) ... ok
+test_reject_split_leak (test_channel.TestChannel.test_reject_split_leak) ... ok
+test_zero_error_parity (test_channel.TestChannel.test_zero_error_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.380s
+
+OK
