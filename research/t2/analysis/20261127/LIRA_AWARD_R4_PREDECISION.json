@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-27",
+  "parent": "1651443b3a35e00632dfa406cc3ae62e32edf92f",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "axes": {
+    "L": "core research leverage",
+    "I": "discriminating information gain",
+    "R": "rigor/reproducibility",
+    "A": "actionability now",
+    "J": "exhibition relevance",
+    "E": "independent evidence potential",
+    "V": "validity/ability to falsify",
+    "C": "cost efficiency"
+  },
+  "axisNote": "Local explicit operational definitions for this ledger; prior numeric weights restored, not claimed canonical expansions of acronym. Anchor scores 0 absent, .25 weak, .5 plausible, .75 concrete plan/evidence, 1 decisive for the task. Separate actionability from gate. Avoid inflated scores; compare across candidates before work.",
+  "awardTransfer": {
+    "basis": "2022–26 ten official top student awards, previous NATIONAL_AWARD_DATA_AXIS_REVIEW; winner-only selected cohort, not award predictor",
+    "criteria": [
+      "observable phenomenon and clear question",
+      "independent reference and reproducible measurement",
+      "mechanism explaining baseline failure",
+      "student-owned experiment and demonstration",
+      "bounded useful conclusion"
+    ],
+    "learningRule": "Record specific evidence and revise ratings after outcomes; no retrospective weight tuning or claim of statistical training. New rubric version only when justified; retain prior ratings."
+  },
+  "scenarios": 17,
+  "tasks": [
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent teacher-approved tabletop observations; not executable by AI."
+    },
+    {
+      "id": "DATA-JINJU",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.95,
+        "J": 0.9,
+        "E": 0.85,
+        "V": 0.85,
+        "C": 0.95
+      },
+      "priority": 0.8799999999999999,
+      "range": [
+        0.8782051282051283,
+        0.8817073170731711
+      ],
+      "why": "Separate Korean public source already owned; audit interval and missing semantics without treating as same-site truth."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195123,
+        0.8756410256410256
+      ],
+      "why": "Student-owned replay and explanation."
+    },
+    {
+      "id": "DATA-DLR-SEMANTICS",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.85,
+        "R": 0.9,
+        "A": 0.8,
+        "J": 0.85,
+        "E": 0.65,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8525,
+      "range": [
+        0.8475609756097563,
+        0.8576923076923078
+      ],
+      "why": "Verify current publisher documentation and unknown schema; no further metadata-only loops."
+    },
+    {
+      "id": "RND-ROBUST",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.8,
+        "I": 0.8,
+        "R": 0.85,
+        "A": 0.85,
+        "J": 0.75,
+        "E": 0.45,
+        "V": 0.85,
+        "C": 0.65
+      },
+      "priority": 0.7700000000000001,
+      "range": [
+        0.7621951219512197,
+        0.7782051282051282
+      ],
+      "why": "Useful model mismatch analysis, but no calibrated sensor."
+    },
+    {
+      "id": "AWARD-FULL",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.75,
+        "I": 0.8,
+        "R": 0.8,
+        "A": 0.55,
+        "J": 0.95,
+        "E": 0.7,
+        "V": 0.8,
+        "C": 0.65
+      },
+      "priority": 0.7625,
+      "range": [
+        0.7573170731707319,
+        0.767948717948718
+      ],
+      "why": "Full reports can refine rubric; official award summary already covered, access uncertain."
+    },
+    {
+      "id": "RUST-PORT",
+      "gate": "TOOLCHAIN",
+      "ratings": {
+        "L": 0.55,
+        "I": 0.5,
+        "R": 0.85,
+        "A": 0.2,
+        "J": 0.5,
+        "E": 0.3,
+        "V": 0.8,
+        "C": 0.5
+      },
+      "priority": 0.5425000000000001,
+      "range": [
+        0.5305194805194806,
+        0.5536144578313253
+      ],
+      "why": "Toolchain unavailable; already improved Python; accelerate only measured kernel."
+    },
+    {
+      "id": "SYNTHETIC-SWEEP",
+      "gate": "DEFER",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.25,
+        "R": 0.65,
+        "A": 0.95,
+        "J": 0.35,
+        "E": 0.15,
+        "V": 0.5,
+        "C": 0.45
+      },
+      "priority": 0.425,
+      "range": [
+        0.4115384615384615,
+        0.4378048780487805
+      ],
+      "why": "Repeated fixed-calendar nulls; no new mechanism."
+    }
+  ],
+  "selection": "Highest ready: DATA-JINJU; paired source-semantics check. Teacher/student gates preserved. Stop after one source audit; reassess before further R&D.",
+  "claimWarrant": {
+    "R3_adaptive_calendar_superiority": {
+      "score": 0.1,
+      "scope": "80 synthetic contexts tied best fixed calendar"
+    },
+    "R4_measured_python_acceleration": {
+      "score": 0.8,
+      "scope": "3 cold workloads, variable timing"
+    },
+    "real_traffic_optimization": {
+      "score": 0.1,
+      "scope": "no independent actual policy comparison"
+    }
+  }
+}
