@@ -1,0 +1,88 @@
+{
+  "status": "MATCHED_OPPORTUNITY_SENSITIVITY_NOT_INDEPENDENT_SAMPLE",
+  "eligible_per_60": {
+    "green/30": 15,
+    "green/60": 15,
+    "red/30": 15,
+    "red/60": 15
+  },
+  "pairs": 1152,
+  "controlled_arms": 2304,
+  "baseline_60_parity_checks": 1152,
+  "overall": {
+    "n": 1152,
+    "win30": 1060,
+    "win60": 92,
+    "ties": 0,
+    "fixed30": 18796,
+    "fixed60": 772373,
+    "frozen": 156820
+  },
+  "red_high_share": {
+    "n": 192,
+    "win30": 191,
+    "win60": 1,
+    "ties": 0,
+    "fixed30": 366,
+    "fixed60": 138390,
+    "frozen": 138390
+  },
+  "by_layout_capacity": {
+    "shared/2": {
+      "n": 192,
+      "win30": 179,
+      "win60": 13,
+      "ties": 0,
+      "fixed30": 6208,
+      "fixed60": 345524,
+      "frozen": 58704
+    },
+    "shared/4": {
+      "n": 192,
+      "win30": 177,
+      "win60": 15,
+      "ties": 0,
+      "fixed30": 6410,
+      "fixed60": 200239,
+      "frozen": 44174
+    },
+    "shared/8": {
+      "n": 192,
+      "win30": 185,
+      "win60": 7,
+      "ties": 0,
+      "fixed30": 245,
+      "fixed60": 67066,
+      "frozen": 12480
+    },
+    "separate/2": {
+      "n": 192,
+      "win30": 159,
+      "win60": 33,
+      "ties": 0,
+      "fixed30": 3296,
+      "fixed60": 52590,
+      "frozen": 17180
+    },
+    "separate/4": {
+      "n": 192,
+      "win30": 179,
+      "win60": 13,
+      "ties": 0,
+      "fixed30": 1334,
+      "fixed60": 55959,
+      "frozen": 13351
+    },
+    "separate/8": {
+      "n": 192,
+      "win30": 181,
+      "win60": 11,
+      "ties": 0,
+      "fixed30": 1303,
+      "fixed60": 50995,
+      "frozen": 10931
+    }
+  },
+  "local_rows_sha256": "0ae05961953762ddf5d9d491cff1756382aee05fb8224972f90ab96f69a31e73",
+  "raw_rows_status": "locally generated; reproducible via service_control.py; not independently uploaded"
+}
