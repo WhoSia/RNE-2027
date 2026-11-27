@@ -1,0 +1,282 @@
+{
+  "status": "RETROSPECTIVE_SIMULATOR_REANALYSIS_NOT_FIELD_VALIDATION",
+  "strata": [
+    {
+      "onset": "all",
+      "n": 192,
+      "win30": 134,
+      "win60": 58,
+      "ties": 0,
+      "wrong60": {
+        "sum": 202433,
+        "mean": 1510.6940298507463,
+        "median": 1240,
+        "max": 4425
+      },
+      "wrong30": {
+        "sum": 43945,
+        "mean": 757.6724137931035,
+        "median": 802,
+        "max": 1871
+      },
+      "meanCostRatio": 1.9938617301477592
+    },
+    {
+      "onset": "green",
+      "n": 96,
+      "win30": 83,
+      "win60": 13,
+      "ties": 0,
+      "wrong60": {
+        "sum": 151136,
+        "mean": 1820.9156626506024,
+        "median": 1450,
+        "max": 4425
+      },
+      "wrong30": {
+        "sum": 6133,
+        "mean": 471.7692307692308,
+        "median": 348,
+        "max": 1162
+      },
+      "meanCostRatio": 3.859759271882901
+    },
+    {
+      "onset": "red",
+      "n": 96,
+      "win30": 51,
+      "win60": 45,
+      "ties": 0,
+      "wrong60": {
+        "sum": 51297,
+        "mean": 1005.8235294117648,
+        "median": 1011,
+        "max": 2582
+      },
+      "wrong30": {
+        "sum": 37812,
+        "mean": 840.2666666666667,
+        "median": 919,
+        "max": 1871
+      },
+      "meanCostRatio": 1.1970289543935633
+    }
+  ],
+  "metrics": [
+    {
+      "name": "fixed30",
+      "correct": 134,
+      "totalRegret": 43945,
+      "meanRegret": 228.88020833333334,
+      "maxRegret": 1871,
+      "act30": 192
+    },
+    {
+      "name": "fixed60",
+      "correct": 58,
+      "totalRegret": 202433,
+      "meanRegret": 1054.3385416666667,
+      "maxRegret": 4425,
+      "act30": 0
+    },
+    {
+      "name": "onset_majority",
+      "correct": 134,
+      "totalRegret": 43945,
+      "meanRegret": 228.88020833333334,
+      "maxRegret": 1871,
+      "act30": 192
+    },
+    {
+      "name": "onset_loss",
+      "correct": 134,
+      "totalRegret": 43945,
+      "meanRegret": 228.88020833333334,
+      "maxRegret": 1871,
+      "act30": 192
+    },
+    {
+      "name": "onset_share_majority",
+      "correct": 166,
+      "totalRegret": 8723,
+      "meanRegret": 45.432291666666664,
+      "maxRegret": 1162,
+      "act30": 160
+    },
+    {
+      "name": "onset_share_loss",
+      "correct": 166,
+      "totalRegret": 8723,
+      "meanRegret": 45.432291666666664,
+      "maxRegret": 1162,
+      "act30": 160
+    }
+  ],
+  "compare": [
+    {
+      "name": "fixed60",
+      "comparison": "candidate minus fixed30, vehicle-seconds per arm",
+      "delta": 825.4583333333334,
+      "blockInterval": [
+        786.4010416666667,
+        868.7447916666667
+      ],
+      "naiveRowInterval": [
+        623.4895833333334,
+        1025.6302083333333
+      ],
+      "blocks": [
+        846.8333333333334,
+        903.0833333333334,
+        778.9166666666666,
+        826.3333333333334,
+        735.9166666666666,
+        1046.4166666666667,
+        848.3333333333334,
+        840.8333333333334,
+        823.3333333333334,
+        772.4166666666666,
+        921.3333333333334,
+        739.5,
+        876.4166666666666,
+        804.5,
+        699,
+        744.1666666666666
+      ]
+    },
+    {
+      "name": "onset_majority",
+      "comparison": "candidate minus fixed30, vehicle-seconds per arm",
+      "delta": 0,
+      "blockInterval": [
+        0,
+        0
+      ],
+      "naiveRowInterval": [
+        0,
+        0
+      ],
+      "blocks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "onset_loss",
+      "comparison": "candidate minus fixed30, vehicle-seconds per arm",
+      "delta": 0,
+      "blockInterval": [
+        0,
+        0
+      ],
+      "naiveRowInterval": [
+        0,
+        0
+      ],
+      "blocks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "onset_share_majority",
+      "comparison": "candidate minus fixed30, vehicle-seconds per arm",
+      "delta": -183.44791666666666,
+      "blockInterval": [
+        -204.66666666666666,
+        -159.78645833333334
+      ],
+      "naiveRowInterval": [
+        -245.265625,
+        -124.40104166666667
+      ],
+      "blocks": [
+        -235.58333333333334,
+        -227.75,
+        -213.25,
+        -211.75,
+        -216.91666666666666,
+        -239.33333333333334,
+        -96.16666666666667,
+        -188.5,
+        -79.41666666666667,
+        -164.91666666666666,
+        -191.58333333333334,
+        -176.33333333333334,
+        -192.66666666666666,
+        -148.25,
+        -135.5,
+        -217.25
+      ]
+    },
+    {
+      "name": "onset_share_loss",
+      "comparison": "candidate minus fixed30, vehicle-seconds per arm",
+      "delta": -183.44791666666666,
+      "blockInterval": [
+        -205.22395833333334,
+        -159.73437499999997
+      ],
+      "naiveRowInterval": [
+        -246.19270833333334,
+        -125.22916666666667
+      ],
+      "blocks": [
+        -235.58333333333334,
+        -227.75,
+        -213.25,
+        -211.75,
+        -216.91666666666666,
+        -239.33333333333334,
+        -96.16666666666667,
+        -188.5,
+        -79.41666666666667,
+        -164.91666666666666,
+        -191.58333333333334,
+        -176.33333333333334,
+        -192.66666666666666,
+        -148.25,
+        -135.5,
+        -217.25
+      ]
+    }
+  ],
+  "checks": [
+    "192 rows, 16 blocks x12",
+    "96 matched demand tapes",
+    "green source sum/sign",
+    "red source sum/sign",
+    "fixed regret exact",
+    "fold predictions count"
+  ],
+  "seedBlocks": 16,
+  "bootstrapDraws": 10000
+}
