@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-27",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "scenarios": 17,
+  "sourceHead": "8248dcdb4c3785c6aa742ec6df22f085a771734e",
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "tasks": [
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent labeled tokens still essential; no field intervention."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195122,
+        0.8756410256410255
+      ],
+      "why": "Student reproduction required."
+    },
+    {
+      "id": "SATHORN-INTAKE",
+      "gate": "EXTERNAL_ACCESS",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.95,
+        "V": 0.9,
+        "C": 0.65
+      },
+      "priority": 0.845,
+      "range": [
+        0.8304878048780489,
+        0.8602564102564103
+      ],
+      "why": "Original archive and license manifest inaccessible; retain only provenance."
+    },
+    {
+      "id": "JINJU-PROVIDER",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.9,
+        "V": 0.95,
+        "C": 0.75
+      },
+      "priority": 0.8399999999999999,
+      "range": [
+        0.825609756097561,
+        0.855128205128205
+      ],
+      "why": "Await institutional definitions; do not send without instruction."
+    },
+    {
+      "id": "ZURICH-INTAKE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.75,
+        "J": 0.8,
+        "E": 0.85,
+        "V": 0.85,
+        "C": 0.8
+      },
+      "priority": 0.8325,
+      "range": [
+        0.830487804878049,
+        0.8346153846153846
+      ],
+      "why": "Independent signal and loop data; audit data access next."
+    },
+    {
+      "id": "RND-CHANNEL-ROBUST",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.85,
+        "J": 0.85,
+        "E": 0.45,
+        "V": 0.9,
+        "C": 0.75
+      },
+      "priority": 0.8099999999999999,
+      "range": [
+        0.801219512195122,
+        0.8192307692307692
+      ],
+      "why": "Use asymmetric losses and ambiguity sets to link counterexample to R3; no claim of field calibration."
+    },
+    {
+      "id": "RUST-PORT",
+      "gate": "TOOLCHAIN",
+      "ratings": {
+        "L": 0.55,
+        "I": 0.5,
+        "R": 0.85,
+        "A": 0.2,
+        "J": 0.5,
+        "E": 0.3,
+        "V": 0.8,
+        "C": 0.5
+      },
+      "priority": 0.5425000000000001,
+      "range": [
+        0.5305194805194806,
+        0.5536144578313253
+      ],
+      "why": "No verified native benchmark."
+    },
+    {
+      "id": "DLR-SCHEMA-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.35,
+        "I": 0.25,
+        "R": 0.7,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.55,
+        "C": 0.6
+      },
+      "priority": 0.46499999999999997,
+      "range": [
+        0.4525641025641026,
+        0.47682926829268296
+      ],
+      "why": "Already audited."
+    }
+  ],
+  "selection": "Highest READY task only; preserve independent student/teacher gates. Sathorn retry only with new access path.",
+  "claimWarrant": [
+    {
+      "claim": "Counterexample under specified symmetric binary independent-error model",
+      "score": 0.99
+    },
+    {
+      "claim": "Sathorn same-location same-date data documented by publisher",
+      "score": 0.95
+    },
+    {
+      "claim": "Sathorn raw file custody",
+      "score": 0
+    },
+    {
+      "claim": "Field sensor accuracy inferred from agreement alone",
+      "score": 0
+    },
+    {
+      "claim": "Real-world signal optimization benefit",
+      "score": 0.1
+    }
+  ]
+}
