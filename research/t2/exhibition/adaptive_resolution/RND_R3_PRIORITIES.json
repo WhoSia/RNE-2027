@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-27",
+  "parent": "c97d296ce9fe6fd6bf4237064499910b4d9ef9e7",
+  "basis": "Same R&D rubric; editorial, not probabilities.",
+  "weights": [
+    0.25,
+    0.25,
+    0.2,
+    0.15,
+    0.15
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "RND-MEASURE",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        1
+      ],
+      "score": 0.9249999999999999,
+      "range": [
+        0.9096385542168676,
+        0.9415584415584415
+      ],
+      "why": "Independent teacher-approved paired token observation; use new ledger and hold validation blocks separate."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.75,
+        1
+      ],
+      "score": 0.9125,
+      "range": [
+        0.9047619047619047,
+        0.9210526315789473
+      ],
+      "why": "Student independently reproduce the finite/infinite counterexample, transfer/exit distinction and matched policy."
+    },
+    {
+      "id": "RND-CHANNEL",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        1,
+        1,
+        0.5,
+        0.75
+      ],
+      "score": 0.8875,
+      "range": [
+        0.8734939759036146,
+        0.9025974025974026
+      ],
+      "why": "Use independently labeled measurement records; identify missing/nonswap errors before fitting. No invented calibration."
+    },
+    {
+      "id": "RND-PORT",
+      "gate": "READY",
+      "rating": [
+        1,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "score": 0.8125,
+      "range": [
+        0.8,
+        0.8235294117647058
+      ],
+      "why": "Port R2 objective-aware bounds and observation-only session to R3; evaluate exact certificates and runtime with heterogeneous observation modes."
+    },
+    {
+      "id": "RND-ROBUST",
+      "gate": "READY",
+      "rating": [
+        0.75,
+        1,
+        0.75,
+        0.5,
+        0.75
+      ],
+      "score": 0.7749999999999999,
+      "range": [
+        0.76,
+        0.788235294117647
+      ],
+      "why": "Compare fixed likelihood assumptions and robust policy under explicitly frozen uncertainty set, include abstention separately."
+    },
+    {
+      "id": "RND-PHYSICS-more",
+      "gate": "DEFER",
+      "rating": [
+        0.5,
+        0.5,
+        0.5,
+        0.75,
+        0.25
+      ],
+      "score": 0.49999999999999994,
+      "range": [
+        0.4902597402597403,
+        0.5097402597402598
+      ],
+      "why": "No more synthetic geometry/horizon sweep absent discriminating empirical mechanism."
+    }
+  ],
+  "selection": "RND-PORT next executable integration; robust uncertainty stress test second. Measurement and student gates remain independent. Channel choice is supported within model, adaptive schedule superiority not supported by R3."
+}
