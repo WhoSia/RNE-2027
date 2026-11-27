@@ -1,0 +1,9 @@
+test_missing_route_and_time (test_dlr_semantics.ContractTest.test_missing_route_and_time) ... ok
+test_no_causal_upgrade (test_dlr_semantics.ContractTest.test_no_causal_upgrade) ... ok
+test_source_gate (test_dlr_semantics.ContractTest.test_source_gate) ... ok
+test_unknown_route (test_dlr_semantics.ContractTest.test_unknown_route) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK
