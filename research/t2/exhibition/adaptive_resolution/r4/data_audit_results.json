@@ -1,0 +1,230 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.20919480",
+  "license": "CC BY-NC-SA 4.0",
+  "checks": 78,
+  "windows": [
+    {
+      "file": "traffic-volume_230924-230000_230924-231500.csv",
+      "status": "verified",
+      "sha256": "3a463900ed82afcb3caa4cf7ffad5b8fc13d08de5250a86e0eb67f1eb76fb583",
+      "bytes": 39715,
+      "seconds": 900,
+      "observed_count": 16,
+      "columns": 9,
+      "bins": {
+        "1": {
+          "complete": 900,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 1,
+          "partial": 0,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    },
+    {
+      "file": "traffic-volume_230924-231500_230924-233000.csv",
+      "status": "verified",
+      "sha256": "426f5133ce333dffa518ea46572eecf9fbe2377201356de4cfab3f93e9c39813",
+      "bytes": 25744,
+      "seconds": 857,
+      "observed_count": 2,
+      "columns": 2,
+      "bins": {
+        "1": {
+          "complete": 857,
+          "partial": 0,
+          "unobserved": 43
+        },
+        "5": {
+          "complete": 171,
+          "partial": 1,
+          "unobserved": 8
+        },
+        "15": {
+          "complete": 57,
+          "partial": 1,
+          "unobserved": 2
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 0,
+          "partial": 1,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    },
+    {
+      "file": "traffic-volume_230924-233000_230924-234500.csv",
+      "status": "verified",
+      "sha256": "00f6f29b2be6c2fa517077de3b7accbbfc75edddc92332534f00ad6b62312798",
+      "bytes": 44800,
+      "seconds": 893,
+      "observed_count": 17,
+      "columns": 12,
+      "bins": {
+        "1": {
+          "complete": 893,
+          "partial": 0,
+          "unobserved": 7
+        },
+        "5": {
+          "complete": 178,
+          "partial": 1,
+          "unobserved": 1
+        },
+        "15": {
+          "complete": 59,
+          "partial": 1,
+          "unobserved": 0
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 0,
+          "partial": 1,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    },
+    {
+      "file": "traffic-volume_230924-234500_230925-000000.csv",
+      "status": "verified",
+      "sha256": "1a284356118ceb88db2a3dcee9d224e64f670d2ee2f39b425f57e400c7337827",
+      "bytes": 40056,
+      "seconds": 868,
+      "observed_count": 17,
+      "columns": 10,
+      "bins": {
+        "1": {
+          "complete": 868,
+          "partial": 0,
+          "unobserved": 32
+        },
+        "5": {
+          "complete": 173,
+          "partial": 1,
+          "unobserved": 6
+        },
+        "15": {
+          "complete": 57,
+          "partial": 1,
+          "unobserved": 2
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 0,
+          "partial": 1,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    },
+    {
+      "file": "traffic-volume_230924-121500_230924-123000.csv",
+      "status": "verified",
+      "sha256": "ec4469245af40e5ac938f60d54face45448cde6644ddcd35f67e819b5d2cd426",
+      "bytes": 72335,
+      "seconds": 900,
+      "observed_count": 475,
+      "columns": 27,
+      "bins": {
+        "1": {
+          "complete": 900,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 1,
+          "partial": 0,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    },
+    {
+      "file": "traffic-volume_230924-123000_230924-124500.csv",
+      "status": "verified",
+      "sha256": "4a30e5767f33288d1fe3026ca796ea7c9e1a6447d84117f3eaa510ad6516e1c7",
+      "bytes": 70519,
+      "seconds": 900,
+      "observed_count": 498,
+      "columns": 26,
+      "bins": {
+        "1": {
+          "complete": 900,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "unobserved": 0
+        },
+        "900": {
+          "complete": 1,
+          "partial": 0,
+          "unobserved": 0
+        }
+      },
+      "decision_availability": null
+    }
+  ],
+  "scope": "historical aggregate counts only; availability and independent labels not established"
+}
