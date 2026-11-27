@@ -1,0 +1,101 @@
+{
+  "model": "synthetic laboratory only",
+  "target": "system",
+  "q": [
+    2,
+    2
+  ],
+  "word": "0001",
+  "budget": 2,
+  "error": "1/4",
+  "finite": true,
+  "vector_names": [
+    "upstream_S",
+    "upstream_L",
+    "stage_max",
+    "whole_system_stock",
+    "exits",
+    "credits",
+    "acquisitions"
+  ],
+  "policies": {
+    "free": {
+      "cost": "29",
+      "vector": [
+        "189/16",
+        "15/2",
+        "3121/256",
+        "29",
+        "9/4",
+        "0",
+        "0"
+      ],
+      "worst": 0,
+      "first": "none"
+    },
+    "word": {
+      "cost": "29",
+      "vector": [
+        "189/16",
+        "15/2",
+        "3121/256",
+        "29",
+        "9/4",
+        "0",
+        "0"
+      ],
+      "worst": 0,
+      "first": "none"
+    },
+    "receiving": {
+      "cost": "115/4",
+      "vector": [
+        "1551/128",
+        "109/16",
+        "12809/1024",
+        "115/4",
+        "19/8",
+        "1",
+        "1"
+      ],
+      "worst": 1,
+      "first": "receiving"
+    },
+    "joint": {
+      "cost": "115/4",
+      "vector": [
+        "1551/128",
+        "109/16",
+        "12809/1024",
+        "115/4",
+        "19/8",
+        "1",
+        "1"
+      ],
+      "worst": 1,
+      "first": "receiving"
+    }
+  },
+  "best_calendar": {
+    "calendar": [
+      3,
+      0,
+      0
+    ],
+    "report": {
+      "cost": "115/4",
+      "vector": [
+        "1551/128",
+        "109/16",
+        "12809/1024",
+        "115/4",
+        "19/8",
+        "1",
+        "1"
+      ],
+      "worst": 1,
+      "first": "receiving"
+    }
+  },
+  "calendar_gain": "0"
+}
