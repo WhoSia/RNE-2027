@@ -1,0 +1,13 @@
+test_bad_header (test_jinju_audit.AuditTest.test_bad_header) ... ok
+test_bad_vector (test_jinju_audit.AuditTest.test_bad_vector) ... ok
+test_duplicate (test_jinju_audit.AuditTest.test_duplicate) ... ok
+test_mismatch (test_jinju_audit.AuditTest.test_mismatch) ... ok
+test_missing_and_extra (test_jinju_audit.AuditTest.test_missing_and_extra) ... ok
+test_reversed (test_jinju_audit.AuditTest.test_reversed) ... ok
+test_semantic_sums (test_jinju_audit.AuditTest.test_semantic_sums) ... ok
+test_zero_duration (test_jinju_audit.AuditTest.test_zero_duration) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
