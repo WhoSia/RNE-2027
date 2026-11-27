@@ -1,0 +1,4018 @@
+[
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 8.782308,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 9.050152,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 8.442446,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.077073,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 109,
+          "control": 109,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 7.542811,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.042137,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.444704,
+        "regret": "31/64"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 172,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.891245,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.060614,
+        "regret": "31/64"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 5.496739,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 103,
+          "control": 105,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 7.062468,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 341,
+          "control": 343,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 8.958284,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.99134,
+        "regret": "11/16"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 172,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 9.041407,
+        "regret": "13/64"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 201,
+          "control": 204,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 8.152219,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.065907,
+        "regret": "13/64"
+      },
+      "depth2": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 8.091687,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 541,
+          "control": 547,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 13.31145,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.374438,
+        "regret": "11/16"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 172,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.021957,
+        "regret": "13/64"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 201,
+          "control": 204,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.863153,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.160178,
+        "regret": "13/64"
+      },
+      "depth2": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 6.99105,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 541,
+          "control": 547,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 12.518586,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.828335,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.271001,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.680953,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.08837,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 109,
+          "control": 109,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 8.961748,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.616622,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.63295,
+        "regret": "31/64"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 172,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 10.288737,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.531393,
+        "regret": "31/64"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 5.562528,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 103,
+          "control": 109,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 7.142458,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 341,
+          "control": 359,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 10.20493,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.818871,
+        "regret": "93/128"
+      },
+      "head": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 191,
+          "control": 194,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 12.302401,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 201,
+          "control": 204,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 7.373065,
+        "regret": "5/128"
+      },
+      "qmdp": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 65,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.036813,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 167,
+          "control": 253,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 11.295303,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 821,
+          "control": 923,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 20.113235,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 171,
+          "control": 171,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 6.790828,
+        "regret": "93/128"
+      },
+      "head": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 191,
+          "control": 194,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 9.376693,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 201,
+          "control": 204,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 8.05969,
+        "regret": "5/128"
+      },
+      "qmdp": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 101,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 6.800834,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 231,
+          "control": 417,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 13.692825,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1325,
+          "control": 1643,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 34.062254,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 27.521042,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 28.859139,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 25.832369,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 11.497537,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 239,
+          "control": 239,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 16.912414,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 35.574353,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 27.161862,
+        "regret": "31/64"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 420,
+          "control": 421,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 44.956655,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 28.44906,
+        "regret": "31/64"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 11.868278,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 216,
+          "control": 218,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 17.908344,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 839,
+          "control": 841,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 33.852759,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.820026,
+        "regret": "11/16"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 420,
+          "control": 421,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 25.261279,
+        "regret": "13/64"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 489,
+          "control": 492,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 29.701427,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 10.830393,
+        "regret": "13/64"
+      },
+      "depth2": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 15.333315,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1327,
+          "control": 1333,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 42.706646,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 27.720533,
+        "regret": "11/16"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 420,
+          "control": 421,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.112952,
+        "regret": "13/64"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 489,
+          "control": 492,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.464371,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 10.356249,
+        "regret": "13/64"
+      },
+      "depth2": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 15.543892,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1327,
+          "control": 1333,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 38.579519,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.190679,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 25.445096,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.700767,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 11.703117,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 239,
+          "control": 239,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 18.46336,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 74.12617,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 30.04257,
+        "regret": "31/64"
+      },
+      "head": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 420,
+          "control": 421,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 28.021767,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 29.200282,
+        "regret": "31/64"
+      },
+      "qmdp": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 12.736554,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 216,
+          "control": 224,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 19.184795,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1169/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 839,
+          "control": 877,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 38.427099,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.717471,
+        "regret": "93/128"
+      },
+      "head": {
+        "objective": "36917/2048",
+        "stock": "18",
+        "credits": "53/32",
+        "acquisitions": "53/32",
+        "worst_credits": 3,
+        "lower": "36917/2048",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 466,
+          "control": 478,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 27.452018,
+        "regret": "5/2048"
+      },
+      "full": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 489,
+          "control": 492,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.286864,
+        "regret": "5/128"
+      },
+      "qmdp": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 112,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 10.37719,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 342,
+          "control": 504,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 25.736565,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 2055,
+          "control": 2269,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 68.275317,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "fixed",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "75/4",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 420,
+          "control": 420,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.664763,
+        "regret": "93/128"
+      },
+      "head": {
+        "objective": "36917/2048",
+        "stock": "18",
+        "credits": "53/32",
+        "acquisitions": "53/32",
+        "worst_credits": 3,
+        "lower": "36917/2048",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 466,
+          "control": 478,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 49.787561,
+        "regret": "5/2048"
+      },
+      "full": {
+        "objective": "18533/1024",
+        "stock": "18",
+        "credits": "101/16",
+        "acquisitions": "101/64",
+        "worst_credits": 8,
+        "lower": "18533/1024",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 645,
+          "control": 564,
+          "evaluate": 65,
+          "evaluate_action": 64
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 21.780927,
+        "regret": "77/1024"
+      },
+      "qmdp": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 148,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526,
+        "elapsed_ms": 12.30269,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 438,
+          "control": 732,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 510,
+        "elapsed_ms": 35.103543,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "2307/128",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 3231,
+          "control": 3933,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 113.169847,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.940955,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.754598,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.084946,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 19.470817,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 317,
+          "control": 317,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 23.466736,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.127399,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.780938,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 347,
+          "control": 348,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.693616,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.20685,
+        "regret": "3/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 19.659922,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 323,
+          "control": 325,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 24.049774,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 693,
+          "control": 695,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 22.836437,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.688415,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 347,
+          "control": 348,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.082647,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "369/16",
+        "stock": "23",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "369/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 405,
+          "control": 408,
+          "evaluate": 141,
+          "evaluate_action": 144
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 17.096762,
+        "regret": "1/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 19.919212,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 355,
+          "control": 361,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 25.523984,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1097,
+          "control": 1103,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 29.195344,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.593004,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 347,
+          "control": 348,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.196714,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "369/16",
+        "stock": "23",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "369/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 405,
+          "control": 408,
+          "evaluate": 141,
+          "evaluate_action": 144
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 17.824458,
+        "regret": "1/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 30.150627,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 355,
+          "control": 361,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 28.705977,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1097,
+          "control": 1103,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 28.894962,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 22.694262,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.847895,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 20.97296,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 22.67976,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 317,
+          "control": 317,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 25.834993,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.144926,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.922598,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 347,
+          "control": 348,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 18.775501,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.67664,
+        "regret": "3/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 21.594777,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 323,
+          "control": 333,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 26.888119,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 693,
+          "control": 727,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 27.589325,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 20.623713,
+        "regret": "35/512"
+      },
+      "head": {
+        "objective": "5895/256",
+        "stock": "23",
+        "credits": "7/4",
+        "acquisitions": "7/4",
+        "worst_credits": 3,
+        "lower": "5895/256",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 559,
+          "control": 568,
+          "evaluate": 203,
+          "evaluate_action": 212
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 26.686676,
+        "regret": "1/512"
+      },
+      "full": {
+        "objective": "369/16",
+        "stock": "23",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "369/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 405,
+          "control": 408,
+          "evaluate": 141,
+          "evaluate_action": 144
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 20.425075,
+        "regret": "19/512"
+      },
+      "qmdp": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 339,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 25.30824,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 591,
+          "control": 885,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 42.460124,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1661,
+          "control": 1865,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 51.781062,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "0",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 347,
+          "control": 347,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 19.174901,
+        "regret": "35/512"
+      },
+      "head": {
+        "objective": "5895/256",
+        "stock": "23",
+        "credits": "7/4",
+        "acquisitions": "7/4",
+        "worst_credits": 3,
+        "lower": "5895/256",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 559,
+          "control": 568,
+          "evaluate": 203,
+          "evaluate_action": 212
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 23.869583,
+        "regret": "1/512"
+      },
+      "full": {
+        "objective": "369/16",
+        "stock": "23",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "369/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 405,
+          "control": 408,
+          "evaluate": 141,
+          "evaluate_action": 144
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 20.812378,
+        "regret": "19/512"
+      },
+      "qmdp": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 543,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 29.015583,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 871,
+          "control": 1505,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 69.378409,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 2665,
+          "control": 3305,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 92.482919,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 134.379294,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 126.160194,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 113.651723,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 64.013748,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 744,
+          "control": 744,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 87.294223,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 111.002463,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 123.994281,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 949,
+          "control": 950,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 112.361148,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 112.093699,
+        "regret": "3/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 66.225846,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 755,
+          "control": 757,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 95.373046,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1895,
+          "control": 1897,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 128.988675,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 112.541263,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 949,
+          "control": 950,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 107.500742,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "5905/256",
+        "stock": "5889/256",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "5905/256",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1054,
+          "control": 1057,
+          "evaluate": 373,
+          "evaluate_action": 376
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 90.220986,
+        "regret": "5/256"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 68.467161,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 801,
+          "control": 807,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 92.62765,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 2948,
+          "control": 2954,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 156.203574,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 115.794993,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 949,
+          "control": 950,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 125.64196,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "5905/256",
+        "stock": "5889/256",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "5905/256",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1054,
+          "control": 1057,
+          "evaluate": 373,
+          "evaluate_action": 376
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 102.98499,
+        "regret": "5/256"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 65.624661,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 801,
+          "control": 807,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 96.843921,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 2948,
+          "control": 2954,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 156.96405,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 0,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 111.039271,
+        "regret": "0"
+      },
+      "head": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 113.638786,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 111.133242,
+        "regret": "0"
+      },
+      "qmdp": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 64.453556,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 744,
+          "control": 744,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 91.280291,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 115.422413,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 1,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 109.709758,
+        "regret": "3/64"
+      },
+      "head": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 949,
+          "control": 950,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 114.992445,
+        "regret": "0"
+      },
+      "full": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 115.72576,
+        "regret": "3/64"
+      },
+      "qmdp": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 63.232497,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 755,
+          "control": 769,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 96.457138,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1475/64",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1950,
+          "control": 2071,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 159.690868,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 4,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 111.826696,
+        "regret": "35/512"
+      },
+      "head": {
+        "objective": "12073785/524288",
+        "stock": "23",
+        "credits": "15161/8192",
+        "acquisitions": "15161/8192",
+        "worst_credits": 3,
+        "lower": "12073785/524288",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1443,
+          "control": 1456,
+          "evaluate": 543,
+          "evaluate_action": 560
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 100.827841,
+        "regret": "1849/524288"
+      },
+      "full": {
+        "objective": "5905/256",
+        "stock": "5889/256",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "5905/256",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1054,
+          "control": 1057,
+          "evaluate": 373,
+          "evaluate_action": 376
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 89.012726,
+        "regret": "21/512"
+      },
+      "qmdp": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 796,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 75.774317,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1408,
+          "control": 2119,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 143.531799,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 4670,
+          "control": 5367,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 279.667697,
+        "regret": "0"
+      }
+    }
+  },
+  {
+    "erasure": "1/4",
+    "service": "random",
+    "schedule": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "budget": 8,
+    "policies": {
+      "free": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "739/32",
+        "gap": "0",
+        "mode": 0,
+        "nodes": {
+          "sense": 947,
+          "control": 947,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 121.041424,
+        "regret": "35/512"
+      },
+      "head": {
+        "objective": "12073785/524288",
+        "stock": "23",
+        "credits": "15161/8192",
+        "acquisitions": "15161/8192",
+        "worst_credits": 3,
+        "lower": "12073785/524288",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1443,
+          "control": 1456,
+          "evaluate": 543,
+          "evaluate_action": 560
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 105.792185,
+        "regret": "1849/524288"
+      },
+      "full": {
+        "objective": "23653/1024",
+        "stock": "23",
+        "credits": "101/16",
+        "acquisitions": "101/64",
+        "worst_credits": 8,
+        "lower": "23653/1024",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 1386,
+          "control": 1185,
+          "evaluate": 465,
+          "evaluate_action": 406
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 73.71514,
+        "regret": "75/1024"
+      },
+      "qmdp": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 1000,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914,
+        "elapsed_ms": 83.718097,
+        "regret": "0"
+      },
+      "depth2": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 1848,
+          "control": 3030,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 882,
+        "elapsed_ms": 192.435867,
+        "regret": "0"
+      },
+      "exact": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "11789/512",
+        "gap": "0",
+        "mode": 1,
+        "nodes": {
+          "sense": 7191,
+          "control": 9028,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 0,
+        "elapsed_ms": 380.239909,
+        "regret": "0"
+      }
+    }
+  }
+]
