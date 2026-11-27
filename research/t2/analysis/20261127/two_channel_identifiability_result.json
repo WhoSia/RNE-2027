@@ -1,0 +1,384 @@
+{
+  "status": "SYNTHETIC_IDENTIFIABILITY_COUNTEREXAMPLE_NOT_FIELD_CALIBRATION",
+  "denominator": 20000,
+  "gridPairs": 2601,
+  "target": [
+    8200,
+    1800,
+    1800,
+    8200
+  ],
+  "worlds": [
+    {
+      "e1": 0,
+      "e2": 18
+    },
+    {
+      "e1": 10,
+      "e2": 10
+    },
+    {
+      "e1": 18,
+      "e2": 0
+    }
+  ],
+  "oracle": [
+    0,
+    2000,
+    0
+  ],
+  "ranked": [
+    {
+      "mask": 8,
+      "outputs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "losses": [
+        1800,
+        2000,
+        1800
+      ],
+      "regrets": [
+        1800,
+        0,
+        1800
+      ],
+      "worstRegret": 1800,
+      "worstLoss": 2000
+    },
+    {
+      "mask": 14,
+      "outputs": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "losses": [
+        1800,
+        2000,
+        1800
+      ],
+      "regrets": [
+        1800,
+        0,
+        1800
+      ],
+      "worstRegret": 1800,
+      "worstLoss": 2000
+    },
+    {
+      "mask": 10,
+      "outputs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "losses": [
+        3600,
+        2000,
+        0
+      ],
+      "regrets": [
+        3600,
+        0,
+        0
+      ],
+      "worstRegret": 3600,
+      "worstLoss": 3600
+    },
+    {
+      "mask": 12,
+      "outputs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "losses": [
+        0,
+        2000,
+        3600
+      ],
+      "regrets": [
+        0,
+        0,
+        3600
+      ],
+      "worstRegret": 3600,
+      "worstLoss": 3600
+    },
+    {
+      "mask": 0,
+      "outputs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "losses": [
+        10000,
+        10000,
+        10000
+      ],
+      "regrets": [
+        10000,
+        8000,
+        10000
+      ],
+      "worstRegret": 10000,
+      "worstLoss": 10000
+    },
+    {
+      "mask": 6,
+      "outputs": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "losses": [
+        10000,
+        10000,
+        10000
+      ],
+      "regrets": [
+        10000,
+        8000,
+        10000
+      ],
+      "worstRegret": 10000,
+      "worstLoss": 10000
+    },
+    {
+      "mask": 9,
+      "outputs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "losses": [
+        10000,
+        10000,
+        10000
+      ],
+      "regrets": [
+        10000,
+        8000,
+        10000
+      ],
+      "worstRegret": 10000,
+      "worstLoss": 10000
+    },
+    {
+      "mask": 15,
+      "outputs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "losses": [
+        10000,
+        10000,
+        10000
+      ],
+      "regrets": [
+        10000,
+        8000,
+        10000
+      ],
+      "worstRegret": 10000,
+      "worstLoss": 10000
+    },
+    {
+      "mask": 2,
+      "outputs": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "losses": [
+        11800,
+        10000,
+        8200
+      ],
+      "regrets": [
+        11800,
+        8000,
+        8200
+      ],
+      "worstRegret": 11800,
+      "worstLoss": 11800
+    },
+    {
+      "mask": 4,
+      "outputs": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "losses": [
+        8200,
+        10000,
+        11800
+      ],
+      "regrets": [
+        8200,
+        8000,
+        11800
+      ],
+      "worstRegret": 11800,
+      "worstLoss": 11800
+    },
+    {
+      "mask": 11,
+      "outputs": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "losses": [
+        11800,
+        10000,
+        8200
+      ],
+      "regrets": [
+        11800,
+        8000,
+        8200
+      ],
+      "worstRegret": 11800,
+      "worstLoss": 11800
+    },
+    {
+      "mask": 13,
+      "outputs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "losses": [
+        8200,
+        10000,
+        11800
+      ],
+      "regrets": [
+        8200,
+        8000,
+        11800
+      ],
+      "worstRegret": 11800,
+      "worstLoss": 11800
+    },
+    {
+      "mask": 1,
+      "outputs": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "losses": [
+        18200,
+        18000,
+        18200
+      ],
+      "regrets": [
+        18200,
+        16000,
+        18200
+      ],
+      "worstRegret": 18200,
+      "worstLoss": 18200
+    },
+    {
+      "mask": 7,
+      "outputs": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "losses": [
+        18200,
+        18000,
+        18200
+      ],
+      "regrets": [
+        18200,
+        16000,
+        18200
+      ],
+      "worstRegret": 18200,
+      "worstLoss": 18200
+    },
+    {
+      "mask": 3,
+      "outputs": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "losses": [
+        20000,
+        18000,
+        16400
+      ],
+      "regrets": [
+        20000,
+        16000,
+        16400
+      ],
+      "worstRegret": 20000,
+      "worstLoss": 20000
+    },
+    {
+      "mask": 5,
+      "outputs": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "losses": [
+        16400,
+        18000,
+        20000
+      ],
+      "regrets": [
+        16400,
+        16000,
+        20000
+      ],
+      "worstRegret": 20000,
+      "worstLoss": 20000
+    }
+  ],
+  "mixedLossNumerators": [
+    3600,
+    4000,
+    3600
+  ],
+  "mixedDenominator": 40000,
+  "checks": [
+    "observed joint sums to denominator",
+    "all worlds equal observed distribution",
+    "worlds include opposite perfect channels",
+    "oracle risk equals better channel",
+    "best deterministic worst regret 0.09",
+    "choose A and B each worst regret 0.18",
+    "fair disagreement coin attains 0.09 max regret",
+    "correlation equation matches enumeration"
+  ]
+}
