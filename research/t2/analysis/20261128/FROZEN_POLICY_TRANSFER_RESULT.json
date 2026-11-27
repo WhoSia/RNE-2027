@@ -1,0 +1,1529 @@
+{
+  "status": "RETROSPECTIVE_TRANSFER_OF_FROZEN_RULE",
+  "rule": "60 only red and share .75, else 30",
+  "P100": {
+    "n": 384,
+    "seedBlocks": 32,
+    "win30": 263,
+    "win60": 120,
+    "ties": 1,
+    "metrics": {
+      "fixed30": {
+        "regret": 102994,
+        "mean": 268.2135416666667,
+        "correct": 264,
+        "worst": 2074
+      },
+      "fixed60": {
+        "regret": 412755,
+        "mean": 1074.8828125,
+        "correct": 121,
+        "worst": 5260
+      },
+      "frozen": {
+        "regret": 25254,
+        "mean": 65.765625,
+        "correct": 328,
+        "worst": 1442
+      }
+    },
+    "block": [
+      {
+        "seed": 86001,
+        "deltaVsFixed30": -1691
+      },
+      {
+        "seed": 86002,
+        "deltaVsFixed30": -2415
+      },
+      {
+        "seed": 86003,
+        "deltaVsFixed30": -2208
+      },
+      {
+        "seed": 86004,
+        "deltaVsFixed30": -2285
+      },
+      {
+        "seed": 86005,
+        "deltaVsFixed30": -2318
+      },
+      {
+        "seed": 86006,
+        "deltaVsFixed30": -2324
+      },
+      {
+        "seed": 86007,
+        "deltaVsFixed30": -2268
+      },
+      {
+        "seed": 86008,
+        "deltaVsFixed30": -1705
+      },
+      {
+        "seed": 86009,
+        "deltaVsFixed30": -2714
+      },
+      {
+        "seed": 86010,
+        "deltaVsFixed30": -1844
+      },
+      {
+        "seed": 86011,
+        "deltaVsFixed30": -2950
+      },
+      {
+        "seed": 86012,
+        "deltaVsFixed30": -2641
+      },
+      {
+        "seed": 86013,
+        "deltaVsFixed30": -3035
+      },
+      {
+        "seed": 86014,
+        "deltaVsFixed30": -2240
+      },
+      {
+        "seed": 86015,
+        "deltaVsFixed30": -1754
+      },
+      {
+        "seed": 86016,
+        "deltaVsFixed30": -2012
+      },
+      {
+        "seed": 86017,
+        "deltaVsFixed30": -2197
+      },
+      {
+        "seed": 86018,
+        "deltaVsFixed30": -2377
+      },
+      {
+        "seed": 86019,
+        "deltaVsFixed30": -1876
+      },
+      {
+        "seed": 86020,
+        "deltaVsFixed30": -2820
+      },
+      {
+        "seed": 86021,
+        "deltaVsFixed30": -2742
+      },
+      {
+        "seed": 86022,
+        "deltaVsFixed30": -3160
+      },
+      {
+        "seed": 86023,
+        "deltaVsFixed30": -2236
+      },
+      {
+        "seed": 86024,
+        "deltaVsFixed30": -2841
+      },
+      {
+        "seed": 86025,
+        "deltaVsFixed30": -2630
+      },
+      {
+        "seed": 86026,
+        "deltaVsFixed30": -3493
+      },
+      {
+        "seed": 86027,
+        "deltaVsFixed30": -2613
+      },
+      {
+        "seed": 86028,
+        "deltaVsFixed30": -2312
+      },
+      {
+        "seed": 86029,
+        "deltaVsFixed30": -1878
+      },
+      {
+        "seed": 86030,
+        "deltaVsFixed30": -2999
+      },
+      {
+        "seed": 86031,
+        "deltaVsFixed30": -2361
+      },
+      {
+        "seed": 86032,
+        "deltaVsFixed30": -2801
+      }
+    ],
+    "blockWin": 32,
+    "blockTie": 0,
+    "blockLoss": 0
+  },
+  "P100strata": [
+    {
+      "onset": "green",
+      "share": 0.25,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 29,
+      "win60": 34,
+      "ties": 1,
+      "metrics": {
+        "fixed30": {
+          "regret": 17996,
+          "mean": 281.1875,
+          "correct": 30,
+          "worst": 1220
+        },
+        "fixed60": {
+          "regret": 13046,
+          "mean": 203.84375,
+          "correct": 35,
+          "worst": 1284
+        },
+        "frozen": {
+          "regret": 17996,
+          "mean": 281.1875,
+          "correct": 30,
+          "worst": 1220
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": 0
+        }
+      ],
+      "blockWin": 0,
+      "blockTie": 32,
+      "blockLoss": 0
+    },
+    {
+      "onset": "green",
+      "share": 0.5,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 62,
+      "win60": 2,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 1498,
+          "mean": 23.40625,
+          "correct": 62,
+          "worst": 1442
+        },
+        "fixed60": {
+          "regret": 77983,
+          "mean": 1218.484375,
+          "correct": 2,
+          "worst": 2634
+        },
+        "frozen": {
+          "regret": 1498,
+          "mean": 23.40625,
+          "correct": 62,
+          "worst": 1442
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": 0
+        }
+      ],
+      "blockWin": 0,
+      "blockTie": 32,
+      "blockLoss": 0
+    },
+    {
+      "onset": "green",
+      "share": 0.75,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 64,
+      "win60": 0,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        },
+        "fixed60": {
+          "regret": 214014,
+          "mean": 3343.96875,
+          "correct": 0,
+          "worst": 5260
+        },
+        "frozen": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": 0
+        }
+      ],
+      "blockWin": 0,
+      "blockTie": 32,
+      "blockLoss": 0
+    },
+    {
+      "onset": "red",
+      "share": 0.25,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 64,
+      "win60": 0,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        },
+        "fixed60": {
+          "regret": 88782,
+          "mean": 1387.21875,
+          "correct": 0,
+          "worst": 2484
+        },
+        "frozen": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": 0
+        }
+      ],
+      "blockWin": 0,
+      "blockTie": 32,
+      "blockLoss": 0
+    },
+    {
+      "onset": "red",
+      "share": 0.5,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 44,
+      "win60": 20,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 5760,
+          "mean": 90,
+          "correct": 44,
+          "worst": 642
+        },
+        "fixed60": {
+          "regret": 18930,
+          "mean": 295.78125,
+          "correct": 20,
+          "worst": 2306
+        },
+        "frozen": {
+          "regret": 5760,
+          "mean": 90,
+          "correct": 44,
+          "worst": 642
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": 0
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": 0
+        }
+      ],
+      "blockWin": 0,
+      "blockTie": 32,
+      "blockLoss": 0
+    },
+    {
+      "onset": "red",
+      "share": 0.75,
+      "n": 64,
+      "seedBlocks": 32,
+      "win30": 0,
+      "win60": 64,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 77740,
+          "mean": 1214.6875,
+          "correct": 0,
+          "worst": 2074
+        },
+        "fixed60": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        },
+        "frozen": {
+          "regret": 0,
+          "mean": 0,
+          "correct": 64,
+          "worst": 0
+        }
+      },
+      "block": [
+        {
+          "seed": 86001,
+          "deltaVsFixed30": -1691
+        },
+        {
+          "seed": 86002,
+          "deltaVsFixed30": -2415
+        },
+        {
+          "seed": 86003,
+          "deltaVsFixed30": -2208
+        },
+        {
+          "seed": 86004,
+          "deltaVsFixed30": -2285
+        },
+        {
+          "seed": 86005,
+          "deltaVsFixed30": -2318
+        },
+        {
+          "seed": 86006,
+          "deltaVsFixed30": -2324
+        },
+        {
+          "seed": 86007,
+          "deltaVsFixed30": -2268
+        },
+        {
+          "seed": 86008,
+          "deltaVsFixed30": -1705
+        },
+        {
+          "seed": 86009,
+          "deltaVsFixed30": -2714
+        },
+        {
+          "seed": 86010,
+          "deltaVsFixed30": -1844
+        },
+        {
+          "seed": 86011,
+          "deltaVsFixed30": -2950
+        },
+        {
+          "seed": 86012,
+          "deltaVsFixed30": -2641
+        },
+        {
+          "seed": 86013,
+          "deltaVsFixed30": -3035
+        },
+        {
+          "seed": 86014,
+          "deltaVsFixed30": -2240
+        },
+        {
+          "seed": 86015,
+          "deltaVsFixed30": -1754
+        },
+        {
+          "seed": 86016,
+          "deltaVsFixed30": -2012
+        },
+        {
+          "seed": 86017,
+          "deltaVsFixed30": -2197
+        },
+        {
+          "seed": 86018,
+          "deltaVsFixed30": -2377
+        },
+        {
+          "seed": 86019,
+          "deltaVsFixed30": -1876
+        },
+        {
+          "seed": 86020,
+          "deltaVsFixed30": -2820
+        },
+        {
+          "seed": 86021,
+          "deltaVsFixed30": -2742
+        },
+        {
+          "seed": 86022,
+          "deltaVsFixed30": -3160
+        },
+        {
+          "seed": 86023,
+          "deltaVsFixed30": -2236
+        },
+        {
+          "seed": 86024,
+          "deltaVsFixed30": -2841
+        },
+        {
+          "seed": 86025,
+          "deltaVsFixed30": -2630
+        },
+        {
+          "seed": 86026,
+          "deltaVsFixed30": -3493
+        },
+        {
+          "seed": 86027,
+          "deltaVsFixed30": -2613
+        },
+        {
+          "seed": 86028,
+          "deltaVsFixed30": -2312
+        },
+        {
+          "seed": 86029,
+          "deltaVsFixed30": -1878
+        },
+        {
+          "seed": 86030,
+          "deltaVsFixed30": -2999
+        },
+        {
+          "seed": 86031,
+          "deltaVsFixed30": -2361
+        },
+        {
+          "seed": 86032,
+          "deltaVsFixed30": -2801
+        }
+      ],
+      "blockWin": 32,
+      "blockTie": 0,
+      "blockLoss": 0
+    }
+  ],
+  "P89": [
+    {
+      "mask": 0,
+      "n": 192,
+      "seedBlocks": 16,
+      "win30": 134,
+      "win60": 58,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 43945,
+          "mean": 228.88020833333334,
+          "correct": 134,
+          "worst": 1871
+        },
+        "fixed60": {
+          "regret": 202433,
+          "mean": 1054.3385416666667,
+          "correct": 58,
+          "worst": 4425
+        },
+        "frozen": {
+          "regret": 8723,
+          "mean": 45.432291666666664,
+          "correct": 166,
+          "worst": 1162
+        }
+      },
+      "block": [
+        {
+          "seed": 85001,
+          "deltaVsFixed30": -2827
+        },
+        {
+          "seed": 85002,
+          "deltaVsFixed30": -2733
+        },
+        {
+          "seed": 85003,
+          "deltaVsFixed30": -2559
+        },
+        {
+          "seed": 85004,
+          "deltaVsFixed30": -2541
+        },
+        {
+          "seed": 85005,
+          "deltaVsFixed30": -2603
+        },
+        {
+          "seed": 85006,
+          "deltaVsFixed30": -2872
+        },
+        {
+          "seed": 85007,
+          "deltaVsFixed30": -1154
+        },
+        {
+          "seed": 85008,
+          "deltaVsFixed30": -2262
+        },
+        {
+          "seed": 85009,
+          "deltaVsFixed30": -953
+        },
+        {
+          "seed": 85010,
+          "deltaVsFixed30": -1979
+        },
+        {
+          "seed": 85011,
+          "deltaVsFixed30": -2299
+        },
+        {
+          "seed": 85012,
+          "deltaVsFixed30": -2116
+        },
+        {
+          "seed": 85013,
+          "deltaVsFixed30": -2312
+        },
+        {
+          "seed": 85014,
+          "deltaVsFixed30": -1779
+        },
+        {
+          "seed": 85015,
+          "deltaVsFixed30": -1626
+        },
+        {
+          "seed": 85016,
+          "deltaVsFixed30": -2607
+        }
+      ],
+      "blockWin": 16,
+      "blockTie": 0,
+      "blockLoss": 0
+    },
+    {
+      "mask": 1,
+      "n": 192,
+      "seedBlocks": 16,
+      "win30": 112,
+      "win60": 80,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 87276,
+          "mean": 454.5625,
+          "correct": 112,
+          "worst": 2812
+        },
+        "fixed60": {
+          "regret": 213339,
+          "mean": 1111.140625,
+          "correct": 80,
+          "worst": 5209
+        },
+        "frozen": {
+          "regret": 24710,
+          "mean": 128.69791666666666,
+          "correct": 144,
+          "worst": 1587
+        }
+      },
+      "block": [
+        {
+          "seed": 85001,
+          "deltaVsFixed30": -4589
+        },
+        {
+          "seed": 85002,
+          "deltaVsFixed30": -4596
+        },
+        {
+          "seed": 85003,
+          "deltaVsFixed30": -4234
+        },
+        {
+          "seed": 85004,
+          "deltaVsFixed30": -4109
+        },
+        {
+          "seed": 85005,
+          "deltaVsFixed30": -4410
+        },
+        {
+          "seed": 85006,
+          "deltaVsFixed30": -5227
+        },
+        {
+          "seed": 85007,
+          "deltaVsFixed30": -2584
+        },
+        {
+          "seed": 85008,
+          "deltaVsFixed30": -3861
+        },
+        {
+          "seed": 85009,
+          "deltaVsFixed30": -2164
+        },
+        {
+          "seed": 85010,
+          "deltaVsFixed30": -4077
+        },
+        {
+          "seed": 85011,
+          "deltaVsFixed30": -4204
+        },
+        {
+          "seed": 85012,
+          "deltaVsFixed30": -3664
+        },
+        {
+          "seed": 85013,
+          "deltaVsFixed30": -3907
+        },
+        {
+          "seed": 85014,
+          "deltaVsFixed30": -3676
+        },
+        {
+          "seed": 85015,
+          "deltaVsFixed30": -2954
+        },
+        {
+          "seed": 85016,
+          "deltaVsFixed30": -4310
+        }
+      ],
+      "blockWin": 16,
+      "blockTie": 0,
+      "blockLoss": 0
+    },
+    {
+      "mask": 2,
+      "n": 192,
+      "seedBlocks": 16,
+      "win30": 113,
+      "win60": 79,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 89439,
+          "mean": 465.828125,
+          "correct": 113,
+          "worst": 2842
+        },
+        "fixed60": {
+          "regret": 221337,
+          "mean": 1152.796875,
+          "correct": 79,
+          "worst": 5219
+        },
+        "frozen": {
+          "regret": 26071,
+          "mean": 135.78645833333334,
+          "correct": 145,
+          "worst": 1504
+        }
+      },
+      "block": [
+        {
+          "seed": 85001,
+          "deltaVsFixed30": -4651
+        },
+        {
+          "seed": 85002,
+          "deltaVsFixed30": -4660
+        },
+        {
+          "seed": 85003,
+          "deltaVsFixed30": -4294
+        },
+        {
+          "seed": 85004,
+          "deltaVsFixed30": -4167
+        },
+        {
+          "seed": 85005,
+          "deltaVsFixed30": -4470
+        },
+        {
+          "seed": 85006,
+          "deltaVsFixed30": -5295
+        },
+        {
+          "seed": 85007,
+          "deltaVsFixed30": -2568
+        },
+        {
+          "seed": 85008,
+          "deltaVsFixed30": -3920
+        },
+        {
+          "seed": 85009,
+          "deltaVsFixed30": -2145
+        },
+        {
+          "seed": 85010,
+          "deltaVsFixed30": -4137
+        },
+        {
+          "seed": 85011,
+          "deltaVsFixed30": -4269
+        },
+        {
+          "seed": 85012,
+          "deltaVsFixed30": -3724
+        },
+        {
+          "seed": 85013,
+          "deltaVsFixed30": -3966
+        },
+        {
+          "seed": 85014,
+          "deltaVsFixed30": -3734
+        },
+        {
+          "seed": 85015,
+          "deltaVsFixed30": -3000
+        },
+        {
+          "seed": 85016,
+          "deltaVsFixed30": -4368
+        }
+      ],
+      "blockWin": 16,
+      "blockTie": 0,
+      "blockLoss": 0
+    },
+    {
+      "mask": 3,
+      "n": 192,
+      "seedBlocks": 16,
+      "win30": 95,
+      "win60": 97,
+      "ties": 0,
+      "metrics": {
+        "fixed30": {
+          "regret": 157491,
+          "mean": 820.265625,
+          "correct": 95,
+          "worst": 4136
+        },
+        "fixed60": {
+          "regret": 228161,
+          "mean": 1188.3385416666667,
+          "correct": 97,
+          "worst": 6645
+        },
+        "frozen": {
+          "regret": 61581,
+          "mean": 320.734375,
+          "correct": 127,
+          "worst": 2711
+        }
+      },
+      "block": [
+        {
+          "seed": 85001,
+          "deltaVsFixed30": -6933
+        },
+        {
+          "seed": 85002,
+          "deltaVsFixed30": -7249
+        },
+        {
+          "seed": 85003,
+          "deltaVsFixed30": -6553
+        },
+        {
+          "seed": 85004,
+          "deltaVsFixed30": -6775
+        },
+        {
+          "seed": 85005,
+          "deltaVsFixed30": -6388
+        },
+        {
+          "seed": 85006,
+          "deltaVsFixed30": -7791
+        },
+        {
+          "seed": 85007,
+          "deltaVsFixed30": -4308
+        },
+        {
+          "seed": 85008,
+          "deltaVsFixed30": -5925
+        },
+        {
+          "seed": 85009,
+          "deltaVsFixed30": -3599
+        },
+        {
+          "seed": 85010,
+          "deltaVsFixed30": -5829
+        },
+        {
+          "seed": 85011,
+          "deltaVsFixed30": -6612
+        },
+        {
+          "seed": 85012,
+          "deltaVsFixed30": -5642
+        },
+        {
+          "seed": 85013,
+          "deltaVsFixed30": -5842
+        },
+        {
+          "seed": 85014,
+          "deltaVsFixed30": -5418
+        },
+        {
+          "seed": 85015,
+          "deltaVsFixed30": -4448
+        },
+        {
+          "seed": 85016,
+          "deltaVsFixed30": -6598
+        }
+      ],
+      "blockWin": 16,
+      "blockTie": 0,
+      "blockLoss": 0
+    }
+  ],
+  "scope": "P100 distinct route seeds but same simulator; summaries previously known. P89 interventions reuse P87 tapes. No new simulation or real field data."
+}
