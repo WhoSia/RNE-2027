@@ -1,0 +1,28 @@
+test_budget (test_lab.LabTests.test_budget) ... ok
+test_event_tree (test_lab.LabTests.test_event_tree) ... ok
+test_exact_gap (test_lab.LabTests.test_exact_gap) ... ok
+test_impossible_obs (test_lab.LabTests.test_impossible_obs) ... ok
+test_innovation (test_lab.LabTests.test_innovation) ... ok
+test_invalid_config (test_lab.LabTests.test_invalid_config) ... ok
+test_no_observation (test_lab.LabTests.test_no_observation) ... ok
+test_normalization (test_lab.LabTests.test_normalization) ... ok
+test_parity (test_lab.LabTests.test_parity) ... ok
+test_replay_no_truth_access (test_lab.LabTests.test_replay_no_truth_access) ... ok
+test_bad_paid_observation_spends_reserved_budget (test_session.SessionTests.test_bad_paid_observation_spends_reserved_budget) ... ok
+test_decide_without_measurement (test_session.SessionTests.test_decide_without_measurement) ... ok
+test_future_or_duplicate_request (test_session.SessionTests.test_future_or_duplicate_request) ... ok
+test_no_post_completion_action (test_session.SessionTests.test_no_post_completion_action) ... ok
+test_truth_free_api_matches_replay (test_session.SessionTests.test_truth_free_api_matches_replay) ... ok
+test_unknown_free_observation (test_session.SessionTests.test_unknown_free_observation) ... ok
+test_cap_is_not_certificate (test_certify.CertificateTests.test_cap_is_not_certificate) ... ok
+test_epsilon_is_not_exactness (test_certify.CertificateTests.test_epsilon_is_not_exactness) ... ok
+test_first_only_needs_depth2 (test_certify.CertificateTests.test_first_only_needs_depth2) ... ok
+test_invalid_cap (test_certify.CertificateTests.test_invalid_cap) ... ok
+test_cap_without_certificate (test_lazy.LazyTests.test_cap_without_certificate) ... ok
+test_improve_incumbent_when_needed (test_lazy.LazyTests.test_improve_incumbent_when_needed) ... ok
+test_skip_evaluation_with_incumbent (test_lazy.LazyTests.test_skip_evaluation_with_incumbent) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.975s
+
+OK
