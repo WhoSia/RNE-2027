@@ -1,0 +1,6722 @@
+{
+  "source": "DLR UT v1.3.1 publisher aggregate count files, CC BY-NC-SA 4.0",
+  "date": "2023-09-24 UTC",
+  "windows": [
+    {
+      "id": "1cQT1lMgPXfr1okUHOC_N0f6waDaBIuob",
+      "window": "23:00",
+      "headers": [
+        "East1South1",
+        "East2West0",
+        "East3West1",
+        "South0West0",
+        "South1West1",
+        "South2North1",
+        "West1East0",
+        "West2East1",
+        "West4South1"
+      ],
+      "rows": 900,
+      "missingSeconds": 0,
+      "observedCount": 16,
+      "explicitZeroRows": 884,
+      "first": 0,
+      "last": 899,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 16,
+          "counts": [
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 16,
+          "counts": [
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            }
+          ]
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 16,
+          "counts": [
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            6,
+            10
+          ],
+          "mean": 8,
+          "minimum": 6,
+          "maximum": 10
+        },
+        "5": {
+          "counts": [
+            1,
+            2,
+            4,
+            5,
+            4
+          ],
+          "mean": 3.2,
+          "minimum": 1,
+          "maximum": 5
+        },
+        "10": {
+          "counts": [
+            0,
+            2,
+            1,
+            3,
+            3,
+            1,
+            0,
+            3,
+            2,
+            1
+          ],
+          "mean": 1.6,
+          "minimum": 0,
+          "maximum": 3
+        }
+      }
+    },
+    {
+      "id": "1f2pi5QGGkteF6mqM_hf98u0-w8avtaIq",
+      "window": "23:15",
+      "headers": [
+        "East2West0",
+        "North2South1"
+      ],
+      "rows": 857,
+      "missingSeconds": 43,
+      "observedCount": 2,
+      "explicitZeroRows": 855,
+      "first": 0,
+      "last": 856,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 171,
+          "partial": 1,
+          "empty": 8,
+          "observedSum": 2,
+          "counts": [
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 2,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 57,
+          "partial": 1,
+          "empty": 2,
+          "observedSum": 2,
+          "counts": [
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 2,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            }
+          ]
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "empty": 0,
+          "observedSum": 2,
+          "counts": [
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 17,
+              "observedCount": 0
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            0,
+            2
+          ],
+          "mean": 1,
+          "minimum": 0,
+          "maximum": 2
+        },
+        "5": {
+          "counts": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "mean": 0.4,
+          "minimum": 0,
+          "maximum": 2
+        },
+        "10": {
+          "counts": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mean": 0.2,
+          "minimum": 0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "id": "1YHLhvITWSru8vm1RWmZudJMSgezJSaiv",
+      "window": "23:30",
+      "headers": [
+        "East1South1",
+        "East2West0",
+        "East3West1",
+        "South1West1",
+        "South2North1",
+        "South4East0",
+        "West0North0",
+        "West0North1",
+        "West1East0",
+        "West2East0",
+        "West2East1",
+        "West4South1"
+      ],
+      "rows": 893,
+      "missingSeconds": 7,
+      "observedCount": 17,
+      "explicitZeroRows": 876,
+      "first": 7,
+      "last": 899,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 178,
+          "partial": 1,
+          "empty": 1,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 3,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 59,
+          "partial": 1,
+          "empty": 0,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 8,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            }
+          ]
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "empty": 0,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 53,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            7,
+            10
+          ],
+          "mean": 8.5,
+          "minimum": 7,
+          "maximum": 10
+        },
+        "5": {
+          "counts": [
+            2,
+            3,
+            2,
+            5,
+            5
+          ],
+          "mean": 3.4,
+          "minimum": 2,
+          "maximum": 5
+        },
+        "10": {
+          "counts": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4
+          ],
+          "mean": 1.7,
+          "minimum": 0,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "id": "1JIMFDfN8WNq9iTEYE4mBXYlzxyg1TrFq",
+      "window": "23:45",
+      "headers": [
+        "East1South1",
+        "East2West0",
+        "East3West1",
+        "North1South0",
+        "North2West0",
+        "South1West1",
+        "West0North1",
+        "West2East1",
+        "West3South0",
+        "West4South1"
+      ],
+      "rows": 868,
+      "missingSeconds": 32,
+      "observedCount": 17,
+      "explicitZeroRows": 851,
+      "first": 0,
+      "last": 867,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 173,
+          "partial": 1,
+          "empty": 6,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 3,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 57,
+          "partial": 1,
+          "empty": 2,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 13,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 0,
+              "observedCount": 0
+            }
+          ]
+        },
+        "60": {
+          "complete": 14,
+          "partial": 1,
+          "empty": 0,
+          "observedSum": 17,
+          "counts": [
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 28,
+              "observedCount": 3
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            8,
+            9
+          ],
+          "mean": 8.5,
+          "minimum": 8,
+          "maximum": 9
+        },
+        "5": {
+          "counts": [
+            4,
+            3,
+            4,
+            3,
+            3
+          ],
+          "mean": 3.4,
+          "minimum": 3,
+          "maximum": 4
+        },
+        "10": {
+          "counts": [
+            1,
+            1,
+            3,
+            2,
+            1,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "mean": 1.7,
+          "minimum": 1,
+          "maximum": 3
+        }
+      }
+    },
+    {
+      "id": "17ZVlahtjgnRZHcWN_J9kRPplPQZk7tO7",
+      "window": "12:15",
+      "headers": [
+        "East0South0",
+        "East1South1",
+        "East2West0",
+        "East2West1",
+        "East3West1",
+        "East4North1",
+        "North0East0",
+        "North0East1",
+        "North1South0",
+        "North2South0",
+        "North2South1",
+        "North2West0",
+        "North2West1",
+        "South0South1",
+        "South0West0",
+        "South1West1",
+        "South2North0",
+        "South2North1",
+        "South3East0",
+        "South3East1",
+        "South4East1",
+        "West0North0",
+        "West0North1",
+        "West1East0",
+        "West2East1",
+        "West3South0",
+        "West4South1"
+      ],
+      "rows": 900,
+      "missingSeconds": 0,
+      "observedCount": 475,
+      "explicitZeroRows": 547,
+      "first": 0,
+      "last": 899,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 475,
+          "counts": [
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 475,
+          "counts": [
+            {
+              "observedSeconds": 15,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 13
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 15
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 13
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 15
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 14
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 13
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            }
+          ]
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 475,
+          "counts": [
+            {
+              "observedSeconds": 60,
+              "observedCount": 34
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 29
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 32
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 34
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 31
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 21
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 35
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 34
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 30
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 30
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 42
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 26
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 26
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 38
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 33
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            245,
+            230
+          ],
+          "mean": 237.5,
+          "minimum": 230,
+          "maximum": 245
+        },
+        "5": {
+          "counts": [
+            91,
+            95,
+            81,
+            79,
+            129
+          ],
+          "mean": 95,
+          "minimum": 79,
+          "maximum": 129
+        },
+        "10": {
+          "counts": [
+            46,
+            45,
+            37,
+            39,
+            72,
+            45,
+            50,
+            44,
+            40,
+            57
+          ],
+          "mean": 47.5,
+          "minimum": 37,
+          "maximum": 72
+        }
+      }
+    },
+    {
+      "id": "1GylWvIr5AT5X42bn_5tSepmziIvD1X4s",
+      "window": "12:30",
+      "headers": [
+        "East0East1",
+        "East0South0",
+        "East1South1",
+        "East2West0",
+        "East3West1",
+        "East4North1",
+        "North0East0",
+        "North0East1",
+        "North1South0",
+        "North2South1",
+        "North2West0",
+        "North2West1",
+        "South0West0",
+        "South1West1",
+        "South2North0",
+        "South2North1",
+        "South3East0",
+        "South3East1",
+        "South4East1",
+        "West0North1",
+        "West0West1",
+        "West1East0",
+        "West2East0",
+        "West2East1",
+        "West3South0",
+        "West4South1"
+      ],
+      "rows": 900,
+      "missingSeconds": 0,
+      "observedCount": 498,
+      "explicitZeroRows": 527,
+      "first": 0,
+      "last": 899,
+      "internalMissing": 0,
+      "bins": {
+        "5": {
+          "complete": 180,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 498,
+          "counts": [
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 1
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 2
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 5,
+              "observedCount": 0
+            }
+          ]
+        },
+        "15": {
+          "complete": 60,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 498,
+          "counts": [
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 3
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 19
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 15
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 7
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 15
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 11
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 14
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 8
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 4
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 14
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 14
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 12
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 14
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 6
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 16
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 9
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 10
+            },
+            {
+              "observedSeconds": 15,
+              "observedCount": 5
+            }
+          ]
+        },
+        "60": {
+          "complete": 15,
+          "partial": 0,
+          "empty": 0,
+          "observedSum": 498,
+          "counts": [
+            {
+              "observedSeconds": 60,
+              "observedCount": 30
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 23
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 24
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 37
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 23
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 48
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 33
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 31
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 31
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 42
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 36
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 29
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 41
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 41
+            },
+            {
+              "observedSeconds": 60,
+              "observedCount": 29
+            }
+          ]
+        }
+      },
+      "thinning": {
+        "2": {
+          "counts": [
+            263,
+            235
+          ],
+          "mean": 249,
+          "minimum": 235,
+          "maximum": 263
+        },
+        "5": {
+          "counts": [
+            100,
+            94,
+            96,
+            88,
+            120
+          ],
+          "mean": 99.6,
+          "minimum": 88,
+          "maximum": 120
+        },
+        "10": {
+          "counts": [
+            54,
+            39,
+            56,
+            48,
+            58,
+            46,
+            55,
+            40,
+            40,
+            62
+          ],
+          "mean": 49.8,
+          "minimum": 39,
+          "maximum": 62
+        }
+      }
+    }
+  ],
+  "union": [
+    "East0East1",
+    "East0South0",
+    "East1South1",
+    "East2West0",
+    "East2West1",
+    "East3West1",
+    "East4North1",
+    "North0East0",
+    "North0East1",
+    "North1South0",
+    "North2South0",
+    "North2South1",
+    "North2West0",
+    "North2West1",
+    "South0South1",
+    "South0West0",
+    "South1West1",
+    "South2North0",
+    "South2North1",
+    "South3East0",
+    "South3East1",
+    "South4East0",
+    "South4East1",
+    "West0North0",
+    "West0North1",
+    "West0West1",
+    "West1East0",
+    "West2East0",
+    "West2East1",
+    "West3South0",
+    "West4South1"
+  ],
+  "intersection": [
+    "East2West0"
+  ]
+}
