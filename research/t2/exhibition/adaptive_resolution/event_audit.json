@@ -1,0 +1,56 @@
+[
+  {
+    "case": "ideal",
+    "depth": 1,
+    "objective": "1169/64",
+    "stock": "73/4",
+    "credits": "1",
+    "worst_credits": 1,
+    "leaves": 64
+  },
+  {
+    "case": "ideal",
+    "depth": 2,
+    "objective": "289/16",
+    "stock": "18",
+    "credits": "4",
+    "worst_credits": 4,
+    "leaves": 64
+  },
+  {
+    "case": "ideal",
+    "depth": 4,
+    "objective": "289/16",
+    "stock": "18",
+    "credits": "4",
+    "worst_credits": 4,
+    "leaves": 64
+  },
+  {
+    "case": "combined",
+    "depth": 1,
+    "objective": "11789/512",
+    "stock": "23",
+    "credits": "13/8",
+    "worst_credits": 2,
+    "leaves": 8192
+  },
+  {
+    "case": "combined",
+    "depth": 2,
+    "objective": "11789/512",
+    "stock": "23",
+    "credits": "13/8",
+    "worst_credits": 2,
+    "leaves": 8192
+  },
+  {
+    "case": "combined",
+    "depth": 4,
+    "objective": "11789/512",
+    "stock": "23",
+    "credits": "13/8",
+    "worst_credits": 2,
+    "leaves": 8192
+  }
+]
