@@ -1,0 +1,6635 @@
+{
+  "rows": [
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 41,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 101,
+          "control": 107,
+          "evaluate": 25,
+          "evaluate_action": 28
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 47,
+          "control": 47,
+          "evaluate": 47,
+          "evaluate_action": 47
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 37,
+          "evaluate": 35,
+          "evaluate_action": 36
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 65,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "2307/128",
+      "upper": "2307/128",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "2307/128",
+          "upper": "2307/128",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 65,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 65,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 65,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 101,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "2307/128",
+      "upper": "2307/128",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "2307/128",
+          "upper": "2307/128",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 101,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 101,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 35,
+          "control": 101,
+          "evaluate": 35,
+          "evaluate_action": 38
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 78,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "289/16",
+      "eager_evaluations": 2,
+      "selected_depth": 2,
+      "explored_depth": 2,
+      "lower": "289/16",
+      "upper": "289/16",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "289/16",
+          "upper": "289/16",
+          "gap": "0",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "289/16",
+        "stock": "18",
+        "credits": "4",
+        "acquisitions": "1",
+        "worst_credits": 4,
+        "lower": "289/16",
+        "gap": "0",
+        "mode": 2,
+        "nodes": {
+          "sense": 191,
+          "control": 197,
+          "evaluate": 45,
+          "evaluate_action": 48
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 2
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "37/2",
+      "upper": "75/4",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "75/4",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "75/4",
+      "upper": "75/4",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "37/2",
+          "upper": "75/4",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "75/4",
+          "upper": "75/4",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "75/4",
+        "stock": "75/4",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "37/2",
+        "gap": "1/4",
+        "mode": 0,
+        "nodes": {
+          "sense": 102,
+          "control": 102,
+          "evaluate": 102,
+          "evaluate_action": 102
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "1169/64",
+      "gap": "1/4",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1169/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1169/64",
+      "upper": "1169/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "1169/64",
+          "gap": "1/4",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1169/64",
+          "upper": "1169/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1169/64",
+        "stock": "73/4",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1153/64",
+        "gap": "1/4",
+        "mode": 1,
+        "nodes": {
+          "sense": 72,
+          "control": 74,
+          "evaluate": 72,
+          "evaluate_action": 73
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 112,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "2307/128",
+      "upper": "2307/128",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "2307/128",
+          "upper": "2307/128",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 112,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 112,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 112,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 148,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "2307/128",
+      "upper": "2307/128",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "2307/128",
+          "upper": "2307/128",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 148,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 148,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "fixed",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "2307/128",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1153/64",
+      "upper": "2307/128",
+      "gap": "1/128",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1153/64",
+          "upper": "2307/128",
+          "gap": "1/128",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "2307/128",
+        "stock": "18",
+        "credits": "3/2",
+        "acquisitions": "3/2",
+        "worst_credits": 2,
+        "lower": "1153/64",
+        "gap": "1/128",
+        "mode": 1,
+        "nodes": {
+          "sense": 66,
+          "control": 148,
+          "evaluate": 66,
+          "evaluate_action": 70
+        },
+        "tail_nodes": 526
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 177,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 187,
+          "control": 187,
+          "evaluate": 187,
+          "evaluate_action": 187
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 171,
+          "control": 173,
+          "evaluate": 171,
+          "evaluate_action": 172
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 339,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "11789/512",
+      "upper": "11789/512",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "11789/512",
+          "upper": "11789/512",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 339,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 339,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 339,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 543,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "11789/512",
+      "upper": "11789/512",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "11789/512",
+          "upper": "11789/512",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 543,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 543,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "0",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 195,
+          "control": 543,
+          "evaluate": 195,
+          "evaluate_action": 200
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 431,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "369/16",
+      "upper": "739/32",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 0,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "739/32",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "739/32",
+      "upper": "739/32",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "369/16",
+          "upper": "739/32",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "739/32",
+          "upper": "739/32",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "739/32",
+        "stock": "739/32",
+        "credits": "0",
+        "acquisitions": "0",
+        "worst_credits": 0,
+        "lower": "369/16",
+        "gap": "1/32",
+        "mode": 0,
+        "nodes": {
+          "sense": 461,
+          "control": 461,
+          "evaluate": 461,
+          "evaluate_action": 461
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "1475/64",
+      "gap": "1/32",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 1,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "1475/64",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "1475/64",
+      "upper": "1475/64",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "1475/64",
+          "gap": "1/32",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "1475/64",
+          "upper": "1475/64",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "1475/64",
+        "stock": "737/32",
+        "credits": "1",
+        "acquisitions": "1",
+        "worst_credits": 1,
+        "lower": "1473/64",
+        "gap": "1/32",
+        "mode": 1,
+        "nodes": {
+          "sense": 425,
+          "control": 427,
+          "evaluate": 425,
+          "evaluate_action": 426
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 796,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "11789/512",
+      "upper": "11789/512",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "11789/512",
+          "upper": "11789/512",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 796,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 796,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 4,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 796,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": false,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 1000,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "0",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 2,
+      "selected_depth": 1,
+      "explored_depth": 2,
+      "lower": "11789/512",
+      "upper": "11789/512",
+      "gap": "0",
+      "certified": true,
+      "exact": true,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        },
+        {
+          "depth": 2,
+          "lower": "11789/512",
+          "upper": "11789/512",
+          "gap": "0",
+          "evaluated": false
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 1000,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 1,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 1000,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    },
+    {
+      "erasure": "1/4",
+      "service": "random",
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "budget": 8,
+      "cap": 4,
+      "epsilon": "1/64",
+      "eager_upper": "11789/512",
+      "eager_evaluations": 1,
+      "selected_depth": 1,
+      "explored_depth": 1,
+      "lower": "1473/64",
+      "upper": "11789/512",
+      "gap": "5/512",
+      "certified": true,
+      "exact": false,
+      "history": [
+        {
+          "depth": 1,
+          "lower": "1473/64",
+          "upper": "11789/512",
+          "gap": "5/512",
+          "evaluated": true
+        }
+      ],
+      "policy": {
+        "objective": "11789/512",
+        "stock": "23",
+        "credits": "13/8",
+        "acquisitions": "13/8",
+        "worst_credits": 2,
+        "lower": "1473/64",
+        "gap": "5/512",
+        "mode": 1,
+        "nodes": {
+          "sense": 459,
+          "control": 1000,
+          "evaluate": 459,
+          "evaluate_action": 465
+        },
+        "tail_nodes": 914
+      },
+      "evaluations": 1
+    }
+  ],
+  "timing": [
+    {
+      "case": "ideal_first",
+      "costs": {
+        "eager": "289/16",
+        "lazy": "289/16",
+        "exact": "289/16"
+      },
+      "ms": {
+        "lazy": {
+          "raw": [
+            9.24958,
+            9.358986,
+            8.683829,
+            11.137844,
+            15.097267,
+            9.828718,
+            10.90947
+          ],
+          "median": 9.828718,
+          "min": 8.683829,
+          "max": 15.097267
+        },
+        "eager": {
+          "raw": [
+            8.973044,
+            9.016949,
+            9.42189,
+            9.593007,
+            9.614429,
+            10.180999,
+            10.916105
+          ],
+          "median": 9.593007,
+          "min": 8.973044,
+          "max": 10.916105
+        },
+        "exact": {
+          "raw": [
+            11.278577,
+            11.30792,
+            10.994749,
+            11.077513,
+            14.478936,
+            11.397801,
+            11.340063
+          ],
+          "median": 11.30792,
+          "min": 10.994749,
+          "max": 14.478936
+        }
+      }
+    },
+    {
+      "case": "combined_all",
+      "costs": {
+        "eager": "11789/512",
+        "lazy": "11789/512",
+        "exact": "11789/512"
+      },
+      "ms": {
+        "lazy": {
+          "raw": [
+            107.99017,
+            93.164479,
+            92.463974,
+            90.055679,
+            89.933864,
+            91.53798,
+            86.494246
+          ],
+          "median": 91.53798,
+          "min": 86.494246,
+          "max": 107.99017
+        },
+        "eager": {
+          "raw": [
+            200.119931,
+            187.033478,
+            190.113746,
+            214.088492,
+            179.621649,
+            177.646916,
+            176.069201
+          ],
+          "median": 187.033478,
+          "min": 176.069201,
+          "max": 214.088492
+        },
+        "exact": {
+          "raw": [
+            274.755282,
+            270.056728,
+            265.629102,
+            287.946172,
+            249.205785,
+            252.938394,
+            253.769166
+          ],
+          "median": 265.629102,
+          "min": 249.205785,
+          "max": 287.946172
+        }
+      }
+    },
+    {
+      "case": "combined_zero_budget",
+      "costs": {
+        "exact": "739/32",
+        "lazy": "739/32",
+        "eager": "739/32"
+      },
+      "ms": {
+        "lazy": {
+          "raw": [
+            67.327899,
+            66.176415,
+            68.007302,
+            66.619685,
+            77.155518,
+            64.556778,
+            71.683248
+          ],
+          "median": 67.327899,
+          "min": 64.556778,
+          "max": 77.155518
+        },
+        "eager": {
+          "raw": [
+            106.678836,
+            103.803097,
+            106.326645,
+            107.054492,
+            109.720905,
+            111.82977,
+            108.408759
+          ],
+          "median": 107.054492,
+          "min": 103.803097,
+          "max": 111.82977
+        },
+        "exact": {
+          "raw": [
+            111.223759,
+            109.169666,
+            111.656931,
+            123.218809,
+            108.902773,
+            113.472514,
+            105.767722
+          ],
+          "median": 111.223759,
+          "min": 105.767722,
+          "max": 123.218809
+        }
+      }
+    }
+  ],
+  "timing_method": "7 paired randomized repeats; fresh model, lower/upper and evaluation work, gc excluded, no startup/UI"
+}
