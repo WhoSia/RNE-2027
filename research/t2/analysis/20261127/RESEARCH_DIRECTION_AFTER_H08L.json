@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-27",
+  "parent": "2f04bc812c38f067312c0ce2db282e30c368244e",
+  "weights": [
+    0.25,
+    0.3,
+    0.2,
+    0.15,
+    0.1
+  ],
+  "scenarios": 11,
+  "tasks": [
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "rating": [
+        1,
+        1,
+        0.5,
+        1,
+        0.25
+      ],
+      "why": "Independent student derivation of T181 and H08H witness; required for exhibition.",
+      "score": 0.8250000000000001,
+      "range": [
+        0.8095238095238094,
+        0.8421052631578948
+      ]
+    },
+    {
+      "id": "H08M",
+      "gate": "READY",
+      "rating": [
+        1,
+        1,
+        0.75,
+        0.5,
+        0.5
+      ],
+      "why": "Challenge shallow certificates with noisy/free observation or hidden stochastic service; isolate new mechanism rather than horizon.",
+      "score": 0.8250000000000001,
+      "range": [
+        0.8108108108108106,
+        0.8376623376623377
+      ]
+    },
+    {
+      "id": "H07",
+      "gate": "TEACHER",
+      "rating": [
+        1,
+        0.75,
+        0.5,
+        1,
+        0.5
+      ],
+      "why": "Teacher-approved tabletop validation of constrained sensing and independent labels.",
+      "score": 0.775,
+      "range": [
+        0.76,
+        0.7894736842105263
+      ]
+    },
+    {
+      "id": "H08N",
+      "gate": "READY",
+      "rating": [
+        1,
+        0.75,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "why": "Cold native runtime including offline tail, policy evaluation and exact certificate; equal acquisition budget.",
+      "score": 0.725,
+      "range": [
+        0.7066666666666666,
+        0.7411764705882352
+      ]
+    },
+    {
+      "id": "H09B",
+      "gate": "CONDITIONAL",
+      "rating": [
+        1,
+        0.75,
+        0.5,
+        0.75,
+        0.5
+      ],
+      "why": "Independent evidence of time-varying sensor availability; no assumed DLR calibration.",
+      "score": 0.7375,
+      "range": [
+        0.72,
+        0.7529411764705882
+      ]
+    },
+    {
+      "id": "H08J-more",
+      "gate": "DEFER",
+      "rating": [
+        0.5,
+        0.25,
+        1,
+        0.25,
+        0
+      ],
+      "why": "Do not extend horizons simply to accumulate confirmations.",
+      "score": 0.4375,
+      "range": [
+        0.4078947368421053,
+        0.46428571428571425
+      ]
+    }
+  ],
+  "selection": "H08M next AI-ready discriminating mechanism, EX01C student and H07 teacher gates not interchangeable with simulation. T181 certificate is standard relaxation; no novelty lock. Timing and equal budget unresolved. No numbered loops."
+}
