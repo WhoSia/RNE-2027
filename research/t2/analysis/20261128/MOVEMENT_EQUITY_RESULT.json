@@ -1,0 +1,384 @@
+{
+  "status": "RETROSPECTIVE_MOVEMENT_GROUP_TOTALS",
+  "pairs": 64,
+  "leftGain": 85706,
+  "throughLoss": 7966,
+  "throughWorsened": 52,
+  "throughImproved": 12,
+  "throughTied": 0,
+  "aggregateWeightThreshold": 0.09294565141296993,
+  "maxCaseThreshold": 0.5341530054644809,
+  "rates": [
+    {
+      "leftWeight": 0,
+      "prefer60": 12,
+      "ties": 0,
+      "weighted30minus60": -7966
+    },
+    {
+      "leftWeight": 0.025,
+      "prefer60": 13,
+      "ties": 0,
+      "weighted30minus60": -5823.35
+    },
+    {
+      "leftWeight": 0.05,
+      "prefer60": 22,
+      "ties": 0,
+      "weighted30minus60": -3680.7
+    },
+    {
+      "leftWeight": 0.1,
+      "prefer60": 36,
+      "ties": 0,
+      "weighted30minus60": 604.6000000000004
+    },
+    {
+      "leftWeight": 0.2,
+      "prefer60": 52,
+      "ties": 0,
+      "weighted30minus60": 9175.2
+    },
+    {
+      "leftWeight": 0.5,
+      "prefer60": 63,
+      "ties": 0,
+      "weighted30minus60": 34887
+    },
+    {
+      "leftWeight": 1,
+      "prefer60": 64,
+      "ties": 0,
+      "weighted30minus60": 77740
+    },
+    {
+      "leftWeight": 2,
+      "prefer60": 64,
+      "ties": 0,
+      "weighted30minus60": 163446
+    }
+  ],
+  "thresholds": [
+    {
+      "seed": 86001,
+      "clock": "uniform",
+      "threshold": 0.026497695852534562
+    },
+    {
+      "seed": 86001,
+      "clock": "platoon4",
+      "threshold": 0.02534562211981567
+    },
+    {
+      "seed": 86002,
+      "clock": "uniform",
+      "threshold": 0.10748898678414097
+    },
+    {
+      "seed": 86002,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86003,
+      "clock": "uniform",
+      "threshold": 0.027635619242579325
+    },
+    {
+      "seed": 86003,
+      "clock": "platoon4",
+      "threshold": 0.061894108873974646
+    },
+    {
+      "seed": 86004,
+      "clock": "uniform",
+      "threshold": 0.09967051070840198
+    },
+    {
+      "seed": 86004,
+      "clock": "platoon4",
+      "threshold": 0.0900763358778626
+    },
+    {
+      "seed": 86005,
+      "clock": "uniform",
+      "threshold": 0.2951219512195122
+    },
+    {
+      "seed": 86005,
+      "clock": "platoon4",
+      "threshold": 0.2244788882950294
+    },
+    {
+      "seed": 86006,
+      "clock": "uniform",
+      "threshold": 0.12520593080724876
+    },
+    {
+      "seed": 86006,
+      "clock": "platoon4",
+      "threshold": 0.0366412213740458
+    },
+    {
+      "seed": 86007,
+      "clock": "uniform",
+      "threshold": 0.2764227642276423
+    },
+    {
+      "seed": 86007,
+      "clock": "platoon4",
+      "threshold": 0.08316699933466401
+    },
+    {
+      "seed": 86008,
+      "clock": "uniform",
+      "threshold": 0.5341530054644809
+    },
+    {
+      "seed": 86008,
+      "clock": "platoon4",
+      "threshold": 0.2371364653243848
+    },
+    {
+      "seed": 86009,
+      "clock": "uniform",
+      "threshold": 0.08197989172467131
+    },
+    {
+      "seed": 86009,
+      "clock": "platoon4",
+      "threshold": 0.12742857142857142
+    },
+    {
+      "seed": 86010,
+      "clock": "uniform",
+      "threshold": 0.13306982872200263
+    },
+    {
+      "seed": 86010,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86011,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86011,
+      "clock": "platoon4",
+      "threshold": 0.026208503203261502
+    },
+    {
+      "seed": 86012,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86012,
+      "clock": "platoon4",
+      "threshold": 0.14961832061068703
+    },
+    {
+      "seed": 86013,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86013,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86014,
+      "clock": "uniform",
+      "threshold": 0.20075757575757575
+    },
+    {
+      "seed": 86014,
+      "clock": "platoon4",
+      "threshold": 0.21923937360178972
+    },
+    {
+      "seed": 86015,
+      "clock": "uniform",
+      "threshold": 0.1842374616171955
+    },
+    {
+      "seed": 86015,
+      "clock": "platoon4",
+      "threshold": 0.1568281938325991
+    },
+    {
+      "seed": 86016,
+      "clock": "uniform",
+      "threshold": 0.3541453428863869
+    },
+    {
+      "seed": 86016,
+      "clock": "platoon4",
+      "threshold": 0.12815656565656566
+    },
+    {
+      "seed": 86017,
+      "clock": "uniform",
+      "threshold": 0.34424603174603174
+    },
+    {
+      "seed": 86017,
+      "clock": "platoon4",
+      "threshold": 0.09912023460410557
+    },
+    {
+      "seed": 86018,
+      "clock": "uniform",
+      "threshold": 0.2691914022517912
+    },
+    {
+      "seed": 86018,
+      "clock": "platoon4",
+      "threshold": 0.11117049706039552
+    },
+    {
+      "seed": 86019,
+      "clock": "uniform",
+      "threshold": 0.18181818181818182
+    },
+    {
+      "seed": 86019,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86020,
+      "clock": "uniform",
+      "threshold": 0.036931818181818184
+    },
+    {
+      "seed": 86020,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86021,
+      "clock": "uniform",
+      "threshold": 0.03172978505629478
+    },
+    {
+      "seed": 86021,
+      "clock": "platoon4",
+      "threshold": 0.08085977482088025
+    },
+    {
+      "seed": 86022,
+      "clock": "uniform",
+      "threshold": 0.008507347254447023
+    },
+    {
+      "seed": 86022,
+      "clock": "platoon4",
+      "threshold": 0.09362934362934362
+    },
+    {
+      "seed": 86023,
+      "clock": "uniform",
+      "threshold": 0.14317673378076062
+    },
+    {
+      "seed": 86023,
+      "clock": "platoon4",
+      "threshold": 0.10461285008237232
+    },
+    {
+      "seed": 86024,
+      "clock": "uniform",
+      "threshold": 0.25652498135719615
+    },
+    {
+      "seed": 86024,
+      "clock": "platoon4",
+      "threshold": 0.09474717722140402
+    },
+    {
+      "seed": 86025,
+      "clock": "uniform",
+      "threshold": 0.09719934102141681
+    },
+    {
+      "seed": 86025,
+      "clock": "platoon4",
+      "threshold": 0.12342857142857143
+    },
+    {
+      "seed": 86026,
+      "clock": "uniform",
+      "threshold": 0.10416666666666667
+    },
+    {
+      "seed": 86026,
+      "clock": "platoon4",
+      "threshold": 0.031746031746031744
+    },
+    {
+      "seed": 86027,
+      "clock": "uniform",
+      "threshold": 0.15074135090609556
+    },
+    {
+      "seed": 86027,
+      "clock": "platoon4",
+      "threshold": 0.060570071258907364
+    },
+    {
+      "seed": 86028,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86028,
+      "clock": "platoon4",
+      "threshold": 0.09774964838255977
+    },
+    {
+      "seed": 86029,
+      "clock": "uniform",
+      "threshold": 0.33410138248847926
+    },
+    {
+      "seed": 86029,
+      "clock": "platoon4",
+      "threshold": 0
+    },
+    {
+      "seed": 86030,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86030,
+      "clock": "platoon4",
+      "threshold": 0.08108108108108109
+    },
+    {
+      "seed": 86031,
+      "clock": "uniform",
+      "threshold": 0
+    },
+    {
+      "seed": 86031,
+      "clock": "platoon4",
+      "threshold": 0.07633587786259542
+    },
+    {
+      "seed": 86032,
+      "clock": "uniform",
+      "threshold": 0.1268368136117556
+    },
+    {
+      "seed": 86032,
+      "clock": "platoon4",
+      "threshold": 0.044571428571428574
+    }
+  ],
+  "scope": "P101 red high-share synthetic subset; switching 30 to 60. Weighted group totals not per-vehicle fairness, no new engine or field validation."
+}
