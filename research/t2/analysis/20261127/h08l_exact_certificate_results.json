@@ -1,0 +1,448 @@
+{
+  "count": 4914,
+  "cert": 4914,
+  "checks": 56889,
+  "worlds": 14511,
+  "summary": [
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        3
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "classes": 252,
+      "certified": 252,
+      "worlds": 1143,
+      "certifiedWorlds": 1143
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1
+      ],
+      "classes": 252,
+      "certified": 252,
+      "worlds": 1143,
+      "certifiedWorlds": 1143
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1,
+        3
+      ],
+      "classes": 252,
+      "certified": 252,
+      "worlds": 1143,
+      "certifiedWorlds": 1143
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1,
+        3,
+        5
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        3
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "classes": 336,
+      "certified": 336,
+      "worlds": 1524,
+      "certifiedWorlds": 1524
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1
+      ],
+      "classes": 336,
+      "certified": 336,
+      "worlds": 1524,
+      "certifiedWorlds": 1524
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 6,
+      "schedule": [
+        1,
+        3
+      ],
+      "classes": 336,
+      "certified": 336,
+      "worlds": 1524,
+      "certifiedWorlds": 1524
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1,
+        3,
+        5
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 6,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "SORTED",
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "RANDOM",
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "SORTED",
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        2,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "RANDOM",
+      "classes": 135,
+      "certified": 135,
+      "worlds": 279,
+      "certifiedWorlds": 279
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "SORTED",
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "innovation": "RANDOM",
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "SORTED",
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    },
+    {
+      "K": [
+        3,
+        2
+      ],
+      "H": 4,
+      "L": 4,
+      "schedule": [
+        1
+      ],
+      "innovation": "RANDOM",
+      "classes": 180,
+      "certified": 180,
+      "worlds": 372,
+      "certifiedWorlds": 372
+    }
+  ]
+}
