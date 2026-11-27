@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-27",
+  "parent": "2d7974e34ce302c4265975475a00d40269e7737f",
+  "predecision": "de85e3c1ff8f969a316f334167f430cea2411927",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "axes": {
+    "L": "core research leverage",
+    "I": "discriminating information gain",
+    "R": "rigor/reproducibility",
+    "A": "actionability now",
+    "J": "exhibition relevance",
+    "E": "independent evidence potential",
+    "V": "validity/ability to falsify",
+    "C": "cost efficiency"
+  },
+  "scenarios": 17,
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "completed": {
+    "id": "DATA-JINJU",
+    "priorPriority": 0.88,
+    "outcome": "10,000 rows, 23,895 declared lane-pairs, source-defined direction and type sums agree 23,893/23,895, 8 tests and 15 independent aggregate checks. Source time and unit remain unresolved.",
+    "decision": "COMPLETE bounded audit; stop repeated aggregate checks"
+  },
+  "tasks": [
+    {
+      "id": "DATA-JINJU-SEMANTICS",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.9,
+        "A": 0.85,
+        "J": 0.95,
+        "E": 0.85,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.9174999999999999,
+      "range": [
+        0.9157894736842106,
+        0.9192307692307692
+      ],
+      "why": "Clarify observation unit: 27/74 location labels vary in declared lanes; 2952 interval overlaps, 231 repeated location-interval keys. Need provider definitions before series construction. Prepare explicit unresolved fields and bounded official documentation check."
+    },
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent truth still absent. Teacher-approved paired tabletop; high priority, cannot substitute synthetic data."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195123,
+        0.8756410256410256
+      ],
+      "why": "Student-owned reproduction and explanation remains necessary."
+    },
+    {
+      "id": "DATA-DLR-SEMANTICS",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.85,
+        "R": 0.9,
+        "A": 0.8,
+        "J": 0.85,
+        "E": 0.65,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8525,
+      "range": [
+        0.8475609756097563,
+        0.8576923076923078
+      ],
+      "why": "Current release documentation and missing-column semantics; compare data contracts, no site join."
+    },
+    {
+      "id": "DATA-EXTERNAL",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.5,
+        "J": 0.9,
+        "E": 0.9,
+        "V": 0.85,
+        "C": 0.6
+      },
+      "priority": 0.8125,
+      "range": [
+        0.8048780487804881,
+        0.8205128205128206
+      ],
+      "why": "Independent site/label data with source semantics; not merely more bytes."
+    },
+    {
+      "id": "RND-ROBUST",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.8,
+        "I": 0.8,
+        "R": 0.85,
+        "A": 0.85,
+        "J": 0.75,
+        "E": 0.45,
+        "V": 0.85,
+        "C": 0.65
+      },
+      "priority": 0.7700000000000001,
+      "range": [
+        0.7621951219512197,
+        0.7782051282051282
+      ],
+      "why": "Model mismatch matters, but simulation not substitute for measured channel."
+    },
+    {
+      "id": "AWARD-FULL",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.75,
+        "I": 0.8,
+        "R": 0.8,
+        "A": 0.55,
+        "J": 0.95,
+        "E": 0.7,
+        "V": 0.8,
+        "C": 0.65
+      },
+      "priority": 0.7625,
+      "range": [
+        0.7573170731707319,
+        0.767948717948718
+      ],
+      "why": "Read full relevant reports if accessible; winner summaries alone do not train an empirical ranking."
+    },
+    {
+      "id": "RUST-PORT",
+      "gate": "TOOLCHAIN",
+      "ratings": {
+        "L": 0.55,
+        "I": 0.5,
+        "R": 0.85,
+        "A": 0.2,
+        "J": 0.5,
+        "E": 0.3,
+        "V": 0.8,
+        "C": 0.5
+      },
+      "priority": 0.5425000000000001,
+      "range": [
+        0.5305194805194806,
+        0.5536144578313253
+      ],
+      "why": "No Rust toolchain verified; measured optional Python candidate exists."
+    },
+    {
+      "id": "DATA-JINJU-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.2,
+        "R": 0.7,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.5,
+        "C": 0.5
+      },
+      "priority": 0.4350000000000001,
+      "range": [
+        0.42179487179487185,
+        0.4475609756097561
+      ],
+      "why": "Same source aggregate consistency established; repeat only with new discriminating question."
+    },
+    {
+      "id": "SYNTHETIC-SWEEP",
+      "gate": "DEFER",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.25,
+        "R": 0.65,
+        "A": 0.95,
+        "J": 0.35,
+        "E": 0.15,
+        "V": 0.5,
+        "C": 0.45
+      },
+      "priority": 0.425,
+      "range": [
+        0.4115384615384615,
+        0.4378048780487805
+      ],
+      "why": "No new mechanism; repeated fixed-calendar nulls."
+    }
+  ],
+  "claimWarrant": [
+    {
+      "claim": "First four direction fields agree arithmetically with seven type fields in this CSV",
+      "score": 0.99,
+      "scope": "23893/23895 complete lane pairs, no independent accuracy inference"
+    },
+    {
+      "claim": "Remaining/waiting fields are separate from directional counts",
+      "score": 0.95,
+      "scope": "official schema and arithmetic contrast; snapshot semantics unknown"
+    },
+    {
+      "claim": "Each collection location is a fixed physical lane group and intervals form nonoverlapping time series",
+      "score": 0.12,
+      "scope": "27 varying lane-count labels; overlap/repeated keys; may be multiple streams or sampling, not proof of erroneous records"
+    },
+    {
+      "claim": "R3 real-world policy improves traffic",
+      "score": 0.1,
+      "scope": "no independent matched policy outcome"
+    },
+    {
+      "claim": "Rust improves measured performance",
+      "score": 0,
+      "scope": "uncompiled; no native benchmark"
+    }
+  ],
+  "selection": "DATA-JINJU-SEMANTICS highest READY; pursue source definitions, not repeated counting or code expansion. If official detail unresolved, stop and request provider clarification rather than guess. Keep DATA-LABEL and EX01C as parallel gates. No new source purchase, direct outreach, or real control without authorization.",
+  "learning": "Keep weights fixed; update ratings from measured observations, preserve old decisions and failures. Do not infer award probabilities. Candidate score is not claim warrant."
+}
