@@ -1,0 +1,70 @@
+{
+  "source": "Jinju public data 15152135; camera recognition; publisher field definitions",
+  "sha256": "0df7079720916706f2de64c8b0cb3d671c69bd39df901b0516a56de5b21ed412",
+  "bytes": 1414468,
+  "encoding": "cp949 (compatible with EUC-KR for this file)",
+  "timezone": "unverified; naive source timestamps",
+  "availability": "unverified; historical descriptive only",
+  "sites": 74,
+  "sites_with_lane_count_variation": 27,
+  "start": "2025-11-01 00:00:01",
+  "end": "2025-11-10 00:48:20",
+  "rows_by_start_date": {
+    "2025-11-01": 1000,
+    "2025-11-02": 1000,
+    "2025-11-03": 1000,
+    "2025-11-04": 1000,
+    "2025-11-05": 1000,
+    "2025-11-06": 1000,
+    "2025-11-07": 1000,
+    "2025-11-08": 1000,
+    "2025-11-09": 1000,
+    "2025-11-10": 1000
+  },
+  "counts": {
+    "rows": 10000,
+    "duplicate_rows": 10,
+    "duplicate_site_interval": 231,
+    "declared_slots": 23895,
+    "unused_slots": 36105,
+    "unexpected_populated_unused": 0,
+    "missing_declared_pair": 0,
+    "complete_declared_pair": 23895,
+    "explicit_zero_volume_vectors": 13588,
+    "movement_type_agree": 23893,
+    "all_six_type_agree": 22346,
+    "nonzero_remaining_or_waiting": 1548
+  },
+  "lane_counts": {
+    "1": 2947,
+    "2": 2833,
+    "3": 2018,
+    "4": 1782,
+    "5": 420
+  },
+  "duration_seconds": {
+    "min": 0,
+    "p25": 14,
+    "p50": 33,
+    "p75": 185,
+    "p95": 419,
+    "max": 21425
+  },
+  "same_site_interval_relations": {
+    "gap": 4445,
+    "adjacent": 2529,
+    "overlap": 2952,
+    "zero_duration": 1
+  },
+  "movement_minus_type_histogram": {
+    "0": 23893,
+    "1": 2
+  },
+  "arithmetic_sums_not_unique_vehicle_counts": {
+    "movement_subtotal": 38773,
+    "remaining": 903,
+    "waiting": 1939,
+    "vehicle_type_subtotal": 38771
+  },
+  "interpretation": "Same-source arithmetic checks only; remaining/waiting timing and units unconfirmed; do not integrate or equate to R3 state. No raw locations exported."
+}
