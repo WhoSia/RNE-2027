@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-28",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "scenarios": 17,
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "baseline": "343b108d865d2d876e6d9a836a35d025c8a6fbe3",
+  "completed": [
+    "Actual receiver component parity",
+    "Matched 2x2 receiver mechanism bridge",
+    "Reachable-state finite-horizon observation sufficiency",
+    "Full local evidence archive uploaded; metadata verified"
+  ],
+  "excluded": [
+    "Rust migration per user"
+  ],
+  "tasks": [
+    {
+      "id": "RECEIVER-DEMO-BRIDGE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.98,
+        "I": 0.95,
+        "R": 0.9,
+        "A": 0.9,
+        "J": 1,
+        "E": 0.75,
+        "V": 0.95,
+        "C": 0.9
+      },
+      "priority": 0.926,
+      "range": [
+        0.9217073170731708,
+        0.9305128205128206
+      ],
+      "why": "Build a student-understandable receiver observation/forecast demonstration and independent manual reference protocol from verified states; no road operation."
+    },
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Independent physical tabletop labels and actual student measurements remain absent."
+    },
+    {
+      "id": "MATCHED-UPSTREAM-PARITY",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.95,
+        "A": 0.7,
+        "J": 0.9,
+        "E": 0.75,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8774999999999998,
+      "range": [
+        0.8731707317073171,
+        0.882051282051282
+      ],
+      "why": "Source-lock full upstream state/route/phase/checkpoint on matched tapes, isolate approach and pocket mechanism; receiver component parity alone is insufficient."
+    },
+    {
+      "id": "MODEL-ROBUST-DECISION",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.9,
+        "A": 0.75,
+        "J": 0.9,
+        "E": 0.55,
+        "V": 0.95,
+        "C": 0.8
+      },
+      "priority": 0.8600000000000001,
+      "range": [
+        0.852439024390244,
+        0.867948717948718
+      ],
+      "why": "Define ambiguity set and strong fixed baselines using predeclared independent design; no retuning historical cohorts."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195122,
+        0.8756410256410255
+      ],
+      "why": "Student independent execution and explanation."
+    },
+    {
+      "id": "SATHORN-INTAKE",
+      "gate": "EXTERNAL_ACCESS",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.95,
+        "V": 0.9,
+        "C": 0.65
+      },
+      "priority": 0.845,
+      "range": [
+        0.8304878048780489,
+        0.8602564102564103
+      ],
+      "why": "Raw data access unresolved"
+    },
+    {
+      "id": "MOVEMENT-OBJECTIVE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.85,
+        "R": 0.9,
+        "A": 0.85,
+        "J": 0.9,
+        "E": 0.45,
+        "V": 0.95,
+        "C": 0.8
+      },
+      "priority": 0.8400000000000001,
+      "range": [
+        0.830487804878049,
+        0.8500000000000001
+      ],
+      "why": "Predefine movement mean/tails and constraints"
+    },
+    {
+      "id": "JINJU-PROVIDER",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.9,
+        "V": 0.95,
+        "C": 0.75
+      },
+      "priority": 0.8399999999999999,
+      "range": [
+        0.825609756097561,
+        0.855128205128205
+      ],
+      "why": "Provider semantics unresolved"
+    },
+    {
+      "id": "ZURICH-INTAKE",
+      "gate": "EXTERNAL_ACCESS",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.85,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.8,
+        "E": 0.85,
+        "V": 0.85,
+        "C": 0.65
+      },
+      "priority": 0.7749999999999999,
+      "range": [
+        0.7621951219512195,
+        0.7884615384615384
+      ],
+      "why": "Raw data access unresolved"
+    },
+    {
+      "id": "RECEIVER-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.25,
+        "R": 0.75,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.65,
+        "C": 0.65
+      },
+      "priority": 0.4750000000000001,
+      "range": [
+        0.4628205128205129,
+        0.48684210526315796
+      ],
+      "why": "Component parity completed; repeating same tests without novel discrimination adds little."
+    }
+  ],
+  "selection": "RECEIVER-DEMO-BRIDGE highest READY. Independent physical reference remains teacher/student gate; matched upstream parity still open."
+}
