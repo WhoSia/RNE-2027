@@ -1,0 +1,49 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>R&E | 관측 해상도 실험실</title><style>
+:root{color-scheme:light;--ink:#142b41;--muted:#52677b;--line:#d7e1ea;--accent:#126d82;--paper:#f4f7fa}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:24px}h1{font-size:clamp(24px,4vw,36px);margin:8px 0}h2{font-size:18px;margin:0 0 8px}p{margin:8px 0}.tag{font-size:12px;letter-spacing:.08em;font-weight:700;color:var(--accent)}.layout{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:16px;margin-top:16px}.panel{border:1px solid var(--line);background:white;padding:20px;border-radius:14px}.muted{color:var(--muted);font-size:13px}.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}select,button{font:inherit;border:1px solid var(--line);border-radius:8px;background:white;padding:9px 12px;color:var(--ink)}button{cursor:pointer}button.primary{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.5;cursor:default}button:focus-visible,select:focus-visible{outline:3px solid #1e9db0;outline-offset:2px}.cells{display:grid;gap:6px;margin:14px 0}.cell{min-width:0;padding:10px 1px;border-radius:6px;border:1px solid var(--line);text-align:center;font-weight:700}.read{background:#e1f1f3;border-color:#94c8d1}.unknown{background:#edf1f5;color:#5e7183}.big{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stats div{border-top:1px solid var(--line);padding-top:8px}.out{font-family:ui-monospace,monospace;white-space:normal;overflow-wrap:anywhere}.word{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}.warning{border-left:3px solid #b88430;padding-left:12px;color:#5d4a2a}footer{margin-top:22px;font-size:13px;color:var(--muted)}@media(max-width:480px){main{padding:12px}.panel{padding:13px}.cell{font-size:12px}}
+</style></head><body><main><div class="tag">R&E 2027 / OFFLINE MODEL LAB</div><h1>교통 관측 해상도 실험실</h1><p>전체 차량 수가 같아도 미래 반응이 같지는 않다. 어떤 위치를 읽어야 예측이 확정되는지 직접 실험한다.</p><p class="warning">교실용 정지 상태 모형. 실제 도로 신호 제어 및 센서 배치 권고가 아니다. 무료 정보는 정확한 차량 수와 경과시간으로 가정하며, 모든 관측은 같은 순간의 상태를 읽는다.</p>
+<div class="bar"><label>셀 수 <select id="size"><option>2</option><option>4</option><option selected>8</option></select></label><label>예측 범위 <select id="h"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></label><button id="new" class="primary">새 숨은 상태</button><button id="witness">8셀 반례 A</button><button id="witnessB">8셀 반례 B</button></div>
+<div class="layout"><section class="panel"><h2>01 / 관측 기록</h2><div id="free"></div><div id="cells" class="cells"></div><p class="muted">셀 번호를 눌러 점유 여부를 읽는다. 1은 차량 있음, 0은 없음, ?는 미관측.</p><div class="bar"><button id="suggest" class="primary">최소 평균 비용의 다음 관측</button><button id="reset">관측 초기화</button></div><div class="stats"><div><small>관측 횟수</small><div id="reads" class="big"></div></div><div><small>가능 상태</small><div id="possible" class="big"></div></div><div><small>반응 유형</small><div id="types" class="big"></div></div></div><p id="status" role="status"></p></section>
+<section class="panel"><h2>02 / 미래 입력과 예측</h2><div id="word" class="word"></div><p class="muted">각 단계의 입력: 녹색 여부 / 차량 진입 요청. 예측 출력: 출구 통과 / 진입 수락.</p><div id="out" class="out" aria-live="polite"></div><p id="cost"></p><button id="reveal">참값 공개</button><div id="truth" hidden></div></section></div>
+<section class="panel" style="margin-top:16px"><h2>03 / 실험 방법</h2><p>두 학생이 각각 숨은 상태 기록자와 관측자로 역할을 나누고, 관측 전 전체 차량 수와 경과시간만 공유한다. 관측자는 예측이 확정되었다고 판단한 시점과 읽은 위치를 기록한다. 마지막에 참값을 공개하여 비교한다. 실제 학생 수행은 교사 승인 후 별도로 기록한다.</p><p class="muted">정적 입력, 결정론적 전이, 허용된 이진 입력만을 대상으로 한 수학 모형이다. 평균 최적 추천은 현재 가능한 상태들을 균등하게 취급한다. 프로그램 내부에는 참값이 있으므로 화면 가림은 암호학적 봉인이 아니다.</p></section><footer>2026-11-28 · Receiver snapshot observability · No network connection required</footer></main><script>
+function demoModel(n){
+ if(![2,4,8].includes(n))throw Error("size");
+ const U=[[0,0],[0,1],[1,0],[1,1]],pop=m=>Array.from({length:n},(_,i)=>m>>i&1).reduce((a,b)=>a+b,0);
+ function step(s,u){
+  const [g,r]=U[u];let c=Array.from({length:n},(_,i)=>s.mask>>i&1);
+  let exit=+(g&&s.age===2&&c[n-1]);if(exit)c[n-1]=0;
+  const snapshot=c.slice();for(let i=0;i<n-1;i++)if(snapshot[i]&&!snapshot[i+1]){c[i]=0;c[i+1]=1}
+  const accept=+(r&&!c[0]);if(accept)c[0]=1;
+  return {out:2*exit+accept,next:{mask:c.reduce((m,x,i)=>m+x*2**i,0),age:exit?1:Math.min(2,s.age+1)}}
+ }
+ const key=s=>s.mask+"/"+s.age,states=[{mask:0,age:2}],seen=new Set([key(states[0])]);
+ for(let i=0;i<states.length;i++)for(let u=0;u<4;u++){const z=step(states[i],u).next;if(!seen.has(key(z))){states.push(z);seen.add(key(z))}}
+ states.sort((a,b)=>a.mask-b.mask||a.age-b.age);
+ const ix=new Map(states.map((s,i)=>[key(s),i]));
+ const E=states.map(s=>U.map((_,u)=>{let z=step(s,u);return [z.out,ix.get(key(z.next))]}));
+ const signatures=[states.map(()=>0)];
+ for(let h=1;h<=4;h++){
+  const map=new Map(),p=signatures[h-1];signatures.push(E.map(es=>{let k=es.map(([o,j])=>o+":"+p[j]).join("|");if(!map.has(k))map.set(k,map.size);return map.get(k)}))
+ }
+ const count=i=>pop(states[i].mask),bit=(i,c)=>states[i].mask>>c&1;
+ function candidates(total,age,reads={}){
+  return states.flatMap((s,i)=>count(i)===total&&s.age===age&&Object.entries(reads).every(([c,v])=>bit(i,Number(c))===v)?[i]:[]);
+ }
+ const memo=new Map();
+ function optimal(g,h){
+  if(!g.length)throw Error("no compatible state");
+  const k=h+":"+g.join(",");if(memo.has(k))return memo.get(k);
+  const sig=signatures[h];if(g.every(i=>sig[i]===sig[g[0]])){const z={sum:0,worst:0,next:-1};memo.set(k,z);return z}
+  let best={sum:Infinity,worst:Infinity,next:-1};
+  for(let c=0;c<n;c++){const l=g.filter(i=>bit(i,c)===0),r=g.filter(i=>bit(i,c)===1);if(!l.length||!r.length)continue;const a=optimal(l,h),b=optimal(r,h);const sum=g.length+a.sum+b.sum,worst=1+Math.max(a.worst,b.worst);
+    if(sum<best.sum||(sum===best.sum&&worst<best.worst))best={sum,worst,next:c}}
+  memo.set(k,best);return best;
+ }
+ function replay(i,word){return word.map(u=>{const [o,j]=E[i][u];i=j;return o})}
+ function outcomes(g,word){return [...new Set(g.map(i=>replay(i,word).join(",")))].map(x=>x.split(",").map(Number))}
+ return {n,states,count,bit,candidates,optimal,replay,outcomes,signatures,U};
+}
+const $=id=>document.getElementById(id);let model,truth,reads,word,revealed=false;
+function start(which){if(which){$('size').value='8';$('h').value='2'}model=demoModel(Number($('size').value));truth=which?model.states.findIndex(s=>s.age===1&&s.mask===(which==='A'?4:64)):Math.floor(Math.random()*model.states.length);if(truth<0)throw Error('witness missing');reads={};revealed=false;word=Array.from({length:Number($('h').value)},(_,i)=>which&&i===1?2:0);render()}
+function render(){let h=Number($('h').value),s=model.states[truth],count=model.count(truth),g=model.candidates(count,s.age,reads),types=new Set(g.map(i=>model.signatures[h][i])),opt=model.optimal(g,h);$('free').textContent='전체 차량 수 '+count+' / 경과시간 '+(s.age===2?'2 이상':'1')+' 단계';$('cells').style.gridTemplateColumns='repeat('+model.n+', minmax(0,1fr))';$('cells').replaceChildren(...Array.from({length:model.n},(_,i)=>{let b=document.createElement('button');b.className='cell '+(i in reads?'read':'unknown');b.textContent=i+': '+(i in reads?reads[i]:'?');b.disabled=i in reads;b.setAttribute('aria-label','셀 '+i+' 관측');b.onclick=()=>{reads[i]=model.bit(truth,i);render()};return b}));$('reads').textContent=Object.keys(reads).length;$('possible').textContent=g.length;$('types').textContent=types.size;$('status').textContent=types.size===1?'모든 미래 입력에 대한 반응이 확정됨.':'아직 서로 다른 미래 반응이 가능한 상태가 남아 있음.';$('suggest').disabled=opt.next<0;$('cost').textContent='추가 관측 최적 평균 '+(opt.sum/g.length).toFixed(2)+'회 (현재 후보 균등 가정)';$('word').replaceChildren(...word.map((u,i)=>{let l=document.createElement('label');l.textContent=(i+1)+'단계 ';let sel=document.createElement('select');['적색 / 요청 없음','적색 / 요청','녹색 / 요청 없음','녹색 / 요청'].forEach((x,j)=>{let o=document.createElement('option');o.value=j;o.textContent=x;sel.append(o)});sel.value=u;sel.onchange=()=>{word[i]=Number(sel.value);render()};l.append(sel);return l}));const out=model.outcomes(g,word);$('out').textContent=out.map(w=>w.map(o=>'('+ (o>>1)+','+(o&1)+')').join(' → ')).join(' | ');$('truth').hidden=!revealed;$('truth').textContent='실제 점유 '+Array.from({length:model.n},(_,i)=>model.bit(truth,i)).join('')+' / 실제 출력 '+model.replay(truth,word).map(o=>'('+(o>>1)+','+(o&1)+')').join(' → ');$('reveal').textContent=revealed?'참값 가리기':'참값 공개'}
+$('size').onchange=()=>start();$('h').onchange=()=>{word=Array.from({length:Number($('h').value)},(_,i)=>word[i]??0);render()};$('new').onclick=()=>start();$('witness').onclick=()=>start('A');$('witnessB').onclick=()=>start('B');$('reset').onclick=()=>{reads={};revealed=false;render()};$('suggest').onclick=()=>{const s=model.states[truth],g=model.candidates(model.count(truth),s.age,reads),c=model.optimal(g,Number($('h').value)).next;if(c>=0)reads[c]=model.bit(truth,c);render()};$('reveal').onclick=()=>{revealed=!revealed;render()};start();
+</script></body></html>
