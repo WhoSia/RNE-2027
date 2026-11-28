@@ -1,0 +1,7 @@
+{
+  "status": "CORE_EXECUTED_UI_NOT_BROWSER_TESTED",
+  "groupChecks": 128,
+  "allStateHorizonTreeReplays": 976,
+  "oneStepOutputCertificates": 3904,
+  "checks": "Independent array transition and decision tree core matched prior exact expected query sum in every group; DOM/browser rendering and physical trial not tested."
+}
