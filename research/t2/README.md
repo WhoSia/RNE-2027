@@ -1,7 +1,7 @@
 # T2 — Spatial Traffic Dynamics
 Current research: finite lane/pocket geometry, receiving-link behavior, observation cost and policy regret. **Synthetic, uncalibrated; not a real controller.**
 ## Current entry points
-- [2026-11-28 index](analysis/20261128/README.md) and [current LIRA](analysis/20261128/LIRA_SNAPSHOT_DEMO_POSTDECISION.json).
+- [2026-11-28 index and current decision](analysis/20261128/README.md).
 - [Dual-lane cellular engine](dual_lane_v11.py), [spatial configuration and phase](spatial_v10.py), [receiving link](receiving_cells_v15.py), [split receiver](split_receiver_v1.py).
 - [Dual-lane model contract](README_SPATIAL_V11.md); [efficiency experiments](efficiency_loop/README.md).
 - [Adaptive Resolution Lab](exhibition/adaptive_resolution/README.md), [RF-CURTAIN](exhibition/rf_curtain/README.md), [receiver observation lab](analysis/20261128/receiver_observation_lab.html).
