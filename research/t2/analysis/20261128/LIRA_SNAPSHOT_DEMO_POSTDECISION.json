@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-28",
+  "rubricVersion": "LIRA-JEV-RNE-AWARD-v1",
+  "weights": {
+    "L": 0.2,
+    "I": 0.2,
+    "R": 0.15,
+    "A": 0.1,
+    "J": 0.1,
+    "E": 0.1,
+    "V": 0.1,
+    "C": 0.05
+  },
+  "scenarios": 17,
+  "status": "EDITORIAL_PRIORITY_NOT_PROBABILITY",
+  "baseline": "82bf7e188d56d9349cdd65985f058044df5c9a74",
+  "completed": [
+    "exact adaptive snapshot query comparisons",
+    "standalone demonstration core validated",
+    "prior-art abstract and custody screen"
+  ],
+  "excluded": [
+    "Rust migration per user"
+  ],
+  "tasks": [
+    {
+      "id": "MATCHED-UPSTREAM-PARITY",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.97,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.75,
+        "J": 0.95,
+        "E": 0.8,
+        "V": 0.95,
+        "C": 0.75
+      },
+      "priority": 0.9089999999999999,
+      "range": [
+        0.9051219512195122,
+        0.913076923076923
+      ],
+      "why": "Full T2 lane/pocket/phase/checkpoint parity still needed; reconnect observation research to network outcomes."
+    },
+    {
+      "id": "DATA-LABEL",
+      "gate": "TEACHER",
+      "ratings": {
+        "L": 1,
+        "I": 0.95,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 1,
+        "V": 0.95,
+        "C": 0.7
+      },
+      "priority": 0.8875,
+      "range": [
+        0.8719512195121951,
+        0.9038461538461539
+      ],
+      "why": "Physical reference and independent student measurements."
+    },
+    {
+      "id": "ACTION-VALUE-OBSERVATION",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.9,
+        "A": 0.8,
+        "J": 0.95,
+        "E": 0.6,
+        "V": 0.95,
+        "C": 0.8
+      },
+      "priority": 0.885,
+      "range": [
+        0.8780487804878049,
+        0.8923076923076924
+      ],
+      "why": "Compare output prediction target against decision-regret target with strong fixed baselines; new predeclared model design."
+    },
+    {
+      "id": "MODEL-ROBUST-DECISION",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.9,
+        "R": 0.9,
+        "A": 0.75,
+        "J": 0.9,
+        "E": 0.55,
+        "V": 0.95,
+        "C": 0.8
+      },
+      "priority": 0.8600000000000001,
+      "range": [
+        0.852439024390244,
+        0.867948717948718
+      ],
+      "why": "Predeclare ambiguity and evaluate robust policy."
+    },
+    {
+      "id": "EX01C",
+      "gate": "STUDENT",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.85,
+        "R": 0.95,
+        "A": 0.25,
+        "J": 1,
+        "E": 0.95,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8599999999999999,
+      "range": [
+        0.8451219512195122,
+        0.8756410256410255
+      ],
+      "why": "Independent student execution."
+    },
+    {
+      "id": "SATHORN-INTAKE",
+      "gate": "EXTERNAL_ACCESS",
+      "ratings": {
+        "L": 0.95,
+        "I": 0.95,
+        "R": 0.85,
+        "A": 0.25,
+        "J": 0.95,
+        "E": 0.95,
+        "V": 0.9,
+        "C": 0.65
+      },
+      "priority": 0.845,
+      "range": [
+        0.8304878048780489,
+        0.8602564102564103
+      ],
+      "why": "Raw data access unresolved."
+    },
+    {
+      "id": "MOVEMENT-OBJECTIVE",
+      "gate": "READY",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.85,
+        "R": 0.9,
+        "A": 0.85,
+        "J": 0.9,
+        "E": 0.45,
+        "V": 0.95,
+        "C": 0.8
+      },
+      "priority": 0.8400000000000001,
+      "range": [
+        0.830487804878049,
+        0.8500000000000001
+      ],
+      "why": "Define movement mean/tails and constraints."
+    },
+    {
+      "id": "PRIOR-ART-FULLTEXT",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.9,
+        "I": 0.8,
+        "R": 0.9,
+        "A": 0.55,
+        "J": 0.85,
+        "E": 0.8,
+        "V": 0.95,
+        "C": 0.85
+      },
+      "priority": 0.8325,
+      "range": [
+        0.825609756097561,
+        0.8397435897435899
+      ],
+      "why": "Read full papers and reconcile missing literature custody, no general novelty claim."
+    },
+    {
+      "id": "DEMO-BROWSER-ACCEPTANCE",
+      "gate": "CONDITIONAL",
+      "ratings": {
+        "L": 0.85,
+        "I": 0.75,
+        "R": 0.9,
+        "A": 0.6,
+        "J": 0.95,
+        "E": 0.65,
+        "V": 0.9,
+        "C": 0.9
+      },
+      "priority": 0.81,
+      "range": [
+        0.8048780487804879,
+        0.8153846153846156
+      ],
+      "why": "DOM/UX not executed; actual browser and student usability required."
+    },
+    {
+      "id": "RECEIVER-SNAPSHOT-REPEAT",
+      "gate": "STOP",
+      "ratings": {
+        "L": 0.3,
+        "I": 0.25,
+        "R": 0.75,
+        "A": 0.95,
+        "J": 0.4,
+        "E": 0.2,
+        "V": 0.65,
+        "C": 0.65
+      },
+      "priority": 0.4750000000000001,
+      "range": [
+        0.4628205128205129,
+        0.48684210526315796
+      ],
+      "why": "Ideal snapshot grid exhausted; do not keep tuning."
+    }
+  ],
+  "selection": "MATCHED-UPSTREAM-PARITY highest READY; no more ideal receiver sweeps without new discriminator. Browser and teacher/student gates remain."
+}
